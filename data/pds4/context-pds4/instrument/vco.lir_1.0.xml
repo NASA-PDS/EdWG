@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1I00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v1/PDS4_CTLI_1I00_2000.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+                 xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+                 xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v1"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1I00.xsd
+                                     http://pds.nasa.gov/pds4/ctli/v1 https://pds.nasa.gov/pds4/ctli/v1/PDS4_CTLI_1I00_2000.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:jaxa:darts:context:instrument:vco.lir</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Longwave Infrared Camera</title>
+        <information_model_version>1.18.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>lir</alternate_id>
+                <alternate_title>LIR</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2022-11-10</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:jaxa:darts:context:instrument_host:spacecraft.vco</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <doi>10.1016/j.asr.2007.05.085</doi>
+            <reference_text>
+                Taguchi, M., T. Fukuhara, T. Imamura, M. Nakamura, N. Iwagami, M. Ueno, M. Suzuki, G. L. Hashimoto, K. Mitsuyama,
+                Longwave infrared camera onboard the Venus Climate Orbiter,
+                Adv. Space Res., 40, 861-868, 2007.
+            </reference_text>
+            <description>The LIR instrument paper.</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.5047/eps.2011.06.019</doi>
+            <reference_text>
+                Fukuhara, T., M. Taguchi, T. Imamura, M. Nakamura, M. Ueno, M. Suzuki,
+                N. Iwagami, M. Sato, K. Mitsuyama, G. L. Hashimoto, R. Ohshima, T. Kouyama,
+                H. Ando, and M. Futaguchi,
+                LIR: Longwave Infrared Camera onboard the Venus orbiter Akatsuki,
+                Earth, Planets and Space, 63, 1009-1018, 2011.
+            </reference_text>
+            <description>An updated LIR instrument paper includint tests of the flight model.</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1186/s40623-017-0727-y</doi>
+            <reference_text>
+                Fukuhara, T, M. Taguchi, T. Imamura, A. Hayashitani, T. Yamada, M. Futaguchi,
+                T. Kouyama, T. M. Sato, M. Takamura, N. Iwagami, M. Nakamura, M. Suzuki,
+                M. Ueno, G. L. Hashimoto, M. Sato, S. Takagi, A. Yamazaki, M. Yamada, S. Murakami,
+                Y. Yamamoto, K. Ogohara, H. Ando, K. Sugiyama, H. Kashimura, S. Ohtsuki, N. Ishii,
+                T. Abe, T. Satoh, C. Hirose, N. Hirata,
+                Absolute calibration of brightness temperature of the Venus disk observed by the 
+                Longwave Infrared Camera onboard Akatsuki,
+                Earth, Planets and Space, 69, 141, 2017
+            </reference_text>
+            <description>This paper contains LIR calibration scheme.</description>
+        </External_Reference>
+    </Reference_List>
+    <Instrument>
+        <name>Longwave Infrared Camera</name>
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Camera</ctli:type>
+                <ctli:type>Imager</ctli:type>
+                <ctli:subtype>Bolometer</ctli:subtype>
+            </ctli:Type_List>
+        </Type_List_Area>
+        <naif_instrument_id>-5500</naif_instrument_id>
+        <description>
+            The Longwave Infrared Camera (LIR) detects thermal emission from the cloud top over
+            a rather wide wavelength region of 8-12 um in order to map the cloud-top temperature.
+            Unlike the other imagers onboard Akatsuki spacecraft, LIR is able to take both dayside
+            and nightside images with equal quality and accuracy. The cloud-top temperature map
+            will reflect the cloud height distribution, the detailed structure of which remains
+            unknown, except in the high latitude observed by the Pioneer Venus, as well as the
+            atmospheric temperature distribution.
+        </description>
+    </Instrument>
+</Product_Context>
