@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context 
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="
+        http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.xsd 
+        http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.xsd
+    ">
+    
+    <Identification_Area>
+        <logical_identifier>urn:esa:psa:context:instrument:uly.hiscale-lems</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>HISCALE Low-Energy Magnetic Spectrometer for Ulysses</title>
+        <information_model_version>1.20.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_title>HISCALE LEMS</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2023-08-02</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Initial version.
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                   Armstrong, T.P., and R. Sahi, Ulysses HISCALE Data Analysis Handbook, Dept.
+                   of Physics and Astronomy, Univ. of Kansas, Lawrence, KS, 66045, April
+                   1996.
+            </reference_text>
+            <description>reference.ARMSTRONG-SAHI1996</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Armstrong, T.P., Passbands &amp; Efficiencies for LEMS, LEFS and WART Channels,
+                   University of Kansas, May 1992.
+            </reference_text>
+            <description>reference.ARMSTRONG1992</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Lanzerotti, L.J., R.E. Gold, K.A. Anderson, T.P. Armstrong, R.P. Lin, S.M.
+                   Krimigis, M. Pick, E.C. Roelof, E.T. Sarris, G.M. Simnett, and W.E. Frain,
+                   Heliosphere instrument for spectra, composition and anisotropy at low
+                   energies, Astron. Astrophys. Suppl. Ser. 92, 349-363, 1992.
+            </reference_text>
+            <description>reference.LANZEROTTIETAL1992</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Maclennan C.G., and Armstrong T.P., LAN Cover-Close Calibrations, AT&amp;T Bell
+                   Laboratories, May 1995.
+            </reference_text>
+            <description>reference.MACLENNAN-ARMSTR1995</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Maclennan, C.G., User's Guide to LAN 360, AT&amp;T Bell Laboratories, Aug.
+                   1992.
+            </reference_text>
+            <description>reference.MACLENNAN1992</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Tappin, S.J., HISCALE IDL display System (IDL-HS), University of
+                   Birmingham, June 1992.
+            </reference_text>
+            <description>reference.TAPPIN1992</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Townsend, J.P. Jr., Ulysses Pulse Height Analysis documentation, JHU,
+                   Applied Physics Laboratory, July 1990.
+            </reference_text>
+            <description>reference.TOWNSEND1990</description>
+        </External_Reference>
+    </Reference_List>
+    
+    <Instrument>
+        <name>HISCALE Low-Energy Magnetic Spectrometer</name>
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Charged Particle Detector</ctli:type>
+            </ctli:Type_List>
+        </Type_List_Area>
+        <naif_instrument_id>not applicable</naif_instrument_id>
+
+        <serial_number>not applicable</serial_number>
+
+        <description>
+ 
+ 
+  Instrument Overview
+  ===================
+    (adapted from: Lanzerotti, et al. 1992)
+ 
+ The are Low-Energy Magnetic Spectrometers (LEMS)
+ provide pulse-height-analyzed single-detector measurements
+ with active anticoincidence. The foil thickness, detector 
+ thicknesses, and electronic thresholds were selected to 
+ enable the separation of low energy electron and ion 
+ fluxes at high sensitivity by comparing detector responses.
+ 
+ The individual LEMS telescopes are referred to as LEMS 30, 
+ and LEMS 120, where the number indicates the inclination of 
+ the telescope axis with respect to the spacecraft spin axis.
+ The MF, M' F', and BC detector pairs (Tab. 1) are
+ identical (for ease of replacement pre-flight); each consists
+ of two equal 200 micrometer thick, totally depleted silicon surface
+ barrier detectors. 
+ 
+ The orientations  of the telescope axes are such that there is
+ nearly a complete 41r coverage of the unit sphere during
+ one complete spacecraft spin. 
+ 
+ In the LEMS 30 and 120 telescopes, electrons with
+ energies below ~300 keV are swept away from detectors
+ M and M' by a rare-earth magnet. The geometric factor
+ for the ions measured by detectors M and M' is ~ 0.48
+ cm2sr. The ion energy channels are listed in Table 1 (the
+ energy channels for both LEMS telescopes are essentially
+ identical).
+ 
+ In the LEMS 30 telescope, the magnetically-deflected
+ electrons are counted by a separate detector B, with a
+ geometrical factor of ~0.05 cm2sr. The electron energy
+ channels for B with their defining logic are shown in
+ Table 1. Two-dimensional particle ray tracing in a magnetic
+ field similar to that of LEMS 30 is shown in Figure
+ 7. -Such two-dimensional (and similar three-dimensional)
+ computer ray-tracing studies have been used together with
+ calibration data obtained with a particle accelerator to
+ determine the effective field-of-view of the telescope aperture.
+ 
+ TABLE 1. LEMS detector systems.
+                                                                          Accum. time(s)
+               Channel   Logic      Passband[a]             Sectors       @ 1024 bit/s
+ ---------------------------------------------------------------------------------------
+ LEMS 30[b]      Pl      M1M2F      50-73 ke V ions         4[b], 8[c]    3[b], 1.5[c]
+ (M,F)           P2      M2M3F      73-112 keV ions         4[b], 8[c]    3[b], 1.5[c]
+ LEMS 120[c]     P3      M3M4F      112-180 keV ions        4[b], 8[c]    3[b], 1.5[c]
+ (M',F')         P4      M4M5F      180-310 keV ions        4[b], 8[c]    3[b], 1.5[c]
+                 P5      M5M6F      310-550 keV ions        4[b], 8[c]    6[b], 3[c]
+ ~ 0.48 cm2 sr   P6      M6M7F      550-1500 keV ions       4[b], 8[c]    6[b], 3[c]
+                 P7      M7M8F      1.0-1.8 MeV ions        4[b], 8[c]    6[b], 3[c]
+                 P8      M8F        1.5-5.0 MeV ions        4[b], 8[c]    6[b], 3[c]
+ LEMS 30         DEl     Bla B2 C   30-50 keV electrons     4             6
+ (B,C)                   B1b B2 C   40-50 keV electrons     4             6
+ ~ 0.05 cm2 sr   DE2     B2 B3 C    50-90 keV electrons     4             6
+                 DE3     B3 B4 C    90-165 keV electrons    4             6
+                 DE4     B4 B5 C    165-300 keV electrons   4             6
+ ---------------------------------------------------------------------------------------
+ [a] The passbands given here are provisional and subject to refinement as in-flight calibrations arc completed.
+ [b] Sectors and accumulation times designated with b are associated with the LEMS 30 system.
+ [c] Sectors and accumulation times designated with c are associated with the LEMS 120 system.
+ 
+ 
+    References
+    ----------
+      HISCALE References (cited in Armstrong &amp; Sahi, 1996)
+ 
+      Curtis, D.W., ISPM/Ulysses LAN Data Processing Software
+      Status, Dec. 1986.
+ 
+      Gold R.E., LAN Accelerator Calibration Test Plan, August
+      1991.
+ 
+      Guynn D.R.  Jr., LAN Experiment Data System Performance and
+      Interface Specification, June 1992.
+ 
+      Kohl, J.W., J.H.  Crawford, Calibration of Solar Polar Energy
+      Model LAN-2B Detector Head at GSFC Low Energy Accelerator,
+      July 1986.
+ 
+      Simnett, G.M., R.E.  Gold, The RTG Background in the LAN
+      Experiment and the Shielding Required to Control It, April
+      1980.
+ 
+      Tappin, S.J., HSIO-HiScale I/O Library, June 1991.
+ 
+      Ximenez de Ferran S., Ulysses Spin Reference Pulse, May
+      1985.
+        </description>
+    </Instrument>
+</Product_Context>

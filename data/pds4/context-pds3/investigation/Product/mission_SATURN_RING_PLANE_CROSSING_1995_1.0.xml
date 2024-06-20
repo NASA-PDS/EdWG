@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Mission_PDS3 xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:investigation:mission.saturn_ring_plane_crossing_1995</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>SATURN RING PLANE CROSSING 1995</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Mission_PDS3</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2016-10-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.wht::1.0</lidvid_reference>
+            <reference_type>has_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:spacecraft.hst::1.0</lidvid_reference>
+            <reference_type>has_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:unk.unk::1.0</lidvid_reference>
+            <reference_type>has_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:planet.saturn::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:ring.s_rings::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.atlas::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.calypso::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.dione::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.enceladus::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.epimetheus::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.helene::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.hyperion::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.iapetus::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.janus::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.mimas::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.pan::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.pandora::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.prometheus::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.rhea::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.telesto::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.tethys::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.titan::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                   MacRobert, A. M., Ed., Saturn&apos;s rings turn edge on, Sky and Telescope 89,
+                   68-71, May, 1995.
+            </reference_text>
+            <description>reference.MACROBERT1995A</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   MacRobert, A. M., Ed., Saturn again turns ringless, Sky and Telescope 90,
+                   72-77, August, 1995.
+            </reference_text>
+            <description>reference.MACROBERT1995B</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Mission_PDS3>
+        <mission_name>SATURN RING PLANE CROSSING 1995</mission_name>
+        <mission_desc>
+ 
+  Mission Overview
+  ================
+    The Earth and Sun cross Saturn&apos;s ring plane every 13-15 years.
+    Because of the orbital characteristics of Saturn and Earth,
+    these ring plane crossing (RPX) events can be either triple
+    (with Earth crossing the ring plane three times) or single
+    (with Earth crossing the ring plane only once).  Single
+    crossings generally occur with Saturn very close to solar
+    conjunction, and so are difficult to observe from the Earth.
+    Triple crossings are generally much more favorable to
+    Earth-based observers.
+ 
+    The period around a Saturn RPX enables Earth-based astronomers to
+    study a wide range of phenomena not observable at any other
+    time.  Direct measurements of ring thickness and vertical ring
+    warps become possible.  Precise timing of the crossings make it
+    possible to better determine Saturn&apos;s rotation pole.  With the
+    rings becoming very thin and faint, detections of faint outer
+    rings and tiny ring-moons become possible.  Also, satellite
+    eclipses, occultations and mutual events during the RPX period
+    can be used to refine satellite orbits throughout the Saturn
+    system.
+ 
+    A triple RPX occurred in 1995-1996.  Earth passed through the
+    plane of Saturn&apos;s rings on May 22, 1995, August 10, 1995 and
+    February 11, 1996.  Of these events, only the third was
+    difficult to observe due to Saturn&apos;s proximity to the Sun.  The
+    Sun also crossed the ring plane as well, November 17-21, 1995.
+    Astronomers carried out a wide range of Saturn observations
+    during this period.
+ 
+    The next two Saturn RPXs crossings will be unfavorable from
+    Earth: they are both single events occurring on 4 September
+    2009 and 23 March 2025.  Earth-based observers will not get a
+    favorable edge-on view of Saturn&apos;s rings until the triple RPX
+    events of 2038-2039.
+ 
+    Although no formal NASA &apos;mission&apos; was organized for the 1995
+    RPX, data acquired for Saturn and its rings and moons were some
+    of the best obtained since the Voyager encounters and serve as
+    a useful bridge to the upcoming Cassini mission in 2004-2008.
+    To foster the combined analysis of data from different sources
+    and thereby to maximize the scientific return from this
+    &apos;mission&apos;, the PDS Rings Node is archiving data from the
+    1995-1996 RPX in a series of CDROMs.
+ 
+ 
+  Mission Phases
+  ==============
+    Four major events occurred during the Saturn ring plane
+    crossing period---three Earth crossings and one Sun crossing.
+    The mission phases listed below have been chosen somewhat
+    arbitrarily to be centered on these four events, plus the two
+    extended periods before and after the crossings.
+ 
+ 
+    PRE-RPX
+    -------
+      The pre-RPX phase extended up to the time approximately three
+      weeks before Earth&apos;s first ring plane crossing.
+ 
+      Spacecraft Id                   : &apos;N/A&apos;
+      Target Name                     : S RINGS, SATURN, MIMAS,
+                                        ENCELADUS, TETHYS, DIONE,
+                                        RHEA, TITAN, HYPERION,
+                                        IAPETUS, PAN, ATLAS,
+                                        PROMETHEUS, PANDORA, JANUS,
+                                        EPIMETHEUS, HELENE, TELESTO,
+                                        CALYPSO
+      Mission Phase Start Time        : 1994-01-01
+      Mission Phase Stop Time         : 1995-05-01
+      Spacecraft Operations Type      : &apos;N/A&apos;
+ 
+ 
+    EARTH-RPX-1
+    -----------
+      The Earth-RPX-1 phase spanned the period around the first
+      Earth crossing of Saturn&apos;s ring plane, which occurred at
+      approximately 5:21 UTC on 22 May 1995.  This was a crossing
+      from the north (lit) side to the south (unlit) side.
+ 
+      Spacecraft Id                   : &apos;N/A&apos;
+      Target Name                     : S RINGS, SATURN, MIMAS,
+                                        ENCELADUS, TETHYS, DIONE,
+                                        RHEA, TITAN, HYPERION,
+                                        IAPETUS, PAN, ATLAS,
+                                        PROMETHEUS, PANDORA, JANUS,
+                                        EPIMETHEUS, HELENE, TELESTO,
+                                        CALYPSO
+      Mission Phase Start Time        : 1995-05-01
+      Mission Phase Stop Time         : 1995-07-01
+      Spacecraft Operations Type      : &apos;N/A&apos;
+ 
+ 
+    EARTH-RPX-2
+    -----------
+      The Earth-RPX-2 phase spanned the period around the second
+      Earth crossing of Saturn&apos;s ring plane, which occurred at
+      approximately 20:55 UTC on 10 August 1995.  This was a
+      crossing from the south (unlit) side to the north (lit) side.
+ 
+      Spacecraft Id                   : &apos;N/A&apos;
+      Target Name                     : S RINGS, SATURN, MIMAS,
+                                        ENCELADUS, TETHYS, DIONE,
+                                        RHEA, TITAN, HYPERION,
+                                        IAPETUS, PAN, ATLAS,
+                                        PROMETHEUS, PANDORA, JANUS,
+                                        EPIMETHEUS, HELENE, TELESTO,
+                                        CALYPSO
+      Mission Phase Start Time        : 1995-07-01
+      Mission Phase Stop Time         : 1995-10-01
+      Spacecraft Operations Type      : &apos;N/A&apos;
+ 
+ 
+    SUN-RPX
+    -------
+      The Sun-RPX phase spanned the period around the Sun&apos;s
+      crossing from the north side to the south side of Saturn&apos;s
+      ring plane, which occurred from approximately 18:15 UTC 17
+      November 1995 to 12:00 UTC on 21 November 1995.  At this time
+      Earth&apos;s viewpoint was approximately 2.6 degrees north of the
+      rings.
+ 
+      Spacecraft Id                   : &apos;N/A&apos;
+      Target Name                     : S RINGS, SATURN, MIMAS,
+                                        ENCELADUS, TETHYS, DIONE,
+                                        RHEA, TITAN, HYPERION,
+                                        IAPETUS, PAN, ATLAS,
+                                        PROMETHEUS, PANDORA, JANUS,
+                                        EPIMETHEUS, HELENE, TELESTO,
+                                        CALYPSO
+      Mission Phase Start Time        : 1995-10-01
+      Mission Phase Stop Time         : 1996-01-01
+      Spacecraft Operations Type      : &apos;N/A&apos;
+ 
+ 
+    EARTH-RPX-3
+    -----------
+      The Earth-RPX-3 phase spanned the period around the third and
+      final Earth crossing of Saturn&apos;s ring plane, which occurred
+      at approximately 23:36 UTC on 11 February 1996.  This was a
+      crossing from the north (unlit) side to the south (lit) side.
+      This period occurred rather close to solar conjunction and so
+      was not well observed.
+ 
+      Spacecraft Id                   : &apos;N/A&apos;
+      Target Name                     : S RINGS, SATURN, MIMAS,
+                                        ENCELADUS, TETHYS, DIONE,
+                                        RHEA, TITAN, HYPERION,
+                                        IAPETUS, PAN, ATLAS,
+                                        PROMETHEUS, PANDORA, JANUS,
+                                        EPIMETHEUS, HELENE, TELESTO,
+                                        CALYPSO
+      Mission Phase Start Time        : 1996-01-01
+      Mission Phase Stop Time         : 1996-03-01
+      Spacecraft Operations Type      : &apos;N/A&apos;
+ 
+ 
+    POST-RPX
+    --------
+      The post-RPX phase began shortly after the third Earth
+      crossing of Saturn&apos;s ring plane.
+ 
+      Spacecraft Id                   : &apos;N/A&apos;
+      Target Name                     : S RINGS, SATURN, MIMAS,
+                                        ENCELADUS, TETHYS, DIONE,
+                                        RHEA, TITAN, HYPERION,
+                                        IAPETUS, PAN, ATLAS,
+                                        PROMETHEUS, PANDORA, JANUS,
+                                        EPIMETHEUS, HELENE, TELESTO,
+                                        CALYPSO
+      Mission Phase Start Time        : 1996-03-01
+      Mission Phase Stop Time         : 1997-01-01
+      Spacecraft Operations Type      : &apos;N/A&apos;
+        </mission_desc>
+        <mission_objectives_summary>
+ 
+  Mission Objectives Overview
+  ===========================
+ 
+    Faint Rings
+    -----------
+      Observations of Saturn&apos;s faint E, F and G Rings are best made
+      when the main rings are especially dark, such as close to the
+      moments of the Earth crossings and during the brief periods
+      when the Sun and Earth are on opposite sides of the ring
+      plane.  Observations reveal radial and vertical structures,
+      illuminating, for example, the relationship between the E
+      Ring and the embedded moon Enceladus.  Photometry and
+      spectrophotometry over a range of phase angles can be used to
+      better define the particle population in each ring.
+ 
+ 
+    Ring Thickness and Event Timing
+    -------------------------------
+      Observations of the photometric thickness of the rings, as
+      seen edge-on, may reveal whether this is caused by bending
+      waves, embedded moons, contributions from the projected E, F,
+      and G Rings, or some combination of the above.
+ 
+      Stellar occultations have led to a tentative detection of the
+      precession of the ring plane due to solar torques, and the
+      observed rate implies an advance of ~2 hours in the time of
+      RPX during the 15-year interval since the Voyager encounters.
+      Accurate timing of the crossing(s) could result in a
+      confirmation of this precession rate, or at least provide an
+      essential zero-point for future studies.
+ 
+ 
+    &apos;Dark Side&apos; Ring Viewing
+    ------------------------
+      Observations of the &apos;dark side&apos; of the main rings are
+      possible during two extended periods when Sun and Earth are
+      on opposite sides of the ring plane: 21 May-11 August 1995
+      and 19 November 1995-11 February 1996.  During the latter
+      period, Earth is up to 2.5 degrees above the ring plane while
+      the Sun is in or below the plane, offering an excellent
+      opportunity to observe light transmitted through the C Ring
+      and the Cassini Division.  Photometry in these unusual
+      viewing geometries provides a unique set of constraints on
+      models of light scattering by denser planetary rings.
+ 
+ 
+    Detections of Small Satellites
+    ------------------------------
+      The small Saturnian satellites Pan, Atlas, Prometheus,
+      Pandora, Helene, Telesto, and Calypso have not been seen
+      since the Voyager encounters.  Janus and Epimetheus have been
+      seen only rarely.  New detections will make it possible to
+      refine their orbits substantially.  In addition, periods of
+      ring plane crossing are ideal for detecting previously unseen
+      moons.
+ 
+ 
+    Satellite Eclipses and Mutual Events
+    ------------------------------------
+      During the period 1993-1996 a very large number of eclipses
+      and occultations of the satellites by Saturn (and some by the
+      rings) will take place, as well as an extensive set of mutual
+      satellite occultations and eclipses in 1995.  Most eclipses
+      commence in October 1994 and continue through to August 1996,
+      but are most readily observed well away from opposition or
+      conjunction.  The mutual events, which occur only near the
+      passages of Earth through the ring plane, last from January
+      1995 to September 1996, with the highest frequency in
+      November 1995-January 1996.
+ 
+      A large set of mutual event observations in 1995 should lead
+      to significant improvements in the orbits for all the inner
+      satellites (S1-S6), and may help to establish better the
+      amplitudes and frequencies of the resonant librations
+      involving S1-S4.  Such observations may also permit mapping
+      of albedo patterns on the satellites.
+        </mission_objectives_summary>
+        <mission_start_date>1994-01-01</mission_start_date>
+        <mission_stop_date>1997-01-01</mission_stop_date>
+    </Mission_PDS3>
+</Product_Mission_PDS3>

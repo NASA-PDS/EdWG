@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.sch" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.xsd">
+    
+    <Identification_Area>
+      <logical_identifier>urn:nasa:pds:context:instrument:pvo.oad</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>ORBITER ATMOSPHERIC DRAG (OAD) FOR PIONEER VENUS</title>
+        <information_model_version>1.20.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+          <Modification_Detail>
+            <modification_date>2024-03-04</modification_date>
+            <version_id>1.0</version_id>
+            <description>
+              Initial creation of the context products
+            </description>
+          </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+          <doi>10.1126/science.203.4382.772</doi>
+            <reference_text>
+              Keating, G. M., et al., Venus thermosphere and exosphere: First satellite drag measurements of an 
+              extraterrestrial atmosphere, Science, 203, No. 4382, 772-774, Feb. 1979.
+            </reference_text>
+            <description>reference.KEATINGETAL_1979a</description>
+        </External_Reference>
+      <External_Reference>
+        <doi>10.1126/science.205.4401.62</doi>
+        <reference_text>
+          Keating, G. M., et al., Short-term cyclic variations and diurnal variations of the Venus upper 
+          atmosphere, Science, 205, No. 4401, 62-64, July 1979.
+        </reference_text>
+        <description>reference.KEATINGETAL_1979b</description>
+      </External_Reference>
+      <External_Reference>
+        <doi>10.1007/BF02186463</doi>
+        <reference_text>
+          Colin, L., Ed., and D. M., Ed. Hunten, Pioneer Venus experiment descriptions, Space Sci. Rev., 
+          20, No. 4, 451-525, June 1977.
+        </reference_text>
+        <description>reference.COLINETAL_1977</description>
+      </External_Reference>
+    </Reference_List>
+    
+    <Instrument>
+        <name>ORBITER ATMOSPHERIC DRAG (OAD) FOR PIONEER VENUS</name>
+        <Type_List_Area>
+          <ctli:Type_List>
+            <ctli:type>Radio Science</ctli:type>
+          </ctli:Type_List>
+        </Type_List_Area> 
+        <naif_instrument_id>not applicable</naif_instrument_id>
+
+        <serial_number>not applicable</serial_number>
+
+        <description>
+ 
+    INSTRUMENT OVERVIEW
+    ===================
+ 
+        The Orbiter Atmospheric Drag (OAD) experiment made use of the spacecraft S-band and X-band radio signals for data 
+        measurements. The objectives were (1) to establish the diurnal variation of thermospheric density and density scale 
+        height (2) to determine the relationship of solar wind variations to variations in atmospheric density, (3) to determine 
+        the relationship of long and short term variation in solar extreme UV radiation to density variations, (4) to search 
+        for phenomena such as a semi-annual variation and super rotation of the thermosphere, and (5) to formulate a thermospheric 
+        model for the Venusian atmosphere.
+ 
+        The OAD experiment worked by measuring the Doppler shift in X and S band transmissions to the Deep Space Network. The 
+        shift would give the spacecraft acceleration along a line-of-sight from the spacecraft to the receiver. The accelerations 
+        at periapsis, when the orbiter was in the region of highest atmospheric density and the drag effect was greatest, were used, 
+        along with the spacecraft mass, and spacecraft orientation (giving the cross-section), to give a drag coefficient. This, 
+        combined with atmospheric models, gave an estimate of the atmospheric density at that altitude. Since the periapsis altitude 
+        changed with time, different depths in the atmosphere would be sampled. The effects of the drag on the evolution of the orbital 
+        period and inclination were also used with, and fed into, an atmospheric model. The results could be used to study diurnal and 
+        semi-annual variations, variations with solar activity, and possibly the super-rotation of the upper atmosphere.
+        </description>
+    </Instrument>
+</Product_Context>

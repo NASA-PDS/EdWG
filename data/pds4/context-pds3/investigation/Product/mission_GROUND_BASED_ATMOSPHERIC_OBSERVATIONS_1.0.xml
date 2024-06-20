@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Mission_PDS3 xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:investigation:mission.ground_based_atmospheric_observations</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>GROUND BASED ATMOSPHERIC OBSERVATIONS</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Mission_PDS3</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2016-10-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.eso::1.0</lidvid_reference>
+            <reference_type>has_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:planet.jupiter::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:planet.neptune::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:planet.saturn::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:planet.uranus::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.titan::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                   Karkoschka, E., Spectrophotometry of the Jovian Planets and Titan at 300-
+                   to 1000-nm Wavelength: the Methane Spectrum, Icarus, 111, 174-192, 1994.
+            </reference_text>
+            <description>reference.KARKOSCHKA1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Karkoschka, E., Methane, Ammonia, and Temperature Measurements of the
+                   Jovian Planets and Titan from CCD-Spectrophotometry, Icarus, 133, 134-146,
+                   1998.
+            </reference_text>
+            <description>reference.KARKOSCHKA1998</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Mission_PDS3>
+        <mission_name>GROUND BASED ATMOSPHERIC OBSERVATIONS</mission_name>
+        <mission_desc>
+ 
+ 
+  Mission Overview
+  ================
+ 
+    From [KARKOSCHKA1994]
+    ---------------------
+      Full-disk albedo spectra of the jovian planets and Titan were
+      derived from observations at the European Southern
+      Observatory in July 1993.  The spectra extend from 300- to
+      1000-nm wavelength at 1-nm resolution.  The signal-to-noise
+      ratio is approximately 1000 in the visible.  The accuracy is
+      2 percent for relative and 4 percent for absolute albedos.
+      Colors and magnitudes were also determined.  Some 40-60 Raman
+      scattering features are visible in the spectrum of each
+      jovian planet.  A Raman scattering model with five parameters
+      adjusted for each planet can explain these features.  A
+      methane absorption spectrum is given which fits methane
+      features in the spectra of the jovian planets and Titan.  It
+      differs from room-temperature laboratory spectra but it is
+      consistent with some limited laboratory data at cold
+      temperatures.  Three new, weak methane bands were detected in
+      the spectra of Uranus and Neptune.  A strong absorption band
+      in Jupiter&apos;s spectrum is possibly due to water, confirming a
+      strong depletion of oxygen in the probed part of Jupiter&apos;s
+      atmosphere.
+ 
+    From [KARKOSCHKA1998]
+    ---------------------
+      Full-disk albedo spectra of the jovian planets and Titan were
+      derived from observations at the European Southern
+      Observatory in July 1995.  The spectra extend from 300 to
+      1050 nm wavelength.  The spectral resolution is 0.4 nm
+      between 520 and 995 nm, and 1 nm elsewhere.  The accuracy of
+      the albedo calibration is 4 percent.  UBV magnitudes were
+      also determined.  Raman scattering was quantified for each
+      planet.  Methane and ammonia bands are shown at 0.4 nm
+      spectral resolution, including a new band at 930 nm
+      wavelength which is probably due to ammonia.  Maps of the
+      variation of these absorptions across the disks of Jupiter
+      and Saturn are displayed.  Saturn&apos;s spectrum is undisturbed
+      by light from its rings due to the edge-on geometry during
+      the observations.  The albedo of Uranus near 1 micro-m
+      wavelength has dropped almost 10 percent between 1993 and
+      1995, while there has been no change in the ultraviolet.  The
+      signature of light from Titan&apos;s surface yielded a path length
+      of 4 km-am of methane in Titan&apos;s atmosphere.  The temperature
+      dependence of the width of the 890-nm methane band was used
+      to measure temperature variations at three altitude levels,
+      resulting in the first temperature maps of Jupiter and Saturn
+      based on reflected sunlight.  Jupiter displays a banded
+      temperature structure with some discrete features of a few
+      Kelvin amplitude.  Saturn&apos;s north-south temperature asymmetry
+      has reversed since the Voyager observations.
+ 
+        </mission_desc>
+        <mission_objectives_summary>
+UNK
+        </mission_objectives_summary>
+        <mission_start_date>1993</mission_start_date>
+        <mission_stop_date>1995</mission_stop_date>
+    </Mission_PDS3>
+</Product_Mission_PDS3>

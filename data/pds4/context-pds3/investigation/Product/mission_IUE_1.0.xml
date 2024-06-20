@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Mission_PDS3 xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:investigation:mission.iue</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>IUE</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Mission_PDS3</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>INTERNATIONAL_UV_EXPLORER</alternate_id>
+                <alternate_title>INTERNATIONAL UV EXPLORER</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2016-10-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:spacecraft.iue::1.0</lidvid_reference>
+            <reference_type>has_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:comet.sl9::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:planet.jupiter::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                   Boggess, A., Bohlin, R.C., Evans, D.C., Freeman, H.R., Gull, T.R., Heap,
+                   S.R., Klinglesmith, D.A., Longanecker, G.R., Sparks, W., West, D.K., Holm,
+                   A.V., Perry, P.M., Schiffer III, F.H., Turnrose, B.E., Wu, C.C., Lane,
+                   A.L., Linsky, J.L., Savage, B.D., Benvenuti, P., Cassatella, A.,Clavel,
+                   J., Heck, A., Macchetto,F., Penston, M.V., Selvelli, C.I., Dunford, E.,
+                   Gondhaleker, P., Oliver, M.B., Sandford, M.C.W., Stickland, D.,
+                   Boksenberg, A., Coleman, C.I., Snijders, M.A.J., Wilson, R., In-Flight
+                   Performance of the IUE, Nature, 275, 377, 1978.
+            </reference_text>
+            <description>reference.BOGGESSETAL1978A</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Mission_PDS3>
+        <mission_name>IUE</mission_name>
+        <mission_desc>
+ 
+ 
+    Mission Overview
+    ================
+      The International Ultraviolet Explorer (IUE) was launched
+      successfully on 26 January 1978, from Cape Canaveral, Florida. The
+      satellite was developed to provide a general facility for observing
+      ultraviolet (UV) spectra of astronomical sources over the wavelength
+      range from about 1150 A to 3200 A.  The project has been a joint
+      undertaking in which the US National Aeronautics and Space
+      Administration (NASA) provided the spacecraft, the optical and
+      mechanical components of the scientific instrument, the US ground
+      observatory and spacecraft control software; the UK Science Research
+      Council (SRC) in collaboration with University College London (UCL)
+      provided the television cameras used to record the spectroscopic
+      data; and the European Space Agency (ESA) provided the solar arrays
+      and European ground observatory. The image processing software was
+      developed jointly by NASA and the SRC&apos;s Appleton Laboratory. The
+      satellite has been placed in geosynchronous orbit over the Atlantic
+      Ocean and is operated for 16h each day, for NASA sponsored
+      observers, from the US ground observatory located at the Goddard
+      Space Flight Center (GSFC) near Washington, D.C., and for the
+      remaining 8h by ESA, for ESA and UK sponsored observers, from the
+      European ground observatory located near Madrid.
+ 
+      A synchronous orbit has other advantages. Because the Earth subtends
+      an angle of only 17 degrees the unconstrained area of sky is much
+      greater than for low orbits and, as its movement along the ecliptic
+      is at the diurnal rate, the occurrence of occultations is
+      infrequent. Consequently, over large portions of the sky, neither
+      long exposures nor the observation of variable phenomena need be
+      periodically interrupted. A penalty is that in synchronous orbit
+      observations are normally made in full sunlight so the telescope
+      must be baffled to ensure adequate rejection of stray sunlight and
+      earthlight.  The offset guiding system can be influenced, however,
+      and relatively bright guide stars are needed near the Earth&apos;s limb.
+ 
+      The IUE mission was terminated on Sept 30, 1996 at 18:42 UT after a
+      life span of 18 years, 8 months, 4 days, 1 hour and 6 min.
+ 
+        </mission_desc>
+        <mission_objectives_summary>
+ 
+ 
+    DESIGN CONCEPTS
+    ---------------
+      It was decided that a high spectral resolution of the order of 0.2 A
+      would be required to study the atmospheric characteristics of bright
+      stars and planets and that a lower resolution of about 6 A should be
+      available to obtain information on faint sources. In addition, two
+      other requirements were fundamental in determining the design of the
+      scientific instrument and of the spacecraft to support it: first,
+      the instrument should be able to record simultaneous data over large
+      spectral ranges and, second, the spacecraft should be able to take
+      maximum advantage of the observer&apos;s real-time judgement concerning
+      the quality and content of his data.
+ 
+      The latter requires good communication between the spacecraft and
+      the observer so a geosynchronous orbit was chosen. The IUE orbit
+      allows continuous real-time control from the NASA control centre and
+      at least 10h each day from the ESA control centre. The arrangement
+      is fundamentally different from low altitude orbiting observatories
+      which have to acquire data while remote from ground control. In the
+      case of IUE, control and performance monitoring are exercised
+      continuously. The telescope field is displayed to the observer, who
+      identifies his target star and directs the course of the observation
+      in real-time. The &apos;IUE observatory&apos;, thus comprises the ground
+      control centre, where the astronomer views his television monitors,
+      and the optical and electronic instrumentation located in
+      synchronous orbit.
+ 
+        </mission_objectives_summary>
+        <mission_start_date>1978-01-26</mission_start_date>
+        <mission_stop_date>1996-09-30</mission_stop_date>
+    </Mission_PDS3>
+</Product_Mission_PDS3>

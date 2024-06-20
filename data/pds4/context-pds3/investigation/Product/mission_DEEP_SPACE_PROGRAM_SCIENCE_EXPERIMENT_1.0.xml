@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Mission_PDS3 xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:investigation:mission.deep_space_program_science_experiment</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>DEEP SPACE PROGRAM SCIENCE EXPERIMENT</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Mission_PDS3</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>CLEMENTINE_1</alternate_id>
+                <alternate_title>CLEMENTINE 1</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2016-10-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:spacecraft.clem1::1.0</lidvid_reference>
+            <reference_type>has_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context_pds3:target:satellite.moon::1.0</lidvid_reference>
+            <reference_type>has_target</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                   Asmar, S.W., and R.G. Herrera, Radio Science Handbook, JPL D-7938, Volume 4,
+                   Jet Propulsion Laboratory, Pasadena, CA, 22 January 1993.
+            </reference_text>
+            <description>reference.ASMAR-HERRERA1993</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Lucey, P., P.D. Spudis, M. Zuber, D. Smith, and E. Malaret,
+                   Topographic-Compositional Units on the Moon and the Early Evolution of the
+                   Lunar Crust, Science, 266, 1855-1858, 1994.
+            </reference_text>
+            <description>reference.LUCEYETAL1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   McEwen, A., M.S. Robinson, E.M. Eliason, P.G. Lucey, T.C. Duxbury, and
+                   P.D. Spudis, Clementine Observations of the Aristarchus Region on the
+                   Moon, Science, 266, 1858-1861, 1994.
+            </reference_text>
+            <description>reference.MCEWENETAL1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Nozette, S. and H.B. Garrett, Mission Offers a New Look at the Moon and a
+                   Near-Earth Asteroid, EOS, Vol. 75, No. 14, p. 161 and 163, 1994.
+            </reference_text>
+            <description>reference.NOZETTE-GARRETT1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Nozette, S., P. Rustan, L.P. Pleasance, D.M. Horan, P. Regeon, E.M.
+                   Shoemaker, P.D. Spudis, C.H. Acton, D.N. Baker, J.E. Blamont, B.J.
+                   Buratti, M.P. Corson, M.E. Davies, T.C. Duxbury, E.M. Eliason, B.M.
+                   Jakosky, J.F. Kordas, I.T. Lewis, C.L. Lichtenberg, P.G. Lucey, E.
+                   Malaret, M.A. Massie, J.H. Resnick, C.J. Rollins, H.S. Park, A.S. McEwen,
+                   R.E. Priest, C.M. Pieters, R.A. Reisse, M.S. Robinson, D.E. Smith, T.C.
+                   Sorenson, R.W. Vorder Breugge, and M.T. Zuber, The Clementine Mission to
+                   the Moon: Scientific Overview, Science, 266, 1835-1839, 1994.
+            </reference_text>
+            <description>reference.NOZETTEETAL1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Pieters, C., M.I. Staid, E.M. Fischer, S. Thompkins, and G. He, The
+                   Sharper View of Impact Craters from Clementine Data, Science, 266,
+                   1844-1848, 1994
+            </reference_text>
+            <description>reference.PIETERSETAL1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Regeon, P.A., R.J. Chapman, and R. Baugh, Clementine -- The Deep Space
+                   Program Science Experiment (DSPSE),Paper IAA-L-0501, IAA International
+                   Conference on Low-Cost Planetary Missions, Laurel, MD: The Johns Hopkins
+                   University Applied Physics Laboratory, 12-15 April 1994.
+            </reference_text>
+            <description>reference.REGEONETAL1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Rustan, P., Flight-Qualifying Space Technologies with the Clementine
+                   Mission, EOS, Vol. 75 No. 14, 1 p., 1994.
+            </reference_text>
+            <description>reference.RUSTAN1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Shoemaker, E., M.S. Robinson, and E.M. Eliason, The South Pole Region of
+                   the Moon as Seen by Clementine, Science, 266, 1851-1854, 1994.
+            </reference_text>
+            <description>reference.SHOEMAKERETAL1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Spudis, P., R.A. Reisse, and J.J. Gillis, Ancient Multiring Basins on the
+                   Moon Revealed by Clementine Laser Altimetry, Science, 266, 1848-1851, 1994
+            </reference_text>
+            <description>reference.SPUDISETAL1994</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Zuber, M., D.E. Smith, F.G. Lemoine, and G. Neumann, The Shape and Internal
+                   Structure of the Moon from the Clementine Mission, Science, Vol. 266, pp.
+                   1839-1843, 1994.
+            </reference_text>
+            <description>reference.ZUBERETAL1994</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Mission_PDS3>
+        <mission_name>DEEP SPACE PROGRAM SCIENCE EXPERIMENT</mission_name>
+        <mission_desc>
+ 
+    Mission Overview
+    ================
+      The Deep Space Program Science Experiment (DSPSE), first in a
+      planned series of technology demonstrations jointly sponsored
+      by the Ballistic Missile Defense Organization (BMDO) of the
+      DoD and the National Aeronautics and Space Administration
+      (NASA ), was launched on 1994-01-25 aboard a Titan IIG rocket
+      from Vandenburg Air Force Base in California. The mission
+      included two months of systematic lunar mapping (1994-02-26
+      through 1994-04-21), which was to have been followed by a flyby
+      of the near-Earth asteroid Geographos (1994-08-31).  A software
+      error, combined with improbable hardware conditions, on
+      1994-05-07 led to accidental spin-up of the spacecraft and loss
+      of attitude control gas.  This precluded the flyby of
+      Geographos.  The spacecraft itself was affectionately known as
+      Clementine since, as in the song of the same name, it would be
+      &apos;lost and gone forever&apos; after completing its short mission.
+ 
+      Clementine&apos;s primary objective was qualification of light-
+      weight imaging sensors and component technologies (including a
+      star tracker, inertial measurement unit, reaction wheel, nickel
+      hydrogen battery, and solar panel) for the next generation of
+      Department of Defense (DoD) spacecraft.  DSPSE represented a
+      new class of small, low cost, and highly capable spacecraft
+      that fully embraced emerging lightweight technologies to enable
+      a series of long-duration deep space missions.  A second
+      objective was return of data about the Moon and Geographos to
+      the international civilian scientific community.
+ 
+      BMDO assigned responsibility for the Clementine spacecraft
+      design, manufacture, integration, and mission execution to the
+      Naval Research Laboratory (NRL).  Lawrence Livermore National
+      Laboratory (LLNL) provided lightweight imaging sensors
+      developed under the sponsorship of BMDO.  Goddard Space Flight
+      Center (GSFC) and the Jet Propulsion Laboratory (JPL) provided
+      mission design and navigation services.  The Deep Space Network
+      (DSN) provided tracking through JPL.  NASA was responsible for
+      the scientific return from the mission.
+ 
+      Further information on the Clementine Mission can be found in
+      [NOZETTE&amp;GARRETT1994] and [REGEONETAL1994].
+ 
+ 
+    Mission Phases
+    ==============
+      Mission phases were defined for significant spacecraft activity
+      periods.  During orbital operations a &apos;cycle&apos; was the time
+      required for the Moon to rotate once under the spacecraft
+      (about 28 days).  The &apos;revolution number&apos; refers to an
+      observational pass over the moon.  The revolution number was
+      incremented by one each time the spacecraft passed over the
+      south pole prior to the beginning of data acquisition.
+      Revolution number was used in lieu of orbit number because of
+      the way the orbit number was defined by the mission.  The orbit
+      number was incremented each time the spacecraft passed through
+      the equatorial plane on the sunlit side of the Moon.  Thus, the
+      orbit number generally changed in the middle of an
+      observational pass.  This proved to be awkward in defining the
+      data acquired by a single pass over the Moon.
+ 
+ 
+      PRELAUNCH
+      ---------
+        Clementine moved from concept to launch in a little over two
+        years. Mission milestones included:
+ 
+        1991-11-19   Naval Research Laboratory (NRL) briefed by
+                     the Space Defense Initiative Organization
+                     (SDIO) on the Clementine concept
+        1992-01-12   NRL tasked with 2 month Clementine study
+        1992-02-25   NRL tasked by SDIO to be Clementine lead
+        1992-03-16   Clementine Concept Definition Review
+        1992-04-01   Clementine Concept Definition completed;
+                     begin Program Management and System Design
+        1992-05-01   Begin Systems Engineering and Testing
+        1992-05-13   Clementine System Requirements Review
+        1992-06-01   Begin Ground Subsystems Development
+        1992-07-30   Preliminary Design Review
+        1992-10-20   Launch Range Introduction (Review)
+        1992-11-05   Sensor Critical Design Review
+        1992-11-16   Spacecraft Vehicle Critical Design Review
+        1993-06-01   Begin Spacecraft Integration
+        1993-07-01   Begin Ground System Integration and Testing
+        1993-10-01   Begin Spacecraft Assembly Testing
+        1993-12-01   Begin Launch Operations and Testing
+ 
+        Spacecraft Id                 : CLEM1
+        Target Name                   : MOON
+        Mission Phase Start Time      : 1991-11-19
+        Mission Phase Stop Time       : 1994-01-25
+        Spacecraft Operations Type    : ORBITER
+ 
+ 
+      LAUNCH
+      ------
+        The Clementine spacecraft was launched on 1994-01-25, from
+        Vandenburg Air Force Base in California.  It went into a
+        226-km by 259-km geocentric orbit at an inclination of 67
+        degrees.
+ 
+        Spacecraft Id                 : CLEM1
+        Target Name                   : MOON
+        Mission Phase Start Time      : 1994-01-25
+        Mission Phase Stop Time       : 1994-01-25
+        Spacecraft Operations Type    : ORBITER
+ 
+ 
+      LOW EARTH ORBIT
+      ---------------
+        The Low Earth Orbit phase extended from the end of the Launch
+        phase until Clementine was spun up to 60 revolutions per
+        minute and the kick motor was fired, changing its trajectory
+        to a highly elliptical orbit which would encounter the Moon.
+        During this Low Earth Orbit phase on-board systems were
+        checked out and the spacecraft was three-axis stabilized.
+ 
+        Spacecraft Id                 : CLEM1
+        Target Name                   : MOON
+        Mission Phase Start Time      : 1994-01-25
+        Mission Phase Stop Time       : 1994-02-03
+        Spacecraft Operations Type    : ORBITER
+ 
+ 
+      EARTH PHASING LOOP A
+      --------------------
+        Earth Phasing Loop A began at the end of the Low Earth Orbit
+        phase and lasted until Lunar Orbit Insertion.  This phase
+        included two phasing loop orbits, the second of which allowed
+        encounter with the Moon.
+ 
+        Spacecraft Id                 : CLEM1
+        Target Name                   : MOON
+        Mission Phase Start Time      : 1994-02-03
+        Mission Phase Stop Time       : 1994-02-19
+        Spacecraft Operations Type    : ORBITER
+ 
+ 
+      LUNAR ORBIT INSERTION
+      ---------------------
+        The Lunar Orbit Insertion phase extended from the end of
+        Earth Phasing Loop A until the beginning of Lunar Mapping.
+        During this phase the spacecraft was placed in a lunar orbit
+        ranging from 400 to 2940 kilometers above the surface; the
+        orbit period was 5 hours.  Lunar Orbit Insertion occurred
+        during revolution 0.
+ 
+        Spacecraft Id                 : CLEM1
+        Target Name                   : MOON
+        Mission Phase Start Time      : 1994-02-19
+        Mission Phase Stop Time       : 1994-02-19
+        Spacecraft Operations Type    : ORBITER
+ 
+ 
+      LUNAR MAPPING
+      -------------
+        Lunar Mapping extended from the end of Lunar Orbit Insertion
+        until the beginning of Lunar Departure.  During this phase
+        the instruments were checked out, sequences were developed
+        and tested for mapping operations, two complete cycles of
+        systematic mapping were completed, and the spacecraft was
+        prepared for leaving lunar orbit.  The following sub-phases
+        can be defined for the Lunar Mapping phase:
+ 
+        Engineering Checkout and Operational Rehearsals
+        (revolutions 1-31)
+        Systematic Mapping Cycle 1 (revolutions 32-164)
+        Systematic Mapping Cycle 2 (revolutions 165-300)
+        Post-Systematic Mapping    (revolutions 301-350)
+ 
+        Spacecraft Id                 : CLEM1
+        Target Name                   : MOON
+        Mission Phase Start Time      : 1994-02-19
+        Mission Phase Stop Time       : 1994-05-03
+        Spacecraft Operations Type    : ORBITER
+ 
+ 
+      LUNAR DEPARTURE
+      ---------------
+        The Lunar Departure Phase extended from the completion of
+        Lunar Mapping until the beginning of Earth Phasing Loop B.
+        During this phase, the spacecraft was removed from lunar
+        orbit.  The burn for Lunar Departure began on 1994-05-04 at
+        03:24:15 and lasted 278 seconds; it took place when the
+        included parts of revolutions 350-351.
+ 
+        Spacecraft Id                 : CLEM1
+        Target Name                   : MOON
+        Mission Phase Start Time      : 1994-05-03
+        Mission Phase Stop Time       : 1994-05-04
+        Spacecraft Operations Type    : ORBITER
+ 
+ 
+      EARTH PHASING LOOP B
+      --------------------
+        Earth Phasing Loop B extended from completion of the Lunar
+        Departure phase until loss of on-board attitude control on
+        1994-05-07.  During this phase the spacecraft was to have
+        been checked out in preparation for its flight to Geographos.
+ 
+        Spacecraft Id                 : CLEM1
+        Target Name                   : MOON
+        Mission Phase Start Time      : 1994-05-04
+        Mission Phase Stop Time       : 1994-05-07
+        Spacecraft Operations Type    : ORBITER
+ 
+ 
+    Lunar Orbit Summary
+    ===================
+      Mapping of 100% of the lunar surface was done in two lunar days
+      (two Earth months).  In order to obtain full coverage during
+      these two months, the required image overlap for the UVVIS and
+      NIR cameras was ~15% in the down track and ~10% in the cross
+      track directions.  This required an inclination of the
+      orbit at 90 degrees plus-or-minus 1 degree with reference to
+      the lunar equator and a periselene of the lunar orbit
+      maintained at an altitude of 425 plus-or-minus 25 km.  To
+      provide the necessary cross-track separation for the
+      alternating imaging strips to cover the entire surface of the
+      moon, the orbital period was approximately 5 hours, during
+      which the moon rotated approximately 2.7 degrees beneath the
+      spacecraft.  Images were taken and recorded only in the region
+      of periselene, leaving sufficient time to replay the data to
+      Earth.
+ 
+      The best data for lunar mineral mapping is obtained if the
+      solar phase angle is less than 30 degrees.  The solar phase
+      angle is defined as the angle between the vector to the Sun and
+      the vector to the spacecraft from a point on the Moon&apos;s
+      surface.  To maximize the time period in which the solar phase
+      angle is less than 30 degrees the plane of the lunar orbit
+      should contain the Moon-Sun line half way through the two-month
+      lunar mapping period.  Therefore, insertion into the lunar
+      orbit was selected so that, as the Moon-Sun line changes with
+      Earth&apos;s motion about the Sun, the Moon-Sun line will initially
+      close on the orbital plane, and then lie in the orbital plane
+      half-way through the mapping mission.  The angle between the
+      Moon-Sun line and the orbital plane was close (less than 5
+      degrees) for approximately five weeks before becoming zero.
+      Table 1 contains a list of Clementine&apos;s orbital parameters.
+ 
+ 
+      Table 1 Clementine Orbital Parameters
+      -------------------------------------
+        Orbital Period:         4.970 hr &lt; P &lt; 5.003 hr
+        Altitude of Periselene: 401 km &lt; radius &lt; 451 km
+        Eccentricity:           0.35821 &lt; e &lt; 0.37567
+        Right Ascension:        -3 deg &lt; Omega &lt;+3 deg(referred J2000)
+        Inclination:            89 deg &lt; i &lt; 91 deg
+        Argument of Periselene: -28.4 deg &lt; w &lt; -27.9 deg (1st month)
+        29.6 deg &lt; w &lt;  29.2 deg (2nd month)
+ 
+        Orbit determination and monitoring was done on a continuous
+        basis throughout the lunar pre-mapping phase.  The
+        gravitational potential field of the moon has not been fully
+        mapped, and large lunar mass concentrations perturbed the
+        orbit, so maintenance burns were required to maintain the
+        orbit characteristics.  The number of these burns was
+        minimized to avoid unnecessary disruptions to the systematic
+        mapping.  To this end, required periapsis burns were
+        performed away from periselene in the direction of the near
+        pole.
+ 
+        The spacecraft was three-axis stabilized and capable of
+        autonomous, open loop inertial pointing with an accuracy of
+        0.05 degree, 0.87 milliradian, or better.  This accuracy was
+        required to support use of the high resolution camera because
+        of its narrow field of view for imaging selected target sites
+        during the lunar mapping mission.  Reconstruction of
+        spacecraft attitude to 0.03 degree was generally achieved.
+ 
+        To help accomplish attitude determination, the spacecraft had
+        two inertial measurement units (IMU) and two star trackers.
+        Because of a solar exclusion angle constraint, one of the two
+        star trackers had to be covered during lunar orbit.  To meet
+        the aforementioned pointing requirements, during lunar orbit
+        a star tracker image was processed and the spacecraft
+        attitude knowledge was updated at 10 second intervals or
+        less.
+ 
+        The spacecraft was able to execute controlled, relative
+        pointing motion about a pointing vector for scanning across
+        targets over a range of 75 milliradians.
+ 
+        During lunar imaging, the spacecraft had to maintain a NADIR
+        pointing attitude.  This required a greater than 180 degree
+        rotation over the approximately 1.5-2.0 hour period during
+        each lunar orbit.  The spacecraft was also required to
+        maintain an angular bias about the X-axis from NADIR to
+        permit an imaging groundtrack parallel but offset from the
+        NADIR groundtrack.
+ 
+        The spacecraft was required to point to the Earth center, and
+        to a specified tracking station site on the Earth, for the
+        dumping of data using the high-gain directional antenna.
+ 
+ 
+      LUNAR ORBITS TYPE A AND B
+      -------------------------
+        The polar configuration of Clementine&apos;s orbit provided
+        significant redundant coverage at the poles.  To take
+        advantage of the polar convergence, two types of
+        observational scenarios, designated type A and B, were
+        developed to provide stereo observations at the higher
+        latitudes.  Type A orbits (even numbered orbits) made NADIR
+        observations from pole to pole.  Type B orbits (odd numbered
+        orbits) made NADIR observations for most of the orbit but
+        would switch to oblique viewing at the north pole for orbit
+        numbers 32-164 and oblique viewing of the south pole for
+        orbit numbers 165-300.  The alternating NADIR and oblique
+        observations provide stereo coverage.  Oblique viewing was
+        achieved at greater than 50 degrees north and 50 degrees
+        south latitude down to the poles.
+        </mission_desc>
+        <mission_objectives_summary>
+ 
+    Mission Objectives Overview
+    ===========================
+      The primary objective for DSPSE was demonstration of high
+      technology BMDO components.  These included the four advanced
+      lightweight sensors provided by LLNL, two Inertial
+      Measurement Units, reaction wheel assemblies, GaAS/Ge solar
+      arrays, the NiH2 common pressure vessel battery, advanced
+      release mechanisms, composite structures, and a high-
+      performance 32-bit Reduced Instruction Set Computer (RISC)
+      microprocessor.  DSPSE used the Moon (and would have used
+      Geographos) as targets on which to test the detection and
+      acquisition capabilities of the sensors at realistic closing
+      velocities while evaluating the effects of long-term exposure
+      to a deep space environment [REGEONETAL1994].
+ 
+      The second objective for DSPSE was use of the on-board
+      technology to acquire data that would be of interest to the
+      international civilian science community.  Within the Lunar
+      Mapping phase of the mission, the highest science priority
+      was acquisition of global multispectral image data.  These
+      images represent the first global data set in digital form
+      for the Moon.  The color of the Moon in the visible and
+      near-infrared is diagnostic of both composition and exposure
+      history of the regolith material.  Filters were chosen to
+      provide the continuum response of the Moon to solar
+      illumination and to detect variations at particular
+      wavelengths which would indicate presence of specific
+      minerals, such as plagioclase feldspar.  Sensor coverage is
+      shown in the table below:
+ 
+      Instrument        Field of View      Wavelengths
+      (degrees)       (micrometers)
+      ------------      --------------  ----------------
+      UVVIS                5.6 x 4.2     0.415 +/- 0.020
+      0.750 +/- 0.005
+      0.900 +/- 0.015
+      0.950 +/- 0.015
+      1.000 +/- 0.015
+      0.625 +/- 0.225
+      NIR                  5.6 x 5.6     1.100 +/- 0.030
+      1.250 +/- 0.030
+      1.500 +/- 0.030
+      2.000 +/- 0.030
+      2.600 +/- 0.030
+      2.780 +/- 0.060
+      LWIR                 1.0 x 1.0     8.750 +/- 0.750
+      HIRES                0.4 x 0.3     0.415 +/- 0.020
+      0.560 +/- 0.005
+      0.650 +/- 0.005
+      0.750 +/- 0.010
+      0.600 +/- 0.200
+      LIDAR Transmitter                       1.064
+      0.532
+      LIDAR Receiver         0.057       0.750 +/- 0.350
+      Star Tracker          28 x 43      0.750 +/- 0.350
+ 
+      Throughout the Lunar Mapping phase of the mission, the LIDAR
+      system acquired high resolution profiles of lunar topography.
+      Over those parts of each revolution where radio tracking of
+      the spacecraft was possible, variations in the gravity field
+      of the Moon could be measured.  The combination of topography
+      profiles and gravity maps places important constraints on the
+      interior structure of the Moon.
+ 
+      The data acquired by Clementine allow identification of major
+      compositional provinces as well as detailed study of complex
+      areas.  For example, the South Pole - Aitken Basin was not
+      only discovered to be a major depression [ZUBERETAL1994] but
+      it was also found to be compositionally anomalous
+      [LUCEYETAL1994].  Within the South Pole - Aitken Basin is an
+      extensive region near the south pole which may be an impact
+      basin 300 km in diameter, parts of which are never
+      illuminated by the Sun [SHOEMAKERETAL1994].  If so, water
+      molecules may be drawn to the &apos;cold trap&apos; and accumulate in
+      significant quantity over millions of years
+      [NOZETTEETAL1994].  The combination of 11-color mapping from
+      the imaging sensors, topography from the laser altimeter,
+      gravity information from radio tracking, and other data
+      represents a major improvement in knowledge about the Moon.
+      A discussion of impact crater results has been presented by
+      [PIETERSETAL1994], ancient multi-ring basins have been
+      discussed by [SPUDISETAL1994], and the Aristarchus region has
+      been described by [MCEWENETAL1994].
+ 
+ 
+    OBSERVATION STRATEGY
+    ====================
+      The observation strategy during Lunar Mapping was constrained
+      primarily by the volume of data that could be downloaded during
+      each revolution (100 MBytes maximum per revolution).  During
+      revolutions when the transmission path was partially obstructed
+      (as during occultations near new and full Moon), the downlink
+      was reduced to as little as 60 MB.  Against these downlink
+      constraints, Clementine personnel balanced observation and
+      compression strategies to achieve the following objectives: (1)
+      global coverage in 5 UVVIS and 6 NIR bands, (2) continuous LWIR
+      imaging under each revolution strip, (3) HIRES polar imaging,
+      and (4) additional HIRES imaging.
+ 
+      Clementine personnel further desired double imaging with the
+      UVVIS, at long and short exposure times (or different
+      gain/offset states) in order to acquire the best possible
+      signal-to-noise ratio (SNR) without saturation.  Mission
+      planners also sought to reduce the data rate by using an
+      on-board data compression system.  Compression ratios achieved
+      were about 5:1 for the UVVIS long exposures, 12:1 for the UVVIS
+      short exposures, 2.2:1 for the NIR, 1.6:1 for the LWIR, and 3:1
+      for the HIRES.  These compression ratios varied primarily as a
+      function of high-frequency noise and scene contrast.  LWIR
+      images had about five percent bad pixels and about ten percent
+      noisy pixels.  Because of the poor LWIR compression ratio and
+      because the array was small (128 x 128), the LWIR data were
+      acquired uncompressed.  In the HIRES an intensifier reduced
+      resolution; a resolution element was equivalent to about 3-4
+      pixels.  Mission planners expected to achieve high compression
+      ratios (&gt;10:1) but were thwarted by two types of high-frequency
+      noise: (1) a &apos;honeycomb&apos; pattern from the intensifier, and (2)
+      shot noise resulting from use of low gain states during flight.
+      The HIRES was of greater importance to the planned Geographos
+      observations and some of its components were believed to have
+      limited lifetimes, so measures were taken during the Lunar
+      Mapping phase to minimize its use.
+ 
+      Nominal plan for each systematic mapping revolution was:
+ 
+      Observation                      Compression   Number    Volume
+      Ratio                                            of       (MB)
+                                                     Frames
+      ---------------------------------------------------------------
+      UVVIS 5-color long exposure          5:1         820       18
+      UVVIS 5-color short exposure        12:1         820        8
+      NIR 6-color pole-to-pole           2.2:1        1044       32
+      10-deg. lat uncompressed UVVIS/NIR   1:1                    7
+      LWIR pole-to-pole                    1:1         870       14
+      HIRES  750-nm  lat  +/-  50-90       8:1         600        8
+      HIRES  4-filter, 10 deg.latitude    12:1         400        4
+      Dark frames/star cal frames          1:1          68        4
+      LIDAR altimetry                      N/A         N/A        0*
+      ---------------------------------------------------------------
+      TOTALS:                                         4622       95
+ 
+      *LIDAR altimetry data volume was non-zero but small compared
+      with 1 MB.
+ 
+      The 95 MB/revolution rate was easily returned in the absence of
+      downlink anomalies and occultation constraints.  For
+      revolutions including long occultations the strategy
+      recommended by the science team was to reduce the data volume
+      by dropping the HIRES color, compressing all of the UVVIS/NIR,
+      and compressing the LWIR.  In practice this was followed only
+      approximately because staffing was insufficient to tailor
+      operations on short time scales.
+ 
+      There were approximately 10 spacecraft upsets or downlink
+      problems during Lunar Mapping that resulted in loss of all or
+      part of the data from a revolution.  Gaps from mapping cycle 1
+      were filled in cycle 2 (at lower resolution in the southern
+      hemisphere), and gaps in the early part of mapping cycle 2
+      (longitudes 0-100 W) were recovered during the post-mapping
+      period.  For the latter parts of cycle 2 (longitudes 0-230 E),
+      a strategy was implemented to fill gaps in revolutions
+      immediately following an upset by pointing the spacecraft to
+      the east and using several revolutions carefully to recover
+      fully from what had been lost on one.  Most of the HIRES and
+      LWIR observations were sacrificed during these late recovery
+      efforts, which were largely successful; but there may remain
+      small gaps (&lt; 1% of the lunar surface) in the UVVIS/NIR
+      mapping.  At specific wavelengths, gaps are larger.
+        </mission_objectives_summary>
+        <mission_start_date>1991-11-19</mission_start_date>
+        <mission_stop_date>1994-05-07</mission_stop_date>
+    </Mission_PDS3>
+</Product_Mission_PDS3>
