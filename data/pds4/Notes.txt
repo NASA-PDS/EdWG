@@ -26,6 +26,23 @@ Context: Product_*/Identification_Area/Licensing/Internal_Reference
 Questions
 =========
 
+General
+-------
+  o What should we do about "To Do" lists in the investigation context 
+    objects? I'm finding these for legacy data that is not going to be
+    migrated any time soon, and resolving them ultimately requires 
+    working up and down the reference chain. Are we expected to do that
+    now? Later? If not now, what is the point of carrying comments in 
+    the context object as opposed to, say, an errata file or something 
+    that might be visible to a user interested in the investigation?
+    
+  o 256 characters seems ridiculously short for a "description" field. 
+    It's only one character longer than the "title" field. If the 
+    intention is to enforce it, then it needs to be schematically 
+    enforced or it will be ignored. I suggest it would be more useful
+    to describe how to write a description, and only display the 
+    first 80-256 characters unless a user requests to see more.
+    
 Telescopes
 ----------
     
