@@ -7,8 +7,8 @@
     
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:instrument:pvo.oims</logical_identifier>
-        <version_id>2.0</version_id>
-        <title>ION MASS SPECTROMETER (OIMS) for PIONEER VENUS</title>
+        <version_id>2.1</version_id>
+        <title>Orbiter Ion Mass Spectrometer (OIMS) for Pioneer Venus Orbiter</title>
         <information_model_version>1.20.0.0</information_model_version>
         <product_class>Product_Context</product_class>
         <Modification_History>
@@ -25,6 +25,13 @@
                 <version_id>2.0</version_id>
                 <description>
                     Updated to IM 1.20.0.0
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2024-08-27</modification_date>
+                <version_id>2.1</version_id>
+                <description>
+                    Updated title, instrument name, and instrument description
                 </description>
             </Modification_Detail>
         </Modification_History>
@@ -64,7 +71,7 @@
     </Reference_List>
     
     <Instrument>
-        <name>ION MASS SPECTROMETER (OIMS) for PIONEER VENUS</name>
+        <name>(OIMS) Orbiter Ion Mass Spectrometer</name>
         <Type_List_Area>
             <ctli:Type_List>
                 <ctli:type>Mass Spectrometer</ctli:type>
@@ -75,10 +82,6 @@
         <serial_number>not applicable</serial_number>
 
         <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
-        
            Using the Pioneer Venus Orbiter Ion Mass Spectrometer (OIMS), composition and concentration of thermal positive ions 
            in the ionosphere of Venus were determined and interpreted in terms of vertical and horizontal components. These provided 
            information on provided information on the solar wind interaction with Venus, upper atmosphere photochemistry, and the 
