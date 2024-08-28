@@ -7,8 +7,8 @@
     
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:instrument:pvo.omag</logical_identifier>
-        <version_id>2.0</version_id>
-        <title>FLUXGATE MAGNETOMETER (OMAG) for PIONEER VENUS</title>
+        <version_id>2.1</version_id>
+        <title>Fluxgate Magnetometer (OMAG) for Pioneer Venus Orbiter</title>
         <information_model_version>1.20.0.0</information_model_version>
         <product_class>Product_Context</product_class>
         <Modification_History>
@@ -25,6 +25,13 @@
                 <version_id>2.0</version_id>
                 <description>
                     Updated to IM 1.20.0.0
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2024-08-28</modification_date>
+                <version_id>2.1</version_id>
+                <description>
+                    Updated title, instrument name, instrument description
                 </description>
             </Modification_Detail>
         </Modification_History>
@@ -152,7 +159,7 @@
     </Reference_List>
     
     <Instrument>
-        <name>FLUXGATE MAGNETOMETER (OMAG) for PIONEER VENUS</name>
+        <name>(OMAG) Orbiter Magnetometer</name>
         <Type_List_Area>
             <ctli:Type_List>
                 <ctli:type>Magnetometer</ctli:type>
@@ -163,10 +170,6 @@
         <serial_number>not applicable</serial_number>
 
         <description>
- 
- INSTRUMENT OVERVIEW
- ===================
- 
         This experiment used a triaxial fluxgate magnetometer with two ring-core sensors at the end of a magnetometer boom 
         and one ring-core sensor, at 45 degrees to the spin axis, partway down the boom. The drive and electronics design had 
         been used on the Apollo 15 and 16 subsatellites. The objectives of this investigation were to: (1) determine any 
