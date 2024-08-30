@@ -71,7 +71,7 @@
     </Reference_List>
     
     <Instrument>
-        <name>(OIMS) Orbiter Ion Mass Spectrometer</name>
+        <name>Orbiter Ion Mass Spectrometer (OIMS)</name>
         <Type_List_Area>
             <ctli:Type_List>
                 <ctli:type>Mass Spectrometer</ctli:type>
