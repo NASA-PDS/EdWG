@@ -8,7 +8,7 @@
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:instrument:pvo.omag</logical_identifier>
         <version_id>2.1</version_id>
-        <title>Fluxgate Magnetometer (OMAG) for Pioneer Venus Orbiter</title>
+        <title>Orbiter Fluxgate Magnetometer (OMAG) for Pioneer Venus Orbiter</title>
         <information_model_version>1.20.0.0</information_model_version>
         <product_class>Product_Context</product_class>
         <Modification_History>
@@ -159,7 +159,7 @@
     </Reference_List>
     
     <Instrument>
-        <name>(OMAG) Orbiter Magnetometer</name>
+        <name>Orbiter Fluxgate Magnetometer (OMAG)</name>
         <Type_List_Area>
             <ctli:Type_List>
                 <ctli:type>Magnetometer</ctli:type>
