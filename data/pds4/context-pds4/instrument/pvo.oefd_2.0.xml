@@ -94,7 +94,7 @@
     </Reference_List>
     
     <Instrument>
-        <name>(OEFD) Orbiter Electric Field Detector</name>
+        <name>Orbiter Electric Field Detector (OEFD)</name>
         <Type_List_Area>
             <ctli:Type_List_Set>
                 <ctli:Type_List>
