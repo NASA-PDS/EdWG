@@ -150,7 +150,7 @@
     </Reference_List>
     
     <Instrument>
-        <name>(OEFD) Orbiter Electron Temperature Probe (OETP)</name>
+        <name>Orbiter Electron Temperature Probe (OETP)</name>
         <Type_List_Area>
             <ctli:Type_List>
                 <ctli:type>Langmuir Probe</ctli:type>
