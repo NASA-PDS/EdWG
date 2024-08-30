@@ -62,7 +62,7 @@
     </Reference_List>
   
   <Instrument>
-    <name>(ONMS) Orbiter Neutral Mass Spectrometer</name>
+    <name>Orbiter Neutral Mass Spectrometer  (ONMS)</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Mass Spectrometer</ctli:type>
