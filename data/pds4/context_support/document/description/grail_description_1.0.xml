@@ -5,20 +5,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
     <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context_support:document:apollo_16_description</logical_identifier>
+        <logical_identifier>urn:nasa:pds:context_support:document:grail_description</logical_identifier>
         <version_id>1.0</version_id>
-        <title>Apollo 16 Description</title>
+        <title>GRAIL Mission Description</title>
         <information_model_version>1.22.0.0</information_model_version>
         <product_class>Product_Document</product_class>
         <Citation_Information>
             <publication_year>2024</publication_year>
             <description>
-                Description of the Apollo 16 mission extracted from the PDS4 Apollo 16 mission.txt file.
+                Description of the GRAIL mission extracted from the PDS3 mission.cat file.
             </description>
         </Citation_Information>
         <Modification_History>
             <Modification_Detail>
-                <modification_date>2024-09-03</modification_date>
+                <modification_date>2024-08-05</modification_date>
                 <version_id>1.0</version_id>
                 <description>
                     Initial version.
@@ -27,14 +27,23 @@
         </Modification_History>
     </Identification_Area>
     <Document>
-        <publication_date>2016-10-19</publication_date>
+        <publication_date>2012</publication_date>
         <Document_Edition>
             <edition_name>MSWord</edition_name>
             <language>English</language>
             <files>1</files>
             <Document_File>
-                <file_name>apollo_16_description.docx</file_name>
+                <file_name>grail_description_1.0.docx</file_name>
                 <document_standard_id>Microsoft Word</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+        <Document_Edition>
+            <edition_name>Markdown</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <Document_File>
+                <file_name>grail_description_1.0.md</file_name>
+                <document_standard_id>7-Bit ASCII Text</document_standard_id>
             </Document_File>
         </Document_Edition>
     </Document>
