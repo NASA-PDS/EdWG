@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:service:isis</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>ISIS</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Service</product_class>
+        <Citation_Information>
+            <publication_year>2016-09-03</publication_year>
+            <description>Becker, K.J., et al. (2013) ISIS Support for NASA Mission Instrument Ground Data Processing Systems, Lunar Planet. Sci. XLIV, Houston, Texas, Abstract #2829. 
+            Becker, K.J. and Anderson, J.A. (2013) ISIS Support for the MRO/CRISM Instrument, Lunar Planet. Sci. XLIV, Houston, Texas, Abstract #2366. 
+            Keszthelyi, L., et al. (2013) Support and Future Vision for the Integrated Software for Imagers and Spectrometers (ISIS), Lunar Planet. Sci. XLIV, Houston, Texas, Abstract #2546.</description>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2016-09-06</modification_date>
+                <version_id>1.0</version_id>
+                <description>A new version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Service>
+        <name>ISIS</name>
+        <abstract_desc>ISIS is the USGS software package designed to ingest and manipulate image data from past and current NASA and many international planetary missions that have visited bodies in the Solar System.</abstract_desc>
+        <version_id>Version 3.0</version_id>
+        <url>https://isis.astrogeology.usgs.gov/index.html</url>
+        <release_date>2016-09-03</release_date>
+        <service_type>Tool</service_type>
+        <interface_type>API</interface_type>
+        <category>Analysis</category>
+        <category>Reader</category>
+        <category>Transformation</category>
+        <category>Visualization</category>
+        <software_language>C++</software_language>
+        <supported_operating_system_note>Unix variants, including Ubuntu, RHEL, Debian, Fedora, MAC OSX</supported_operating_system_note>
+        <system_requirements_note>Hardware requirements: 64-bit (x86) processor, 2 GB memory, 10 GB to 180 GB of disk space for ISIS installation, 10 GB to many TB of disk space for processing images, a quality graphics card</system_requirements_note>
+        <description>The Integrated System for Imagers and Spectrometers (ISIS) is a free, specialized digital image processing software package developed by the USGS Astrogeology Science Center for NASA. The current version is 3.0. A key feature of ISIS is the ability to place many types of planetary data in the correct cartographic location, enabling disparate data to be co-analyzed. ISIS also includes standard image processing applications such as contrast, stretch, image algebra, filters, and statistical analysis. ISIS can process two-dimensional images as well as three-dimensional cubes derived from a wide variety of sensors, including imaging spectrometers, radar sensors, thermal imagers, etc. The production of USGS topographic maps of extraterrestrial landing sites relies on ISIS software. ISIS works with data from many NASA and International spacecraft missions including Lunar Orbiter, Apollo, Voyager, Mariner 10, Viking, Galileo, Magellan, Clementine, Mars Global Surveyor, Cassini, Mars Odyssey, Mars Reconnaissance Orbiter, MESSENGER, Lunar Reconnaissance Orbiter, Chandrayaan, Dawn, Kaguya, and New Horizons.  The list of supported sensors grows each year.
+        </description>
+    </Service>
+    <Reference_List>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context_pds3:node:node.imaging</lid_reference>
+        <reference_type>has_node</reference_type>
+      </Internal_Reference>
+    </Reference_List>
+    <!--
+    Submitter Information
+    Submitter Name:        Lisa Gaddis
+    Submitter Institution: USGS Astrogeology Science Center
+    Submitter Email:       lgaddis@usgs.gov
+    -->
+</Product_Service>

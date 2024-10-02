@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:service:junocam_image_processor</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>JunoCam image processor</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Service</product_class>
+        <Citation_Information>
+            <publication_year>2019-10-10</publication_year>
+            <description>Software via Karol Masztalerz</description>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2019-10-10</modification_date>
+                <version_id>1.0</version_id>
+                <description>A new version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Service>
+        <name>JunoCam image processor</name>
+        <abstract_desc>Software used to process images from JunoCam instrument on Juno spacecraft</abstract_desc>
+        <version_id>1.1</version_id>
+        <url>https://github.com/AstroMasztalerz/JunoCamProcessor/releases</url>
+        <release_date>2019-10-10</release_date>
+        <service_type>Tool</service_type>
+        <interface_type>GUI</interface_type>
+        <category>Reader</category>
+        <category>Visualization</category>
+        <software_language>Java</software_language>
+        <supported_operating_system_note>Windows (Tested, full support)
+Linux, Mac OS (Experimental)</supported_operating_system_note>
+        <description>Compiled Java application used to process images from NASA's Juno spacecraft JunoCam imager.
+Supports PDS3/4 .IMG files with respective .LBL labels, or .PNG images from JunoCam outreach webpage</description>
+    </Service>
+    <!--
+Submitter Information
+Submitter Name:        Karol Masztalerz
+Submitter Institution: None
+Submitter Email:       karol.masztalerz2@gmail.com
+-->
+</Product_Service>
