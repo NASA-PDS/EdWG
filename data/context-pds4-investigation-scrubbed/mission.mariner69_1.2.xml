@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PDS4_PDS_1L00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1 PDS4_PDS_1L00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:mission.mariner69</logical_identifier>
+        <version_id>1.2</version_id>
+        <title>Mariner 69</title>
+        <information_model_version>1.21.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-06-24</modification_date>
+                <version_id>1.2</version_id>
+                <description>
+                    Added instruments. Added terse description and aliases. Fixed titles.
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2018-06-21</modification_date>
+                <version_id>1.1</version_id>
+                <description>
+                  replaced all lidvid_reference with lid_reference
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2016-10-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mr6</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mr7</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:irs.mr6</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:nac.mr6</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:uvs.mr6</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:wac.mr6</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:irs.mr7</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:nac.mr7</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:uvs.mr7</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:wac.mr7</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                   Mariner Mars 1969 - A preliminary Report. NASA SP-225, 1969.
+            </reference_text>
+            <description>Mariner 60 Preliminary Report</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Preliminary reports for the Mariner 6 and 7 missions.
+                   Volumes 165-166, 1969.
+            </reference_text>
+            <description>Preliminary Reports for Mariner 6 and 7</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Investigation>
+        <name>Mariner 69</name>
+        <type>Mission</type>
+        <start_date>1969-02-25</start_date>
+        <stop_date>1969-08-05</stop_date>
+        <description>
+            The Mariner 69 mission involved two uncrewed NASA spacecraft, Mariner 6 and Mariner 7, which completed the first dual mission to Mars in 1969 under the Mariner program. Mariner 6 launched from Launch Complex 36B and Mariner 7 from Launch Complex 36A at Cape Canaveral Air Force Station. Both spacecraft flew over Mars' equator and south polar regions, analyzing the atmosphere and surface using remote sensors. They recorded and relayed hundreds of images back to Earth. The mission aimed to study Mars' surface and atmosphere during close flybys, laying the groundwork for future investigations, particularly the search for extraterrestrial life. Additionally, it aimed to develop and demonstrate technologies needed for future Mars missions. Mariner 6 also provided valuable experience and data to aid the Mariner 7 encounter five days later.
+        </description>
+        <Alias_Index>       
+            <Alias_Index_Entry>        
+                <name>Mariner 6 and 7</name>        
+                <priority_order>1</priority_order>          
+            </Alias_Index_Entry>     
+            <Alias_Index_Entry>        
+                <name>Mariner Mars 69A</name>        
+                <priority_order>2</priority_order>          
+            </Alias_Index_Entry>  
+            <Alias_Index_Entry>        
+                <name>Mariner Mars 69B</name>        
+                <priority_order>3</priority_order>          
+            </Alias_Index_Entry>  
+        </Alias_Index>              
+    </Investigation>
+</Product_Context>
