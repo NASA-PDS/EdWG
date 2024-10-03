@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context_pds3:service:label_validation_tool</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Label Validation Tool (VTool)</title>
+    <information_model_version>1.6.0.0</information_model_version>
+    <product_class>Product_Service</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-07-10</modification_date>
+        <version_id>1.0</version_id>
+        <description>Migration from IPDA Tool Registry.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Service>
+    <name>Label Validation Tool (VTool)</name>
+    <abstract_desc>A Java-based command-line tool used for validating PDS3 data product labels.</abstract_desc>
+    <url>https://pds.nasa.gov/tools/about/pds3-tools/label-validation-tool.shtml</url>
+    <service_type>Tool</service_type>
+    <interface_type>Command-Line</interface_type>
+    <category>Validation</category>
+    <software_language>Java</software_language>
+    <supported_operating_system_note>Operating systems with a supported Java Virtual Machine (JVM) environment.</supported_operating_system_note>
+    <system_requirements_note>The Validation Tool was specifically developed under Java version 1.6 and has been tested with this version and version 1.7.</system_requirements_note>
+    <description>The Validation Tool (VTool) is intended for validating PDS3 product labels according to the PDS Standards and the Planetary Science Data Dictionary (PSDD).</description>
+  </Service>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context_pds3:node:node.en</lid_reference>
+      <reference_type>has_node</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <!--
+  Submitter Information
+  Submitter Name:        Sean Hardman
+  Submitter Institution: PDS Engineering Node (JPL)
+  Submitter Email:       Sean.H.Hardman@jpl.nasa.gov
+  -->
+</Product_Service>

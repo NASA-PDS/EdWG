@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:service:upc_database</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>UPC Database</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Service</product_class>
+        <Citation_Information>
+            <publication_year/>
+            <description>Becker, K.J., L.R. Gaddis, L.A. Soderblom, J.A. Anderson, J.M. Barrett, T.L. Becker, T.M. Hare, S.C. Sides, D.L. Soltesz, A. Stanboli, R.M. Sucharski, T.L. Sucharski, K.N. Winfree, 2007, The Unified Planetary Coordinates Database, 38th LPSC, abs. 2022 (see http://www.lpi.usra.edu/meetings/lpsc2007/pdf/2022.pdf)</description>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2016-09-06</modification_date>
+                <version_id>1.0</version_id>
+                <description>A new version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Service>
+        <name>UPC Database</name>
+        <abstract_desc>The UPC database containing improved geometric and positional information about planetary image data that has been computed using a uniform coordinate system and projection onto a common 3D planetary surface.</abstract_desc>
+        <url>http://pilot.wr.usgs.gov/index.php?view=downloads</url>
+        <service_type>Tool</service_type>
+        <interface_type>GUI</interface_type>
+        <category>Dissemination</category>
+        <category>Search</category>
+        <category>Visualization</category>
+        <description>The UPC (Unified Planetary Coordinates) is a database containing improved geometric and positional information about planetary image data that has been computed using a uniform coordinate system and projection onto a common (preferably 3D) planetary surface shape. The UPC is either accessed through the PILOT tool (http://pilot.wr.usgs.gov/) or by downloading the software directly (see http://pilot.wr.usgs.gov/index.php?view=downloads). The goals of the UPC are to build a uniform geometric database for all planetary orbital remote sensing data using the most current coordinate system and to make this database available to the scientific community in a variety of useful forms. The intent of the UPC is to provide the most accurate geometry, coordinates, and positional information for images taken by various spacecraft. The database is regularly being updated by both new and recalculated image data.  The UPC database is used by the Planetary Image Atlas and the Orbital Data Explorers.</description>
+    </Service>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context_pds3:node:node.imaging</lid_reference>
+            <reference_type>has_node</reference_type>
+        </Internal_Reference>
+    </Reference_List>
+    <!--
+    Submitter Information
+    Submitter Name:        Lisa Gaddis
+    Submitter Institution: USGS Astrogeology Science Center
+    Submitter Email:       lgaddis@usgs.gov
+    -->
+</Product_Service>

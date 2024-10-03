@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:service:nasa_ames_stereo_pipeline</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>NASA Ames Stereo Pipeline</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Service</product_class>
+        <Citation_Information>
+            <publication_year>2017-05-18</publication_year>
+            <description>Ross A. Beyer, Oleg Alexandrov, and Scott McMichael. (2017). NeoGeographyToolkit/StereoPipeline: Ames Stereo Pipeline 2.6.0. (Version v2.6.0). Zenodo. http://doi.org/10.5281/zenodo.581187</description>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2018-04-25</modification_date>
+                <version_id>1.0</version_id>
+                <description>A new version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Service>
+        <name>NASA Ames Stereo Pipeline</name>
+        <abstract_desc>ASP is a suite of free and open source stereogrammetry tools designed for processing stereo images and working with output terrain and orthoimages.</abstract_desc>
+        <version_id>2.6.0</version_id>
+        <url>https://github.com/NeoGeographyToolkit/StereoPipeline/releases</url>
+        <url>http://irg.arc.nasa.gov/ngt/stereo</url>
+        <release_date>2017-05-18</release_date>
+        <service_type>Tool</service_type>
+        <interface_type>API</interface_type>
+        <interface_type>Command-Line</interface_type>
+        <interface_type>GUI</interface_type>
+        <category>Analysis</category>
+        <category>Generation</category>
+        <category>Planning</category>
+        <category>Transformation</category>
+        <software_language>C++</software_language>
+        <software_language>Python</software_language>
+        <supported_operating_system_note>Linux and Mac OSX</supported_operating_system_note>
+        <description>The NASA Ames Stereo Pipeline (ASP) is a suite of free and open source automated geodesy and stereogrammetry tools designed for processing stereo images captured from satellites (around Earth and other planets), robotic rovers, aerial cameras, and historical images, with and without accurate camera pose information. It produces cartographic products, including digital elevation models (DEMs), ortho-projected images, 3D models, and bundle-adjusted networks of cameras. ASP's data products are suitable for science analysis, mission planning, and public outreach.</description>
+    </Service>
+    <!--
+    Submitter Information
+    Submitter Name:        Ross Beyer
+    Submitter Institution: SETI Institute and NASA Ames Research Center
+    Submitter Email:       Ross.A.Beyer@nasa.gov
+    -->
+</Product_Service>

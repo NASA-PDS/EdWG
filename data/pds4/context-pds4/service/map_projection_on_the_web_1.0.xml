@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_pds3:service:map_projection_on_the_web</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>POW, Map Projection on the Web</title>
+        <information_model_version>1.6.0.0</information_model_version>
+        <product_class>Product_Service</product_class>
+        <Citation_Information>
+            <publication_year/>
+            <description>T.M. Hare, S.W. Akins, R.M. Sucharski, M.S. Bailen and J.A. Anderson (2013), Map Projection Web Service for PDS Images, 44th LPSC, abs. 2068(see http://www.lpi.usra.edu/meetings/lpsc2013/pdf/2068.pdf).</description>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2016-09-06</modification_date>
+                <version_id>1.0</version_id>
+                <description>A new version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Service>
+        <name>POW, Map Projection on the Web</name>
+        <abstract_desc>POW provides users with the ability to find PDS planetary images using PILOT/UPC, select a subset, and send them to POW for ISIS processing, calibration, and map projection so that they are more usable.</abstract_desc>
+        <url>http://astrocloud.wr.usgs.gov/</url>
+        <url>http://pilot.wr.usgs.gov/</url>
+        <service_type>Service</service_type>
+        <interface_type>GUI</interface_type>
+        <category>Reader</category>
+        <category>Search</category>
+        <category>Transformation</category>
+        <category>Visualization</category>
+        <description>POW is part of the PILOT/UPC Web-based service that supports selection and transformation of a raw or EDR PDS image to a science-ready map projected image. POW allows the user to select and submit individual images to be processed on a compute cluster housed at USGS/Astreology using ISIS. POW provide users with calibrated cartographic images that can be used for geologic mapping, analysis in a Geographic Image System (GIS), change detection, merging of dissimilar instrument images, and use in a host of other scientific applications (e.g., ArcMAP, ENVI, Matlab, JMARS, etc.).</description>
+    </Service>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context_pds3:node:node.imaging</lid_reference>
+            <reference_type>has_node</reference_type>
+        </Internal_Reference>
+    </Reference_List>
+    <!--
+    Submitter Information
+    Submitter Name:        Lisa Gaddis
+    Submitter Institution: USGS Astrogeology Science Center
+    Submitter Email:       lgaddis@usgs.gov
+    -->
+</Product_Service>

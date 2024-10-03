@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context_pds3:service:orbital_data_explorer_rest_interface</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Orbital Data Explorer REST Interface</title>
+    <information_model_version>1.6.0.0</information_model_version>
+    <product_class>Product_Service</product_class>
+    <Citation_Information>
+      <publication_year>2015-05-01</publication_year>
+      <description>NASA PDS Geosciences Node. Orbital Data Explorer REST Interface. Computer software. Orbital Data Explorer REST Interface. Vers. 2.1. Washington University in St. Louis, May 2015. Web.</description>
+    </Citation_Information>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-07-10</modification_date>
+        <version_id>1.0</version_id>
+        <description>Migration from IPDA Tool Registry.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Service>
+    <name>Orbital Data Explorer REST Interface</name>
+    <abstract_desc>The Orbital Data Explorer (ODE) is a web-based search tool developed at NASA's Planetary Data System's (PDS) Geosciences Node. Through the REST interface, users can search, browse, and download a wide range of PDS Mars, Moon, Mercury, and Venus data.</abstract_desc>
+    <version_id>2.1</version_id>
+    <url>http://oderest.rsl.wustl.edu/</url>
+    <release_date>2015-05-01</release_date>
+    <service_type>Service</service_type>
+    <interface_type>Service</interface_type>
+    <category>Dissemination</category>
+    <category>Search</category>
+  </Service>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context_pds3:node:node.geoscience</lid_reference>
+      <reference_type>has_node</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <!--
+  Submitter Information
+  Submitter Name:        Tom Stein
+  Submitter Institution: NASA PDS Geosciences Node
+  Submitter Email:       tstein@wustl.edu
+  -->
+</Product_Service>
