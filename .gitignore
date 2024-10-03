@@ -30,6 +30,7 @@
 # Temporary files
 *~.*
 *~\$*
+*.*~
 
 # other stuff
 *.xpr
