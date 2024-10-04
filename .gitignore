@@ -40,4 +40,3 @@
 # Java stuff
 *.javac
 .gwt/
-target/
