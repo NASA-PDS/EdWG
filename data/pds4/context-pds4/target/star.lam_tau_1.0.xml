@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.sch"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+  xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1
+    https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.lam_tau</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Lambda Tauri</title>
+    <information_model_version>1.19.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias><alternate_title>35 Tauri</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>lam Tau</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>35 Tau</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>AG+12 402</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ALS 17279</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>BD+12 539</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>FK5 150</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GC 4805</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GCRV 2290</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GEN# +1.00025204</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GSC 00662-01546</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HD 25204</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HGAM 314</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIC 18724</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIP 18724</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HR 1239</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IRAS 03579+1221</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>JP11 842</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2MASS J04004082+1229253</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>N30 823</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PLX 883</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PMC 90-93 108</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PMSC 03551+1212Aabc</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PPM 119535</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ROT 590</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SAO 93719</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SBC7 154</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SBC9 211</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SBC9 212</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SKY# 6108</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SRS 30150</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TD1 2731</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TIC 242991317</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TYC 662-1546-1</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV 21328</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>uvby98 100025204</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WEB 3604</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WEB 3603</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>AAVSO 0355+12</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Gaia DR2 3305012316783145728</alternate_title></Alias>  <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2023-10-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Lambda Tauri</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 04 hours 00 minutes 40.8157175 seconds
+    Declination, ICRS coord, ep=J2000: +12 degrees 29 minutes 25.225937 seconds
+    </description>
+  </Target>
+</Product_Context>

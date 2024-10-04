@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.sch"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+  xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1
+    https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.pi.04_ori</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Pi4 Orionis</title>
+    <information_model_version>1.19.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias><alternate_title>3 Orionis</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>3 Ori</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>pi.04 Ori</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>AG+05 525</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ALS 14769</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>BD+05 745</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CSV 100415</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>FK5 179</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GC 5911</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GCRV 2859</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GEN# +1.00030836</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GSC 00092-02345</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HD 30836</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HGAM 347</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIC 22549</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIP 22549</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HR 1552</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IRAS 04485+0531</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>JP11 937</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2MASS J04511236+0536183</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>MCW 279</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>N30 1033</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>NSV 1742</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PLX 1086</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PLX 1086.00</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PMC 90-93 127</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PPM 148064</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ROT 686</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SAO 112142</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SBC7 195</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SBC9 283</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SKY# 7550</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SRS 30179</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SV* ZI 313</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TD1 3625</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TIC 452810783</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TYC 92-2345-1</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV 4665</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV M 10382</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>uvby98 100030836</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WEB 4358</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Gaia DR2 3287731941066932864</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Gaia DR3 3287731945364911232</alternate_title></Alias>  <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2023-10-12</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Pi4 Orionis</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 04 hours 51 minutes 12.3647208 seconds
+    Declination, ICRS coord, ep=J2000: +05 degrees 36 minutes 18.372305 seconds
+    </description>
+  </Target>
+</Product_Context>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.sch"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+  xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1
+    https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.zet_pup</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Zeta Puppis</title>
+    <information_model_version>1.19.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias><alternate_title>Suhail Hadar</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>zet Puppis</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Zeta Pup</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Suhail Hadar</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Suhail Hadar</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Naos</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>zet Pup</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ALS 949</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CD-39 3939</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CEL 2154</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CGO 179</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CMC 198752</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CPC 18 3433</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CPD-39 2011</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2E 1910</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2E 0801.8-3951</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>EM* CDS 710</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>1ES 0801-39.8</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>EUVE J0803-40.0</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>FK5 306</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GC 10947</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GCRV 5359</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GEN# +1.00066811</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GOS G255.98-04.71 01</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GSC 07663-04093</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HD 66811</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIC 39429</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIP 39429</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HR 3165</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IRAS 08018-3951</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>JP11 1626</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>LS 949</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2MASS J08033506-4000112</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>MCW 547</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>MOST 0801-398</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>N30 1854</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PMC 90-93 223</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PPM 312524</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ROT 1295</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>1RXS J080335.8-400110</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SACS 175</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SAO 198752</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SKY# 15171</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SRS 30306</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TD1 11723</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TIC 133422778</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TYC 7663-4093-1</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV 7751</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV M 13965</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UCAC4 250-023940</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>uvby98 100066811</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WEB 7714</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2XMM J080335.0-400011</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>EQ 0801-39.8</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Gaia DR3 5534788672055388032</alternate_title></Alias>  <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2023-10-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Zeta Puppis</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 08 hours 03 minutes 35.04754 seconds
+    Declination, ICRS coord, ep=J2000: -40 degrees 00 minutes 11.3321 seconds
+    </description>
+  </Target>
+</Product_Context>

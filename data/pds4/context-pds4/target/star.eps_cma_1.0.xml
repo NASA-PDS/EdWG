@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.sch"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+  xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1
+    https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1J00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.eps_cma</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Epsilon Canis Majoris</title>  <!--from wikipedia, Bayer designation-->
+    <information_model_version>1.19.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias><alternate_title>Adharaz</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Undara</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Adhara</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>ADS 5654</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>eps CMa</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>21 CMa</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CPO 7A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ADS 5654 A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>AKARI-IRC-V1 J0658375-285820</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ALS 14800</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>1AXG J065840-2857</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CCDM J06586-2858A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CD-28 3666</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CEL 1473</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CPD-28 1586</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CSI-28 3666 21</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2EUVE J0658-28.9</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>EUVE J0658-28.9</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>FK5 268</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GC 9188</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GCRV 4590</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GEN# +1.00052089</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GSC 06535-03619</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HD 52089</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIC 33579</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIP 33579</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HR 2618</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IDS 06547-2850 A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IRAS 06566-2854</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>JP11 1473</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2MASS J06583754-2858197</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IRC -30071</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>MCW 492</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>N30 1515</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PMC 90-93 192</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PPM 251347</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2RE J065836-285810</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2RE J0658-285</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>RE J065836-285811</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>RE J0658-285</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ROT 1127</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>RX J0658.6-2858</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SACS 151</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SAO 172676</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>1RXS J065837.3-285814</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SKY# 12435</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SRS 30268</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TD1 8751</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TIC 63198307</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TYC 6535-3619-1</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV 6891</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV M 12697</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>uvby98 100052089</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WDS J06586-2858A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WEB 6753</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2XMM J065837.5-285820</alternate_title></Alias>  <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2023-10-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Epsilon Canis Majoris</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 06 hours 58 minutes 37.54876 seconds
+    Declination, ICRS coord, ep=J2000: -28 degrees 58 minutes 19.5102 seconds
+    </description>
+  </Target>
+</Product_Context>
