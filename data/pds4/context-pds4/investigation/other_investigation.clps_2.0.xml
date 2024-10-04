@@ -1,0 +1,79 @@
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" 
+ schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:other_investigation.clps</logical_identifier>
+        <version_id>2.0</version_id>
+        <title>Commercial Lunar Payload Services (CLPS) Initiative</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>CLPS</alternate_id>
+                <alternate_title>CLPS</alternate_title>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-09-25</modification_date>
+                <version_id>2.0</version_id>
+                <description>Major changes per PDS Editorial Working Group efforts</description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2024-05-02</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.clps_to_2ab_pll</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:clps_to_2ab_pll.lets</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:clps_to_2ab_pll.nirvss</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:clps_to_2ab_pll.nss</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:clps_to_2ab_pll.pitms</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+            <reference_type>context_to_associate</reference_type>
+            <comment>investigation_to_agency</comment>
+        </Internal_Reference>
+        <External_Reference>
+            <doi>10.1109/SMC53992.2023.10394001</doi>
+            <reference_text> J. Schonfeld. Summary of the Contracted Deliveries of NASA Payloads to the Moon 
+                Via Commercial Lunar Payload Services (CLPS). 2023 IEEE International Conference on Systems, 
+                Man, and Cybernetics (SMC), Honolulu, Oahu, HI, USA, 863-866, 2023.
+            </reference_text>
+            <description>Summary of contracted deliveries to the Moon via the Commercial Lunar Payload Services (CLPS) initiative</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>https://science.nasa.gov/lunar-science/clps-deliveries/</reference_text>
+            <description>Official NASA Commercial Lunar Payload Services (CLPS) Deliveries page</description>
+        </External_Reference>
+    </Reference_List>
+    <Investigation>
+        <name>Commercial Lunar Payload Services (CLPS) Initiative</name>
+        <type>Other Investigation</type>
+        <start_date>2024-01-08</start_date>
+        <stop_date xsi:nil="true" nilReason="unknown"></stop_date>
+        <description>Through the Commercial Lunar Payload Services (CLPS) initiative, NASA is working with several American companies to deliver science experiments and technology demonstrations to the surface of the Moon. Individual NASA CLPS task order awards to US companies cover end-to-end delivery services for NASA sponsored instruments, including payload integration, mission operations, launch from Earth, and either landing on the surface of the Moon or being inserted in lunar orbit. The NASA sponsored instruments flying aboard CLPS landers are selected to advance capabilities for science, exploration or commercial development of the Moon, to scientifically study Earth’s nearest neighbor under the Artemis approach, and to test technologies to support human exploration to the Moon. In addition to the NASA payloads aboard, companies are also encouraged to fly their own instruments, such as lander cameras, as well as commercial payloads.</description>
+    </Investigation>
+</Product_Context>
