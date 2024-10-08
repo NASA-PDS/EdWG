@@ -28,7 +28,9 @@
 *.app
 
 # Temporary files
-*~
+*~.*
+*~\$*
+*.*~
 
 # other stuff
 *.xpr
@@ -36,6 +38,8 @@
 /bin/
 .*.swp
 *.sublime-*
+*\#*#
+*.DS_Store
 
 # Java stuff
 *.javac
