@@ -36,7 +36,11 @@
 /bin/
 .*.swp
 *.sublime-*
+*\#*#
 
 # Java stuff
 *.javac
 .gwt/
+
+# MS Products
+~$*

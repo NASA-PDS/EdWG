@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:gio.ope</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Optical Probe Experiment for GIO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:ope.gio</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.gio</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto_extended_mission</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Giovane, F., G. Eichorn, J. McKisson, J.L. Weinberg, A. Weisenberger, P. Lamy,
+                   A. Llebaria, M. Detaille, A.C. Levasseur_Regourd, and J.M. LeBlanc,
+                   Photomultiplier for optically probing Comet Halley, Applied Optics 30,
+                   2579-2591, 1991.
+            </reference_text>
+      <description>reference.GIOVANEETAL91</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Levasseur-Regourd, A. C., J. L. Bertaux, R. Dumont, M. Festou, R. H. Giese, F.
+                   Giovane, P. Lamy, A. Llebaria, and J. L. Weinberg (1986). 'The Giotto Optical
+                   Probe Experiment'. In 'The Giotto Mission - Its Scientific Investigations' (R.
+                   Reinhard and B. Battrick, Eds.) ESA SP-1077, pp. 129-148. ESA Publications
+                   Division, ESTEC, Noordwijk.
+            </reference_text>
+      <description>reference.REGOURDETAL86</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Optical Probe Experiment</name>
+    <type>Photometer</type>
+    <type>Polarimeter</type>
+    <!--RChen/EN was Photopolarimeter-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The optical probe technique is employed in this investigation to determine, unequivocally, changes in the densities of emissive gases (OH, C2, CN, CO+, and CS) and scattering dust, as well as to measure the optical properties of dust, in the coma of Halley's comet. The instrument contains no moving parts and performs photopolarimetric measurements parallel to the direction of motion through the coma. The choice of wavelengths is the following: 368, 444, 575, and 718 nm for dust, and 307, 387, 462, and 514 nm for gases. The rapid motion of the spacecraft allows line-of-sight measurements to be differenced so that the resulting brightnesses and polarizations refer to the small volume of space of about 140 km length centered at the moving probe.</description>
+  </Instrument>
+</Product_Context>
