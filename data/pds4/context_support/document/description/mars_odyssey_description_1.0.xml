@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Document xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_support:document:mars_odyssey_description</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Mars Odyssey Description</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Document</product_class>
+        <Citation_Information>
+            <publication_year>2024</publication_year>
+            <description>
+                Description of the Mars Odyssey mission extracted from the mission.txt file.
+            </description>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-10-03</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Initial version.
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Document>
+        <publication_date>2001-11-29</publication_date>
+        <Document_Edition>
+            <edition_name>MSWord</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <Document_File>
+                <file_name>mars_odyssey_description_1.0.docx</file_name>
+                <document_standard_id>Microsoft Word</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+        <Document_Edition>
+            <edition_name>Markdown</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <Document_File>
+                <file_name>mars_odyssey_description_1.0.md</file_name>
+                <document_standard_id>7-Bit ASCII Text</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+    </Document>
+</Product_Document>
