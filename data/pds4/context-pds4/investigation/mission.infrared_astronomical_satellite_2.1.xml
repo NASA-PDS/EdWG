@@ -31,9 +31,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>2.1</version_id>
         <description>Updates to descriptions and titles</description>
       </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>2.1</version_id>
+        <description>LIDVID references updated to be LID references. Adding missing "agency" references.</description>
+      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>investigation_to_agency</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:iras.fpa</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
@@ -47,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument_host</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:context:instrument_host:spacecraft.iras::1.0</lidvid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.iras</lid_reference>
       <reference_type>investigation_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>

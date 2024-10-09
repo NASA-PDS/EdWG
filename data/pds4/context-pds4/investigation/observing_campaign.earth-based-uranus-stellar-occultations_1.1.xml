@@ -21,12 +21,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>1.1</version_id>
         <description>Updates to descriptions and titles</description>
       </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>LIDVID references updated to be LID references. Adding missing "agency" references.</description>
+      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>investigation_to_agency</reference_type>
+    </Internal_Reference>
     <!--  Key Document  -->
     <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:uranus_occ_support:document:earth-based-uranus-stellar-occultations-user-guide::1.0</lidvid_reference>
+      <lid_reference>urn:nasa:pds:uranus_occ_support:document:earth-based-uranus-stellar-occultations-user-guide</lid_reference>
       <reference_type>investigation_to_document</reference_type>
       <comment>The Users Guide for all of the Earth-based Uranus system occultations.</comment>
     </Internal_Reference>

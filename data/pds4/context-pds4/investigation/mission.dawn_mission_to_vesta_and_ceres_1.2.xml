@@ -37,9 +37,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>1.2</version_id>
         <description>Updates to descriptions and titles</description>
       </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.2</version_id>
+        <description>Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>investigation_to_agency</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:dawn.vir</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
