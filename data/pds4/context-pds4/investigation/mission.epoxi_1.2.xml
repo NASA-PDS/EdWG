@@ -109,11 +109,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:target:star.bd+36_2593</lid_reference>
+      <lid_reference>urn:nasa:pds:context:target:star.bd_36_2593</lid_reference>
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:target:star.bd+47_2846</lid_reference>
+      <lid_reference>urn:nasa:pds:context:target:star.bd_47_2846</lid_reference>
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -127,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
     <Internal_Reference>
       <!-- was star.gsc_03089-00929 -->
-      <lid_reference>urn:nasa:pds:context:target:star.1swasp_j175207.01+373246.3</lid_reference>
+      <lid_reference>urn:nasa:pds:context:target:star.1swasp_j175207.01_373246.3</lid_reference>
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>
