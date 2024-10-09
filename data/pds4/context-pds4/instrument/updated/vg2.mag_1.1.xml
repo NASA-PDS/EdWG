@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:vg2.mag</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Triaxial Fluxgate Magnetometer for VG2</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:mag.vg2</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.vg2</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.voyager</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Acuna, M.H., L.F. Burlaga, R.P. Lepping, and N.F. Ness, Initial Results
+                   from the Voyager 1 and 2 Magnetic Field Experiments, Proceedings of the
+                   Solar Wind IV Conference, Burghausen, 1978, H. Rosenbauer (Ed.), Max
+                   Planck Institut, Rept. No. MPAE-W-100-81-31, 1981.
+            </reference_text>
+      <description>reference.ACUNAETAL1981A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Behannon, K.W., M.H. Acuna, L.F. Burlaga, R.P. Lepping, N.F. Ness, and F.M.
+                   Neubauer, Magnetic Field Experiment for Voyagers 1 and 2, Space Sci. Rev., Vol.
+                   21, p. 235, 1977.
+            </reference_text>
+      <description>reference.BEHANNONETAL1977</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Ness, N.F., K.W. Behannon, R.P. Lepping, and K.H. Schatten, Use of Two
+                   Magnetometers for Magnetic Field Measurements on a Spacecraft, J. Geophys.
+                   Res., Vol. 76, p. 3564, 1971.
+            </reference_text>
+      <description>reference.NESSETAL1971</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Ness, N.F., M.H. Acuna, R.P. Lepping, L.F. Burlaga, K.W. Behannon, and
+                   F.M. Neubauer, Magnetic Field Studies at Jupiter by Voyager 2: Preliminary
+                   Results, Science, Vol. 206, p. 966, 1979.
+            </reference_text>
+      <description>reference.NESSETAL1979A</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Triaxial Fluxgate Magnetometer</name>
+    <type>Magnetometer</type>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>This experiment was designed to investigate (1) the magnetic fields of Jupiter, Saturn, Uranus, and Neptune and (2) the solar-wind interaction of the magnetospheres of these planets with the interplanetary magnetic field out to the solar-wind boundary with the interstellar magnetic field, and beyond, if crossed. The investigation was carried out using two high-field and two low-field triaxial fluxgate magnetometers. Data accuracy of the interplanetary fields was plus or minus 0.1 nT, and the range of measurements was from 0.01 nT to 2.E-3 T.</description>
+  </Instrument>
+</Product_Context>

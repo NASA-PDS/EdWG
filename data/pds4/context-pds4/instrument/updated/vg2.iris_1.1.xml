@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:vg2.iris</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Infrared Interferometer Spectrometer and Radiometer (IRIS) for VG2</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:iris.vg2</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.vg2</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.voyager</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Hanel, R.A., D. Crosby, L.W. Herath, D. Vanous, D.
+                   Collins, H. Creswick, C. Harris, and M. Rhodes, Infrared
+                   Spectrometer for Voyager, Applied Optics, 19, 1391-1400,
+                   1980.
+            </reference_text>
+      <description>reference.HANELETAL1980A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Hanel, R.A., B.J. Conrath, L.W. Herath, V.G. Kunde, and
+                   J.A. Pirraglia, Albedo, Internal Heat, and Energy Balance
+                   of Jupiter: Preliminary Results of the Voyager Infrared
+                   Investigation, J. Geophys. Res., 86, 8705-8712, 1981.
+            </reference_text>
+      <description>reference.HANELETAL1981A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Pearl, J.C., and B.J. Conrath, The Albedo, Effective
+                   Temperature, and Energy Balance of Neptune, as Determined
+                   from Voyager Data, J. Geophys. Res., 96, 18, 921-18, 930,
+                   1991.
+            </reference_text>
+      <description>reference.PEARL-CONRATH1991</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Infrared Interferometer Spectrometer and Radiometer</name>
+    <type>Spectrometer</type>
+    <!--RChen/EN was Infrared Spectrometer-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>This investigation was carried out using a Michelson interferometer and a single-channel radiometer similar in design to the Mariner 9 IRIS, combined into a single instrument. The investigation studied both global and local energy balance. Atmospheric composition was also investigated, including determination of the H2/He ratio, and the abundance of CH2 and NH3. Vertical temperature profiles were obtained on the planets and satellites with atmospheres. Studies of the composition, thermal properties, and size of particles in Saturn's rings were conducted. The interferometer had a spectral range of approximately 180 to 2500 1/cm (4-55 micrometers), while the radiometer range covered the spectra from approximately 5000 to 30000 1/cm (0.33-2 micrometers). The nominal apodized spectral resolution of the interferometer was 4.3 1/cm. The instruments shared a half-meter Cassegrain telescope with a 0.25-deg field of view. The basic quantity measured was the spectral radiance of emitted and reflected IR radiation and a large fraction of reflected visible energy. The interferometer was calibrated using deep space (assumed to be a black body at 0 deg K) and the internal instrument temperature as reference points. The radiometer was calibrated with a diffuser plate of known radiometric properties.</description>
+  </Instrument>
+</Product_Context>

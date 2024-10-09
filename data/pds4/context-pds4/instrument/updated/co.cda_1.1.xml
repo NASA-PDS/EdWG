@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:cda.co</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Cosmic Dust Analyzer for CO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.co</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.cassini-huygens</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Srama, R., T.J. Ahrens, N. Altobelli, S. Auer, J.G. Bradley, M. Burton, V.V.
+                   Dikarev, T. Economou, H. Fechtig, M. Goerlich, M. Grande, A. Graps, E. Gruen,
+                   O. Havnes, S. Helfert, M. Horanyi, E. Igenbergs, E.K. Jessberger, T.V. Johnson,
+                   S. Kempf, A.V. Krivov, H. Krueger, A. Mocker-Ahlreep, G. Moragas-Klostermeyer,
+                   P. Lamy, M. Landgraf, D. Linkert, G. Linkert, F. Lura, J.A.M. McDonnell, D.
+                   Moehlmann, G.E. Morfill, M. Mueller, M. Roy, G. Schaefer, G. Schlotzhauer, G.H.
+                   Schwehm, F. Spahn, M. Stuebig, J. Svestka, V. Tschernjawski, A.J. Tuzzolino, R.
+                   Waesch, H.A. Zook, The Cassini Cosmic Dust Analyzer. Space Sci. Rev., Volume
+                   114, Issue 1-4, pp.465-518, 2004
+            </reference_text>
+      <description>reference.SRAMAETAL2004B</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Cosmic Dust Analyzer</name>
+    <type>Dust</type>
+    <!--RChen/EN was Cosmic Dust Analyzer -->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Cosmic Dust Analyser instrument (CDA) on the Cassini orbiter is the successor of the dust detectors flown on the Ulysses and the Galileo spacecraft. The instrument accomplishes the detection of dust impacts by two different means: (1) a high rate detector (HRD) using two separate polyvinylidene fluoride (PVDF) sensors, and (2) a Dust Analyser (DA) based upon impact ionization.  The DA measures the electric charges carried by the dust particle, the impact direction, the impact speed, mass, and the chemical composition, whereas the HRD is only capable to determine the mass for particles with a known speed.  The DA detector consists of three components: the charge detection unit, the impact ionization detector itself, and the time-of-flight (TOF) mass spectrometer.</description>
+  </Instrument>
+</Product_Context>

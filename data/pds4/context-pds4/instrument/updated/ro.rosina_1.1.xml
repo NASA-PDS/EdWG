@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:ro.rosina</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Rosetta Orbiter Spectrometer for Ion and Neutral Analysis (ROSINA) for RO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:rosina.ro</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.ro</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.international_rosetta_mission</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Altwegg, K., A. Jackel, H. Balsiger, E. Arijs, J.J. Berthelier, S. Fuselier, F.
+                   Gliem, T. Gombosi, A. Korth, and H. Reme, ROSINA's scientific perspective at
+                   comet Churyumov-Gerasimenko, Astrophysics and Space Science Library, Vol. 311,
+                   2004.
+            </reference_text>
+      <description>reference.ALTWEGGETAL2004</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Balsiger, H., K. Altwegg, P. Bochsler, P. Eberhardt, J. Fischer, and 45 others,
+                   ROSINA - Rosetta Orbiter Spectrometer for Ion and Neutral Analysis, Space Sci.
+                   Rev., 128(1-4), 745-801, Feb. 2007.
+            </reference_text>
+      <description>reference.BALSIGERETAL2007</description>
+    </External_Reference>
+
+  </Reference_List>
+  <Instrument>
+    <name>Rosetta Orbiter Spectrometer for Ion and Neutral Analysis</name>
+    <type>Spectrometer</type>
+    <!--RChen/EN was Mass Spectrometer-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Rosetta Orbiter Spectrometer for Ion and Neutral Analysis (ROSINA) instrument consists of three sensors, a double focusing magnetic mass spectrometer, a reflectron time-of-flight mass spectrometer, and a neutral and ion dynamics monitor. The primary scientific objectives for the experiment are to: 1) determine the elemental, isotopic molecular composition of cometary atmosphere and ionosphere; 2) measure bulk velocities of neutral and ionized components; 3) study homogeneous and inhomogeneous reactions of neutrals and ions in dusty cometary atmosphere and ionosphere; and 4) investigate possible asteroid outgassing.</description>
+  </Instrument>
+</Product_Context>

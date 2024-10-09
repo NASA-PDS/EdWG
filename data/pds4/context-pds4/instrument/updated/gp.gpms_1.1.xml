@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:gp.gpms</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Galileo Probe Mass Spectrometer for GP</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:gpms.gp</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.gp</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.galileo</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Niemann, H.B., D.N. Harpold, S.K. Atreya, G.R. Carignan, D.M. Hunten, and T.C.
+                   Owen, Galileo Probe Mass Spectrometer experiment, Space Science Reviews volume
+                   60, pp 111-142, 1992
+            </reference_text>
+      <description>reference.NIEMANNETAL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Niemann, H.B., S.K. Atreya, G.R. Carignan, T.M. Donahue, J.A. Haberman, D.N.
+                   Harpold, R.E. Hartle, D.M. Hunten, W.T. Kasprzak, P.R. Mahaffy, T.C. Owen, N.W.
+                   Spencer, and S.H. Way, The Galileo Probe Mass Spectrometer: Composition of
+                   Jupiter's Atmosphere, Science 272, pp 846-849, 1996
+            </reference_text>
+      <description>reference.NIEMANNETAL1996</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Galileo Probe Mass Spectrometer</name>
+    <type>Spectrometer</type>
+    <!--RChen/EN was Mass Spectrometer-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Galileo Probe Mass spectrometer (GPMS) is an instrument designed to measure the chemical and isotopic composition in the atmosphere of Jupiter, including the vertical variations of the constituents.  The measurements were performed by in-situ sampling of the ambient atmosphere in the pressure range from approximately 0.5 to 21 bars.  In addition, batch sampling was performed for noble gas composition measurement and isotopic ratio determination, and for sensitivity enhancement of non-reactive trace gases.</description>
+  </Instrument>
+</Product_Context>

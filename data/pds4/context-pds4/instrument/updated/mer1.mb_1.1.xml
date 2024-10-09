@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:mb.mer1</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Moessbauer (MB) Spectrometer for MER1</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mer1</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_exploration_rover</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Klingelhoefer, G., et al., The Athena MIMOS II Moessbauer Spectrometer
+                   Investigation, Journal of Geophysical Research, 2003.
+            </reference_text>
+      <description>reference.KLINGELHOFERETAL2003</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Moessbauer Spectrometer</name>
+    <type>Spectrometer</type>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>Moessbauer (MB) spectroscopy is a powerful tool for quantitative mineralogical analysis of Fe-bearing materials. The miniature MB spectrometer MIMOS II is a component of the Athena science payload to be launched to Mars in 2003 on both Mars Exploration Rover missions. The instrument has two major components: (1) a rover-based electronics board which contains power supplies, a dedicated central processing unit, memory, and associated support electronics and (2) a sensor head that is mounted at the end of the instrument deployment device (IDD) for placement of the instrument in physical contact with soil and rock. The velocity transducer operates at a nominal frequency of ~25 Hz and is configured with two 57Co/Rh MB sources. One source (~5 mCi landed intensity), together with a reference target (alpha-Fe2O3 plus alpha-Fe0) and PIN diode detector in transmission geometry, are internal to the sensor head and is used for instrument calibration. The other source (~150 mCi landed intensity), together with four PIN diodes in backscatter measurement geometry, irradiates Martian surface materials with a beam diameter of ~1.4 cm after passing through a collimator. Physical contact with surface materials is sensed with a switch-activated contact plate. The contact plate and internal reference target are instrumented with temperature sensors. Assuming ~18% Fe for Martian surface materials, experiment time is 6-12 hours during the night for quality spectra (i.e., good counting statistics); 1-2 hours is sufficient to identify and quantify the most abundant Fe-bearing phases. Data stored internal to the instrument for selectable return to Earth include MB and pulse-height analysis spectra (256 channels each) for each of the five detectors in up to 13 temperature intervals (65 MB spectra), engineering data for the velocity transducer, and temperature measurements. The total data volume is ~150 kByte. The mass and power consumption are ~500 g (~400g for the sensor head) and ~2 W, respectively. The scientific measurement objectives of the MB investigation are to obtain for rock, soil, and dust (1) the mineralogical identification of iron-bearing phases (e.g., oxides, silicates, sulfides, sulfates, and carbonates), (2) the quantitative measurement of the distribution of iron among these iron-bearing phases (e.g., the relative proportions of iron in olivine, pyroxenes, ilmenite and magnetite in a basalt), and (3) the quantitative measurement of the distribution of iron among its oxidation states (e.g., Fe2+, Fe3+, and Fe6+). Special geologic targets of the MB investigation are dust collected by the Athena magnets and exterior and interior rock and soil surfaces exposed by the Athena Rock Abrasion Tool and by trenching with rover wheels, respectively.</description>
+  </Instrument>
+</Product_Context>

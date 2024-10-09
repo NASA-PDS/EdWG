@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:mgs.mola</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Mars Orbiter Laser Altimeter (MOLA) for MGS</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mgs</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_global_surveyor</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Byer, R.L., Diode laser-pumped solid state lasers, Science, 239, 742-747,
+                   1988.
+            </reference_text>
+      <description>reference.BYERETAL1988</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Cross, P.S., G.L. Harnagel, W. Streifer, D.R. Scifres, and D.F. Welch,
+                   Ultrahigh-power semiconductor diode laser arrays, Science, 237, 1305-1309,
+                   1987.
+            </reference_text>
+      <description>reference.CROSSETAL1987</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Kaula, W.M., G. Schubert, R.E. Lingenfelter, W.L. Sjogren, and W.R.
+                   Wollenhaupt, Analysis and interpretation of lunar laser altimetry,
+                   Proceedings of the III Lunar Science Conference, 2819-2204, 1972.
+            </reference_text>
+      <description>reference.KAULAETAL1972</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Kaula, W.M., G. Schubert, R.E. Lingenfelter, W.L. Sjogren, And W.R.
+                   Wollenhaupt, Lunar topography from Apollo 15 and 16 laser altimetry,
+                   Proceedings of the IV Lunar Science Conference, 2811-2819, 1973.
+            </reference_text>
+      <description>reference.KAULAETAL1973</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Kaula, W.M., G. Schubert, R.E. Lingenfelter, W.L. Sjogren, and W.R.
+                   Wollenhaupt, Apollo laser altimetry and inferences as to lunar structure,
+                   Proceedings of the V Lunar Science Conference, 3049-3050, 1974.
+            </reference_text>
+      <description>reference.KAULAETAL1974</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Smith, W.H.F., and P. Wessel, Gridding with continuous curvature splines
+                   under tension, Geophysics, 55, 293-305, 1990.
+            </reference_text>
+      <description>reference.SMITH-WESSEL1990</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Smith, D.E., M.T. Zuber, H.V. Frey, J.B. Garvin, J.W. Head, D.O. Muhleman,
+                   G.H. Pettengill, R.J. Phillips, S.C. Solomon, H.J. Zwalley, W.B. Banerdt,
+                   and T.C. Duxbury, Topography of the northern hemisphere of Mars from the
+                   Mars Orbiter Laser Altimeter, Science, 279, 1686-1692, 1998.
+            </reference_text>
+      <description>reference.SMITHETAL1998</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Sun, X., F.M. Davidson, L. Boutsikais, and J.B. Abshire, Receiver
+                   characteristics of laser altimeters with avalanche photodiode, IEEE Trans.
+                   Aerosp. Electron. Syst., 28, 268-274, 1992.
+            </reference_text>
+      <description>reference.SUNETAL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Sun, X., J.B. Abshire, G.A. Neumannn, and M.T. Zuber, Radiometry
+                   measurements Of Mars at 1064 nm using the Mars Orbiter Laser Altimeter,
+                   EOS Transactions, American Geophysical Union, Fall Meeting Supplement, 82
+                   (47), p. F723, 2001.
+            </reference_text>
+      <description>reference.SUNETAL2001</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Zuber, M.T., D.E. Smith, S.C. Solomon, D.O. Muhleman, J.W. Head, J.B. Garvin,
+                   J.B. Abshire, and J.L. Bufton, The Mars Observer Laser Altimeter Investigation,
+                   J. Geophys. Res., 97, 7781-7797, 1992.
+            </reference_text>
+      <description>reference.ZUBERETAL1992</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Mars Orbiter Laser Altimeter</name>
+    <type>Altimeter</type>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Mars Orbiter Laser Altimeter (MOLA) on the Mars Global Surveyor is designed to map the martian global topography and can also be used to measure the height of water and carbon dioxide clouds. This information will be used for scientific objectives including: 1) to study the surface processes on Mars, including the formation and evolution of volcanoes, basins, channels and the polar ice caps; 2) combined with gravity and other data, to study the structure and evolution of the interior of Mars, including the lithospheric thickness and strength, internal convection, composition, thermal history, and release of water and carbon dioxide to the surface; 3) to calculate the volume and seasonal changes in the polar ice deposits; and 4) to measure the altitude and distribution of water and carbon dioxide clouds, for the purpose of constraining the volatile budget in the martian atmosphere.</description>
+  </Instrument>
+</Product_Context>

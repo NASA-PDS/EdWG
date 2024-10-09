@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:radar.co</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Radar for CO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.co</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.cassini-huygens</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Elachi, C., M.D. Allison, L. Borgarelli, P. Encrenaz, E. Im, M.A. Janssen,
+                   W.T.K. Johnson, R.L. Kirk, R.D. Lorenz, J.I. Lunine, D.O. Muhleman, S.J. Ostro,
+                   G. Picardi, F. Posa, C.G. Rapley, L.E. Roth, R. Seu, L.A. Soderblom, S.
+                   Vetrella, S.D. Wall, C.A. Wood and H.A. Zebker, RADAR: The Cassini Titan RADAR
+                   Mapper, Space Science Reviews, Vol. 115, No. 1-4, pp. 71-110, 2004.
+            </reference_text>
+      <description>reference.ELACHIETAL2004</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Elachi, C., S. Wall, M. Allison, Y. Anderson, R. Boehmer, P. Callahan, P.
+                   Encrenaz, E. Flamini, G. Franceschetti, Y. Gim, G. Hamilton, S. Hensley, M.
+                   Janssen, W. Johnson, K. Kelleher, R. Kirk, R. Lopes, R. Lorenz, J. Lunine, D.
+                   Muhleman, S. Ostro, F. Paganelli, G. Picardi, F. Posa, L. Roth, R. Seu, S.
+                   Shaffer, L. Soderblom, B. Stiles, E. Stofan, S. Vetrella, R. West, C. Wood, L.
+                   Wye, and H. Zebker, Cassini Radar Views the Surface of Titan, Science, Vol.
+                   308, No. 5724, pp. 970-974, 2005.
+            </reference_text>
+      <description>reference.ELACHIETAL2005</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Radar</name>
+    <type>Radio-Radar</type>
+    <!--RChen/EN was RADAR-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Cassini Radar (RADAR) uses the five-beam Ku-band antenna feed assembly associated with the spacecraft high gain antenna to direct radar transmissions toward targets, and to capture blackbody radiation and reflected radar signals from targets. RADAR scientific objectives are (1) to determine whether oceans exist on Titan, and, if so, to determine their distribution; (2) to investigate the geologic features and topography of the solid surface of Titan; (3) to acquire data on non-Titan targets (rings, icy satellites) as conditions permit.</description>
+  </Instrument>
+</Product_Context>

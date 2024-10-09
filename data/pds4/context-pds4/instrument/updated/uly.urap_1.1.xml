@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:uly.urap</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Unified Radio and Plasma Wave Experiment for ULY</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:urap.uly</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.ulysses</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   MacDowall, R.J., R.A. Hess, N. Lin, G. Thejappa, A. Balogh, and J.L. Phillips,
+                   Ulysses spacecraft observations of radio and plasma waves: 1991:1995, submitted
+                   to Astron. Astrophys., 1996.
+            </reference_text>
+      <description>reference.MACDOWALLETAL1996</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Stone, R.G., J.L. Bougeret, J. Caldwell, P. Canu, Y. de Conchy, N.
+                   Cornilleau-Wehrlin, M.D. Desch, J. Fainberg, K. Goetz, M.L. Goldstein, C.C.
+                   Harvey, S. Hoang, R. Howard, M.L. Kaiser, P.J. Kellogg, B. Klein, R. Knoll, A.
+                   Lecacheux, D. Lengyel-Frey, R.J. MacDowall, R. Manning, C.A. Meetre, A. Meyer,
+                   N. Monge, S. Monson, G. Nicol, M.J. Reiner, J.L. Steinberg, E. Torres, C. de
+                   Villedary, F. Wouters, and P. Zarka, The Unified Radio and Plasma Wave
+                   Investigation, Astron. Astrophys. Suppl. Ser. 92, 291-316, 1992.
+            </reference_text>
+      <description>reference.STONEETAL1992A</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Unified Radio and Plasma Wave Experiment</name>
+    <type>Plasma Wave Spectrometer</type>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The objectives of this investigation are (1) to investigate source positions of travelling solar radio bursts in the range from dc to 1 MHz; (2) to investigate the large-scale magnetic field topology and the electron density along the exciter trajectory as a function of heliographic latitude and longitude at distances of 0.1 AU to approximately 5 AU; (3) to investigate Jovian radio source locations in the range from dc to 1 MHz; and (4) to investigate waves in the plasma between dc and 35 kHz, their instabilities, their energy transport mechanisms, and the thermal electron density.</description>
+  </Instrument>
+</Product_Context>
