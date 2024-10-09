@@ -4,7 +4,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.con</logical_identifier>
-    <version_id>1.1</version_id>
+    <version_id>1.2</version_id>
     <title>COMET NUCLEUS TOUR</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
@@ -28,9 +28,38 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     modified to comply with PDS4 Information Model
                 </description>
       </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.2</version_id>
+        <description>Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_host_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:crispimag.con</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ngims.con</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:cida.con</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:cfi.con</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:crispspec.con</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.contour_mission</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
@@ -74,40 +103,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>COMET NUCLEUS TOUR</name>
     <type>Spacecraft</type>
     <naif_host_id>CON</naif_host_id>
-    <description>
- 
-The spacecraft design is simple. CONTOUR has few articulated mechanisms; the
-solar array is body mounted and does not require drive motors. The mission
-geometry allows CONTOUR to use fixed, passive, existing antenna designs. With
-the exception of along-track pointing of CRISP,all instrument pointing and
-antenna pointing is controlled by moving the spacecraft. A dust shield made
-of Nextel and Kelvar protects against impacts for the dust sizes and
-densities expected at the three encounters.
- 
-From http://www.contour2002.org/overview2.html
- 
-The core of the CONTOUR imaging and spectral mapping experiments is the
-CRISP. It will have a target tracking capability to ensure that the key
-high-resolution frames are obtained. The instrument payload also includes
-CFI, a simple wide-angle camera to serve as backup and provide global views
-of the nucleus and coma.
- 
-The mass spectrometer, NGIMS, and dust analyzer, CIDA, will be mounted to
-look in the direction of flight at closest approach. NGIMS will be provided
-by NASA Goddard Space Flight Center. It will be placed on the spacecraft
-within the dust shield as far forward as possible to minimize contamination
-from spacecraft impact debris. The CIDA will be a significantly improved
-version of instruments that were flown successfully on Vega and Giotto during
-the Halley encounters.
- 
-From http://www.contour2002.org/overview3.html
- 
-Copyright 2002 NASA Discovery Program
-Used by Permission
- 
-The reference is listed as N/A (not applicable) below because the mission
-ended before any significant publications.
-
-        </description>
+    <description>Comet Nucleus Tour (CONTOUR)  was launched in 2002.</description>
   </Instrument_Host>
 </Product_Context>

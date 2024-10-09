@@ -4,7 +4,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.gp</logical_identifier>
-    <version_id>1.1</version_id>
+    <version_id>1.2</version_id>
     <title>GALILEO PROBE</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
@@ -28,9 +28,50 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     modified to comply with PDS4 Information Model
                 </description>
       </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.2</version_id>
+        <description>Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_host_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:had.gp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nfr.gp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:dwe.gp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lrd.gp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gpms.gp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:epi.gp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nep.gp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:asi.gp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.galileo</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
@@ -91,47 +132,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>GALILEO PROBE</name>
     <type>Spacecraft</type>
     <naif_host_id>GP</naif_host_id>
-    <description>
- 
- 
-         Instrument Host Overview
-         ========================
- 
-         The Galileo spacecraft consists of two parts, an orbiter
-         (SPACECRAFT_ID = 'GO') and a probe (SPACECRAFT_ID = 'GP').
-         Spacecraft power is provided by two radioisotope
-         thermoelectric generators. Propulsion is accomplished via a
-         bipropellant system of twelve 10- newton thrusters and one
-         400 newton engine. The command and data subsystem consists
-         of multiple microprocesors and a high-speed data bus.
- 
-         The Galileo atmospheric probe will be deployed from the
-         orbiter 150 days prior to Jupiter encounter. The probe
-         consists of a deceleration module and a descent module. It
-         weighs about 331 kilograms, half of which is the heat
-         shield. After entering the Jovian atmosphere and slowing its
-         descent, the descent module deploys a 2.5 meter parachute
-         and begins transmitting data from its instruments at a rate
-         of 128 bits per second. (Refer to Yeates, et al, 1985;
-         Johnson, et al, 1992.)
- 
-       Platform Description
-       --------------------
- 
-         Platform PROBE DESCENT MODULE
- 
-           The atmospheric descent module contains seven scientific
-           instruments: the atmospheric structure instrument (ASI), the
-           neutral mass spectrometer (NMS), the helium abundance
-           detector (HAD), the nephelometer (NEP), the net-flux
-           radiometer (NFR), the lightning and radio emissions detector
-           (LRD), and the energetic particles instrument (EPI). The
-           instruments are contained in hermetically sealed housings
-           designed to withstand a pressure of 20 bars. The instrument
-           data are transmitted to the orbiter over two simultaneously
-           operating channels in the L band. (Refer to Yeates, et al,
-           1985; Johnson, et al, 1992.)
-
-        </description>
+    <description>IThe Galileo atmospheric probe will be deployed from the orbiter 150 days prior to Jupiter encounter. The probe consists of a deceleration module and a descent module. After entering the Jovian atmosphere, the descent module begins transmitting data from its instruments.</description>
   </Instrument_Host>
 </Product_Context>
