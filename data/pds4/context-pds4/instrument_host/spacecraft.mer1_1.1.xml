@@ -1,140 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1700.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1700.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mer1</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mer1</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>MARS EXPLORATION ROVER 1</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
-        <title>MARS EXPLORATION ROVER 1</title>
-        <information_model_version>1.7.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:investigation:mission.mars_exploration_rover::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:apxs.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:descam.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> -->
-<!--            <lidvid_reference>urn:nasa:pds:context:instrument:eng.mer1::1.0</lidvid_reference> -->
-<!--            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:hazcam.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:imu.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:mb.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:mi.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:mini-tes.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:navcam.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:pancam.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:rat.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:rss.mer1::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--noSpice        <Internal_Reference> -->
-<!--noSpice            <lidvid_reference>urn:nasa:pds:context:instrument:spice.mer1::1.0</lidvid_reference> -->
-<!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--noSpice        <Internal_Reference> -->
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:target:planet.mars::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:investigation:mission.mars_exploration_rover::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:apxs.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:descam.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lidvid_reference>urn:nasa:pds:context:instrument:eng.mer1::1.0</lidvid_reference> -->
+    <!--            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:hazcam.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:imu.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:mb.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:mi.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:mini-tes.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:navcam.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:pancam.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:rat.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:rss.mer1::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lidvid_reference>urn:nasa:pds:context:instrument:spice.mer1::1.0</lidvid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:target:planet.mars::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Arvidson, R.E., et al., Physical properties and localization investigations
                    associated with the 2003 Mars Exploration rovers, J. Geophys. Res., 108(E12),
                    8070, doi:10.1029/2002JE002041, 2003.
             </reference_text>
-            <description>reference.ARVIDSONETAL2003</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ARVIDSONETAL2003</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
                    science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
             </reference_text>
-            <description>reference.ASMAR-RENZETTI1993</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Crisp, J.A., M. Adler, J.R. Matijevic, S.W. Squyres, R.E. Arvidson, and D.M.
                    Kass, Mars Exploration Rover mission, J. Geophys. Res., 108(E12), 8061,
                    doi:10.1029/2002JE002038, 2003.
             </reference_text>
-            <description>reference.CRISPETAL2003</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.CRISPETAL2003</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Mars Surveyor 2001, Mission Plan, Revision B (MSP 722-201), JPL Document
                    D-16303, Jet Propulsion Laboratory, Pasadena, CA, 2000.
             </reference_text>
-            <description>reference.JPLD-16303</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.JPLD-16303</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Maki, J.N., et al., Mars Exploration Rover Engineering Cameras, J. Geophys.
                    Res., 108(E12), 8071, doi:10.1029/2003JE002077, 2003.
             </reference_text>
-            <description>reference.MAKIETAL2003</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.MAKIETAL2003</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Squyres, S.W., et al., Athena Mars Rover science investigation, J. Geophys.
                    Res., 108(E12), 8062, doi:10.1029/2003JE002121, 2003.
             </reference_text>
-            <description>reference.SQUYRESETAL2003</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>MARS EXPLORATION ROVER 1</name>
-        <type>Spacecraft</type>
-        <naif_host_id>MER1</naif_host_id>
-
-        <description>
+      <description>reference.SQUYRESETAL2003</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>MARS EXPLORATION ROVER 1</name>
+    <type>Spacecraft</type>
+    <naif_host_id>MER1</naif_host_id>
+    <description>
  
   Instrument Host Overview
   ========================
@@ -169,7 +164,7 @@
       550 kg lander had a tetrahedral structure that the air bags were
       deployed from and surrounded, and that housed the gas generators
       for the airbags, the RADAR altimeter, motors for the unfolding of
-      the tetrahedron&apos;s four sides or &apos;petals,&apos; and the rover lift
+      the tetrahedron's four sides or 'petals,' and the rover lift
       mechanism for standing up the rover.  On route to Mars, the rover
       was stowed within the lander, and contained most of the power,
       computing, and communication electronics for all phases of the
@@ -314,9 +309,9 @@
  
       -- +Yr completes the right hand frame.
  
-      The origin of the MER rover &apos;navigation&apos; frame is directly above
+      The origin of the MER rover 'navigation' frame is directly above
       the middle wheels, as shown in the diagram below.  A separate
-      MER rover &apos;mechanical&apos; frame has its origin 29 cm toward the
+      MER rover 'mechanical' frame has its origin 29 cm toward the
       front wheels (in the +Xr direction) but is otherwise identical.
  
                                  UHF    /\
@@ -325,14 +320,14 @@
                          /    \   #     ||
                         |      |  #     ||
                          \    /=. #     ||
-                          `--&apos; || #     ||                 Rover
+                          `--' || #     ||                 Rover
                        =======================           (deployed)
                              |    =o=.    |
-                             |  .&apos; Yr `.__|o====o
+                             |  .' Yr `.__|o====o
                            .===o=== o------&gt; Xr \\
                           .-.      .|.    `.-.  ##o###
                          | o |    | | |   | o |
-                          `-&apos;      `|&apos;     `-&apos;
+                          `-'      `|'     `-'
                                     V Zr
  
  
@@ -376,5 +371,5 @@
     [JPLD-16303].
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

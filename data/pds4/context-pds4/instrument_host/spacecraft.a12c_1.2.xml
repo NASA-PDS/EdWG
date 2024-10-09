@@ -1,71 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.a12c</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.a12c</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>APOLLO 12 COMMAND AND SERVICE MODULE</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
         <version_id>1.1</version_id>
-        <title>APOLLO 12 COMMAND AND SERVICE MODULE</title>
-        <information_model_version>1.11.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.apollo_12</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> -->
-<!--            <lid_reference>urn:nasa:pds:context:instrument:unk.unk</lid_reference> -->
-<!--            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.apollo_12</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:instrument:unk.unk</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Apollo 12 Preliminary Science Report, NASA SP-235, 227 pages, published by
                    NASA, Washington D.C., 1970.
             </reference_text>
-            <description>reference.APOLLO12A1970</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.APOLLO12A1970</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Apollo 12, A new vista for lunar science, NASA EP-74, 20 pages, published by
                    NASA, Washington, D.C., 1970.
             </reference_text>
-            <description>reference.APOLLO12B1970</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>APOLLO 12 COMMAND AND SERVICE MODULE</name>
-        <type>Spacecraft</type>
-        <naif_host_id>A12C</naif_host_id>
-
-        <description>
+      <description>reference.APOLLO12B1970</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>APOLLO 12 COMMAND AND SERVICE MODULE</name>
+    <type>Spacecraft</type>
+    <naif_host_id>A12C</naif_host_id>
+    <description>
  
  
   Instrument Host Overview
@@ -84,11 +79,11 @@
       most of the consumables (oxygen, water, helium, fuel cells, and fuel)
       and the main propulsion system. The total length of the two modules
       attached was 11.0 meters with a maximum diameter of 3.9 meters.
-      Block II CSM&apos;s were used for all the crewed Apollo missions.  The
+      Block II CSM's were used for all the crewed Apollo missions.  The
       launch mass, including propellants and expendables, of the Apollo 12
       CSM was 28,790 kg of which the Command Module (CM-108) had a mass of
       5609 kg and the Service Module (SM-108) 23,181 kg.  The Apollo 12 CM
-      was named &apos;&apos;Yankee Clipper&apos;&apos;.
+      was named ''Yankee Clipper''.
  
       Telecommunications included voice, television, data, and tracking and
       ranging subsystems for communications between astronauts, CM, LM, and
@@ -163,7 +158,7 @@
         transposition, docking, lunar module ejection maneuver, and the LM
         rendezvous sequence from both the command and lunar modules, (2)
         obtained photos of the lunar ground track and of the landing site
-        from the low point of the LM&apos;s flight path, (3) recorded the
+        from the low point of the LM's flight path, (3) recorded the
         operational activities of the crew, (4) obtained long-distance
         earth and lunar terrain photographs with 70-mm still cameras, and
         (5) obtained photos of lunar surface features and of the activities
@@ -186,12 +181,12 @@
  
     For more information about the CSM and its experiments, see the Apollo
     12 preliminary science report (1970) [APOLLO12A1970] and the report
-    &apos;&apos;Apollo 12, A New Vista for Lunar Science&apos;&apos; (1970) [APOLLO12B1970].
+    ''Apollo 12, A New Vista for Lunar Science'' (1970) [APOLLO12B1970].
  
  
   This instrument host description was provided by the NASA National Space
   Science Data Center (NSSDC).
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

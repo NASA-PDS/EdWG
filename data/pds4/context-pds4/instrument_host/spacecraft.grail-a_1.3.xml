@@ -1,85 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.grail-a</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.grail-a</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>GRAVITY RECOVERY AND INTERIOR LABORATORY A</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
         <version_id>1.2</version_id>
-        <title>GRAVITY RECOVERY AND INTERIOR LABORATORY A</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-02-24</modification_date>
-                <version_id>1.2</version_id>
-                <description>
+        <description>
                     Changed inst LIDs from
                       u:n:p:c:i:instID.scID to
                       u:n:p:c:i:scID.instID
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.gravity_recovery_and_interior_laboratory</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:grail-a.lgrs-a</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--noSpice        <Internal_Reference> -->
-<!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:grail-a.spice</lid_reference> -->
-<!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--noSpice        <Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.gravity_recovery_and_interior_laboratory</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:grail-a.lgrs-a</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:grail-a.spice</lid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Hoffman, T.L., GRAIL: Gravity Mapping the Moon, IEEE Aerospace Conference, Big
                    Sky, MT, 2009.
             </reference_text>
-            <description>reference.HOFFMAN2009</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.HOFFMAN2009</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Klipstein, W.M., B.W. Arnold, D.G. Enzer, A.A. Ruiz, J.Y. Tien, R.T. Wang, and
                    C.E. Dunn, The Lunar Gravity Ranging System for the Gravity Recovery and
                    Interior Laboratory (GRAIL) Mission, Space Science Reviews, 2012, accepted.
             </reference_text>
-            <description>reference.KLIPSTEINETAL2009</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>GRAVITY RECOVERY AND INTERIOR LABORATORY A</name>
-        <type>Spacecraft</type>
-        <naif_host_id>GRAIL-A</naif_host_id>
-
-        <description>
+      <description>reference.KLIPSTEINETAL2009</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>GRAVITY RECOVERY AND INTERIOR LABORATORY A</name>
+    <type>Spacecraft</type>
+    <naif_host_id>GRAIL-A</naif_host_id>
+    <description>
  
   Instrument Host Overview
   =========================
@@ -106,8 +101,8 @@
     The GRAIL spacecraft design was based on the Lockheed Martin (LM)
     Experimental Small Satellite-11 technology demonstration mission
     for the United States Air Force, and the avionics were derived
-    from NASA&apos;s Mars Reconnaissance Orbiter. A single-string
-    architecture met this short mission&apos;s reliability requirements.
+    from NASA's Mars Reconnaissance Orbiter. A single-string
+    architecture met this short mission's reliability requirements.
     The resulting design met all GRAIL mission and science
     requirements with ample technical margins, providing flexibility
     to solve problems that might arise during development and which
@@ -143,7 +138,7 @@
     components with heritage from Themis and Genesis.
  
     The spacecraft was built and the science payload was integrated
-    and tested at Lockheed Martin&apos;s Denver facility. LM used two
+    and tested at Lockheed Martin's Denver facility. LM used two
     system-level spacecraft test labs (STL) and one software simulator
     (SoftSim) testbed with unlimited copies that enabled integration
     and verification of all hardware and software throughout the
@@ -207,7 +202,7 @@
     the MoonKAM lunar-imager which is used for Education and Public
     Outreach. The LGRS is based on the instrument used for the Gravity
     Recovery and Climate Experiment (GRACE) mission, which has been
-    mapping Earth&apos;s gravity since 2002. The LGRS is responsible for
+    mapping Earth's gravity since 2002. The LGRS is responsible for
     sending and receiving the signals needed to accurately and
     precisely measure the changes in range between the two orbiters.
     The LGRS consists of an Ultra-Stable Oscillator (USO), Microwave
@@ -265,7 +260,7 @@
     full moon and the dark-side antennas pointed to Earth during new
     moon. This design obviated the need to mechanically rotate the
     antennas during the mission, which would have moved the
-    spacecraft&apos;s center of mass with respect to the Ka-Band ranging
+    spacecraft's center of mass with respect to the Ka-Band ranging
     and X-Band beacon paths, disturbing the science measurements.
  
     Propulsion Sub-System:
@@ -330,7 +325,7 @@
     at the end of the mission. The arrays were deployed shortly after
     separation from the launch vehicle and remained fixed throughout
     the mission. Each battery had a capacity of 30 amp-hours and was
-    used to provide power when the spacecraft was in the Moon&apos;s
+    used to provide power when the spacecraft was in the Moon's
     shadow.
  
     Solar panels: The only source of replenishable power is sunlight.
@@ -386,5 +381,5 @@
   elements of instrumentation for radio science investigations.
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

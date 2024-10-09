@@ -1,143 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mess</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mess</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>MESSENGER</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-05-06</modification_date>
         <version_id>1.2</version_id>
-        <title>MESSENGER</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-05-06</modification_date>
-                <version_id>1.2</version_id>
-                <description>
+        <description>
                     replaced epps.mess instrument lid_reference with separate
                     epps-eps.mess and epps-fips.mess lid_references
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2018-06-21</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2018-06-21</modification_date>
+        <version_id>1.1</version_id>
+        <description>
                   replaced all lidvid_reference with lid_reference.
                   replaced target:calibration.calibration with target:calibrator.calibration
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.messenger</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:epps-eps.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:epps-fips.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:grs.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mag.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mascs.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mdis-nac.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mdis-wac.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mla.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ns.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:rss.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--noSpice        <Internal_Reference> -->
-<!--noSpice            <lidvid_reference>urn:nasa:pds:context:instrument:spice.mess::1.0</lidvid_reference> -->
-<!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--noSpice        <Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:xrs.mess</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:calibrator.calibration</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.mercury</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.messenger</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:epps-eps.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:epps-fips.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:grs.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mag.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mascs.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mdis-nac.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mdis-wac.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mla.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ns.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rss.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lidvid_reference>urn:nasa:pds:context:instrument:spice.mess::1.0</lidvid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:xrs.mess</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:calibrator.calibration</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.mercury</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
                    science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
             </reference_text>
-            <description>reference.ASMAR-RENZETTI1993</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Leary, J.C., R.F. Conde, G. Dakermanji, C.J. Ercol, K. Fielhauer, D.G. Grant,
                    T.J. Hartka, T.A. Hill, S.E. Jaskulek, M.A. Mirantes, L.E. Mosher, M.V. Paul,
                    C.E. Person, D.F. Persons, E.H. Rodberg, D.K. Srinivasan, R.M. Vaughan, and
                    S.R. Wiley, The MESSENGER spacecraft, Space Science Reviews, 131, 187-217, 2007.
             </reference_text>
-            <description>reference.LEARYETAL2007</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.LEARYETAL2007</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Solomon, S.C., R.L. McNutt, Jr., R.E. Gold, and D.L. Domingue, MESSENGER
                    mission overview, Space Science Reviews, 131, 3-39, 2007.
             </reference_text>
-            <description>reference.SOLOMONETAL2007</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>MESSENGER</name>
-        <type>Spacecraft</type>
-        <naif_host_id>MESS</naif_host_id>
-
-        <description>
+      <description>reference.SOLOMONETAL2007</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>MESSENGER</name>
+    <type>Spacecraft</type>
+    <naif_host_id>MESS</naif_host_id>
+    <description>
  
  
    Instrument Host Overview
@@ -179,7 +174,7 @@
  
      Structures and Mechanisms
      -------------------------
-       The spacecraft&apos;s structures and mechanisms consist of
+       The spacecraft's structures and mechanisms consist of
        the composite core structure, the aluminum launch
        vehicle adapter, and its deployables.
  
@@ -229,7 +224,7 @@
  
      Propulsion
      ----------
-       The spacecraft&apos;s propulsion subsystem consists of its
+       The spacecraft's propulsion subsystem consists of its
        state-of-the-art titanium fuel tanks, the thruster
        modules, and the associated plumbing.
  
@@ -268,7 +263,7 @@
  
      Thermal
      -------
-       The thermal subsystem consists of the spacecraft&apos;s
+       The thermal subsystem consists of the spacecraft's
        ceramic-cloth sunshade, its heaters, and its
        radiators.
  
@@ -284,11 +279,11 @@
        and the phased-array antennas. These components have
        been designed to operate at Mercury perihelion
        (Mercury closest to the Sun) and also during orbits
-       that cross over one of Mercury&apos;s hot poles.
+       that cross over one of Mercury's hot poles.
  
      Power
      -----
-       The power subsystem consists of the spacecraft&apos;s solar
+       The power subsystem consists of the spacecraft's solar
        arrays, battery, and the controlling electronics.
  
        The power subsystem utilizes a peak power tracker
@@ -300,7 +295,7 @@
        designed to support about 390 W of load power near
        Earth and 640 W during Mercury orbit.
  
-       Because of the mission&apos;s large solar distance
+       Because of the mission's large solar distance
        variations, the requirements placed on the solar array
        design are rather severe. The maximum solar array
        voltage during normal operations is expected to vary
@@ -320,7 +315,7 @@
  
      Avionics
      --------
-       The avionics subsystem consists of the spacecraft&apos;s
+       The avionics subsystem consists of the spacecraft's
        processors, its solid-state data recorder, and the
        data handling electronics.  These components are
        packaged as an Integrated Electronics Module, or IEM.
@@ -349,7 +344,7 @@
  
      Software
      --------
-       The software subsystem consists of the spacecraft&apos;s
+       The software subsystem consists of the spacecraft's
        processor-supported code that performs command and
        data handling (C&amp;DH), and spacecraft guidance and
        control (G&amp;C). It consists of two applications, the MP
@@ -422,7 +417,7 @@
        The primary functions of the guidance and control
        subsystem are to maintain spacecraft attitude and to
        execute propulsive maneuvers for spacecraft trajectory
-       control. It consists of the spacecraft&apos;s attitude
+       control. It consists of the spacecraft's attitude
        sensors including star cameras and Sun sensors
        integrated with controllers including reaction wheels.
        The system enforces two attitude safety constraints:
@@ -450,8 +445,8 @@
        phased array antenna; and the pivot platform for the
        Mercury Dual Imaging System (MDIS) instrument. In
        addition, an interface to the Mercury Laser Altimeter
-       (MLA) instrument provides a range and &apos;slant angle&apos;
-       used to set the instrument&apos;s internal configuration
+       (MLA) instrument provides a range and 'slant angle'
+       used to set the instrument's internal configuration
        parameters for surface observations.
  
      Radio Frequency (RF) Telecommunications
@@ -557,15 +552,15 @@
      As a result of the spacecraft clock reset, a discontinuity was introduced
      and MET values are no longer guaranteed to be unique throughout the
      mission. This ambiguity is resolved in ground processing by the use of
-     SPICE &apos;clock partitions&apos; (partition 1 for pre-reset METs and partition 2
+     SPICE 'clock partitions' (partition 1 for pre-reset METs and partition 2
      for post-reset METs) in the Spacecraft Clock (SCLK) kernel (which
      supports mapping MET to other time forms using SPICE routines as
      described below) and with MET values stored in PDS products, labels, and
      for some instruments, product file names.  For MET values in products or
-     labels,  a &apos;1/&apos; or &apos;2/&apos; preceding MET indicates the partition, as in:
+     labels,  a '1/' or '2/' preceding MET indicates the partition, as in:
  
-     SPACECRAFT_CLOCK_START_COUNT   = &apos;1/265485874&apos;
-     SPACECRAFT_CLOCK_STOP_COUNT    = &apos;2/100005&apos;
+     SPACECRAFT_CLOCK_START_COUNT   = '1/265485874'
+     SPACECRAFT_CLOCK_STOP_COUNT    = '2/100005'
  
      When using SPICE routines, clock partition numbers should be included
      with MET input values. METs expressed without an explicit partition
@@ -576,11 +571,11 @@
      Spacecraft Clock (SCLK) SPICE Kernel
      -------------------------------------
      The SCLK SPICE Kernel provides information that correlates mission
-     elapsed time (MET) as measured by the spacecraft&apos;s on-board clock with
+     elapsed time (MET) as measured by the spacecraft's on-board clock with
      Terrestrial Dynamical Time (TDT) as defined by the International
      Astronomical Union (IAU). (TDT was later redefined by the IAU and
-     renamed &apos;Terrestrial Time&apos; with the acronym &apos;TT.&apos; However, that acronym
-     is ambiguous in the SPICE context.). A &apos;partition&apos; is a segment of time
+     renamed 'Terrestrial Time' with the acronym 'TT.' However, that acronym
+     is ambiguous in the SPICE context.). A 'partition' is a segment of time
      when the MET count increments continuously. A single clock partition can
      continue for years. When a discontinuity in MET occurs, a new partition
      is defined. MET discontinuities can occur for a number of reasons and can
@@ -593,7 +588,7 @@
      partitions that have been defined and specifies the MET values at which
      each ends. SPICE takes the partitions into account when computing the
      encoded SCLK representations of MET that make up the first field in each
-     SCLK record &apos;triplet.&apos; Because of this, the encoded SCLK values in the
+     SCLK record 'triplet.' Because of this, the encoded SCLK values in the
      kernel increment steadily regardless of partition changes.
  
      Prior to the MESSENGER spacecraft clock reset, the MESSENGER SCLK kernel
@@ -607,5 +602,5 @@
      form.
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

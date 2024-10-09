@@ -1,71 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.iue</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.iue</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>INTERNATIONAL ULTRAVIOLET EXPLORER</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.iue</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
         <version_id>1.0</version_id>
-        <title>INTERNATIONAL ULTRAVIOLET EXPLORER</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Alias_List>
-            <Alias><alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.iue</alternate_title></Alias>  <!-- deprecated LID -->
-        </Alias_List>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-02-24</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+        <description>
                     Changed inst LIDs from
                       u:n:p:c:i:instID.scID to
                       u:n:p:c:i:scID.instID
                     Changed LIDs from urn:nasa:pds: to urn:esa:psa:
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.comet_sl9-jupiter_collision</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-<!--merged        <Internal_Reference> -->
-<!--merged            <lid_reference>urn:esa:psa:context:investigation:mission.international_ultraviolet_explorer</lid_reference> -->
-<!--merged            <reference_type>instrument_host_to_investigation</reference_type> -->
-<!--merged        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:investigation:mission.iue</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:iue.lwp</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:iue.lwr</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:iue.swp</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> -->
-<!--            <lid_reference>urn:nasa:pds:context:target:comet.comet</lid_reference> -->
-<!--            <reference_type>instrument_host_to_target</reference_type> -->
-<!--        </Internal_Reference> -->
-<!--        <Internal_Reference> -->
-<!--            <lid_reference>urn:nasa:pds:context:target:comet.sl9</lid_reference> -->
-<!--            <reference_type>instrument_host_to_target</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.comet_sl9-jupiter_collision</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <!--merged        <Internal_Reference> -->
+    <!--merged            <lid_reference>urn:esa:psa:context:investigation:mission.international_ultraviolet_explorer</lid_reference> -->
+    <!--merged            <reference_type>instrument_host_to_investigation</reference_type> -->
+    <!--merged        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.iue</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:iue.lwp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:iue.lwr</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:iue.swp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:comet.comet</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:comet.sl9</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Boggess, A., Bohlin, R.C., Evans, D.C., Freeman, H.R., Gull, T.R., Heap,
                    S.R., Klinglesmith, D.A., Longanecker, G.R., Sparks, W., West, D.K., Holm,
                    A.V., Perry, P.M., Schiffer III, F.H., Turnrose, B.E., Wu, C.C., Lane,
@@ -75,16 +75,14 @@
                    Boksenberg, A., Coleman, C.I., Snijders, M.A.J., Wilson, R., In-Flight
                    Performance of the IUE, Nature, 275, 377, 1978.
             </reference_text>
-            <description>reference.BOGGESSETAL1978A</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>INTERNATIONAL ULTRAVIOLET EXPLORER</name>
-        <type>Spacecraft</type>
-        <naif_host_id>IUE</naif_host_id>
-
-        <description>
+      <description>reference.BOGGESSETAL1978A</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>INTERNATIONAL ULTRAVIOLET EXPLORER</name>
+    <type>Spacecraft</type>
+    <naif_host_id>IUE</naif_host_id>
+    <description>
  
       The IUE satellite was launched on 26 January 1978 into an
       elliptical geosynchronous orbit, in which it is always visible
@@ -95,8 +93,8 @@
       near Madrid, Spain.
  
       Due to the ellipticity of the orbit and the subsequent daily
-      variations in the satellite&apos;s elevation above the horizon,  VILSPA
-      can view the satellite for only a  portion of each day. Since IUE&apos;s
+      variations in the satellite's elevation above the horizon,  VILSPA
+      can view the satellite for only a  portion of each day. Since IUE's
       orbit is fixed with respect to sidereal time, the handover times
       between the GSFC and VILSPA observing shifts are normally changed by
       2 hours each month.
@@ -107,18 +105,18 @@
       large angle from the sun, however, it may be necessary to draw on
       additional power from spacecraft batteries. The primary function of
       the batteries is to provide power to IUE during Earth shadow periods.
-      Shadow seasons occur when a  portion of the IUE&apos;s orbit passes
-      through the Earth&apos;s shadow once each day for 3 weeks in the late
+      Shadow seasons occur when a  portion of the IUE's orbit passes
+      through the Earth's shadow once each day for 3 weeks in the late
       summer and winter. Additional observing constraints are invoked
       during these periods to ensure that the batteries are fully recharged
-      before the next day&apos;s shadow.
+      before the next day's shadow.
  
       The spacecraft is three-axis stabilized with a  nominal 1 arc-second
       pointing accuracy. Control of the telescope pointing and execution
-      of all spacecraft motion is the primary function of IUE&apos;s on-board
+      of all spacecraft motion is the primary function of IUE's on-board
       computer (OBC). The OBC also performs other important functions, such
       as controlling camera exposures. Prior to August 1985, the OBC used
-      data from three or more of IUE&apos;s six gyros to control attitude.
+      data from three or more of IUE's six gyros to control attitude.
       Following the fourth gyro failure on August 17, 1985, a backup
       attitude-control system has been used. The new system (Femiano 1986)
       uses the two functional gyros and the spacecraft Fine Sun Sensor
@@ -173,12 +171,12 @@
       Operations Control Center (OCC) for the various spacecraft subsystems
       as well as in the TOC.
  
-      IUE&apos;s orbit is frequently monitored to provide accurate pointing
+      IUE's orbit is frequently monitored to provide accurate pointing
       predictions for the ground commanding and receiving antennas. A VHF
       signal is transmitted from the ground and retransmitted by the
       spacecraft, giving an accurate distance and velocity of the
-      spacecraft (this is referred to as &apos;ranging&apos;). Gravitational
-      perturbations cause the gradual westward precession of the orbit&apos;s
+      spacecraft (this is referred to as 'ranging'). Gravitational
+      perturbations cause the gradual westward precession of the orbit's
       semi-major axis. A station-keeping maneuver is performed at intervals
       of 6 to 9 months to prevent the satellite from passing outside the
       range of ground antennas at GSFC and VILSPA. At this time, the large
@@ -186,5 +184,5 @@
       that the orbit drifts eastward again.
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

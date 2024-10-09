@@ -1,100 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1700.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1700.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.p11</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.p11</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>PIONEER 11</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
-        <title>PIONEER 11</title>
-        <information_model_version>1.7.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:investigation:mission.pioneer_11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:cpi.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:crs.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:crt.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:fgm.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:gtt.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:hvm.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:pa.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> -->
-<!--            <lidvid_reference>urn:nasa:pds:context:instrument:pos.p11::1.0</lidvid_reference> -->
-<!--            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:trd.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:uv.p11::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:target:planet.jupiter::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:target:planet.saturn::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:target:planetary_system.solar_system::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:investigation:mission.pioneer_11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:cpi.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:crs.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:crt.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:fgm.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:gtt.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:hvm.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:pa.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lidvid_reference>urn:nasa:pds:context:instrument:pos.p11::1.0</lidvid_reference> -->
+    <!--            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:trd.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:uv.p11::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:target:planet.jupiter::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:target:planet.saturn::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:target:planetary_system.solar_system::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Fimmel, R.O., W. Swindell, E. Burgess, Pioneer Odyssey, NASA SP-396,
                    Scientific and Technical Information Office, National Aeronautics and
                    Space Administration, Washington, D.C., 1977.
             </reference_text>
-            <description>reference.FIMMELETAL1977</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>PIONEER 11</name>
-        <type>Spacecraft</type>
-        <naif_host_id>P11</naif_host_id>
-
-        <description>
+      <description>reference.FIMMELETAL1977</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>PIONEER 11</name>
+    <type>Spacecraft</type>
+    <naif_host_id>P11</naif_host_id>
+    <description>
  
   Instrument Host Overview
   ========================
@@ -109,7 +104,7 @@
     system, navigation system, and, most important to the scientific
     mission, a payload of 11 onboard instruments.
  
-    To communicate over long distances the spacecraft&apos;s dish-shaped
+    To communicate over long distances the spacecraft's dish-shaped
     antenna has to be pointed toward Earth. A simple and inexpensive way
     to do this is to spin stabilize the spacecraft and keep the spin
     axis pointed to Earth. So the spacecraft is stabilized by rotation.
@@ -123,7 +118,7 @@
  
       Spacecraft structure centers around a 36-cm deep, flat, equipment
       compartment, the top and bottom of which are regular hexagons. Its
-      sides are each 71-cm long. One joins to a smaller &apos;squashed&apos;
+      sides are each 71-cm long. One joins to a smaller 'squashed'
       hexagonal compartment that carries most of the scientific
       experiments.
  
@@ -150,14 +145,14 @@
       the bright southern star Canopus, and two sun sensors to provide a
       reference to the Sun. Attitude position is calculated from the
       reference direction to the Earth and the Sun, with the known
-      direction to Canopus provided as backup. Pioneer 11 &apos;s star sensor
+      direction to Canopus provided as backup. Pioneer 11 's star sensor
       gain and threshold settings were modified to improve performance
       based on experience with this sensor on Pioneer 10.
  
       Three pairs of rocket thrusters located near the rim of the
       antenna dish are used to direct the spin axis of the spacecraft,
       to keep it spinning at the desired rate of 4.8 revolutions per
-      minute, and to change the spacecraft&apos;s velocity. The system&apos;s six
+      minute, and to change the spacecraft's velocity. The system's six
       thruster nozzles can be fired steadily or pulsed by command.
  
       Each thruster develops its propulsive jet force from the
@@ -171,7 +166,7 @@
       two thrusters, one on each side of the antenna dish. One thruster
       is fired forward, one aft, in brief thrust pulses at a precise
       position in the circle of spacecraft rotation. Each thrust pulse,
-      timed to the spacecraft&apos;s rotation, moves (precesses) the spin
+      timed to the spacecraft's rotation, moves (precesses) the spin
       axis a few tenths of a degree, until the desired attitude is
       reached.
  
@@ -228,8 +223,8 @@
  
       The temperature control system coped with gradually decreasing
       heating as the spacecraft moved away from the Sun, and with two
-      frigid periods - one when Pioneer 10 passed through Earth&apos;s shadow
-      at launch; the other at the time of passage through Jupiter&apos;s
+      frigid periods - one when Pioneer 10 passed through Earth's shadow
+      at launch; the other at the time of passage through Jupiter's
       shadow during flyby. The system also controlled the effects of
       heat from the third-stage engine, atmosphere friction, spacecraft
       nuclear electric power generators, and other equipment.
@@ -284,7 +279,7 @@
       and angle tracking by the antennas of the Deep Space Net to
       calculate the speed, distance, and direction of the spacecraft
       from Earth. Motion of the spacecraft away from Earth causes the
-      frequency of the spacecraft&apos;s radio signals to drop and their
+      frequency of the spacecraft's radio signals to drop and their
       wavelength to increase. Known as a Doppler shift, this effect
       allows the speed of the spacecraft to be calculated from
       measurement of the frequency change in the signal received at
@@ -295,12 +290,12 @@
       uplink signals received at the spacecraft from Earth vary in
       intensity synchronously with rotation of the spacecraft. A system
       on the spacecraft, known as Conical Scan (CONSCAN), was originally
-      intended to be automatically used to change the spacecraft&apos;s
+      intended to be automatically used to change the spacecraft's
       attitude in a direction to reduce these variations in signal
       strength, thereby returning the spin axis to the precise Earth
       point to within the threshold of 0.3 degrees. However, flight
       operations personnel developed and used a direct command technique
-      that results in conserving the spacecraft&apos;s gas supply.
+      that results in conserving the spacecraft's gas supply.
  
  
     Scientific Payload
@@ -316,5 +311,5 @@
   [INSTRUMENT_HOST_DESC was adapted from FIMMELETAL pp. 39-45.]
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

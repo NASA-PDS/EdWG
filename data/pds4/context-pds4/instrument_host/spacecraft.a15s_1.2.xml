@@ -1,72 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.a15s</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.a15s</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>APOLLO 15 SUBSATELLITE</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
         <version_id>1.1</version_id>
-        <title>APOLLO 15 SUBSATELLITE</title>
-        <information_model_version>1.11.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.apollo_15</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> -->
-<!--            <lid_reference>urn:nasa:pds:context:instrument:unk.unk</lid_reference> -->
-<!--            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.apollo_15</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:instrument:unk.unk</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Apollo 15 Preliminary Science Report, NASA SP-289, 546 pages, published by
                    NASA, Washington, D.C., 1972.
             </reference_text>
-            <description>reference.APOLLO15A1972</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.APOLLO15A1972</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Davies, M.E., and T.R. Colvin, Lunar coordinates in the regions of the Apollo
                    landers, Journal of Geophysical Research, Volume 105, Issue E8, pages
                    20,227-20,280, 2000, doi:10.1029/1999JE001165.
             </reference_text>
-            <description>reference.DAVIES-COLVIN2000</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>APOLLO 15 SUBSATELLITE</name>
-        <type>Spacecraft</type>
-        <naif_host_id>A15S</naif_host_id>
-
-        <description>
+      <description>reference.DAVIES-COLVIN2000</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>APOLLO 15 SUBSATELLITE</name>
+    <type>Spacecraft</type>
+    <naif_host_id>A15S</naif_host_id>
+    <description>
  
  
   Instrument Host Overview
@@ -79,10 +74,10 @@
     and facilitated tracking of the satellite velocity to high precision.
     A basic requirement was that the satellite acquire fields and particle
     data everywhere on the orbit around the Moon.  A virtually identical
-    subsatellite was also deployed by Apollo 16.  The Moon&apos;s roughly
+    subsatellite was also deployed by Apollo 16.  The Moon's roughly
     circular orbit around the Earth at about 380000 km (60 Earth radii)
     carried the subsatellite into both interplanetary space and various
-    regions of the Earth&apos;s magnetosphere.  The satellite orbited the Moon
+    regions of the Earth's magnetosphere.  The satellite orbited the Moon
     and returned data from 4 August 1971 until January 1973.
  
     The subsatellite spacecraft was deployed on 4 August 1971 at 21:00:31
@@ -94,7 +89,7 @@
     The orbital period was approximately 120 minutes, clockwise as viewed
     from the north.  The perilune of the first orbit was 102 km, the
     apolune 139 km, and the inclination 28.5 degrees with respect to the
-    Moon&apos;s equator, but the orbit was rapidly altered by gravitational
+    Moon's equator, but the orbit was rapidly altered by gravitational
     perturbations.  The geocentric ecliptic longitude of the Moon at the
     time of launch was 155 degrees.  The subsatellite provided about 6
     months of data coverage before two successive electronic failures in
@@ -153,5 +148,5 @@
   Science Data Center (NSSDC).
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

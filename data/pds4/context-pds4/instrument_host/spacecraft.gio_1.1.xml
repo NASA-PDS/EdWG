@@ -1,108 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.gio</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.gio</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>GIOTTO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.gio</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
         <version_id>1.0</version_id>
-        <title>GIOTTO</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Alias_List>
-            <Alias><alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.gio</alternate_title></Alias>  <!-- deprecated LID -->
-        </Alias_List>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-02-24</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+        <description>
                     Changed inst LIDs from
                       u:n:p:c:i:instID.scID to
                       u:n:p:c:i:scID.instID
                     Changed LIDs from urn:nasa:pds: to urn:esa:psa:
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:investigation:mission.giotto</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:investigation:mission.giotto_extended_mission</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-<!--removed in 1.1    	<Internal_Reference> -->
-<!--removed in 1.1    		<lid_reference>urn:nasa:pds:context:investigation:mission.support_archives</lid_reference> -->
-<!--removed in 1.1    		<reference_type>instrument_host_to_investigation</reference_type> -->
-<!--removed in 1.1    	</Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.did</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.epa</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.gre</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.hmc</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.ims</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.jpa</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.mag</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.ope</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:gio.pia</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> -->
-<!--            <lid_reference>urn:nasa:pds:context:target:asteroid.asteroid</lid_reference> -->
-<!--            <reference_type>instrument_host_to_target</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:comet.26p_grigg-skjellerup</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:comet.1p_halley</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto_extended_mission</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <!--removed in 1.1    	<Internal_Reference> -->
+    <!--removed in 1.1    		<lid_reference>urn:nasa:pds:context:investigation:mission.support_archives</lid_reference> -->
+    <!--removed in 1.1    		<reference_type>instrument_host_to_investigation</reference_type> -->
+    <!--removed in 1.1    	</Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.did</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.epa</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.gre</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.hmc</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.ims</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.jpa</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.mag</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.ope</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:gio.pia</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:asteroid.asteroid</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:comet.26p_grigg-skjellerup</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:comet.1p_halley</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    The Giotto Mission, R. Reinhard and B. Battrick, ESA SP-1077, ESA Pub Div,
                    Noordwijk, Netherlands, 1986.
             </reference_text>
-            <description>reference.ESA-SP1077</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>GIOTTO</name>
-        <type>Spacecraft</type>
-        <naif_host_id>GIO</naif_host_id>
-
-        <description>
+      <description>reference.ESA-SP1077</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>GIOTTO</name>
+    <type>Spacecraft</type>
+    <naif_host_id>GIO</naif_host_id>
+    <description>
  
       Instrument Host Overview
       ========================
@@ -137,7 +135,7 @@
       The Giotto spacecraft carried 10 instruments to carry out the
       scientific objectives. In addition, it was intended to extract
       from the radio signal information on the columnar electron content
-      of comet Halley&apos;s ionosphere and the mass fluence of the cometary
+      of comet Halley's ionosphere and the mass fluence of the cometary
       atmosphere.  The mass and power allocations to the Halley
       Multicolour Camera (HMC) were similar to those of several other
       experiments.  Half of the total data transmission rate of 40
@@ -306,7 +304,7 @@
         ---
           The Optical Probe Experiment measures the flux and polarized
           brightness in various colors in the direction opposite to the
-          direction of motion of the spacecraft through the comet&apos;s
+          direction of motion of the spacecraft through the comet's
           coma.  This instrument sustained no damage in the encounter.
  
         GRE
@@ -319,5 +317,5 @@
           Launch Date: 1985-07-02
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

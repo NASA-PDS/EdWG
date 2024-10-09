@@ -1,102 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mpfl</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mpfl</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>MARS PATHFINDER LANDER</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
         <version_id>1.1</version_id>
-        <title>MARS PATHFINDER LANDER</title>
-        <information_model_version>1.11.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.mars_pathfinder</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:asimet.mpfl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:imp.mpfl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:rss.mpfl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:windsock.mpfl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.mars.deimos</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.mars.phobos</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:sun.sun</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_pathfinder</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:asimet.mpfl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:imp.mpfl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rss.mpfl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:windsock.mpfl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.mars.deimos</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.mars.phobos</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:sun.sun</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
                    science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
             </reference_text>
-            <description>reference.ASMAR-RENZETTI1993</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Cook, R., P. Katemeyn, and C. Salvo, Mars Pathfinder Project Mission Plan,
                    JPL Document 11355, PF-100-MP-02, 90 pp., 1995.
             </reference_text>
-            <description>reference.COOKETAL1995</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.COOKETAL1995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Golombek, M.P., The Mars Pathfinder Mission, J. Geophys. Res., 102,
                    3953-3965, 1997.
             </reference_text>
-            <description>reference.GOLOMBEK1997</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>MARS PATHFINDER LANDER</name>
-        <type>Spacecraft</type>
-        <naif_host_id>MPFL</naif_host_id>
-
-        <description>
+      <description>reference.GOLOMBEK1997</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>MARS PATHFINDER LANDER</name>
+    <type>Spacecraft</type>
+    <naif_host_id>MPFL</naif_host_id>
+    <description>
  
   Instrument Host Overview - Spacecraft
   =====================================
@@ -235,7 +230,7 @@
       safely placing the lander on the surface of Mars.  In order to
       do this, the velocity had to be reduced from the initial entry
       velocity of 7.6 km/s to a level that limited the maximum
-      landing shock to less than 40 g&apos;s.  Specific components of the
+      landing shock to less than 40 g's.  Specific components of the
       system required to do this included a 2.65 meter diameter
       aeroshell, accelerometers, a parachute, an incremental bridle,
       retrorockets, airbags, and a radar altimeter.
@@ -269,7 +264,7 @@
       at approximately 15 m above the surface.  Four airbags attached
       to the faces of the tetrahedral lander were inflated just
       before the rockets fired and were designed to limit landing
-      loads to less than 40 Earth g&apos;s.  The airbags were inflated
+      loads to less than 40 Earth g's.  The airbags were inflated
       using three gas generators in 1/4 of a second.  The generators
       continued to maintain the pressure in the airbags for over one
       minute past initial pressurization.  Just prior to contacting
@@ -322,7 +317,7 @@
       downlink telemetry, instrument control, engineering / science
       data collection and formatting, bus control, sequence and
       command processing, attitude determination / control, and power
-      / pyro functions.  The flight software design was coded in &apos;C&apos;.
+      / pyro functions.  The flight software design was coded in 'C'.
       The operating system was an adaptation of VxWorks, a
       commercially-available operating system for the R6000 computer.
       The operating system provided a file system and an interprocess
@@ -415,7 +410,7 @@
     Propulsion Subsystem
     --------------------
       The Propulsion subsystem included all equipment needed to
-      perform attitude control and TCM&apos;s during cruise and Rocket
+      perform attitude control and TCM's during cruise and Rocket
       Assisted Deceleration during EDL.  The cruise stage propulsion
       system consisted of four blow-down hydrazine titanium
       propellant tanks connected with eight 4.45 N (1 lb) thrusters
@@ -509,5 +504,5 @@
     For more information see [ASMAR&amp;RENZETTI1993].
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

@@ -1,97 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.hp</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.hp</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>HUYGENS PROBE</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.hp</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
         <version_id>1.0</version_id>
-        <title>HUYGENS PROBE</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Alias_List>
-            <Alias><alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.hp</alternate_title></Alias>  <!-- deprecated LID -->
-        </Alias_List>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-02-24</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+        <description>
                     Changed inst LIDs from
                       u:n:p:c:i:instID.scID to
                       u:n:p:c:i:scID.instID
                     Changed LIDs from urn:nasa:pds: to urn:esa:psa:
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.cassini-huygens</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:hp.acp</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:hp.disr</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> -->
-<!--            <lid_reference>urn:esa:psa:context:instrument:hp.dtwg</lid_reference> -->
-<!--            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:hp.dwe</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:hp.gcms</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:hp.hasi</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:hp.huygens_hk</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:hp.ssp</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.saturn.titan</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.cassini-huygens</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.acp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.disr</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:esa:psa:context:instrument:hp.dtwg</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.dwe</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.gcms</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.hasi</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.huygens_hk</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.ssp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.saturn.titan</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Jones, J,C., and F. Giovagnoli, The Huygens Probe System Design, in HUYGENS -
                    Science, Payload and Mission, ESA-SP-1177, 25, 1997
             </reference_text>
-            <description>reference.JONES-GIOVAGNOLI1997</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.JONES-GIOVAGNOLI1997</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Lebreton, J.P., O. Witasse, C. Sollazzo, T. Blancquaert, P. Couzin, A.M.
                    Schipper, J.B. Jones, D.L. Matson, L.I. Gurvits, D.H. Atkinson, B. Kazeminejad,
                    and M. Perez-Ayucar, An overview of the descent and landing of the Huygens
                    Probe on Titan, Nature, Volume 438, pp 758-764, 2005
             </reference_text>
-            <description>reference.LEBRETONETAL2005</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>HUYGENS PROBE</name>
-        <type>Spacecraft</type>
-        <naif_host_id>HP</naif_host_id>
-
-        <description>
+      <description>reference.LEBRETONETAL2005</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>HUYGENS PROBE</name>
+    <type>Spacecraft</type>
+    <naif_host_id>HP</naif_host_id>
+    <description>
  
  
  
@@ -102,7 +100,7 @@ Instrument Host Overview
 [From JONES&amp;GIOVAGNOLI1997]:
  
 The Huygens Probe is the ESA-provided element of the joint NASA/ESA
-Cassini/Huygens mission to Saturn and Titan, the planet&apos;s largest
+Cassini/Huygens mission to Saturn and Titan, the planet's largest
 moon. The industrial Phase B activities began in January 1991 under
 the leadership of Aerospatiale, the Huygens prime contractor.
  
@@ -110,7 +108,7 @@ The Probe was carried to Titan by the Cassini Saturn Orbiter. Huygens
 was dormant during the interplanetary journey of 6.7 years, although
 it was activated about every 6 months to verify and monitor its
 health. It was released 22 days before the Titan encounter. The
-Probe&apos;s aeroshell decelerated it in less than 3 min from the entry
+Probe's aeroshell decelerated it in less than 3 min from the entry
 speed of about 6 km/s to 400 m/s (Mach 1.5) by 150-180 km altitude.
 From that point onwards, a pre-programmed sequence triggered parachute
 deployment and heatshield ejection. The main part of the scientific
@@ -139,7 +137,7 @@ Overall Configuration
  
 The Probe System comprises two principal elements:
  
-1. the 318 kg Huygens Probe, which enters Titan&apos;s atmosphere after
+1. the 318 kg Huygens Probe, which enters Titan's atmosphere after
   separating from the Saturn Orbiter;
  
 2. the 30 kg Probe Support Equipment (PSE), which remains attached to
@@ -172,7 +170,7 @@ Front Shield Subsystem (FRSS)
 -----------------------------
  
 The 79 kg, 2.7 m diameter, 60 degree half-angle coni-spherical Front
-Shield will decelerate the Probe in Titan&apos;s upper atmosphere from
+Shield will decelerate the Probe in Titan's upper atmosphere from
 about 6 km/s at entry to a velocity equivalent to about Mach 1.5 by
 around 160 km altitude. Tiles of AQ60 ablative material, a felt of
 silica fibres reinforced by phenolic resin, provide protection against
@@ -202,14 +200,14 @@ thermal and particulate barrier.
 Descent Control Subsystem (DCSS)
 --------------------------------
  
-The DCSS controls the descent rate to satisfy the scientific payload&apos;s
+The DCSS controls the descent rate to satisfy the scientific payload's
 requirements, and the attitude to meet the requirements of the Probe-
-Orhbiter RF data link and of the descent camera&apos;s image-taking.
+Orhbiter RF data link and of the descent camera's image-taking.
 The DCSS is activated nominally at Mach 1.5 and about 160 km altitude.
 The sequence begins by firing the Parachute Deployment Device (PDD) to
-eject the pilot &apos;chute pack through the Back Cover&apos;s break-out patch,
+eject the pilot 'chute pack through the Back Cover's break-out patch,
 the attachment pins of which shear under the impact. The 2.59 m
-diameter Disk Gap Band (DGB) pilot &apos;chute inflates 27 m behind the DM
+diameter Disk Gap Band (DGB) pilot 'chute inflates 27 m behind the DM
 and pulls the Back Cover away from the rest of the assembly. As it
 goes, the Back Cover pulls the 8.30 m diameter DGB main parachute from
 its container. This canopy inflates during the supersonic phase to
@@ -222,19 +220,19 @@ The main parachute is too large for a nominal descent time shorter
 than 2.5 h, a constraint imposed by battery limitations, so it is
 jettisoned and a 3.03 m diameter DGB stabilising parachute is
 deployed. All parachutes are made of Kevlar lines and nylon fabric.
-The main and stabiliser &apos;chutes are housed in a single canister on the
-DM&apos;s top platform. Compatibility with the Probe&apos;s spin is ensured by
+The main and stabiliser 'chutes are housed in a single canister on the
+DM's top platform. Compatibility with the Probe's spin is ensured by
 incorporating a swivel using redundant low-friction bearings in the
-connecting riser of both the main and stabiliser &apos;chutes.
+connecting riser of both the main and stabiliser 'chutes.
  
 Separation Subsystem (SEPS)
 ---------------------------
  
 SEPS provides: mechanical and electrical attachment to, and separation
 from the Orbiter; the transition between the entry configuration
-(&apos;cocoon&apos;) and the descent configuration (DM under parachute). The
-three SEPS mechanisms are connected on one side to Huygens&apos; Inner
-Structure (ISTS) and on the other to the Orbiter&apos;s supporting struts.
+('cocoon') and the descent configuration (DM under parachute). The
+three SEPS mechanisms are connected on one side to Huygens' Inner
+Structure (ISTS) and on the other to the Orbiter's supporting struts.
 As well as being the Probe-Orbiter structural load path, each SEPS
 fitting incorporates a pyronut for Probe-Orbiter separation, a rod
 cutter for Front Shield release and a rod cutter for Back Cover
@@ -259,7 +257,7 @@ disconnected by the SED.
 Inner Structure Subsystem (ISTS)
 --------------------------------
  
-The ISTS provides mounting support for the Probe&apos;s payload and
+The ISTS provides mounting support for the Probe's payload and
 subsystems. It is fully sealed except for a vent hole of about 6 cm2
 on the top, and comprises:
  
@@ -268,50 +266,50 @@ on the top, and comprises:
   together with their associated harness
 - the 25 mm thick aluminium honeycomb sandwich Top Platform; supports
   the Descent Control Subsystem and Probe RF antennas, and forms the
-  DM&apos;s top external surface
+  DM's top external surface
 - the After Cone and Fore Dome aluminium shells, linked by a central
   ring
 - three radial titanium struts; interface with SEPS and ensure thermal
   decoupling, while three vertical titanium struts link the two
   platforms and transfer the main parachute deployment loads
-- 36 spin vanes on the Fore Dome&apos;s periphery; provide spin control
+- 36 spin vanes on the Fore Dome's periphery; provide spin control
   during descent
 - the secondary structure; for mounting experiments and equipment.
  
 Thermal Subsystem (THSS)
 ------------------------
  
-While the PSE is thermally controlled by the Orbiter, the Probe&apos;s THSS
+While the PSE is thermally controlled by the Orbiter, the Probe's THSS
 must maintain all experiments and subsystem units within their allowed
 temperature ranges during all mission phases. In space, the THSS
 partially insulates the Probe from the Orbiter and ensures only small
-variations in the Probe&apos;s internal temperatures, despite the incident
+variations in the Probe's internal temperatures, despite the incident
 solar flux varying from 3800 W/m2 (near Venus) to 17 W/m2 (approaching
 Titan after 22 days of the coast phase following Orbiter separation).
 Probe thermal control is achieved by:
-- MLI surrounding all external areas, except for the small &apos;thermal
-  window&apos; of the Front Shield
+- MLI surrounding all external areas, except for the small 'thermal
+  window' of the Front Shield
 - 35 Radioisotope Heater Units (RHUs) on the Experiment and Top
   Platforms continuously providing about 1 W each even when the Probe
   is dormant
-- a white-painted 0.17 m2 thin aluminium sheet on the Front Shield&apos;s
+- a white-painted 0.17 m2 thin aluminium sheet on the Front Shield's
   forward face acting as a controlled heat leak (about 8 W during
   cruise) to reduce sensitivity of thermal performances to MLI
   efficiency.
  
 The MLI is burned and torn away during entry, leaving temperature
-control to the AQ60 high-temperature tiles on the Front Shield&apos;s front
-face, and to Prosial on the Front Shield&apos;s aft surface and on the Back
+control to the AQ60 high-temperature tiles on the Front Shield's front
+face, and to Prosial on the Front Shield's aft surface and on the Back
 Cover.
 During the descent phase, thermal control is provided by foam
 insulation and gas-tight seals. Lightweight open-cell Basotect foam
-covers the internal walls of DM&apos;s shells and Top Platform. This
-prevents convection cooling by Titan&apos;s cold atmosphere (70 K at 45 km
+covers the internal walls of DM's shells and Top Platform. This
+prevents convection cooling by Titan's cold atmosphere (70 K at 45 km
 altitude) and thermally decouples the units mounted on the Experiment
 Platform from the cold aluminium shells. Gas-tight seals around all
-elements protruding through the DM&apos;s shell minimise gas influx. In
+elements protruding through the DM's shell minimise gas influx. In
 fact, the DM is gas tight except for a single 6 cm2 hole in Top
-Platform that equalises pressure during launch and descent to Titan&apos;s
+Platform that equalises pressure during launch and descent to Titan's
 surface.
  
 Electrical Power Subsystem (EPSS)
@@ -323,18 +321,18 @@ Description
 The EPSS consists of:
  
 - Five batteries: Provide mission power from Orbiter separation until
-  at least 30 min after arrival on Titan&apos;s surface. Each battery
+  at least 30 min after arrival on Titan's surface. Each battery
   comprises two modules of 13 LiSO2 (7.6 Ah) cells in series.
 - Power Conditioning &amp; Distribution Unit (PCDU): Provides the power
-  conditioning and distribution to the Probe&apos;s equipment and
+  conditioning and distribution to the Probe's equipment and
   experiments via a regulated main bus, with protection to ensure
   uninterrupted operations even in the event of single failure inside
   or outside the PCDU.
   During the cruise phase, the Probe is powered by the Orbiter and the
   PCDU isolates the batteries. The five interface circuits connected
-  to the Orbiter&apos;s Solid State Power Switches (SSPSs) provide Probe-
+  to the Orbiter's Solid State Power Switches (SSPSs) provide Probe-
   Orbiter insulation and voltage adaptation between the SSPS output
-  and the input of the PCDU&apos;s Battery Discharge Regulator (BDR)
+  and the input of the PCDU's Battery Discharge Regulator (BDR)
   circuits. The BDRs condition the power from either the Orbiter or
   the batteries and generate the 28 V bus, controlled by a centralised
   Main Error Amplifier (MEA). The distribution is performed by active
@@ -345,7 +343,7 @@ The EPSS consists of:
   output voltage lines of the Orbiter interface circuits.
   The PCDU also provides a protected +5 V supply used by the Pyro unit
   to generate the bi-level status telemetry of the selection relays
-  and for the activation circuit that switches ON the Pyro unit&apos;s
+  and for the activation circuit that switches ON the Pyro unit's
   energy intercept relay.
 - Pyro Unit (PYRO): Provides two redundant sets of 13 pyro lines,
   directly connected to the centre taps of two batteries (through
@@ -399,7 +397,7 @@ The data handling and processing functions are divided between the
 Probe Support Equipment (PSE) on the Orbiter and the CDMUs (part of
 the CDMS) in the Probe. The Probe Data Relay Subsystem (PDRS) provides
 the RF link function for this purpose, together with the data handling
-and communication function with the Orbiter&apos;s Control and Data
+and communication function with the Orbiter's Control and Data
 Subsystem (CDS) via a Bus Interface Unit (BIU). (During the ground
 operations and cruise phase checkouts, the Orbiter-Probe RF link is
 replaced by umbilical connections.)
@@ -490,7 +488,7 @@ During the coast phase of about 22 days, the programmed Timer register
 is decremented by a very precise clock signal. The MTU consumes about
 300 mW during this period as only the necessary circuits (CMOS-based)
 are powered. When the Command Board majority voting detects either
-both g-switches active or at least two of the three &apos;time-out&apos; signals
+both g-switches active or at least two of the three 'time-out' signals
 received, five High Level Commands (HLCs) are issued sequentially from
 each Board to the PCDU in order to switch on both CDMUs. The timer
 then returns to a standby mode.
@@ -528,7 +526,7 @@ The RASU measures radial acceleration at the periphery of the
 Experiment Platform. The signal is processed by the CDMU to provide
 the Probe spin rate for insertion into the DDB distributed to
 experiments. The RASU is designed to measure spin acceleration within
-0-120 mg with a 41.67 V/g scale factor. The design is based on CASU&apos;s
+0-120 mg with a 41.67 V/g scale factor. The design is based on CASU's
 but includes only two accelerometers.
  
 Radar Altimeter Unit (RAU)
@@ -536,7 +534,7 @@ Radar Altimeter Unit (RAU)
  
 The RAU proximity sensor uses two totally redundant altimeters
 operating with frequency-modulated carrier waves at 15.4 GHz and 15.8
-GHz to measure altitude above Titan&apos;s surface, starting from about 25
+GHz to measure altitude above Titan's surface, starting from about 25
 km. Each of the four antennas (two per altimeter) is a planar slot
 radiator array providing an antenna gain of 25 dB with a symmetrical
 full beam width of 7.9 degrees. A continuous signal modulated in
@@ -546,15 +544,15 @@ time. Hence the range to target is proportional (with a linear
 frequency modulation ramp) to the instantaneous frequency shift
 between the transmitted and received signals. Received signal data are
 also provided to the Huygens Atmospheric Structure Instrument (HASI)
-to establish Titan&apos;s surface roughness and topography.
+to establish Titan's surface roughness and topography.
  
 Probe Data Relay Subsystem (PDRS)
 =================================
  
-The PDRS is Huygens&apos; telecommunications subsystem, combining the
+The PDRS is Huygens' telecommunications subsystem, combining the
 functions of RF link, data handling and communications with the
 Orbiter. It transmits science and housekeeping data from the Probe to
-the Orbiter&apos;s PSE, which are then relayed to the Orbiter CDS via a Bus
+the Orbiter's PSE, which are then relayed to the Orbiter CDS via a Bus
 Interface Unit. In addition, the PDRS is responsible for TC
 distribution from the Orbiter to the Probe by umbilical during the
 ground and cruise checkouts. It comprises:
@@ -563,7 +561,7 @@ ground and cruise checkouts. It comprises:
 2. a Receiver Front End (RFE) unit (enclosing two Low Noise Amplifiers
    and a diplexer) and two Probe Support Avionics (PSA) units on the
    Orbiter.
-The Orbiter&apos;s High Gain Antenna (HGA) acts as the PDRS receive
+The Orbiter's High Gain Antenna (HGA) acts as the PDRS receive
 antenna. In addition, as part of the Doppler Wind Experiment (DWE),
 two ultra stable oscillators are available as reference signal sources
 to allow the accurate measurement of the Doppler shift in the Probe-
@@ -580,7 +578,7 @@ Probe Support Equipment (PSE)
  ------------------------
  
 The RFE comprises:
-- two Low Noise Amplifiers (LNAs) linked to the Orbiter&apos;s HGA to
+- two Low Noise Amplifiers (LNAs) linked to the Orbiter's HGA to
   amplify the acquired RF signal by 20 dB using two cascaded FET
   stages
 - two RF inputs: one linked to the HGA, the other via a coupler and
@@ -589,9 +587,9 @@ The RFE comprises:
 - a pre-selection filter (coaxial cavity type with six poles)
 - an isolator
 - an output attenuator (fixed value)
-In addition, owing to the HGA&apos;s shared use with the Orbiter, a band
+In addition, owing to the HGA's shared use with the Orbiter, a band
 pass filter (the TX filter) and a circulator protect the LNA chain B
-by isolating the Orbiter&apos;s S-band transmissions and the Probe&apos;s S-band
+by isolating the Orbiter's S-band transmissions and the Probe's S-band
 reception, which both use the HGA. These two modes are mutually
 exclusive.
  
@@ -629,7 +627,7 @@ The digital section is composed of the following main modules:
   telecommand, telemetry and umbilical interfaces; the MAS 281
   microprocessor module used by the SASW
 - the BIU module that controls communications between the PSA and the
-  Orbiter&apos;s 1553 bus.
+  Orbiter's 1553 bus.
  
 Probe Transmitting Terminal (PTT)
 ---------------------------------
@@ -660,13 +658,13 @@ Probe data relay link budget
 During Probe descent, starting from the time of atmospheric entry as
 predicted from Orbiter trajectory and Probe separation
 characteristics, the Orbiter HGA is controlled to track a fixed point
-on Titan&apos;s surface - the nominal touchdown point. Orbiter movement
-along its trajectory significantly reduces the &apos;space loss&apos; due to
-link distance during the Probe&apos;s 2-2.5 h descent. However, if Huygens
+on Titan's surface - the nominal touchdown point. Orbiter movement
+along its trajectory significantly reduces the 'space loss' due to
+link distance during the Probe's 2-2.5 h descent. However, if Huygens
 does not land at the nominal point, e.g. due to non-nominal entry
 parameters or zonal winds, the gain from the reduced distance is
-offset by the HGA&apos;s reduced gain from the off-axis angle of the Probe
-with respect to the HGA&apos;s boresight axis.
+offset by the HGA's reduced gain from the off-axis angle of the Probe
+with respect to the HGA's boresight axis.
 The link budget worst cases occur at the beginning and end of mission.
 The link design attempts to equalise the BOM/EOM signal level margins.
 At BOM, the signal level is determined by the range, while the losses
@@ -674,7 +672,7 @@ owing to off-axis pointing is mainly due to HGA pointing error and
 Probe delivery error (the additional dispersion arising from the entry
 phase is relatively minor). At EOM, however, the signal level is
 critically dependent on the descent duration: the off-axis pointing
-losses due to the Probe&apos;s lateral drift in the assumed Titan wind
+losses due to the Probe's lateral drift in the assumed Titan wind
 worsens with descent duration.
  
 Software
@@ -686,7 +684,7 @@ Concept
 The Huygens software consists of that running in the Probe CDMS,
 referred to as POSW, and that within the PSA on the Orbiter, referred
 to as the Support Avionics Software (SASW). The POSW output telemetry
-is relayed via the SASW and then Cassini&apos;s CDS to the ground. Two
+is relayed via the SASW and then Cassini's CDS to the ground. Two
 copies of the data handling hardware (CDMU and PSA) run identical
 copies of POSW and SASW.
 The software is based on a top-down hierarchical and modular approach
@@ -711,11 +709,11 @@ cannot be commanded after separation, and telemetry is transmitted to
 the Orbiter via the PDRS RF link.
 The overall operational philosophy is that the software runs the
 nominal mission from power-up without checking its hardware
-environment or the Probe&apos;s connection or disconnection. The specific
+environment or the Probe's connection or disconnection. The specific
 software actions or inhibitions required for ground or flight
 check-out must therefore be invoked by special procedures, activated
 by the delivery of specific telecommands to the software. To achieve
-this autonomy, POSW&apos;s inflight modification is autonomously applied at
+this autonomy, POSW's inflight modification is autonomously applied at
 power-up by using a non-volatile EEPROM. At power-up, the POSW
 validates the CDMU EEPROM structure and then applies any software
 patches stored in the EEPROM before running the mission mode. If the
@@ -759,7 +757,7 @@ commands to experiments and subsystems, is driven by a pre-defined set
 of tables, the Mission Timeline Tables (MTTs), that define the actions
 to be performed as a function of time. The pre-T0 MTT is activated at
 Probe wake-up, and controls the Probe until the post-T0 MTT is
-activated by the POSW&apos;s detection of T0.
+activated by the POSW's detection of T0.
 The experiments perform most of their activities autonomously based on
 the mission phase data computed within the POSW and sent to all the
 experiments every 2 s as a Data Descent Broadcast packet. The DDB
@@ -776,12 +774,12 @@ words, making a total frame size of 1024 bytes.
 Housekeeping data are acquired from the subsystems (and from the
 software itself) at different rates according to a pre-determined
 packet layout, and are loaded into four packets every 16 s. One of the
-packet types is buffered and issued 6.4 min later as &apos;History&apos;
+packet types is buffered and issued 6.4 min later as 'History'
 housekeeping.
 Experiment data are acquired according to a pre-defined polling
 strategy and  the resulting packets are loaded into the transfer
 frames. The selection of an appropriate type of telemetry packet to
-include in each of the frame&apos;s seven slots is managed by the polling
+include in each of the frame's seven slots is managed by the polling
 sequence mechanism on a major acquisition cycle of 16 s (equal to 128
 Computer Unit Times) driven by the Polling Sequence Table (PST) and
 the Experiment Polling Table (EPT). The PST defines if housekeeping or
@@ -798,16 +796,16 @@ modes in the experiments that could affect the data production rates.
 Each experiment is guaranteed an opportunity to supply data at, as a
 minimum, its nominal data rate. Furthermore, this polling scheme
 automatically optimises the data return by reallocating the TM
-resource in the absence of a &apos;packet ready&apos; status flag from an
+resource in the absence of a 'packet ready' status flag from an
 experiment when expected.
-Three EPTs provide different polling priorities during the descent&apos;s
+Three EPTs provide different polling priorities during the descent's
 various stages, switching from one table to the next at a pre-set
 time.
  
 SASW functions
 --------------
  
-The SASW&apos;s main purpose is to provide communications between the
+The SASW's main purpose is to provide communications between the
 Orbiter and Probe. For the SASW, there is no difference between
 receiving Probe telemetry via the umbilical or via the RF subsystem.
 All the differences are handled by the PDRS receiver part of the PSA
@@ -861,7 +859,7 @@ the communication radio link between the probe and the orbiter were
 especially important.
 In the first link test in 2000, a flaw was discovered in the design of
 the Huygens telemetry receiver on board the orbiter that would have
-resulted in the loss of a large fraction of the Huygens probe&apos;s
+resulted in the loss of a large fraction of the Huygens probe's
 scientific data during the actual mission at Titan. Originally the
 Huygens mission was planned to be executed at the end of the first
 orbit around Saturn. As a remedy to the radio receiver flaw, the first
@@ -872,7 +870,7 @@ the probe-orbiter radio link that was compatible with the well-
 characterized receiver performance and it also smoothly reconnected
 with the already-designed post-Huygens orbiter four-year trajectory.
 As a bonus, the new trajectory allowed early orbiter observations of
-Titan&apos;s upper atmosphere in order to validate the so-called Titan
+Titan's upper atmosphere in order to validate the so-called Titan
 atmosphere engineering model well before the Huygens probe release. It
 led to improvements in our knowledge of the structure and the
 composition of the upper atmosphere; in particular, it provided better
@@ -890,21 +888,21 @@ Probe release
 In preparation for releasing the probe, the Cassini-Huygens spacecraft
 had been set on a Titan-impact trajectory. Following its release, the
 Huygens probe had no manoeuvring capability and had to function
-autonomously. The Huygens release trajectory was achieved via a &apos;probe
-targeting manoeuvre&apos; with a speed adjustment of 12 m/s on 17 December
-2004, followed by a &apos;probe targeting clean-up manoeuvre&apos; on 23
+autonomously. The Huygens release trajectory was achieved via a 'probe
+targeting manoeuvre' with a speed adjustment of 12 m/s on 17 December
+2004, followed by a 'probe targeting clean-up manoeuvre' on 23
 December 2004. After the separation of the Huygens probe on 25
-December at 02:00 UTC, Cassini performed an &apos;orbiter deflection
-manoeuvre&apos;, so that it would not crash into Titan, and a &apos;clean-up
-manoeuvre&apos; for final adjustment of its trajectory. These were on 28
+December at 02:00 UTC, Cassini performed an 'orbiter deflection
+manoeuvre', so that it would not crash into Titan, and a 'clean-up
+manoeuvre' for final adjustment of its trajectory. These were on 28
 December 2004 and 03 January 2005 respectively and placed Cassini on
 the correct trajectory for receiving data from the Huygens probe
-during the descent. The responsibilities for meeting the probe&apos;s
+during the descent. The responsibilities for meeting the probe's
 trajectory requirements were shared between NASA/JPL and ESA. The
 targeting of the probe, the NASA/JPL responsibility, was specified at
-an altitude of 1,270 km, very close to the atmosphere&apos;s upper layer,
+an altitude of 1,270 km, very close to the atmosphere's upper layer,
 above which no significant drag was expected. From this point onward
-ESA was responsible for the probe&apos;s trajectory.
+ESA was responsible for the probe's trajectory.
 The spring-loaded Huygens separation mechanism, called the Spin Eject
 Device, had three points of attachment to the probe. It provided a
 speed increment relative to the orbiter of 33 cm/s. The Spin Eject
@@ -912,7 +910,7 @@ Device also imparted to the probe an anti-clockwise spin of 7.5 r.p.m.
 (when viewed from the orbiter). This provided inertial stability
 during the ballistic trajectory and atmospheric entry.
  
-Coast and probe &apos;wake up&apos;
+Coast and probe 'wake up'
 -------------------------
  
 The Huygens probe was set on a ballistic trajectory that took a little
@@ -922,8 +920,8 @@ h and 23 min before the predicted entry. At this time, battery power
 was turned on and the on-board computers, their sensors
 (accelerometers, and later in the descent the radar altimeters), and
 the scientific instruments were energized according to the pre-
-programmed sequence. The probe &apos;woke up&apos; as planned, at 04:41:33 UTC
-on 14 January 2005. The Huygens probe&apos;s receivers on board the Cassini
+programmed sequence. The probe 'woke up' as planned, at 04:41:33 UTC
+on 14 January 2005. The Huygens probe's receivers on board the Cassini
 orbiter were powered on from 06:50:45 to 13:37:32 UTC. The Huygens
 probe arrived at the 1,270 km interface altitude on the predicted
 trajectory on 14 January 2005 at 09:05:53 UTC, just a few seconds
@@ -934,13 +932,13 @@ Entry, descent and landing
  
 The Huygens scientific mission proper took place during the entry,
 descent, landing and post-landing phases. The descent of the probe
-through Titan&apos;s atmosphere was controlled by parachutes. The
+through Titan's atmosphere was controlled by parachutes. The
 aerodynamic conditions under which the main parachute had to be
 deployed were critical. The correct instant for parachute deployment
 (mission time event, T0) was determined by the probe on-board
 computers that processed the measurements from the accelerometers that
-monitored the probe&apos;s deceleration. Pyrotechnic devices fired a mortar
-that pulled out a pilot chute, which in turn removed the probe&apos;s back
+monitored the probe's deceleration. Pyrotechnic devices fired a mortar
+that pulled out a pilot chute, which in turn removed the probe's back
 cover and pulled out the main parachute. Then, 30 s later, the front
 shield was released. It was expected that, by this time, the probe
 would have stabilized under the main parachute. During the entry
@@ -957,7 +955,7 @@ oscillator driving the channel A receiver. Subsequent on-board events
 were determined by the on-board software that initiated a set of
 commands at times all related to the moment the pilot chute was
 released. These commands included switching on other instruments and
-the replacement of the main parachute by a smaller &apos;stabiliser chute&apos;
+the replacement of the main parachute by a smaller 'stabiliser chute'
 after 15 min, to ensure that the probe would reach the surface of
 Titan within the designed duration of the mission (150 min maximum for
 the descent under parachute). The actual duration of the descent
@@ -979,24 +977,24 @@ above the surface. The HASI and SSP instruments were set to their
 proximity and surface modes at low altitude above the surface. The
 probe landed safely with a vertical speed of about 5 m/s and continued
 thereafter to transmit data for at least another 3 h 14 min, as
-determined the detection and monitoring of the probe&apos;s 2.040-GHz
+determined the detection and monitoring of the probe's 2.040-GHz
 carrier signal by the Earth-based radio telescopes. Throughout this
 time, Cassini was oriented to receive the two incoming radio signals
 from the probe by continuously pointing its high gain antenna to the
 predicted Huygens landing point. After listening for the longest
-possible duration of the Huygens probe&apos;s visibility, the orbiter was
+possible duration of the Huygens probe's visibility, the orbiter was
 commanded to re-point its high gain antenna to Earth for transmission
 of the stored Huygens telemetry data. At that time, Cassini was at a
 distance of 1,207 million kilometres (8.07 AU) from the Earth (the
 one-way light-time was 67 min 6 s).
 The data were received by the ground stations of the NASA Deep Space
 Network (DSN) and eventually delivered to the Huygens Probe Operations
-Centre (HPOC) in ESA&apos;s European Space Operation Centre (ESOC,
+Centre (HPOC) in ESA's European Space Operation Centre (ESOC,
 Darmstadt, Germany) for science and engineering analysis. A 1-h margin
 was built into the orbiter sequence to cope with uncertainties as to
 when the orbiter would disappear below the horizon. As seen from the
 probe landing site, the orbiter actually set below the horizon at
-12:50:24 UTC. The probe&apos;s channel A carrier signal was still being
+12:50:24 UTC. The probe's channel A carrier signal was still being
 received on Earth by radio telescopes at the time of the planned
 completion of the observations, at 16:00 UTC (Earth received time),
 meaning that the probe was still operating at 14:53 UTC (Titan time).
@@ -1050,7 +1048,7 @@ be studied in detail.
 An exciting scientific data set was returned by the Huygens probe,
 offering a new view of Titan, which appears to have an extraordinarily
 Earth-like meteorology, geology and fluvial activity (in which methane
-would play the role of water on Earth). While many of Earth&apos;s familiar
+would play the role of water on Earth). While many of Earth's familiar
 geophysical processes appear to occur on Titan, the chemistry involved
 is quite different. Instead of liquid water, Titan has liquid methane.
 Instead of silicate rocks, Titan has frozen water ice. Instead of
@@ -1077,7 +1075,7 @@ frequency stability (~10^-6) fot telemetry. One of the channels
 (channel A) was additionally equipped with ultra-stable oscillators
 (USOs) that were needed for the Doppler Wind Experiment (DWE), which
 required a stable carrier frequency signal. As part of finalising the
-Huygens probe&apos;s configuration for its mission, it had been decided to
+Huygens probe's configuration for its mission, it had been decided to
 use the channel A USOs instead of the TCXOs because the performance of
 the USOs had been very satisfactory during the seven-year cruise.
 The command to power on the USO on the receiver side was unfortunately
@@ -1088,13 +1086,13 @@ Experiment (DWE), together with the non-redundant telemetry data on
 Channel A, were lost. The loss of the DWE data was, fortunately,
 largely mitigated by the radio astronomy segment of the mission
 consisting of a network of ground-based radio telescopes. The Channel
-A carrier signal, driven by the probe&apos;s USO, was received by 15 radio
+A carrier signal, driven by the probe's USO, was received by 15 radio
 telescopes and tracked for post-flight data analysis. Real-time
 Doppler tracking information was obtained through the two largest
 telescopes of the network: the NRAO R. C. Byrd Green Bank Telescope
 (West Virginia, USA) and the CSIRO Parkes Radio Telescope (New South
 Wales, Australia). Both telescopes were equipped with NASA Deep Space
-Network&apos;s Radio Science Receivers (RSR) operated by the Radio Science
+Network's Radio Science Receivers (RSR) operated by the Radio Science
 Group of the Jet Propulsion Laboratory. In addition, the other 13
 radio telescopes recorded the Channel A carrier signal for
 non-real-time Doppler and VLBI analysis.
@@ -1133,5 +1131,5 @@ start of the descent associated with the pilot chute deployment event.
  
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

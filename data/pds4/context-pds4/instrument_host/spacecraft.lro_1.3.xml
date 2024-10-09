@@ -1,105 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.lro</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.lro</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>LUNAR RECONNAISSANCE ORBITER</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
         <version_id>1.2</version_id>
-        <title>LUNAR RECONNAISSANCE ORBITER</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-02-24</modification_date>
-                <version_id>1.2</version_id>
-                <description>
+        <description>
                     Changed inst LIDs from
                       u:n:p:c:i:instID.scID to
                       u:n:p:c:i:scID.instID
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_reconnaissance_orbiter</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lro.crat</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lro.dlre</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lro.lamp</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lro.lend</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lro.lola</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lro.lroc</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lro.mrflro</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lro.rss</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--noSpice        <Internal_Reference> -->
-<!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:lro.spice</lid_reference> -->
-<!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--noSpice        <Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_reconnaissance_orbiter</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.crat</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.dlre</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.lamp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.lend</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.lola</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.lroc</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.mrflro</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.rss</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:lro.spice</lid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Chin, G., et al., Lunar Reconnaissance Orbiter Overview: The Instrument Suite
                    and Mission, Space Sci. Rev. 129:391-419, 2007.
             </reference_text>
-            <description>reference.CHINETAL2007</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>LUNAR RECONNAISSANCE ORBITER</name>
-        <type>Spacecraft</type>
-        <naif_host_id>LRO</naif_host_id>
-
-        <description>
+      <description>reference.CHINETAL2007</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>LUNAR RECONNAISSANCE ORBITER</name>
+    <type>Spacecraft</type>
+    <naif_host_id>LRO</naif_host_id>
+    <description>
  
     Instrument Host Overview
     =========================
@@ -312,7 +307,7 @@
  
     Deployment is initiated through a software command delivered to the
     propulsion and deployment electronics (PDE), which then fire
-    non-explosive actuators (NEA&apos;s) with a design similar to that shown for
+    non-explosive actuators (NEA's) with a design similar to that shown for
     the high gain antenna. Separation nuts release rods that restrain the
     array in the stowed configuration. Restraining bolts are pulled by
     strings to the outer panel and captured panel-to-panel latches prevent
@@ -372,7 +367,7 @@
     lower deck.  Four positive connections for each block in a deck are led
     out to a 25-way positive power connector. Four negative connections
     for each block and half-string taps in  a deck are led to 35-way
-    negative/telemetry connectors, In addition, PRT&apos;s  and thermistors
+    negative/telemetry connectors, In addition, PRT's  and thermistors
     installed in the battery are run out to the internal harness
     connectors.
  
@@ -495,7 +490,7 @@
     performed by the attitude control system (small)  thrusters.
  
     The wheels are mounted on the spacecraft structure. Operationally they
-    will be &apos;off&apos; at launch and will not be turned &apos;on&apos; until after launch
+    will be 'off' at launch and will not be turned 'on' until after launch
     vehicle separation. At that time, the wheels will be powered and will
     begin to adjust the angular momentum vector that results from the
     separation sequence.
@@ -574,7 +569,7 @@
     either the Omni-directional or the High Gain Antennae as controlled
     through the RF transfer switch.
  
-    Diplexers allow the transponder&apos;s receiver and transmitter to connect to
+    Diplexers allow the transponder's receiver and transmitter to connect to
     a common antenna port that in turn connects to the appropriate RF
     network for each antenna system. The diplexers also include band pass
     and band reject filters in the transmit channel to suppress any receive
@@ -611,7 +606,7 @@
     (Diviner, Crater, LEND, and the mini-RF antenna). Star Trackers
     complete the instrument module.
  
-    The Instrument module (IM) is of a &apos;Wine Box&apos; design, which reduces mass
+    The Instrument module (IM) is of a 'Wine Box' design, which reduces mass
     (fewer fasteners) and increases stiffness with continuous bond lines
     (not just connected at fasteners). The entire structure has a low
     coefficient of thermal expansion (CTE) made of graphite material
@@ -632,15 +627,15 @@
           radiation shielding materials caused by extended exposure to the
           lunar orbital environment
     2. Geodetic lunar global topography (at landing-site relevant scales)
-    3. High spatial resolution hydrogen mapping of the Moon&apos;s surface
-    4. Temperature mapping in the Moon&apos;s polar shadowed regions
+    3. High spatial resolution hydrogen mapping of the Moon's surface
+    4. Temperature mapping in the Moon's polar shadowed regions
     5. Landform-scale imaging of lunar surfaces in permanently shadowed
        regions
     6. Identification of putative deposits of appreciable near-surface water
-       ice in the Moon&apos;s polar cold traps
+       ice in the Moon's polar cold traps
     7. Assessment of meter and smaller-scale features to facilitate safety
        analysis for potential lunar landing sites
-    8. Characterization of the illumination environment in the Moon&apos;s
+    8. Characterization of the illumination environment in the Moon's
        polar regions at relevant temporal scales (i.e., in terms of hours)
  
     Six instruments were selected for LRO to provide these measurement sets
@@ -711,10 +706,10 @@
        spatial resolution of 10km and with sensitivity to concentration
        variations of 100 parts per million (ppm) at the poles.
     b. Characterization of surface distribution and column density of
-       possible near-surface water ice deposits in the Moon&apos;s polar cold
+       possible near-surface water ice deposits in the Moon's polar cold
        traps.
     c. Global mapping of Lunar neutron emissions at an altitude of 30-50 km
-       above Moon&apos;s surface, with a spatial resolution of 5 km (pixel radius)
+       above Moon's surface, with a spatial resolution of 5 km (pixel radius)
        at the spectral range of thermal energies up to 15 MeV.
  
     5. Lunar Orbiter Laser Altimeter (LOLA):
@@ -787,5 +782,5 @@
     computes the range to the spacecraft.
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

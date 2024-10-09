@@ -1,145 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.ro</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.ro</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>ROSETTA-ORBITER</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.ro</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
         <version_id>1.0</version_id>
-        <title>ROSETTA-ORBITER</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Alias_List>
-            <Alias><alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.ro</alternate_title></Alias>  <!-- deprecated LID -->
-        </Alias_List>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-02-24</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+        <description>
                     Changed inst LIDs from
                       u:n:p:c:i:instID.scID to
                       u:n:p:c:i:scID.instID
                     Changed LIDs from urn:nasa:pds: to urn:esa:psa:
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:investigation:mission.international_rosetta_mission</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.alice</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.cosima</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.giada</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.midas</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.miro</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.navcam</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.osinac</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.osiwac</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.rosina</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.rpcica</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.rpcies</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.rpclap</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.rpcmag</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.rsi</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--noSpice        <Internal_Reference> -->
-<!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:ro.spice</lid_reference> -->
-<!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--noSpice        <Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:esa:psa:context:instrument:ro.virtis</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:asteroid.21_lutetia</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:asteroid.2867_steins</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:comet.67p_churyumov-gerasimenko</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:comet.9p_tempel_1</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.international_rosetta_mission</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.alice</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.cosima</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.giada</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.midas</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.miro</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.navcam</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.osinac</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.osiwac</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.rosina</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.rpcica</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.rpcies</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.rpclap</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.rpcmag</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.rsi</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:ro.spice</lid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:ro.virtis</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:asteroid.21_lutetia</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:asteroid.2867_steins</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:comet.67p_churyumov-gerasimenko</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:comet.9p_tempel_1</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    ESA Publications PS-01-10, Power Standard, Vol 1 and 2, Issue 1, November 1992.
             </reference_text>
-            <description>reference.PSS-02-10</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.PSS-02-10</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Eilenberger, R., Event/Parameter Monitoring Lists, Issue 2D, 20 Nov 2002.
             </reference_text>
-            <description>reference.RO-DSS-TN-1155</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>ROSETTA-ORBITER</name>
-        <type>Spacecraft</type>
-        <naif_host_id>RO</naif_host_id>
-
-        <description>
+      <description>reference.RO-DSS-TN-1155</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>ROSETTA-ORBITER</name>
+    <type>Spacecraft</type>
+    <naif_host_id>RO</naif_host_id>
+    <description>
  
  
 TABLE OF CONTENTS
@@ -236,8 +234,8 @@ The Rosetta design is based on a box-type central structure, 2.8 m x
 mounted.  The two solar panels have a combined area of 64 m2 (32.7m
 tip to tip), with each extending panel measuring 14 m in length.
  
-The &apos;top&apos; of the spacecraft accommodates the payload instruments, and
-the &apos;base&apos; of the spacecraft the subsystems. The spacecraft can be
+The 'top' of the spacecraft accommodates the payload instruments, and
+the 'base' of the spacecraft the subsystems. The spacecraft can be
 physically separated into two main modules:
  
     * A Payload Support Module (PSM)
@@ -352,7 +350,7 @@ that high dissipation units must be mounted on the side walls with
 thermal louvres providing trimming for changing external conditions
 during the mission.
  
-The design of the platform&apos;s electrical architecture is driven by the
+The design of the platform's electrical architecture is driven by the
 need to meet specific power requirements at aphelion (the solar array
 sizing case) and to incorporate maximum power point tracking.
 Additional factors such as the uncertainty in the performance of the
@@ -360,7 +358,7 @@ Low Intensity Low Temperature solar cell technology have also
 influenced the design.
  
 The telecommunications design is driven by the need to be compatible
-with ESA&apos;s 15m and 32m ground stations and the 34m and 70m DSN
+with ESA's 15m and 32m ground stations and the 34m and 70m DSN
 stations. This has produced requirements for dual S/X band and
 variable rate capability, together with an articulated High Gain
 Antenna to maximise data transfer during the payload operations, and
@@ -458,21 +456,21 @@ Rosetta Spacecraft Frame
   .__  _______________.     |             |     .______________  ___.
   |  \ \               \    |             |    /               \ \  |
   |  / /                \   |  +Zsc       |   /                / /  |
-  |  \ \                 `. |      ^      | .&apos;                 \ \  |
+  |  \ \                 `. |      ^      | .'                 \ \  |
   |  / /                 | o|      |      |o |                 / /  |
-  |  \ \                 .&apos; |      |      | `.                 \ \  |
+  |  \ \                 .' |      |      | `.                 \ \  |
   |  / /                /   |      |      |   \                / /  |
   .__\ \_______________/    |  +Xsc|      |    \_______________\ \__.
     -Y Solar Array          .______o-------&gt; +Ysc   +Y Solar Array
                                 ._____.
-                              .&apos;       `.
+                              .'       `.
                              /           \
-                            .   `.   .&apos;   .          +Xsc is out of
-                            |     `o&apos;     |             the page
+                            .   `.   .'   .          +Xsc is out of
+                            |     `o'     |             the page
                             .      |      .
                              \     |     /
-                              `.       .&apos;
-                           HGA  ` --- &apos;
+                              `.       .'
+                           HGA  ` --- '
  
  
    +Z s/c side (science deck side) view:
@@ -488,11 +486,11 @@ Rosetta Spacecraft Frame
     -Y Solar Array          |      |      |        +Y Solar Array
                             |      |      |
                             .______|______.
-                             `.   |   .&apos;
+                             `.   |   .'
                                 .--V +Xsc
-                         HGA  .&apos;       `.
+                         HGA  .'       `.
                              /___________\
-                                 `.|.&apos;                 +Zsc is out
+                                 `.|.'                 +Zsc is out
                                                       of the page
  
  
@@ -597,14 +595,14 @@ The SADM performs the positioning of the Solar Array w.r.t. the Sun
 by rotation of the panels around the spacecraft Y-axis. There are two
 identical SADMs on both sides of the spacecraft, which can be
 individually controlled. The control authority rests with the AOCMS
-subsystem, which always &apos;knows&apos; the actual attitude and Sun direction
+subsystem, which always 'knows' the actual attitude and Sun direction
 and is therefore in the position to determine the required
 orientation of the solar panels. The positioning commands are routed
 from the AOCMS I/F Unit via the SADE (SADM-Electronics) to the SADM.
  
 The Solar Array rotation is limited to plus and minus 180 degrees to
 the reference position. The array zero position is defined in the
-section &apos;Power Design: Solar Array Generator&apos; below.
+section 'Power Design: Solar Array Generator' below.
  
 The Solar Array Drive Mechanism baseline design comprises the
 following major components:
@@ -620,7 +618,7 @@ following major components:
 * Twist capsule unit, allowing +/-180 deg electrical circuit transfer
 * Thermistor for temperature reading, with harness.
  
-The SADM drive unit employs a &apos;pancake&apos; configuration with one single
+The SADM drive unit employs a 'pancake' configuration with one single
 X-type ballbearing to provide high moment stiffness and strength
 within a compact axial envelope. The central output shaft is of
 hollow construction, providing sufficient space to accommodate the
@@ -645,7 +643,7 @@ mechanisms per wing.
  
 Approximately 3 hours after launch, the satellite is pointed towards
 the Sun and the wings are deployed to their fully deployed position.
-They are released for full deployment by &apos;cutting&apos; Kevlar restraint
+They are released for full deployment by 'cutting' Kevlar restraint
 cables by means of thermal knives (actually degrading of the Kevlar
 by heat).
  
@@ -664,7 +662,7 @@ HGA Antenna Pointing Mechanism (APM)
 ------------------------------------
 The APM is a two-axes mechanism which allows motion of the HGA in
 both azimuth and elevation. The control authority rests with the
-AOCMS subsystem, which always &apos;knows&apos; the actual attitude and Earth
+AOCMS subsystem, which always 'knows' the actual attitude and Earth
 direction and is therefore in the position to determine the required
 orientation of the antenna. The positioning commands are routed from
 the AOCMS I/F Unit via the APM-E (APM-Electronics) to the APMM. HGA
@@ -843,7 +841,7 @@ heater switching. This method is used in order to maximise the
 reliability of thermistor controlling temperature.
  
 * Thermistors will be also used to monitor the temperature at each
-unit&apos;s temperature reference point (TRP) and at the System Interface
+unit's temperature reference point (TRP) and at the System Interface
 Temperature Points (STP).
  
 * Thermostat controlled (hardware) heater circuits, which are used to
@@ -976,12 +974,12 @@ certain functions. The Telecommunication Subsystem is required to
 interface with the ESA ground segment in normal operational mode and
 with the NASA Deep Space Network during emergency mode.
  
-The TT &amp; C subsystem comprises a number of equipment&apos;s whose
+The TT &amp; C subsystem comprises a number of equipment's whose
 descriptions appear below:
  
 * Two Transponders interfacing with the S-Band RF Distribution Unit
 (RFDU), with the High Power Amplifiers - in this case Travelling Wave
-Tube Amplifiers (TWTA&apos;s) -, and with the Data Management System
+Tube Amplifiers (TWTA's) -, and with the Data Management System
 (DMS). The Transponders modulate and transmit the Telemetry stream
 coming from both parts of the redundant Data Management System either
 in S or X-Band or both simultaneously without any interference and
@@ -1000,8 +998,8 @@ coherent mode depending on the lock status of the receiver.
 switching function between the antennas and the two Transponder units
 via two diplexers.
  
-* Two TWTA&apos;s providing &gt;28W of power at X-Band to the MGA or HGA via
-the Waveguide Interface Unit (WIU). The input to the TWTA HPA&apos;s is
+* Two TWTA's providing &gt;28W of power at X-Band to the MGA or HGA via
+the Waveguide Interface Unit (WIU). The input to the TWTA HPA's is
 supplied by the Transponder X-Band modulators via a 3dB passive
 hybrid.
  
@@ -1094,21 +1092,21 @@ align +Z axis with the HGA boresight.
   .__  _______________.     |             |     .______________  ___.
   |  \ \               \    |             |    /               \ \  |
   |  / /                \   |  +Zsc       |   /                / /  |
-  |  \ \                 `. |      ^      | .&apos;                 \ \  |
+  |  \ \                 `. |      ^      | .'                 \ \  |
   |  / /                 | o|      |      |o |                 / /  |
-  |  \ \                 .&apos; |      |      | `.                 \ \  |
+  |  \ \                 .' |      |      | `.                 \ \  |
   |  / /                /   |      |      |   \                / /  |
   .__\ \_______________/    |  +Xsc|      |    \_______________\ \__.
     -Y Solar Array          .______o-------&gt; +Ysc   +Y Solar Array
                                 .__o__.
-                              .&apos;       `.
+                              .'       `.
                              /           \
-                            .   `.   .&apos;   .           +Zhga and HGA
+                            .   `.   .'   .           +Zhga and HGA
                             |     `o-------&gt; +Yhga    boresight are
                             .      |      .           out of the page
                              \     |     /
-                              `.   |   .&apos;
-                           HGA  ` -|- &apos;
+                              `.   |   .'
+                           HGA  ` -|- '
                                    V +Xhga
  
  
@@ -1173,7 +1171,7 @@ providing the required frequency stability (Allan Variance, 3s,
 2.0e-13 at 38.2808642 MHz) for the RSI instrument. This USO will be
 used by the TTC subsystem whenever needed and is available for RSI
 measurements as well. Should the USO fail, each transponder will use
-it&apos;s own oscillator (TCX0), but with less stability and not harming
+it's own oscillator (TCX0), but with less stability and not harming
 the performance.
  
  
@@ -1209,7 +1207,7 @@ power demands, the PCU will operate in nominal mode, i.e. the PCU
 takes only the power required by the satellite from the solar array.
 The delta power will remain in the solar array. Because of this
 feature the actual performance of the array can only be assessed by
-utilising &apos;performance strings&apos; which operate some cells in short
+utilising 'performance strings' which operate some cells in short
 circuit current mode and others in open circuit voltage mode. From
 the data obtained from these cells the performance of the solar
 generator can be determined.
@@ -1312,7 +1310,7 @@ wing (about 5.3 m2 per panel).
                           x-------x
    x---.---.---.---.---x  |       |  x---.---.---.---.---x
    |   |   |   |   |   |--|   x   |--|   |   |   |   |   |
-   x---&apos;---&apos;---&apos;---&apos;---x  |       |  x---&apos;---&apos;---&apos;---&apos;---x
+   x---'---'---'---'---x  |       |  x---'---'---'---'---x
                           x-------x
  
 Mechanical Design of the Solar Panels
@@ -1325,7 +1323,7 @@ the solar cell network from the conductive CFRP layers. The Kapton
 foil is co-cured with the CFRP layers.
  
 The panel core consists of Aluminium honeycomb with a core height of
-22 mm. Local circular reinforcement plugs (&apos;subassembly panels&apos;) are
+22 mm. Local circular reinforcement plugs ('subassembly panels') are
 used to provide the holddown areas with extra strength, stiffness and
 fatigue resistance.
  
@@ -1405,19 +1403,19 @@ This diagram illustrates the ROS_SA+Y and ROS_SA-Y frames:
    |  / /                \   |  +Zsc       ||  /                / /  |
    |  \ \                 `. |      ^      ||.+Zsa+y0           \ \  |
    |  / /           +Zsa-y0 o-----&gt; | &lt;-----o  Zsa+y            / /  |
-   |  \ \           +Zsa-y.&apos;|+Ysa-y0|+Ysa+y0 `.                 \ \  |
+   |  \ \           +Zsa-y.'|+Ysa-y0|+Ysa+y0 `.                 \ \  |
    |  / /                /  ||+Ysa-y|+Ysa+y|   \                / /  |
    .__\ \_______________/   ||      |      |    \_______________\ \__.
      -Y Solar Array         |.______o-------&gt; +Ysc   +Y Solar Array
                             v  +Xsc o__.
-                     +Xsa-y0   .&apos;       `.
+                     +Xsa-y0   .'       `.
                      +Xsa-y   /           \
-                             .   `.   .&apos;   . +Zsa+y0, +Zsa+y, +Zsa-y0,
-                             |     `o&apos;     | and +Zsa-y are out of
+                             .   `.   .'   . +Zsa+y0, +Zsa+y, +Zsa-y0,
+                             |     `o'     | and +Zsa-y are out of
                              .      |      .       the page
                               \     |     /
-                               `.       .&apos;   Active solar cell is
-                            HGA  ` --- &apos;      facing the viewer
+                               `.       .'   Active solar cell is
+                            HGA  ` --- '      facing the viewer
  
  
 Power Constraints in Deep Space
@@ -1544,7 +1542,7 @@ Telemetry can be downlinked via the TFG using the real time channel
  
 Solid State Mass Memory (SSMM)
 - - - - - - - - - - - - - - - -
-The Solid State Mass Memory (SSMM) is used like a &apos;Hard Disk Storage&apos;
+The Solid State Mass Memory (SSMM) is used like a 'Hard Disk Storage'
 including 25 Gbit of memory. It contains a data compression module
 which allows lossy (for CAM image) and loss-less (for HK and science
 data) compression of data to be stored. It is able of file management
@@ -1637,7 +1635,7 @@ for futher downlink to ground and storage in the SSMM.
  
 The DMS PM permanently checks the AOCMS health by monitoring that the
 AOCMS PM does not stop to communicate with DMS PM. This is done by
-checking the correct reception of the so-called &apos;essential&apos; AOCMS HK
+checking the correct reception of the so-called 'essential' AOCMS HK
 packet every one second.
  
 The AIU is the central data acquisition and distribution unit which
@@ -1846,7 +1844,7 @@ Safe Mode       DMS on, AOCMS in Safe/Hold Mode; SA Sun pointing, X-
                 gyros, star tracker, RWs(if enabled by ground); TTC
                 S-Band downlink via HGA; RXs on HGA/LGA; payload off
  
-Survival Mode   DMS on, AOCMS in SKM submode &apos;MGA Strobing&apos; (or in
+Survival Mode   DMS on, AOCMS in SKM submode 'MGA Strobing' (or in
                 SKM if this submode is disabled), SA Sun pointing
                 with offset from +X-axis = SSCE angle, fixed small
                 residual rate around Sun vector; control by
@@ -1997,7 +1995,7 @@ CAP     Comet Acquisition Point
 CAT     Close Approach Trajectory
 CDMU    Control and Data Management Unit
 CFRP    Carbon Fibre Reinforced Plastic
-CNES    Centre National d&apos;Etudes Spatiales
+CNES    Centre National d'Etudes Spatiales
 COP     Close Observation Phase
 DDOR    Delta Differential One-way Range
 DLR     German Aerospace Center
@@ -2129,5 +2127,5 @@ WIU     Waveguide Interface Unit
  
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

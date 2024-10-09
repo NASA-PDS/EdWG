@@ -1,111 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1E00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1E00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mgs</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mgs</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>MARS GLOBAL SURVEYOR</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2020-09-04</modification_date>
         <version_id>1.2</version_id>
-        <title>MARS GLOBAL SURVEYOR</title>
-        <information_model_version>1.14.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2020-09-04</modification_date>
-                <version_id>1.2</version_id>
-                <description>
+        <description>
                     Changed instrument LIDs from ...:instrument:*.mgs to ...:instrument:mgs.*
                     Changed Sun LID from ...:target:sun.sun to ...:target:star.sun
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.mars_global_surveyor</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mgs.accel</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mgs.er</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mgs.mag</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mgs.moc</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mgs.mola</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mgs.rss</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mgs.tes</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.mars.phobos</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:star.sun</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_global_surveyor</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mgs.accel</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mgs.er</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mgs.mag</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mgs.moc</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mgs.mola</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mgs.rss</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mgs.tes</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.mars.phobos</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:star.sun</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
                    science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
             </reference_text>
-            <description>reference.ASMAR-RENZETTI1993</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Mars Global Surveyor Project, Mission Plan, Final Version (MGS 542-405), JPL
                    Document D-12088, Jet Propulsion Laboratory, Pasadena, CA, 1995.
             </reference_text>
-            <description>reference.JPLD-12088</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>MARS GLOBAL SURVEYOR</name>
-        <type>Spacecraft</type>
-        <naif_host_id>MGS</naif_host_id>
-
-        <description>
+      <description>reference.JPLD-12088</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>MARS GLOBAL SURVEYOR</name>
+    <type>Spacecraft</type>
+    <naif_host_id>MGS</naif_host_id>
+    <description>
  
     Instrument Host Overview
     ========================
@@ -137,7 +132,7 @@
       instrument rising 1.115 meters above the nadir equipment deck.
  
       Inside, two identical computers orchestrated almost all of
-      the spacecraft&apos;s flight activities.  Although only one of the
+      the spacecraft's flight activities.  Although only one of the
       two units controlled Surveyor at any one time, identical
       software ran concurrently in the backup unit in case of an
       emergency.  Each computer consisted of a Marconi 1750A
@@ -147,12 +142,12 @@
  
       Additional storage for science and spacecraft health data
       was provided by two solid-state recorders with a combined
-      capacity of 375 megabytes.  Mars Global Surveyor was NASA&apos;s
+      capacity of 375 megabytes.  Mars Global Surveyor was NASA's
       first planetary spacecraft to use RAM exclusively (instead of
       a tape recorder) for mass data storage.  This technological
       improvement reduced operational complexity and cost.
  
-      The equipment module also housed three &apos;reaction wheels&apos;
+      The equipment module also housed three 'reaction wheels'
       mounted at right angles to each other.  By transferring angular
       momentum to and from the rapidly spinning reaction wheels, MGS
       flight computers could control the spacecraft attitude to high
@@ -189,7 +184,7 @@
       The propulsion module contained the propellant tanks, main
       engines, propulsion feed system and attitude control
       thrusters.  It was a rectangular box 1.063 meters on a side
-      and was bolted to the equipment module on the latter&apos;s -Z
+      and was bolted to the equipment module on the latter's -Z
       panel.  The propulsion module also served as the adaptor to
       the launch vehicle.
  
@@ -229,7 +224,7 @@
       deployment, the -Y solar array yoke was damaged leaving its
       exact position and orientation in some doubt (and leading to
       several changes in mission design).  Rectangular, metal
-      &apos;drag flaps&apos; were mounted to the end of each array; these
+      'drag flaps' were mounted to the end of each array; these
       flaps increased the total surface area of the structure and
       added another 0.813 meters to the overall dimensions.
       Between each array and flap was mounted a magnetometer sensor.
@@ -365,5 +360,5 @@
       For more information see [ASMAR&amp;RENZETTI1993].
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

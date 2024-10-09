@@ -1,165 +1,160 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.jno</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.jno</logical_identifier>
+    <version_id>2.2</version_id>
+    <title>JUNO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2020-06-17</modification_date>
         <version_id>2.2</version_id>
-        <title>JUNO</title>
-        <information_model_version>1.11.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2020-06-17</modification_date>
-                <version_id>2.2</version_id>
-                <description>
+        <description>
                     Changed lid_reference from u:n:p:c:instrumen:grav.jno
                     to u:n:p:c:instrument:jno.rss
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>2.1</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>2.1</version_id>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2018-07-10</modification_date>
-                <version_id>2.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2018-07-10</modification_date>
+        <version_id>2.0</version_id>
+        <description>
                     added instrument LIDs
                 </description>
-            </Modification_Detail>            
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.juno</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:mwr.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:uvs.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:jno.rss</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:waves.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:jade.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:jedi.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:junocam.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:jiram.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:fgm.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:instrument:rmi.jno</lid_reference>
-                <reference_type>instrument_host_to_instrument</reference_type>
-            </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:dust.dust</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planetary_system.solar_system</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-<!--notyet        <Internal_Reference> -->
-<!--notyet     <lid_reference>urn:nasa:pds:context:target:plasma_cloud.jupiter.io_torus</lid_reference> -->
-<!--notyet            <reference_type>instrument_host_to_target</reference_type> -->
-<!--notyet        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> wait for Rings -->
-<!--            <lid_reference>urn:nasa:pds:context:target:ring.jupiter.rings</lid_reference> -->
-<!--            <reference_type>instrument_host_to_target</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.callisto</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.europa</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.ganymede</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.io</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.juno</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mwr.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:uvs.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:jno.rss</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:waves.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:jade.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:jedi.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:junocam.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:jiram.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:fgm.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rmi.jno</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:dust.dust</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planetary_system.solar_system</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <!--notyet        <Internal_Reference> -->
+    <!--notyet     <lid_reference>urn:nasa:pds:context:target:plasma_cloud.jupiter.io_torus</lid_reference> -->
+    <!--notyet            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--notyet        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> wait for Rings -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:ring.jupiter.rings</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.callisto</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.europa</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.ganymede</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.io</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
                    science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
             </reference_text>
-            <description>reference.ASMAR-RENZETTI1993</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Stephens, S. K., Juno Project Mission Plan, Rev. D, JPL D-35556, 15 August 2013.
             </reference_text>
-            <description>reference.JPLD-35556</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>Juno</name>
-        <type>Spacecraft</type>
-        <naif_host_id>JNO</naif_host_id>
-
-        <description>
+      <description>reference.JPLD-35556</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>Juno</name>
+    <type>Spacecraft</type>
+    <naif_host_id>JNO</naif_host_id>
+    <description>
  
  
 The majority of the text in this file was extracted from the Juno
@@ -201,8 +196,8 @@ The spacecraft includes one high gain (HGA) used as the prime communications
 antenna and radio science at Jupiter, two low gain antennas (LGAs) and
 a toroidal medium gain antenna used for some intervals in cruise and during
 critical activities when the HGA cannot be Earth-pointed, a large set of
-solar arrays in three &apos;wings&apos;, a main engine, and attitude thrusters.  In
-this description Juno will frequently be called &apos;the spacecraft.&apos;
+solar arrays in three 'wings', a main engine, and attitude thrusters.  In
+this description Juno will frequently be called 'the spacecraft.'
  
  
    Spacecraft Description
@@ -279,7 +274,7 @@ prior to delivery to Lockheed Martin.
 The non-science part of the subsystem is fully redundant.  The Ka-band
 uplink for Gravity Science is single-string as is the Ka-band power
 amplifier.  The subsystem is designed to provide a minimum 2-sigma
-margin on all links.  Juno will normally use NASA&apos;s Deep Space Network
+margin on all links.  Juno will normally use NASA's Deep Space Network
 (DSN) 34-m subnet for communications.  The 70-m subnet will be used
 for critical event coverage post launch, reception of tones during
 main engine maneuvers (DSMs, JOI, and PRM), enhanced data return
@@ -314,7 +309,7 @@ spacecraft Z axis, which will be aligned with the spin axis shortly
 after launch using the adjustable solar array wing actuators. The HGA,
 MGA, and forward LGA are nearly co-boresighted (the MGA and LGAs are
 slightly offset from the spin vector).  The aft LGA is used when
-the spacecraft&apos;s trajectory goes inside of the Earth&apos;s orbit and the
+the spacecraft's trajectory goes inside of the Earth's orbit and the
 SPE angle is greater than 110 deg.
  
 The Ka-band Translator Subsystem (KaTS) receives a Ka-band uplink
@@ -354,7 +349,7 @@ Electrical Power Subsystem (EPS)
 --------------------------------
  
  
-Juno&apos;s redundant, single fault tolerant Electrical Power Subsystem
+Juno's redundant, single fault tolerant Electrical Power Subsystem
 manages the spacecraft power bus and distribution of power to payloads,
 propulsion, heaters, mechanism motor actuators, NASA Standard Initiators
 (NSIs), and avionics.  The Power Distribution and Drive Unit (PDDU)
@@ -420,7 +415,7 @@ active nutation damping, and spin control.
 Temperature Control Subsystem (TCS)
 -----------------------------
  
-Juno&apos;s Thermal Control Subsystem uses a passive cold biased design
+Juno's Thermal Control Subsystem uses a passive cold biased design
 with heaters and louvers.  The core TCS consists of an insulated,
 louvered electronics vault atop an insulated, heated propulsion module.
 This design accommodates all mission thermal environments from
@@ -439,14 +434,14 @@ blanketed and heated to maintain individual temperature limits.
 JUNO SCIENCE INSTRUMENTS
 ---------------------------
  
-Juno&apos;s instrument complement includes Gravity Science using the X and Ka bands
-to determine the structure of Jupiter&apos;s interior; magnetometer investigation
+Juno's instrument complement includes Gravity Science using the X and Ka bands
+to determine the structure of Jupiter's interior; magnetometer investigation
 (MAG)  to study the magnetic dynamo and interior of Jupiter as well as to
 explore the polar magnetosphere; and a microwave radiometer (MWR) experiment
 covering 6 wavelengths between 1.3 and 50 cm to perform deep atmospheric
 sounding and composition measurements.  The instrument complement also
 includes a suite of fields and particle instruments to study the polar
-magnetosphere and Jupiter&apos;s aurora.  This suite includes an energetic particle
+magnetosphere and Jupiter's aurora.  This suite includes an energetic particle
 detector (JEDI), a Jovian auroral (plasma) distributions experiment (JADE), a
 radio and plasma wave instrument (Waves),  an ultraviolet spectrometer (UVS),
 and an Jupiter infrared auroral mapping instrument (JIRAM).  The JunoCam is a
@@ -477,23 +472,23 @@ Juno color, visible-light camera                JUNOCAM   Hansen
  
  
 Gravity Science (GRAV):  The Gravity Science investigation was designed to
-map Jupiter&apos;s gravitational field.
+map Jupiter's gravitational field.
  
    -  Determine normalized gravity coefficients J4, J6, and J8 - J14
  
  
 Magnetometer (MAG):  The Magnetometer investigation was designed to map
-Jupiter&apos;s magnetic field.
+Jupiter's magnetic field.
  
-   -  Derive a spherical harmonic model of Jupiter&apos;s main magnetic
+   -  Derive a spherical harmonic model of Jupiter's main magnetic
       field through degree and order 14
  
 Microwave Radiometer (MWR):  The Microwave Radiometer was designed to
-characterize Jupiter&apos;s atmosphere.
+characterize Jupiter's atmosphere.
  
-   -  Determine the global O/H ratio (water abundance) in Jupiter&apos;s
+   -  Determine the global O/H ratio (water abundance) in Jupiter's
       atmosphere
-   -  Measure latitudinal variations in Jupiter&apos;s deep atmosphere
+   -  Measure latitudinal variations in Jupiter's deep atmosphere
       (composition, temperature, cloud opacity, and dynamics)
    -  Measure the microwave brightness temperatures of Jupiter over all
       latitudes at wavelengths that fully sample the atmospheric thermal
@@ -502,13 +497,13 @@ characterize Jupiter&apos;s atmosphere.
  
 Jupiter Energetic Particle Detector Instrument (JEDI):  The Jupiter
 Energetic Particle Detector Instrument was designed to characterize
-Jupiter&apos;s polar magnetosphere.
+Jupiter's polar magnetosphere.
  
    -  Measure the pitch angle and energy distribution of electrons
       across auroral features
  
 Jovian Auroral Distributions Experiment (JADE):  The Jovian Auroral
-Distributions Experiment was designed to characterize Jupiter&apos;s
+Distributions Experiment was designed to characterize Jupiter's
 polar magnetosphere.
  
    -  Measure three dimensional time variable, pitch angle, energy and
@@ -517,19 +512,19 @@ polar magnetosphere.
       O+, and S+.
  
 Radio and Plasma Wave Instrument (Waves):  The Waves instrument was
-designed to characterize Jupiter&apos;s polar magnetosphere.
+designed to characterize Jupiter's polar magnetosphere.
  
    -  Measure radio and plasma wave emissions associated with
       auroral phenomena in the polar magnetosphere
  
 Ultraviolet Imaging Spectrograph (UVS):  The Ultraviolet Imaging
-Spectrograph was designed to characterize Jupiter&apos;s polar
+Spectrograph was designed to characterize Jupiter's polar
 magnetosphere.
  
    -  Characterize the UV auroral emissions
  
 Jovian Infrared Auroral Mapper (JIRAM):  The Jovian Infrared Auroral
-Mapper was designed to characterize Jupiter&apos;s atmosphere.
+Mapper was designed to characterize Jupiter's atmosphere.
  
 Juno color, visible-light camera (JUNOCAM):  The Juno color, visible-
 light camera was designed to engage the public and educate students.
@@ -571,5 +566,5 @@ instrumentation for radio science investigations.
     For more information see [ASMAR&amp;RENZETTI1993].
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

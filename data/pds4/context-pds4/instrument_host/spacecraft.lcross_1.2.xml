@@ -1,105 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.lcross</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.lcross</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>LUNAR CRATER OBSERVATION AND SENSING SATELLITE</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
         <version_id>1.1</version_id>
-        <title>LUNAR CRATER OBSERVATION AND SENSING SATELLITE</title>
-        <information_model_version>1.11.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mir1.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:mir2.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:nir1.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:nir2.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:nsp1.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:nsp2.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:tlp.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vis.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vsp.lcross</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mir1.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mir2.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nir1.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nir2.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nsp1.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nsp2.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:tlp.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vis.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vsp.lcross</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Ennico, K., et al., LCROSS Science Payload Ground Development, Test and
                    Calibration Results, 39th Lunar and Planetary Science Conference, Lunar and
                    Planetary Science Institute, No. 1391, League City, TX, p 1474, 2008.
             </reference_text>
-            <description>reference.ENNICOETAL2008</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ENNICOETAL2008</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Strong, J., et al., Transport and Use of a Centaur Second Stage in Space, AIAA
                    Space Ops 2010 Conference, Delivering on the Dream, AIAA, Washington, DC, Paper
                    2010-2197 (submitted for publication), 2010.
             </reference_text>
-            <description>reference.STRONGETAL2010</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>LUNAR CRATER OBSERVATION AND SENSING SATELLITE</name>
-        <type>Spacecraft</type>
-        <naif_host_id>LCROSS</naif_host_id>
-
-        <description>
+      <description>reference.STRONGETAL2010</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>LUNAR CRATER OBSERVATION AND SENSING SATELLITE</name>
+    <type>Spacecraft</type>
+    <naif_host_id>LCROSS</naif_host_id>
+    <description>
  
     Instrument Host Overview
     =========================
@@ -166,9 +161,9 @@
     The LCROSS visible camera (VIS) is a ruggedized analog video
     camera from the RocketCamTM camera family developed by Ecliptic
     Enterprises, Inc.  The unit consists of a camera module and a
-    lens.  The camera&apos;s focal plane CCD sensor is 752 [H] x 582 [V]
+    lens.  The camera's focal plane CCD sensor is 752 [H] x 582 [V]
     pixel format, operating at 30 Hz (60 fields/sec).  The flight
-    unit&apos;s lens is a 12 mm (focal length), f/1.2 lens providing a
+    unit's lens is a 12 mm (focal length), f/1.2 lens providing a
     30.1 degree [H] x 22.8 degree [V] (37.8 degree [Diagonal]) field-of-view.
     Interlaced NTSC fields are sampled by the Data Handling Unit
     (DHU) at 720 x 243 resolution resulting in a final image
@@ -177,7 +172,7 @@
     lossy compression algorithm performed by the Analog Devices 611
     Video Codec set on 80% quality and decompressed on the ground.
     The LCROSS visible camera contains no cryogenic liquids or
-    moving parts.  The visible camera&apos;s peak power during operation
+    moving parts.  The visible camera's peak power during operation
     is 2.9 W.  The visible camera has been fixed to an
     auto-gain/white balance setting.
  
@@ -185,11 +180,11 @@
  
     The LCROSS payload contains two near infrared (IR) (0.9-1.7 um)
     cameras (NIR1/NIR2).  Each camera consists of a Goodrich Sensors
-    Unlimited model SU320-KTX and a CCTV lens. Each camera&apos;s focal
+    Unlimited model SU320-KTX and a CCTV lens. Each camera's focal
     plane InGaAs sensor has a 320 [H] x 240 [V] pixel format.  The
     25 mm, f/1.4 C-mount glass lens provides a 28.7 degree [H] x 21.7
     degree [V] (36.0 degree [Diagonal]) field-of-view.  Although the
-    camera&apos;s native format provides 320 [H] x 240 [V] 12-bit images,
+    camera's native format provides 320 [H] x 240 [V] 12-bit images,
     the images are converted within the camera to an analog NTSC
     signal before transfer to the DHU where they are captured at 720
     [H] x 486 [V].  Due to similar processing within the DHU as
@@ -212,7 +207,7 @@
     cryogenic liquids or moving parts.  There is an internal
     thermo-electric cooler that actively cools the InGaAs sensor.
     The manufacturer default settings for this cooler are used.
-    Each camera&apos;s peak power during operation is 1.6 W.  Both gain
+    Each camera's peak power during operation is 1.6 W.  Both gain
     and exposure times are configurable by commands sent to the
     camera.
  
@@ -223,7 +218,7 @@
     ruggedized vanadium oxide (VOx) microbolometer MIRIC TB2-30,
     from Thermoteknix Ltd.  Mid-infrared camera #2 (MIR2) is model
     ThermoVision Micron from Flir Systems/Indigo Operations.  Each
-    camera&apos;s uncooled microbolometer focal plane sensor has a 164
+    camera's uncooled microbolometer focal plane sensor has a 164
     [H] x 128 [V] pixel format and is digitized at 14-bit
     resolution.  Each camera has a 30 mm, f/1.6 lens providing a
     15.0 degree [H] x 11.0 degree [V] (18.6 degree [Diagonal]) field-of-view.
@@ -232,7 +227,7 @@
     degradation due to humidity for terrestrial applications and
     does not contain any component volatile in vacuum.  Internal to
     both MIR modules is an instrumented-motorized shutter to provide
-    a reference for temperature measurements.  Each camera&apos;s peak
+    a reference for temperature measurements.  Each camera's peak
     power during operation is 1.3 W.  A camera gain, which
     determines the sensitivity to temperature scenes (high gain: -20
     degC &lt; T &lt; +150 degC, low gain: +150 degC &lt; T &lt; +500 degC), is
@@ -250,14 +245,14 @@
     is a commercial package that was modified for LCROSS.  This
     instrument is designed and manufactured by NASA Ames Research
     Center.  The optics in the SEM delivers an unobstructed ~10
-    degree diameter field-of-view.  The TLP&apos;s sensor element is an
+    degree diameter field-of-view.  The TLP's sensor element is an
     uncooled Advanced Photonix, Inc.  (API) avalanche photo diode
     (APD) packaged in a dryair sensor container that can operate in
     a vacuum.  The TLP SEM is connected by an electrical harness to
     the TLP DEM.  The SEM and DEM are located within the Payload
     Observation Deck (POD) and on the R6 Panel, respectively.  The
     DEM is interfaced with the DHU (also on the R6 Panel) via a
-    second cable, from which it is controlled.  The SEM and DEM&apos;s
+    second cable, from which it is controlled.  The SEM and DEM's
     peak power during operation are 2.5 W and 12.0 W, respectively.
  
     Visible Spectrometer
@@ -378,5 +373,5 @@
     bandwidth or performance issues.
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

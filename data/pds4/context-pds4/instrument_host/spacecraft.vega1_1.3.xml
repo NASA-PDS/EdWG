@@ -1,126 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.vega1</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.vega1</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>VEGA 1</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
         <version_id>1.2</version_id>
-        <title>VEGA 1</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-02-24</modification_date>
-                <version_id>1.2</version_id>
-                <description>
+        <description>
                     Changed inst LIDs from
                       u:n:p:c:i:instID.scID to
                       u:n:p:c:i:scID.instID
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>		
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-<!--removed in 1.1            <Internal_Reference> -->
-<!--removed in 1.1                <lid_reference>urn:nasa:pds:context:investigation:mission.support_archives</lid_reference> -->
-<!--removed in 1.1                <reference_type>instrument_host_to_investigation</reference_type> -->
-<!--removed in 1.1            </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.vega_1</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.ducma</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.iks</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.mischa</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.pm1</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.puma</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.sp1</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.sp2</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.tnm</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:vega1.tvs</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--        <Internal_Reference> -->
-<!--            <lid_reference>urn:nasa:pds:context:target:asteroid.asteroid</lid_reference> -->
-<!--            <reference_type>instrument_host_to_target</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:comet.1p_halley</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
-                   Reinhard, R and B. Battrick (eds), &apos;Space Missions to Halley&apos;s Comet&apos;, European
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <!--removed in 1.1            <Internal_Reference> -->
+    <!--removed in 1.1                <lid_reference>urn:nasa:pds:context:investigation:mission.support_archives</lid_reference> -->
+    <!--removed in 1.1                <reference_type>instrument_host_to_investigation</reference_type> -->
+    <!--removed in 1.1            </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.vega_1</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.ducma</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.iks</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.mischa</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.pm1</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.puma</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.sp1</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.sp2</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.tnm</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:vega1.tvs</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:asteroid.asteroid</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:comet.1p_halley</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Reinhard, R and B. Battrick (eds), 'Space Missions to Halley's Comet', European
                    Space Agency ESA SP-1066, ESA Pub Div, Moordwijk, Netherlands, 1986.
             </reference_text>
-            <description>reference.ESA-SP1066</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>VEGA 1</name>
-        <type>Spacecraft</type>
-        <naif_host_id>VEGA1</naif_host_id>
-
-        <description>
+      <description>reference.ESA-SP1066</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>VEGA 1</name>
+    <type>Spacecraft</type>
+    <naif_host_id>VEGA1</naif_host_id>
+    <description>
  
     Instrument Host Overview
     ========================
       Two spacecraft, Vega-1 and Vega-2, have been launched aboard
       Proton rockets from Baykonour (Kazharstan), on 15 and 21
       December 1984, respectively.  The two spacecraft are identical
-      and the &apos;redundancy&apos; is aimed at increasing the overall
+      and the 'redundancy' is aimed at increasing the overall
       reliability of the scientific mission.  In June 1985, the
       landers were separated from the Halley probes in the vicinity of
-      Venus.  They were injected into the planet&apos;s atmosphere to
+      Venus.  They were injected into the planet's atmosphere to
       perform measurements until after surface impact.  During their
       descent, the landers each released a balloon, to drift in the
-      planet&apos;s atmosphere.  These balloons were tracked with the help
+      planet's atmosphere.  These balloons were tracked with the help
       of an international Very-Long-Baseline Interferometry (VLBI)
       network.
  
@@ -207,12 +202,12 @@ turn angle in the plane perpendicular to  -60 degrees to +20 degrees
        the ecliptic (alpha)
 maximal angular velocities over alpha     +/- 1 degree/s
        and beta
-accuracy of tracking the comet in terms   +/- 3&apos;/s
+accuracy of tracking the comet in terms   +/- 3'/s
        of angular velocity
-tracking accuracy                         +/- 8&apos;
+tracking accuracy                         +/- 8'
  
 ---------------------------------------------------------------------
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

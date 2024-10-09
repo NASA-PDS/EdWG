@@ -1,58 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1H00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1H00.xsd">
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.psyche</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.psyche</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Psyche Spacecraft</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>psyche</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2022-01-12</modification_date>
         <version_id>1.0</version_id>
-        <title>Psyche Spacecraft</title>
-        <information_model_version>1.17.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Alias_List>
-            <Alias><alternate_title>psyche</alternate_title></Alias>
-        </Alias_List>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2022-01-12</modification_date>
-                <version_id>1.0</version_id>
-                <description>Initial version </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-    <Discipline_Area> </Discipline_Area>
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.psyche</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:psyche.imager</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:psyche.grs</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:psyche.ns</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:psyche.mag</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:dsn.rss</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>Placeholder</reference_text>
-            <description>Psyche Spacecraft paper</description>
-        </External_Reference>
-    </Reference_List>
-    <Instrument_Host>
-        <name>Psyche</name>
-        <type>Spacecraft</type>
-        <naif_host_id>-255000</naif_host_id>
-        <description>The Psyche spacecraft and solar panels, which will be built by Maxar Technologies, are about the size of a singles tennis court. The body of the spacecraft is slightly bigger than a Smart Car and about as tall as a regulation basketball hoop. The spacecraft will include a Gamma Ray and Neutron Spectrometer, a Multispectral Imager, a Magnetometer and an x-band radio telecommunications system. The Psyche mission will also test a sophisticated new laser communication technology, called Deep Space Optical Communication, that encodes data in photons to communicate between a probe in deep space and Earth.</description>
-    </Instrument_Host>
+        <description>Initial version </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Discipline_Area> </Discipline_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.psyche</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:psyche.imager</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:psyche.grs</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:psyche.ns</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:psyche.mag</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:dsn.rss</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>Placeholder</reference_text>
+      <description>Psyche Spacecraft paper</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>Psyche</name>
+    <type>Spacecraft</type>
+    <naif_host_id>-255000</naif_host_id>
+    <description>The Psyche spacecraft and solar panels, which will be built by Maxar Technologies, are about the size of a singles tennis court. The body of the spacecraft is slightly bigger than a Smart Car and about as tall as a regulation basketball hoop. The spacecraft will include a Gamma Ray and Neutron Spectrometer, a Multispectral Imager, a Magnetometer and an x-band radio telecommunications system. The Psyche mission will also test a sophisticated new laser communication technology, called Deep Space Optical Communication, that encodes data in photons to communicate between a probe in deep space and Earth.</description>
+  </Instrument_Host>
 </Product_Context>

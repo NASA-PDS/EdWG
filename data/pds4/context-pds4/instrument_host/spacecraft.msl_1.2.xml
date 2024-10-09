@@ -1,176 +1,173 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1700.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1700.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.msl</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.msl</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>MARS SCIENCE LABORATORY</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2019-03-09</modification_date>
         <version_id>1.1</version_id>
-        <title>MARS SCIENCE LABORATORY</title>
-        <information_model_version>1.7.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2019-03-09</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+        <description>
                   replaced all lidvid_reference with lid_reference.
 		  Added ref to accel.msl
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:investigation:mission.mars_science_laboratory</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:accel.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:apxs.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:chemcam_libs.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:chemcam_rmi.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:chemcam_soh.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:chemin.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:dan.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:fhaz_left_a.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:fhaz_left_b.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:fhaz_right_a.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:fhaz_right_b.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:hazcam.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:mahli.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:mardi.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:mast_left.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:mast_right.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:navcam.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:nav_left_a.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:nav_left_b.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:nav_right_a.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:nav_right_b.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:rad.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:rems.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:rhaz_left_a.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:rhaz_left_b.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:rhaz_right_a.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:rhaz_right_b.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:instrument:sam.msl</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--noSpice        <Internal_Reference> -->
-			<!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:spice.msl</lid_reference> -->
-<!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--noSpice        <Internal_Reference> -->
-        <Internal_Reference>
-	    <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_science_laboratory</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:accel.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:apxs.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:chemcam_libs.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:chemcam_rmi.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:chemcam_soh.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:chemin.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:dan.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:fhaz_left_a.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:fhaz_left_b.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:fhaz_right_a.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:fhaz_right_b.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:hazcam.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mahli.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mardi.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mast_left.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mast_right.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:navcam.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nav_left_a.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nav_left_b.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nav_right_a.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nav_right_b.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rad.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rems.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rhaz_left_a.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rhaz_left_b.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rhaz_right_a.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rhaz_right_b.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:sam.msl</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:spice.msl</lid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
                    science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
             </reference_text>
-            <description>reference.ASMAR-RENZETTI1993</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Grotzinger, J., Beyond water on Mars, Nature Geoscience 2, 231-233,
                    doi:10.1038/ngeo480, 2009.
             </reference_text>
-            <description>reference.GROTZINGER2009</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.GROTZINGER2009</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Grotzinger, J.P., J. Crisp, A.R. Vasavada, R.C. Anderson, C.J. Baker, R. Barry,
                    D.F. Blake, P. Conrad, K.S. Edgett, B. Ferdowsi, R. Gellert, J.B. Gilbert, M.
                    Golombek, J.Gomez-Elvira, D.M. Hassler, L. Jandura, M. Litvak, P. Mahaffy, J.
@@ -179,37 +176,35 @@
                    investigation, Space Science Reviews, 170, 5-56, doi:
                    10.1007/s11214-012-9892-2, 2012.
             </reference_text>
-            <description>reference.GROTZINGERETAL2012</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.GROTZINGERETAL2012</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Mars Surveyor 2001, Mission Plan, Revision B (MSP 722-201), JPL Document
                    D-16303, Jet Propulsion Laboratory, Pasadena, CA, 2000.
             </reference_text>
-            <description>reference.JPLD-16303</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.JPLD-16303</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Chang, C., DSN Telecommunications Link Design Handbook, Jet Propulsion
                    Laboratory Document JPL D-19379, DSN No. 810-005, April 29, 2011.
             </reference_text>
-            <description>reference.JPLD-19379</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.JPLD-19379</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Maki, J.N., et al., Mars Exploration Rover Engineering Cameras, J. Geophys.
                    Res., 108(E12), 8071, doi:10.1029/2003JE002077, 2003.
             </reference_text>
-            <description>reference.MAKIETAL2003</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>MARS SCIENCE LABORATORY</name>
-        <type>Spacecraft</type>
-        <naif_host_id>MSL</naif_host_id>
-
-        <description>
+      <description>reference.MAKIETAL2003</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>MARS SCIENCE LABORATORY</name>
+    <type>Spacecraft</type>
+    <naif_host_id>MSL</naif_host_id>
+    <description>
  
  
   Instrument Host Overview
@@ -296,7 +291,7 @@
       protection will limit the rover from exceeding 30 deg tilts while
       driving.  The design of the rocker-bogie allows the wheels to move
       over objects approximately as large as the wheel diameter (0.5 m).
-      Clearance under the rover&apos;s body on flat ground is 66 cm.  Each
+      Clearance under the rover's body on flat ground is 66 cm.  Each
       wheel has cleats and is independently actuated and geared,
       providing for climbing in soft sand and scrambling over rocks.
       Each front and rear wheel can be independently steered, allowing
@@ -401,7 +396,7 @@
       unless there is a problem with the primary rover computer and/or
       primary cameras.
  
-      The Remote Sensing Mast (RSM), provides a tall geologist&apos;s eye-
+      The Remote Sensing Mast (RSM), provides a tall geologist's eye-
       level view from the cameras mounted at the top, ~2 meters above
       the Martian surface.  The RSM head includes the ChemCam, Mastcams,
       and Navcams, with the ChemCam sitting inside of the remote warm
@@ -483,7 +478,7 @@
       150 um sieve and 100% passing through a 1 mm sieve.  Heating of
       the drilled sample in pre-landing tests was minimal.
  
-      Soil samples are acquired with CHIMRA&apos;s clam-shell scoop
+      Soil samples are acquired with CHIMRA's clam-shell scoop
       mechanism, which can collect loose soil material from depths of up
       to 3.5 cm.  The volume of a scooped soil sample is expected to be
       between 1 and 30 cm3.
@@ -572,5 +567,5 @@
     information, see [JPLD-16303].
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

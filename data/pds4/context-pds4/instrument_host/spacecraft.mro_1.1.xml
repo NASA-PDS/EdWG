@@ -1,86 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1700.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1700.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mro</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mro</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>MARS RECONNAISSANCE ORBITER</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
-        <title>MARS RECONNAISSANCE ORBITER</title>
-        <information_model_version>1.7.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:investigation:mission.mars_reconnaissance_orbiter::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:accel.mro::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:crism.mro::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:ctx.mro::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:hirise.mro::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:marci.mro::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:mcs.mro::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:rss.mro::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:instrument:sharad.mro::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--noSpice        <Internal_Reference> -->
-<!--noSpice            <lidvid_reference>urn:nasa:pds:context:instrument:spice.mro::1.0</lidvid_reference> -->
-<!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--noSpice        <Internal_Reference> -->
-        <Internal_Reference>
-            <lidvid_reference>urn:nasa:pds:context:target:planet.mars::1.0</lidvid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:investigation:mission.mars_reconnaissance_orbiter::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:accel.mro::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:crism.mro::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:ctx.mro::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:hirise.mro::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:marci.mro::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:mcs.mro::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:rss.mro::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:instrument:sharad.mro::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lidvid_reference>urn:nasa:pds:context:instrument:spice.mro::1.0</lidvid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lidvid_reference>urn:nasa:pds:context:target:planet.mars::1.0</lidvid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    unk
             </reference_text>
-            <description>reference.unk</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>MARS RECONNAISSANCE ORBITER</name>
-        <type>Spacecraft</type>
-        <naif_host_id>MRO</naif_host_id>
-
-        <description>
+      <description>reference.unk</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>MARS RECONNAISSANCE ORBITER</name>
+    <type>Spacecraft</type>
+    <naif_host_id>MRO</naif_host_id>
+    <description>
  
   Instrument Host Overview
   ========================
@@ -98,7 +93,7 @@
     When fully assembled and fueled, the spacecraft had to weigh less
     than 2,180 kilograms (4,806 pounds) so that the Atlas V launch
     vehicle could lift it into the proper orbit. All subsystems and
-    instruments on board (the so-called &apos;dry mass&apos;) weighed less than
+    instruments on board (the so-called 'dry mass') weighed less than
     1,031 kilograms (2,273 pounds) to allow room for 1,149 kilograms
     (2,533 pounds) of propellant for trajectory correction maneuvers
     that kept the spacecraft on target during the cruise to Mars and
@@ -140,7 +135,7 @@
     dipped into the atmosphere on each orbit.
  
     Science Operations:  During the primary science phase, the
-    orbiter&apos;s job was to point its science instruments at Mars to
+    orbiter's job was to point its science instruments at Mars to
     collect images and other data from targets on the surface of Mars,
     while ensuring that the high-gain antenna and solar arrays were
     continuously tracking the Earth and the Sun, respectively.
@@ -261,7 +256,7 @@
     2. Optical Navigation Camera: This camera was being tested for
     improved navigation capability for future missions. Similar
     cameras placed on orbiters of the future would be able to serve as
-    high-precision interplanetary &apos;eyes&apos; to guide incoming spacecraft
+    high-precision interplanetary 'eyes' to guide incoming spacecraft
     as they near Mars.
  
     3. Ka-band Telecommunications Experiment Package: Mars
@@ -272,7 +267,7 @@
     Structures:  The structures subsystem is the skeleton around which
     the spacecraft was assembled. It supported and protected the other
     engineering subsystems and the science instruments. It was strong
-    enough to survive launch, when the forces can exceed 5 g&apos;s.
+    enough to survive launch, when the forces can exceed 5 g's.
     Extremely lightweight but strong materials were used to achieve
     this strength, including titanium, carbon composites, and aluminum
     honeycomb.
@@ -300,7 +295,7 @@
     powerful amplifier, and fast computer, Mars Reconnaissance Orbiter
     could transmit data to earth at rates as high as 6 megabits per
     second, a rate ten times higher than previous Mars orbiters. The
-    orbiter&apos;s radio operated in the X-band of the radio spectrum, at a
+    orbiter's radio operated in the X-band of the radio spectrum, at a
     frequency of around 8 Gigahertz.
  
     Major components of the telecom subsystem included:
@@ -375,7 +370,7 @@
  
     Propulsion: The propulsion subsystem performed major maneuvers
     such as trajectory correction maneuvers and Mars orbit insertion.
-    The propulsion subsystem was also used to control the spacecraft&apos;s
+    The propulsion subsystem was also used to control the spacecraft's
     position, as a backup to the reaction wheels.
  
     Mars Reconnaissance Orbiter used a monopropellant propulsion
@@ -469,7 +464,7 @@
     to track the sun continuously, each solar panel had an area of
     approximately 10 square meters (107.6 square feet), and contained
     3,744 individual solar cells. The solar cells were able to convert
-    more than 26% of the sun&apos;s energy directly into electricity. The
+    more than 26% of the sun's energy directly into electricity. The
     solar panels were deployed soon after launch and remained deployed
     throughout the mission.
  
@@ -497,5 +492,5 @@
     * Heaters.
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

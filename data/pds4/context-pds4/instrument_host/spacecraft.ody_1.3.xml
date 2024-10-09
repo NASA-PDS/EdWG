@@ -1,99 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.sch"
-    schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context
-    xmlns="http://pds.nasa.gov/pds4/pds/v1"
-    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="
-        http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.xsd ">
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.ody</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.ody</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>2001 MARS ODYSSEY</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2023-09-15</modification_date>
         <version_id>1.2</version_id>
-        <title>2001 MARS ODYSSEY</title>
-        <information_model_version>1.20.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2023-09-15</modification_date>
-                <version_id>1.2</version_id>
-                <description>
-                    instrument:themis.ody -> :ody.themis, :ody.accel, :ody.mar, :ody.rss
+        <description>
+                    instrument:themis.ody -&gt; :ody.themis, :ody.accel, :ody.mar, :ody.rss
                       with permission from nodes
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2021-07-21</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2021-07-21</modification_date>
+        <version_id>1.1</version_id>
+        <description>
                     Replaced all lidvid_reference with lid_reference, and
-		    instrument:grs.ody -> :ody.grs + :ody.hend + :ody.ns,
+		    instrument:grs.ody -&gt; :ody.grs + :ody.hend + :ody.ns,
                     which separates 1 inst into 3 and flips the order
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.2001_mars_odyssey</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ody.accel</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ody.grs</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ody.hend</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ody.ns</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ody.mar</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ody.rss</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ody.themis</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.2001_mars_odyssey</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ody.accel</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ody.grs</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ody.hend</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ody.ns</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ody.mar</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ody.rss</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ody.themis</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Mars Surveyor 2001, Mission Plan, Revision B (MSP 722-201), JPL Document
                    D-16303, Jet Propulsion Laboratory, Pasadena, CA, 2000.
             </reference_text>
-            <description>reference.JPLD-16303</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>2001 MARS ODYSSEY</name>
-        <type>Spacecraft</type>
-        <naif_host_id>ODY</naif_host_id>
-        <description>
+      <description>reference.JPLD-16303</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>2001 MARS ODYSSEY</name>
+    <type>Spacecraft</type>
+    <naif_host_id>ODY</naif_host_id>
+    <description>
  
   Instrument Host Overview
   ========================
@@ -128,7 +120,7 @@
       memory, which allowed data to be maintained by the system
       in the event of a power failure.  The interface
       electronics were computer cards that communicated with
-      external peripherals.  The cards fit into the computer&apos;s
+      external peripherals.  The cards fit into the computer's
       main board.  There were two identical sets of the
       computer and interface electronics for back up in case
       one failed.  One card was not redundant.  It was a one
@@ -167,7 +159,7 @@
     Guidance, Navigation and Control
     --------------------------------
       This subsystem used three redundant pairs of sensors to
-      determine the spacecraft&apos;s attitude.  A star camera was used
+      determine the spacecraft's attitude.  A star camera was used
       to look at star fields and a sun sensor detected the position
       of the Sun in order to back up the star camera.  The inertial
       measurement unit collected spacecraft orientation data
@@ -207,7 +199,7 @@
     Thermal Control
     ---------------
       A combination of heaters, radiators, louvers, blankets, and
-      thermal coatings maintained each spacecraft component&apos;s
+      thermal coatings maintained each spacecraft component's
       temperature within its allowable limits.
  
     Mechanisms
@@ -215,7 +207,7 @@
       Odyssey functioned via several mechanisms, many of which were
       associated with the high-gain antenna.  The antenna was
       locked down during launch, cruise, and aerobraking through
-      three &apos;retention and release devices,&apos; or latches.  The
+      three 'retention and release devices,' or latches.  The
       antenna was released and deployed with a motor-driven hinge
       once the science orbit around Mars was attained. A two-axis
       gimbal assembly controlled the position of the antenna. The
@@ -258,7 +250,7 @@
  
                                  _______________ HGA
                                  \             /
-              Science        ..   `._________.&apos;
+              Science        ..   `._________.'
                Orbit         || ._______________.
              Velocity        || |       ^+Xsc   | Science Deck
                 ^.           || |       |       |
@@ -303,5 +295,5 @@
     diameter (HEF), and 34-m beam waveguide (BWG).
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

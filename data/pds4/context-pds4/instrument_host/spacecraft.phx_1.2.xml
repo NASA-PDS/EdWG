@@ -1,115 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1A10.sch"
- schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context
- xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1
-  https://pds.jpl.nasa.gov/pds4/pds/v1/PDS4_PDS_1A10.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.phx</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.phx</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>PHOENIX</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2018-06-15</modification_date>
         <version_id>1.1</version_id>
-        <title>PHOENIX</title>
-        <information_model_version>1.10.1.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2018-06-15</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+        <description>
                   replaced all lidvid_reference with lid_reference.
                   Changed lidvid_references from ase__phx to ase.phx, etc.
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.phoenix</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ase.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:lidar.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:meca_afm.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:meca_elec.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:meca_tecp.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:meca_wcl.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:met.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:om.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ra.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:rac.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:ssi.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:tega.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:tt.phx</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.phoenix</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ase.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lidar.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:meca_afm.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:meca_elec.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:meca_tecp.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:meca_wcl.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:met.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:om.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ra.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:rac.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ssi.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:tega.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:tt.phx</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
                    science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
             </reference_text>
-            <description>reference.ASMAR-RENZETTI1993</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Guinn, J., M.D. Garcia, and K.P. Talley, Mission design of the Phoenix Mars
                    Scout mission, J. Geophys. Res., 113, E00A26, 2008, doi:10.1029/2007JE003038.
             </reference_text>
-            <description>reference.GUINNETAL2008</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.GUINNETAL2008</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Mars Surveyor 2001, Mission Plan, Revision B (MSP 722-201), JPL Document
                    D-16303, Jet Propulsion Laboratory, Pasadena, CA, 2000.
             </reference_text>
-            <description>reference.JPLD-16303</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.JPLD-16303</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Smith, P.H., L. Tamppari, R.E. Arvidson, D. Bass, D. Blaney, W. Boynton, A.
                    Carswell, D. Catling, B. Clark, T. Duck, E. DeJong, D. Fisher, W. Goetz, P.
                    Gunnlaugsson, M. Hecht, V. Hipkin, J. Hoffman, S. Hviid, H. Keller, S.
@@ -120,16 +113,14 @@
                    characterization experiments, mission overviews, and expected science, Journal
                    of Geophysical Research, 113, E00A18, 2008, doi:10.1029/2008JE003083.
             </reference_text>
-            <description>reference.SMITHETAL2008</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>PHOENIX</name>
-        <type>Spacecraft</type>
-        <naif_host_id>PHX</naif_host_id>
-
-        <description>
+      <description>reference.SMITHETAL2008</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>PHOENIX</name>
+    <type>Spacecraft</type>
+    <naif_host_id>PHX</naif_host_id>
+    <description>
  
   Instrument Host Overview
   ========================
@@ -199,7 +190,7 @@
  
     Following its soft touchdown between 65 deg N to 72 deg N latitude,
     and after waiting 20 minutes for the dust to settle, the Lander
-    performed a number of critical activities. These &apos;Sol 0&apos; (a sol is  a
+    performed a number of critical activities. These 'Sol 0' (a sol is  a
     mars day) activities included deployments of the landed solar  arrays,
     the bio-barrier covering the RA, and the SSI and MET  masts. The SSI
     took images of the bio-barrier, solar arrays,  and part of the footpad
@@ -219,14 +210,14 @@
     phase, with pre-planned activities running from  a minimum of 3 hours
     on Sol 1 to a maximum of 6.5 hours on Sol 6  (the Lander was active
     for up to 7 hours during the nominal surface  or digging phase). The
-    performance of the spacecraft&apos;s power, thermal, and UHF subsystems
+    performance of the spacecraft's power, thermal, and UHF subsystems
     were thoroughly characterized during  this phase, and TEGA, MECA, and
     MET instruments went through their initial checkouts and  prepared for
     nominal operations. Concurrent with  these activities, the EDL and Sol
     0 data that were stored in the  non-volatile (flash memory) were
     relayed to the ground. The SSI  imaged as much of the Lander as it
     could see and characterized  the workspace and surrounding
-    environment. The  RAC located on the &apos;wrist&apos; of the RA was  used to
+    environment. The  RAC located on the 'wrist' of the RA was  used to
     image the footpads and the TEGA cover, as it was the only  imager that
     could be maneuvered into the proper viewpoint for these  pictures.
  
@@ -279,5 +270,5 @@
     [JPLD-16303].
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>

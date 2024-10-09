@@ -1,114 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1F00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.clem1</logical_identifier>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.clem1</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>CLEMENTINE 1</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
         <version_id>1.2</version_id>
-        <title>CLEMENTINE 1</title>
-        <information_model_version>1.15.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2021-02-24</modification_date>
-                <version_id>1.2</version_id>
-                <description>
+        <description>
                     Changed inst LIDs from
                       u:n:p:c:i:instID.scID to
                       u:n:p:c:i:scID.instID
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.deep_space_program_science_experiment</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:clem1.a-star</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:clem1.b-star</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:clem1.hires</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:clem1.lidar</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:clem1.lwir</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:clem1.nir</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:clem1.rss</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--noSpice        <Internal_Reference> -->
-<!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:spice.clem1</lid_reference> -->
-<!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--noSpice        <Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:clem1.uvvis</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <reference_text>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.deep_space_program_science_experiment</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clem1.a-star</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clem1.b-star</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clem1.hires</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clem1.lidar</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clem1.lwir</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clem1.nir</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clem1.rss</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:spice.clem1</lid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clem1.uvvis</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
                    Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
                    science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
             </reference_text>
-            <description>reference.ASMAR-RENZETTI1993</description>
-        </External_Reference>
-        <External_Reference>
-            <reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
                    Regeon, P.A., R.J. Chapman, and R. Baugh, Clementine -- The Deep Space
                    Program Science Experiment (DSPSE),Paper IAA-L-0501, IAA International
                    Conference on Low-Cost Planetary Missions, Laurel, MD: The Johns Hopkins
                    University Applied Physics Laboratory, 12-15 April 1994.
             </reference_text>
-            <description>reference.REGEONETAL1994</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>CLEMENTINE 1</name>
-        <type>Spacecraft</type>
-        <naif_host_id>CLEM1</naif_host_id>
-
-        <description>
+      <description>reference.REGEONETAL1994</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>CLEMENTINE 1</name>
+    <type>Spacecraft</type>
+    <naif_host_id>CLEM1</naif_host_id>
+    <description>
               Online Reference: http://wundow.wustl.edu/clem/frontpage.html
 
  
@@ -126,7 +121,7 @@
       activities.  The Naval Research Laboratory (NRL) also
       operated a tracking station at Pomonkey, Maryland.  Air Force
       Satellite Control Network (AFSCN) Remote Tracking Stations
-      (RTS); a station of the Centre Nationales d&apos;Etudes Spatiales
+      (RTS); a station of the Centre Nationales d'Etudes Spatiales
       (CNES) near Pretoria, South Africa; stations of the Navy Space
       Surveillance Network (NAVSPASUR); and a NASA site in Chile also
       participated in radio commanding and/or tracking.  But these
@@ -147,7 +142,7 @@
       through the research and development activities of the
       Strategic Defense Initiative (SDI).  NASA provided
       communications support through the Jet Propulsion
-      Laboratory&apos;s (JPL) Deep Space Network; orbit determination
+      Laboratory's (JPL) Deep Space Network; orbit determination
       and operations support were provided from both the NASA
       Goddard Space Flight Center and JPL.  Supporting these
       laboratories were scores of industrial contractors.
@@ -288,7 +283,7 @@
         mission represents the first long duration flight of a 32-bit
         RISC processor.  Also incorporated was a state-of-the-art
         image compression system provided by the French Centre
-        Nationale d&apos;Etudes Spatiale (CNES).  A data handling unit
+        Nationale d'Etudes Spatiale (CNES).  A data handling unit
         with its own microcontroller sequenced the cameras,
         operated the image compression system, and directed the
         data flow.
@@ -315,7 +310,7 @@
         the spacecraft high-gain antenna (HGA) boresight.  The
         +Y axis vector formed a right-handed coordinate system
         and was in the nominal direction of the solar panel
-        rotation axis.  The low-gain &apos;omni-directional&apos;
+        rotation axis.  The low-gain 'omni-directional'
         antennas were mounted on the +Z and -Z sides of the
         spacecraft body.  The spacecraft velocity vector was in
         approximately the -X direction when the spacecraft was
@@ -392,5 +387,5 @@
       For more information see [ASMAR&amp;RENZETTI1993].
 
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>
