@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:mardi.msl</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Mars Descent Imager Camera (MARDI) for MSL</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.msl</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_science_laboratory</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Malin, M.C., M.A. Caplinger, K.S. Edgett, F.T. Ghaemi, M.A. Ravine, J.A.
+                   Schaffner, J.N. Maki, R.G. Willson, J.F. Bell III, J.F. Cameron, W.E. Dietrich,
+                   L.J. Edwards, B. Hallet, K.E. Herkenhoff, E. Heydari, L.C. Kah, M.T. Lemmon,
+                   M.E. Minitti, T.S. Olson, T.J. Parker, S.K. Rowland, J. Schieber, R.J.
+                   Sullivan, D.Y. Sumner, P.C. Thomas, and R.A. Yingst, The Mars Science
+                   Laboratory (MSL) Mars Descent Imager (MARDI) flight instrument, 40th Lunar and
+                   Planetary Science Conference, Extended Abstract 1199, Lunar and Planetary
+                   Institute, Houston, Texas, 2009.
+            </reference_text>
+      <description>reference.MALINETAL2009</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Mars Descent Imager Camera</name>
+    <type>Imager</type>
+    <!--RChen/EN was Camera-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Mars Descent Imager (MARDI) is a fixed-focus color camera mounted on the forward port side of the Mars Science Laboratory (MSL) rover.  The optic axis points in the +Z direction (towards the ground). The camera can obtain 1600 x 1200 pixel images at a rate of 4.5 frames per second throughout the period between heat shield separation and touchdown plus a few seconds (a period of about two minutes). The rover software issues a start imaging command (that includes the frame rate and the number of frames; substantial margin is commanded to take into account unusually long descent durations) and the camera operates thereafter autonomously. The data are written into permanent flash memory in real time during acquisition for later transmission.  Hundreds of images will be acquired at scales many times greater than available from orbit.
+The MARDI science investigation primary objectives are to determine where exactly the MSL vehicle has landed and to provide a geologic and engineering-geologic framework of the landing site for early operations. The rover is expected to leave the area imaged by MARDI after the first few weeks of the mission. Vehicle horizontal offset between images within the descent sequence may permit digital elevation models (DEMs) to be created from the descent images. Additional objectives of the investigation are to examine vehicle ground-referenced motion deviations from inertial measurement unit (IMU) derived inertial position during descent to extract wind velocity from the lower boundary layer, and to help develop and test algorithms for future autonomous landing and hazard avoidance systems. Although not an original requirement or objective of the investigation, additional images may be taken during rover traverses for visual odometry and geologic mapping.</description>
+  </Instrument>
+</Product_Context>

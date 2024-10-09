@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:go.ssd</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Galileo Orbiter Star Scanner for GO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:ssd.go</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.go</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.galileo</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Divine, N. and H. Garrett, Charged Particle Distributions in Jupiter's
+                   Magnetosphere, J. Geophys. Res., 88, A9, 1983.
+            </reference_text>
+      <description>reference.DIVINE-GARRETT1983</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Fieseler, P., The Galileo Star Scanner as an Instrument for Measuring Energetic
+                   Electrons in the Jovian Environment, MS Thesis, University of Southern
+                   California, Los Angeles, 2000.
+            </reference_text>
+      <description>reference.FIESELER2000</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Russell, C.T., P.D. Fieseler, D. Bindshadler, Z.J. Yu, S.P. Joy, K.K. Khurana,
+                   and M.G. Kivelson, Large scale changes in the highly energetic charged
+                   particles in the region of the Io torus, Adv. Space Res., 28, 1495, 2001.
+            </reference_text>
+      <description>reference.RUSSELLETAL2001B</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Galileo Orbiter Star Scanner</name>
+    <type>Imager</type>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Galileo spacecraft carries aboard it a photomultiplier tube based star scanner for the purpose of providing the spacecraft with an inertial attitude reference. This device has been subjected to the radiation environment within Jupiter's magnetosphere since 1995 and is providing measurements of the omnidirectional flux of 1.5 to 30 MeV electrons within about 12 Jupiter radii. The range of maximum sensitivity is roughly 4 to 15 MeV. The star scanner is measuring electrons in energy ranges similar to some channels of Galileo's Energetic Particles Detector (EPD) but the star scanner operates continuously thus providing a unique data set when EPD is not operating.  The star scanner is generally not sensitive to pitch angle distribution. There is no data prior to the spacecraft reaching Jupiter.
+The star scanner provides a single channel of data for measuring electrons termed 'background radiation count' (or sometimes 'raw background') along with other data on the health of the instrument, brightness of stars in the field of view and time. Before Galileo's launch, an attempt was made to shield the star scanner's Photomultiplier Tube (PMT) from the particle environment at Jupiter. The attempt was not entirely successful resulting in this star scanner data set.  The conclusion that the star scanner is sensing predominantly high energy electrons is based up multiple arguments.</description>
+  </Instrument>
+</Product_Context>

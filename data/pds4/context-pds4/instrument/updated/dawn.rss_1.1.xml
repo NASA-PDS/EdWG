@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:dawn.rss</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Gravity Science Instrument for DAWN</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2018-12-28</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.dawn</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
+                   science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
+            </reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Asmar, S.W., R.G. Herrera, and T. Priest, Radio Science Handbook, JPL D-7938,
+                   Volume 6, Jet Propulsion Laboratory, Pasadena, CA, 1995.
+            </reference_text>
+      <description>reference.ASMARETAL1995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Deep Space Network / Flight Project Interface Design Book, Document 810-5, Jet
+                   Propulsion Laboratory, Pasadena, CA.
+            </reference_text>
+      <description>reference.DSN810-5</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Deep Space Mission System (DSMS) External Interface Specification (820-013, JPL
+                   D-16765), Radio Science Receiver Standard Formatted Data Unit (SFDU), Jet
+                   Propulsion Laboratory, Pasadena, CA, 2001.
+            </reference_text>
+      <description>reference.JPLD-16765</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Konopliv, A.S., S.W. Asmar, B.G. Bills, N. Mastrodemos, R.S. Park, C.A.
+                   Raymond, D.E. Smith, and M.T. Zuber, The Dawn Gravity Investigation at Vesta
+                   and Ceres, Space Science Reviews, 163, 461-486, 2011.
+            </reference_text>
+      <description>reference.KONOPLIVETAL2011</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Russell, C.T., and C.A. Raymond, The Dawn Mission to Vesta and Ceres, Space
+                   Science Reviews, 163, 3-23, 2011.
+            </reference_text>
+      <description>reference.RUSSELL-RAYMOND2011</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Gravity Science Instrument</name>
+    <type>Atmospheric Sciences</type>
+    <!--RChen/EN was Radio Science-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The gravity science experiment on Dawn (also known as the Radio Science experiment) used the communications system in concert with the optical imaging system to accurately track the spacecraft's motions as it orbits the asteroids and use these motions to map the gravity field. The objectives of the Dawn gravity science experiment were to determine the masses, global gravity fields to the 12th harmonic degree and order, the principal axes, the rotational axis, and the moments of inertia of Ceres and Vesta.</description>
+  </Instrument>
+</Product_Context>
