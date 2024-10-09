@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.sch" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.xsd">
+    
+    <Identification_Area>
+      <logical_identifier>urn:nasa:pds:context:instrument:pvo.opa</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>SOLAR WIND PLASMA ANALYZER (OPA) FOR PIONEER VENUS</title>
+        <information_model_version>1.20.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+          <Modification_Detail>
+            <modification_date>2024-03-04</modification_date>
+            <version_id>1.0</version_id>
+            <description>
+              Initial creation of the context products
+            </description>
+          </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+          <doi>10.1109/TGRS.1980.350258</doi>
+            <reference_text>
+              Intriligator, D. S., et al., The Pioneer Venus Orbiter plasma analyzer experiment, IEEE Trans. 
+              Geosci. Rem. Sens., GE-18, No. 1, 39-43, Jan. 1980.
+            </reference_text>
+            <description>reference.INTRILIGATORETAL_1980</description>
+        </External_Reference>
+      <External_Reference>
+        <doi>10.1126/science.203.4382.750</doi>
+        <reference_text>
+          Wolfe, J., et al., Initial observations of the Pioneer Venus Orbiter solar wind plasma experiment, 
+          Science, 203, No. 4382, 750-752, Feb. 1979.
+        </reference_text>
+        <description>reference.WOLFETAL_1979</description>
+      </External_Reference>
+      <External_Reference>
+        <doi>10.1126/science.205.4401.116</doi>
+        <reference_text>
+          Intriligator, D. S., et al., Electron observations and ion flows from the Pioneer Venus Orbiter plasma 
+          analyzer experiment, Science, 205, No. 4401, 116-119, July 1979.
+        </reference_text>
+        <description>reference.INTRILIGATORETAL_1979</description>
+      </External_Reference>
+    </Reference_List>
+    
+    <Instrument>
+      <name>SOLAR WIND PLASMA ANALYZER (OPA) FOR PIONEER VENUS</name>
+        <Type_List_Area>
+          <ctli:Type_List>
+            <ctli:type>Charged Particle Detector</ctli:type>
+          </ctli:Type_List>
+        </Type_List_Area> 
+        <naif_instrument_id>not applicable</naif_instrument_id>
+
+        <serial_number>not applicable</serial_number>
+
+        <description>
+ 
+    INSTRUMENT OVERVIEW
+    ===================
+ 
+       The Solar Wind Plasma Analyzer (OPA) was a quadrispherical electrostatic analyzer (similar to the plasma instrument on 
+       Pioneers 10 and 11), with five current collectors and electrometers. The objectives were to measure solar wind conditions 
+       (velocity, density, flow direction, and temperature) outside the Venusian bow shock, inside the magnetosheath flow field, 
+       and to study the ionopausal structure. Solar-wind measurements were made during the transit to Venus, particularly to study 
+       macroscale problems and to determine average gradients. The near-planet wake region was also available for study. The instrument 
+       had a mass of 3.9 kg and used 5 W power.
+ 
+       The analyzer was a nested pair of plates, each with the shape of one-quarter of a sphere with a radius of 12 cm, held 1 cm apart. 
+       On one side, perpendicular to the plates, is an entrance aperture to allow ions, protons and electrons to pass between the two plates, 
+       at the other, exit, end is an array of five current collectors. The plates are charged so that a charged particle travelling between 
+       the plates is deflected into a curved path and, depending on the particle, the initial direction of travel, and the strength of the 
+       field, can strike one of the five detectors after passing through a drift tube grid and a suppressor grid. Each detector has its own 
+       electrometer amplifier. The voltage between the plates can be varied in a stepwise fashion from 50 V to 8000 V in 32 logarithmically 
+       equal steps for high-energy positive ions, and 15 steps from 3 V to 250 V, plus a step at 0.25 V, for electrons and low-energy positive 
+       ions, to cover a large range of particle energy/charge.
+ 
+       The energy/charge range was 50-8000 (ions) in 32 steps and 1-500 (electrons) in 16 steps. The angular range covered was +/-85 degrees 
+       elevation by 360 degrees azimuth, and the detector field of view was 15 deg by 25 deg or 15 deg by 45 deg, depending on position. The 
+       logic design was essentially that used on Pioneers 8 and 9. The instrument had two modes of operation, command-able from Earth. The 
+       scan mode finds the peak particle flux over one revolution of the spacecraft for each voltage step and identifies the spacecraft 
+       azimuth and collector that measures the maximum flux at each voltage. Then a polar scan and an azimuthal scan are made at four 
+       consecutive voltage steps, beginning with the step before the one at which the maximum flux was measured. Each polar scan measures the 
+       flux at each collector, while each azimuth scan measures the flux in 12 sectors centered on the peak flux direction. The step mode 
+       allocates about one second to each voltage step, for only the maximum flux scan.
+        </description>
+    </Instrument>
+</Product_Context>
