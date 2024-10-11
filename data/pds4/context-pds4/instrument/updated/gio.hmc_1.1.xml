@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:gio.hmc</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Halley Multicolour Camera for GIO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:hmc.gio</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.esa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.gio</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto_extended_mission</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Keller, H. U., W. K. H. Schmidt, K. Wilhelm, C. Becker, W. Curdt, W.
+                   Engelhardt, H. Hartwig, J. R. Kramm, H. J. Meyer, R. Schmidt, F. Gliem, E.
+                   Krahn, H. P. Schmidt, G. Schwarz, J. J. Turner, P. Boyries, S. Cazes, F.
+                   Angrilli, G. Bianchini, G. Fanti, P. Brunello, W. A. Delamere, H. J.
+                   Reitsema, C. Jamar, and C. Cucciaro (1987). 'The Halley Multicolour
+                   Camera.' J. Phys. E: Sci. Instr., 20, 807-820.
+            </reference_text>
+      <description>reference.KELLERETAL1987</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   'Encounters with Comet Halley, The first results', Nature, Volume 321, No.
+                   6067, 15 May 1986.
+            </reference_text>
+      <description>reference.NATURE321</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Schmidt, W.K.H., H.U. Keller, K. Wilhelm, C. Arpigny, C. Barbieri, L.
+                   Biermann, R.M. Bonnet, S. Cazes, C.B. Cosmovici, W.A. Delamere, W.F.
+                   Huebner, D.W. Hughes, C. Jamar, C. Malaise, H.J. Reitsema, P. Seige, and
+                   F.L. Whipple, 'The Giotto Halley Multicolour Camera.' In 'The Giotto
+                   Mission - Its Scientific Investigations' (Reinhard, R. and B. Battrick,
+                   Eds.) ESA SP-1077, pp. 149-172. ESA Publications Division, ESTEC
+                   Noordwijk, 1986.
+            </reference_text>
+      <description>reference.SCHMIDTETAL1986</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Thomas, N., and H.U. Keller, Applied Optics, Vol 29, 1503-1519, 1990.
+            </reference_text>
+      <description>reference.THOMAS-KELLER1990</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Halley Multicolour Camera</name>
+    <type>Imager</type>
+    <!--RChen/EN was Camera-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The technical goals of the experiment were first to obtain high-quality images of the cometary nucleus in four colors with two polarizations and secondarily to obtain images of the cometary coma in a variety of narrow bandpasses.  The primary scientific goal to be addressed with these images was to determine the basic properties of the nucleus including the size and shape, the morphology and topography of the surface, the photometric properties of the surface, the rotational state, the degree of heterogeneity in the outgassing, and the energy balance at the surface.  The secondary scientific goal was to study the properties of the inner coma including the production and evolution of gas and dust, the scales of the relevant physical processes, the size distribution of the dust, the chemistry of the inner coma, and the temporal variability in the inner coma.</description>
+  </Instrument>
+</Product_Context>

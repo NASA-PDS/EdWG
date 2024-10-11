@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:pvo.orpa</logical_identifier>
+    <version_id>2.1</version_id>
+    <title>Orbiter Retarding Potential Analyzer (ORPA) for Pioneer Venus</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2020-08-26</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-04-02</modification_date>
+        <version_id>2.0</version_id>
+        <description>
+                    Updated to IM 1.20.0.0
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>2.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_venus</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Knudsen W.C. , Evaluation and demonstation of the use of retarding
+                   potential analyzers for measuring several ionospheric quantities, J.
+                   Geophys. Res., vol. 71, pp. 4669-4678, 1966.
+            </reference_text>
+      <description>reference.KNUDSENETAL1966</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Knudsen, W.C., J. Bakke, K. Spenner, and V. Novak, Retarding Potential
+                   Analyzer for the Pioneer Venus Orbiter, Space Sci. Inst., 4, 351, 1979.
+            </reference_text>
+      <description>reference.KNUDSENETAL1979</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Knudsen, W.C., K. Spenner, J. Bakke, and V. Novak, Pioneer Venus Orbiter
+                   Planar Retarding Potential Analyzer Plasma Experiment, IEEE Trans. on
+                   Geosci. Remote Sens., 18, 1, 60, 1980.
+            </reference_text>
+      <description>reference.KNUDSENETAL1980</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Orbiter Retarding Potential Analyzer</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Langmuir Probe</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>This investigation used a Langmuir-probe retarding-potential analyzer designed to measure electron concentration and temperature, major ion concentrations and temperatures, ion drift velocities, and the energy distribution function of ambient photoelectrons. Either one of two sensor heads could be used, each consisting of a multigrid cup and electrometer, which could operate in electron, ion, or photoelectron modes, initiated by spacecraft roll pulses. The measurements taken when the sensor axis was closest to the plasma flow velocity vector were transmitted. The aims of the investigation were to improve knowledge of the important ionic reactions in the Venusian ionosphere, to study the plasma transport processes to determine if Venus has a polar wind, to study the processes at the solar wind-ionosphere boundary, and to study similar aims concerning the ambient electron population.</description>
+  </Instrument>
+</Product_Context>

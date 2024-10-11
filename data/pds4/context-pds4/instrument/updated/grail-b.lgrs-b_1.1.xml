@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:grail-b.lgrs-b</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Lunar Gravity Ranging System B for GRAIL-B</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:lgrs-b.grail-b</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.grail-b</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.gravity_recovery_and_interior_laboratory</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
+                   science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
+            </reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Asmar, S.W., R.G. Herrera, and T. Priest, Radio Science Handbook, JPL D-7938,
+                   Volume 6, Jet Propulsion Laboratory, Pasadena, CA, 1995.
+            </reference_text>
+      <description>reference.ASMARETAL1995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   DSN Telecommunications Link Design Handbook, 301, Rev. H Coverage and Geometry,
+                   Rev Oct 17, Jet Propulsion Laboratory, Pasadena, CA.
+            </reference_text>
+      <description>reference.DSN810-005-301H</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Deep Space Network / Flight Project Interface Design Book, Document 810-5, Jet
+                   Propulsion Laboratory, Pasadena, CA.
+            </reference_text>
+      <description>reference.DSN810-5</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   DSN Geometry and Spacecraft Visibility, Document 810-5, Rev. D, Vol. 1,
+                   DSN/Flight Project Interface Design, Jet Propulsion Laboratory, Pasadena, CA,
+                   1987.
+            </reference_text>
+      <description>reference.GEO-10REVD</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Mars Global Surveyor Project, Telecommunications System Operations Reference
+                   Handbook, Version 2.1 (MGS 542-257), JPL Document D-14027, Jet Propulsion
+                   Laboratory, Pasadena, CA, 1996.
+            </reference_text>
+      <description>reference.JPLD-14027</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Deep Space Mission System (DSMS) External Interface Specification (820-013, JPL
+                   D-16765), Radio Science Receiver Standard Formatted Data Unit (SFDU), Jet
+                   Propulsion Laboratory, Pasadena, CA, 2001.
+            </reference_text>
+      <description>reference.JPLD-16765</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Lunar Gravity Ranging System B</name>
+    <type>Atmospheric Sciences</type>
+    <!--RChen/EN was Radio Science-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Lunar Gravity Ranging System (LGRS) instruments on board the twin GRAIL spacecraft generate radio signals at Ka-band, X-band, and S-band. The time and frequency of each signal is referenced to its respective Ultra-Stable Oscillator (USO).  The Ka-band and S-band signals are captured by the other spacecraft, and precise measurements of signal properties are recorded for later transmission to Earth.  The X-band link is received by stations of the NASA Deep Space Network (DSN). Operations are continuous and simultaneous on both spacecraft except that the X-Band downlink to Earth is only used when a DSN station is available.</description>
+  </Instrument>
+</Product_Context>

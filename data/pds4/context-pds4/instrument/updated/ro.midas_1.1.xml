@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:ro.midas</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Micro-Imaging Dust Analysis System (MIDAS) for RO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:midas.ro</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.esa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.ro</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.international_rosetta_mission</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Riedler, W. et al., MIDAS - The Micro-Imaging Dust Analysis System for the
+                   Rosetta Mission, Space Sci. Rev., 128(1-4), 869-904, Feb. 2007.
+            </reference_text>
+      <description>reference.RIEDLERETAL2007</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Micro-Imaging Dust Analysis System</name>
+    <type>Microscope</type>
+    <!--RChen/EN was Scanning Probe Microscope-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Micro-Imaging Dust Analysis System (MIDAS) on Rosetta is designed to capture dust particles and image them in three dimensions at nanometer scales with an atomic force microscope. The primary scientific objectives include: 1) obtaining images of single particles at a spatial resolution of 4 nm; 2) making statistical evaluations on sizes, volumes and shapes; 3) characterizing the size distribution from ~4 nm to a few micrometers; 4) analyzing the shape, volume, and topographic structure of individual particles; 5) profile the spatial and temporal variations of particle flux; 6) characterize the dust environment of the asteroids; and 7) perform imaging and statistical analysis of impact craters caused by interplanetary dust particles.</description>
+  </Instrument>
+</Product_Context>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:iue.lwp</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Long-Wavelength Prime for IUE</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:lwp.iue</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.esa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.iue</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.iue</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Boggess, A., Carr, F.A., Evans,D.C., Fischel, D., Freeman, H.R., Fuechsel,
+                   C.F., Klinglesmith, D.A., Kruegar, V.L., Longanecker,G.W., Moore, J.V.,
+                   Pyle, E.J., Rebar, F., Sizemore, K.O.,Sparks,W., Underhill,A.B.,
+                   Vitagliano, H.D., West ,D.K., Macchetto, F., Fitton, B., Barker, P.J.,
+                   Dunford, E., Gondhaleker, P.M., Hall, J.E., Harrison, V.A.W., Oliver,
+                   M.B., Sanford, M.C.W., Vaughan, P.A., Ward, A.K., Anderson, B.E.,
+                   Boksenberg, A., Coleman, C.I., Snijders, M.A.J., Wilson, R., The IUE
+                   Spacecraft and Instrumentation, Nature, 275, 372, 1978.
+            </reference_text>
+      <description>reference.BOGGESSETAL1978B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Garhart, M. P., M. A. Smith, B. E. Turnrose, K. L. Levay, R. W. Thompson,
+                   International Ultraviolet Explorer New Spectral Image Processing System
+                   Information Manual: Low-Dispersion Data, Version 2.0, CSC/SD-93/6062,
+                   Computer Sciences Corporation, Greenbelt, MD, 1997.
+            </reference_text>
+      <description>reference.GARHARTETAL1997</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Long-Wavelength Prime</name>
+    <type>Spectrograph</type>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>This experiment included the ultraviolet spectrograph package carried by the IUE, consisting of two physically distinct echelle-spectrograph/camera units capable of astronomical observations. The IUE scientific instrument contains two spectrographs which function independently. Each spectrograph has a prime and a redundant camera. The Long-Wavelength Prime (LWP) and Short-Wavelength Prime (SWP) cameras are the standard detectors. During an exposure the image is integrated in the SEC Vidicon section of the camera.</description>
+  </Instrument>
+</Product_Context>

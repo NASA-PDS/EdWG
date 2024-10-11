@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:nh.alice</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Alice Ultraviolet Imaging Spectrograph for NH</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:alice.nh</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.nh</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem1</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Danzmann, K., M. Gunther, J. Fischer, M. Kock, and M. Kuhne, High current
+                   hollow cathode as a radiometric transfer standard source for the extreme vacuum
+                   ultraviolet, Applied Optics, vol. 27, 4947-4951, 1988.
+            </reference_text>
+      <description>reference.DANZMANNETAL1988</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Siegmund, O.H.W., Microchannel Plate Imaging Detector Technologies for UV
+                   Instruments, Conference Proceedings From X-rays to X-band-Space Astrophysics
+                   Detectors and Detector Technologies, Space Telescope Science Institute, 2000.
+            </reference_text>
+      <description>reference.SIEGMUND2000</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Siegmund, O.H.W., J. Stock, R. Raffanti, D. Marsh, and M. Lampton, Planar Delay
+                   Line Readouts for High Resolution Astronomical EUV/UV Spectroscopy, UV and
+                   X-Ray Spectroscopy of Astrophysical and Laboratory Plasmas, Proceedings from
+                   the 10th International Colloquium, Berkeley, CA 3-5 February 1992, 383-386,
+                   1992.
+            </reference_text>
+      <description>reference.SIEGMUNDETAL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Slater, D.C., S.A. Stern, T. Booker, J. Scherrer, M.F. A'Hearn, J.L. Bertaux,
+                   P.D. Feldman, M.C. Festou, and O.H.W. Siegmund, Radiometric and calibration
+                   performance results for the Rosetta UV imaging spectrometer ALICE, UV/EUV and
+                   Visible Space Instrumentation for Astronomy and Solar Physics, Oswald H.W.
+                   Siegmund, Silvano Fineschi, Mark A. Gummin, Editors, Proceedings of SPIE, vol.
+                   4498, 239-247, 2001.
+            </reference_text>
+      <description>reference.SLATERETAL2001</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Slater, D.C., M. Davis, C.B. Olkin, S.A. Stern, and J. Scherrer, Radiometric
+                   performance results of the New Horizons' ALICE UV imaging spectrograph, SPIE
+                   Int. Soc. Opt. Eng., vol. 5906, 2005.
+            </reference_text>
+      <description>reference.SLATERETAL2005</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Stern, S.A., D.C. Slater, W. Gibson, H.J. Reitsema, A. Delamere, D.E. Jennings,
+                   D.C. Reuter, J.T. Clarke, C.C. Porco, E.M. Shoemaker, and J.R. Spencer, The
+                   Highly Integrated Pluto Payload System (HIPPS): A Sciencecraft Instrument for
+                   the Pluto Mission, EUV, X-Ray, and Gamma-Ray Instrumentation for Astronomy VI,
+                   Proceedings of SPIE, vol. 2518, O.H.W. Siegmund and John Vallerga, Editors,
+                   39-58 1995.
+            </reference_text>
+      <description>reference.STERNETAL1995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Stern, S.A., J. Scherrer, D.C. Slater, G.R. Gladstone, L.A. Young, G. Dirks, J.
+                   Stone, M. Davis, and O.H.W. Siegmund, ALICE: The ultraviolet imaging
+                   spectrograph aboard the New Horizons spacecraft, X-Ray, UV, Visible, and IR
+                   Instrumentation for Planetary Missions, Oswald H.W. Siegmund and G. Randall
+                   Gladstone, Editors, Proceedings of SPIE, vol. 5906B, 2005.
+            </reference_text>
+      <description>reference.STERNETAL2005</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Stern, S.A., D.C. Slater, J. Scherrer, J. Stone, M. Versteeg, M.F. A'Hearn,
+                   J.L. Bertaux, P.D. Feldman, M.C. Festou, J.W. Parker, and O.H.W. Siegmund,
+                   Alice: The Rosetta Ultraviolet Imaging Spectrograph, Space Sci. Rev., 128(1-4),
+                   507-527, Feb 2007.
+            </reference_text>
+      <description>reference.STERNETAL2007</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Alice Ultraviolet Imaging Spectrograph</name>
+    <type>Spectrograph</type>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Alice instrument is an ultraviolet mapping spectrometer designed to study the atmosphere of Pluto. The scientific objectives are to determine the mole fractions of N2, CH4, CO, and Ar to 1% in total mixing ratio in the atmosphere, to profile the temperature structure of the upper atmosphere, and to acheive H lyman-alpha mapping of the Pluto-Charon system to study the rate of Roche-lobe flow from Pluto to Charon. it will also be used to search for atmospheres around Charon and any Kuiper belt Objects encountered. Alice has two modes of operation, an airglow mode which measures emissions from from the atmosphere and an occultation mode which is used when the Sun or a bright star can be viewed through the atmosphere.</description>
+  </Instrument>
+</Product_Context>

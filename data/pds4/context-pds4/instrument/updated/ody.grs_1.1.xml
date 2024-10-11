@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:ody.grs</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Gamma-Ray Spectrometer for ODY</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:grs.ody</alternate_title>
+      </Alias>
+      <!-- deprecated LID, and 1 LID became 3-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-06-09</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Updated the information model, LID, and other corrections.
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.ody</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.2001_mars_odyssey</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1023/B:SPAC.0000021007.76126.15</doi>
+      <reference_text>
+                Boynton, W., Feldman, W., Mitrofanov, I. et al. (2004) The Mars Odyssey Gamma-Ray Spectrometer 
+                Instrument Suite, Space Science Reviews, 110, 37-83.
+            </reference_text>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Gamma-Ray Spectrometer</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+        <ctli:subtype>Gamma Ray</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <description>The Mars Odyssey Gamma-Ray Spectrometer is a suite of three different instruments working together to collect data that will permit the mapping of elemental concentrations of the surface of Mars.  The instruments are a gamma-ray spectrometer (GS), a neutron spectrometer (NS), and a high-energy neutron detector (HEND). The instruments are complementary in that the neutron instruments have much better counting statistics and can sample to greater depths than the GS, but the GS determines the abundances of many more elements. Working together the instruments are most powerful at mapping the distribution of hydrogen, both over the surface and as a function of depth in the upper few tens of centimeters.</description>
+  </Instrument>
+</Product_Context>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:ds1.ids</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Ion Propulsion System Diagnostic Subsystem for DS1</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:ids.ds1</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.ds1</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.deep_space_1</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Brinza, D.E., M.D. Henry, A.T. Mactutis, K.P. McCarty, J.D. Rademacher,
+                   T.R. vanZandt, P. Narvaez, J.J. Wang, B.T. Tsurutani, I. Katz, V.A. Davis,
+                   S. Moses, G. Musmann, F. Kuhnke, I. Richter, C. Othmer, and K.-H.
+                   Glassmeier, An Overview of Results from the Ion Diagnostics Sensors Flown
+                   on DS1, AIAA-2001-0966, 2001.
+            </reference_text>
+      <description>reference.BRINZAETAL2001</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Henry, M.D., D.E. Brinza, A.T. Mactutis, K.P. McCarty, J.D. Rademacher,
+                   T.R. vanZandt, R. Johnson, G. Musmann, and F. Kunke, NSTAR Diagnostics
+                   Package Architecture and Deep Space 1 Spacecraft Event Detection, IEEE
+                   2000 Aerospace Conference Paper, 11.0502, 2000.
+            </reference_text>
+      <description>reference.HENRYETAL2000</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Ion Propulsion System Diagnostic Subsystem</name>
+    <type>Plasma Wave Spectrometer</type>
+    <!--RChen/EN was Plasma Instrument. dataset.cat says "plasma wave spectrometer data"-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Deep Space 1 spacecraft propulsion was provided by an ion thruster, the NASA Solar Electric Propulsion (SEP) Technology Applications Readiness (NSTAR) Ion Propulsion System (IPS), which was one of the technology evaluation components of the mission. Monitoring and characterization of the induced environment around the spacecraft created by the IPDS and its interaction with the space environment was the primary oblective of the IPS Diagnostics Subsystem (IDS). Since the measured effects of the IPS on the spacecraft environment proved to be benign, the IDS was reprogrammed during flight to collect solar induced wave data and signals caused by dust impact events during the encounter. The IPS was mounted next to the ion engine and consisted of a suite of 12 sensors, including a plasma wave antenna and two search coil magnetometers.</description>
+  </Instrument>
+</Product_Context>

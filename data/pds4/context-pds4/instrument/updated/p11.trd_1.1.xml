@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:trd.p11</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Trapped Radiation Detector for P11</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.p11</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_11</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Fillius, R.W., and C.E. McIlwain, Measurements of the Jovian radiation
+                   belts, J. Geophys. Res., 79, 3589, 1974.
+            </reference_text>
+      <description>reference.FILLIUS-MCILWAI1974B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Fimmel, R.O., W. Swindell, E. Burgess, Pioneer Odyssey, NASA SP-396,
+                   Scientific and Technical Information Office, National Aeronautics and
+                   Space Administration, Washington, D.C., 1977.
+            </reference_text>
+      <description>reference.FIMMELETAL1977</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Trapped Radiation Detector</name>
+    <type>Particle Detector</type>
+    <!--RChen/EN was Energetic Particle Detector-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>This experiment consisted of an array of five particle detectors with electron thresholds in the range .01 to 35 MeV and proton thresholds in the range 0.15 to 80 MeV. A Cerenkov counter (C) had four output channels (C1, C2, C3, and CDC) sensitive to electrons having energies above 6, 9, 13, and 1 MeV, respectively. An electron-scatter counter (E) had three output channels (E1, E2, and E3) sensitive to electrons above .16, .26, and .46 MeV. A minimum ionization counter (M) had three output channels, M1 sensitive to electrons having energies greater than 35 MeV, M2 that measured background, and M3 that was sensitive to protons having energies greater than 80 MeV. The last two sensors were scintillator detectors (SP and SE), both of which had energy thresholds of 10 keV for electrons and 150 keV for protons. The sensitivity of the SE detector to protons was about a factor of 10 lower than its sensitivity to electrons. Thus, the SEDC channel effectively measured the electron flux, which could then be subtracted from the SPDC channel response to obtain the proton flux. Several other channels, listed above, required corrections to obtain the fluxes of the species indicated. Three of the channels (CDC, SPDC, and SEDC) were read out through a common electrometer. Due to a malfunction that occurred between launch and Jovian encounter, these three channels produced no usable encounter data. The detector channels could be programmed for readout in any one of four patterns at each of the eight spacecraft bit rate modes. During encounter when the spacecraft was operating in the highest bit rate mode, the minimum time to sample one channel was 1.5 s and the time to obtain a complete scan through all channels was 108 s. Since the directional detectors pointed perpendicular to the spin axis and the spin rate was 5 rpm, pitch-angle measurements were obtained. While the experiment was primarily designated for encounter studies, some data were obtained at low rates in interplanetary space. The last data were taken on December 1, 1993, after which the instrument was turned off to conserve power for other spacecraft experiments and systems.</description>
+  </Instrument>
+</Product_Context>

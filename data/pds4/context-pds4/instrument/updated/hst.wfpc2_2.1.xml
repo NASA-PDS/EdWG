@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:hst.wfpc2</logical_identifier>
+    <version_id>2.1</version_id>
+    <title>Wide Field Planetary Camera 2 for HST</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:wfpc2.hst</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+      <Alias>
+        <alternate_id>WFPC2</alternate_id>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2021-04-01</modification_date>
+        <version_id>2.0</version_id>
+        <description>
+                    Added Internal_Reference classes for the data and instrument handbooks for the WFPC2
+                    Added the alternate ID for the abbreviation, WFPC2.
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>2.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.hst</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.hst</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:hst-support:document:wfpc2-dhb</lid_reference>
+      <reference_type>instrument_to_document</reference_type>
+      <comment>The Data Handbook for the HST Wide Field Camera 3</comment>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:hst-support:document:wfpc2-ihb</lid_reference>
+      <reference_type>instrument_to_document</reference_type>
+      <comment>The Instrument Handbook for the HST Wide Field Camera 3</comment>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Biretta, J.A., S.M. Baggett, J.W. MacKenty, C.E. Ritchie, and W.B. Sparks, 'The
+                   WFPC Calibration Pipeline', Proceedings of the HST Calibration Workshop, STScI
+                   publication, pp. 8-19, November 1993.
+            </reference_text>
+      <description>reference.BIRETTAETAL1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Biretta, J.A., C. Burrows, J. Holtzman, I. Heyer, M. Stevens, S. Baggett, S.
+                   Casertano, M. Clampin, A. Fruchter, H. Ferguson, R. Gilliland, R. Griffiths, J.
+                   Krist, K. Noll, C. O'Dea, M. Stiavelli, A.Suchkov, J. Surdej, and B. Whitmore,
+                   The WFPC Instrument Handbook, Version 4.0 (Baltimore: STScI), June, 1996.
+            </reference_text>
+      <description>reference.BIRETTAETAL1996</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Burrows, C.J., ed., Wide Field and Planetary Camera 2 Instrument Handbook,
+                   Version 2.0, (Baltimore: STScI), May, 1994.
+            </reference_text>
+      <description>reference.BURROWS1994</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Burrows, C.J., J.A. Holtzman, S.M. Faber, P.Y. Bely, H. Hasan, C.R. Lynds, and
+                   D. Schroeder, 'The imaging Performance of the Hubble Space Telescope', Ap. J.
+                   Lett., 369, L21- L25, 1991.
+            </reference_text>
+      <description>reference.BURROWSETAL1991</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Holtzman, J., J.J. Hester, S. Casertano, J.T. Trauger, A.M. Watson, G.E.
+                   Ballester, C.J. Burrows, J.T. Clarke, D. Crisp, R.W. Evans, J.S. Gallagher III,
+                   R.E. Griffiths, J.G. Hoessel, L.D. Matthews, J.R. Mould, P.A. Scowen, K.R.
+                   Stapelfeldt, and J.A. Westphal, 'The Performance and Calibration of WFPC2 on
+                   the Hubble Space Telescope', Publication of the Astronomical Society of the
+                   Pacific, 107, 156-178, 1995.
+            </reference_text>
+      <description>reference.HOLTZMANETAL1995A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Holtzman, J.A., C.J. Burrows, S. Casertano, J.J. Hester, J.T. Trauger, A.M.
+                   Watson, and G. Worthey, 'The Photometric Performance and Calibration of WFPC2',
+                   Publication of the Astronomical Society of the Pacific, 107, 1065-1093, 1995.
+            </reference_text>
+      <description>reference.HOLTZMANETAL1995B</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Wide Field Planetary Camera 2</name>
+    <type>Imager</type>
+    <!--RChen/EN was Camera-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The scientific objectives of the WFPC2 are to provide photometrically and geometrically accurate, multi-band images of astronomical objects over a relatively wide field-of-view (FOV), with high angular resolution across a broad range of wavelengths. The original Wide Field and Planetary Camera (WF/PC-1) was a two-dimensional spectrophotometer with rudimentary polarimetric and transmission-grating capabilities. Wide Field and Planetary Camera (WFPC2) was built as a backup clone of the WF/PC-1. The original Wide Field/Planetary Camera (WF/PC1) was replaced by WFPC2 on the STS-61 shuttle mission in December 1993.</description>
+  </Instrument>
+</Product_Context>

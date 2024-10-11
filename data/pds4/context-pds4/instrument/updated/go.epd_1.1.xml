@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:go.epd</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Energetic Particles Detector for GO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:epd.go</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.go</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.galileo</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Williams, D. J., R. W. McEntire, S. Jaskulek, and B. Wilken, The Galileo
+                   Energetic Particles Detector, Space Sci. Rev., 60, 385-412, 1992.
+            </reference_text>
+      <description>reference.WILLIAMSETAL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Wu, Y. and T. P. Armstrong, Charged Particle Response of Magnetic Deflection
+                   System for Galileo Jupiter Orbiter, Nuclear Instruments and Methods in Physics
+                   Research, A256, 561-573, 1988.
+            </reference_text>
+      <description>reference.WU-ARMSTRONG1988</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Energetic Particles Detector</name>
+    <type>Particle Detector</type>
+    <!--RChen/EN was Energetic Particle Detector-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Energetic Particles Detector (EPD) was designed to: (1) measure the energy and angular distribution, composition, and stability of trapped radiation at Jupiter; (2) study the interaction of these particles with the Galilean satellites and the solar wind; (3) derive thermal plasma flow velocities and temperatures; and, (4) examine adiabatic and non-thermal processes in the trapped radiation.
+To achieve these goals, the experiment used two instruments: the Low-Energy Magnetospheric Measurements System (LEMMS) and the Composition Measurements System (CMS).</description>
+  </Instrument>
+</Product_Context>

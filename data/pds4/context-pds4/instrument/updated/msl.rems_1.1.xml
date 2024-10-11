@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:rems.msl</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Rover Environmental Monitoring Station (REMS) for MSL</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>LIDVID references updated to be LID references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.msl</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_science_laboratory</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Dominguez, M., Jimenez, V., Ricart, J., Kowalski, L., Torres, J., Navarro, S.,
+                   Romeral, J. and Castaner, L.. A hot film anemometer for the Martian atmosphere.
+                   Planetary and Space Science; 56:1169-1179, 2008.
+            </reference_text>
+      <description>reference.DOMINGUEZETAL2009</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Gomez-Elvira J, Armiens C, Castaner L, Dominguez M, Genzer M, Gomez F, Haberle
+                   R, Harri A-, Jimenez V, Kahanpaa H, Kowalski L, Lepinette A, Martin J,
+                   Martinez-Frias J, McEwan I, Mora L, Moreno J, Navarro S, de Pablo MA, Peinado
+                   V, Pena A, Polkko J, Ramos M, Renno NO, Ricart J, Richardson M,
+                   Rodriguez-Manfredi J, Romeral J, Sebastian E, Serrano J, de la Torre Juarez M,
+                   Torres J, Torrero F, Urqui R, Vazquez L, Velasco T, Verdasca J, Zorzano M-,
+                   Martin-Torres J. REMS: The environmental sensor suite for the mars science
+                   laboratory rover. Space Science Reviews 2012:1-58, 2012.
+            </reference_text>
+      <description>reference.GOMEZELVIRAETAL2012</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Sebastian, E., C. Armiens, J. Gomez-Elvira, M.P. Zorzano, J. Martinez-Frias, B.
+                   Esteban, and M. Ramos, The Rover Environmental Monitoring Station Ground
+                   Temperature Sensor: A Pyrometer for Measuring Ground Temperature on Mars.,
+                   Sensors 2010, 10, 9211-9231, 2010.
+            </reference_text>
+      <description>reference.SEBASTIANETAL2010</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Rover Environmental Monitoring Station</name>
+    <type>Atmospheric Sciences</type>
+    <!--RChen/EN was Meteorology -->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Rover Environmental Monitoring Station (REMS) instrument is intended to provide in situ near-surface measurements of air and ground temperatures, wind speed and direction, pressure, humidity and ultraviolet radiation. Its objective is to characterize the Martian climate and to study Mars habitability. Systematic measurement is the main driver for REMS operation. Each hour, every sol, REMS will record 5 minutes of data at 1 Hz for all sensors. This strategy will be implemented based on a high degree of autonomy in REMS operations. The instrument will wake itself up each hour and after recording and storing data, will go to sleep independently of rover operations. REMS will record data whether the rover is awake or not, and both day and night. REMS operation is designed assuming a minimum of three hours of operation each day, primarily constrained by power availability. Since the hourly observations will use a total of two hours of operational time, the third hour can be scheduled as a continuous block, for example. Another option that has been implemented in REMS flight software is a simple algorithm to lengthen some of the regular observations autonomously when an atmospheric event is detected. Depending on resources available during the mission, and the science team wishes, REMS can operate more than three hours per day.
+REMS instrument is formed by four main subsets: (1) ICU (instrument Control Unit), allowing power conditioning and distribution, analog acquisition and control of some of the sensor, thermal control loops, communications with the Booms and data processing and communications with the RCE. The ICU is composed of three boards: CPU, Analog and a DC/DC Converter. The Analog board also integrates the Pressure Sensor (PS); (2) Ultraviolet Sensor (UV), consisting of 6 photodiodes, each one devoted to a different measurement band; (3) Boom 1, hosting an Air Temperature Sensor (ATS), a Wind Sensor (WS), the Ground Temperature Sensor (GTS) and the front-end ASIC that processes all the received analog inputs from the transducers and sends the data to the ICU via a transmission link. (4) Boom 2, hosting another Air Temperature Sensor, another Wind Sensor, the Humidity Sensor (HS) and other front-end ASIC that also processes all the received analog inputs from the transducers and sends the data to the ICU via a transmission link.</description>
+  </Instrument>
+</Product_Context>

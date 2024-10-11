@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:ice.uleca</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Ultra Low Energy Charge Analyzer for ICE</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:uleca.ice</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.ice</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.international_cometary_explorer</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Hovestadt, D., G. Gloeckler, C.Y. Fan, L.A. Fisk, F.M. Ipavich, B.
+                   Klecker, J.J. O'Gallagher, M. Scholer, H. Arbinger, J. Cain, H. Hofner, E.
+                   Kunneth, P. Laeverenz, and E. Tums, The Nuclear and Ionic Charge
+                   Distribution Particle Experiment on the ISEE-1 and ISEE-C Spacecraft, IEEE
+                   Trans. Geosci. Electron., GE-16, 166-175, 1987.
+            </reference_text>
+      <description>reference.HOVESTADTETAL1978</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Ultra Low Energy Charge Analyzer</name>
+    <type>Particle Detector</type>
+    <!--RChen/EN was Electrostatic Analyzer. No obvious choice. TBD in JSH's xl file-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>This instrument, designated HOH, carried on ISEE 1 and ISEE 3, was designed to measure solar, interplanetary, and magnetospheric energetic ions in numerous bands within the energy range 2 keV/charge to 80 MeV/nucleon, and electrons in four contiguous bands from 75 to 1300 keV. At the lower energies, charge states of heavy ions in the high-speed (&gt;500 km/s) solar wind were determined. In the range 0.3 to 80 MeV/nucleon, the energy spectra, anisotropies, and composition of energetic ions were determined. In the limited range 0.4 to 6 MeV/nucleon, simultaneous determination of ionic and nuclear charge was possible. The instrument consisted of three different sensor systems. ULECA (ultralow-energy charge analyzer) was an electrostatic analyzer with solid-state detectors.</description>
+  </Instrument>
+</Product_Context>

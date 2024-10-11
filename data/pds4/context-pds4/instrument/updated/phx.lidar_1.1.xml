@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:lidar.phx</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Meteorology Suite, LIDAR for PHX</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2018-05-23</modification_date>
+        <version_id>1.0</version_id>
+        <description>Changed logical_identifier from lidar__phx to lidar.phx</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.phx</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.phoenix</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Boynton et al., Distribution of Hydrogen in the Near Surface of Mars: Evidence
+                   for Subsurface Ice Deposits, Science, vol. 297, no. 5578, pp. 81-85, 5 July
+                   2002.
+            </reference_text>
+      <description>reference.BOYNTON2002</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Heymsfield, A. J., D. Winker, G. van Zadelhoff, Extinction-ice water
+                   content-effective radius algorithms for CALIPSO, Geophysical Research Letters,
+                   volume 32, L10807, 2005.
+            </reference_text>
+      <description>reference.HEYMSFIELD2005</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Lemmon, M, et al., The Phoenix Surface Stereo Imager (SSI) investigation, J.
+                   Geophys. Res. submitted 2008.
+            </reference_text>
+      <description>reference.LEMMON2008</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Leovy, C.B., Weather and climate on Mars, Nature, volume 412, pp. 245-249, 12
+                   July 2001.
+            </reference_text>
+      <description>reference.LEOVY2001</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Measures, R. M., Laser remote sensing: Fundamentals and applications, pp 510,
+                   Wiley and Sons, New York, 1984.
+            </reference_text>
+      <description>reference.MEASURES1984</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Neumann, G. A., D. E. Smith, M. T. Zuber, Two years of clouds detected by the
+                   Mars Orbiter Laser Altimeter, Journal of Geophysical Research, volume 108(E4),
+                   5023, 2003.
+            </reference_text>
+      <description>reference.NEUMANN2003</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Newman, C. E., S. R. Lewis, P. L. Read, Modeling the Martian dust cycle 1.
+                   Representations of dust transport processes, Journal of Geophysical Research,
+                   volume 107(E12), 5123, 2002.
+            </reference_text>
+      <description>reference.NEWMAN2002</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Pathak J. D.V. Michelangali, L. Komguem, J. Whiteway, L. Tamppari, Simulating
+                   Martian boundary layer water ice clouds and the lidar measurements for the
+                   Phoenix mission, J. Geophys. Res. volume 113, E00A05, doi:10.1029/2007JE002967,
+                   2008
+            </reference_text>
+      <description>reference.PATHAK2008</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Smith, P.H., L. Tamppari, R.E. Arvidson, D. Bass, D. Blaney, W. Boynton, A.
+                   Carswell, D. Catling, B. Clark, T. Duck, E. DeJong, D. Fisher, W. Goetz, P.
+                   Gunnlaugsson, M. Hecht, V. Hipkin, J. Hoffman, S. Hviid, H. Keller, S.
+                   Kounaves, C.F. Lange, M. Lemmon, M. Madsen, M. Malin, W. Markiewicz, J.
+                   Marshall, C. McKay, M. Mellon, D. Michelangeli, D. Ming, R. Morris, N. Renno,
+                   W.T. Pike, U. Staufer, C. Stoker, P. Taylor, J. Whiteway, S. Young, and A.
+                   Zent, Introduction to special section on the Phoenix Mission: Landing site
+                   characterization experiments, mission overviews, and expected science, Journal
+                   of Geophysical Research, 113, E00A18, 2008, doi:10.1029/2008JE003083.
+            </reference_text>
+      <description>reference.SMITHETAL2008</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Taylor, P. et al., Meteorology Station MET on the Phoenix Mars Lander:
+                   Pressure, Temperature and Wind Speed, J. Geophys. Res. E00A10,
+                   doi:10.1029/2007JE003015, 2008.
+            </reference_text>
+      <description>reference.TAYLOR2008</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Whiteway, J, M. Daly, A. Carswell, C. Dickinson, T. Duck, L. Komguem, and C.
+                   Cook, Lidar on the Phoenix Mars Mission, J. Geophys. Res., volume 113, E00A08,
+                   doi:10.1029/2007JE003002
+            </reference_text>
+      <description>reference.WHITEWAY2008</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Meteorology Suite, LIDAR</name>
+    <type>Altimeter</type>
+    <!--RChen/EN was Lidar-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Phoenix mission to Mars will advance our knowledge of the climate on Mars by combining lidar remote sensing of atmospheric dust and clouds with measurements of solar radiation and in situ sampling of temperature, pressure, wind, and water vapour. The day to day variation of the local weather on Mars is controlled primarily by the amount of solar radiation reaching the surface and this depends on the optical thickness of the dust suspended in the atmosphere. This affects local and global meteorological patterns which in turn determine the lifting of dust from the surface and long range transport. There is also a climate interaction with the distribution of water ice above and below the surface of Mars. This involves transport of water through the atmosphere and previous lidar measurements from orbit have indicated that clouds could have a substantial role. The lidar on the Phoenix mission will record the height profile of laser backscatter from the dust and cloud layers that drift past the landing site with a view that is continuous in time. The attenuation of the lidar signal can be used to derive the optical extinction coefficient and this is related to atmospheric properties. For example, the extinction of solar radiation due to dust has a first order effect on heating of the surface of Mars. The measured optical extinction can also be related to the amount of scattering material. For example, for a thin cloud the extinction coefficient measured by a lidar can be used to derive the ice water content within the cloud. Such a measurement will be of vital importance to the mission goal to investigate water on Mars. The combination of the lidar and passive remote sensing with in situ sampling will provide a view of the interacting processes that determine the local weather at the surface and also the role of the atmosphere in the water cycle on Mars. A basic atmospheric lidar (light detection and ranging) emits pulses of laser light into the atmosphere then detects and records the backscattered light as a function of time. The time resolved signal is converted to distance using the speed of light and a factor of two to account for the round-trip path length. The lidar transmitter is based on a diode pumped, passively Q-switched, neodymium-doped yttrium garnet (Nd:YAG) laser. This configuration was chosen for its robustness and technological maturity as much as for its suitable lidar performance. The pump diode array emits at a wavelength of 808 nm and is used to provide the energy to the Nd:YAG crystal within the laser cavity. Lasing is inhibited within the cavity through the use of a saturable absorber. The photon density within the oscillator cavity builds to a level where the saturable absorber bleaches and the energy within the cavity is dumped as a laser pulse over a very short time (a passive Q-switch). For this laser the output light pulse has a length of approximately 10 ns and an energy of 0.7 mJ. After the laser cavity emits its light pulse, part of the optical energy is converted from a wavelength of 1064 nm to 532 nm by second harmonic generation in a Potassium Titanyl Phosphate (KTP) crystal. The laser output is then expanded by a factor of 10 in order to reduce the divergence to 0.5 mrad. A small fraction of the outgoing laser pulse is 'picked off' and separated into the two wavelength components in order to measure the relative amplitude of each wavelength with photodiodes. The signal from the photodiode detecting the 1064 nm pulse is used to trigger the data acquisition electronics, providing a zero-time reference, and also to shut off the pumping diodes.The atmospheric backscatter signals are collected by an afocal reflective telescope and split into the two relevant wavelengths using dichroic mirrors. The 1064 nm backscatter is detected by an Avalanche Photo-Diode (APD), and recorded using 14-bit analog to digital conversion (ADC). The 532 nm backscatter is detected by a Photomultiplier (PMT) and the signal is recorded using both ADC and photon counting. Photon counting is required to record the weak signals from heights above 5 km and up to 20 km.</description>
+  </Instrument>
+</Product_Context>

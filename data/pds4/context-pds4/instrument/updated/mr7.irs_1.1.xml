@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:irs.mr7</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Infrared Spectrometer for MR7</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mr7</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mariner69</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Herr, K.C., P.B. Forney, and G.C. Pimentel, Mariner Mars
+                   1969 IR Spectrometer, vol. 11, p. 493, 1972.
+            </reference_text>
+      <description>reference.HERR_ETAL1972</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Pimentel, G.C., and K.C. Herr, Infrared Spectrometer
+                   Mariner Mars 1969 - Data Format Report, vol. 11,
+                   Issue 44 (Berkeley) (Final report for JPL Contract
+                   951722), 1970.
+            </reference_text>
+      <description>reference.PIMENTEL_HERR1970</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>&gt;Infrared Spectrometer</name>
+    <type>Spectrometer</type>
+    <!--RChen/EN was Infrared Spectrometer-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>Spectral measurements of the thermal IR emission from the Martian surface and atmosphere were obtained to determine (1) the atmospheric composition, including polyatomic life-related molecules, (2) the surface temperature along the track of view, (3) the surface composition, (4) the surface topography, (5) the composition of the polar cap, and (6) the bright limb IR emission characteristics.</description>
+  </Instrument>
+</Product_Context>
