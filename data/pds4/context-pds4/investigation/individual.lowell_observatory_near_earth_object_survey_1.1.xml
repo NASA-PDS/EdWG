@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:individual.lowell_observatory_near_earth_object_survey</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Lowell Observatory Near-Earth Object Survey</title>
+    <title>Lowell Observatory Near-Earth Object Survey (LONEOS)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -37,6 +37,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Investigation>
+    <name>Lowell Observatory Near-Earth Object Survey</name>
     <type>Individual Investigation</type>
     <start_date>1998</start_date>
     <stop_date>2008</stop_date>
