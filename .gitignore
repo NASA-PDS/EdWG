@@ -37,6 +37,7 @@
 .*.swp
 *.sublime-*
 *\#*#
+*.DS_Store
 
 # Java stuff
 *.javac
