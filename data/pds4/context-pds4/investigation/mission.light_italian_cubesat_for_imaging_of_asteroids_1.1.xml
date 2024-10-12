@@ -83,6 +83,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Investigation>
+    <name>LICIACube</name>
     <type>Mission</type>
     <start_date>1000-01-01</start_date>
     <stop_date xsi:nil="true" nilReason="unknown"/>
