@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:gio.jpa</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Johnstone Plasma Analyzer (JPA) for GIO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:jpa.gio</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.esa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.gio</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto_extended_mission</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Balsiger, H., K. Altwegg, F. Buehler, J. Fischer, J. Geiss, A. Meier, U.
+                   Rettenmund, H. Rosenbauer, R. Schwenn, J. Benson, P. Hemmerich, K. Saeger, G.
+                   Kulzer, M. Neugebauer, B. E. Goldstein, R. Goldstein, E. G. Shelley, T.
+                   Sanders, D. Simpson, A. J. Lazarus, and D. T. Young (1986). 'The Giotto Ion
+                   Mass Spectrometer'. In 'The Giotto Mission - Its Scientific Investigations' (R.
+                   Reinhard and B. Battrick, Eds.) ESA SP-1077, pp. 129-148. ESA Publications
+                   Division, ESTEC, Noordwijk.
+            </reference_text>
+      <description>reference.BALSIGERETAL1986</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Biermann, L., Kometenschweife und solare Korpuskularstrahlung, Zeitschrift fur
+                   Astrophysik, Vol.29, 274, 1951.
+            </reference_text>
+      <description>reference.BIERMANN1951</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Biermann L, B Brosowski &amp; H U Schmidt, The Interaction of the Solar Wind with a
+                   Comet, Solar Physics, I, 254, 1967.
+            </reference_text>
+      <description>reference.BIERMANNETAL1967</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Galeev A A, Cometary Exploration, Proc. Int. Conf. Cometary Exploration (Ed. T.
+                   Gombosi), Budapest, 243, 1983.
+            </reference_text>
+      <description>reference.GALEEV1983</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Galeev A A, T E Cravens, T I Gombosi, Solar-Wind Stagnation near Comets,
+                   Astrophys. I., 289, 807, 1985.
+            </reference_text>
+      <description>reference.GALEEVETAL1985</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Ip, W. H., and Axford, W. I., 1982, 'Theories of Physical Processes in the
+                   Cometary Comae and Ion Tails', In: Comets (Ed. Wilkering et. al), Univ. of
+                   Arizona Press, 588-634.
+            </reference_text>
+      <description>reference.IP-AXFORD1982</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Johnstone A D, S J Kellock, A J Coates, M F Smith, T Booker &amp; J D Winningham,
+                   IEEE Trans., NS-32, 139, 1985.
+            </reference_text>
+      <description>reference.JOHNSTONEETAL1985</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   McKenna-Lawlor S et al., The Energetic Particle Experiment (EPA) and its
+                   Preliminary In-flight Performance, ESA SP-1077, ESA Pub Div, Noordwijk,
+                   Netherlands, 53-66, 1986.
+            </reference_text>
+      <description>reference.MCKENNAETAL1986</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   'Encounters with Comet Halley, The first results', Nature, Volume 321, No.
+                   6067, 15 May 1986.
+            </reference_text>
+      <description>reference.NATURE321</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Reme H et al., The Giotto RPA-Copernic Plasma Experiment, ESA SP-1077, ESA Pub
+                   Div, Noordwijk, Netherlands, 33-52, 1986.
+            </reference_text>
+      <description>reference.REMEETAL1986</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Schmidt, H.U., and R. Wegmann, Plasma flow and magnetic field in comets, In:
+                   Comets (Ed. L.L.Wilkening), University of Arizona Press, 538-560, 1982.
+            </reference_text>
+      <description>reference.SCHMIDT-WEGMANN1982</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Wallis M &amp; R S B Ong, Strongly coded ionising plasma flows with application to
+                   Venus, Planet Space Sci., 23, 713, 1975.
+            </reference_text>
+      <description>reference.WALLIS-ONG1975</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Wallis, M.K., Weakly shocked flows of the solar wind plasma through atmospheres
+                   of comets and planets, Planet. Space Sci., 21, 1647-1660, 1973.
+            </reference_text>
+      <description>reference.WALLIS1973</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Johnstone Plasma Analyzer (JPA)</name>
+    <type>Spectrometer</type>
+    <!--RChen/EN was Plasma Instrument. From JSH's xl file-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The objective of this investigation is to measure the plasma flow around Comet Halley in order to study (1) the mass loading of the solar wind by ions of cometary origin, (2) the existence, location, and strength of the upstream shock transition in the solar wind flow, (3) the position of and forces controlling the pressure balance surface between the cometary and the solar plasma, (4) the processes that form tail rays and other discrete visible features in the coma, and (5) the detection of wave motion induced by the cometary interaction that leads to the thermalization of solar wind and implanted ions. The instrument employs two sensors. One is a 270-deg spherical electrostatic energy analyzer (EEA) with a microchannel plate detector that measures the three-dimensional energy/charge distribution of positive ions from 10 eV to 20 keV over the polar angle range 20 - 180 deg with respect to the spin axis of the spacecraft. The second sensor consists of a quadrispherical EEA with six time-of-flight analyzers set at different polar angles in the range 20 - 160 deg.</description>
+  </Instrument>
+</Product_Context>

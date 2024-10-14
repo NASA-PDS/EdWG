@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:nav_right_a.msl</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Navigation Camera Right String A for MSL</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.msl</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_science_laboratory</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Maki, J.N., et al., Mars Exploration Rover Engineering Cameras, J. Geophys.
+                   Res., 108(E12), 8071, doi:10.1029/2003JE002077, 2003.
+            </reference_text>
+      <description>reference.MAKIETAL2003</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Maki, J.N., et al., The Mars Science Laboratory Engineering Cameras, Space Sci.
+                   Rev. 2012, doi:10.1007/s11214-012-9882-4, 10 May 2012.
+            </reference_text>
+      <description>reference.MAKIETAL2012</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Navigation Camera Right String A</name>
+    <type>Imager</type>
+    <!--RChen/EN was Camera-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Mars Science Laboratory (MSL) rover carries 4 Navigation Cameras (Navcams). Two Navcam stereo pairs (one as a redundant backup) are mounted on the Remote Sensing Mast just below ChemCam. The base of the vertical Remote Sensing Mast is located near the front starboard corner of the rover. The upper Navcam pair has a boresight 1.99 m above the base of the rover wheels and the lower pair's corresponding height is 1.94 m, which are just above and below the Mastcam boresight of 1.97 m height. The redundant cameras are connected to the backup rover computer and are not expected to be used unless there is a problem with the primary rover computer and/or primary cameras. Each Navcam pair is separated by a 42.4 cm stereo baseline.  The primary use of the Navcams is to provide terrain context for mobility planning, and they also support science operations for selecting near field targets and robotic arm operations. Each Navcam consists of a detector head and an electronics box. The detector head houses an optical lens assembly and a Charge Coupled Device detector (CCD). The electronics box contains the CCD driver electronics, the 12-bit Analog to Digital Converter (ADC), camera/rover interface electronics, and a heater resistor that will keep the box above the minimum operating temperature of 218 K. The Navcams use a broadband visible filter and produce 1024 x 1024 pixel images. Each camera weighs 220 grams and uses approximately 2.2 Watts of power when the heater is not on. The MSL Navcam design is identical in design to the Navcams on the Mars Exploration Rovers with the exception of a more powerful 3.5 W heater on each MSL Navcam.</description>
+  </Instrument>
+</Product_Context>

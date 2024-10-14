@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:lucy.llorri</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>The Lucy LOng Range Reconnaissance Imager (L'LORRI) aboard the Lucy spacecraft</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-06-10</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated for the Dinkinesh delivery.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2022-08-31</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.lucy</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.lucy</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1007/s11214-023-01028-z</doi>
+      <reference_text>Weaver, H.A., Wilson, J.P., Conard, S.J. et al. The Lucy Long Range Reconnaissance Imager (L’LORRI). Space Sci Rev 219, 82 (2023).</reference_text>
+      <description>L'LORRI instrument description paper.</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Lucy Long Range Reconnaissance Imager (L'LORRI)</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+        <ctli:subtype>high-resolution panchromatic camera</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <naif_instrument_id>-49</naif_instrument_id>
+    <description>The L’LORRI instrument provides the highest-resolution imaging for the Lucy mission. The panchromatic images will address seven of our 17 Level 1 science requirements including
+           searching for satellites, determining the size frequency distribution of craters, stereo imaging, andshape reconstruction. The L’LORRI instrument will also be used for optical navigation to our targets.
+        </description>
+  </Instrument>
+</Product_Context>

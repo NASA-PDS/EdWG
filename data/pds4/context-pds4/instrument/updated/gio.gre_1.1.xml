@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:gio.gre</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Giotto Radioscience Experiment for GIO</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:gre.gio</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.esa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.gio</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.giotto_extended_mission</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Asmar, S.W., and R.G. Herrera, Radio Science Handbook, JPL D-7938, Volume 4,
+                   Jet Propulsion Laboratory, Pasadena, CA, 22 January 1993.
+            </reference_text>
+      <description>reference.ASMAR-HERRERA1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Edenhofer, P., M.K. Bird, H. Buschert, P.B. Esposito, H. Porsche, and H.
+                   Volland, The Giotto Radio- Science Experiment, ESA SP-1077, 1986.
+            </reference_text>
+      <description>reference.EDENHOFERETAL1986A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Edenhofer, P., M.K. Bird, J.P. Brenkle, H. Buschert, P.B. Esposito, H. Porsche,
+                   and H. Volland, First Results From the Giotto Radio-Science Experiment, Nature,
+                   321, 355-357, 1986.
+            </reference_text>
+      <description>reference.EDENHOFERETAL1986B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Edenhofer, P., M.K. Bird, P.B. Esposito, H. Porsche, and H. Volland,
+                   Preliminary results of the Giotto Radio Science Experiment, Advanaces in Space
+                   Research, 5, 201-209, 1986.
+            </reference_text>
+      <description>reference.EDENHOFERETAL1986C</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Edenhofer, P., M.K. Bird, H. Buschert, P.B. Esposito, H. Porsche, and H.
+                   Volland, Measurement Technique of the Giotto Radio-Science Experiment, Journal
+                   of Physics E: Science Instrumentation, 20, 768-777, 1987.
+            </reference_text>
+      <description>reference.EDENHOFERETAL1987A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Edenhofer, P., M.K. Bird, J.P. Brenkle, H. Buschart, E.R. Kursinski, N.A.
+                   Mottinger, H. Porsche, C.T. Stelzried, and H. Volland, Dust Distribution of
+                   Comet P/Halley's Inner Coma Determined from the Giotto Radio-Science
+                   Experiment, Astronomy and Astrophysics, 187, 712-718, 1987.
+            </reference_text>
+      <description>reference.EDENHOFERETAL1987B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Hall, P.J., The Giotto Radio Science Experiment at Parkes, Proceedings of the
+                   Astronomical Society of Australia, 6(3), 298-301, 1986.
+            </reference_text>
+      <description>reference.HALL1986</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Giotto Radioscience Experiment</name>
+    <type>Atmospheric Sciences</type>
+    <!--RChen/EN was Radio Science-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The scientific objectives of this experiment were to determine both the columnar electron content of Comet Halley's ionosphere and the cometary mass fluence from atmospheric drag by using the radio signals from Giotto during the Halley encounter on 13--14 March 1986. The measurements of cometary electron content and mass fluence were inverted to derive the spatial distribution of the electron and mass (dust and gas) density within Halley's coma. This experiment was an occultation-type, remote-sensing experiment which relied on the propagation effects of electromagnetic waves. The experiment took measurements of the phase (Doppler) shifts of the downlink carrier signals both at S-band (2.3 GHz) and X-band (8.4 GHz) as a function of time during the Halley encounter.</description>
+  </Instrument>
+</Product_Context>

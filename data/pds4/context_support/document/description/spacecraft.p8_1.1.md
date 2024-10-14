@@ -1,0 +1,1 @@
+Pioneer 8, also known as Pioneer C, was launched on 13 December 1967 into a heliocentric orbit to study interplanetary space with a primary focus to collection data on magnetic fields, plasma, and cosmic rays.

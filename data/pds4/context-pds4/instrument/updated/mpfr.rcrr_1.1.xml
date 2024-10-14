@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:mpfr.rcrr</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Rover Camera Rear for MPFR</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument:rcrr.mpfr</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updates to descriptions and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mpfr</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_pathfinder</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   unk
+            </reference_text>
+      <description>reference.DLUNA-FROSINI1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   unk
+            </reference_text>
+      <description>reference.GENNERY1991</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   unk
+            </reference_text>
+      <description>reference.GENNERY1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   unk
+            </reference_text>
+      <description>reference.GENNERY1994</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   unk
+            </reference_text>
+      <description>reference.GENNERYETAL1987</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Matijevic, J.R., L.W. Avril, R.S. Banes, D.B. Bickler, R.S. Blomquist, G.S.
+                   Bolotin, D.F. Braun, D.R. Burger, B.K. Cooper, J. Crisp, F. Deligiannis,
+                   W.C. Dias, H.J. Eisen, D. Ferguson, B.H. Fujiwara, R.D. Galletly, G.S.
+                   Hickey, P. Jenkins, K.A. Jewett, E.J. Jorgensen, J. Kilecki, H.A. Kubo,
+                   G.A. Landis, W.E. Layman, L.H. Matthies, D.P. McQuarie, R.J. Menke, A.H.
+                   Mishkin, D.S. Mittman, H.J. Moore, J.C. Morrison, T.T. Nguyen, D.E. Noon,
+                   L. Oberle, T.R. Ohm, G.M. Shinn, D.L. Shirley, A.R. Sirota, C.B. Stell, S.
+                   Stevenson, H.W. Stone, L.F. Sword, H.C. Ta, A.D. Thompson, L.M. van
+                   Nieuwstadt, M.T. Wallace, L. -C. Wen, B.H. Wilcox, and Y.C. Wu, The
+                   Pathfinder Microrover, J. Geophys. Res., 102, 3989-4001, 1997.
+            </reference_text>
+      <description>reference.MATIJEVICETAL1997A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   unk
+            </reference_text>
+      <description>reference.PARULSKIETAL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   unk
+            </reference_text>
+      <description>reference.SEPULVEDA1994</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   unk
+            </reference_text>
+      <description>reference.YAKIMOVSKY-CUNNI1978</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>Rover Camera Rear</name>
+    <type>Imager</type>
+    <!--RChen/EN was Camera-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The rover, named 'Sojourner', was essential to the achievement of the major scientific goals of the Pathfinder mission because it carried the Alpha Proton X-ray Spectrometer, or APXS, that analyzed rocks and other surface materials.  Aside from transporting the APXS, the rover also contributed scientifically by carrying three cameras that yielded a large quantity of image data.  The discussion of the rover 'instrument' per se in this section will focus on the salient characteristics of the three cameras, and not of the APXS.  For a complete discussion of the latter, see the instrument description for the APXS. Two front monochromatic camera/laser systems provided stereo viewing and ranging, while the rear mounted camera was discriminant in the red, green, and IR spectral bandwidths to produce color images.  Whereas the Imager for Mars Pathfinder (IMP) camera viewed the Martian scenes from a fixed platform at spatial resolutions that diminished with distance, the mobile rover was able to drive up to landforms, including those hidden from the IMP, to image them at higher resolution.</description>
+  </Instrument>
+</Product_Context>
