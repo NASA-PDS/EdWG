@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Document xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_support:image:comet_borrelly_nucleus</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Comet Borrelly Nucleus as Imaged by Deep Space 1</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Document</product_class>
+        <Citation_Information>
+            <publication_year>2001</publication_year>
+            <description>
+                In this high resolution view of the icy, rocky nucleus of comet Borrelly, (about 45 meters 
+                or 150 feet per pixel) a variety of terrains and surface textures, mountains and fault 
+                structures, and darkened material are visible over the nucleus's surface. This was the 
+                final image of the nucleus of comet Borrelly, taken just 160 seconds before Deep Space 1's 
+                closest approach to it. This image shows the 8-km (5-mile) long nucleus about 3417 kilometers 
+                (over 2,000 miles) away.
+            </description>
+            <List_Author>
+                <Organization>
+                    <organization_name>NASA/JPL</organization_name>
+                </Organization>
+            </List_Author>
+        </Citation_Information>
+    </Identification_Area>
+    <Document>
+        <publication_date>2001-09-22</publication_date>
+        <Document_Edition>
+            <edition_name>Image</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <description>
+                This file and its caption were downloaded from Wikimedia Commons.
+            </description>
+            <Document_File>
+                <file_name>Comet_Borrelly_Nucleus.jpg</file_name>
+                <document_standard_id>JPEG</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+    </Document>
+</Product_Document>

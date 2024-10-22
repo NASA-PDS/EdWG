@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1m00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:mission.epoxi</logical_identifier>
+        <version_id>2.0</version_id>
+        <title>EPOXI</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>Deep Impact Extended Investigation</alternate_id>
+            </Alias>
+            <Alias>
+                <alternate_id>DIXI</alternate_id>
+            </Alias>
+            <Alias>
+                <alternate_id>Extrasolar Planet Observation and Characterization</alternate_id>
+            </Alias>
+            <Alias>
+                <alternate_id>EPOCh</alternate_id>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-08-03</modification_date>
+                <version_id>2.0</version_id>
+                <description>
+                    Edited to comply with Editorial Working Group checklist.
+                    Updated deprecated target references with invalid LIDs
+                    Removed inappropriate external references list.
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2019-01-03</modification_date>
+                <version_id>1.1</version_id>
+                <description>
+                    Per "Guide toPDS4 Context Products" v1.3,
+                    - changed all lidvid_reference to lid_reference
+                    - changed target LIDs to new formation rule
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2016-10-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+            <reference_type>context_to_associate</reference_type>
+            <comment>investigation_to_agency</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.dif</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context_support:document:epoxi_description</lid_reference>
+            <reference_type>investigation_to_document</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:calibrator.calibration</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference> 
+            <lid_reference>urn:nasa:pds:context:target:comet.103p_hartley_2</lid_reference>
+            <reference_type>instrument_host_to_target</reference_type> 
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:comet.c2009_p1_garradd</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:comet.c2012_s1_ison</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:star.ross_905</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:star.bd_36_2593</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:star.bd_47_2846</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:star.moa_2009-blg-266</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+	<Internal_Reference>	<!-- was star.gsc_03549-02811 -->
+            <lid_reference>urn:nasa:pds:context:target:star.kepler-1</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+	<Internal_Reference>	<!-- was star.gsc_03089-00929 -->
+            <lid_reference>urn:nasa:pds:context:target:star.1swasp_j175207.01_373246.3</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:star.wasp-3</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:star.xo-2</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:star.xo-3</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                   A&apos;Hearn, M.F., EPOXI: Deep Impact Gets Glued to Extra-Solar Planets, 37th
+                   COSPAR Scientific Assembly, Committee on Space Research, Montreal, Canada, 2008.
+            </reference_text>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   A&apos;Hearn, M.F., J.M. Sunshine, L.A. McFadden, D.D. Wellnitz, D.D., L.M. Feaga,
+                   T.L. Farnham, J.-Y. Li, M.J.S. Belton, P.C. Thomas, J. Veverka, and K.P.
+                   Klaasen, EPOXI&apos;s Mission to Comet 103P/Hartley 2, 10th Asteroids, Comets,
+                   Meteors Meeting, The Johns Hopkins University Applied Physics Laboratory,
+                   Baltimore, Maryland, USA, 2008.
+            </reference_text>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1109/AERO.2009.4839704</doi>
+            <reference_text>
+                   Rieber, R.R., and R.F. Sharrow, The Contingency of Success: Operations for Deep
+                   Impact&apos;s Planet Hunt, Aerospace Conference, 2009 IEEE, pages 1-9, 7-14 March
+                   2009, doi:10.1109/AERO.2009.4839704.
+            </reference_text>
+        </External_Reference>
+    </Reference_List>
+
+    <Investigation>
+        <name>EPOXI</name>
+        <type>Mission</type>
+        <start_date>2007-09-26</start_date>
+        <stop_date>2013-09-20</stop_date>
+
+        <description>
+            "EPOXI" was the monniker assigned to the two extended missions for the Deep
+            Impact Spacecraft: EPOCh, an exoplanet observation mission; and DIXI, the
+            extended mission to Comet 103P/Hartley 2.
+        </description>
+    </Investigation>
+</Product_Context>
