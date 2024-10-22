@@ -21,14 +21,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial release</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-08</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and titles</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references. Description updated.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -36,82 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:jaxa:darts:context:agency:agency.jaxa</lid_reference>
       <reference_type>investigation_to_agency</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:mascot.mascam</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:mascot.micromega</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:mascot.mara</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:mascot.masmag</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:mascot.mbus</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:dcam3.dcam3-d</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:dcam3.dcam3-a</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:hyb2.onc</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:hyb2.nirs3</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:hyb2.tir</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:hyb2.sci</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:hyb2.lidar</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:hyb2.cam-h</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument_host:rover.minerva2-1_owl</lid_reference>
-      <reference_type>investigation_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument_host:lander.mascot</lid_reference>
-      <reference_type>investigation_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument_host:spacecraft.dcam3</lid_reference>
-      <reference_type>investigation_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument_host:rover.minerva2-1_hibou</lid_reference>
-      <reference_type>investigation_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument_host:spacecraft.hyb2</lid_reference>
-      <reference_type>investigation_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument_host:rover.minerva2-2_ulula</lid_reference>
-      <reference_type>investigation_to_instrument_host</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:jaxa:darts:context:instrument_host:spacecraft.hyb2</lid_reference>

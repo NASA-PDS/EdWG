@@ -17,14 +17,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-08</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and titles</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -34,14 +29,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <External_Reference>
-      <doi>10.1016/j.molap.2017.06.003</doi>
+      <doi>http://dx.doi.org/10.1016/j.molap.2017.06.003</doi>
       <reference_text>
                 Wong, A., Billinghurst, B., Bernath, P.F. (2017), Helium broadened propane absorption cross sections in the far-IR, 
                 Molecular Astrophysics, 8, 36-39.
             </reference_text>
     </External_Reference>
     <External_Reference>
-      <doi>10.1016/j.jqsrt.2017.05.006</doi>
+      <doi>http://dx.doi.org/10.1016/j.jqsrt.2017.05.006</doi>
       <reference_text>
                 Wong, A., Hargreaves, R.J., Billinghurst, B., Bernath, P.F. (2017), Infrared absorption cross sections of propane broadened
                 by hydrogen, Journal of Quantitative Spectroscopy and Radiative Transfer, 198, 141-144.

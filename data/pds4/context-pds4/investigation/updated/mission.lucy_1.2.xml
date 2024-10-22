@@ -25,14 +25,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial version</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-08</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.2</version_id>
-        <description>Updates to descriptions and titles</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.2</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -40,38 +35,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>investigation_to_agency</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:lucy.llorri</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:lucy.rss</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:lucy.prop</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:lucy.ltes</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:lucy.ttcam</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:lucy.mvic</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:lucy.leisa</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.lucy</lid_reference>
-      <reference_type>investigation_to_instrument_host</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.lucy</lid_reference>
