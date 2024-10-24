@@ -1,0 +1,3 @@
+
+      The Clipper GNC subsystem provides operations tools for uplink and downlink. Uplink tools will be used by the system to produce predicted states and downlink tools will be used to analyze telemetry from the spacecraft. GNC data is useful to the calibration of Gravity/Radio Science data by providing the forces acting on the spacecraft from using attitude control thrusters (a non-gravitational force).
+    

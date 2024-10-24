@@ -1,0 +1,1 @@
+Pioneer 9, also known as Pioneer D, was launched on 08 November 1968 into a heliocentric orbit to study interplanetary space with a primary focus of collecting data on magnetic fields, plasma, and cosmic rays.

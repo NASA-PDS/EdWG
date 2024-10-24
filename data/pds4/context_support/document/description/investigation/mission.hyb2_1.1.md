@@ -1,0 +1,1 @@
+The Hayabusa2 mission will obtain samples from the C-type asteroid (162173) Ryugu to investigate the origin of water and organic materials on Earth, and bring them back to Earth. It is important to understand the early history and transfer processes of the Solar System.

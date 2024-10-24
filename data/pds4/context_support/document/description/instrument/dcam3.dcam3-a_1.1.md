@@ -1,0 +1,1 @@
+DCAM3-A is analog imaging system onboard DCAM3. The purpose of DCAM3-A is a continuous monitoring of the impact event.

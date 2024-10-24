@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:mini-tes.mer1</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>MINIATURE THERMAL EMISSION SPECTROMETER for MER1</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_exploration_rover</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mer1</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Christensen, P.R., et al., The Miniature Thermal Emission Spectrometer for the
+                   Mars Exploration Rovers, Journal of Geophysical Research- Planets, 2003.
+            </reference_text>
+      <description>reference.CHRISTENSENETAL2003</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>MINIATURE THERMAL EMISSION SPECTROMETER</name>
+    <type>Spectrometer</type>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>The Miniature Thermal Emission Spectrometer (Mini-TES) will provide remote measurements of mineralogy and thermophysical properties of the scene surrounding the Mars Exploration Rovers, and guide the Rovers to key targets for detailed in situ measurements by other Rover experiments.  The Mini-TES is a Fourier Transform Spectrometer covering the spectral range 5-29 micrometers (339.50 to 1997.06 cm-1) with a spectral sample interval of 9.99 cm-1. The Mini-TES telescope is a 6.35-cm diameter Cassegrain telescope that feeds a flat-plate Michelson moving mirror mounted on a voice-coil motor assembly. A single deuterated triglycine sulfate (DTGS) uncooled pyroelectric detector with proven space heritage gives a spatial resolution of 20 mrad; an actuated field stop can reduce the field of view to 8 mrad. Mini-TES is mounted within the Rover's Warm Electronics Box and views the terrain using its internal telescope looking up the hollow shaft of the Pancam Mast Assembly (PMA) to the fixed fold mirror and rotating elevation scan mirror in the PMA head located ~1.5 m above the ground. The PMA provides a full 360 degree of azimuth travel and views from 30 degrees above the nominal horizon to 50 degrees below. An interferogram is collected every two seconds, and transmitted to the Rover computer where the Fast Fourier Transform, spectral summing, lossless compression, and data formatting are performed prior to transmission to Earth. Radiometric calibration is provided by two calibration V-groove blackbody targets instrumented with platinum thermistor temperature sensors with absolute temperature calibration of +/-0.1 K. One calibration target is located inside the PMA head, the second is on the Rover deck.</description>
+  </Instrument>
+</Product_Context>

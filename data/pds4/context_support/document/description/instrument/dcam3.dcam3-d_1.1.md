@@ -1,0 +1,1 @@
+DCAM3-D is digital imaging system onboard DCAM3. The purpose of DCAM3-D is a scientific observation of the event with wide-angle and in high-resolution.

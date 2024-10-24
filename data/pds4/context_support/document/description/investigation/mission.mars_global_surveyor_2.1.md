@@ -1,0 +1,4 @@
+
+            Mars Global Surveyor was an orbiting spacecraft that looped around the Red Planet for a decade. The mission overhauled scientists' understanding of Mars by studying the entire Martian surface, atmosphere, and interior. Major findings included dramatic evidence that water still flows on Mars in short bursts down hillside gullies, and the identification of water-related mineral deposits leading to selection of a Mars rover landing site for a subsequent mission.
+            The mission continued sending images and other data until November 2006, when it went silent due to a series of events linked to a computer error likely caused by battery failure.
+        

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:pvo.ogbd</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>GAMMA RAY BURST DETECTOR (OGBD) FOR PIONEER VENUS</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-03-15</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+              Initial creation of the context products
+            </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_venus</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1109/TGRS.1980.350285</doi>
+      <reference_text>
+              Klebesadel, R. W., et al., The Pioneer Venus Orbiter gamma burst detector, IEEE Trans. Geosci. Rem. Sens., 
+              GE-18, 76-80, Jan. 1980.
+            </reference_text>
+      <description>reference.KLEBESADELETAL_1979a</description>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1126/science.205.4401.119</doi>
+      <reference_text>
+             Evans, W. D., et al., Gamma-ray burst observations by Pioneer Venus Orbiter, Science, 205, No. 4401, 
+             119-121, July 1979.
+          </reference_text>
+      <description>reference.EVANSETAL_1979b</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>GAMMA RAY BURST DETECTOR (OGBD) FOR PIONEER VENUS</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Gamma Ray Detector</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>
+ 
+    INSTRUMENT OVERVIEW
+    ===================
+ 
+    The Gamma Ray Burst Detector (OGBD) experiment was an omnidirectional gamma-ray detector employing two Phoswich scintillation 
+    spectrometers sensitive to photons from 0.1 to 2.0 MeV, used with logic circuitry to detect the beginning of a gamma event and 
+    to initiate a period of rapid data collection. Data were stored in a memory unit for subsequent transmission to Earth. 
+    Confirmation that a true gamma event had occurred was obtained by comparison with results from other experiments in Earth satellites. 
+    This experiment provided long-baseline time correlations necessary for calculating accurate source locations.
+ 
+    The purpose fo the OGBD was to observe intense, short duration emissions of high energy photons, known as gamma-ray bursts, from 
+    astronomical sources. With the long baseline from Earth to Venus, correlations with near-Earth observations can provide directional 
+    information with a higher precision than is available from Earth alone. Determinations with accuracies of under one arc minute are 
+    possible.
+ 
+    The experiment comprised two CsI photomultiplier detector units, mounted on opposite sides of the periphery of the instrument platform, 
+    giving a full-sky 4 pi steradian field of view. Each contained a scintillation crystal, 3.8 cm in diameter and 3.2 cm long, phoswiched 
+    within and optically bonded to a 0.5 cm thick shell of Pilot B plastic scintillator used for charged particle suppression. Each was 
+    optically coupled to a photomultiplier tube. They were passively shielded from low energy radiation by a jacket of 0.25 mm lead foil 
+    and the sensor housing. The instrument had a mass of 2.8 kg and used 1.3 W power.
+ 
+    The OGBD could detect photons from 0.1 to 2.0 MeV energy, and obtain coarse spectral information using pulse height analysis. It had five 
+    channels, a full 0.1 to 2.0 MeV channel, and four channels covering 0.1-0.2 MeV, 0.2-0.5 MeV, 0.5-1.0 MeV, and 1.0-2.0 MeV. The normal 
+    accumulation time for the channels was 11.7 ms, a time-to-spill algorithm recorded the total intensity in time bins of 11.7 ms to 0.25 ms, 
+    depending on the count rate.
+ 
+    A temporary pretrigger memory would continuously store 3 seconds of data, if a rapid increase in count rate triggered the internal logic 
+    to begin recording, the 3 seconds of data would be automatically added to the 20 kb buffer. The buffer would continue to record for up to 
+    28 seconds of event data. The detector went into operation on 21 May 1978, one day after launch. It operated continuously until the end of 
+    the PVO mission in October 1992.
+        </description>
+  </Instrument>
+</Product_Context>

@@ -1,0 +1,2 @@
+The IRAS satellite consisted of two main parts, the spacecraft and the telescope system. The telescope system comprised the upper part of the satellite. The focal plane assembly contained the survey detectors, visible            
+    star sensors for position reconstruction, a Low Resolution Spectrometer (LRS) and a Chopped Photometric Channel (CPC). 

@@ -1,0 +1,3 @@
+LCROSS was launched as a secondary payload with the Lunar Reconnaissance Orbiter (LRO) on June 18, 2009. After LRO separated to perform its mission, 
+            LCROSS used the spent Atlas upper stage, called the Centaur, to impact the moon while LCROSS instruments observed the resulting ejecta cloud. The LCROSS 
+            shepherding spacecraft then became an impactor itself. Many Earth-based telescopes observed both impacts on October 9, 2009.
