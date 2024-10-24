@@ -27,13 +27,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Modification_Detail>
       <modification_date>2024-10-22</modification_date>
       <version_id>1.1</version_id>
-      <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      <description>Updated schema version. Adding missing "instrument_host" references. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
     </Modification_Detail>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>investigation_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:cdd.p9</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.p9</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:pioneerdoc:p9doc:p9_mission_overview</lid_reference>
