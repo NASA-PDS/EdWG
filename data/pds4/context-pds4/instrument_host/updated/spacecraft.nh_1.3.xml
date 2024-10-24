@@ -77,11 +77,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem1</lid_reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem2</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem2</lid_reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem1</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
