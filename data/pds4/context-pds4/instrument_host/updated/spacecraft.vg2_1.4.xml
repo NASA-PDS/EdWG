@@ -43,9 +43,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
+        <modification_date>2024-10-24</modification_date>
         <version_id>1.4</version_id>
-        <description>Adding missing "instrument" references. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -53,6 +53,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>instrument_host_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mag.vg2</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:issn.vg2</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:rss-vg2u.vg2</lid_reference>
@@ -63,27 +71,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:pls.vg2</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:issn.vg2</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:pps.vg2</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:uvs.vg2</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:pws.vg2</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:issw.vg2</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pls.vg2</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -91,15 +83,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:mag.vg2</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:iris.vg2</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:lecp.vg2</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:iris.vg2</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -108,6 +96,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:rss.vg2</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pws.vg2</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:uvs.vg2</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:issw.vg2</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

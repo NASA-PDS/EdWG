@@ -37,9 +37,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 metadata.</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
+        <modification_date>2024-10-24</modification_date>
         <version_id>2.1</version_id>
-        <description>Adding missing "instrument" references. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
