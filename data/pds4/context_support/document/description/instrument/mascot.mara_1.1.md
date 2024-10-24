@@ -1,0 +1,1 @@
+MARA (MAscot RAdiometer) is a radiometer onboard MASCOT. MARA is used for the high-resolution determination of the surface temperature as well as the thermal changes during the day-night changes on the asteroid.

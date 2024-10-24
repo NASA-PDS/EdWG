@@ -1,0 +1,1 @@
+Several physical CCDs with several amplifiers were used during the LONEOS survey. No specific information is available for these CCDs. The CCDs had 4096x4096 pixels and a plate scale at the telescope of approximately 2.53"/pixel.

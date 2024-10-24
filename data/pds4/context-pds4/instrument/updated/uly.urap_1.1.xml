@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:uly.urap</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Unified Radio and Plasma Wave Experiment for ULY</title>
+    <title>UNIFIED RADIO AND PLASMA WAVE EXPERIMENT for ULY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -28,14 +30,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -45,12 +42,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:esa:psa:context:investigation:mission.ulysses</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
       <reference_text>
@@ -74,10 +71,46 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Unified Radio and Plasma Wave Experiment</name>
+    <name>UNIFIED RADIO AND PLASMA WAVE EXPERIMENT</name>
     <type>Plasma Wave Spectrometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The objectives of this investigation are (1) to investigate source positions of travelling solar radio bursts in the range from dc to 1 MHz; (2) to investigate the large-scale magnetic field topology and the electron density along the exciter trajectory as a function of heliographic latitude and longitude at distances of 0.1 AU to approximately 5 AU; (3) to investigate Jovian radio source locations in the range from dc to 1 MHz; and (4) to investigate waves in the plasma between dc and 35 kHz, their instabilities, their energy transport mechanisms, and the thermal electron density.</description>
+    <description>
+ 
+ 
+  Instrument Overview
+  ===================
+    (excerpted from: [STONEETAL1992A])
+ 
+    Abstract.  -- The scientific objectives of the Ulysses Unifiewd
+    Radio and Plasma wave (URAP) experiment are twofold: 1) the
+    determination of the direction, angular size, and polarization
+    of radio sources for remote sensing of the heliosphere and the
+    Jovian magnetosphere and 2) the detailed study of local wave
+    phenomena, which determine the transport coefficients of the
+    ambient plasma.  The tracking of solar radio bursts, for
+    example, can provide three dimensional 'snap-shots' of the
+    large scale magnetic field configuration along which the solar
+    exciter particles propagate.  URAP observations of Jovian radio
+    emissions should greatly improve the determination of source
+    locations and consequently our understanding of the generation
+    mechanism(s) of planetary radio emissions.  The study of
+    observed wave-particle interactions will improve our
+    understanding of the processes that occur in the solar wind and
+    at Jupiter and of radio wave generation . . . .  The URAP
+    sensors consist of a 72.5 m electric field antenna in the spin
+    plane, a 7.5-m electric field monopole along the spin axis and
+    a pair of orthogonal search coil magnetic antennas.  The
+    various receivers, designed to encompass specific needs of the
+    investigation, cover the frequency range from DC to 1 MHz.  A
+    relaxation sounder provides very accurate electron density
+    measurements.  Radio and plasma wave observations are shown to
+    demonstrate the capabilities and limitations of the URAP
+    instruments: radio observations include solar bursts, auroral
+    kilometric radiation, and Jovian bursts; plasma waves include
+    Langmuir waves, ion acoustic-like noise, and whistlers.
+ 
+
+        </description>
   </Instrument>
 </Product_Context>

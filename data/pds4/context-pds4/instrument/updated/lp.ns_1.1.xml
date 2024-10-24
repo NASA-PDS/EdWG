@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:lp.ns</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Neutron Spectrometer for LP</title>
+    <title>NEUTRON SPECTROMETER for LP</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -18,14 +20,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -35,12 +32,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.lp</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_prospector</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.lp</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
       <reference_text>
@@ -69,10 +66,67 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Neutron Spectrometer</name>
+    <name>NEUTRON SPECTROMETER</name>
     <type>Spectrometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The Lunar Prospector Neutron Spectrometer (NS) is designed to detect small amounts of hydrogen which may exist on or near the Moon's surface. Hydrogen is assumed to primarily indicate the presence of water ice, in which case the NS can detect water ice at a level of less than 0.01%. The Moon has a number of permanently shadowed craters near the poles with continuous temperatures of -190 degrees C. These craters may act as cold-traps of water from incoming comets and meteoroids. Any water from these bodies which found its way into these craters could become permanently frozen. The NS will also be used to measure the abundance of solar wind implanted hydrogen. Additionally, the NS can be used to map Gd+Sm abundance through detection of anomalous reductions in leakage fluxes of thermal neutrons. Achievement of these objectives requires separate measurements of thermal, epithermal, and fast neutrons.</description>
+    <description>
+ 
+Instrument Overview
+===================
+ 
+A detailed description of the Lunar Prospector Neutron Spectrometer is
+given in the article The Lunar Prospector gamma-ray and neutron
+spectrometers, W. C. Feldman et al., Nuc. Inst. and Meth. A, 422, 562,
+1999 [FELDMANETAL1999A]. For details not found herein, the reader is
+referred to this article.
+ 
+The Lunar Prospector Neutron Spectrometer (NS) consists of two
+identical 5 cm diameter by 20 cm long helium-3 filled gas proportional
+counters.  One counter is covered with a 0.75 mm thick Cd shield, and
+is only sensitive to epithermal neutrons having energies above 0.25
+eV.  The second counter is covered with a 0.75 mm thick Sn shield and
+is sensitive to both thermal and epithermal neutrons.  The difference
+in counting rates between the two counters is a measure of the flux of
+thermal neutrons with energies between 0 and 0.25 eV.  Fast neutrons
+will be measured using the ACS of the Gamma Ray Spectrometer. The NS
+has a mass of 3.9 kg and uses about 2.5 w of power [BINDERETAL1998].
+ 
+Science Objectives
+==================
+ 
+A major science objective of the Neutron Spectrometer is to search for
+the existence of water ice located in permanently shadowed areas near
+the lunar poles.  This requires separate measurements of thermal,
+epithermal, and fast neutrons from the lunar surface [FELDMANETAL1991].
+ 
+Platform Mounting Descriptions
+==============================
+ 
+The NS is mounted on one of the three Lunar Prospector booms. The
+Neutron Spectrometer is mounted on a chassis that is shared with the
+Alpha Particle Spectrometer.
+ 
+Operational Considerations
+==========================
+ 
+Maps of hydrogen near the surface should be possible after 1 month of
+observations at the poles and elsewhere after 6 months of data
+collection.
+ 
+Operation and Sampling Modes
+============================
+ 
+The Neutron Spectrometer is designed to operate continuously during
+the Lunar Prospector Primary Mission.
+ 
+Principal Investigator
+======================
+ 
+The Co-I and spectrometer group leader for the Lunar Prospector
+Neutron Spectrometer experiment is Dr. William Feldman of Los Alamos
+National Laboratory.
+
+        </description>
   </Instrument>
 </Product_Context>

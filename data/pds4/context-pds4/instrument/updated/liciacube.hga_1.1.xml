@@ -19,7 +19,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
         <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
@@ -31,11 +31,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.double_asteroid_redirection_test</lid_reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.light_italian_cubesat_for_imaging_of_asteroids</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.light_italian_cubesat_for_imaging_of_asteroids</lid_reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.double_asteroid_redirection_test</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>

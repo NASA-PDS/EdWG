@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:amica.hay</logical_identifier>
@@ -29,14 +30,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     metadata.</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>2.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>2.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -46,12 +42,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.hay</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.hayabusa</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.hay</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
       <doi>10.1016/j.icarus.2009.12.035</doi>
@@ -81,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>
-        <ctli:subtype>Imager</ctli:subtype>
+        <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-130102</naif_instrument_id>

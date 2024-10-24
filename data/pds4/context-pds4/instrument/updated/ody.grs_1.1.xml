@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:ody.grs</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Gamma-Ray Spectrometer for ODY</title>
+    <title>GAMMA RAY SPECTROMETER for ODY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -25,14 +25,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -42,12 +37,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.ody</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.2001_mars_odyssey</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.ody</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
       <doi>10.1023/B:SPAC.0000021007.76126.15</doi>
@@ -58,13 +53,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Gamma-Ray Spectrometer</name>
+    <name>GAMMA RAY SPECTROMETER</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
         <ctli:subtype>Gamma Ray</ctli:subtype>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The Mars Odyssey Gamma-Ray Spectrometer is a suite of three different instruments working together to collect data that will permit the mapping of elemental concentrations of the surface of Mars.  The instruments are a gamma-ray spectrometer (GS), a neutron spectrometer (NS), and a high-energy neutron detector (HEND). The instruments are complementary in that the neutron instruments have much better counting statistics and can sample to greater depths than the GS, but the GS determines the abundances of many more elements. Working together the instruments are most powerful at mapping the distribution of hydrogen, both over the surface and as a function of depth in the upper few tens of centimeters.</description>
+    <description>
+            The Gamma-Ray Spectrometer (GRS) is part of he Mars Odyssey Gamma-Ray Spectrometer suite.
+            The chief scientific objectives is to quantitatively map the elemental abundances of the Martian
+            surface.
+        </description>
   </Instrument>
 </Product_Context>

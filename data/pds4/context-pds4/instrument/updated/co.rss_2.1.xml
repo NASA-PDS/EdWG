@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:rss.co</logical_identifier>
@@ -28,14 +29,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>2.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>2.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -45,12 +41,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.co</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.cassini-huygens</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.co</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
@@ -185,6 +181,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The Radio Science investigations on Cassini were unique in that they utilized instrumentation with elements both on the spacecraft and on the ground.  The spacecraft element was further distinguished in being distributed among several subsystems on the Cassini Orbiter.  Cassini Radio Science can be regarded as a solar-system-sized instrument observing at microwave frequencies, with one end of the radio path on the spacecraft and the other end at the NASA Deep Space Network (DSN) stations on the ground.</description>
+    <description>
+             The Cassini Radio Science instrument included elements on both the spacecraft
+             and the ground. The spacecraft element (covered by this context product) was 
+             further distributed among several subsystems on the Orbiter, while the ground 
+             element included NASA Deep Space Network (DSN) complexes in California, 
+             Australia, and Spain and occasional support from other ground stations such 
+             as antennas of the European Space Agency tracking network.
+ 
+             The Radio Science 'instrument' operated in two fundamental modes. For 'two-way' 
+             measurements, the 'uplink' signal from the ground could be a single carrier 
+             at either X-band (7.2 GHz) or Ka-band (34 GHz); or both carriers could be 
+             transmitted at the same time.  The spacecraft radio equipment then acted as a
+             repeater, collecting the carrier signal with the spacecraft High Gain Antenna 
+             (HGA) and transforming it to one or more 'downlink' frequencies (2.3 GHz, 8.4 GHz, 
+             or 32 GHz) by elements in the Radio Frequency Subsystem (RFS) and Radio Frequency
+             Instrument Subsystem (RFIS). For 'one-way' measurements, the signal source was 
+             on board the Cassini Orbiter; the output from an Ultrastable Oscillator (USO) was 
+             transformed to downlinks at 2.3, 8.4, or 32 GHz.   
+             
+             The downlink signals were amplified and radiated through the HGA toward Earth.
+             After passing through the medium of interest (e.g., plasma, rings, a neutral 
+             atmosphere or gravitationally curved space), the perturbed signal was collected  
+             by a ground antenna, amplified, down-converted, and recorded for later analysis.
+        </description>
   </Instrument>
 </Product_Context>

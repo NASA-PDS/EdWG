@@ -1,0 +1,1 @@
+FLI IMG w/Kodak 1001E (1024x1024, 24 um)

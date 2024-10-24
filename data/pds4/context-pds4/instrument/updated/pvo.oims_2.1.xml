@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvo.oims</logical_identifier>
     <version_id>2.1</version_id>
-    <title>Ion Mass Spectrometer (OIMS) for PVO</title>
+    <title>ION MASS SPECTROMETER (OIMS) for PIONEER VENUS</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -27,14 +27,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>2.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>2.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -44,12 +39,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_venus</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
       <reference_text>
@@ -79,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Ion Mass Spectrometer</name>
+    <name>ION MASS SPECTROMETER (OIMS) for PIONEER VENUS</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Mass Spectrometer</ctli:type>
@@ -87,7 +82,34 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The primary objective of the Pioneer Venus Orbiter Ion Mass Spectrometer (IMS) investigations has been to make global measurements of the composition of the ionosphere and, to the extent possible, measure ion drift with sufficient accuracy to contribute to the understanding of the solar-wind-induced dynamics of the ionosphere.  Development of three unique measurement functions: (1)  the step-dwell peak sampling technique, (2) the charge/velocity servo system, and (3) the explore/adapt ion mass sequencing system have proven to be essential for providing accurate ion concentration measurements compatible with both the data rate available from the spacecraft, and the high degree of variability encountered in the Venusian ionosphere.
-The Pioneer Venus Orbiter Ion Mass Spectrometer (OIMS) was designed to measure cold ionospheric plasma at Venus. When ambient ions exist with energies comparable to or exceeding those of cold ions in the frame of reference of the spacecraft, which travels at ~10 km/s, the spectrometer can often detect their presence. These ''superthermal'' ions are detected as ion currents at instrument mass settings for cold ion species that are clearly not present in the environment. The energies of the superthermal ions collected could be due to thermal plasma motions and/or high bulk flow speeds (perhaps just a segment of the tail of the ion velocity distribution).</description>
+    <description>
+ 
+    INSTRUMENT OVERVIEW
+    ===================
+        
+           Using the Pioneer Venus Orbiter Ion Mass Spectrometer (OIMS), composition and concentration of thermal positive ions 
+           in the ionosphere of Venus were determined and interpreted in terms of vertical and horizontal components. These provided 
+           information on provided information on the solar wind interaction with Venus, upper atmosphere photochemistry, and the 
+           mass and heat transport characteristics of the atmosphere. The instrument used was a Bennett radio-frequency mass spectrometer 
+           based on the design of those flown on OGO and Atmospheric Explorer satellites. A mass range of 1-56 amu was covered with a 
+           variety of automatic scan-search modes available.
+    
+            Identical Ion Mass Spectrometers were mounted on the Pioneer Venus Orbiter and the Probe Bus. Each spectrometer, with a mass 
+            of 3.0 kg, consisted of two parts, an analyzer tube and an electronics package. The electronics package held printed circuit 
+            boards inside a machined magnesium housing mounted inside the spacecraft. The package contained low- and high-gain pre-amplifiers, 
+            amplifiers, a log A/D converter, an RF generator, voltage regulator, command and control, and data handling. It uses 1.5 W of power, 
+            and functions to supply RF and DC potentials to the ion analyzer tube; detect and amplify ion current flowing to the collectors; 
+            digitize, process, and format data for telemetry; configure the sensor for subsequent measurements; and decode and implement commands.
+    
+            The analyzer tube is a hollow cylinder of aluminum containing a series of knitted tungsten mesh grids and gold-plated aluminum spacers. 
+            These are backed by a supressor, a low-gain collector and a high-gain collector. At the head of the tube is a guard ring and an 
+            accelerating voltage. The analyzer can be set to measure any of 16 common ion masses from 1 to 56 amu (1, 2, 4, 8, 12, 14, 16, 17, 
+            18, 24, 28, 30, 32, 40, 44, and 56 amu). It also has the ability to produce simulated ion currents for calibration.
+    
+            The instrument operated with repeated explore/adapt cycles, each 6.3 seconds in duration. The first 1.8 seconds of the cycle is the 
+            explore portion, which consists of measuring each of the 16 pre-selected masses for approximately 0.1 second each. In the 4.5 
+            second adapt portion of the cycle, up to 8 ions that are found to be present in the explore portion are measured repeatedly. The 
+            ion current values from each measurement are sampled, held for A/D conversion, and transfered to telemetry storage registers.
+        </description>
   </Instrument>
 </Product_Context>

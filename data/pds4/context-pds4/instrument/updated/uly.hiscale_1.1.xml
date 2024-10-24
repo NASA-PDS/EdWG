@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:uly.hiscale</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Heliosphere Instrument for Spectra, Composition and Anisotropy at Low Energies (HISCALE) for ULY</title>
+    <title>HELIOSPHERIC INST-SPECTRA,COMPOSITION,ANISOTROPY AT LOW ENER for ULY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -28,14 +30,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -45,12 +42,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:esa:psa:context:investigation:mission.ulysses</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
       <reference_text>
@@ -106,11 +103,69 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>HISCALE</name>
+    <name>HELIOSPHERIC INST-SPECTRA,COMPOSITION,ANISOTROPY AT LOW ENER</name>
     <type>Particle Detector</type>
     <!--RChen/EN was Energetic Particle Detector-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The objectives of this investigation are (1) to investigate the solar-flare process with measurements of non-relativistic and relativistic electrons, and non-relativistic ions, and their dependence on heliolatitude; (2) to investigate solar elemental abundances with measurements of chemical composition of nuclei of solar origin at all heliolatitudes; (3) to investigate the interplanetary propagation of solar energetic particles by measurement of anisotropy and composition parameters; (4) to investigate acceleration processes; and (5) to investigate temporal and spatial variations of particle intensity in and near the Jovian magnetosphere.</description>
+    <description>
+ 
+ 
+  Instrument Overview
+  ===================
+    (excerpted from: [LANZEROTTIETAL1992])
+ 
+    Abstract.  -- The Heliosphere Instrument for Spectra,
+    Composition, and Anisotropy at Low Energies (HI-SCALE) is
+    designed to make measurements of interplanetary ions and
+    electrons throughout the entire Ulysses mission.  The ions (Ei
+    &gt;50 keV) and electrons (Ee &gt;30 keV) are identified uniquely and
+    detected by five separate solid-state detector telescopes that
+    are oriented to give nearly complete pitch-angle coverage
+    (i.e., coverage of essentially 4 [pi] ster) from the spinning
+    spacecraft.  Ion elemental abundances are determined by a delta
+    E vs E telescope using a thin (5 [micrometer]) front solid
+    state detector element in a three-element telescope.
+    Experiment operation is controlled by a microprocessor-based
+    data system.  Inflight calibration is provided by radioactive
+    sources mounted on telescope covers which can be closed for
+    calibration purposes and for radiation protection during the
+    course of the mission.  Ion and electron spectral information
+    is determined using both broad-energy-range rate channels and a
+    32 channel pulse-height analyser (channels spaced
+    logarithmically) for more detailed spectra.  The instrument
+    weighs 5.775 kg and uses 4.0 W of power.  Some initial
+    in-ecliptic measurements are presented which demonstrate the
+    features of the instrument.
+ 
+ 
+    References
+    ----------
+      HISCALE References (cited in [ARMSTRONG&amp;SAHI1996])
+ 
+      Curtis, D.W., ISPM/Ulysses LAN Data Processing Software
+      Status, Dec. 1986.
+ 
+      Gold R.E., LAN Accelerator Calibration Test Plan, August
+      1991.
+ 
+      Guynn D.R.  Jr., LAN Experiment Data System Performance and
+      Interface Specification, June 1992.
+ 
+      Kohl, J.W., J.H.  Crawford, Calibration of Solar Polar Energy
+      Model LAN-2B Detector Head at GSFC Low Energy Accelerator,
+      July 1986.
+ 
+      Simnett, G.M., R.E.  Gold, The RTG Background in the LAN
+      Experiment and the Shielding Required to Control It, April
+      1980.
+ 
+      Tappin, S.J., HSIO-HiScale I/O Library, June 1991.
+ 
+      Ximenez de Ferran S., Ulysses Spin Reference Pulse, May
+      1985.
+ 
+
+        </description>
   </Instrument>
 </Product_Context>

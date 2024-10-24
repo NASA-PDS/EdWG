@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:vega1.puma</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Dust Impact Mass Analyzer (PUMA) for VEGA1</title>
+    <title>DUST IMPACT MASS ANALYZER for VEGA1</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -27,14 +29,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -44,12 +41,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.vega1</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.vega_1</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.vega1</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
       <reference_text>
@@ -159,11 +156,84 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Dust Impact Mass Analyzer</name>
+    <name>DUST IMPACT MASS ANALYZER</name>
     <type>Spectrometer</type>
     <!--RChen/EN was Mass Spectrometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>This investigation (PUMA) was designed to estimate the mass and chemical composition of particles in the dust coma. The instrument was mounted parallel to the relative velocity vector and analyzed the chemical and isotopic composition of individual dust particles. Impact of a dust particle on the instrument's silver target area caused a plasma to be formed consisting of dust and target material, from which ions were extracted by a 1.5-kV electric field. The ions traveled through a time-of-flight tube (actually two tubes with an electrostatic reflector between, with total length of 1 m) where they were separated according to their mass before being recorded by an electron multiplier. The ion mass range was 1 to 100 u, with resolution M/(delta M) of 200. The instrument observed the spectra of the most common dust particles, which were expected to be in the size range 100 to 10,000 nm.</description>
+    <description>
+ 
+ 
+    Instrument Overview
+    ===================
+ 
+      The dust mass spectrometer measures the chemical
+      composition, the size and the spatial density of
+      solid particles using a time-of-flight technique,
+      with particular emphasis on the determination of
+      the Li, C and B isotopic ratios.  The operating
+      Principle of PUMA, illustrated in Figure 8a, is
+      similar to that of the PIA instrument flown on
+      Giotto.  The dust particles enter through a baffle
+      and impact on a silver target (M) at a speed of 78
+      km/s.  The particles and a certain amount of the
+      target material are vaporized and partly ionized.
+      The two Vega spacecraft have different targets; one
+      type is mounted in a cartridge as in the PIA, the
+      second has a corrugated surface such that a larger
+      amount of projectile ions enter the analyzer.  The
+      target is at + 1020 V; the ions are accelerated by
+      a grid (1), which is held at a potential of -2000
+      V, and enter the field-free drift tube at zero
+      potential (4).  These charged particles are sent by
+      the electrostatic reflector (5) into the second
+      drift tube (6) and on towards the detector (7).
+      The ions trajectories are focused by the lenses
+      (9), (10) and (11).  A set of three electrodes
+      (12), consisting of an inner grid at +1000 V
+      between two grids at zero potential, prevents ions
+      with energies less than 1 keV from reaching the
+      detector.  The geometry of the reflector is
+      designed in such a way as to bunch ions of the same
+      species (particles with energies E&gt;E(0) travel a
+      larger distance than those with energies E&lt;E(0))
+      and to eliminate those with energies that deviate
+      too much from E(0).  The purpose of this mirror
+      system is to reduce the dispersion of the flight
+      times for particles having the same charge-to-mass
+      ratios.  The reflector potential is switch- between
+      1000 V and 1100 V every 30 s, in order to
+      compensate for the higher energies of ions created
+      by the impacts of larger particles.  The
+      time-of-flight is measured with reference to three
+      signals: the light flash recorded by the
+      photomultiplier (3), the pulses detected by the
+      target (M), and the accelerating grid (1).  The
+      signals induced in these sensors, in the first lens
+      (9), in the ejecta trap (8) and in the detector
+      (7), which are illustrated qualitatively in Figure
+      8c, are used to characterize the mass of the
+      particles.  Additional information about PUMA is
+      given in the table below.
+ 
+ 
+Table. Dust Mass Spectrometer characteristics
+ 
+Target material                        Silver
+Total drift lengt                      1 m
+Time of flight                         4 micro s (H+) - 40 micro s (Ag+)
+Ion detector                           Secondary electron multiplier
+Dust mass range                        3x10**-16  -5x10**-10 g
+Atomic mass range                      1-110 amu
+Mass resolution, m/delta m,
+       at m = 107                      200
+Chemical composition accuracy
+       per spectrum                    10%
+Maximum data acquisition rate          12 spectra/s
+Expected number of events              10**3-10**4 impacts during flyby
+ 
+ 
+
+        </description>
   </Instrument>
 </Product_Context>

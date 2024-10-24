@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:gio.jpa</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Johnstone Plasma Analyzer (JPA) for GIO</title>
+    <title>JOHNSTONE PLASMA ANALYZER (JPA) for GIO</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -28,14 +30,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -45,16 +42,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.gio</lid_reference>
-      <reference_type>instrument_to_instrument_host</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:esa:psa:context:investigation:mission.giotto</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:esa:psa:context:investigation:mission.giotto_extended_mission</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.gio</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
       <reference_text>
@@ -156,11 +153,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Johnstone Plasma Analyzer (JPA)</name>
+    <name>JOHNSTONE PLASMA ANALYZER (JPA)</name>
     <type>Spectrometer</type>
     <!--RChen/EN was Plasma Instrument. From JSH's xl file-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The objective of this investigation is to measure the plasma flow around Comet Halley in order to study (1) the mass loading of the solar wind by ions of cometary origin, (2) the existence, location, and strength of the upstream shock transition in the solar wind flow, (3) the position of and forces controlling the pressure balance surface between the cometary and the solar plasma, (4) the processes that form tail rays and other discrete visible features in the coma, and (5) the detection of wave motion induced by the cometary interaction that leads to the thermalization of solar wind and implanted ions. The instrument employs two sensors. One is a 270-deg spherical electrostatic energy analyzer (EEA) with a microchannel plate detector that measures the three-dimensional energy/charge distribution of positive ions from 10 eV to 20 keV over the polar angle range 20 - 180 deg with respect to the spin axis of the spacecraft. The second sensor consists of a quadrispherical EEA with six time-of-flight analyzers set at different polar angles in the range 20 - 160 deg.</description>
+    <description>
+      Instrument Overview
+      ===================
+      The Johnstone Plasma Analyzer (JPA) was designed to measure the
+      three-dimensional energy distribution of positive ions to study
+      the interaction between the solar wind and ionised cometary
+      particles.  The two sensors measure the distribution from 10 eV
+      ro 20 eV once per spacecraft spin and the distribution from
+      90 eV to 90 keV, with coars mass discriminations, once every
+      32 spins.
+ 
+      For complete details and discussion of the instrument design and
+      operation, see the instrumentaton article of ESA SP-1077, reprinted
+      as part of the documentation in Giotto Extended Mission archive.
+
+        </description>
   </Instrument>
 </Product_Context>

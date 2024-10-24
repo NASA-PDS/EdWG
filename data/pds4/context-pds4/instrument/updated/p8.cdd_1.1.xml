@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:cdd.p8</logical_identifier>
@@ -22,14 +24,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 deprecated instrument context urn:nasa:pds:context:instrument:cdd.pioneer_8.</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-07</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updates to descriptions and references</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -43,10 +40,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_8</lid_reference>
-      <reference_type>instrument_to_investigation</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:pioneerdoc:p8doc:p8_cdd_overview</lid_reference>
       <reference_type>instrument_to_document</reference_type>
     </Internal_Reference>
@@ -58,7 +51,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_text>Berg, O. E. and F. F. Richardson, The Pioneer 8 cosmic dust experiment, NASA TN D-5267, published by NASA, Washington, D.C., 1969.</reference_text>
     </External_Reference>
     <External_Reference>
-      <doi>10.1063/1.1683778</doi>
+      <doi>110.1063/1.1683778</doi>
       <reference_text>Berg, O. E. and F. F. Richardson, The Pioneer 8 cosmic dust experiment, Review of Scientific Instruments, Volume 40, pp. 1333-1337, 1969.</reference_text>
     </External_Reference>
   </Reference_List>
