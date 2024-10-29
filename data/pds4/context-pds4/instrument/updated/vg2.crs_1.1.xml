@@ -45,6 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.comet_sl9-jupiter_collision</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.vg2</lid_reference>
       <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>

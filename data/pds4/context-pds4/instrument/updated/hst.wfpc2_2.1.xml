@@ -52,15 +52,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.earth-based-uranus-stellar-occultations</lid_reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.saturn_small_satellite_astrometry</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.saturn_ring_plane_crossing_1995</lid_reference>
-      <reference_type>instrument_to_investigation</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.saturn_small_satellite_astrometry</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
