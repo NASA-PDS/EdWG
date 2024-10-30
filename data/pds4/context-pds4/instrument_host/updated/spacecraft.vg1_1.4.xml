@@ -43,9 +43,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-24</modification_date>
+        <modification_date>2024-10-22</modification_date>
         <version_id>1.4</version_id>
-        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -53,50 +53,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>instrument_host_to_agency</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:rss-vg1s.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:issw.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:uvs.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:pws.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:lecp.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:crs.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:mag.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:issn.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:pra.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:pls.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:iris.vg1</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <!--removed in 1.1        <Internal_Reference> -->
     <!--removed in 1.1            <lid_reference>urn:nasa:pds:context:investigation:mission.support_archives</lid_reference> -->
