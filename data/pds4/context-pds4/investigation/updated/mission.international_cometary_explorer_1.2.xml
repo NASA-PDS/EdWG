@@ -45,27 +45,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:ice.plawav</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ice.uleca</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:plawav.ice</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:ice.epas</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:epas.ice</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:mag.ice</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:ice.mag</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ice.swp</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -73,7 +57,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:radwav.ice</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ice.plawav</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ice.mag</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -81,23 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:ici.ice</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:ice.uleca</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:swp.ice</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:uleca.ice</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:ice.swp</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:ice.epas</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

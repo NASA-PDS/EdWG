@@ -45,19 +45,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:sow.sakig</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:sakig.sow</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:sakig.imf</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:imf.sakig</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

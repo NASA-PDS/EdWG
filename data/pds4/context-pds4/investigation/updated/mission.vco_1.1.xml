@@ -41,7 +41,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:vco.lir</lid_reference>
+      <lid_reference>urn:jaxa:darts:context:instrument:vco.uvi</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -49,19 +49,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:jaxa:darts:context:instrument:vco.lir</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:jaxa:darts:context:instrument:vco.lac</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:vco.uvi</lid_reference>
+      <lid_reference>urn:jaxa:darts:context:instrument:vco.ir2</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:jaxa:darts:context:instrument:vco.ir1</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:jaxa:darts:context:instrument:vco.ir2</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

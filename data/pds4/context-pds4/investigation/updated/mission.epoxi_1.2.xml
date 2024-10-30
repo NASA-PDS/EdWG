@@ -45,22 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:hriv.dif</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:dif.hriv</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:mri.dif</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:rss.dif</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:dif.rss</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
@@ -69,7 +53,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:hrii.dif</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:dif.hriv</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

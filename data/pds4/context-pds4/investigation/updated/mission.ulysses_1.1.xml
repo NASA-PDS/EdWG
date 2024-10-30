@@ -42,23 +42,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-ca</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-het</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:esa:psa:context:instrument:uly.vhm-fgm</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-let</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-at</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -66,11 +50,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-lefs</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.udds</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.udds</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.swoops</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -78,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.epac</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.sce</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -86,11 +70,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-ket</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-lems</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-lems</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-lefs</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-ca</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -102,19 +90,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-hft</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:esa:psa:context:instrument:uly.gas</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.swoops</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.epac</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:uly.sce</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-let</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-ket</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-hft</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-het</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-at</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

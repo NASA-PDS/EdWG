@@ -45,11 +45,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:m3.ch1-orb</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mrffr.ch1-orb</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:mrffr.ch1-orb</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:m3.ch1-orb</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

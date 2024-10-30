@@ -45,10 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:esp.suisei</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:suisei.esp</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>

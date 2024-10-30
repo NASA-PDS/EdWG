@@ -45,15 +45,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:iue.swp</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:esa:psa:context:instrument:iue.lwr</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:esa:psa:context:instrument:iue.lwp</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:iue.swp</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

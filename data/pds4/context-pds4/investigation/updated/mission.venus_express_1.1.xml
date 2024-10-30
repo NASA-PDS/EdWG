@@ -45,7 +45,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:vex.aspera4-els</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:vex.rss</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -53,7 +53,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:esa:psa:context:instrument:vex.rss</lid_reference>
+      <lid_reference>urn:esa:psa:context:instrument:vex.aspera4-els</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
