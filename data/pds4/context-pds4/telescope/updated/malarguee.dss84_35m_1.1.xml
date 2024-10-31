@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:telescope:malarguee.dss84_35m</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>DSS-84 35-m Radio Telescope</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2021-01-31</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Original context file for the 35-m ESA antenna at Malarguee when used
+                    for JPL-based radio science activities. DSS-84 is an ad hoc identifier
+                    assigned by the JPL Radar and Radio Science Systems Group.
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Adding missing "telescope" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>telescope_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.0159-science:2009-05-18</lid_reference>
+      <reference_type>instrument_to_document</reference_type>
+      <comment>
+                The Software Interface Specification (SIS) for the Radio Science Receiver (RSR)
+                principles of operation and output data format description.  A portable RSR
+                could be temporarily installed at the Malarguee ESA tracking station to collect
+                open loop radio science data.
+            </comment>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>http://www.esa.int/Enabling_Support/Operations/ESA_Ground_Stations/Malarguee_-_DSA_3</reference_text>
+      <description>
+                An overview of the Malarguee station of the European Space Agency tracking network.
+            </description>
+    </External_Reference>
+  </Reference_List>
+  <Telescope>
+    <aperture unit="m">35</aperture>
+    <telescope_longitude unit="deg">290.601667</telescope_longitude>
+    <telescope_latitude unit="deg">-35.7761111</telescope_latitude>
+    <telescope_altitude unit="m">1550.</telescope_altitude>
+    <coordinate_source>Wikipedia</coordinate_source>
+    <description>
+           DSS-84 is an ad hoc identifier for the ESA 35-m telescope near Malarguee, Argentina, assigned by the
+           Radar and Radio Science Systems Group at JPL.  The telescope is a Cassegrain beam waveguide (BWG) 
+           antenna constructed between 2009 and 2012; it was inaugurated in December 2012 and began routine 
+           service in early 2013.  The telescope has dichroic mirrors to separate X- and Ka-band signals; it 
+           transmits up to 20 kW at 7 GHz and receives at 8 GHz 32 GHz using helium-cooled low-noise amplifiers.
+           The ESA designation for the telescope is DSA-3, following New Norcia (DSA-1; DSS-74) and Cebreros (DSA-2).
+        </description>
+  </Telescope>
+</Product_Context>
