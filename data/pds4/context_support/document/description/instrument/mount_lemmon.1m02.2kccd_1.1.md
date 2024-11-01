@@ -1,0 +1,1 @@
+Spectral Instruments 2K CCD, E2V_42-40_041831905 detector, iris shutter

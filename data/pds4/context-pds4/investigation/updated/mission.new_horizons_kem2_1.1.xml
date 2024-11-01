@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:investigation:mission.new_horizons_kem2</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>New Horizons Kuiper Belt Extended Mission 2 (KEM2)</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>NH_KEM2</alternate_id>
+        <alternate_title>NH KEM2</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_title>New Horizons KEM2</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-06-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Initual version.  Created by SBN:Tilden Barnes for the New Horizon's KEM2 extended mission.
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>investigation_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.swap</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.sdc</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.rex</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.pepssi</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.mvic</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.lorri</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.leisa</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:nh.alice</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:nh_documents:mission:nhkem2_mission_overview</lid_reference>
+      <reference_type>investigation_to_document</reference_type>
+      <comment>Overview document for the New Horizons Kuiper Extended Mission 2 (KEM2).</comment>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.nh</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:dust.dust</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:trans-neptunian_object.486958_2014_mu69</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <Investigation>
+    <name>New Horizons Kuiper Belt Extended Mission 2</name>
+    <type>Mission</type>
+    <start_date>2022-10-01</start_date>
+    <stop_date>2024-09-30</stop_date>
+    <description>
+            The New Horizons Kuiper Belt Extended Mission (KEM) is a mission to a recently discovered, 
+            unexplored region of the solar system, the Kuiper Belt.  The first part (KEM1) included a 
+            close flyby of Kuiper Belt Object (KBO) 2014 MU69 (Arrokoth).  This second part (KEM2) 
+            continued to survey the Kuiper Belt using New Horizons as an observatory, examining many 
+            other Kuiper Belt Objects and Centaurs while studying the Kuiper Belt dust, gas, plasma, 
+            and energetic particle environments.  These studies will place both the Pluto system and 
+            Arrokoth in better context among KBOs, increasing scientific understanding of both.  New 
+            science goals for KEM2 include: new studies in Planetary Science (large-phase angle 
+            observations of gas giants), Heliophysics (Lyman-alpha all sky map), and Astrophysics 
+            (cosmic optical and ultraviolet background, and distant shock regions).  KEM2 data 
+            deliveries also include data taken during KEM1 but not downlinked until KEM2.
+        </description>
+  </Investigation>
+</Product_Context>

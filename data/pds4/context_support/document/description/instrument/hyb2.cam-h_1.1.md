@@ -1,0 +1,1 @@
+Small Monitor Camera (CAM-H; abbreviation of CAMera Head) is used to capture an image around the sampler horn to visually comfirm expansion of sampler horn after the launch, and compression of it during touchdown to the asteroid. This instrument is part of DCAM3-A (DCAM3 Analog) system. Data from CAM-H is sent to CAM-C (CAMera Controller) that is onboard Hayabusa2 spacecraft.

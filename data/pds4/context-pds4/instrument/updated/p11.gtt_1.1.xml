@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:gtt.p11</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>GEIGER TUBE TELESCOPE for P11</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_11</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.p11</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Fimmel, R.O., W. Swindell, E. Burgess, Pioneer Odyssey, NASA SP-396,
+                   Scientific and Technical Information Office, National Aeronautics and
+                   Space Administration, Washington, D.C., 1977.
+            </reference_text>
+      <description>reference.FIMMELETAL1977</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Van Allen, J.A., B.A. Randall, Interplanetary cosmic ray intensity -
+                   1972-1984 and out to 32 AU, J. Geophys. Res., 90, 1399, 1985.
+            </reference_text>
+      <description>reference.VANALLEN-RANDALL1985</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Van Allen, J.A., D.N. Baker, B.A. Randall, and D.D. Sentman, The
+                   magnetosphere of Jupiter as observed with Pioneer 10, 1, Instrument and
+                   principal findings, J. Geophys. Res., 79, 3559, 1974.
+            </reference_text>
+      <description>reference.VANALLENETAL1974B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Van Allen, J.A., B.A. Randall, and M.F. Thomsen, Sources and sinks of
+                   energetic electrons and protons in Saturn's magnetosphere, J. Geophys.
+                   Res., 85, 5679, 1980.
+            </reference_text>
+      <description>reference.VANALLENETAL1980</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>GEIGER TUBE TELESCOPE</name>
+    <type>Particle Detector</type>
+    <!--RChen/EN was Energetic Particle Detector-->
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>This experiment used seven miniature Geiger tubes in three arrays to measure proton and electron fluxes near Jupiter and Saturn. Detector groupings were as follows: (1) a three-element (A, B, and C) differentially shielded telescope. Tube C was shielded omnidirectionally and was used for background subtraction to provide rates such as A-C (5 to 21 MeV electrons and 30 to 77.5 MeV protons) and B-C (0.55 to 21 MeV electrons and 6.6 to 77.5 MeV protons); (2) a three-element triangular array, each element responding to electrons above 31 MeV and protons above 77.5 MeV; and (3) a thin-window tube (G) with a gold-plated elbow as the entrance aperture to admit scattered electrons above 0.06 MeV while discriminating strongly against protons. For a description of the similar experiment on Pioneer 10, see J. A. Van Allen et al., J. Geophys. Res., v. 79, p. 3395, 1974. Early results are given in Science, v. 188, p. 459, 1975. Data include the interplanetary region.</description>
+  </Instrument>
+</Product_Context>

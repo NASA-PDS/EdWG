@@ -1,126 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" 
  schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:investigation:mission.lunar_reconnaissance_orbiter</logical_identifier>
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:investigation:mission.lunar_reconnaissance_orbiter</logical_identifier>
+    <version_id>2.0</version_id>
+    <title>Lunar Reconnaissance Orbiter</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>LRO</alternate_id>
+        <alternate_title>LRO</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-09-26</modification_date>
         <version_id>2.0</version_id>
-        <title>Lunar Reconnaissance Orbiter</title>
-        <information_model_version>1.22.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Alias_List>
-            <Alias>
-                <alternate_id>LRO</alternate_id>
-                <alternate_title>LRO</alternate_title>
-            </Alias>
-        </Alias_List>
-        <Modification_History>
-           <Modification_Detail>
-              <modification_date>2024-09-26</modification_date>
-              <version_id>2.0</version_id>
-              <description>Major changes per PDS Editorial Working Group efforts</description>
-           </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2019-01-03</modification_date>
-                <version_id>1.1</version_id>
-                <description>
+        <description>Major changes per PDS Editorial Working Group efforts</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
                     Per "Guide toPDS4 Context Products" v1.3,
                     - changed all lidvid_reference to lid_reference
                     - changed target LIDs to new formation rule
                 </description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2016-10-01</modification_date>
-                <version_id>1.0</version_id>
-                <description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.lro</lid_reference>
-            <reference_type>investigation_to_instrument_host</reference_type>
-        </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:instrument:lro.crat</lid_reference>
-          <reference_type>investigation_to_instrument</reference_type>
-       </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:instrument:lro.dlre</lid_reference>
-          <reference_type>investigation_to_instrument</reference_type>
-       </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:instrument:lro.lamp</lid_reference>
-          <reference_type>investigation_to_instrument</reference_type>
-       </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:instrument:lro.lend</lid_reference>
-          <reference_type>investigation_to_instrument</reference_type>
-       </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:instrument:lro.lola</lid_reference>
-          <reference_type>investigation_to_instrument</reference_type>
-       </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:instrument:lro.lroc</lid_reference>
-          <reference_type>investigation_to_instrument</reference_type>
-       </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:instrument:lro.mrflro</lid_reference>
-          <reference_type>investigation_to_instrument</reference_type>
-       </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:instrument:lro.rss</lid_reference>
-          <reference_type>investigation_to_instrument</reference_type>
-       </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
-            <reference_type>investigation_to_target</reference_type>
-        </Internal_Reference>
-       <Internal_Reference>
-          <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-          <reference_type>context_to_associate</reference_type>
-          <comment>investigation_to_agency</comment>
-       </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context_support:description:lunar_reconnaissance_orbiter_description</lid_reference>
-            <reference_type>investigation_to_document</reference_type>
-            <comment>Detailed documentation about this context product.</comment>
-        </Internal_Reference>
-        <External_Reference>
-           <doi>10.1007/s11214-007-9153-y</doi>
-            <reference_text>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>2.0</version_id>
+        <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>investigation_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.lro</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.crat</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.dlre</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.lamp</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.lend</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.lola</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.lroc</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.mrflro</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lro.rss</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>context_to_associate</reference_type>
+      <comment>investigation_to_agency</comment>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context_support:description:lunar_reconnaissance_orbiter_description</lid_reference>
+      <reference_type>investigation_to_document</reference_type>
+      <comment>Detailed documentation about this context product.</comment>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1007/s11214-007-9153-y</doi>
+      <reference_text>
                Chin, G., S. Brylow, M. Foote, J. Garvin, J. Kasper, J. Keller, et al. 
                Lunar reconnaissance orbiter overview: The instrument suite and mission. 
                Space Science Reviews, 129, 391-419, 2007.
             </reference_text>
-            <description>Overview of the Lunar Reconnaissance Orbiter</description>
-        </External_Reference>
-        <External_Reference>
-           <doi>10.1007/s11214-009-9624-4</doi>
-            <reference_text>
+      <description>Overview of the Lunar Reconnaissance Orbiter</description>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1007/s11214-009-9624-4</doi>
+      <reference_text>
                Tooley, C. R., M. B. Houghton, R. S. Saylor, C. Peddie, D. F. Everett, 
                C. L. Baker, and K. N. Safdie. Lunar Reconnaissance Orbiter mission and 
                spacecraft design. Space Science Reviews, 150, 23-62, 2010.
             </reference_text>
-           <description>Lunar Reconnaissance Orbiter mission and spacecraft design</description>
-        </External_Reference>
-       <External_Reference>
-          <reference_text>https://science.nasa.gov/mission/lro/</reference_text>
-          <description>Official NASA Lunar Reconnaissance Orbiter mission page</description>
-       </External_Reference>
-    </Reference_List>
-    <Investigation>
-        <name>Lunar Reconnaissance Orbiter</name>
-        <type>Mission</type>
-        <start_date>2009-06-18</start_date>
-        <stop_date nilReason="unknown" xsi:nil="true"></stop_date>
-        <description>
+      <description>Lunar Reconnaissance Orbiter mission and spacecraft design</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>https://science.nasa.gov/mission/lro/</reference_text>
+      <description>Official NASA Lunar Reconnaissance Orbiter mission page</description>
+    </External_Reference>
+  </Reference_List>
+  <Investigation>
+    <name>Lunar Reconnaissance Orbiter</name>
+    <type>Mission</type>
+    <start_date>2009-06-18</start_date>
+    <stop_date nilReason="unknown" xsi:nil="true"/>
+    <description>
     The Lunar Reconnaissance Orbiter (LRO), launched on June 18, 2009, continues to orbit and investigate 
     the Moon. The mission objectives include producing a high-resolution global topographic model, mapping the 
     distribution of hydrogen, and identifying lunar landing sites and associated hazards.     
         </description>
-    </Investigation>
+  </Investigation>
 </Product_Context>

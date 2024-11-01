@@ -1,0 +1,2 @@
+The L’TES instrument measures the thermal infrared emission from each Trojan asteroid to obtain the temperature of the asteroids surface. These observations address one of the Level 1 science requirements: determining the thermal inertia of the surface.
+        

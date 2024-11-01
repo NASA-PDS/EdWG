@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument:pvo.oefd</logical_identifier>
+    <version_id>2.1</version_id>
+    <title>ELECTRIC FIELD DETECTOR (OEFD) for PIONEER VENUS</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2020-08-26</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-03-04</modification_date>
+        <version_id>2.0</version_id>
+        <description>
+                    Updated to IM 1.20.0.0
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_venus</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Scarf, F.L., G.M. Crook, I.M. Green, and P.F. Virobik,
+                   'Initial results of the Pioneer 8 VLF electric field
+                   experiment', J. Geophys. Res., vol. 73, p. 6665, 1968.
+            </reference_text>
+      <description>reference.SCARFETAL1968</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Scarf, F.L., I.M. Green and G.M. Crook, 'the Pioneer 9
+                   electric field experiment : Part 1', Cosmic
+                   Electrodynamics, vol. 1, p. 496, 1971.
+            </reference_text>
+      <description>reference.SCARFETAL1971</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Scarf, F.L., W.W.L. Taylor, and I.M. Green, 'Plasma waves
+                   near Venus: Initial observations', Science, vol. 203,
+                   p. 748, 1979.
+            </reference_text>
+      <description>reference.SCARFETAL1979B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Scarf, F.L., W.W.L. Taylor, and P.F. Virobik, 'The Pioneer
+                   Venus Orbiter Plasma Investigation', IEEE Trans. Geoscience
+                   and Remote Sensing, Jan. 1980, Vol. GE-18, No. 1, p. 36,
+                   1980.
+            </reference_text>
+      <description>reference.SCARFETAL1980</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Taylor, W.W.L., F.L. Scarf, C.T. Russell, and L.H. Brace,
+                   'Evidence for lightning on Venus', Nature, vol. 279,
+                   p. 614, 1979.
+            </reference_text>
+      <description>reference.TAYLORETAL1979A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Taylor, W.W.L, F.L. Scarf, C.T. Russell, and L.H. Brace,
+                   'Absorption of whistler mode waves in the ionosphere of
+                   Venus', Science, vol. 205, p. 112, 1979.
+            </reference_text>
+      <description>reference.TAYLORETAL1979B</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>ELECTRIC FIELD DETECTOR (OEFD) for PIONEER VENUS</name>
+    <Type_List_Area>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Electric Field Instrument</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Spectrum Analyzer</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
+    </Type_List_Area>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>
+ 
+    INSTRUMENT OVERVIEW
+    ===================
+ 
+      This experiment consisted of a modified version of the Pioneer 8 
+      and Pioneer 9 experiments to measure the electric-field components 
+      in four 30%, narrow-band channels centered at 100, 730, 7350, and 
+      30,000 Hz. The aims of the investigation were to perform an analysis 
+      of VLF electric fields at Venus and to elucidate the plasma interactions 
+      between the solar wind and the ionospheric or exospheric plasma. The 
+      role of plasma instabilities in modifying the heat flux from the solar 
+      wind and in thermalizing newly-born ions from Venus was also studied. 
+      A self-contained balanced V-type antenna with a differential preamplifier 
+      was employed to make the measurements. At the 512 bps satellite mode, 
+      one frequency scan per second was obtained.
+      
+      The Pioneer Venus plasma wave instrument has a self-contained
+      balanced electric dipole (effective length = 0.75 m) and a
+      4-channel spectrum analyzer (30-percent band width filters with
+      center frequencies at 100 Hz, 5.4 kHz, and 30 kHz).  The
+      channels are continuously active and the highest Orbiter
+      telemetry rate (2048 bps) yields 4 spectral scans/s.  The total
+      mass of 0.55 kg includes the electronics, the antenna, and the
+      antenna deployment mechanism.  This report contains a brief
+      description of the instrument design and a discussion of the
+      in-flight performance.
+ 
+ PI PDS USER ID                : RSTRANGEWAY
+ BUILD DATE                    : 1976
+ INSTRUMENT MASS               : 0.55
+ INSTRUMENT HEIGHT             : 0.075
+ INSTRUMENT LENGTH             : 0.190
+ INSTRUMENT WIDTH              : 0.066
+ INSTRUMENT MANUFACTURER NAME  : TRW
+ INSTRUMENT SERIAL NUMBER      : '5971-02'
+ 
+
+        </description>
+  </Instrument>
+</Product_Context>

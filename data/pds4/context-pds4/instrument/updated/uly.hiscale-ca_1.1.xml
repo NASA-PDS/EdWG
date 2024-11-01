@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:uly.hiscale-ca</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>HISCALE Composition Aperature for Ulysses</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>HISCALE CA</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_title>HISCALE WART</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2023-08-02</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Initial version.
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.esa</lid_reference>
+      <reference_type>instrument_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.ulysses</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Armstrong, T.P., and R. Sahi, Ulysses HISCALE Data Analysis Handbook, Dept.
+                   of Physics and Astronomy, Univ. of Kansas, Lawrence, KS, 66045, April
+                   1996.
+            </reference_text>
+      <description>reference.ARMSTRONG-SAHI1996</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Armstrong, T.P., Passbands &amp; Efficiencies for LEMS, LEFS and WART Channels,
+                   University of Kansas, May 1992.
+            </reference_text>
+      <description>reference.ARMSTRONG1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Lanzerotti, L.J., R.E. Gold, K.A. Anderson, T.P. Armstrong, R.P. Lin, S.M.
+                   Krimigis, M. Pick, E.C. Roelof, E.T. Sarris, G.M. Simnett, and W.E. Frain,
+                   Heliosphere instrument for spectra, composition and anisotropy at low
+                   energies, Astron. Astrophys. Suppl. Ser. 92, 349-363, 1992.
+            </reference_text>
+      <description>reference.LANZEROTTIETAL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Maclennan C.G., and Armstrong T.P., LAN Cover-Close Calibrations, AT&amp;T Bell
+                   Laboratories, May 1995.
+            </reference_text>
+      <description>reference.MACLENNAN-ARMSTR1995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Maclennan, C.G., User's Guide to LAN 360, AT&amp;T Bell Laboratories, Aug.
+                   1992.
+            </reference_text>
+      <description>reference.MACLENNAN1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Tappin, S.J., HISCALE IDL display System (IDL-HS), University of
+                   Birmingham, June 1992.
+            </reference_text>
+      <description>reference.TAPPIN1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Townsend, J.P. Jr., Ulysses Pulse Height Analysis documentation, JHU,
+                   Applied Physics Laboratory, July 1990.
+            </reference_text>
+      <description>reference.TOWNSEND1990</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>HISCALE Composition Aperature</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Charged Particle Detector</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>
+ 
+ 
+  Instrument Overview
+  ===================
+    (adapted from: Lanzerotti, et al. 1992)
+ 
+ The Composition Aperture system (CA; sometimes referred to 
+ in the Ulysses project as the "WART") uses a multiparameter 
+ detection technique to provide measurements of ion composition 
+ in an energy range similar to those of HISCALE LEMS/LEFS. The 
+ foil thickness, detector thicknesses, and electronic thresholds 
+ were selected to enable the separation of low energy electron
+ and ion fluxes at high sensitivity by comparing detector
+ responses.
+ 
+ The Composition Aperature telescope is referred to as CA 60, where
+ the number indicates the inclination of the telescope axis
+ with respect to the spacecraft spin axis.
+ The BC detector pairs consist
+ of two equal 200 micrometer thick, totally depleted silicon surface
+ barrier detectors. The D detector is a thin (5 micrometer) silicon
+ detector of the epitaxial type.
+
+ The CA telescope uses detectors D and C as
+ an ([Delta]E vs E) telescope, with the B detector operating
+ in anticoincidence. The geometrical factor for the DCB
+ combination is 0.24 cm^2sr. The logic and discrete energy
+ channels for the CA telescope are shown in Table 3.
+ Information from the discrete ion composition channels
+ listed in Table 3 is used in a priority scheme to identify
+ those individual particle events whose energy loss signals
+ in detectors D and Care to be pulse-height-analysed (see
+ below) and included in the telemetry data stream.
+ A rotating four-level priority scheme, shown in Table
+ 4, is used to balance the CA system response to light and
+ heavy ion species.
+
+ The priority scheme uses the species group analyzed
+ in the immediate previous event in a given sector to
+ establish the relative priorities among the four species
+ groups for the current sector. Thus, if there were an irongroup
+ event analyzed in the immediate previous spin, the
+ fourth column of Table 4 would be operative and shows
+ that the priority order for analysis, from the highest to the
+ lowest priority, would be an event in the oxygen group,
+ the iron group, helium, and protons. Thus, the priority
+ scheme insures that a large number of relatively "rare"
+ ion species will be presented for analysis.
+ In addition to the discrete telescope logic channels
+ that are listed Tables 1-3, the singles counting rates in
+ the individual detectors are monitored and telemetered
+ in a multiplexed mode (Tab. 2). These rates are used
+ as engineering monitors of the instrument performance.
+ These rates can also be used, if required, to make pulsepileup
+ corrections to the coincidence rates.
+ 
+ TABLE 3. Ion composition.
+ 
+ Accum. time(s)
+ Channel      Logic                Passband [a]        Sectors   @ 1024 bit/s
+ CA 60[b]   W1      Cl D1 C2 D2        0.35-1.0 MeV protons        8            3
+ W2      C2 D1 D4 D2 S1     1.0-2.0 MeV protons         8            3
+ W3      Cl(D2+S1) C3 D3    0.35-1.0 Me V /nuc. He      8            3
+ W4      C3 D1 Sl C4 D3     1.0-5.0 MeV /nuc. He        8            3
+ W5      C2 D3 C4 D4        ~ 0.3-1.7 MeV/nuc. C,N,O    8            3
+ W6      C4 D2 S2 D4 S3     ~ 1.7-10 MeV/nuc. Fe        8            3
+ W7      C2 D4 C4           ~0.2-1.0 MeV /nuc. Fe       8            3
+ W8      C4 D3 S3           ~1.0-15 MeV /nuc. Fe        8            3
+ Z2                         &gt;=0.5 MeV, Z&gt;=2             4            6
+ Z2A                        &gt;~10.0 MeV, Z&gt;=14           4            6
+ Z3                         &gt;~2.8 MeV, Z&gt;=6             4            6
+ Z4                         &gt;~9.0 MeV, Z&gt;=10            4            6
+ 
+ 
+ [a] The passbands given here are provisional and subject to refinement as in-flight 
+ calibrations arc completed.
+ [b] Geometrical factor ~0.24 cm^2 sr
+ 
+ 
+    References
+    ----------
+      HISCALE References (cited in Armstrong &amp; Sahi, 1996)
+ 
+      Curtis, D.W., ISPM/Ulysses LAN Data Processing Software
+      Status, Dec. 1986.
+ 
+      Gold R.E., LAN Accelerator Calibration Test Plan, August
+      1991.
+ 
+      Guynn D.R.  Jr., LAN Experiment Data System Performance and
+      Interface Specification, June 1992.
+ 
+      Kohl, J.W., J.H.  Crawford, Calibration of Solar Polar Energy
+      Model LAN-2B Detector Head at GSFC Low Energy Accelerator,
+      July 1986.
+ 
+      Simnett, G.M., R.E.  Gold, The RTG Background in the LAN
+      Experiment and the Shielding Required to Control It, April
+      1980.
+ 
+      Tappin, S.J., HSIO-HiScale I/O Library, June 1991.
+ 
+      Ximenez de Ferran S., Ulysses Spin Reference Pulse, May
+      1985.
+        </description>
+  </Instrument>
+</Product_Context>

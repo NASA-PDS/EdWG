@@ -1,0 +1,2 @@
+Lucy has two terminal tracking cameras (TTCAM) on board to provide autonomous pointing of the instrument pointing platform to each Trojan near closest approach. This system is part of the spacecraft’s guidance and control system and will also collect monochromatic (475–625 nm bandpass) images that address our science objective to determine the shape of the Trojan asteroids.
+        
