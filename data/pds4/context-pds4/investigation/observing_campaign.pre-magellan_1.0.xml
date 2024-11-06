@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:observing_campaign.pre-magellan</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Pre-Magellan Radar and Gravity Observations</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_title>urn:nasa:pds:context:investigation:mission.pre-magellan</alternate_title>  <!-- deprecated LID -->
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-10-08</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Initial version produced from PDS Editorial Working Group efforts. Replaces deprecated version (mission.pre-magellan_1.1_deprecated).
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+            <reference_type>investigation_to_facility</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:facility:observatory.arecibo</lid_reference>
+            <reference_type>investigation_to_facility</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:arecibo.305m.recv_s</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:arecibo.305m.trans_s</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:arecibo.305m</lid_reference>
+            <reference_type>investigation_to_telescope</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:facility:observatory.goldstone</lid_reference>
+            <reference_type>investigation_to_facility</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:goldstone.dss13_34m.recv_x</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:goldstone.dss14_70m.recv_x</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:goldstone.dss14_70m.trans_x</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss14_64m</lid_reference>
+            <reference_type>investigation_to_telescope</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss14_70m</lid_reference>
+            <reference_type>investigation_to_telescope</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.p12</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:orad.p12</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:rss.p12</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:pvo.orse</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:pvo.orad</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.vo2</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:rss.vo2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.mercury</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+            <reference_type>investigation_to_agency</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context_support:description:pre-magellan_description</lid_reference>
+            <reference_type>investigation_to_document</reference_type>
+            <comment>Detailed documentation about this context product.</comment>
+        </Internal_Reference>
+        <External_Reference> 
+            <doi>10.1007/BF00054324</doi>
+            <reference_text>
+                Thompson, T. W., High-resolution Lunar radar map at 70-cm wavelength, The Earth, Moon, and Planets, 37, 59-70, 1987.
+            </reference_text>
+            <description>Journal article presenting lunar radar data.</description>
+        </External_Reference>
+        <External_Reference> 
+            <doi>10.1126/science.246.4928.373</doi>
+            <reference_text>
+                Campbell, D.B., J.W. Head, A.A. Hine, J.K. Harmon, D.A. Senske, and P.C. Fisher, 1989, Styles of volcanism on Venus: New Arecibo high resolution radar data, Science, 246, 373-377.
+            </reference_text>
+            <description>Journal article discussing radar data and volcanism on Venus.</description>
+        </External_Reference>
+        <External_Reference> 
+            <reference_text>
+                Clark, P.E., M.A. Leake, and R.F. 
+                Jurgens, 1988, Goldstone radar observations of Mercury, 77-100,
+                in Mercury, The University of Arizona Press, Tucson.
+            </reference_text>
+            <description>Book presenting Mercury radar data.</description>
+        </External_Reference>
+        <External_Reference> 
+            <doi>10.1016/0019-1035(75)90173-6</doi>
+            <reference_text>
+                Downs, G.S., P.E. Reichley, and R.R.
+                Green, 1975, Radar measurements of martian topography and 
+                surface properties:  The 1971 and 1973 oppositions, Icarus, 26,
+                273-312.
+            </reference_text>
+            <description>Journal article presenting Mars radar data.</description>
+        </External_Reference>
+        <External_Reference> 
+            <reference_text>
+                Arvidson, R.E., J.J. Plaut, R.F. 
+                Jurgens, R.S. Saunders, M.A. Slade, 1990, Geology of Southern 
+                Guinevere Planitia, Venus, based on analyses of Goldstone radar
+                data, Proc. 20th Lunar and Planet. Sci. Conf., 557-572.
+            </reference_text>
+            <description>Conference abstract discussing radar data and the geology of Venus.</description>
+        </External_Reference>
+        <External_Reference> 
+            <doi>10.1007/BF00562017</doi>
+            <reference_text>
+                Zisk, S.H., G.H. Pettengill, G.W. 
+                Catuna, 1974, High-resolution radar maps of the lunar surface 
+                at 3.8-cm wavelength, The Moon, 10, 17-50.
+            </reference_text>
+            <description>Journal article presenting lunar radar data.</description>
+        </External_Reference>
+        <External_Reference> 
+            <doi>10.1029/JA085iA13p08282</doi>
+            <reference_text>
+                Jurgens, R.F., R.M. Goldstein, H.C. 
+                Rumsey, R.R. Green, 1980, Images of Venus by three-station 
+                radar interferometry--1977 results, J. Geophys. Res., 85, 
+                8282-8294.
+            </reference_text>
+            <description>Journal article presenting Venus radar data.</description>
+        </External_Reference>
+        <External_Reference> 
+            <doi>10.1029/JA085iA13p08232</doi>
+            <reference_text>
+                Masursky, H., E. Eliason, P. G. 
+                Ford, G. E. McGill, G. H. Pettengill, G. G. Schaber, and G. 
+                Schubert, Pioneer Venus radar results: geology from images and 
+                altimetry, J. Geophys. Res., 85, 8232-8260, 1980.
+            </reference_text>
+            <description>Journal article presenting Venus radar data.</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Investigation>
+        <name>Pre-Magellan Radar and Gravity Observations</name>
+        <type>Observing Campaign</type>
+        <start_date>1968-11-09</start_date>
+        <stop_date>1988-07-27</stop_date>
+
+        <description>This dataset contains 15 radar, altimetry, and gravity data sets, including extensive Earth-based radar observations of the Earth's 
+            Moon and the inner planets, spanning the years 1968-1990. These datasets were prepared in advance of the Magellan Mission to Venus (1990-1994) 
+            in order to provide a set of relevant radar and gravity data for comparison to Magellan data.           
+        </description>
+    </Investigation>
+</Product_Context>
