@@ -45,11 +45,6 @@
       <reference_type>investigation_to_document</reference_type>
       <comment>Scanned field notes taken by C. Wilbur, which (sparsely) documented the Feb. 1976 field research by Greeley and Iversen.</comment>
     </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>context_to_associate</reference_type>
-      <comment>investigation_to_agency</comment>
-    </Internal_Reference>
     <External_Reference>
       <reference_text>Iversen, J. D., and R. Greeley, Atmospheric and Wind Tunnel Experiments of the Amboy Crater Sand-covered Lava Flow. Iowa State University Engineering Research Institute Report, ERI-78235, 79, 1978.</reference_text>
       <description>Describes the results of the meteorology experiments at Amboy Crater.</description>

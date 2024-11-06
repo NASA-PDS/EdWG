@@ -82,11 +82,6 @@
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>context_to_associate</reference_type>
-      <comment>investigation_to_agency</comment>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:clps_to_2ab_nirvss_aim:document:nirvss_users_guide</lid_reference>
       <reference_type>investigation_to_document</reference_type>
     </Internal_Reference>

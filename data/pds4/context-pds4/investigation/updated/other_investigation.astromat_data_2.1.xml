@@ -50,11 +50,6 @@
       <lid_reference>urn:nasa:pds:context:target:dust.dust</lid_reference>
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>context_to_associate</reference_type>
-      <comment>investigation_to_agency</comment>
-    </Internal_Reference>
     <External_Reference>
       <doi>10.17189/1523010</doi>
       <reference_text>Lehnert, Kerstin; Ji, Peng (2021), Astro Material Database Archive, chemical analytic data from extraterrestrial materials, PDS Geosciences Node.</reference_text>

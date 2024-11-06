@@ -59,11 +59,6 @@
       <comment>Target is a plasma stream.</comment>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>context_to_associate</reference_type>
-      <comment>investigation_to_agency</comment>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context_support:document:apollo_11_description</lid_reference>
       <reference_type>investigation_to_document</reference_type>
       <comment>Detailed documentation about this context product.</comment>
