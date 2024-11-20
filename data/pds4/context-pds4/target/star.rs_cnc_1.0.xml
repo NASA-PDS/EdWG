@@ -52,7 +52,7 @@
     </Modification_History>
   </Identification_Area>
   <Target>
-    <name>RS Cancer</name>  <!--from wikipedia. Mia had "RS Cancer"-->
+    <name>RS Cancri</name>  <!--from wikipedia. Mia had "RS Cancer"-->
     <type>Star</type>
     <description>
     Based on the SIMBAD Astronomical Database
