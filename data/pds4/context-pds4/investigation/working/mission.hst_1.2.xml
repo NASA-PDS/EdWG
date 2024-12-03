@@ -16,26 +16,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2019-01-03</modification_date>
-        <version_id>1.1</version_id>
+        <modification_date>2024-11-27</modification_date>
+        <version_id>1.3</version_id>
         <description>
-                    Per "Guide toPDS4 Context Products" v1.3,
-                    - changed all lidvid_reference to lid_reference
-                    - changed target LIDs to new formation rule
-                </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2016-10-01</modification_date>
-        <version_id>1.0</version_id>
-        <description>
-                    extracted metadata from PDS3 catalog and
-                    modified to comply with PDS4 Information Model
-                </description>
+          - updated Investigation.description per the Context Products Editorial Guide (a.k.a.
+	  the Editorial Guide for PDS Landing Pages), version 11/12/2024.
+          - removed WFPC2 user guide, which should be in the instrument context product
+	  - reordered Modification_Detail instances to preserve ascending chronological order
+        </description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-10-22</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
+          Per "Guide toPDS4 Context Products" v1.3,
+          - changed all lidvid_reference to lid_reference
+          - changed target LIDs to new formation rule
+        </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+          extracted metadata from PDS3 catalog and
+          modified to comply with PDS4 Information Model
+        </description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -190,17 +200,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
     <External_Reference>
       <reference_text>
-                   Burrows, C.J., ed., Wide Field and Planetary Camera 2 Instrument Handbook,
-                   Version 2.0, (Baltimore: STScI), May, 1994.
-            </reference_text>
-      <description>reference.BURROWS1994</description>
-    </External_Reference>
-    <External_Reference>
-      <reference_text>
-                   Burrows, C.J., J.A. Holtzman, S.M. Faber, P.Y. Bely, H. Hasan, C.R. Lynds, and
-                   D. Schroeder, 'The imaging Performance of the Hubble Space Telescope', Ap. J.
-                   Lett., 369, L21- L25, 1991.
-            </reference_text>
+        Burrows, C.J., J.A. Holtzman, S.M. Faber, P.Y. Bely, H. Hasan, C.R. Lynds, and
+        D. Schroeder, 'The imaging Performance of the Hubble Space Telescope', Ap. J.
+        Lett., 369, L21- L25, 1991.
+      </reference_text>
       <description>reference.BURROWSETAL1991</description>
     </External_Reference>
   </Reference_List>
@@ -209,6 +212,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Mission</type>
     <start_date>1990-04-08</start_date>
     <stop_date nilReason="unknown" xsi:nil="true"/>
-    <description>The Hubble Space Telescope is a cooperative program of the European Space Agency (ESA) and the National Aeronautics and Space Administration (NASA) to operate a long-lived space-based observatory for the benefit of the international astronomical community. HST is an observatory first dreamt of in the 1940s, designed and built in the 1970s and 80s, and operational only in the 1990s. Since its preliminary inception, HST was designed to be a different type of mission for NASA. A permanent space-based observatory. To accomplish this goal and protect the spacecraft against instrument and equipment failures, NASA had always planned on regular servicing missions. Hubble has special grapple fixtures, 76 handholds, and stabilized in all three axes. HST is a 2.4-meter reflecting telescope which was deployed in low-Earth orbit (600 kilometers) by the crew of the space shuttle Discovery (STS-31) on 25 April 1990.</description>
+    <description>The Hubble Space Telescope is a cooperative program of the European Space Agency (ESA) and the National Aeronautics and Space Administration (NASA) to operate a long-lived space-based observatory for the benefit of the international astronomical community.
+    HST is an observatory first dreamt of in the 1940s, designed and built in the 1970s and 80s, and launched in the 1990s. HST was designed to be a different type of mission for NASA: a permanent space-based observatory. HST is a 2.4-meter, f/24 Ritchey-Chretien reflecting telescope capable of performing observations in the visible, near-ultraviolet, and near-infrared. It was deployed in low-Earth orbit (600 kilometers altitude) by the crew of the space shuttle Discovery (STS-31) on 25 April 1990. It was visited by astronauts for servicing missions five times, most recently in 2009.
+    </description>
   </Investigation>
 </Product_Context>
