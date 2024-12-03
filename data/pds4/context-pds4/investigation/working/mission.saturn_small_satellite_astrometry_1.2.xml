@@ -10,18 +10,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2024-11-27</modification_date>
-        <version_id>1.3</version_id>
+        <modification_date>2024-12-03</modification_date>
+        <version_id>1.2</version_id>
         <description>
           - updated Investigation.description per the Context Products Editorial Guide (a.k.a.
 	  the Editorial Guide for PDS Landing Pages), version 11/12/2024.
-	  - reordered Modification_Detail instances to preserve ascending chronological order
-        </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references.</description>
+	  - updated schema version. Adding missing "instrument" references. Adding missing "agency" references.
+	</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2019-01-03</modification_date>
