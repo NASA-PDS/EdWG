@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Mission_PDS3 xmlns="http://pds.nasa.gov/pds4/pds/v1"
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1600.xsd">
-    
   <Identification_Area>
-    <logical_identifier>urn:nasa:pds:context_pds3:investigation:mission.saturn_occultation_of_28_sagittarius_1989</logical_identifier>
-    <version_id>1.1</version_id>
+    <logical_identifier>urn:nasa:pds:context:investigation:observing_campaign.saturn_occultation_of_28_sagittarius_1989</logical_identifier>
+    <version_id>1.0</version_id>
     <title>SATURN OCCULTATION OF 28 SAGITTARIUS 1989</title>
     <information_model_version>1.6.0.0</information_model_version>
-    <product_class>Product_Mission_PDS3</product_class>
+    <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2024-12-03</modification_date>
-        <version_id>1.1</version_id>
+        <version_id>1.0</version_id>
         <description>
           - updated Investigation.description per the Context Products Editorial Guide (a.k.a.
 	  the Editorial Guide for PDS Landing Pages), version 11/12/2024.
 	</description>
       </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2016-10-01</modification_date>
-        <version_id>1.0</version_id>
-        <description>
-          extracted metadata from PDS3 catalog and
-          modified to comply with PDS4 Information Model
-        </description>
-      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
 
   <Reference_List>
+    <!-- Need to be converted to PDS4
     <Internal_Reference>
       <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.eso1m::1.0</lidvid_reference>
-      <reference_type>has_instrument_host</reference_type>
+      <reference_type>investigation_to_instrument_host</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.eso22m::1.0</lidvid_reference>
@@ -47,17 +39,14 @@
       <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.pal200::1.0</lidvid_reference>
       <reference_type>has_instrument_host</reference_type>
     </Internal_Reference>
+    -->
     <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:unk.unk::1.0</lidvid_reference>
-      <reference_type>has_instrument_host</reference_type>
+      <lid_reference>urn:nasa:pds:context:target:planet.saturn</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:context_pds3:target:planet.saturn::1.0</lidvid_reference>
-      <reference_type>has_target</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:context_pds3:target:ring.s_rings::1.0</lidvid_reference>
-      <reference_type>has_target</reference_type>
+      <lid_reference>urn:nasa:pds:context:target:ring.saturn.rings</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <External_Reference>
       <reference_text>
@@ -124,20 +113,13 @@
     </External_Reference>
   </Reference_List>
   
-  <Mission_PDS3>
-    <mission_name>SATURN OCCULTATION OF 28 SAGITTARIUS 1989</mission_name>
-    <mission_desc>
+  <Investigation>
+    <name>SATURN OCCULTATION OF 28 SAGITTARIUS 1989</name>
+    <type>Mission</type>
+    <start_date>1989-07-03</start_date>
+    <stop_date>1989-07-03</stop_date>
+    <description>
       On 3 July 1989 an occultation of the bright star 28 Sagittarii provided a rare opportunity for occultation observations of both Saturn and its rings with Earth-based telescopes. Prior to 1989, most of our quantitative knowledge of the optical depths and detailed radial structure in the Saturn ring system was derived from occultation experiments carried out by the Voyager spacecraft. The data acquired during this event provided important details on the state and evolution of Saturn's ring system during the period between Voyager and Cassini.
-    </mission_desc>
-    <mission_objectives_summary>
- 
-  Mission Objectives Overview
-  ===========================
- 
-    Obtain high resolution ring optical depth and planet atmosphere
-    profiles.
-    </mission_objectives_summary>
-    <mission_start_date>1989-07-03</mission_start_date>
-    <mission_stop_date>1989-07-03</mission_stop_date>
-  </Mission_PDS3>
-</Product_Mission_PDS3>
+    </description>
+  </Investigation>
+</Product_Context>
