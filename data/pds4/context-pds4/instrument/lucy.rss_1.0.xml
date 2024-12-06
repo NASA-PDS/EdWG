@@ -34,7 +34,7 @@
 	      </ctli:Type_List>
         </Type_List_Area>
         <naif_instrument_id>-49</naif_instrument_id>
-        <description>The Lucy Radio Science Investigation uses the spacecraft’s X-band telecommunication system to measure the Doppler shift of the spacecraft. The mass of the Trojans imparts a deltav on the spacecraft. The concept of operations to support the Doppler-shift measurements entails measuring the Doppler signature of the spacecraft before and after the flyby to determine the change in velocity.
+        <description>The Lucy Radio Science Investigation uses the spacecraft’s X-band telecommunication system to measure the Doppler shift of the spacecraft. The mass of the Trojans imparts a delta-V on the spacecraft. The concept of operations to support the Doppler-shift measurements entails measuring the Doppler signature of the spacecraft before and after the flyby to determine the change in velocity.
         </description>
     </Instrument>
 </Product_Context>
