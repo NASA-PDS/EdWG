@@ -19,7 +19,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2024-10-22</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Removed naif_host_id as this spacecraft has no NAIF_ID</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
