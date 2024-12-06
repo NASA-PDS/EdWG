@@ -84,7 +84,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>PIONEER VENUS SMALL PROBE (DAY)</name>
     <type>Spacecraft</type>
-    <naif_host_id>PVO</naif_host_id>
     <description>
  
     Instrument Host Overview
