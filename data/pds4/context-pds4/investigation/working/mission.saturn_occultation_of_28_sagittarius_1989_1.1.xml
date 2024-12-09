@@ -18,9 +18,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 	</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-09</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Add missing facilities, telescopes, and instruments</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -29,22 +29,52 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
-    <!-- Need to be converted to PDS4
     <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.eso1m::1.0</lidvid_reference>
-      <reference_type>investigation_to_instrument_host</reference_type>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.eso-la_silla</lid_reference>
+      <reference_type>investigation_to_facility</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.eso22m::1.0</lidvid_reference>
-      <reference_type>has_instrument_host</reference_type>
+      <lid_reference>urn:nasa:pds:context:telescope:eso-la_silla.1m04</lid_reference>
+      <reference_type>investigation_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.lick1m::1.0</lidvid_reference>
-      <reference_type>has_instrument_host</reference_type>
+      <lid_reference>urn:nasa:pds:context:telescope:eso-la_silla.2m2</lid_reference>
+      <reference_type>investigation_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lidvid_reference>urn:nasa:pds:context_pds3:instrument_host:earth-based.pal200::1.0</lidvid_reference>
-      <reference_type>has_instrument_host</reference_type>
+      <lid_reference>urn:nasa:pds:context:instrument:multi-host.generic_insp_hsp</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.lick</lid_reference>
+      <reference_type>investigation_to_facility</reference_type>
+    </Internal_Reference>
+    <!-- Awaiting new context products
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:lick.nickel1m</lid_reference>
+      <reference_type>investigation_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lick.nickel1m.ccdc</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lick.nickel1m.hsccd</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.palomar</lid_reference>
+      <reference_type>investigation_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:palomar.hale_5m08</lid_reference>
+      <reference_type>investigation_to_telescope</reference_type>
+    </Internal_Reference>
+    <!-- Awaiting new context products
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:palomar.hale_5m08.circ</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     -->
     <Internal_Reference>
