@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.deep_space_program_science_experiment</logical_identifier>
     <version_id>1.2</version_id>
-    <title>DEEP SPACE PROGRAM SCIENCE EXPERIMENT</title>
+    <title>Deep Space Program Science Experiment</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -175,10 +175,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>DEEP SPACE PROGRAM SCIENCE EXPERIMENT</name>
+    <name>Deep Space Program Science Experiment</name>
     <type>Mission</type>
     <start_date>1991-11-19</start_date>
     <stop_date>1994-05-07</stop_date>
-    <description>The Deep Space Program Science Experiment (DSPSE), first in a planned series of technology demonstrations jointly sponsored by the Ballistic Missile Defense Organization (BMDO) of the DoD and the National Aeronautics and Space Administration (NASA), was launched on 1994. The spacecraft itself was affectionately known as Clementine since, as in the song of the same name, it would be 'lost and gone forever' after completing its short mission.</description>
+    <description>The Deep Space Program Science Experiment (DSPSE), the first in a series of technology demonstrations by the Ballistic Missile Defense Organization (BMDO) and NASA, was launched in 1994. The spacecraft, called Clementine, was expected to be 'lost and gone forever' after its brief mission, similar to the song it was named after.</description>
   </Investigation>
 </Product_Context>

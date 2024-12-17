@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:individual.near_earth_asteroid_tracking</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Near-Earth Asteroid Tracking</title>
+    <title>The Near-Earth Asteroid Tracking (NEAT) Survey</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -40,18 +40,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Individual Investigation</type>
     <start_date>1996-04-17</start_date>
     <stop_date>2007-04-15</stop_date>
-    <description>The Near-Earth Asteroid Tracking (NEAT) 
-            project began as a collaborative effort with the United States Air
-            Force (USAF) in December 1995.  It concentrated on the discovery and
-            observations of near-Earth asteroids and comets, collectively called  
-            near-Earth objects (NEOs).  NEAT ended its observations in April 2007.
-            Throughout its history, NEAT utilized three 1m class telescopes - two 
-            on the Hawaiian island of Maui and the 1.2m Oschin Schmidt telescope  
-            at Palomar Observatory near San Diego, CA.  Three unique cameras were 
-            developed and used throughout the program.  These data are intended to
-            be usable for photometric analysis of the various objects within the  
-            NEAT data.  Most nights included calibration data, and the lists of   
-            photometric standard calibration fields.
-            </description>
+    <description>The NEAT survey discovered and tracked near-Earth asteroids and comets using telescopes in Hawai'i and at Palomar Observatory over the period December 1995 - April 2007.</description>
   </Investigation>
 </Product_Context>

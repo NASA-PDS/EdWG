@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.wise</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Wide-Field Infrared Survey Explorer</title>
+    <title>The Wide-Field Infrared Survey Explorer (WISE) Mission</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -36,14 +36,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Investigation>
-    <name>Wide-Field Infrared Survey Explorer</name>
+    <name>Wide-Field Infrared Survey Explorer Mission</name>
     <type>Mission</type>
     <start_date>2009-12-14</start_date>
     <stop_date>2012-02-01</stop_date>
-    <description>WISE launched into the morning skies above Vandenberg Air Force Base in 
-      central California on Dec. 14, 2009. By early 2011, it had finished scanning the entire 
-      sky twice in infrared light, snapping pictures of three-quarters of a billion objects, 
-      including remote galaxies, stars and asteroids. Today, astronomers continue to mine a cosmic 
-      quarry of data provided by WISE.</description>
+    <description>The WISE mission was the primary mission for the WISE spacecraft, launched 14 December 2009. It conducted an all-sky survey at wavelength of 3.4, 4.6, 12, and 22 micrometers. The primary mission ended in February 2011 when the cryogen was exhausted. The spacecraft was placed into hibernation, and subsequently reactivated for the NEOWISE extended mission.</description>
   </Investigation>
 </Product_Context>

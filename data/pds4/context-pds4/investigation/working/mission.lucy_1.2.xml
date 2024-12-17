@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.lucy</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Lucy Mission</title>
+    <title>The Lucy Mission</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -122,16 +122,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>Lucy</name>
+    <name>Lucy MIssion</name>
     <type>Mission</type>
     <start_date>2021-10-16</start_date>
     <stop_date xsi:nil="true" nilReason="unknown"/>
-    <description>Lucy will be the first space mission to explore a population of small bodies known as the Trojans. The Trojans are outer
-           Solar System asteroids that orbit the Sun “in front of” and “behind” the gas giant Jupiter, at the same distance from the Sun as
-           Jupiter. The gas giant is massive enough that normally it scatters away all asteroids in its vicinity, but, due to the combined
-           gravitational influences of the Sun and Jupiter, these Trojan asteroids have been trapped on stable orbits (around what is known
-           as the Lagrange Points) for billions of years. These Trojans provide a unique, never-before-explored sample of the remnants of our
-           early Solar System.
-        </description>
+    <description>Lucy will be the first space mission to explore a population of small bodies known as the JupiterTrojan asteroids. This mission plan includes encounters with three main belt alsteroid and eight Jupiter Trojans. The Lucy spacecraft also observed the impact of the DART spacecraft into the Dimorphos, the moon of the Didymos system.</description>
   </Investigation>
 </Product_Context>

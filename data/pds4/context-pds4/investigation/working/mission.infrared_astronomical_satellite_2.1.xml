@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.infrared_astronomical_satellite</logical_identifier>
     <version_id>2.1</version_id>
-    <title>Infrared Astronomical Satellite (IRAS) Mission </title>
+    <title>The Infrared Astronomical Satellite (IRAS) Mission </title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -57,15 +57,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>IRAS Mission</name>
+    <name>Infrared Astronomical Satellite</name>
     <type>Mission</type>
     <start_date>1983-01-26</start_date>
     <stop_date>1983-11-23</stop_date>
-    <description>IRAS was launched on January 26, 1983 from Vandenburg Air Force Base in
-    California.  It was a joint program of the United States, the
-    Netherlands, and the United Kingdom.  The primary mission of IRAS was to
-    conduct a sensitive and unbiased survey of the sky in four wavelength
-    bands centered at 12, 25, 60, and 100 microns.  It also made pointed
-    observatons of selected astronomical and solar system objects.</description>
+    <description>The IRAS mission was a joint program of the USA, the Netherlands, and the UK to conduct a survey of the sky in four IR wavelengths. It also made pointed observatons of selected astronomical and solar system objects.</description>
   </Investigation>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.new_horizons</logical_identifier>
     <version_id>2.1</version_id>
-    <title>New Horizons</title>
+    <title>The New Horizons Mission</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -196,6 +196,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Mission</type>
     <start_date>2006-01-19</start_date>
     <stop_date>2016-10-26</stop_date>
-    <description>New Horizons is a robotic spacecraft mission conducted by NASA. It was the first spacecraft to fly by and study the dwarf planet Pluto and its moons, Charon, Nix and Hydra. After the successfull flyby of Pluto, the spacecraft continued on for a Jan 2019 flyby of as part of the New Horizons Kuiper Belt Extended Mission (KEM). The mission was prepared primarily by Southwest Research Institute (SwRI) and the Johns Hopkins Applied Physics Laboratory (APL). New Horizons was successfully launched on January 19, 2006. After a flyby of Jupiter on February 28, 2007 at 5:43:40 UTC, New Horizons is expected to arrive at Pluto in July 2015. As New Horizons passed through the Jovian system for a gravity assist in February, it performed scientific observations of Jupiter, the Galilean satellites, the Jovian rings, Himalia, Elara, and Earth.</description>
+    <description>New Horizons mission was the first to fly by and study the dwarf planet Pluto and its moons Charon, Nix, and Hydra. As the New Horizons spacecraft passed through the Jovian system for a gravity assist in February of 2007, it performed scientific observations of Jupiter, the Galilean satellites, the Jovian rings, Himalia, Elara, and Earth. After the successfull flyby of Pluto on July 14, 2015, the spacecraft continued on for extended missions in the Kuiper Belt.</description>
   </Investigation>
 </Product_Context>

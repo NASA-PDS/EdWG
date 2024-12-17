@@ -92,7 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>LADEE</name>
+    <name>Lunar Atmosphere and Dust Environment Explorer (LADEE)</name>
     <type>Mission</type>
     <start_date>2013-09-01</start_date>
     <stop_date>2014-02-17</stop_date>

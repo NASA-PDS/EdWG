@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.messenger</logical_identifier>
     <version_id>1.2</version_id>
-    <title>MESSENGER</title>
+    <title>MErcury Surface, Space ENvironment, GEochemistry, and Ranging</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -116,10 +116,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>MESSENGER</name>
+    <name>MErcury Surface, Space ENvironment, GEochemistry, and Ranging</name>
     <type>Mission</type>
     <start_date>2004-08-03</start_date>
     <stop_date>2015-04-30</stop_date>
-    <description>MESSENGER (Mercury Surface, Space Environment, Geochemistry, and Ranging) launched in August 2004. It entered into orbit around Mercury on March 18, 2011. It was to study the chemical composition, geology, and magnetic field of Mercury. It impacted the planet on April 30, 2015.</description>
+    <description>Mercury Surface, Space Environment, Geochemistry, and Ranging (MESSENGER) launched in August 2004. It entered into orbit around Mercury on March 18, 2011. It was to study the chemical composition, geology, and magnetic field of Mercury. It impacted the planet on April 30, 2015.</description>
   </Investigation>
 </Product_Context>

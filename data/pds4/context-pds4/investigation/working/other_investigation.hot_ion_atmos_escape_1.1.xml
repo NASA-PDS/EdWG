@@ -24,14 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Investigation>
-    <name>hot_ion_atmos_escape</name>
+    <name>Hot Ion Atmospheric Escape Cross Section Data</name>
     <type>Other Investigation</type>
     <start_date>2015-03-17</start_date>
     <stop_date xsi:nil="true" nilReason="unknown"/>
-    <description>
-        Initially started as part of the PDART 2014 efforts of Robert Johnson, this investigation is designed to collate results of 
-        modeling and laboratory work in atmospheric escape studies. Data associated with this project include cross section tables
-        for different atmospheric species representing different chemical reactions occuring in the upper atmosphere of planets.
-        </description>
+    <description>Initially started as part of the PDART 2014 efforts of Robert Johnson, this investigation is designed to collate results of modeling and laboratory work in atmospheric escape studies. Data associated with this project include cross section tables for different atmospheric species representing different chemical reactions occuring in the upper atmosphere of planets.</description>
   </Investigation>
 </Product_Context>

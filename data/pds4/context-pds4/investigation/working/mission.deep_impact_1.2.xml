@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.deep_impact</logical_identifier>
     <version_id>1.2</version_id>
-    <title>DEEP IMPACT</title>
+    <title>The Deep Impact Mission</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -356,10 +356,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>DEEP IMPACT</name>
+    <name>Deep Impact</name>
     <type>Mission</type>
     <start_date>2005-01-12</start_date>
     <stop_date>2005-07-13</stop_date>
-    <description>The goal of the Deep Impact mission was to understand the physical and chemical properties of a comet as a function of depth below the surface.   The mission delivered an impactor spacecraft onto the nucleus of 9P/Tempel 1. It was launched on January, 12, 2005.</description>
+    <description>The Deep Impact mission consisted of an impactor and a fly-by spacecraft that rendezvoused with comet 9P/Tempel 1. The impactor was released to impact the comet surface on July 4 2005, while the flyby spacecraft observed.</description>
   </Investigation>
 </Product_Context>

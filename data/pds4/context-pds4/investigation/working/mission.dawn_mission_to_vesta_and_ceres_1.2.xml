@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</logical_identifier>
     <version_id>1.2</version_id>
-    <title>DAWN MISSION TO VESTA AND CERES</title>
+    <title>The Dawn Mission to Vesta and Ceres</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -140,10 +140,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>DAWN MISSION TO VESTA AND CERES</name>
+    <name>Dawn Mission to Vesta and Ceres</name>
     <type>Mission</type>
     <start_date>2007-09-27</start_date>
     <stop_date>2016-07-01</stop_date>
-    <description>The Dawn mission launched in Sept. 2007 to rendezvous and orbit the asteroids 4 Vesta and 1 Ceres. Vesta orbit operations took place from July 2011 to Sept. 2012, and Ceres orbit operations from March 2015 to Oct. 2018.  The scientific objectives of the mission were to characterize the asteroids' internal structure, density, shape, size, composition and mass and to return data on surface morphology, cratering, and magnetism.</description>
+    <description>The Dawn mission launched in Sept. 2007 to rendezvous and orbit the asteroid (4) Vesta and the dwarf planet (1) Ceres. Vesta orbit operations took place from July 2011 to Sept. 2012, and Ceres orbit operations from March 2015 to Oct. 2018.  The scientific objectives of the mission were to characterize the asteroids' internal structure, density, shape, size, composition and mass and to return data on surface morphology, cratering, and magnetism. Communication with the spacecraft was lost after hydrazine exhaustion in October 2018.</description>
   </Investigation>
 </Product_Context>

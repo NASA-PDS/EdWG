@@ -127,6 +127,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Mission</type>
     <start_date>2014-12-03</start_date>
     <stop_date xsi:nil="true" nilReason="unknown"/>
-    <description>The Hayabusa2 mission will obtain samples from the C-type asteroid (162173) Ryugu to investigate the origin of water and organic materials on Earth, and bring them back to Earth. It is important to understand the early history and transfer processes of the Solar System.</description>
+    <description>The Hayabusa2 mission, launched in December 2014, obtained samples from the C-type asteroid (162173) Ryugu and successfully returned them to Earth in December 2020. The goal of the mission was to investigate the origin of water and organic materials on Earth,  to understand the early history and transfer processes of the Solar System. The mission included four rovers which were deployed to the surface of the asteroid.</description>
   </Investigation>
 </Product_Context>

@@ -26,6 +26,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Individual Investigation</type>
     <start_date>-9999-01-01</start_date>
     <stop_date nilReason="unknown" xsi:nil="true"/>
-    <description>For investigations with no specific investigator or mission, e.g. catalogs.</description>
+    <description>This context object indicates there is no specific funded investigation associated with the product.</description>
   </Investigation>
 </Product_Context>

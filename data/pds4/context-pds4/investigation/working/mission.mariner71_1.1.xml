@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.mariner71</logical_identifier>
     <version_id>1.1</version_id>
-    <title>MARINER71</title>
+    <title>The Mariner Mars '71 (Mariner 9) Mission</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -68,10 +68,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>MARINER71</name>
+    <name>Mariner 9</name>
     <type>Mission</type>
     <start_date>1968-06</start_date>
     <stop_date>1973-06</stop_date>
-    <description>On November 14, 1971, Mariner 9 became the first spacecraft to orbit another planet. Six experiments were carried as part of the science payload: television, ultraviolet spectrometer, infrared spectroscopy, infrared radiometry, S-band occultation and celestial mechanics. Two experiments (S-band occultation and celestial mechanics) utilized the radio telemetry subsystem to derive data; the other required specially developed instruments, mounted, and boresighted to each other, on the spacecraft's scan platform. Pre-launch mission planning encompassed two separate, but complementary, missions. The orbit of each spacecraft was optimized to match the corresponding objective. The mapping mission was designed with an Earth-synchronous orbit (about a 12-hr periods) to maximize antenna utilization, or communications efficiency. For maximum surveillance of an area, it was designed with a steep inclination (80 degrees) to the equatorial plane of Mars. The dynamic objective dictated a Mars-synchronous (or sub-synchronous) orbit and a lower (50 degree) inclination for closer observations of specific areas. The plans for the two missions were in detailed stages of development on May 9, 1971 when Mariner 8 was lost because of guidance difficulties in the second stage of the launch vehicle. It was determined that an orbit for a single-spacecraft mission could be developed to meet all basic mission and specific science objectives. A single-spacecraft plan, involving an inclination of 65 degrees, a period of about 12 hours, a periapsis altitude of 1350 Km, and an arrival date of November 14, 1971, was evaluated and formalized in 2 weeks.</description>
+    <description>On November 14, 1971, Mariner 9 became the first spacecraft to orbit another planet when it established orbit around Mars. Six experiments were carried as part of the science payload: television, ultraviolet spectrometer, infrared spectroscopy, infrared radiometry, S-band occultation and celestial mechanics. The mission was originally planned as a pair, similar to the Mariner 6 and 7 missions, but Mariner 8 was lost because of guidance difficulties in the second stage of the launch vehicle. It was determined that an orbit for a single-spacecraft mission could be developed to meet all basic mission and specific science objectives. A single-spacecraft plan, involving an inclination of 65 degrees, a period of about 12 hours, a periapsis altitude of 1350 Km, and an arrival date of November 14, 1971, was evaluated and formalized in 2 weeks. Mariner 9 carried on the Mariner program investigation of the Martian atmosphere, and mapping of the Martian surface at the highest resolution yet achieved at the time.</description>
   </Investigation>
 </Product_Context>

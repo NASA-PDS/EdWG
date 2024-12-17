@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.galileo</logical_identifier>
     <version_id>1.2</version_id>
-    <title>GALILEO</title>
+    <title>Galileo</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -298,7 +298,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>GALILEO</name>
+    <name>Galileo</name>
     <type>Mission</type>
     <start_date>1977-10-01</start_date>
     <stop_date>2003-09-21</stop_date>

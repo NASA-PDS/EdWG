@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.juno</logical_identifier>
     <version_id>2.2</version_id>
-    <title>JUNO</title>
+    <title>Juno</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -149,10 +149,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>JUNO</name>
+    <name>Juno</name>
     <type>Mission</type>
     <start_date>2011-08-05</start_date>
     <stop_date nilReason="unknown" xsi:nil="true"/>
-    <description>Juno is a spacecraft that was sent to Jupiter. It was launched on August 5, 2011. It will take measurements to help find clues about how the planet formed, has a rocky core, and deep winds.</description>
+    <description>Juno is a spacecraft that was launched on August 5, 2011 and arrived at Jupiter in July 2016. Juno is orbiting Jupiter and its prime mission was 32 high inclination, high eccentricity orbits of the planet, acquiring data at each periapsis for several hours. Juno has been taking measurements to help finding clues about how the planet formed, its composition, including its rocky core, and its atmospheric structure and turbulences. The mission was extended for an additional 40 orbits that should continue until September 2025. These orbits have shorter periods, going from ~43 days to ~38 days, and currently at ~33 days. The reduction in the orbial periods allows Juno to conduct close flybys of Ganymede, Europa, Io, and Jupiter's ring system, as well as gather more information about Jupiter's northern hemisphere.</description>
   </Investigation>
 </Product_Context>

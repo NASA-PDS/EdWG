@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.new_horizons_kem1</logical_identifier>
     <version_id>1.2</version_id>
-    <title>New Horizons Kuiper Belt Extended Mission (KEM1)</title>
+    <title>The New Horizons Kuiper Belt Extended Mission 1 (KEM1)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -116,21 +116,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>New Horizons Kuiper Belt Extended Mission</name>
+    <name>New Horizons Kuiper Belt Extended Mission 1</name>
     <type>Mission</type>
     <start_date>2016-10-26</start_date>
     <stop_date>2022-09-30</stop_date>
-    <description>
-            The New Horizons Kuiper Belt Extended Mission is a mission to a
-            recently discovered, unexplored region of the solar system, the
-            Kuiper Belt. The centerpiece of the mission is a close flyby of
-            Kuiper Belt Object (KBO) (486958) Arrokoth (2014 MU69). The mission will also
-            aggressively survey the KB using NH as an observatory, examining many
-            other Kuiper Belt Objects and Centaurs while studying the Kuiper Belt
-            dust, gas, plasma, and energetic particle environments. Doing so
-            will place both 2014 MU69 and the Pluto system in better context
-            among Kuiper Belt Objects (KBOs), increasing scientific understanding
-            of both.
-        </description>
+    <description>The first extended mission of the New Horizons spacecraft in the Kuiper Belt, KEM1 included the close flyby of (486958) Arrokoth (2014 MU69), a Kuiper Blet Object (KBO), as well as survey observations of the Kuiper Belt environment.</description>
   </Investigation>
 </Product_Context>

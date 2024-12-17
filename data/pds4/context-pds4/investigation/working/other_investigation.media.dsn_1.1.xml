@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:other_investigation.media.dsn</logical_identifier>
     <version_id>1.1</version_id>
-    <title>DSN Media Calibration Investigation</title>
+    <title>Deep Space Network (DSN) Media Calibration</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -70,17 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>DSN Media Calibration</name>
+    <name>Deep Space Network (DSN) Media Calibration</name>
     <type>Other Investigation</type>
     <start_date>1950-01-01</start_date>
     <stop_date>2099-12-31</stop_date>
-    <description>
-             The DSN Media Calibration investigation is the set of observations and analyses
-             used by the NASA Deep Space Network (DSN) to develop calibrations for the effects
-             of the ionosphere, troposphere, and local weather on propagation of radio signals
-             between DSN antennas and spacecraft.  Although small, these effects are measurable
-             and can change the apparent range to and velocity of spacecraft being tracked by 
-             the DSN.
-         </description>
+    <description>The Deep Space Network (DSN) Media Calibration investigation involves observations and analyses by the NASA Deep Space Network to calibrate the impacts of the ionosphere, troposphere, and local weather on radio signal propagation between DSN antennas and spacecraft. These effects, although small, are measurable and can alter the apparent range and velocity of tracked spacecraft.</description>
   </Investigation>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.vega_1</logical_identifier>
     <version_id>1.2</version_id>
-    <title>VEGA 1</title>
+    <title>The Vega Program - Vega 1</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -91,10 +91,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>VEGA 1</name>
+    <name>Vega Mission - Vega 1</name>
     <type>Mission</type>
     <start_date>1984-12-15</start_date>
     <stop_date>1986-04</stop_date>
-    <description>Vega 1 was launch on December 15, 1984. It was sent to Venus to study the atmosphere and surface. The lander was unable to provide a data. The two balloons were deployed on the dark side and stayed in the zone that is most Earth-like. This spacecraft was part of the Halley Armada. It left Venus to have the encounter to get measurements of the comet and its nucleus.</description>
+    <description>The Vega program lead by the Soviet Union and including a number of European partners, was designed to investigate Venus and then to flyby Comet 1P/Halley. The name "VeGa" is a combination of the first two (Russian) letters of "Venus" and "Halley". It included twin spacecraft designated "Vega 1" and "Vega 2".
+The Vega 1 spacecraft Launched on 15 December 1984, delivered a balloon into the Venusian atmosphere on 11 June 1985, and encountered Comet Halley on 6 March 1986.</description>
   </Investigation>
 </Product_Context>

@@ -42,14 +42,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Investigation>
-    <name>mcmath-pierce_mercury</name>
+    <name>KPNO McMath-Pierce Solar Telescope Observations of Mercury</name>
     <type>Observing Campaign</type>
     <start_date>2010</start_date>
     <!-- NEED TO CONFIRM -->
     <stop_date>2011</stop_date>
-    <description>
-            This observing campaign collates obervations of Mercury collected from the McMath-Pierce Solar Telescope at 
-            Kitt Peak contemporaneous with MESSENGER's presence at Mercury. 
-        </description>
+    <description>This observing campaign collates obervations of Mercury collected from the McMath-Pierce Solar Telescope at Kitt Peak contemporaneous with MESSENGER's presence at Mercury.</description>
   </Investigation>
 </Product_Context>
