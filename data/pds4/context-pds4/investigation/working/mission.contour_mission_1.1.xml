@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.contour_mission</logical_identifier>
     <version_id>1.1</version_id>
-    <title>CONTOUR MISSION</title>
+    <title>The Comet Nucleus Tour (CONTOUR) Mission</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -71,10 +71,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>CONTOUR MISSION</name>
+    <name>Comet Nucleus Tour</name>
     <type>Mission</type>
     <start_date>2002-07-05</start_date>
     <stop_date>2002-08-15</stop_date>
-    <description>The Comet Nucleus Tour (CONTOUR) was a supposed to flyby two comet nuclei. It was launched on July 3, 2002. Communication was lost on August 15, 2002. It did help provide some navigation techniques for spacecraft.</description>
+    <description>The Comet Nucleus Tour mission failed when the spacecraft broke apart during a planned maneuver six weeks after launch. No data were returned.</description>
   </Investigation>
 </Product_Context>

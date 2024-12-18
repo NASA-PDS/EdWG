@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.hayabusa</logical_identifier>
     <version_id>2.1</version_id>
-    <title>Hayabusa Mission</title>
+    <title>The Hayabusa Mission</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -90,6 +90,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Mission</type>
     <start_date>2003-05-09</start_date>
     <stop_date>2010-06-13</stop_date>
-    <description>The primary scientific objective of the Hayabusa (formerly Muses-C) mission was to collect a surface sample of material from the small (550 x 180 meter) asteroid 25143 Itokawa (1998 SF36) and return the sample to Earth for analysis. Other scientific objectives of the mission included detailed studies of the asteroid's shape, spin state, topography, color, composition, density, photometric and polarimetric properties, interior and history.  Hayabusa launched in May 2003 and performed orbital operations at Itokawa in Sept.-Nov. 2005.</description>
+    <description>The Hayabusa (formerly MUSES-C) mission was a JAXA mission that successfully encountered and collected sampled from asteroid (25143) Itokawa in September-November 2005, returning those samples to Earth. The spacecraft itself burned up on reentry into Earth's atmosphere, as planned.</description>
   </Investigation>
 </Product_Context>

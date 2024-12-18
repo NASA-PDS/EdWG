@@ -123,8 +123,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Mission</type>
     <start_date>2024-10-01</start_date>
     <stop_date>2034-09-30</stop_date>
-    <description>
-      NASA's Europa Clipper spacecraft will perform dozens of close flybys of Jupiter’s moon Europa, gathering detailed measurements to investigate whether the moon could have conditions suitable for life. Europa Clipper is not a life detection mission – its main science goal is to determine whether there are places below Europa’s surface that could support life.
-    </description>
+    <description>NASA's Europa Clipper spacecraft will perform dozens of close flybys of Jupiter's moon Europa, gathering detailed measurements to investigate whether the moon could have conditions suitable for life. Europa Clipper is not a life detection mission, rather its main science goal is to determine whether there are places below Europa's surface that could support life.     </description>
   </Investigation>
 </Product_Context>

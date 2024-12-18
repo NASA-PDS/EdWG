@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.epoxi</logical_identifier>
     <version_id>1.2</version_id>
-    <title>EPOXI</title>
+    <title>The EPOXI Joint Missions</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -577,6 +577,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Mission</type>
     <start_date>2007-09-26</start_date>
     <stop_date>2013-09-20</stop_date>
-    <description>Deep Impact EPOXI is the compilation of the two extended missions for the Deep Impact spacecraft. The first is called Deep Impact Extended Investigation (DIXI) and Extrasolar Planet Observation and Characterization (EPOCh). As part of the DIXI mission, the spacecraft flew by comet Hartley 2. As part of the EPOCh mission, the spacecraft used the larger of its two telescopes to find extrasolar planets using the transit method.</description>
+    <description>"EPOXI" is the moniket assigned to the two extended missions for the Deep Impact spacecraft: the Extrasolar Planet Observation and Characterization (EPOCh) Mission, and the Deep Impact Extended Investigation (DIXI) mission. As part of the DIXI mission, the spacecraft flew by Comet 103P/Hartley 2. As part of the EPOCh mission, the spacecraft used the larger of its two telescopes to find extrasolar planets using the transit method.</description>
   </Investigation>
 </Product_Context>

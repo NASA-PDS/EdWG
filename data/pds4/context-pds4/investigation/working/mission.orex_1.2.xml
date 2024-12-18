@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.orex</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Origins, Spectral Interpreation, Resource Identification, Security, Regolith Explorer (OSIRIS-REx) Mission</title>
+    <title>The Origins, Spectral Interpretation, Resource Identification, Security, Regolith Explorer (OSIRIS-REx) Mission</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -104,6 +104,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Mission</type>
     <start_date>2016-09-08</start_date>
     <stop_date xsi:nil="true" nilReason="unknown"/>
-    <description>The OSIRIS-REx (Origins, Spectral Interpretation, Resource Identification, Security, Regolith Explorer) mission is designed to return a sample of material from near-Earth carbonaceous asteroid Bennu. OSIRIS-REx launched in September 2016 and will carry out Bennu orbit operations from December 2018 through around March 2021.  It will sample the asteroid in July 2020 and return the sample to Earth in September 2023. Along with returning a sample, it will map the asteroid and measure non-gravitational forces on the orbit.</description>
+    <description>The OSIRIS-REx (Origins, Spectral Interpretation, Resource Identification, Security, Regolith Explorer) mission returned a sample of regolith material from the near-Earth carbonaceous asteroid (101955) Bennu in April 2021. 121.6g of material were successfully returned to earth on 21 September 2023. Following this, the spacecraft was redirected for an extended mission to asteroid (99942) Apophis.
+</description>
   </Investigation>
 </Product_Context>

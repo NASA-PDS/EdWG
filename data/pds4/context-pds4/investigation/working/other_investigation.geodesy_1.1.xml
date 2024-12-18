@@ -77,17 +77,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Other Investigation</type>
     <start_date>-0580-01-01</start_date>
     <stop_date>2099-12-31</stop_date>
-    <description>
-             Geodesy is the science of accurately measuring and understanding the
-             Earth's geometric shape, orientation in space, and gravity field.
-             Pythagoras (580-490 BC) is credited with postulating that the Earth
-             was spherical, and Eratosthenes (276-194 BC) estimated Earth's 
-             circumference at 25000 miles. Today the Earth's shape is known to
-             result from the competition of gravity, rotation, tides, plate
-             tectonics, volcanism, fluid motion (ocean and atmosphere), and other
-             forces. Rotation and gravity are themselves also variable.  All factors
-             are measured repeatedly and modeled for both historical correlation and
-             prediction.
-         </description>
+    <description>Geodesy is the scientific field focused on accurately measuring and understanding the Earth's shape, orientation, and gravity. Pythagoras and Eratosthenes made early contributions, with Pythagoras suggesting a spherical Earth and Eratosthenes estimating its circumference. Modern understanding recognizes that the Earth's shape is influenced by various forces, including gravity, rotation, tides, plate tectonics, volcanism, and fluid motion. These factors are continually measured and modeled for historical analysis and predictions.</description>
   </Investigation>
 </Product_Context>

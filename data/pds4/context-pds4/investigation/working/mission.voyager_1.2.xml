@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:investigation:mission.voyager</logical_identifier>
     <version_id>1.2</version_id>
-    <title>VOYAGER</title>
+    <title>Voyager</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -480,12 +480,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>VOYAGER</name>
+    <name>Voyager</name>
     <type>Mission</type>
     <start_date>1972-07-01</start_date>
     <stop_date nilReason="unknown" xsi:nil="true"/>
-    <description>The twin Voyager 1 and 2 spacecraft are exploring where nothing from Earth has flown before. Continuing on their more-than-40-year journey since their 1977 launches, they each are much farther away from Earth and the sun than Pluto. In August 2012, Voyager 1 made the historic entry into interstellar space, the region between stars, filled with material ejected by the death of nearby stars millions of years ago. Voyager 2 entered interstellar space on November 5, 2018 and scientists hope to learn more about this region. Both spacecraft are still sending scientific information about their surroundings through the Deep Space Network, or DSN.
-
-The primary mission was the exploration of Jupiter and Saturn. After making a string of discoveries there — such as active volcanoes on Jupiter's moon Io and intricacies of Saturn's rings — the mission was extended. Voyager 2 went on to explore Uranus and Neptune, and is still the only spacecraft to have visited those outer planets. The adventurers' current mission, the Voyager Interstellar Mission (VIM), will explore the outermost edge of the Sun's domain. And beyond.</description>
+    <description>The Voyager 1 and 2 spacecraft, launched in 1977, are on a mission to explore interstellar space, well beyond Pluto, after having successfully studied Jupiter and Saturn. Voyager 1 entered interstellar space in August 2012, followed by Voyager 2 in November 2018. Both spacecraft are still transmitting scientific data back to Earth via the Deep Space Network. They've made significant discoveries, such as active volcanoes on Jupiter's moon Io and details about Saturn's rings, and Voyager 2 is the only spacecraft to have visited Uranus and Neptune. Their ongoing mission, the Voyager Interstellar Mission, aims to explore the outer edge of the Sun's influence and beyond.</description>
   </Investigation>
 </Product_Context>

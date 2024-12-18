@@ -268,12 +268,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Observing Campaign</type>
     <start_date>1972-03-10</start_date>
     <stop_date>2002-07-29</stop_date>
-    <description>
-            This observing campaign collates Earth-based observations of Uranus stellar occultations (1972-2002). 
-            Observations were primarily obtained using a variety of high speed photometers, and include several 
-            early events that were recorded only on strip charts, additional high-SNR unpublished ground-based 
-            observations, two occultations observed from the Hubble Space Telescope, and two occultations observed 
-            using 2D imaging arrays.
-        </description>
+    <description>The observing campaign collects Earth-based observations of Uranus stellar occultations from 1972 to 2002, utilizing various high-speed photometers. It includes early events recorded on strip charts, additional unpublished high-SNR ground observations, and two occultations captured by the Hubble Space Telescope, as well as two using 2D imaging arrays.</description>
   </Investigation>
 </Product_Context>
