@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.lro</logical_identifier>
     <version_id>1.3</version_id>
-    <title>LUNAR RECONNAISSANCE ORBITER</title>
+    <title>Lunar Reconnaissance Orbiter</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -36,7 +36,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.3</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -100,9 +100,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>LUNAR RECONNAISSANCE ORBITER</name>
+    <name>Lunar Reconnaissance Orbiter</name>
     <type>Spacecraft</type>
     <naif_host_id>LRO</naif_host_id>
-    <description>The Lunar Reconnaissance Orbiter (LRO) was launch along with its companion spacecraft, the Lunar CRater Observation and Sensing Satellite (LCROSS), into a direct insertion trajectory to the Moon. It orbits the Moon in a polar orbit.</description>
+    <description>The Lunar Reconnaissance Orbiter (LRO) was launched with the Lunar CRater Observation and Sensing Satellite (LCROSS) on a trajectory to the Moon and now orbits the Moon in a polar orbit.</description>
   </Instrument_Host>
 </Product_Context>

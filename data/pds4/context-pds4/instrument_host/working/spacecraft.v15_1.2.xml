@@ -29,7 +29,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -63,6 +63,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>VENERA 15</name>
     <type>Spacecraft</type>
     <naif_host_id>V15</naif_host_id>
-    <description>The Venera 15 spacecraft was launched in 1983. It studied Venus.</description>
+    <description>The Venera 15 spacecraft, launched in 1983, was designed to study Venus.</description>
   </Instrument_Host>
 </Product_Context>

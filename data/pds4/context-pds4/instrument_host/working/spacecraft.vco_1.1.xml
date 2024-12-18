@@ -29,9 +29,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial version.</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -73,6 +73,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Venus Climate Orbiter Akatsuki</name>
     <type>Spacecraft</type>
     <naif_host_id>-5</naif_host_id>
-    <description>The Akatsuki spacecraft which is also known as Venus Climate Orbiter and PLANET-C is designed to reveal atmospheric circulation of Venus by remote-sensing of different wavelengths, especially the superrotation. The sub-systems that comprise the Akatsuki spacecraft are the telecommunications system; the power system; the attitude and orbit control system (AOCS); the digital electronics which processes image acquired by the cameras onboard. The telecommunications system has two X-band low-gain antennas, XLGA-A and XLGA-B, two X-band medium-gain antennas, XMGA-A and XMGA-B, two X-band high-gain antennas, XHGA-T for transmission and XHGA-R for receiving. The spacecraft hosts Ultraviolet Imager (UVI), 1-micron Camera (IR1), 2-micron Camera (IR2), Longwave Infrared Camera (LIR), Lightning and Airglow Camera (LAC), and Ultra-Stable Oscillator (USO) that is a part of Radio Science Subsystem (RSS) and is used for radio science experiments (RS).</description>
+    <description>The Akatsuki spacecraft, also known as the Venus Climate Orbiter and PLANET-C, is designed to study Venus's atmospheric circulation, particularly its superrotation, using remote sensing across various wavelengths. Its systems include telecommunications, power, attitude and orbit control, and digital electronics for image processing. The telecommunications system features multiple X-band antennas for both transmission and reception. Akatsuki is equipped with several cameras, including an Ultraviolet Imager, 1-micron and 2-micron Cameras, a Longwave Infrared Camera, a Lightning and Airglow Camera, and an Ultra-Stable Oscillator used for radio science experiments.</description>
   </Instrument_Host>
 </Product_Context>

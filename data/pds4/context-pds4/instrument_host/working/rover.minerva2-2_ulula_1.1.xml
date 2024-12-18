@@ -26,9 +26,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial version.</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -46,6 +46,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>MINERVA-II2 Rover-2 ULULA</name>
     <type>Rover</type>
     <naif_host_id>-37900</naif_host_id>
-    <description>MINERVA-II (MIcro Nano Experimental Robot Vehicle for Asteroid the Second Generation) is the successor of MINERVA installed on the Hayabusa spacecraft. There are two containers, one is MINERVA-II1, and the other is MINERVA-II2. MINERVA-II2 consits of Rover-2, OME-B2 (basic structure; OME is the abbreviation of Onboard Mounted Equipment), and OME-C2 (cover). The Rover-2 was named as ULULA (University-made Landing Unit for Locomotion on Asteroid) after landing to Ryugu. Purpose of Rover-2 is to explore efficient moving mechanism by hopping. There are four actuators onboard, micro-hopping by vibration of cilia utilizing centrifugal force, hopping by permanent magnet action, hopping by bi-metal action caused by ambient temperature change, and hopping with leaf-spring action utilizing spring's elastic energy. Rober-2 has two same cameras called MICAM, six temperature sensors, two accelerometers, and six photodiodes to determine attitude by detecting Sun.</description>
+    <description>MINERVA-II is the successor to the original MINERVA robot installed on the Hayabusa spacecraft, consisting of two units: MINERVA-II1 and MINERVA-II2. The latter includes Rover-2, which is also referred to as ULULA (University-made Landing Unit for Locomotion on Asteroid) after its landing on Ryugu. Rover-2's primary objective is to explore efficient movement on the asteroid through various hopping mechanisms. It features four actuators that utilize different methods for hopping, including centrifugal force, permanent magnets, temperature-induced bi-metal action, and elastic energy from leaf springs. The rover is equipped with two MICAM cameras, six temperature sensors, two accelerometers, and six photodiodes to help determine its orientation by detecting sunlight.</description>
   </Instrument_Host>
 </Product_Context>

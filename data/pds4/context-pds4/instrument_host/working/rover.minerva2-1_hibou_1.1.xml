@@ -26,9 +26,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial version.</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -46,6 +46,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>MINERVA-II1 Rover-1a HIBOU</name>
     <type>Rover</type>
     <naif_host_id>-37810</naif_host_id>
-    <description>MINERVA-II (MIcro Nano Experimental Robot Vehicle for Asteroid the Second Generation) is the successor of MINERVA installed on the Hayabusa spacecraft. There are two containers, one is MINERVA-II1, and the other is MINERVA-II2. MINERVA-II1 consists of Rover-1a, Rover-1b, OME-B1 (basic structure; OME is the abbreviation of Onboard Mounted Equipment), and OME-C1 (cover). Two rovers, Rover-1a and Rover-1b, were named as HIBOU (Highly Intelligent Bouncing Observation Unit) and OWL (Observation unit with intelligent Wheel Locomotion) after landing to Ryugu, respectively. One of the purpose of HIBOU and OWL is to verify efficient moving by hopping on the surface with very weak gravity. This hopping is implemented by using a motor to rotate a swing-arm within the rover. HIBOU and OWL are designed to hop autonomously. HIBOU has solar cells, antenna for communicating with the Hayabusa2 spacecraft, two wide-angle cameras, two cameras for stereo view, temperature sensors, optical sensors, an accelerometer, and a gyroscope. Almost all HIBOU's surfaces are covered by solar cells different with OWL's surfaces, therefore HIBOU is thermally more sensitive to sunlight incidence than OWL.</description>
+    <description>MINERVA-II is the second generation of the MINERVA robot installed on the Hayabusa spacecraft, consisting of two containers: MINERVA-II1 and MINERVA-II2. MINERVA-II1 contains two rovers, HIBOU (Highly Intelligent Bouncing Observation Unit) and OWL (Observation unit with intelligent Wheel Locomotion), designed to explore the asteroid Ryugu by hopping on its low-gravity surface. The hopping mechanism uses a motor to rotate a swing-arm, allowing for autonomous movement. HIBOU is equipped with solar cells, communication antennas, wide-angle and stereo cameras, temperature and optical sensors, an accelerometer, and a gyroscope. Its design makes it more sensitive to sunlight compared to OWL, which has fewer solar cells on its surface.</description>
   </Instrument_Host>
 </Product_Context>

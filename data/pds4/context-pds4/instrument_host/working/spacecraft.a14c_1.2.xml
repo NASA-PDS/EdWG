@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.a14c</logical_identifier>
     <version_id>1.2</version_id>
-    <title>APOLLO 14 COMMAND AND SERVICE MODULE</title>
+    <title>Apollo 14 Command and Service Module</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -59,9 +59,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>APOLLO 14 COMMAND AND SERVICE MODULE</name>
+    <name>Apollo 14 Command and Service Module</name>
     <type>Spacecraft</type>
     <naif_host_id>A14C</naif_host_id>
-    <description>The Apollo 14 Command and Service Module (CSM) spacecraft orbited the Moon during the Apollo 14  mission.  It was comprised of two distinct units:  the Command Module (CM), which housed the crew, spacecraft operations systems, and re-entry equipment, and the Service Module (SM) which carried most of the consumables.</description>
+    <description>The Apollo 14 spacecraft, consisting of a Command Module (CM) for the crew and a Service Module (SM) for consumables, orbited the Moon during the mission.</description>
   </Instrument_Host>
 </Product_Context>

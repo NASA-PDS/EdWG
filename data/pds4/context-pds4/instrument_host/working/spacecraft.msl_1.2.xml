@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.msl</logical_identifier>
     <version_id>1.2</version_id>
-    <title>MARS SCIENCE LABORATORY</title>
+    <title>Mars Science Laboratory</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -26,7 +26,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -210,13 +210,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>MARS SCIENCE LABORATORY</name>
+    <name>Mars Science Laboratory</name>
     <type>Spacecraft</type>
     <naif_host_id>MSL</naif_host_id>
-    <description>During the MSL mission, data are collected by instruments on the rover
-    and those data are relayed directly to stations of the NASA Deep Space
-    Network (DSN) on Earth or indirectly to the DSN using the orbital relay
-    capability of Mars Reconnaissance Orbiter (MRO) or 2001 Mars Odyssey
-    (ODY).</description>
+    <description>During the MSL mission, data is collected by the rover's instruments and transmitted to NASA's Deep Space Network (DSN) on Earth, either directly or through orbital relays from the Mars Reconnaissance Orbiter or 2001 Mars Odyssey.</description>
   </Instrument_Host>
 </Product_Context>

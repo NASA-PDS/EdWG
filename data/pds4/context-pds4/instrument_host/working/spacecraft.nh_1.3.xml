@@ -37,7 +37,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.3</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -210,13 +210,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>NEW HORIZONS</name>
     <type>Spacecraft</type>
     <naif_host_id>NH</naif_host_id>
-    <description>The New Horizons spacecraft observatory includes propulsion,
-    navigation, and communications systems, plus the payload. The
-    spacecraft is roughly 2.5 meters across and its mass is 465 kg
-    including propellant. The instrument payload comprises the two-sensor 
-    RALPH Vis-IR remote sensing package, the
-    ALICE UV imaging spectrometer, the REX radio/radiometry experiment,
-    the two-sensor PEPSSI/SWAP plasma suite, the LORRI long-focal-length
-    imager, and the SDC student-built dust counter.</description>
+    <description>The New Horizons spacecraft is equipped with propulsion, navigation, and communication systems, as well as a scientific payload. It measures approximately 2.5 meters in width and weighs 465 kg, including its propellant. Its instrument payload features several components: the RALPH Vis-IR remote sensing package, ALICE UV imaging spectrometer, REX radio/radiometry experiment, PEPSSI/SWAP plasma suite, LORRI long-focal-length imager, and a dust counter developed by students.</description>
   </Instrument_Host>
 </Product_Context>

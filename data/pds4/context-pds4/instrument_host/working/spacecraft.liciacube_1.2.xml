@@ -24,9 +24,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -65,15 +65,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument_Host>
+    <name>Light Italian CubeSat for Imaging of Asteroids (LICIACube) Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>LICIA</naif_host_id>
     <!-- also LICIACUBE -->
-    <description>
-           The LICIACube is a CubeSat mission of the Agenzia Spaziale Italiana (ASI) that will
-           be carried by the DART impactor to the vicinty of the Didymos system, then be released
-           to observe the impact and aftermath of the collision of DART with Dimorphos. Note that
-           as of this writing, it is not clear if the LICIACube team will archive its results with
-           PDS.
-        </description>
+    <description>LICIACube is a CubeSat mission by the Agenzia Spaziale Italiana (ASI) that will accompany the DART impactor to the Didymos system. It will be released to observe DART's impact with Dimorphos and its aftermath. It is currently uncertain whether the LICIACube team will archive their findings with the PDS.</description>
   </Instrument_Host>
 </Product_Context>

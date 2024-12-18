@@ -17,9 +17,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -108,8 +108,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Europa Clipper Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>-159</naif_host_id>
-    <description>
-      NASA's Europa Clipper spacecraft will perform dozens of close flybys of Jupiter’s moon Europa, gathering detailed measurements to investigate whether the moon could have conditions suitable for life. Europa Clipper is not a life detection mission – its main science goal is to determine whether there are places below Europa’s surface that could support life.
-    </description>
+    <description>NASA's Europa Clipper spacecraft will conduct multiple close flybys of Jupiter's moon Europa to gather measurements and investigate the moon's potential for supporting life. While not designed specifically to detect life, its primary objective is to assess the existence of habitable conditions beneath Europa's surface.</description>
   </Instrument_Host>
 </Product_Context>

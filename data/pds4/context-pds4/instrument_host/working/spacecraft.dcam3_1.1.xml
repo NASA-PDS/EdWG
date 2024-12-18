@@ -21,9 +21,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial version</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -58,6 +58,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>DCAM3 (Deployable Camera 3)</name>
     <type>Spacecraft</type>
     <naif_host_id>-37500</naif_host_id>
-    <description>The Deployable Camera 3 (DCAM3) is a small separable camera unit for simultaneous close-range observations of the impact event using Small Carry-on Impactor (SCI). DCAM3 consists of DCAM3-A (analog camera system), DCAM3-D (digital camera system), power unit, and antennas for digital and analog transmissions. The receiver units and antennas (DCAM3-ANT for DCAM3-A, and DCAM3-ANT2 for DCAM3-D) for radio communication from DCAM3, and a control unit (CAM-C; Camera Controller) are onboard the Hayabusa2 spacecraft. The DCAM3 is the successor of DCAM1 and DCAM2 which were separated from the JAXA's solar sail spacecraft IKAROS to monitor deployment process of the solar sail.</description>
+    <description>The Deployable Camera 3 (DCAM3) is a compact camera system designed for simultaneous close-range observations of impact events using the Small Carry-on Impactor (SCI). It includes an analog camera (DCAM3-A), a digital camera (DCAM3-D), a power unit, and antennas for transmissions. The cameras are supported by receiver units and a control unit on the Hayabusa2 spacecraft. DCAM3 is the successor to DCAM1 and DCAM2, which were used for monitoring the deployment of JAXA's solar sail on the IKAROS spacecraft.</description>
   </Instrument_Host>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mro</logical_identifier>
     <version_id>1.1</version_id>
-    <title>MARS RECONNAISSANCE ORBITER</title>
+    <title>Mars Reconnaissance Orbiter</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -18,7 +18,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
         <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -81,9 +81,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>MARS RECONNAISSANCE ORBITER</name>
+    <name>Mars Reconnaissance Orbiter</name>
     <type>Spacecraft</type>
     <naif_host_id>MRO</naif_host_id>
-    <description>Mars Reconnaissance Orbiter was a five-year mission that collected images and other data of the Martian surface.</description>
+    <description>The Mars Reconnaissance Orbiter was a five-year mission focused on capturing images and gathering data about the surface of Mars.</description>
   </Instrument_Host>
 </Product_Context>

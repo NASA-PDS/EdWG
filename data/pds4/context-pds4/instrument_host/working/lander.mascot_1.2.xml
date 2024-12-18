@@ -26,9 +26,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial version</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -80,6 +80,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>MASCOT</name>
     <type>Lander</type>
     <naif_host_id>-37700</naif_host_id>
-    <description>The MASCOT (Mobile Asteroid surface SCOuT) is compact landing package onboard the Hayabusa2 Spacecraft, that was developed by DLR (German Aerospace Center) and CNES (French National Center for Space Studies). MASCOT has a wide-angle camera (MASCAM; MAScot CAMera) to capture images of the lander's surrounding, an infrared spectroscopic microscope (MicrOmega) to investigate the composition and characteristics of the minerals on the surface of Ryugu, a thermal radiometer (MARA; MAscot RAdiometer) to measure the surface temperature, and a magnetometer (MasMag; MAScot MAGnetometer) to measure any magnetic field. MASCOT has a hopping mechanism using a motor to rotate a swing-arm within the lander. This hopping mechanism is designed for correcting attiude with respect to the surface, and changing location only once. MASCOT does not use solar cells but is equipped with a lithium primary battery built into the lander. The duration of the battery is about 16 hours, which corresponds to about two rotations of Ryugu.</description>
+    <description>MASCOT (Mobile Asteroid surface SCOuT) is a compact landing package on the Hayabusa2 spacecraft, developed by DLR and CNES. It features a wide-angle camera (MASCAM), an infrared spectroscopic microscope (MicrOmega), a thermal radiometer (MARA), and a magnetometer (MasMag) for analyzing the surface of the asteroid Ryugu. MASCOT utilizes a motorized hopping mechanism for adjusting its position and orientation, allowing it to move once. It is powered by a lithium primary battery, providing approximately 16 hours of operation, equivalent to two rotations of Ryugu.</description>
   </Instrument_Host>
 </Product_Context>

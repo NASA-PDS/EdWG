@@ -26,9 +26,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -73,29 +73,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>MARINER 7</name>
     <type>Spacecraft</type>
     <naif_host_id>MR7</naif_host_id>
-    <description>
- 
- 
-    Spacecraft Overview
-    ===================
-      The Mariner 6 and 7 spacecraft were three-axis stabilized,
-      solar-powered, capable of providing continuous telemetry
-      transmission, and fully automatic, but commandable from Earth
-      when necessary.  They each weighed 380 kg.  The solar panels
-      provided 450 watts at Mars.  The instrument payload was 59 kg.
-      Telemetry channels were available at data rates between 8.33
-      and16200 bps.  Both analog and digital tape recorders were used;
-      the former handled television data only.
- 
- 
-    Platform Descriptions
-    =====================
-      The Mariner 6 and 7 spacecraft used a two-axis scan platform
-      carrying the infrared radiometer, cameras, UV spectrometer, and
-      infrared spectrometer.  It was used to reposition the fields of
-      view of the instruments repeatedly during the Mars flyby.
- 
-
-        </description>
+    <description>The Mariner 6 and 7 spacecraft were solar-powered, three-axis stabilized systems designed for Mars exploration. Each weighed 380 kg and utilized solar panels to generate 450 watts. They featured a 59 kg instrument payload, capable of continuous telemetry transmission with data rates from 8.33 to 16,200 bps, using both analog and digital tape recorders. The spacecraft employed a two-axis scan platform to maneuver various instruments, including an infrared radiometer, cameras, UV spectrometer, and infrared spectrometer, during their Mars flybys.</description>
   </Instrument_Host>
 </Product_Context>

@@ -20,9 +20,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial version </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -65,6 +65,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Psyche</name>
     <type>Spacecraft</type>
     <naif_host_id>-255000</naif_host_id>
-    <description>The Psyche spacecraft and solar panels, which will be built by Maxar Technologies, are about the size of a singles tennis court. The body of the spacecraft is slightly bigger than a Smart Car and about as tall as a regulation basketball hoop. The spacecraft will include a Gamma Ray and Neutron Spectrometer, a Multispectral Imager, a Magnetometer and an x-band radio telecommunications system. The Psyche mission will also test a sophisticated new laser communication technology, called Deep Space Optical Communication, that encodes data in photons to communicate between a probe in deep space and Earth.</description>
+    <description>The Psyche spacecraft, being developed by Maxar Technologies, is the size of a singles tennis court and slightly larger than a Smart Car, standing as tall as a basketball hoop. It will be equipped with several scientific instruments, including a Gamma Ray and Neutron Spectrometer, a Multispectral Imager, a Magnetometer, and an x-band radio telecommunications system. Additionally, the mission will test innovative laser communication technology known as Deep Space Optical Communication, which transmits data using photons between the spacecraft and Earth.</description>
   </Instrument_Host>
 </Product_Context>

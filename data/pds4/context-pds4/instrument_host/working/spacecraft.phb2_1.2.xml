@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -85,6 +85,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PHOBOS 2</name>
     <type>Spacecraft</type>
     <naif_host_id>PHB2</naif_host_id>
-    <description>The Phobos 2 was launched in 1988. It studied Phobos and Mars.</description>
+    <description>Phobos 2, launched in 1988, conducted studies on Phobos and Mars.</description>
   </Instrument_Host>
 </Product_Context>
