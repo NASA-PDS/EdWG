@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -74,6 +74,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>CHANDRAYAAN-1 ORBITER</name>
     <type>Spacecraft</type>
     <naif_host_id>CH1-ORB</naif_host_id>
-    <description>The Chandrayaan-1 mission was launched in 2008. It studied the Moon. It consisted of an orbiter and an impactor.</description>
+    <description>The Chandrayaan-1 mission, launched in 2008, focused on studying the Moon and included an orbiter as well as an impactor.</description>
   </Instrument_Host>
 </Product_Context>

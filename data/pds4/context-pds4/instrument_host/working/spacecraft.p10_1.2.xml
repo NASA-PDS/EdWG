@@ -23,7 +23,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -99,6 +99,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER 10</name>
     <type>Spacecraft</type>
     <naif_host_id>P10</naif_host_id>
-    <description>The Pioneer 10 was launched in 1972. It studied Jupiter.</description>
+    <description>Pioneer 10, launched in 1972, was a spacecraft that conducted studies of Jupiter.</description>
   </Instrument_Host>
 </Product_Context>

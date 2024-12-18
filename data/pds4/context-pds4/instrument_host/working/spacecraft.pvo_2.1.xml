@@ -25,9 +25,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>2.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated. Remove naif_host_id as this spacecraft has no NAIF_ID</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -136,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>PIONEER VENUS ORBITER</name>
     <type>Spacecraft</type>
-    <description>The Pioneer Venus Orbiter was launched in 1978. It studied Venus. It was part of a mission that also consisted of a bus that carried a large probe and three small probes.</description>
+    <naif_host_id>PVO</naif_host_id>
+    <description>The Pioneer Venus Orbiter, launched in 1978, was part of a mission to study Venus and included a large bus carrying one main probe and three smaller probes.</description>
   </Instrument_Host>
 </Product_Context>

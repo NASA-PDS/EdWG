@@ -36,7 +36,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.3</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -137,6 +137,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>STARDUST</name>
     <type>Spacecraft</type>
     <naif_host_id>SDU</naif_host_id>
-    <description>The Stardust mission was launched in 1999. It studied asteroid 5535 Annefrank, comet Wild 2, and comet Tempel 1.</description>
+    <description>The Stardust mission, launched in 1999, explored asteroid 5535 Annefrank and comets Wild 2 and Tempel 1.</description>
   </Instrument_Host>
 </Product_Context>

@@ -29,7 +29,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -79,6 +79,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>MARINER 10</name>
     <type>Spacecraft</type>
     <naif_host_id>M10</naif_host_id>
-    <description>Mariner 10 was launched in 1973. It studied Venus and Mercury.</description>
+    <description>Mariner 10, launched in 1973, focused on studying Venus and Mercury.</description>
   </Instrument_Host>
 </Product_Context>

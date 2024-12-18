@@ -41,7 +41,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.4</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -249,6 +249,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>HUBBLE SPACE TELESCOPE</name>
     <type>Spacecraft</type>
     <naif_host_id>HST</naif_host_id>
-    <description>The Hubble Space Telescope (HST) was the first and flagship mission of NASA's Great Observatories program.  Designed to complement the wavelength capabilities of the other spacecraft in the program, HST was a 2.4 m, f/24 Ritchey-Chretien telescope, placed into a low-earth orbit, capable of performing observations in the visible, near-ultraviolet, and near-infrared.</description>
+    <description>The Hubble Space Telescope (HST) is NASA's inaugural and primary mission within the Great Observatories program. It features a 2.4 m, f/24 Ritchey-Chretien design, orbits in low-Earth space, and can observe in visible, near-ultraviolet, and near-infrared wavelengths, complementing the capabilities of other spacecraft in the program.</description>
   </Instrument_Host>
 </Product_Context>

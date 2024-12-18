@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     description to past tense.</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>2.1</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -100,6 +100,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>InSight</name>
     <type>Lander</type>
-    <description>The InSight mission is a single stationary lander on Mars to study its deep interior.</description>
+    <description>The InSight mission involves a stationary lander on Mars designed to investigate the planet's deep interior.</description>
   </Instrument_Host>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mr9</logical_identifier>
     <version_id>1.1</version_id>
-    <title>MARINER 9</title>
+    <title>Mariner 9</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -18,9 +18,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "instrument" references. Adding missing "agency" references.</description>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -70,41 +70,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>MARINER 9</name>
+    <name>Mariner 9</name>
     <type>Spacecraft</type>
     <naif_host_id>MR9</naif_host_id>
-    <description>
- 
- 
-    Spacecraft Overview
-    ===================
-      The design of Mariner Mars 1971 spacecraft was similar to that
-      of Mariner Mars 1969, but incorporated changes required by the
-      different payload complements, changes required to increase
-      reliability for a nominal transit cruise and a 90-day-in-orbit
-      operational lifetime, and changes required for the spacecraft to
-      accomplish the mission.  The spacecraft weighed approximately
-      2238 lbs; of this weight 1050 lb was propellant required to
-      correct the transit trajectory and to perform the orbital
-      insertion and 152 lb.  which constituted the science payload.
-      The spacecraft configuration consisted of four solar panels, a
-      low-gain antenna, a maneuver engine, a Canopus sensor, two
-      propulsion tanks, two propulsion pressurization tanks,
-      temperature control louvers, four acquisition sun sensors, a
-      cruise sun sensor, a medium-gain antenna, a high-gain antenna
-      and a scan platform.
- 
- 
-    Platform Descriptions
-    =====================
-      The scan platform was an articulating instrument mount providing
-      a pointing selection capability of 215 degrees in azimuth and 69
-      degrees in elevation.  The scan platform contained the following
-      instruments; the infrared radiometer, the wide-angle TV, the
-      ultraviolet spectrometer, the narrow- angle TV and the IR
-      Interferometer spectrometer.
- 
-
-        </description>
+    <description>The Mariner Mars 1971 spacecraft, weighing approximately 2238 lbs, was designed similarly to its predecessor, the Mariner Mars 1969, but included modifications for improved reliability, a 90-day operational lifetime, and different payload needs. It included 1050 lbs of propellant and a 152 lb science payload. The spacecraft featured various components such as four solar panels, multiple antennas, a maneuver engine, sensors, and propulsion tanks. Additionally, it had a scan platform that could articulate and was equipped with several scientific instruments, including an infrared radiometer and a UV spectrometer, allowing it to capture data across a wide range of angles.</description>
   </Instrument_Host>
 </Product_Context>

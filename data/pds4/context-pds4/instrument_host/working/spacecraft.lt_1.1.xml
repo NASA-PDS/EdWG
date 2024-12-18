@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.lt</logical_identifier>
     <version_id>1.1</version_id>
-    <title>LUNAR TRAILBLAZER ORBITER</title>
+    <title>Lunar Trailblazer Orbiter</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -15,9 +15,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>Initial version</description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -52,10 +52,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>LUNAR TRAILBLAZER ORBITER</name>
+    <name>Lunar Trailblazer Orbiter</name>
     <type>Spacecraft</type>
-    <description>
-            Lunar Trailblazer is a NASA SIMPLEX mission to acquire simultaneous, nested high-resolution near-infrared spectral images and thermal infrared data. The payload consists of the High-resolution Volatiles and Minerals Moon Mapper (HVM3) and the Lunar Thermal Mapper (LTM). The mission will the mineralogy of the lunar surface at all latitudes, including within Permanently Shadowed Regions.
-        </description>
+    <description>Lunar Trailblazer is a NASA SIMPLEX mission designed to obtain high-resolution near-infrared spectral images and thermal infrared data of the Moon. Its payload includes the High-resolution Volatiles and Minerals Moon Mapper (HVM3) and the Lunar Thermal Mapper (LTM). The mission aims to study the mineralogy of the lunar surface across all latitudes, including areas in Permanently Shadowed Regions.</description>
   </Instrument_Host>
 </Product_Context>

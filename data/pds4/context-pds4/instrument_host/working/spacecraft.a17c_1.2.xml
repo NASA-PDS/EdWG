@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.a17c</logical_identifier>
     <version_id>1.2</version_id>
-    <title>APOLLO 17 COMMAND AND SERVICE MODULE</title>
+    <title>Apollo 17 Command and Service Module</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -28,7 +28,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </description>
       </Modification_Detail>
       <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
+        <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
@@ -76,9 +76,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>APOLLO 17 COMMAND AND SERVICE MODULE</name>
+    <name>Apollo 17 Command and Service Module</name>
     <type>Spacecraft</type>
     <naif_host_id>A17C</naif_host_id>
-    <description>Apollo 17 Command and Service Module (CSM) was the sixth and last crewed vehicle to orbit on the Moon as part of NASA's Apollo program. The Command and Service Module (CSM) was comprised of two distinct units: the Command Module (CM), which housed the crew, spacecraft operations systems, and re-entry equipment, and the Service Module (SM) which carried most of the consumables.</description>
+    <description>The Apollo 17 Command and Service Module (CSM) was the sixth and final crewed spacecraft to orbit the Moon during NASA's Apollo program. It consisted of two parts: the Command Module (CM) for the crew and spacecraft operations, and the Service Module (SM), which contained essential consumables.</description>
   </Instrument_Host>
 </Product_Context>
