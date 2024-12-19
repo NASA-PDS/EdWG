@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.3</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2020-11-10</modification_date>
         <version_id>1.2</version_id>
         <description>Added lid_reference to pse and side</description>
@@ -30,11 +35,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.3</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -99,6 +99,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Apollo 15 Lunar Surface Experiments Package</name>
     <type>Spacecraft</type>
     <naif_host_id>A15A</naif_host_id>
-    <description>The Apollo 15 Lunar Surface Experiments Package (ALSEP) was included in the Apollo 15 lunar module and contained various scientific experiments and equipment designed for deployment and collection on the lunar surface.</description>
+    <description>The Apollo 15 Lunar Surface Experiments Package (ALSEP) was carried on the Apollo 15 lunar module spacecraft.  It contained scientific experiments to be deployed and left on the lunar surface, and other scientific and sample collection apparatus.</description>
   </Instrument_Host>
 </Product_Context>

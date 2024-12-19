@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2022-09-27</modification_date>
         <version_id>1.1</version_id>
         <description>Added u:n:p:c:i:ipp.p10; changed lidvid_ref to lid_ref</description>
@@ -21,11 +26,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -99,6 +99,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER 10</name>
     <type>Spacecraft</type>
     <naif_host_id>P10</naif_host_id>
-    <description>Pioneer 10, launched in 1972, was a spacecraft that conducted studies of Jupiter.</description>
+    <description>The Pioneer 10 was launched in 1972. It studied Jupiter.</description>
   </Instrument_Host>
 </Product_Context>

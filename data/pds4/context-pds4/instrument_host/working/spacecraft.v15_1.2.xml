@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2021-02-24</modification_date>
         <version_id>1.1</version_id>
         <description>
@@ -27,11 +32,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -63,6 +63,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>VENERA 15</name>
     <type>Spacecraft</type>
     <naif_host_id>V15</naif_host_id>
-    <description>The Venera 15 spacecraft, launched in 1983, was designed to study Venus.</description>
+    <description>The Venera 15 spacecraft was launched in 1983. It studied Venus.</description>
   </Instrument_Host>
 </Product_Context>

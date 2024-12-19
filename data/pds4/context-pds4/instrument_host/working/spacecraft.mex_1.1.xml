@@ -16,6 +16,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2021-02-24</modification_date>
         <version_id>1.0</version_id>
         <description>
@@ -26,11 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     And per "Guide toPDS4 Context Products" v1.7,
                     changed all lidvid_reference to lid_reference
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -102,14 +102,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Mars Express</name>
     <type>Spacecraft</type>
     <naif_host_id>MEX</naif_host_id>
-    <description>The Mars Express spacecraft utilized an intricate system for data handling and communication. Data gathered from its instruments were relayed to the spacecraft's onboard mass memory before being transmitted to Earth through ESA's New Norcia antenna and NASA's Deep Space Network. The spacecraft’s design combined requirements for science return and operational efficiencies, featuring a box-like structure with body-mounted instruments and solar arrays optimized for aerobraking. 
- 
- Key components of the Mars Express included a propulsion module, avionics, and an innovative thermal control system to manage temperatures across various mission phases. Instruments were carefully placed based on their thermal requirements and functionalities, with significant thermal insulation and heating systems in place to maintain optimal operating conditions.
- 
- The spacecraft’s Attitude and Orbit Control System (AOCS) employed a sophisticated arrangement of sensors and mechanisms, including reaction wheels for maneuverability and solar array drive mechanisms for power generation. Key sensors included star trackers, inertial measurement units, and sun acquisition sensors, which worked in tandem to maintain precise orientation and trajectory. 
- 
- Mars Express featured a minimalistic approach to mechanisms, employing only those essential for its operation, such as the deployment mechanisms for solar arrays and antennas. The spacecraft’s bi-propellant propulsion system was designed for trajectory adjustments and required extensive redundancy and reliability measures during its scientific mission.
- 
- Overall, Mars Express demonstrated advanced spacecraft engineering, combining innovative design with strategic operational frameworks to achieve successful missions to Mars.</description>
+    <description>The Mars Express orbiter is an ESA spacecraft launched in 2003 and is part of an active mission to study Mars from orbit. Mars Express includes instruments to investigate the surface of Mars (HRSC, OMEGA, and MARSIS), as well as instruments to investigate the atmosphere and plasma (PFS, SPICAM, ASPERA, MaRS, VMC). </description>
   </Instrument_Host>
 </Product_Context>

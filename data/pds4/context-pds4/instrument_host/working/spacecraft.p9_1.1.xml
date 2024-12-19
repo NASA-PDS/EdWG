@@ -24,11 +24,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <comment>This is the NSSDCA/COSPAR ID.</comment>
       </Alias>
     </Alias_List>
-    <Modification_Detail>
-      <modification_date>2024-12-18</modification_date>
-      <version_id>1.1</version_id>
-      <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
-    </Modification_Detail>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+    </Modification_History>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
@@ -55,6 +57,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>Pioneer 9</name>
     <type>Spacecraft</type>
-    <description>Pioneer 9, or Pioneer D, was launched on November 8, 1968, to study interplanetary space, focusing on magnetic fields, plasma, and cosmic rays.</description>
+    <description>Pioneer 9, also known as Pioneer D, was launched on 08 November 1968 into a heliocentric orbit to study interplanetary space with a primary focus of collecting data on magnetic fields, plasma, and cosmic rays.</description>
   </Instrument_Host>
 </Product_Context>

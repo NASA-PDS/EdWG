@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-01-03</modification_date>
         <version_id>1.1</version_id>
         <description>
@@ -25,11 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -74,6 +74,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Apollo 17 Lunar Module</name>
     <type>Spacecraft</type>
     <naif_host_id>A17L</naif_host_id>
-    <description>Apollo 17's Lunar Module, 'Challenger,' was the final crewed vehicle to land on the Moon during NASA's Apollo program. It transported two astronauts along with a Lunar Roving Vehicle (LRV), an Apollo Lunar Surface Experiments Package (ALSEP) for scientific experiments, and additional equipment for sample collection.</description>
+    <description>The Apollo 17 Lunar Module (LM) 'Challenger' was the sixth and last crewed vehicle to land on the Moon as part of NASA's Apollo program. It carried two astronauts and a Lunar Roving Vehicle (LRV), an Apollo Lunar Surface Experiments Package (ALSEP) that contained scientific experiments to be deployed and left on the lunar surface, and other scientific and sample collection apparatuses.</description>
   </Instrument_Host>
 </Product_Context>
