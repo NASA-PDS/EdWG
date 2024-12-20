@@ -212,7 +212,7 @@
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>Mars Science Laboratory: Curiosity Rover</name>
+    <name>Mars Science Laboratory</name>
     <type>Mission</type>
     <start_date>2003-10-01</start_date>
     <stop_date nilReason="unknown" xsi:nil="true"/>
