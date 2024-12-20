@@ -3,9 +3,9 @@
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
-    <logical_identifier>urn:nasa:pds:context:investigation:mission.saturn_ring_plane_crossing_1995</logical_identifier>
+    <logical_identifier>urn:nasa:pds:context:investigation:observing_campaign.saturn_ring_plane_crossing_1995</logical_identifier>
     <version_id>1.2</version_id>
-    <title>SATURN RING PLANE CROSSING 1995</title>
+    <title>Saturn Ring Plane Crossing (1995)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -192,7 +192,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Investigation>
-    <name>SATURN RING PLANE CROSSING 1995</name>
+    <name>Saturn Ring Plane Crossing (1995)</name>
     <type>Mission</type>
     <start_date>1994-01-01</start_date>
     <stop_date>1997-01-01</stop_date>

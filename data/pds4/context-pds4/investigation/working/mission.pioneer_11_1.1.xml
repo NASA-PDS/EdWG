@@ -10,8 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
-        <alternate_id>PIONEER_G</alternate_id>
-        <alternate_title>PIONEER G</alternate_title>
+        <alternate_id>Pioneer_G</alternate_id>
+        <alternate_title>Pioneer G</alternate_title>
       </Alias>
     </Alias_List>
     <Modification_History>

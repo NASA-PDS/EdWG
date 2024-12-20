@@ -10,8 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
-        <alternate_id>GALILEO_MILLENNIUM_MISSION_(GMM)</alternate_id>
-        <alternate_title>GALILEO MILLENNIUM MISSION (GMM)</alternate_title>
+        <alternate_id>Galileo_Millennium_Mission_(GMM)</alternate_id>
+        <alternate_title>Galileo Millennium Mission (GMM)</alternate_title>
       </Alias>
     </Alias_List>
     <Modification_History>
