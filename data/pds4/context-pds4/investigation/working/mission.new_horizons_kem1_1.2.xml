@@ -19,6 +19,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-29</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-04-19</modification_date>
         <version_id>1.1</version_id>
         <description>
@@ -35,11 +40,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Created by SBN:Tilden Barnes during PDS migration of NH data archive
                     from original PDS3 mission catalog file: nh_kem.cat.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
