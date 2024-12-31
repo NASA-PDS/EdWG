@@ -1,9 +1,20 @@
+# Table #1: Deprecated LIDs.
+# Feel free to add other tables, but fix bundle.xml
+#
+# Table of Deprecated LIDs (some secretly changed up to 2020.02.13, soho.lasco)
+# 2019.11.18 instID.scID -> scID.instID for p8, p9
+# 2020.06.17 grav.jno -> jno.rss, which should probably be rss.jno for consistency. oh well
+# 2020.07.23 + -> _ for a few stars; validate had incorrectly allowed +
+# 2021.02.24 instID.scID -> scID.instID for instruments with no known lid_references
+# 2021.02.24 urn:nasa:pds -> urn:esa:psa for ESA's stuff
+# 2021.06.21 instrument:grs.ody -> instrument:ody.grs and .hend and .ns
 deprecatedLID,dateOfReplacement,replacementLID
 urn:nasa:pds:context:facility:observatory.ctio,2021-12-07,urn:nasa:pds:context:facility:observatory.ctio-cerro_tololo
 urn:nasa:pds:context:facility:observatory.eso,2021-12-07,urn:nasa:pds:context:facility:observatory.eso-la_silla
 urn:nasa:pds:context:facility:observatory.irtf,2021-12-07,urn:nasa:pds:context:facility:observatory.irtf-maunakea
 urn:nasa:pds:context:facility:observatory.mauna_kea,2021-12-07,urn:nasa:pds:context:facility:observatory.maunakea
 urn:nasa:pds:context:instrument:a-star.clem1,2021-02-24,urn:nasa:pds:context:instrument:clem1.a-star
+urn:nasa:pds:context:instrument:accel.ody,2023-09-15,urn:nasa:pds:context:instrument:ody.accel
 urn:nasa:pds:context:instrument:acp.hp,2021-02-24,urn:esa:psa:context:instrument:hp.acp
 urn:nasa:pds:context:instrument:alice.nh,2021-02-24,urn:nasa:pds:context:instrument:nh.alice
 urn:nasa:pds:context:instrument:alice.ro,2021-02-24,urn:esa:psa:context:instrument:ro.alice
@@ -11,8 +22,8 @@ urn:nasa:pds:context:instrument:apxs.mpfr,2021-02-24,urn:nasa:pds:context:instru
 urn:nasa:pds:context:instrument:asi.gp,2021-02-24,urn:nasa:pds:context:instrument:gp.asi
 urn:nasa:pds:context:instrument:aspera-3.mex,2021-02-24,urn:esa:psa:context:instrument:mex.aspera-3
 urn:nasa:pds:context:instrument:b-star.clem1,2021-02-24,urn:nasa:pds:context:instrument:clem1.b-star
-urn:nasa:pds:context:instrument:cdd.pioneer_8,2019-11-18,urn:nasa:pds:context:instrument:p8.cdd
-urn:nasa:pds:context:instrument:cdd.pioneer_9,2019-11-18,urn:nasa:pds:context:instrument:p9.cdd
+urn:nasa:pds:context:instrument:cdd.pioneer_8,2019-11-18,urn:nasa:pds:context:instrument:cdd.p8
+urn:nasa:pds:context:instrument:cdd.pioneer_9,2019-11-18,urn:nasa:pds:context:instrument:cdd.p9
 urn:nasa:pds:context:instrument:cfi.con,2021-02-24,urn:nasa:pds:context:instrument:con.cfi
 urn:nasa:pds:context:instrument:cida.con,2021-02-24,urn:nasa:pds:context:instrument:con.cida
 urn:nasa:pds:context:instrument:cida.sdu,2021-02-24,urn:nasa:pds:context:instrument:sdu.cida
@@ -27,10 +38,10 @@ urn:nasa:pds:context:instrument:crispimag.con,2021-02-24,urn:nasa:pds:context:in
 urn:nasa:pds:context:instrument:crispspec.con,2021-02-24,urn:nasa:pds:context:instrument:con.crispspec
 urn:nasa:pds:context:instrument:crs.vg1,2021-02-24,urn:nasa:pds:context:instrument:vg1.crs
 urn:nasa:pds:context:instrument:crs.vg2,2021-02-24,urn:nasa:pds:context:instrument:vg2.crs
-urn:nasa:pds:context:instrument:ctio.2mass1m3.2masssouth,2021-12-07,urn:nasa:pds:context:instrument:ctio-cerro_tololo.2mass1m3.2masssouth
-urn:nasa:pds:context:instrument:ctio.smarts1m0.fruttispec,2021-12-07,urn:nasa:pds:context:instrument:ctio-cerro_tololo.smarts1m0.fruttispec
-urn:nasa:pds:context:instrument:ctio.smarts1m5.cassegrainspec,2021-12-07,urn:nasa:pds:context:instrument:ctio-cerro_tololo.smarts1m5.cassegrainspec
-urn:nasa:pds:context:instrument:ctio.soar4m1.ghts,2021-12-07,urn:nasa:pds:context:instrument:ctio-cerro_tololo.soar4m1.ghts
+urn:nasa:pds:context:instrument:ctio.2mass1m3.2masssouth,2021-12-07,urn:nasa:pds:context:instrument:ctio-cerro_tololo.2mass_1m3.2masssouth
+urn:nasa:pds:context:instrument:ctio.smarts1m0.fruttispec,2021-12-07,urn:nasa:pds:context:instrument:ctio-cerro_tololo.smarts_1m0.fruttispec
+urn:nasa:pds:context:instrument:ctio.smarts1m5.cassegrainspec,2021-12-07,urn:nasa:pds:context:instrument:ctio-cerro_tololo.smarts_1m50.cassegrainspec
+urn:nasa:pds:context:instrument:ctio.soar4m1.ghts,2021-12-07,urn:nasa:pds:context:instrument:ctio-cerro_tololo.soar_4m1.ghts
 urn:nasa:pds:context:instrument:dfmi.sdu,2021-02-24,urn:nasa:pds:context:instrument:sdu.dfmi
 urn:nasa:pds:context:instrument:did.gio,2021-02-24,urn:esa:psa:context:instrument:gio.did
 urn:nasa:pds:context:instrument:disr.hp,2021-02-24,urn:esa:psa:context:instrument:hp.disr
@@ -45,6 +56,7 @@ urn:nasa:pds:context:instrument:epac.uly,2021-02-24,urn:esa:psa:context:instrume
 urn:nasa:pds:context:instrument:epas.ice,2021-02-24,urn:nasa:pds:context:instrument:ice.epas
 urn:nasa:pds:context:instrument:epd.go,2021-02-24,urn:nasa:pds:context:instrument:go.epd
 urn:nasa:pds:context:instrument:epi.gp,2021-02-24,urn:nasa:pds:context:instrument:gp.epi
+urn:nasa:pds:context:instrument:epps.mess,2021-03-23,urn:nasa:pds:context:instrument:epps-eps.mess
 urn:nasa:pds:context:instrument:eso.3m6.timmi2,2021-12-07,urn:nasa:pds:context:instrument:eso-la_silla.3m6.timmi2
 urn:nasa:pds:context:instrument:eso.ntt.efosc2,2021-12-07,urn:nasa:pds:context:instrument:eso-la_silla.ntt.efosc2
 urn:nasa:pds:context:instrument:eso.ntt.eso_multi,2021-12-07,urn:nasa:pds:context:instrument:eso-la_silla.ntt.eso_multi
@@ -79,6 +91,9 @@ urn:nasa:pds:context:instrument:ids.ds1,2021-02-24,urn:nasa:pds:context:instrume
 urn:nasa:pds:context:instrument:iks.vega1,2021-02-24,urn:nasa:pds:context:instrument:vega1.iks
 urn:nasa:pds:context:instrument:imf.sakig,2021-02-24,urn:nasa:pds:context:instrument:sakig.imf
 urn:nasa:pds:context:instrument:ims.gio,2021-02-24,urn:esa:psa:context:instrument:gio.ims
+urn:nasa:pds:context:instrument:instrument.ldex__ladee,2022-06-22,urn:nasa:pds:context:instrument:ladee.ldex
+urn:nasa:pds:context:instrument:instrument.nms__ladee,2022-06-22,urn:nasa:pds:context:instrument:ladee.nms
+urn:nasa:pds:context:instrument:instrument.uvs__ladee,2022-06-22,urn:nasa:pds:context:instrument:ladee.uvs
 urn:nasa:pds:context:instrument:iris.vg1,2021-02-24,urn:nasa:pds:context:instrument:vg1.iris
 urn:nasa:pds:context:instrument:iris.vg2,2021-02-24,urn:nasa:pds:context:instrument:vg2.iris
 urn:nasa:pds:context:instrument:irtf.3m0.cvf,2021-12-07,urn:nasa:pds:context:instrument:irtf-maunakea.3m2.cvf
@@ -95,6 +110,7 @@ urn:nasa:pds:context:instrument:issw.vg2,2021-02-24,urn:nasa:pds:context:instrum
 urn:nasa:pds:context:instrument:its.dii,2021-02-24,urn:nasa:pds:context:instrument:dii.its
 urn:nasa:pds:context:instrument:jpa.gio,2021-02-24,urn:esa:psa:context:instrument:gio.jpa
 urn:nasa:pds:context:instrument:lamp.lro,2021-02-24,urn:nasa:pds:context:instrument:lro.lamp
+urn:nasa:pds:context:instrument:lasco.soho,2016-10-01,urn:nasa:pds:context:instrument:soho.lasco
 urn:nasa:pds:context:instrument:lecp.vg1,2021-02-24,urn:nasa:pds:context:instrument:vg1.lecp
 urn:nasa:pds:context:instrument:lecp.vg2,2021-02-24,urn:nasa:pds:context:instrument:vg2.lecp
 urn:nasa:pds:context:instrument:leisa.nh,2021-02-24,urn:nasa:pds:context:instrument:nh.leisa
@@ -115,6 +131,7 @@ urn:nasa:pds:context:instrument:mag.ice,2021-02-24,urn:nasa:pds:context:instrume
 urn:nasa:pds:context:instrument:mag.m10,2021-02-24,urn:nasa:pds:context:instrument:m10.mag
 urn:nasa:pds:context:instrument:mag.vg1,2021-02-24,urn:nasa:pds:context:instrument:vg1.mag
 urn:nasa:pds:context:instrument:mag.vg2,2021-02-24,urn:nasa:pds:context:instrument:vg2.mag
+urn:nasa:pds:context:instrument:mar.ody,2023-09-15,urn:nasa:pds:context:instrument:ody.mar
 urn:nasa:pds:context:instrument:marsis.mex,2021-02-24,urn:esa:psa:context:instrument:mex.marsis
 urn:nasa:pds:context:instrument:mauna_kea.2m24.snifs,2021-12-07,urn:nasa:pds:context:instrument:maunakea.2m24.snifs
 urn:nasa:pds:context:instrument:mauna_kea.2m24.tinsley_phot,2021-12-07,urn:nasa:pds:context:instrument:maunakea.2m24.tinsley_phot
@@ -164,6 +181,7 @@ urn:nasa:pds:context:instrument:radwav.ice,2021-02-24,urn:nasa:pds:context:instr
 urn:nasa:pds:context:instrument:rclt.mpfr,2021-02-24,urn:nasa:pds:context:instrument:mpfr.rclt
 urn:nasa:pds:context:instrument:rcrr.mpfr,2021-02-24,urn:nasa:pds:context:instrument:mpfr.rcrr
 urn:nasa:pds:context:instrument:rcrt.mpfr,2021-02-24,urn:nasa:pds:context:instrument:mpfr.rcrt
+urn:nasa:pds:context:instrument:rdrs.mgn,2021-03-05,urn:nasa:pds:context:instrument:mgn.rdrs
 urn:nasa:pds:context:instrument:roe.v15,2021-02-24,urn:nasa:pds:context:instrument:v15.roe
 urn:nasa:pds:context:instrument:roe.v16,2021-02-24,urn:nasa:pds:context:instrument:v16.roe
 urn:nasa:pds:context:instrument:rosina.ro,2021-02-24,urn:esa:psa:context:instrument:ro.rosina
@@ -179,7 +197,9 @@ urn:nasa:pds:context:instrument:rss.clem1,2021-02-24,urn:nasa:pds:context:instru
 urn:nasa:pds:context:instrument:rss.dif,2021-02-24,urn:nasa:pds:context:instrument:dif.rss
 urn:nasa:pds:context:instrument:rss.go,2021-02-24,urn:nasa:pds:context:instrument:go.rss
 urn:nasa:pds:context:instrument:rss.lro,2021-02-24,urn:nasa:pds:context:instrument:lro.rss
+urn:nasa:pds:context:instrument:rss.mgn,2021-03-05,urn:nasa:pds:context:instrument:mgn.rss
 urn:nasa:pds:context:instrument:rss.mo,2021-02-24,urn:nasa:pds:context:instrument:mo.rss
+urn:nasa:pds:context:instrument:rss.ody,2023-09-15,urn:nasa:pds:context:instrument:ody.mar
 urn:nasa:pds:context:instrument:rss.vg2,2021-02-24,urn:nasa:pds:context:instrument:vg2.rss
 urn:nasa:pds:context:instrument:sce.uly,2021-02-24,urn:esa:psa:context:instrument:uly.sce
 urn:nasa:pds:context:instrument:sdc.nh,2021-02-24,urn:nasa:pds:context:instrument:nh.sdc
@@ -200,6 +220,7 @@ urn:nasa:pds:context:instrument:swoops.uly,2021-02-24,urn:esa:psa:context:instru
 urn:nasa:pds:context:instrument:swp.ice,2021-02-24,urn:nasa:pds:context:instrument:ice.swp
 urn:nasa:pds:context:instrument:swp.iue,2021-02-24,urn:esa:psa:context:instrument:iue.swp
 urn:nasa:pds:context:instrument:telescope.spex.irtf3m0,2021-12-07,urn:nasa:pds:context:instrument:irtf-maunakea.3m2.spex
+urn:nasa:pds:context:instrument:themis.ody,2023-09-15,urn:nasa:pds:context:instrument:ody.themis
 urn:nasa:pds:context:instrument:tnm.vega1,2021-02-24,urn:nasa:pds:context:instrument:vega1.tnm
 urn:nasa:pds:context:instrument:tvs.vega1,2021-02-24,urn:nasa:pds:context:instrument:vega1.tvs
 urn:nasa:pds:context:instrument:tvs.vega2,2021-02-24,urn:nasa:pds:context:instrument:vega2.tvs
@@ -231,6 +252,7 @@ urn:nasa:pds:context:investigation:mission.international_rosetta_mission,2021-02
 urn:nasa:pds:context:investigation:mission.international_ultraviolet_explorer,2021-02-24,urn:esa:psa:context:investigation:mission.iue
 urn:nasa:pds:context:investigation:mission.iue,2021-02-24,urn:esa:psa:context:investigation:mission.iue
 urn:nasa:pds:context:investigation:mission.mars_express,2021-02-24,urn:esa:psa:context:investigation:mission.mars_express
+urn:nasa:pds:context:investigation:mission.pre-magellan,2023-11-06,urn:nasa:pds:context:investigation:observing_campaign.pre-magellan
 urn:nasa:pds:context:investigation:mission.ulysses,2021-02-24,urn:esa:psa:context:investigation:mission.ulysses
 urn:nasa:pds:context:investigation:mission.venus_express,2021-02-24,urn:esa:psa:context:investigation:mission.venus_express
 urn:nasa:pds:context:target:star.1swasp_j175207.01+373246.3,2020-07-23,urn:nasa:pds:context:target:star.1swasp_j175207.01_373246.3
@@ -238,10 +260,10 @@ urn:nasa:pds:context:target:star.bd+36_2593,2020-07-23,urn:nasa:pds:context:targ
 urn:nasa:pds:context:target:star.bd+47_2846,2020-07-23,urn:nasa:pds:context:target:star.bd_47_2846
 urn:nasa:pds:context:target:star.irc_+10216,2020-07-23,urn:nasa:pds:context:target:star.irc__10216
 urn:nasa:pds:context:target:sun.sun,2019-11-18,urn:nasa:pds:context:target:star.sun
-urn:nasa:pds:context:telescope:ctio.2mass1m3,2021-12-07,urn:nasa:pds:context:telescope:ctio-cerro_tololo.2mass1m3
+urn:nasa:pds:context:telescope:ctio.2mass1m3,2021-12-07,urn:nasa:pds:context:telescope:ctio-cerro_tololo.2mass_1m3
 urn:nasa:pds:context:telescope:ctio.smarts1m0,2021-12-07,urn:nasa:pds:context:telescope:ctio-cerro_tololo.smarts_1m0
 urn:nasa:pds:context:telescope:ctio.smarts1m5,2021-12-07,urn:nasa:pds:context:telescope:ctio-cerro_tololo.smarts_1m50
-urn:nasa:pds:context:telescope:ctio.soar4m1,2021-12-07,urn:nasa:pds:context:telescope:ctio-cerro_tololo.soar4m1
+urn:nasa:pds:context:telescope:ctio.soar4m1,2021-12-07,urn:nasa:pds:context:telescope:ctio-cerro_tololo.soar_4m1
 urn:nasa:pds:context:telescope:eso.1m52,2021-12-07,urn:nasa:pds:context:telescope:eso-la_silla.1m52
 urn:nasa:pds:context:telescope:eso.3m6,2021-12-07,urn:nasa:pds:context:telescope:eso-la_silla.3m6
 urn:nasa:pds:context:telescope:eso.ntt,2021-12-07,urn:nasa:pds:context:telescope:eso-la_silla.ntt
@@ -251,10 +273,7 @@ urn:nasa:pds:context:telescope:mauna_kea.0m61,2021-12-07,urn:nasa:pds:context:te
 urn:nasa:pds:context:telescope:mauna_kea.2m24,2021-12-07,urn:nasa:pds:context:telescope:maunakea.2m24
 urn:nasa:pds:context:telescope:mcdonald.smith2m7,2021-12-07,urn:nasa:pds:context:telescope:mcdonald.harlanjsmith_2m7
 urn:nasa:pds:context:telescope:siding_spring.att2m3,2021-12-07,urn:nasa:pds:context:telescope:siding_spring.anu_2m3
-urn:nasa:pds:context:instrument:instrument.ldex__ladee,2022-06-22,urn:nasa:pds:context:instrument:ladee.ldex
-urn:nasa:pds:context:instrument:instrument.uvs__ladee,2022-06-22,urn:nasa:pds:context:instrument:ladee.uvs
-urn:nasa:pds:context:instrument:instrument.nms__ladee,2022-06-22,urn:nasa:pds:context:instrument:ladee.nms
-urn:nasa:pds:context:instrument:rss.mgn,2021-03-05,urn:nasa:pds:context:instrument:mgn.rss
-urn:nasa:pds:context:instrument:rdrs.mgn,2021-03-05,urn:nasa:pds:context:instrument:mgn.rdrs
-urn:nasa:pds:context:instrument:themis.ody,2023-09-15,urn:nasa:pds:context:instrument:ody.themis
-urn:nasa:pds:context:investigation:mission.pre-magellan,2023-11-06,urn:nasa:pds:context:investigation:observing_campaign.pre-magellan
+urn:nasa:pds:context:investigation:mission.pioneer,2024-12-31,urn:nasa:pds:context:investigation:mission.pioneer_venus
+urn:nasa:pds:context:instrument_host:spacecraft.p12,2024-12-31,urn:nasa:pds:context:instrument_host:spacecraft.pvo
+urn:nasa:pds:context:instrument:orad.p12,2024-12-31,urn:nasa:pds:context:instrument:pvo.orad
+urn:nasa:pds:context:instrument:rss.p12,2024-12-31,urn:nasa:pds:context:instrument:pvmp.lp.las
