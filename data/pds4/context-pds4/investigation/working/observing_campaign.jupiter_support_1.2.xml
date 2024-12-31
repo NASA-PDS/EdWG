@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-29</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2021-12-07</modification_date>
         <version_id>1.1</version_id>
         <description>per RMS, deprecated irtf in favor of irtf-maunakea</description>
@@ -20,11 +25,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>
                     Initial setup for this investigation.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

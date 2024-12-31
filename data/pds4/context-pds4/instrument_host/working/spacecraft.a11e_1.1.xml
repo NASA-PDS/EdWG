@@ -10,16 +10,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2021-10-14</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Initial version.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -59,6 +59,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Apollo 11 Early Apollo Scientific Experiment Package</name>
     <type>Spacecraft</type>
     <naif_host_id>A11E</naif_host_id>
-    <description>The Apollo 11 Early Apollo Scientific Experiment Package (EASEP) was an initial set of experiments conducted on the moon, serving as a precursor to the Apollo Lunar Surface Experiments Package (ALSEP). EASEP included various experiments such as a laser ranging retroreflector, a passive seismic experiment, a solar wind composition experiment, and a lunar dust detector.</description>
+    <description>       The Apollo 11 Early Apollo Scientific Experiment Package (EASEP) was a      precursor to the Apollo Lunar Surface Experiments Package (ALSEP). The     EASEP were the first experiments set up on the moon. EASEP      experiments included a laser ranging retroreflector, a passive      seismic experiment, a solar wind composition experiment, and a lunar      dust detector.             </description>
   </Instrument_Host>
 </Product_Context>

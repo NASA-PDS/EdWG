@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2021-03-05</modification_date>
         <version_id>1.1</version_id>
         <description>
@@ -27,11 +32,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -87,6 +87,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Magellan</name>
     <type>Spacecraft</type>
     <naif_host_id>MGN</naif_host_id>
-    <description>In most Magellan experiments, data was collected by spacecraft instruments and transmitted through the telemetry system to NASA's Deep Space Network (DSN) on Earth. Radio Science experiments, like radio occultations, also required DSN hardware for data acquisition.</description>
+    <description>For most Magellan experiments, data were collected by       instruments on the spacecraft.  Those data were then relayed       via the telemetry system to stations of the NASA Deep Space       Network (DSN) on the ground.  Radio Science experiments (such       as radio occultations) required that DSN hardware also       participate in data acquisition.</description>
   </Instrument_Host>
 </Product_Context>

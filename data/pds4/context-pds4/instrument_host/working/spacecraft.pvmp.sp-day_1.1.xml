@@ -10,16 +10,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2023-12-11</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Initial creation of the Multiprobe context products
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -85,6 +85,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER VENUS SMALL PROBE (DAY)</name>
     <type>Spacecraft</type>
     <naif_host_id>PVO</naif_host_id>
-    <description>The Pioneer Venus Multiprobe mission, included three identical small probes and a larger probe that descended through Venus's atmosphere. Launched on November 20, 1978, the probes aimed to study the atmospheric composition, clouds, radiation, and circulation patterns around the planet. They entered the atmosphere on December 9, 1978, after being released from a spacecraft bus. Each probe had a spherical design with scientific instruments inside a titanium pressure vessel and utilized a heat shield for protection. The Day Probe successfully landed on the surface and transmitted data for nearly 68 minutes after touchdown. The total cost for the mission was approximately $83 million.</description>
+    <description>The Stardust mission was launched in 1999. It studied asteroid 5535 Annefrank, comet Wild 2, and comet Tempel 1.</description>
   </Instrument_Host>
 </Product_Context>

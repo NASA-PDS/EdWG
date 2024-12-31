@@ -10,14 +10,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2019-11-13</modification_date>
-        <version_id>1.0</version_id>
-        <description>Creation</description>
-      </Modification_Detail>
-      <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-11-13</modification_date>
+        <version_id>1.0</version_id>
+        <description>Creation</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -50,6 +50,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Spitzer Space Telescope</name>
     <type>Spacecraft</type>
     <naif_host_id>-79</naif_host_id>
-    <description>The Spitzer Space Telescope was an observatory that operated in a solar, Earth-trailing orbit, featuring 3-axis stabilization and three cryogenically-cooled instruments to observe from the near- to far-infrared spectrum. It had an 85 cm aperture, a diffraction limit of 5.5 microns, a field of view of approximately 5 arcmin x 5 arcmin for each band, and exceptional pointing stability of less than 0.1 arcsec, with a maximum tracking rate of 1.0 arcsec/sec. Its instruments included the InfraRed Array Camera (IRAC), InfraRed Spectrograph (IRS), and Multiband Imaging Photometer for Spitzer (MIPS).</description>
+    <description>The Spitzer Space Telescope was a 3-axis stabilized,       pointing and scanning observatory in a solar, Earth-trailing orbit       with three crogenically-cooled instruments operating from the near-       to far-infrared. The telescope had an aperture of 85 cm, a       diffraction limit of 5.5 microns, a field of view of ~5 arcmin x 5       arcmin for each band, a pointing stability of &lt;0.1 arcsec, and a       maximum tracking rate of 1.0 arcsec/sec. Its three instruments were       the InfraRed Array Camera (IRAC), InfraRed Spectrograph (IRS), and       Multiband Imaging Photometer for Spitzer (MIPS).</description>
   </Instrument_Host>
 </Product_Context>

@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-01-03</modification_date>
         <version_id>1.1</version_id>
         <description>
@@ -25,11 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -70,6 +70,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Apollo 15 Particles and Fields Subsatellite</name>
     <type>Spacecraft</type>
     <naif_host_id>A15S</naif_host_id>
-    <description>The Apollo 15 subsatellite (PFS-1) was a small spacecraft deployed into lunar orbit to study the Moon's plasma, particles, magnetic field, and to map its gravity field.</description>
+    <description>The Apollo 15 subsatellite (PFS-1) was a small spacecraft released into lunar orbit from the Apollo 15 Service Module.  Its main objectives were to study the plasma, particle, and magnetic field environment of the Moon and map the lunar gravity field.</description>
   </Instrument_Host>
 </Product_Context>

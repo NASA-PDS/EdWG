@@ -10,14 +10,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-29</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-01-17</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -36,7 +36,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Individual Investigation</type>
     <start_date>1998</start_date>
     <stop_date>2008</stop_date>
-    <description>The LONEOS was a 10-year, ground-based program at Lowell Observatory to search for Near Earth Objects. It consisted of two parts, LONEOS-1 spanning 1993-2000, and&#13;
- LONEOS-2, conducted with a more sensitive camera, spanning 2000-2008.</description>
+    <description>The LONEOS was a 10-year, ground-based program at Lowell Observatory to search for Near Earth Objects. It consisted of two parts, LONEOS-1 spanning 1993-2000, and LONEOS-2, conducted with a more sensitive camera, spanning 2000-2008.</description>
   </Investigation>
 </Product_Context>

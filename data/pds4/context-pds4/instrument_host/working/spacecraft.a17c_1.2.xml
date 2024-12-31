@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-01-03</modification_date>
         <version_id>1.1</version_id>
         <description>
@@ -26,11 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     added internal instrument_host_to_instrument refs 
                     added instrument_host description
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -79,6 +79,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Apollo 17 Command and Service Module</name>
     <type>Spacecraft</type>
     <naif_host_id>A17C</naif_host_id>
-    <description>The Apollo 17 Command and Service Module (CSM) was the sixth and final crewed spacecraft to orbit the Moon during NASA's Apollo program. It consisted of two parts: the Command Module (CM) for the crew and spacecraft operations, and the Service Module (SM), which contained essential consumables.</description>
+    <description>Apollo 17 Command and Service Module (CSM) was the sixth and last crewed vehicle to orbit on the Moon as part of NASA's Apollo program. The Command and Service Module (CSM) was comprised of two distinct units: the Command Module (CM), which housed the crew, spacecraft operations systems, and re-entry equipment, and the Service Module (SM) which carried most of the consumables.</description>
   </Instrument_Host>
 </Product_Context>
