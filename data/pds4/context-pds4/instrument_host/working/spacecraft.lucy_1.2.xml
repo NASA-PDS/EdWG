@@ -15,6 +15,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-06-10</modification_date>
         <version_id>1.1</version_id>
         <description>Updated for Dinkinesh delivery.</description>
@@ -23,11 +28,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <modification_date>2022-08-31</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -78,6 +78,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Lucy</name>
     <type>Spacecraft</type>
     <naif_host_id>-49</naif_host_id>
-    <description>Lucy is a spacecraft measuring over 14 meters in length, primarily due to its large solar panels, which are each over 7 meters in diameter, necessary for its mission to Jupiter's orbit. The main body of the spacecraft contains all its instruments and a 2-meter high gain antenna for communication with Earth. It features an instrument pointing platform that carries four remote-sensing instruments: L'Ralph (MVIC and LEISA), L'LORRI, L'TES, and the Terminal Tracking Camera (TTCAM).</description>
+    <description>Lucy is over 14 meters (over 46 feet) from tip to tip, but most of that is the huge solar panels (each over 7 meters (almost 24 feet) in diameter)  needed to power the spacecraft as it flies out to the orbit of Jupiter. All of the instruments, and the 2-meter (6.5 ft)-high gain antenna needed to communicate with Earth, will be located on the much smaller spacecraft body. Lucy‚Äôs instrument pointing platform (IPP) carries four instruments for remote-sensing science, including L'Ralph (MVIC and LEISA), L'LORRI, L'TES, and the Terminal Tracking Camera (TTCAM).</description>
   </Instrument_Host>
 </Product_Context>

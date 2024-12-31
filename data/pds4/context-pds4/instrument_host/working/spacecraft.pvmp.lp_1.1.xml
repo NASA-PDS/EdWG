@@ -15,16 +15,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2023-12-11</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Initial creation of the Multiprobe context products
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -134,8 +134,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER VENUS MULTIPROBE</name>
     <type>Spacecraft</type>
     <naif_host_id>PVO</naif_host_id>
-    <description>The Large Probe, also known as the Sounder Probe, was part of the Pioneer Venus Multiprobe mission, which included four atmospheric entry probes designed to study Venus's atmosphere. The mission featured two Small Probes and this Large Probe, which entered the planet's atmosphere on the dayside. The mission aimed to gather data on the atmosphere's structure, composition, cloud characteristics, and energy exchanges, complemented by measurements from the Pioneer Venus Orbiter. 
- 
- The Large Probe itself was a 1.5-meter diameter spherical titanium vessel weighing 315 kg, equipped with various scientific instruments for atmospheric analysis and power supplied by a silver-zinc battery. It was launched on August 8, 1978, and released from its spacecraft bus on November 16, 1978, ultimately entering the Venus atmosphere on December 9, 1978. The probe successfully transmitted data until its impact on the Venus surface later that day, marking the end of its operations. The total mission cost was $83 million.</description>
+    <description>The Sakigake spacecraft was launched in 1985. It studied the comet Halley.</description>
   </Instrument_Host>
 </Product_Context>

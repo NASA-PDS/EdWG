@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-01-03</modification_date>
         <version_id>1.1</version_id>
         <description>
@@ -25,11 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -70,6 +70,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Apollo 14 Lunar Module</name>
     <type>Spacecraft</type>
     <naif_host_id>A14L</naif_host_id>
-    <description>The Apollo 14 Lunar Module, named "Antares," was the third manned spacecraft to land on the Moon. It transported two astronauts along with the Apollo Lunar Surface Experiments Package (ALSEP), which included scientific experiments and sample collection tools for the lunar surface.</description>
+    <description>The Apollo 14 Lunar Module (LM) ''Antares'' was the third crewed vehicle to land on the Moon.  It carried two astronauts and the Apollo Lunar Surface Experiments Package (ALSEP) containing scientific experiments to be deployed and left on the lunar surface and other scientific and sample collection apparatus.</description>
   </Instrument_Host>
 </Product_Context>

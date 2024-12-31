@@ -10,14 +10,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2024-05-13</modification_date>
-        <version_id>1.0</version_id>
-        <description>Initial version.</description>
-      </Modification_Detail>
-      <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
         <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-05-13</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -59,6 +59,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>CLPS Task Order 2 AB Peregrine Lunar Lander</name>
     <type>Lander</type>
     <naif_host_id>-244</naif_host_id>
-    <description>Peregrine is a small lander designed for delivering payloads to lunar orbit and the lunar surface. It features a versatile payload mounting system, side radiators, a top-mounted solar panel, and is constructed from aluminum alloy with four shock-absorbing landing legs. The thermal environment is regulated passively through radiators and protective layers like Multi-Layer Insulation (MLI). Peregrine's propulsion system includes five main engines and twelve Attitude and Control System (ACS) engines that utilize a hypergolic bipropellant, allowing for ignition-free combustion. The Guidance, Navigation, and Control (GNC) system incorporates various sensors, and a Doppler LiDAR assists in landing. The power system operates with a lithium-ion battery and solar panel, distributing power to all subsystems. Communication is facilitated via a high-powered transponder with multiple antennas for efficient coverage during different mission phases.</description>
+    <description>The CLPS Task Order 2 AB Peregrine Lunar Lander is a small-class lander designed to deliver payloads to lunar orbit and the lunar surface. Payloads can be mounted above or below the decks, inside or outside of enclosures, and can remain attached or deployed according to their needs. The lander features side radiators and a top mounted solar panel. Peregrine's structure is manufactured out of aluminum alloy and features four landing legs, designed to absorb shock and stabilize the craft on touchdown.The lander is designed to implement mainly passive methods to regulate its thermal environment using radiators and passive heat pipes. Layers and coatings, such as Multi-Layer Insulation (MLI), are used to protect components from undesired external thermal effects.             The Peregrine propulsion system consists of five main engines and twelve Attitude and Control System (ACS) engines powered by a pressure-fed hypergolic bipropellant, which does not require ignition because the fuel and oxidizer combust on contact. The fuel is Mono-Methyl-Hydrazine (MMH) and the oxidizer used is a solution of nitric oxide in dinitrogen tetroxide/nitrogen dioxide, 25% Mixed Oxides of Nitrogen (MON-25).Peregrine‚Äôs Guidance, Navigation, and Control (GNC) system orients and flies the lander throughout the mission using input from the star tracker, sun sensors, and inertial measurement unit. During landing operations, a Doppler LiDAR provides range and range rate information that guides the lander to a safe landing at the target site. The lander power system is responsible for power storage, generation, distribution, and management using a space-grade lithium-ion battery and a top mounted solar panel The battery feeds into a 28 Vdc power rail from which unregulated and regulated power is distributed to all lander subsystems and payloads. Peregrine's communications system uses a high-powered and flight-heritage transponder to communicate with Earth via multiple low gain antennas for optimal coverage during cruise and lunar orbit operations and then an actuated medium or high gain antenna following touchdown on the lunar surface for increased bandwidth.                     </description>
   </Instrument_Host>
 </Product_Context>

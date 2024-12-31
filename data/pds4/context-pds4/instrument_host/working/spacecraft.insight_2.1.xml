@@ -16,6 +16,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2017-06-01</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version </description>
@@ -25,11 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>2.0</version_id>
         <description>Revised to include EDL instrument reference. Revised instrument host 
                     description to past tense.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>2.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -100,6 +100,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>InSight</name>
     <type>Lander</type>
-    <description>The InSight mission involves a stationary lander on Mars designed to investigate the planet's deep interior.</description>
+    <description>The InSight mission is a single stationary lander on Mars to study its deep interior.</description>
   </Instrument_Host>
 </Product_Context>

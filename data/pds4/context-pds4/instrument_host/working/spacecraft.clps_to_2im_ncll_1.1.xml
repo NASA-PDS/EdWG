@@ -10,14 +10,14 @@
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2024-09-23</modification_date>
-        <version_id>1.0</version_id>
-        <description>Initial version.</description>
-      </Modification_Detail>
-      <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
         <description>Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-09-23</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

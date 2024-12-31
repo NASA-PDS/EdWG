@@ -10,16 +10,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2023-12-11</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Initial creation of the Multiprobe context products
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -73,6 +73,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER VENUS PROBE BUS</name>
     <type>Spacecraft</type>
     <naif_host_id>PVO</naif_host_id>
-    <description>The Pioneer Venus Multiprobe mission involved a spacecraft carrying four atmospheric entry probes to study the atmosphere of Venus. The mission aimed to investigate the atmosphere's structure, composition, clouds, radiation, energy exchange, and circulation patterns. The Multiprobe Bus, with a launch mass of 875 kg, featured a central Large Probe and three smaller probes arranged around it. Launched on August 8, 1978, the bus separated from the probes shortly before they entered the Venusian atmosphere, with the probes transmitting valuable data about the atmosphere's conditions. The bus was designed to survive only the upper atmospheric entry and was ultimately destroyed by atmospheric friction after transmitting data until it reached 110 km altitude on December 9, 1978. The total cost of the probes was $83 million.</description>
+    <description>The Pioneer Venus Orbiter was launched in 1978. It studied Venus. It was part of a mission that also consisted of a bus that carried a large probe and three small probes.</description>
   </Instrument_Host>
 </Product_Context>

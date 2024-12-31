@@ -10,17 +10,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -69,6 +69,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER</name>
     <type>Spacecraft</type>
     <naif_host_id>P12</naif_host_id>
-    <description>The Pioneer Venus mission, launched in 1978, consisted of an orbiter and a bus that carried a large probe along with three smaller probes to study the planet Venus.</description>
+    <description>The Pioneer Venus mission was launched in 1978. It studied Venus. It consisted of an orbiter and a bus that carried a large probe and three small probes.</description>
   </Instrument_Host>
 </Product_Context>

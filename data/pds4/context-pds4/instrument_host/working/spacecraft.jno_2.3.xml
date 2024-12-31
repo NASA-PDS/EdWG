@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>2.3</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2020-06-17</modification_date>
         <version_id>2.2</version_id>
         <description>
@@ -40,11 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>2.3</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -163,6 +163,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Juno</name>
     <type>Spacecraft</type>
     <naif_host_id>JNO</naif_host_id>
-    <description>The Juno spacecraft, launched in 2011, conducted studies of Jupiter and its moons.</description>
+    <description>The Juno spacecraft was launched in 2011. It studied Jupiter and its moons.</description>
   </Instrument_Host>
 </Product_Context>

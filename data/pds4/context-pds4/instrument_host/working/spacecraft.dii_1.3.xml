@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.3</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2021-02-24</modification_date>
         <version_id>1.2</version_id>
         <description>
@@ -34,11 +39,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.3</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -141,6 +141,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>DEEP IMPACT IMPACTOR SPACECRAFT</name>
     <type>Spacecraft</type>
     <naif_host_id>DII</naif_host_id>
-    <description>The Deep Impact mission involved the Impactor vehicle being attached to a flyby spacecraft, which were launched together and traveled in tandem until the day before the impact with comet Tempel 1.</description>
+    <description>The Deep Impact Impactor vehicle was attached to the flyby spacecraft and both launched together.  They flew together until one day before the impact event on comet Tempel 1.</description>
   </Instrument_Host>
 </Product_Context>

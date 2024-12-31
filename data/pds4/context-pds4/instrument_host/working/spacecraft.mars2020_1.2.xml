@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2022-02-04</modification_date>
         <version_id>1.1</version_id>
         <description>Added inst mars2020.rover</description>
@@ -18,11 +23,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <modification_date>2021-01-26</modification_date>
         <version_id>1.0</version_id>
         <description>First version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -116,6 +116,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Rover</type>
     <naif_host_id>-168</naif_host_id>
     <!-- Verified by B. Semenov 7/30/20 -->
-    <description>The Mars 2020 mission successfully landed the Perseverance rover in Jezero Crater on February 18, 2021. Its mission is to investigate ancient habitable conditions and search for evidence of past microbial life on Mars, as well as collect soil samples for future return to Earth.</description>
+    <description>             The Mars 2020 mission placed the rover Perseverance on the surface of Mars in Jezero Crater on             February 18, 2021. The rover's instruments search for signs of habitable conditions on Mars in              the ancient past and signs of past microbial life. The rover uses a drill to collect samples              for return to Earth by a future mission.          </description>
   </Instrument_Host>
 </Product_Context>

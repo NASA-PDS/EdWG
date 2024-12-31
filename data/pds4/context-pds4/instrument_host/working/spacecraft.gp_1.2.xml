@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2021-02-24</modification_date>
         <version_id>1.1</version_id>
         <description>
@@ -27,11 +32,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-12-18</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -100,6 +100,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>GALILEO PROBE</name>
     <type>Spacecraft</type>
     <naif_host_id>GP</naif_host_id>
-    <description>The Galileo atmospheric probe will be launched from its orbiter 150 days before reaching Jupiter. It includes a deceleration module and a descent module, which will transmit data from its instruments once it enters Jupiter's atmosphere.</description>
+    <description>The Galileo atmospheric probe will be deployed from the orbiter 150 days prior to Jupiter encounter. The probe consists of a deceleration module and a descent module. After entering the Jovian atmosphere, the descent module begins transmitting data from its instruments.</description>
   </Instrument_Host>
 </Product_Context>

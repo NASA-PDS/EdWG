@@ -10,14 +10,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2021-04-12</modification_date>
-        <version_id>1.0</version_id>
-        <description>Initial export from OLAF</description>
-      </Modification_Detail>
-      <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
         <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2021-04-12</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial export from OLAF</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -42,6 +42,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>Wide-Field Infrared Survey Explorer</name>
     <type>Spacecraft</type>
-    <description>The WISE spacecraft measures 2.85 meters tall, 2 meters wide, 1.73 meters deep, and weighs 661 kilograms. It consists of two main sections: the instrument and the spacecraft bus, which was built by Ball Aerospace &amp; Technologies Corp and includes the integration and testing of the instrument.</description>
+    <description>The WISE spacecraft is about the height and weight of a big polar bear, only wider. It measures 2.85 meters tall (9.35 feet), 2 meters wide (6.56 feet), 1.73 meters deep (5.68 feet) and weighs 661 kilograms (1,433 pounds). It is composed of two main sections: the instrument and the spacecraft bus. The spacecraft bus was built by Ball Aerospace &amp; Technologies Corp, Boulder, Colo. Ball was also responsible for integrating the instrument to the spacecraft bus and testing the completed spacecraft.</description>
   </Instrument_Host>
 </Product_Context>

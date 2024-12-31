@@ -24,11 +24,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <comment>This is the NSSDCA/COSPAR ID.</comment>
       </Alias>
     </Alias_List>
-    <Modification_Detail>
-      <modification_date>2024-10-22</modification_date>
-      <version_id>1.1</version_id>
-      <description>Updated schema version. Adding missing "instrument_host" references. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
-    </Modification_Detail>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-12-29</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "instrument_host" references. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+      </Modification_Detail>
+    </Modification_History>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
