@@ -76,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Investigation>
     <name>Light Italian CubeSat for Imaging of Asteroids</name>
     <type>Mission</type>
-    <start_date>1000-01-01</start_date>
+    <start_date>2021-11-24</start_date>
     <stop_date xsi:nil="true" nilReason="unknown"/>
     <description>The LICIACube mission was a mission of the Agenzia Spaziale Italiana (ASI) that was carried by the Double Asteroid Redirection Test (DART) mission impactor spacecraft to the vicinity of the Didymos system. It was then released 15 days before the DART impact into Dimorphos to observe the impact and aftermath of the collision of DART with Dimorphos.</description>
   </Investigation>
