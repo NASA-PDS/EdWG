@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-07</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "instrument" references. Adding missing "agency" references. Adding missing "telescope" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version exported from OLAF</description>
@@ -18,11 +23,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <modification_date>2020-11-10</modification_date>
         <version_id>1.1</version_id>
         <description>Added references to telescopes</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "instrument" references. Adding missing "agency" references. Adding missing "telescope" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

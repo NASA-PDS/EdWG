@@ -10,16 +10,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-07</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Adding missing "telescope" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2020-07-30</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Written for use with a large set of other DSN context products.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Adding missing "telescope" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
