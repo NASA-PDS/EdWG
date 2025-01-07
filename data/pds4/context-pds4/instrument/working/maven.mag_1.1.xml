@@ -17,16 +17,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2015-03-24</modification_date>
         <version_id>1.0</version_id>
         <description>
                Initial version.
             </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -47,7 +47,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Magnetometer</name>
     <type>Magnetometer</type>
-    <description>The MAVEN magnetic field investigation (MAG) consists of two independent and identical fluxgate magnetometer systems that are interfaced to and controlled by the PFDPU. The particles and fields package is a stack of individual electronics boxes that service each of the instruments; two of the “slices” are occupied by identical magnetometer electronics boxes that service the two magnetometer sensors. Each electronics box is fully shielded and each draws power from the redundant power supplies within the PFP.
-The magnetometer sensors are located at the very end of the solar array panels on modest extensions (.66 m in length) designated as MAG “boomlets”, placing them approximately 5.6 m from the center of the spacecraft body.</description>
+    <description>
+         The MAVEN particles and fields instrumentation form an ensemble of instruments (“Particles and
+         Fields Package”) controlled by a single hardware redundant data processing unit (PFDPU)
+         interfacing to the spacecraft. The MAVEN magnetic field investigation (MAG) consists of two
+         independent and identical fluxgate magnetometer systems that are interfaced to and controlled by the
+         PFDPU. The particles and fields package is a stack of individual electronics boxes that service each
+         of the instruments; two of the “slices” are occupied by identical magnetometer electronics boxes that
+         service the two magnetometer sensors. Each electronics box is fully shielded and each draws power
+         from the redundant power supplies within the PFP.
+         
+         The magnetometer sensors are located at the very end of the solar array panels on modest extensions
+         (.66 m in length) designated as MAG “boomlets”, placing them approximately 5.6 m from the center
+         of the spacecraft body. 
+      </description>
   </Instrument>
 </Product_Context>

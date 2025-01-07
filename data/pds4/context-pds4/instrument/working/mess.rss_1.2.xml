@@ -12,6 +12,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
@@ -24,11 +29,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>
               Revised and streamlined during migration of PDS3 data set to PDS4.
             </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -138,6 +138,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Radio Science</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The telecommunications system uses an X-band transponder on the spacecraft and transmitters and receivers at stations of the NASA Deep Space Network on Earth. Range and Doppler measurements made during communications sessions can be used to determine the spacecraft trajectory; from the trajectory, Mercury's gravity field can be inferred.  Measurements of occultation times can be used to obtain the planet's radius at the occultation points, refining the planet's shape model.</description>
+    <description>
+          The telecommunications system uses an X-band transponder on the spacecraft and
+          transmitters and receivers at stations of the NASA Deep Space Network on Earth.
+          Range and Doppler measurements made during communcations sessions can be used to
+          determine the spacecraft trajectory; from the trajectory, Mercury's gravity field
+          can be inferred.  Measurements of occultation times can be used to obtain the
+          planet's radius at the occultation points, refining the planet's shape model.
+        </description>
   </Instrument>
 </Product_Context>

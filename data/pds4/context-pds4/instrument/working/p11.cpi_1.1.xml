@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -63,6 +63,38 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Charged Particle Telescope-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>This experiment used two telescopes to measure the composition and energy spectra of solar (and galactic) particles above about 0.5 MeV/nucleon. The main telescope consisted of five collinear elements (three solid state, one CsI, and one sapphire Cerenkov) surrounded by a plastic anticoincidence shield. The telescope had a 60-deg, full-angle acceptance cone with its axis approximately normal to the spacecraft spin axis, permitting 8-sectored information on particle arrival direction. Four elements of the main telescope were pulse-height analyzed, and low- and high-gain modes could be selected by command to permit resolution of the elements H through Ni or of electrons and the isotopes of H, He, and light nuclei. A selection-priority scheme was included to permit sampling of less abundant particle species under normal and solar-flare conditions. The low-energy telescope was essentially a two-element, shielded, solid-state detector with a 70-deg, full-angle acceptance cone. The first element was pulse-height analyzed, and data were recorded by sectors. Data include the interplanetary region.</description>
+    <description>
+ 
+  Instrument Overview
+  ===================
+    The charged particle detector had four measuring systems: two
+    particle telescopes that operated in interplanetary space, and two
+    that measured the intense trapped electrons and protons inside the
+    Jovian radiation belts.
+ 
+    During the interplanetary phase of the mission, before and after
+    encounter with Jupiter, the experiment sought to identify the
+    chemical elements hydrogen, helium, lithium, beryllium, boron,
+    carbon, and nitrogen, and to separate hydrogen, deuterium, helium-3
+    and helium-4 in an attempt to differentiate between particles coming
+    from the Sun and those from the Galaxy. The instrument was also used
+    to determine how the streams of high energy particles from the Sun
+    travel through interplanetary space. The main telescope of seven
+    solid-state detectors measured the composition of cosmic rays from 1
+    to 500 million electron volts (MeV), and a three-element, low
+    energy telescope measures 0.4 to 10 MeV protons and helium nuclei.
+ 
+    Two types of sensors were used to cope with the extremely high
+    intensities of trapped radiation in the magnetosphere of Jupiter. A
+    solid-state electron current detector, operating below -40
+    degrees C, was designed to detect those electrons above 3 MeV that
+    generate the decimetric radio waves emitted from Jupiter. A trapped
+    proton detector contains a foil of thorium which undergoes nuclear
+    fission when impacted with protons above 30 MeV, but is insensitive
+    to electrons.
+ 
+  ['Instrument Overview' was adapted from FIMMELETAL p. 52.]
+
+        </description>
   </Instrument>
 </Product_Context>

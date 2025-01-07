@@ -18,15 +18,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-10-16</modification_date>
         <version_id>1.0</version_id>
         <description>Created by the NASA Space Science Data Coordinated Archive. Replaces
                 deprecated instrument context urn:nasa:pds:context:instrument:cdd.pioneer_8.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -62,6 +62,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Pioneer 8 Cosmic Dust Detector</name>
     <type>Dust</type>
-    <description>The Pioneer 8 Cosmic Dust Detector (CDD) was designed to (1) measure the cosmic-dust flux density in the solar system, (2) determine the distribution of cosmic dust concentrations in the earth's orbit, (3) determine the gradient, flux density, and speed of particles in meteor streams, and (4) perform an in-flight control experiment on the reliability of the microphone as a cosmic-dust sensor.</description>
+    <description>The Pioneer 8 Cosmic Dust Detector (CDD) was designed to (1) measure the cosmic-dust flux density in the solar system, (2) determine the distribution of cosmic dust concentrations in the earth's orbit, (3) determine the gradient, flux density, and speed of particles in meteor streams, and (4) perform an in-flight control experiment on the reliability of the microphone as a cosmic-dust sensor. This instrument was identical to the CDD flown on Pioneer 9.</description>
   </Instrument>
 </Product_Context>

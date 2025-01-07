@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -61,6 +61,46 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Magnetometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The magnetometer on Pioneer 10 is a triaxial helium magnetometer with seven dynamic ranges, from plus or minus 2.5 nT to plus or minus 10 gauss. The linearity was 0.1%, and the noise threshold was 0.01% rms for 0-1 Hz. The accuracy was 0.5% of full scale range. In this system, R (or X) is radially outward from the sun, T (or Y) is parallel to the sun's equatorial plane and has its direction given by the cross product of the sun's spin vector into the radial direction (i.e., into R) and N (or Z) completes the right-handed orthogonal system (positive northward).</description>
+    <description>
+ 
+  Instrument Overview
+  ===================
+    Magnetic fields affect the plasma of electrically charged particles
+    in interplanetary space and control the flow of this plasma as it
+    spreads out from the Sun across the orbits of the planets. Before
+    the mission of Pioneer 10 these effects had been only observed and
+    measured out to the orbit of Mars. Scientists were still uncertain
+    about many specific details about the interplanetary medium and
+    particularly the extent to which the Sun's magnetic field controlled
+    the flow of plasma beyond Mars to the outer regions of the Solar
+    System. The outer boundaries of this influence were vague, and
+    interactions between the plasma and fields of the Solar System and
+    those of the Galactic System puzzled scientists. Pioneer 10 and
+    Pioneer 11 explored the regions beyond the orbit of Jupiter and made
+    measurements that helped to define the transition region of solar
+    influence (heliosphere).
+ 
+    This experiment used a sensitive magnetometer at the tip of a
+    lightweight boom, which extended 6.6 meters from the center of the
+    spacecraft to reduce the effects of the residual spacecraft magnetic
+    field, and to assist the balance of this spin stabilized spacecraft.
+    The helium vector magnetometer measured the fine structure of the
+    interplanetary field, maped the Jovian field, and provided field
+    measurements to evaluate solar wind interaction with Jupiter. The
+    magnetometer operated in one of eight different ranges, the lowest
+    of which covered magnetic fields from +/-0.01 to +/-4.0 gamma; the
+    highest, fields up to +/-140,000 gamma (i.e. +/-l.4 Gauss). The
+    ranges were selected by ground command or automatically by the
+    instrument itself as it reached the limits of a given range.
+ 
+    The sensor for the magnetometer consisted of a cell filled with
+    helium that is excited by electrical discharge at radio frequencies
+    and infrared optical pumping. Changes in helium absorption caused by
+    magnetic fields passing through the magnetometer are measured by an
+    infrared optical detector.
+ 
+  ['Instrument Overview' was adapted from FIMMELETAL pp. 49-50.]
+
+        </description>
   </Instrument>
 </Product_Context>

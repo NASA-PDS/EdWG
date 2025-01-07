@@ -22,6 +22,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2022-06-22</modification_date>
         <version_id>1.1</version_id>
         <description>Updated LID, fixes to instrument type and XML preamble, minor edits.</description>
@@ -32,11 +37,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>
           Initial version taken from SBN's review version
         </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -76,6 +76,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Dust Analyzer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The Lunar Dust Experiment is an in situ instrument designed to characterize the dust exosphere by mapping the size and spatial distributions of dust grains in the lunar environment as a function of local time and the position of the Moon with respect to the magnetosphere of the Earth.</description>
+    <description>
+The Lunar Dust Experiment is an in situ instrument designed to characterize
+the dust exosphere by mapping the size and spatial distributions of dust
+grains in the lunar environment as a function of local time and the position
+of the Moon with respect to the magnetosphere of the Earth. 
+    </description>
   </Instrument>
 </Product_Context>

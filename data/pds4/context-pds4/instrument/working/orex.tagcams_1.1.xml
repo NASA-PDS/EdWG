@@ -12,14 +12,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2018-03-14</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -49,7 +49,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>TAGCAMS</name>
     <type>Imager</type>
-    <description>The Touch-and-Go Camera System (TAGCAMS) is part of the guidance, navigation, and control system on OSIRIS-REx, and provides imaging to aid in navigation to and around Bennu, to aid in sample acquisition, and to confirm sample stowage. 
-TAGCAMS consists of two redundant Navigation Cameras, or “NavCams,” and the single “StowCam.”</description>
+    <description>The Touch-and-Go Camera Suite (TAGCAMS) consists of three similar camera heads, each suited
+         for a particular purpose. The Navigation Camera (NavCam) is a wide-angle framing camera used for 
+         optical navigation. The Natural Feature Tracking Camera NFTCam) is a second framing camera used for 
+         landmark identification and autonomous feature tracking to aid in sample acquisition. Finally, the 
+         Stowage Camera (StowCam) is used to document the insertion of the sample collection head into the Sample 
+         Return Capsule (SRC). The OSIRIS-REx Science Processing and Operation Center located at the University 
+         of Arizona produces these data products and distributes them to the OSIRIS-REx Flight Dynamics Team, the 
+         Lockheed Martin Mission Support Area, the Science Team and the Planetary Data System.
+        </description>
   </Instrument>
 </Product_Context>

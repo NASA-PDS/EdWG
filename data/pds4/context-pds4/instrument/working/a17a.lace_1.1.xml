@@ -18,16 +18,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-12-16</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Created by the NASA Space Science Data Coordinated Archive.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -90,6 +90,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Spectrometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The Apollo 17 Lunar Atmospheric Composition Experiment (LACE) was a miniature magnetic deflection mass spectrometer designed to study the composition and variations in the lunar atmosphere. Part of the Apollo Lunar Surface Experiments Package (ALSEP), LACE was deployed on the lunar surface and oriented to intercept and measure the downward flux of gases.</description>
+    <description>
+              The Apollo 17 Lunar Atmospheric Composition Experiment (LACE) was a miniature magnetic
+              deflection mass spectrometer designed to study the composition and variations in the
+              lunar atmosphere. Part of the Apollo Lunar Surface Experiments Package (ALSEP), LACE
+              was deployed on the lunar surface and oriented to intercept and measure the downward
+              flux of gases.
+        </description>
   </Instrument>
 </Product_Context>

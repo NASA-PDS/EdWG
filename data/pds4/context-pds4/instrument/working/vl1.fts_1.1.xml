@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -52,6 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Thermometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The entry science atmospheric structure experiment (one of three that were part of the entry science investigation) studied the Martian atmosphere below an altitude of 132 km. A variety of instruments (accelerometers, radar altimeters, thermometers, pressure sensors) collected data to provide altitude profiles of pressure and temperature of the atmosphere and acceleration of the lander capsule. From these data, atmospheric density and mean atomic mass can be calculated.</description>
+    <description>
+NOT PROVIDED
+
+        </description>
   </Instrument>
 </Product_Context>

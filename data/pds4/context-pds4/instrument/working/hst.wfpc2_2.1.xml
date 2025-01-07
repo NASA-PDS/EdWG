@@ -21,6 +21,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2021-02-24</modification_date>
         <version_id>1.0</version_id>
         <description>
@@ -38,11 +43,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Added Internal_Reference classes for the data and instrument handbooks for the WFPC2
                     Added the alternate ID for the abbreviation, WFPC2.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>2.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

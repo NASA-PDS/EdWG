@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -62,6 +62,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Plasma Instrument. From JSH's xl file-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The instrument consisted of dual 90-deg quadraspherical electrostatic analyzers, one with 26 individual particle detectors and the other with 5 current collectors. The system was capable of measuring incident plasma distribution parameters over the energy range 0.1 to 18 keV for protons and approximately 1-500 eV for electrons. The high-resolution analyzer, with a constant of 9 keV/Q per kV applied to the plates, had a mean plate radius of 9 cm and separation of 0.5 cm. This analyzer which was used to measure ions. A medium-energy analyzer with a mean radius of 12 cm and a 1-cm plate separation (constant of 6 keV/Q per kV applied) was used to detect both ions and electrons. There were a variety of possible operating modes for the experiment; however, the principal mode utilized during the encounter phase was one in which the analyzer plate potential was stepped through its range every one-half revolution of the spacecraft, and all current collectors or channeltrons were read out at the peak flux roll angle. The high- and medium-resolution analyzers operated independently, so that a cross-check between these analyzers was possible. The dynamic range for the particle fluxes was from 1.0E+2 to 3.0E+9/(sq cm-s) and the proton temperature could be ascertained down to 2.0E+3 deg K.</description>
+    <description>
+ 
+  Instrument Overview
+  ===================
+    The plasma analyzer instrument carried by the Pioneer 10 spacecraft
+    looked toward the Sun through a hole in the spacecraft's large
+    dish-shaped antenna. The solar wind entered the plasma analyzer
+    apertures between 2 quadraspherical plates where the direction of
+    arrival, the energy, and the number of ions and electrons making up
+    the solar wind were measured.
+ 
+    The instrument had a high resolution and a medium resolution
+    analyzer to detect particles of different energy levels. Energies of
+    these particles were described in terms of electron volts (eV).
+ 
+    A voltage was applied across the quadraspherical plates in a maximum
+    of 64 steps, at a rate of one step per spacecraft revolution, to
+    count particles in discrete energy ranges. Direction of particle
+    travel was found from the way the instrument was pointed and from
+    the particular target within the instrument that detected it.
+ 
+    The high resolution analyzer had 26 continuous-channel multipliers
+    (CCM) to measure the number of ions per second between 100 and 8,000
+    electron volts. The medium resolution analyzer had five
+    electrometers to count ions of 100 to 18,000 electron volts and
+    electrons of 1 to 500 electron volts.
+ 
+  ['Instrument Overview' was adapted from FIMMELETAL p. 50-51.]
+
+        </description>
   </Instrument>
 </Product_Context>

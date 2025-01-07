@@ -12,14 +12,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2018-03-14</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -47,6 +47,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>OLA</name>
     <type>Altimeter</type>
-    <description>The OLA is designed to measure the shape of asteroid Bennu at high spatial resolution to provide insights into the geology, origin, and evolution of the asteroid.</description>
+    <description>The OSIRIS-REx Laser Altimeter (OLA) is a two-axis scanning lidar (Light Detection and Ranging) instrument that will
+         provide high-resolution topographical information throughout the entire mission. OLA has a single common receiver and two 
+         complementary transmitter assemblies, which enhance the resolution of its data. OLA’s high-energy laser transmitter (HELT) 
+         is used for ranging and mapping from 1 to 7.5 km and collects returns at 100Hz. The low-energy laser transmitter (LELT) collects
+         returns at 10kHz and is used for ranging and imaging at smaller distances (~200 m to 1 km). The repetition rate of these
+          transmitters sets the data acquisition rate of OLA. Laser pulses from both the low and high energy transmitters are directed onto 
+          movable scanning mirror, which is co-aligned with the field of view of the receiver telescope limiting the effects of background 
+          solar radiation. Each pulse provides target range, azimuth, elevation, received intensity and a time-tag.
+        </description>
   </Instrument>
 </Product_Context>

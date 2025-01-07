@@ -12,14 +12,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2018-03-14</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -49,6 +49,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>OVIRS</name>
     <type>Spectrometer</type>
-    <description>The OVIRS is designed to provide spectral maps of inorganic and organic substances on the surface of asteroid Bennu.</description>
+    <description>The OSIRIS Visible and near-IR Spectrometer (OVIRS) is a point spectrometer with a 4-mrad field of view (FOV)
+         that provides spectra over the wavelength range of 0.4 – 4.3 μm to map the visible and near infrared characteristics of 
+         the surface of the asteroid (101955) Bennu. It employs wedged filters (also called a linear variable filter) to provide 
+         the spectrum. A wedged filter is a two-dimensional spectral filter in which the wavelength of transmitted light varies in 
+         a well-defined fashion with position along one of the spatial dimensions.
+        </description>
   </Instrument>
 </Product_Context>

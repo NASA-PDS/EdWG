@@ -20,14 +20,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2018-10-12</modification_date>
         <version_id>1.0</version_id>
         <description>Post-peer-review version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -49,6 +49,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Auxiliary Payload Sensor Subsystem Pressure Sensor</name>
     <type>Atmospheric Sciences</type>
     <subtype>Meteorology</subtype>
-    <description>The PS instrument is part of the InSight Auxiliary Payload Sensor Subsystem (APSS), in charge of collecting environmental data in support of the SEIS instrument, also onboard the InSight lander, as well as to provide helpful data for the safe deployment of the hardware to the Martian surface. Data from PS will be used by SEIS to reduce and decorrelate atmospheric effects from seismic signals.</description>
+    <description>The PS instrument is part of the InSight Auxiliary Payload Sensor Subsystem (APSS), 
+            in charge of collecting environmental data in support of the SEIS instrument, also onboard the InSight lander, 
+            as well as to provide helpful data for the safe deployment of the hardware to the Martian surface. Data from 
+            PS will be used by SEIS to reduce and decorrelate atmospheric effects from seismic signals.
+        </description>
   </Instrument>
 </Product_Context>

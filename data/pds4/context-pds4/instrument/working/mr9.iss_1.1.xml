@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -52,6 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>This experiment consisted of a 2-in. vidicon television camera which transmitted photography from Mars. It was a photometrically calibrated instrument providing overlapping, selectively filtered, low-resolution pictures and broadband (unfiltered) high-resolution pictures, each nested in a low-resolution overlap. Both types of pictures had approximately a 700- by 380-element format, and an order-of-magnitude difference in resolution between them. Resolution of 500 m/TV line and 50 m/TV line resulted from low (11 deg by 14 deg) and high (1.1 deg by 1.4 deg) resolution pictures taken at a periapsis altitude of 2000 km.</description>
+    <description>
+NOT PROVIDED
+
+        </description>
   </Instrument>
 </Product_Context>

@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -61,7 +61,28 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Energetic Particle Detector-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>Using five different types of telescopes, the trapped radiation detector was designed to provide basic information about several of the fundamental features of Jupiter's radiation belts including the types of particles within the belts, their distribution, energy, and intensity.
-An unfocused Cerenkov counter detected the light emitted in a particular direction as particles passed through it. It recorded electrons of energy 0.5 to 12 MeV. An electron scatter detector was activated by electrons at 100 to 400 keV. A minimum ionizing detector, consisting of a solid-state diode, measured minimum ionizing particles (i.e., less than 3 MeV) and protons in the range of 50 to 350 MeV. Finally, two scintillation detectors distinguished roughly between electrons of less than 5 and protons of less than 50 keV.</description>
+    <description>
+ 
+  Instrument Overview
+  ===================
+    Using five different types of telescopes, the trapped radiation
+    detector was designed to provide basic information about several of
+    the fundamental features of Jupiter's radiation belts including the
+    types of particles within the belts, their distribution, energy, and
+    intensity.
+ 
+    An unfocused Cerenkov counter detected the light emitted in a
+    particular direction as particles passed through it. It recorded
+    electrons of energy 0.5 to 12 MeV. An electron scatter detector was
+    activated by electrons at 100 to 400 keV. A minimum ionizing
+    detector, consisting of a solid-state diode, measured minimum
+    ionizing particles (i.e., less than 3 MeV) and protons in the range
+    of 50 to 350 MeV. Finally, two scintillation detectors distinguished
+    roughly between electrons of less than 5 and protons of less than
+    50 keV.
+ 
+  ['Instrument Overview' was adapted from FIMMELETAL pp. 53-54.]
+
+        </description>
   </Instrument>
 </Product_Context>

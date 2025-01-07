@@ -17,16 +17,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2015-03-24</modification_date>
         <version_id>1.0</version_id>
         <description>
                Initial version.
             </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -47,6 +47,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Imaging Ultraviolet Spectrograph</name>
     <type>Ultraviolet Spectrometer</type>
-    <description>IUVS is an imaging ultraviolet spectrograph which simultaneously images far ultraviolet (FUV) and middle ultraviolet (MUV) spectra onto paired Hamatsu V5180M image intensifiers with Cypress CYIH1SM1000AA-HHCS CMOS array detectors. Second order (110-190nm) light from the beamsplitter is measured by the FUV detector (with a CsI photocathode and MgF2 window) while first-order (180-340 nm) light is transmitted to the MUV detector (with a CsTe photocathode and synthetic silica window). A spectral resolution of 0.6 nm and 1.2 nm is achieved for the FUV and MUV, respectively.</description>
+    <description>
+         IUVS is an imaging ultraviolet spectrograph which simultaneously images far ultraviolet (FUV) and
+         middle ultraviolet (MUV) spectra onto paired Hamatsu V5180M image intensifiers with Cypress 
+         CYIH1SM1000AA-HHCS CMOS array detectors. Second order (110-190nm) light from the beamsplitter is 
+         measured by the FUV detector (with a CsI photocathode and MgF2 window) while first-order (180-340 
+         nm) light is transmitted to the MUV detector (with a CsTe photocathode and synthetic silica window). 
+         A spectral resolution of 0.6 nm and 1.2 nm is achieved for the FUV and MUV, respectively.   
+      </description>
   </Instrument>
 </Product_Context>

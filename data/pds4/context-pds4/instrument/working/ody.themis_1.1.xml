@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:ody.themis</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Thermal Emission Imaging System</title>
+    <title>THERMAL EMISSION IMAGING SYSTEM for ODY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -18,6 +18,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2023-09-15</modification_date>
         <version_id>1.0</version_id>
         <description> Update to ody.themis and set alias to the original themis.ody. 
@@ -25,11 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     And per "Guide to PDS4 Context Products" v1.8, changed all lidvid_reference to lid_reference.
                     Added and then updated (2024-06-05) ctli for Instrument class, type = Imaging Spectrometer  
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -65,7 +65,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>THEMIS</name>
+    <name>THERMAL EMISSION IMAGING SYSTEM</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imaging Spectrometer</ctli:type>

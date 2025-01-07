@@ -12,14 +12,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2018-06-01</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -46,6 +46,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>InSight Deployment Camera</name>
     <type>Imager</type>
     <serial_number>210</serial_number>
-    <description>The InSight Deployment Camera (IDC) instrument has a narrow angle lens and is mounted near the elbow of the robotic arm. It can be articulated by moving the arm and elbow. Stereo imagery is achieved by taking a pair of images with known separation and sufficient overlap. The IDC’s optics are based on Mars Science Laboratory’s Navcam instrument. Images from the IDC are structured the same as images from the InSight Context Camera (ICC), and are treated similarly by both the flight software (FSW) and the ground system (GDS).</description>
+    <description>The InSight Deployment Camera (IDC) instrument has a narrow angle lens and is mounted near the elbow of the robotic arm. It can be articulated by
+            moving the arm and elbow. Stereo imagery is achieved by taking a pair of images with known separation and sufficient overlap. The IDC’s optics are based on 
+            Mars Science Laboratory’s Navcam instrument. Images from the IDC are structured the same as images from the InSight Context Camera (ICC), and are treated 
+            similarly by both the flight software (FSW) and the ground system (GDS).
+        </description>
   </Instrument>
 </Product_Context>

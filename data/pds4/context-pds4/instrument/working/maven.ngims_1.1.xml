@@ -17,16 +17,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2015-03-24</modification_date>
         <version_id>1.0</version_id>
         <description>
                Initial version.
             </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -47,6 +47,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Neutral Gas and Ion Mass Spectrometer</name>
     <type>Mass Spectrometer</type>
-    <description>The MAVEN Neutral Gas and Ion Mass Spectrometer (NGIMS) is a high sensitivity quadrupole mass spectrometer with a mass range of 2 to 150 Dalton and unit mass resolution. The sensor of the NGIMS instrument has a high heritage from the Neutral Gas and Ion Mass Spectrometer (NGIMS) developed for the CONTOUR mission and the Neutral Mass Spectrometer (NMS) developed for the LADEE Mission. This mass spectrometer is similar to the Cassini Ion and Neutral Mass Spectrometer (INMS) designed and developed at GSFC. The MAVEN NGIMS instrument was modified from the heritage CONTOUR NGIMS instrument to increase the instrument sensitivity, field of view and overall operational flexibility.</description>
+    <description>
+         The MAVEN Neutral Gas and Ion Mass Spectrometer (NGIMS) is a high sensitivity quadrupole
+         mass spectrometer with a mass range of 2 to 150 Dalton and unit mass resolution. The sensor 
+         of the NGIMS instrument has a high heritage from the Neutral Gas and Ion Mass Spectrometer 
+         (NGIMS) developed for the CONTOUR mission and the Neutral Mass Spectrometer (NMS) developed 
+         for the LADEE Mission. This mass spectrometer is similar to the Cassini Ion and Neutral Mass 
+         Spectrometer (INMS) designed and developed at GSFC. The MAVEN NGIMS instrument was modified 
+         from the heritage CONTOUR NGIMS instrument to increase the instrument sensitivity, field of 
+         view and overall operational flexibility. 
+      </description>
   </Instrument>
 </Product_Context>

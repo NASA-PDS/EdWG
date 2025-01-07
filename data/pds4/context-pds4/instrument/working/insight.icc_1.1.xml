@@ -12,14 +12,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2018-06-01</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -46,6 +46,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>InSight Context Camera</name>
     <type>Imager</type>
     <serial_number>203</serial_number>
-    <description>The InSight Context Camera (ICC) instrument is fix-mounted on the body of the lander with a wide angle lens and a view of the arm workspace and some of the sky. The ICC’s optics are based on Mars Science Laboratory’s Hazcam instrument. Images from the ICC are structured the same as images from the InSight Deployment Camera (IDC), and are treated similarly by both the flight software (FSW) and the ground system (GDS).  Because of the fixed nature of the camera, stereo is not possible with ICC.</description>
+    <description>The InSight Context Camera (ICC) instrument is fix-mounted on the body of the lander with a wide angle lens and
+            a view of the arm workspace and some of the sky. The ICC’s optics are based on Mars Science Laboratory’s Hazcam instrument. 
+            Images from the ICC are structured the same as images from the InSight Deployment Camera (IDC), and are treated similarly 
+            by both the flight software (FSW) and the ground system (GDS).  Because of the fixed nature of the camera, stereo is not 
+            possible with ICC.
+        </description>
   </Instrument>
 </Product_Context>

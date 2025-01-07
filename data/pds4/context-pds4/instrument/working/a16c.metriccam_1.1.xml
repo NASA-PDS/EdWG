@@ -26,14 +26,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-12-20</modification_date>
         <version_id>1.0</version_id>
         <description>Created by the NASA Space Science Data Coordinated Archive.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -74,6 +74,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Imager</type>
     <naif_instrument_id>-916240</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The Apollo 16 Metric (Mapping) Camera obtained high-quality metric photographs, on black and white film, with high geometric precision of the lunar surface from lunar orbit combined with time-correlated stellar photography for selenodetic/cartographic control. A laser altimeter was operated with it. The Metric Camera also provided supporting photographic data for the Scientific Instrument Module (SIM) Panoramic Camera and other Command Service Module (CSM) photographic experiments. he Apollo 16 Metric Camera took 2514 frames of lunar surface imagery. Another 927 frames were exposed over unlighted areas in support of the laser altimeter experiment.</description>
+    <description>The Apollo 16 Metric (Mapping) Camera obtained high-quality metric photographs, on black and white film, with high geometric precision of the lunar surface from lunar orbit combined with time-correlated stellar photography for selenodetic/cartographic control. A laser altimeter was operated with it. The Metric Camera also provided supporting photographic data for the Scientific Instrument Module (SIM) Panoramic Camera and other Command Service Module (CSM) photographic experiments. he Apollo 16 Metric Camera took 2514 frames of lunar surface imagery. Another 927 frames were exposed over unlighted areas in support of the laser altimeter experiment. This description was provided by the NASA Space Science Data Coordinated Archive.</description>
   </Instrument>
 </Product_Context>

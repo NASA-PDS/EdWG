@@ -18,16 +18,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-09-20</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Created by the NASA Space Science Data Coordinated Archive.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -76,6 +76,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Particle Detector</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>Apollo 14 Suprathermal Ion Detector Experiment (SIDE) measured the energies and masses of positive ions reaching the lunar surface, including magnetospheric ions and those generated from ultraviolet ionization of the lunar atmosphere and from the free-streaming solar wind/lunar surface interaction.</description>
+    <description>
+              Apollo 14 Suprathermal Ion Detector Experiment (SIDE) measured the energies and masses
+              of positive ions reaching the lunar surface, including magnetospheric ions and those
+              generated from ultraviolet ionization of the lunar atmosphere and from the
+              free-streaming solar wind/lunar surface interaction.
+        </description>
   </Instrument>
 </Product_Context>

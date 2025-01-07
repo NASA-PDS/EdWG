@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -55,6 +55,41 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The Mars Color Imager (MARCI) is designed monitor the martian atmosphere to characterize variations in Mars' weather and climate on daily, seasonal, and longer-terms. It will also detect variations on ozone, dust, and carbon dioxide, observe dust storms, and monitor changes in the polar caps. MARCI will provide images in five visible and two ultraviolet bands.</description>
+    <description>
+ 
+The instrument overview provided here is the summary description from
+the EDR SIS (in the document directory).  [MALINETAL2001] describes
+the Mars Climate Orbiter MARCI; currently there is no published MRO-
+MARCI paper, but a paper describing the investigation is being written
+and may be included on future archive volumes.
+ 
+  Instrument Overview
+  ===================
+    MARCI is a framing camera with a 1024x1024 pixel interline
+    transfer CCD (Kodak KAI-1001) with 9x9 micron pixels.  MARCI has
+    two  all-refractive 180-degree 'fisheye' lenses, one optimized for
+    the visible and near-IR and one for the UV bands.  The beams from
+    these two lenses are brought to the CCD  through  a prism.  A
+    color filter array with seven dif- ferent bandpasses (five
+    visible/near-IR and two UV) is directly  bonded to the CCD.  A
+    typical image consists of seven 'framelets', each 1024 pixels wide
+    and 16 pixels high, in each of these bandpasses.  The visible
+    bands can be optionally summed; the UV bands are always summed
+    8x8.  The visible resolution from 300 km is about 1 km/pixel at
+    nadir.
+ 
+    The core of the MARCI electronics is a Motorola 56166 DSP, which
+    interfaces to the spacecraft, generates the CCD clocks, and
+    received digitized pixels from an Analog Devices AD1672 analog-to-
+    digital converter.  Both lossless and lossy image data compression
+    can be applied by software running in the spacecraft computer.
+ 
+    MARCI was originally designed for the Mars Climate Orbiter
+    mission.  For MRO, a separate subsystem, the MARCI Interface
+    Adapter or MIA, was designed and built to translate the MRO
+    command/data protocol into a form that could be interpreted by the
+    heritage MARCI hardware.
+
+        </description>
   </Instrument>
 </Product_Context>

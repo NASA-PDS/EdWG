@@ -12,6 +12,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
@@ -28,11 +33,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     values, added intstrument subtype, and did edits to the
                     description field.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -64,8 +64,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Mercury Laser Altimeter</name>
     <type>Altimeter</type>
     <subtype>Laser Altimeter</subtype>
-    <description>The Mercury Laser Altimeter (MLA) ranged to the surface only during the periapsis of the 12-hour orbit, limited by its 1800-km maximum range. During the final months of the mission, the spacecraft altitude was reduced and MLA took measurements at altitudes as low as 25 km. 
-The MLA was a bi-static system, meaning that it consisted of separate transmitter and receiver systems. The transmitter used a diode-pumped, Nd:YAG slab laser. The laser output was 20 mJ per pulse at 1064-nm wavelength. The instrument measured the time required for the light to reach the surface and return. 
-MLA performed active and passive radiometric measurements in a narrow spectral band centered at 1064 nm. The active measurement employed a dual-threshold measurement of pulse width to infer the area and width of the return pulse. The pulse area, together with a transmit energy monitor, provided the reflectivity of the target within a 0.08-mrad-diameter laser spot. The passive measurement employed the noise counters and threshold settings on the detector subsystem to infer radiance from a 0.4-mrad-diameter field of view.</description>
+    <description>
+          The Mercury Laser Altimeter (MLA) was one of the primary instruments
+          on NASA's MErcury Surface, Space ENvironment, GEochemistry and
+          Ranging (MESSENGER) mission, under NASA's Discovery Program. MLA
+          ranged to the surface only during the periapsis of the 12-hour
+          orbit, limited by its 1800-km maximum range. During the final
+          months of the mission, the spacecraft altitude was reduced and MLA
+          took measurements at altitudes as low as 25 km. 
+          
+          The MLA was a bi-static system, meaning that it consisted of separate
+          transmitter and receiver systems. The transmitter used a diode-
+          pumped, Nd:YAG slab laser. The laser output was 20 mJ per pulse at
+          1064-nm wavelength. The instrument measured the time required for
+          the light to reach the surface and return. 
+          
+          MLA performed active and passive radiometric measurements in a
+          narrow spectral band centered at 1064 nm. The active measurement
+          employed a dual-threshold measurement of pulse width to infer the
+          area and width of the return pulse. The pulse area, together with a
+          transmit energy monitor, provided the reflectivity of the target
+          within a 0.08-mrad-diameter laser spot. The passive measurement
+          employed the noise counters and threshold settings on the detector
+          subsystem to infer radiance from a 0.4-mrad-diameter field of view. 
+        </description>
   </Instrument>
 </Product_Context>
