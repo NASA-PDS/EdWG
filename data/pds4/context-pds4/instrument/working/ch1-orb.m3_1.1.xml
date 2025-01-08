@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -123,6 +123,108 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Imaging Spectrometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The Moon Mineralogy Mapper (M3 or "M-cubed") is an imaging spectrometer designed to map the mineral content of the Moon's surface. The primary scientific objectives are to characterize and map the lunar surface composition in the context of its geologic evolution and to assess the Moon's mineral resources at high resolution with the goals of studying the origin and evolution of the lunar crust and mantle, identifying and assessing deposits containing volatile species, and identifying and evaluating concentrations of unusual or unexpected minerals.</description>
+    <description>
+ 
+ 
+  The following text summarizes the NASA public website for the
+  Moon Mineralogy Mapper, http://m3.jpl.nasa.gov/.
+ 
+ 
+  Instrument Overview
+  ===================
+    The Moon Mineralogy Mapper (M3) was a near-infrared imaging
+    spectrometer of the pushbroom type on-board the Indian Space
+    Research Organization's (ISRO) Chandrayaan-1 spacecraft that
+    launched on 22 October 2008.  M3 measured the spectral range from
+    430 to 3000 nm, had a 40-km-wide field of view from a 100-km orbit,
+    and operated in a high resolution (70 m/pixel) target mode or a
+    lower resolution (140 m/pixel) global mode.
+ 
+    Originally scheduled to make target and global observations from a
+    100-km circular polar obit for two years, the first M3 imaging data
+    were acquired on 18 and 19 November 2008 using both the global and
+    target imaging modes.  Several days later on 22 November, M3 acquired
+    its first scientific images of Oriental Basin.  Data acquisition from
+    the 100-km primary science orbit continued into May 2009.  On 19 May,
+    the Chandrayaan-1 spacecraft was raised to a 200-km to compensate for
+    star tracker failures and orbiter temperatures that were higher than
+    expected.  On 28 August 2009 ISRO abruptly lost radio contact with the
+    Chandrayaan-1 spacecraft and officially terminated the mission three
+    days later.  After ten months in operation, M3 had obtained over 4.6
+    billion spectra of the lunar surface, and its low resolution spatial
+    coverage encompassed nearly the entire Moon.
+ 
+    The instrument was funded by NASA's Discovery Mission of Opportunity
+    program and was designed, built, and tested by a partnership between
+    Jet Propulsion Laboratory and Brown University, USA.  Preliminary
+    results are presented by Pieters, et al. (2009b) [PIETERSETAL2009B]
+    and Pieters, et al. (2009c) [PIETERSETAL2009C].
+ 
+ 
+  Instrument Characteristics
+  ==========================
+    M3 was a near-infrared imaging spectrometer with a compact system of
+    optics in the Offner design which produces little or not optical
+    distortion, either spatially or spectrally.  The instrument included
+    a robust on-board calibrator and was cooled by a multi-stage passive
+    cooler.
+ 
+    M3 was designed to operate in two distinct modes. The target mode was
+    used for full resolution imaging of specific science targets, and the
+    global mode was used for low resolution global imaging.  M3 used a
+    pushbroom method in which the field of view was passively swept through
+    the lunar scene below it, along a line perpendicular to the slit,
+    simultaneously exposing all 600 spatial pixels in an entire row using
+    260 spectral channels (in target mode).
+ 
+    The characteristics of the instrument are summarized here:
+ 
+      Telescope             : f/2.7, all-aluminum optics
+      Grating               : Single dual-blaze electron-beam grating
+      Detector              : Single two-dimensional HgCdTe array
+      Mass                  : 8 kg
+      Volume                : 25 x 18 x 21 cm
+      Power                 : 15 W
+      Spectral Range        : 430 - 3000 nm
+      Field of View         : 40 km (both modes) from a 100-km orbit
+      Imaging Modes         : Target : 600 pixel crosstrack
+                                       70 m/pix spatial at 100-km orbit
+                                       260 bands (10-nm width)
+                                       ~12-deg latitudinal swaths
+                            : Global : 300 pixel crosstrack
+                                       140 m/pix spatial at 100-km orbit
+                                       85 bands (20- &amp; 40-nm width selected)
+                                       ~145-deg latitudinal swaths
+      Spectral Response     : FWHM &lt; 12.5 nm (target mode in lab)
+      Spatial Response      : FWHM &lt; 1.0 mrad (target mode in lab)
+      Spatial Sampling      : 0.7 mrad (target mode in lab)
+      Signal-to-Noise Ratio : &gt;400 at the equator (0-deg solar zenith)
+                              &gt;100 at polar regions (80-deg solar zenith)
+ 
+    For more information about the M3 instrument, see Green, et al.
+    (2008a) [GREENETAL2008A], Green, et al. (2008b) [GREENETAL2008B],
+    Green, et al. (2009) [GREENETAL2009], and Petro, et al. (2008)
+    [PETROETAL2008], and Pieters, et al. (2009a) [PIETERSETAL2009A].
+ 
+ 
+  Scientific Objectives
+  =====================
+    The specific scientific objectives of the M3 instrument were to:
+ 
+    - Evaluate the primary components of the lunar crust and their
+      distribution across the highlands,
+ 
+    - Characterize the diversity and extent of the different types of
+      basaltic volcanism,
+ 
+    - Identify and access deposits containing volatiles including water,
+ 
+    - Map fresh craters to access the properties of impacts in the
+      recent past, and
+ 
+    - Identify and evaluate concentrations of unusual and unexpected
+      minerals.
+
+        </description>
   </Instrument>
 </Product_Context>

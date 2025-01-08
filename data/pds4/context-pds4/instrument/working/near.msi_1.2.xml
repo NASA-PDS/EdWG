@@ -3,7 +3,7 @@
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:msi.near</logical_identifier>
     <version_id>1.2</version_id>
@@ -11,6 +11,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
       <Modification_Detail>
         <modification_date>2023-05-11</modification_date>
         <version_id>1.1</version_id>
@@ -26,11 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -75,6 +75,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-93001</naif_instrument_id>
-    <description>The NEAR multispectral imaging system (MSI) is based on a 537x244 pixel CCD camera with eight filters covering the spectral range from 0.4 to 1.1 microns.  It is designed to take images with the scientific objectives of mapping asteroid morphology and surface composition, determining the overall size, shape, and spin characteristics.</description>
+    <description>
+            The main goals of the NEAR Multi-Spectral Imager (MSI) were to determine the shape 
+            of Eros and to map the mineralogy and morphology of features on its surface at high 
+            spatial resolution. MSI was a 537 x 244 pixel charge-coupled device camera with 
+            five-element radiation-hardened refractive optics. It covered the spectral range from 
+            0.4 to 1.1 microns, and it had an eight-position filter wheel. Seven narrow-band 
+            filters were chosen to discriminate the major iron-bearing silicates present (olivine        
+            and pyroxene); the eight, broad-band filter was for fast exposures and high sensitivity, 
+            including optical navigation.  The camera had an FOV of 2.93 x 2.26 degrees and a pixel 
+            resolution of 96 x 162 microrad. It had a maximum framing rate of 1 per second with 
+            images digitized to 12 bits and a dedicated digital processing unit with an image buffer          
+            in addition to both lossless and lossy on-board image compression.
+        </description>
   </Instrument>
 </Product_Context>

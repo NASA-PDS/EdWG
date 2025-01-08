@@ -12,6 +12,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
@@ -19,25 +24,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     modified to comply with PDS4 Information Model
                 </description>
       </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
-      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>instrument_to_agency</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.pre-magellan</lid_reference>
-      <reference_type>instrument_to_investigation</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.viking</lid_reference>
-      <reference_type>instrument_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.vo2</lid_reference>
@@ -71,6 +63,471 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The Viking visual imaging subsystem (VIS) consisted of twin high-resolution, slow-scan television framing cameras mounted on the scan platform of each orbiter with the optical axes offset by 1.38 deg. The two cameras, including their housing, were 21.8 x 21.8 x 94.0 cm in size and had a mass of 40 kg. The VIS had four primary functions: to aid in the selection of landing sites that were both safe and scientifically interesting, to observe large scale features of the landing sites for correlation with lander data from the surface, to observe and map the planet for subsequent study of the geologic features of the planet, and to investigate the atmosphere of Mars. Individual images are identified by picture number (PICNO), which is a unique identifier of the scene. Elements of the PICNO are as follows: the first three digits denote the revolution (REV) during which the image was shuttered; the letter A is Viking Orbiter 1, B is Viking Orbiter 2; and the last two digits are the frame number.</description>
+    <description>
+              Online Reference: http://www-pdsimage.wr.usgs.gov/PDS/public/mapmaker/mapmkr.htm
+
+ 
+ 
+        INSTRUMENT: VISUAL IMAGING SUBSYSTEM - CAMERA B
+        SPACECRAFT: VIKING ORBITER 2
+ 
+ 
+    Instrument Information
+    ======================
+      Instrument Id                  : VISB
+      Instrument Host Id             : VO2
+      Pi Pds User Id                 : MCARR
+      Instrument Name                : VISUAL IMAGING SUBSYSTEM -
+                                       CAMERA B
+      Instrument Type                : VIDICON CAMERA
+      Build Date                     : 1974-05-01
+      Instrument Mass                : 22.700000
+      Instrument Length              : 0.937000
+      Instrument Width               : 0.218000
+      Instrument Height              : 0.218000
+      Instrument Serial Number       : SN06
+      Instrument Manufacturer Name   : JET PROPULSION LABORATORY
+ 
+ 
+    Instrument Description
+    ======================
+      Each Viking Orbiter was equipped with two identical vidicon
+      cameras.  The camera system is commonly called the Visual
+      Imaging Subsystem (VIS).  Each camera consists of a telescope,
+      a slow scan vidicon, a filter wheel, and associated
+      electronics.  The filter wheel contains blue, minus blue,
+      violet, clear, green, and red filters.  The angular field of
+      view as defined by the reseau pattern is 1.51 by 1.69 degrees.
+      Since the scan lines go beyond the reseau pattern in the line
+      direction the active field of view is about 1.54 degrees in
+      this direction.  The actual ground area covered by an image
+      varies as a function of spacecraft altitude and emission angle.
+      The digital image is generated by scanning the vidicon face
+      plate.  The signal is digitized as a 7-bit number.  The image
+      contains 1056 horizontal lines.  There are 1182 samples in each
+      line exposed to incoming light.  The vidicon samples 11 pixels
+      on either side of the raster onto an opaque mask located at the
+      front of each vidicon.  Hence, 1204 samples per line are
+      telemetered to Earth, but only 1182 contain information.  Each
+      camera can be commanded to acquire an image every 8.96 seconds.
+      By alternating cameras, an image can be taken every 4.48
+      seconds.
+ 
+ 
+    Science Objectives
+    ==================
+      The first objective of the imaging system was to characterize
+      potential landing sites in support of site selection.
+      Additional objectives of the imaging system were to study the
+      photometric and colorimetric properties of the surface
+      discovered by Mariner 9 in order to better understand the
+      geological history of Mars atmosphere.
+ 
+ 
+    Operational Considerations
+    ==========================
+      Each Viking Orbiter camera contained a filter wheel with five
+      filters and a clear position, i.e., no filter.  An image could
+      be acquired using one of the six filters types, which included
+      blue, minus blue, violet, clear, green, and red.  The filter
+      wheel could be stepped only one position between each exposure.
+      Three mode parameters or camera states could be set for a given
+      exposure.  There was the light flood condition flag.  Light
+      flooding was used to reduce the residual image from the
+      previous exposure.  Eight small incandescent bulbs exposed the
+      vidicon beyond saturation.  There were also two gain states:
+      low and high.  The high gain state increased the gain by a
+      factor of 2.  There was also an exposure offset that would
+      provide a positive signal (DN) from the camera even for a zero
+      exposure.
+ 
+ 
+    Calibration Description
+    =======================
+      The radiometric calibration converts the digitized signal
+      received from the camera (DN value) into a quantity that is
+      proportional to the radiance reaching the sensor.  The
+      sensitivity of the vidicon varies across the field of view.
+      The sensitivity of the vidicon also varies with time.  Each
+      Viking Orbiter imaging instrument was calibrated before flight.
+      In addition, changes in the calibration over time have been
+      estimated from analyses of images of deep space and dust
+      storms.  The radiometric calibration applies additive and
+      multiplicative corrections that account for the varying
+      sensitivity of the vidicon.  The resulting values are
+      proportional to radiance factor, which is defined as the ratio
+      of the observed radiance to the radiance of a normally
+      illuminated lambertian reflector of unit reflectance at the
+      same heliocentric distance.  The geometric calibration removes
+      electronic distortions and transforms the point perspective
+      geometry of the original image into a map projection.  The
+      electronic distortions are barrel- shaped distortions from the
+      electron beam readout and complex distortions from interactions
+      between the charge on the vidicon face plate and the electron
+      beam.  The electronic distortions are modeled by comparing the
+      undistorted locations of reseau marks with the actual locations
+      in an image.
+ 
+ 
+    Section 'VISB'
+    ==============
+      Total Fovs                     : 1
+      Data Rate                      : 2112000.000000
+      Sample Bits                    : 7
+ 
+ 
+      'VISB' Detectors
+      ----------------
+        VISB
+ 
+ 
+      'VISB' Electronics
+      ------------------
+        VISB
+ 
+ 
+      'VISB' Filters
+      --------------
+        BLUE
+        CLEAR
+        GREEN
+        MINUS BLUE
+        RED
+        VIOLET
+ 
+ 
+      'VISB' Section Optic IDs
+      ------------------------
+        VISB
+ 
+ 
+      In modes
+      --------
+        ...
+        ..D
+        .G.
+        .GD
+        L..
+        L.D
+        LG.
+        LGD
+ 
+ 
+      'VISB' Section FOV Shape 'RECTANGULAR'
+      --------------------------------------
+        Section Id                     : VISB
+        Fovs                           : 1
+        Horizontal Pixel Fov           : 0.001420
+        Vertical Pixel Fov             : 0.001420
+        Horizontal Fov                 : 1.693000
+        Vertical Fov                   : 1.538000
+ 
+ 
+      'VISB' Section Parameter 'RADIANCE'
+      -----------------------------------
+        Radiance is the amount of energy per time per projected area
+        per steradian.
+ 
+        Instrument Parameter Name      : RADIANCE
+        Sampling Parameter Name        : PIXEL
+        Instrument Parameter Unit      : WATT/(METER*METER)/STERADIAN
+        Sampling Parameter Resolution  : 0.001420
+        Sampling Parameter Unit        : DEGREE
+ 
+ 
+    Instrument Detector 'VISB'
+    ==========================
+      Detector Type                  : VIDICON
+      Detector Aspect Ratio          : 1.120000
+      Minimum Wavelength             : 0.350000
+      Maximum Wavelength             : 0.650000
+      Nominal Operating Temperature  : 288.000000
+ 
+ 
+      Description
+      -----------
+        The VIS detector is a Westinghouse 5166 selenium vidicon.  It
+        is about 3.7 cm (1-1/2 in.) in diameter.
+ 
+ 
+      Sensitivity
+      -----------
+        The saturation current from the vidicon is 43 nA.  The
+        residual dark current is 0.35 nA.  The response of the visual
+        imaging subsystem is linear to first order.  Analyses of
+        imaging data acquired inflight indicate that the system is
+        linear to within 3% over its dynamic range.
+ 
+ 
+    Instrument Electronics 'VISB'
+    =============================
+ 
+      Description
+      -----------
+        About 1000 electronic parts (e.g., vidicon filament voltage
+        and alignment current regulators) were included per camera,
+        divided between the camera head and an auxiliary chassis.
+        (see Wellman et al, 1976)
+ 
+ 
+    Instrument Filter '1 - BLUE'
+    ============================
+      Filter Name                    : BLUE
+      Filter Type                    : INTERFERENCE
+      Minimum Wavelength             : 0.350000
+      Maximum Wavelength             : 0.530000
+      Center Filter Wavelength       : 0.470000
+ 
+ 
+      Description
+      -----------
+        The filter transmittance was measured using a Cary 14
+        spectrophotometer with a spare set of filters.  (see Benesh
+        and Thorpe, 1976)
+ 
+ 
+    Instrument Filter '2 - MINUS BLUE'
+    ==================================
+      Filter Name                    : MINUS BLUE
+      Filter Type                    : ABSORPTION
+      Minimum Wavelength             : 0.480000
+      Maximum Wavelength             : 0.700000
+      Center Filter Wavelength       : 0.550000
+ 
+ 
+      Description
+      -----------
+        The filter transmittance was measured using a Cary 14
+        spectrophotometer with a spare set of filters.  (see Benesh
+        and Thorpe, 1976)
+ 
+ 
+    Instrument Filter '3 - VIOLET'
+    ==============================
+      Filter Name                    : VIOLET
+      Filter Type                    : INTERFERENCE
+      Minimum Wavelength             : 0.350000
+      Maximum Wavelength             : 0.470000
+      Center Filter Wavelength       : 0.440000
+ 
+ 
+      Description
+      -----------
+        The filter transmittance was measured using a Cary 14
+        spectrophotometer with a spare set of filters.  (see Benesh
+        and Thorpe, 1976)
+ 
+ 
+    Instrument Filter '4 - CLEAR'
+    =============================
+      Filter Name                    : CLEAR
+      Minimum Wavelength             : 0.350000
+      Maximum Wavelength             : 0.700000
+      Center Filter Wavelength       : 0.520000
+ 
+ 
+      Description
+      -----------
+        The filter transmittance was measured using a Cary 14
+        spectrophotometer with a spare set of filters.  (see Benesh
+        and Thorpe, 1976)
+ 
+ 
+    Instrument Filter '5 - GREEN'
+    =============================
+      Filter Name                    : GREEN
+      Filter Type                    : INTERFERENCE
+      Minimum Wavelength             : 0.500000
+      Maximum Wavelength             : 0.600000
+      Center Filter Wavelength       : 0.530000
+ 
+ 
+      Description
+      -----------
+        The filter transmittance was measured using a Cary 14
+        spectrophotometer with a spare set of filters.  (see Benesh
+        and Thorpe, 1976)
+ 
+ 
+    Instrument Filter '6 - RED'
+    ===========================
+      Filter Name                    : RED
+      Filter Type                    : ABSORPTION
+      Minimum Wavelength             : 0.550000
+      Maximum Wavelength             : 0.700000
+      Center Filter Wavelength       : 0.590000
+ 
+ 
+      Description
+      -----------
+        The filter transmittance was measured using a Cary 14
+        spectrophotometer with a spare set of filters.  (see Benesh
+        and Thorpe, 1976)
+ 
+ 
+    Instrument Optics 'VISB'
+    ========================
+      Telescope Diameter             : 0.137000
+      Telescope F Number             : 3.500000
+      Telescope Focal Length         : 0.474101
+      Telescope Resolution           : 0.000050
+      Telescope Serial Number        : SN04
+      Telescope T Number             : 5.640000
+      Telescope T Number Error       : 0.020000
+      Telescope Transmittance        : 0.385000
+ 
+ 
+      Description
+      -----------
+        The telescope was an all spherical Schmidt- Cassegrain design
+        employing a Mangin primary mirror.  Optical performance was
+        70% response at 42 line pairs per millimeter.  (see Wellman
+        et al, 1976)
+ 
+        NOTE: The TELESCOPE_RESOLUTION given above is a line pair
+        resolution, i.e., the geometrical size of a pixel times two.
+ 
+ 
+    Instrument Mode '...'
+    =====================
+      Gain Mode Id                   : LOW
+      Instrument Power Consumption   : 22.000000
+ 
+ 
+      In sections
+      -----------
+        VISB
+ 
+ 
+      Description
+      -----------
+        (see Wellman et al, 1976)
+ 
+ 
+    Instrument Mode '..D'
+    =====================
+      Gain Mode Id                   : LOW
+      Instrument Power Consumption   : 22.000000
+ 
+ 
+      In sections
+      -----------
+        VISB
+ 
+ 
+      Description
+      -----------
+        Light flood is off, gain is low, and exposure offset is on.
+ 
+ 
+    Instrument Mode '.G.'
+    =====================
+      Gain Mode Id                   : HIGH
+      Instrument Power Consumption   : 22.000000
+ 
+ 
+      In sections
+      -----------
+        VISB
+ 
+ 
+      Description
+      -----------
+        Light flood is off, gain is high, and exposure offset is off.
+ 
+ 
+    Instrument Mode '.GD'
+    =====================
+      Gain Mode Id                   : HIGH
+      Instrument Power Consumption   : 22.000000
+ 
+ 
+      In sections
+      -----------
+        VISB
+ 
+ 
+      Description
+      -----------
+        Light flood is off, gain is high, and exposure offset is on.
+ 
+ 
+    Instrument Mode 'L..'
+    =====================
+      Gain Mode Id                   : LOW
+      Instrument Power Consumption   : 22.000000
+ 
+ 
+      In sections
+      -----------
+        VISB
+ 
+ 
+      Description
+      -----------
+        Light flood is on, gain is low, and exposure offset is off.
+ 
+ 
+    Instrument Mode 'L.D'
+    =====================
+      Gain Mode Id                   : LOW
+      Instrument Power Consumption   : 22.000000
+ 
+ 
+      In sections
+      -----------
+        VISB
+ 
+ 
+      Description
+      -----------
+        Light flood is on, gain is low, and exposure offset is on.
+ 
+ 
+    Instrument Mode 'LG.'
+    =====================
+      Gain Mode Id                   : HIGH
+      Instrument Power Consumption   : 22.000000
+ 
+ 
+      In sections
+      -----------
+        VISB
+ 
+ 
+      Description
+      -----------
+        Light flood is on, gain is high, and exposure offset is off.
+ 
+ 
+    Instrument Mode 'LGD'
+    =====================
+      Gain Mode Id                   : HIGH
+      Instrument Power Consumption   : 22.000000
+ 
+ 
+      In sections
+      -----------
+        VISB
+ 
+ 
+      Description
+      -----------
+        Light flood is on, gain is high, and exposure offset is on.
+ 
+ 
+    Mounted On Platform 'SCAN PLATFORM'
+    ===================================
+      Cone Offset Angle              : -0.044000
+      Cross Cone Offset Angle        : 0.663000
+      Twist Offset Angle             : 89.570000
+ 
+ 
+      Description
+      -----------
+        (see Wellman et al, 1976)
+ 
+
+        </description>
   </Instrument>
 </Product_Context>

@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-07</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Adding missing "telescope" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2022-03-03</modification_date>
         <version_id>1.1</version_id>
         <description>Added ref to instrument .gmos-s</description>
@@ -20,11 +25,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <description>
                     Created from information from Gemini Website: http://www.gemini.edu
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Adding missing "telescope" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

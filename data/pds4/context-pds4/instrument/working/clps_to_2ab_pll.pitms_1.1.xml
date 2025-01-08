@@ -7,19 +7,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:clps_to_2ab_pll.pitms</logical_identifier>
     <version_id>1.1</version_id>
-    <title>CLPS Task Order 2AB Peregrine Ion Trap Mass Spectrometer (PITMS)</title>
+    <title> CLPS Task Order 2AB PROSPECT Ion-Trap Mass Spectrometer (PITMS) for Lunar Surface Volatiles</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-05-13</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Title and Name corrected.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -42,7 +42,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>CLPS Task Order 2AB Peregrine Ion Trap Mass Spectrometer (PITMS)</name>
+    <name>CLPS Task Order 2AB PROSPECT Ion-Trap Mass Spectrometer (PITMS) for Lunar Surface Volatiles</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Mass Spectrometer</ctli:type>

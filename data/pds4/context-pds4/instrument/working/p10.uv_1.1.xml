@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -62,6 +62,39 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Ultraviolet Spectrometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>This experiment consisted of a broadband photometer sensitive between 200 and 800 A. During the cruise phase of the mission, this experiment was used to search for the supersonic-to-subsonic transition region in the solar wind. During the Jovian encounter, this experiment was used to look for evidence of an auroral oval on the Jovian dayside, to find the ratio of hydrogen to helium in the Jovian atmosphere, and to find the temperature of the outer portion of the Jovian atmosphere. Evidence of helium was found in the interplanetary region indicating interactions between charged particles and neutral hydrogen.</description>
+    <description>
+ 
+  Instrument Overview
+  ===================
+    The ultraviolet photometer investigated the ultraviolet reflective
+    properties or emission from interplanetary hydrogen, helium and
+    dust, and from Jupiter's atmosphere and satellites. It was hoped to
+    provide data to resolve the origin of interplanetary neutral
+    hydrogen and establish the boundaries of the heliosphere. From
+    measurements of the interplanetary helium, experimenters hoped to
+    determine the percentage of this gas in the interstellar medium.
+ 
+    The ultraviolet photometer had a fixed viewing angle and uses the
+    spin of the spacecraft to scan around the celestial sphere. When
+    close to Jupiter, the photometer scaned the medium above the cloud
+    tops. By measuring the changes in the intensity of ultraviolet light
+    reflected into two photocathodes of the instrument -- one measuring
+    radiation at 1216 Angstroms, the other at 584 Angstroms -- the
+    photometer detected light from hydrogen and helium respectively.
+ 
+    Within the Jovian system the photometer measured the scattering of
+    solar ultraviolet light by the atmosphere of Jupiter. This
+    scattering provided information on the amount of atomic hydrogen in
+    Jupiter's upper atmosphere, the mixing rate of Jupiter's atmosphere,
+    the amount of helium there, and therefore the ratio of helium to
+    hydrogen at Jupiter. Prior to Pioneer 10's mission helium had not
+    been identified at the planet.
+ 
+    By measuring changes in the ultraviolet light glow the instrument
+    checked to see if Jupiter has polar auroras.
+ 
+  ['Instrument Overview' was adapted from FIMMELETAL pp. 56-57.]
+
+        </description>
   </Instrument>
 </Product_Context>

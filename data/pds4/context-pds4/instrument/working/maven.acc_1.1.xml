@@ -17,16 +17,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2015-03-24</modification_date>
         <version_id>1.0</version_id>
         <description>
                Initial version.
             </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -47,6 +47,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Accelerometer</name>
     <type>Accelerometer</type>
-    <description>The structure of the upper atmosphere of Mars has been probed in situ mainly using spacecraft accelerometers during the aerobraking phases of 3 Mars orbiters. In a similar manner, MAVEN Accelerometer Experiment (ACC) will also use atmospheric drag accelerations sensed by inertial measurement units onboard the spacecraft to recover atmospheric density along the orbiter path. These densities are used to estimate hydrostatic ‘vertical’ density and temperature profiles, along track and altitudinal density waves, and latitudinal and longitudinal density variations.</description>
+    <description>
+          TBD
+      </description>
   </Instrument>
 </Product_Context>

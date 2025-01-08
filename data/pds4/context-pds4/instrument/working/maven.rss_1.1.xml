@@ -12,16 +12,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2017-10-04</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Original version.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -115,6 +115,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Radio Science Instrument</name>
     <type>Radio-Radar</type>
-    <description>In two-way mode a DSN ground station transmits an uplink carrier at about 7.2 GHz, referenced to the local frequency and timing standard (FTS), which ensures greatest stability.  The uplink signal is received at the spacecraft; there are small phase changes in the signal if it has passed through the atmosphere/ionosphere of Mars.  The spacecraft telecommunication subsystem locks to the uplink signal and echoes it back at about 8.4 GHz.  Additional phase changes are imposed if the downlink signal passes through Mars atmosphere/ionosphere.  The downlink signal is received by the DSN ground station using its open-loop Radio Science Receiver, which is referenced to the FTS.</description>
+    <description>
+                   In two-way mode a DSN ground station transmits an uplink carrier at about 
+                   7.2 GHz, referenced to the local frequency and timing standard (FTS), which 
+                   ensures greatest stability.  The uplink signal is received at the spacecraft; 
+                   there are small phase changes in the signal if it has passed through the 
+                   atmosphere/ionosphere of Mars.  The spacecraft telecommunication subsystem 
+                   locks to the uplink signal and echoes it back at about 8.4 GHz.  Additional 
+                   phase changes are imposed if the downlink signal passes through Mars 
+                   atmosphere/ionosphere.  The downlink signal is received by the DSN ground 
+                   station using its open-loop Radio Science Receiver, which is referenced to 
+                   the FTS.  
+            </description>
   </Instrument>
 </Product_Context>

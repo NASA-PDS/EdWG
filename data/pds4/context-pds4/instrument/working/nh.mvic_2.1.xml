@@ -25,6 +25,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-04-19</modification_date>
         <version_id>2.0</version_id>
         <description>
@@ -47,11 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     And per "Guide toPDS4 Context Products" v1.7,
                     changed all lidvid_reference to lid_reference
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>2.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -110,6 +110,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The Ralph experiment consists of two channels, the Multispectral Visible Imaging Camera (Ralph MVIC) and the Linear Etalon Imaging Spectral Array (Ralph LEISA). The main objectives are to obtain high-resolution color maps and surface composition maps of Pluto and Charon, including global dayside four-color maps at 0.7 km/pixel resolution, dayside hyper-spectral near-infrared maps at 7 km/pixel globally and 0.6 km/pixel for selected areas, and maps of dayside surface ice distribution and temperatures.</description>
+    <description>
+    MVIC is an imager that operates at both visible and near-infrared
+    wavelengths using seven separate Charge-Coupled Device detectors
+    (CCDs).  Four CCDs have color filters (methane, red, blue and
+    near-infrared) for producing color maps and three CCDs have
+    panchromatic filters for observations where maximum sensitivity to
+    faint light levels is required.  In all cases, the light passes from
+    the telescope through a filter and is focused onto the CCDs.
+ 
+    MVIC is integrated with another instrument, LEISA, into a composite
+    instrument named Ralph, which supplies A/D conversion, command and
+    data handling, and power to both MVIC and LEISA.
+        </description>
   </Instrument>
 </Product_Context>

@@ -17,16 +17,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-02-27</modification_date>
         <version_id>1.0</version_id>
         <description>
                     Created by the NASA Space Science Data Coordinated Archive.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -64,6 +64,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Particle Detector</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The Apollo 14 Charged Particle Lunar Environment Experiment (CPLEE) measured the energy spectra of low-energy charged particles striking the lunar surface by observing the fluxes of electrons and ions with energies from 40 eV to 20 keV in two directions: local vertical and 60 degrees from vertical toward lunar west. The primary purpose of the experiment was to examine plasma particles originating from the Sun and the low-energy particle flux in the magnetic tail of the Earth.</description>
+    <description>
+              The Apollo 14 Charged Particle Lunar Environment Experiment (CPLEE) measured the
+              energy spectra of low-energy charged particles striking the lunar surface by observing
+              the fluxes of electrons and ions with energies from 40 eV to 20 keV in two directions:
+              local vertical and 60 degrees from vertical toward lunar west. The primary purpose of
+              the experiment was to examine plasma particles originating from the Sun and the
+              low-energy particle flux in the magnetic tail of the Earth.
+        </description>
   </Instrument>
 </Product_Context>

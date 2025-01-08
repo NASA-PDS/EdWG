@@ -12,17 +12,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -62,7 +62,28 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--RChen/EN was Cosmic Ray Detector-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The cosmic ray telescope used for this experiment was also designed to monitor solar and galactic cosmic rays and track the twisting high energy particles from the Sun. The instrument can determine which of the nuclei of the ten lightest elements make up these cosmic ray particles. Before saturation by radiation, the cosmic ray telescope measured high energy particles in Jupiter's radiation belts.
-The instrument consists of three, three-element, solid-state telescopes. The high energy telescope measures the flux of protons between 56 and 800 MeV. The medium energy telescope measures protons with energies between 3 and 22 MeV, and identifies the ten elements from hydrogen to neon. The low energy telescope measures the flux of electrons between .05 and 1 MeV, and of protons between .05 and 20 MeV.</description>
+    <description>
+ 
+  Instrument Overview
+  ===================
+    The cosmic ray telescope used for this experiment was also designed
+    to monitor solar and galactic cosmic rays and track the twisting
+    high energy particles from the Sun. The instrument can determine
+    which of the nuclei of the ten lightest elements make up these
+    cosmic ray particles. Before saturation by radiation, the cosmic ray
+    telescope measured high energy particles in Jupiter's radiation
+    belts.
+ 
+    The instrument consists of three, three-element, solid-state
+    telescopes. The high energy telescope measures the flux of protons
+    between 56 and 800 MeV. The medium energy telescope measures protons
+    with energies between 3 and 22 MeV, and identifies the ten elements
+    from hydrogen to neon. The low energy telescope measures the flux of
+    electrons between .05 and 1 MeV, and of protons between .05 and 20
+    MeV.
+ 
+  ['Instrument Overview' was adapted from FIMMELETAL pp. 52-53.]
+
+        </description>
   </Instrument>
 </Product_Context>

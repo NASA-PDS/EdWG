@@ -12,14 +12,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2017-06-01</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -40,6 +40,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>RISE</name>
     <type>Radio-Radar</type>
-    <description>The RISE instrument utilizes the X-band telecommunications capability of the InSight lander in combination with the coherent Doppler tracking equipment at the Deep Space Network (DSN) to perform radio science experiments to determine the precession and nutation of the Martian spin axis.</description>
+    <description>The RISE instrument utilizes the X-band telecommunications capability of the InSight 
+            lander in combination with the coherent Doppler tracking equipment at the Deep Space Network 
+            (DSN) to perform radio science experiments to determine the precession and nutation of the 
+            Martian spin axis.
+        </description>
   </Instrument>
 </Product_Context>

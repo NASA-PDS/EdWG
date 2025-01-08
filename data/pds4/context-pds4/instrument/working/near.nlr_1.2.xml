@@ -3,7 +3,7 @@
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:nlr.near</logical_identifier>
     <version_id>1.2</version_id>
@@ -11,6 +11,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
       <Modification_Detail>
         <modification_date>2023-05-12</modification_date>
         <version_id>1.1</version_id>
@@ -26,11 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -71,6 +71,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-93006</naif_instrument_id>
-    <description>The NEAR Laser Rangefinder (NLR) system is an incoherent, direct detection laser ranger and is part of the engineering subsystem primarily used for spacecraft navigation. It was also used as a laser altimeter to determine the range to points on the surface and hence the shape of the asteroid. It is mounted in a fixed position on the instrument deck of the spacecraft. The NLR operates by transmitting a laser pulse to the surface of the asteroid, receiving the reflection of the pulse from the surface, and recording the round-trip travel time, giving the distance. The primary scientific objectives of the instrument were to determine the size, bulk shape, and surface topography of the asteroid 433 Eros.</description>
+    <description>
+ The Near Laser Rangefinder (NLR) was a laser altimeter that measured the distance from the 
+ spacecraft to the asteroid surface by sending out a short burst of laser light and then 
+ recording the time required for the signal to return from the asteroid. It used a                     
+ chromium-doped neodymium/yttrium-aluminum-garnet (Cr-Nd-YAG) solid-state laser and a compact 
+ reflecting telescope. It sent a small portion of each emitted laser pulse through an optical        
+ fiber of known length and into the receiver, providing a continuous in-flight calibration of 
+ the timing circuit.  The ranging data were used to construct a global shape model and a        
+ global topographic map of Eros with horizontal resolution of about 300 m. The NLR also 
+ measured detailed topographic profiles of surface features on Eros with a best spatial              
+ resolution of under 5 m. These topographic profiles enhanced and complemented the study of 
+ surface morphology from imaging.
+        </description>
   </Instrument>
 </Product_Context>

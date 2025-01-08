@@ -16,6 +16,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-07</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Adding missing "telescope" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2023-02-01</modification_date>
         <version_id>1.1</version_id>
         <description>Added instruments :multi-host.generic_insp_hsp and :mcdonald.harlanjsmith_2m7.lcs</description>
@@ -24,11 +29,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <modification_date>2021-11-06</modification_date>
         <version_id>1.0</version_id>
         <description>Revised version produced by RMS Node, including LID, Title, and Reference List</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Adding missing "telescope" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

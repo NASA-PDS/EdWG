@@ -17,6 +17,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2019-04-01</modification_date>
         <version_id>0.9</version_id>
         <description>Pre-peer-review version</description>
@@ -26,11 +31,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>1.0</version_id>
         <!--RChen: was 1.1-->
         <description>Post-peer-review version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -52,6 +52,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Instrument Deployment Arm</name>
     <type>Regolith Properties</type>
     <subtype>Robotic Arm</subtype>
-    <description>The InSight Instrument Deployment Arm (IDA) has two primary objectives, to point the Instrument Deployment Camera (IDC) for imaging of the terrain surrounding the lander, and to deploy the InSight science instruments from the lander deck to the Martian surface. The IDA has a 4-degree-of-freedom back-hoe design, with the IDC mounted on the forearm, a grapple for lifting the science instruments, and a scoop for digging and scraping the Martian regolith.</description>
+    <description>The InSight Instrument Deployment Arm (IDA) has two primary objectives, to point 
+            the Instrument Deployment Camera (IDC) for imaging of the terrain surrounding the lander,
+            and to deploy the InSight science instruments from the lander deck to the Martian surface. 
+            The IDA has a 4-degree-of-freedom back-hoe design, with the IDC mounted on the forearm, 
+            a grapple for lifting the science instruments, and a scoop for digging and scraping the 
+            Martian regolith.
+        </description>
   </Instrument>
 </Product_Context>
