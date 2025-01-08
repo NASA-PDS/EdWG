@@ -10,6 +10,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2025-01-07</modification_date>
+        <version_id>1.3</version_id>
+        <description>Updated schema version. Adding missing "agency" references. Adding missing "telescope" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-05-09</modification_date>
         <version_id>1.2</version_id>
         <description>Added location to the description</description>
@@ -24,18 +29,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>1.0</version_id>
         <description>Initial export from OLAF</description>
       </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>1.3</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Adding missing "telescope" references.</description>
-      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:facility:observatory.lowell</lid_reference>
-      <reference_type>telescope_to_telescope</reference_type>
-    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.lowell</lid_reference>
       <reference_type>telescope_to_telescope</reference_type>
