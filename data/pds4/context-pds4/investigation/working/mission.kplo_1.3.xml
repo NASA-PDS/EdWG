@@ -8,11 +8,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <title>Korea Pathfinder Lunar Orbiter</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
+    <Alias_List>
+     <Alias>
+        <alternate_id>Danuri</alternate_id>
+        <alternate_title>Danuri</alternate_title>
+     </Alias>
+     <Alias>
+        <alternate_id>KPLO</alternate_id>
+        <alternate_title>KPLO</alternate_title>
+     </Alias>
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2024-12-29</modification_date>
+        <modification_date>2024-12-19</modification_date>
         <version_id>1.3</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+        <description>Updated schema version. Added missing "agency" references. Added Aliases. Updated external reference text. Updated Stop Date.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-01-30</modification_date>
@@ -77,12 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
     <!-- Please list any references here -->
     <External_Reference>
-      <reference_text>
-        Kim, J. H., 2022, Korea Space Exploration Data Archive for Scientific 
-        Researches, Korea space exploration data archive for scientific researches,
-        Korea space exploration data archive for scientific researches, volume 54,
-        https://ui.adsabs.harvard.edu/abs/2022DPS....5421108K
-      </reference_text>
+      <reference_text>Kim, J. H. (2022). Korea space exploration data archive for scientific researches. Bulletin of the AAS, 54(8). Retrieved from https://baas.aas.org/pub/2022n8i211p08</reference_text>
       <description>Brief introduction to the KPLO mission and data archive.</description>
     </External_Reference>
   </Reference_List>
@@ -90,7 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Korea Pathfinder Lunar Orbiter</name>
     <type>Mission</type>
     <start_date>2022-08-04</start_date>
-    <stop_date>2024-08-04</stop_date>
-    <description>Korea Pathfinder Lunar Orbiter (KPLO), or Danuri, is the first Korea robotic lunar probe expected to carry out a       lunar observation mission at a nominal orbiting altitude of  ~100 km from the Moon. It is a cooperative project between the Korea Aerospace Research Institute (KARI), which will  oversee the system, main body of the orbiter, and ground  station, and a Korea university, research institutes, and NASA supporting the payloads, deep space communication, and  navigation technology. The KPLO spacecraft consists of the main body of the orbiter, propulsion systems, tracking  systems, three communications antennae, two solar arrays, and six payloads. The KPLO project involves mapping the lunar environment, technology demonstrations for planetary  exploration, international cooperation, and establishing a deep-space network. The KPLO mission is a large portion of phase one of the Korea Lunar Exploration Program (KLEP) and Korea's exciting journey into space exploration.     </description>
+    <stop_date>2030-12-31</stop_date>
+    <description>Korea Pathfinder Lunar Orbiter (KPLO), or Danuri (다누리), is the first Korea robotic lunar probe expected to carry out a lunar observation mission at a nominal orbiting altitude of ~100 km from the Moon. It is a cooperative project between the Korea Aerospace Research Institute (KARI), which will oversee the system, main body of the orbiter, and ground station, and a Korea university, research institutes, and NASA supporting the payloads, deep space communication, and navigation technology. The KPLO spacecraft consists of the main body of the orbiter, propulsion systems, tracking systems, three communications antennae, two solar arrays, and six payloads. The KPLO project involves mapping the lunar environment, technology demonstrations for planetary exploration, international cooperation, and establishing a deep-space network. The KPLO mission is a large portion of phase one of the Korea Lunar Exploration Program (KLEP) and Korea's exciting journey into space exploration.</description>
   </Investigation>
 </Product_Context>
