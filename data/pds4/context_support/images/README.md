@@ -8,5 +8,6 @@ Note: Make sure to source images that are freely accessible, preferably under CC
 
 ## Image Specifications
 
-See the C[ontext Product Editorial Guidelines](https://docs.google.com/document/d/1wYDVgfeATYIdWxsQADsV5HjCwStrfob4N3WB8FcJQ2k/edit?usp=sharing) for details on the image specifications.
+See the [Context Product Editorial Guidelines](https://docs.google.com/document/d/1wYDVgfeATYIdWxsQADsV5HjCwStrfob4N3WB8FcJQ2k/edit?usp=sharing) for details on the image specifications.
+
 
