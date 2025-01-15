@@ -253,6 +253,8 @@ urn:nasa:pds:context:investigation:mission.international_ultraviolet_explorer,20
 urn:nasa:pds:context:investigation:mission.iue,2021-02-24,urn:esa:psa:context:investigation:mission.iue
 urn:nasa:pds:context:investigation:mission.mars_express,2021-02-24,urn:esa:psa:context:investigation:mission.mars_express
 urn:nasa:pds:context:investigation:mission.pre-magellan,2023-11-06,urn:nasa:pds:context:investigation:observing_campaign.pre-magellan
+urn:nasa:pds:context:investigation:mission.saturn_ring_plane_crossing_1995,2025-01-14,urn:nasa:pds:context:investigation:observing_campaign.saturn_ring_plane_crossing_1995
+urn:nasa:pds:context:investigation:mission.saturn_small_satellite_astrometry,2025-01-14,urn:nasa:pds:context:investigation:observing_campaign.saturn_small_satellite_astrometry
 urn:nasa:pds:context:investigation:mission.ulysses,2021-02-24,urn:esa:psa:context:investigation:mission.ulysses
 urn:nasa:pds:context:investigation:mission.venus_express,2021-02-24,urn:esa:psa:context:investigation:mission.venus_express
 urn:nasa:pds:context:target:star.1swasp_j175207.01+373246.3,2020-07-23,urn:nasa:pds:context:target:star.1swasp_j175207.01_373246.3
