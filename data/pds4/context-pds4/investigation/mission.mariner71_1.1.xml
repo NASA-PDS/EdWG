@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:mission.mariner71</logical_identifier>
+        <version_id>1.1</version_id>
+        <title>Mariner 71</title>
+        <information_model_version>1.21.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-06-24</modification_date>
+                <version_id>1.1</version_id>
+                <description>
+                    Added instruments. Added terse description, alias. Fixed titles. Added NASA mission website.</description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2016-10-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mr9::1.0</lidvid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context:target:planet.mars::1.0</lidvid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:iris.mr9</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:iss.mr9</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:rss.mr9</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:uvs.mr9</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference> 
+        <External_Reference>
+            <reference_text>
+                   Mariner Mars 1971 Project Final Report, Science Experiment Reports, JPL
+                   Technical Report 32-1550, Vol. V, Aug. 20, 1973.
+            </reference_text>
+            <description>Mariner Mars 1971 Project Final Report</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                https://science.nasa.gov/mission/mariner-9/
+            </reference_text>
+            <description>NASA Mission Website, Mariner 9</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Investigation>
+        <name>Mariner 71</name>
+        <type>Mission</type>
+        <start_date>1968-06</start_date>
+        <stop_date>1973-06</stop_date>
+        <description>
+            On November 14, 1971, Mariner 9 became the first spacecraft to orbit another planet, after the failure of Mariner 8. It carried six experiments, including television, ultraviolet spectrometer, infrared spectroscopy, infrared radiometry, S-band occultation, and celestial mechanics, with some using specially developed instruments on its scan platform. Initially planned as a dual mission, Mariner 9 adapted to a single-spacecraft mission, achieving all objectives with a 65-degree inclination and a 12-hour orbit period. Mariner 9 mapped 85% of the Martian surface, transmitting over 7,000 images, including detailed views of the solar system's largest volcano, a massive canyon system, and the Martian moons Phobos and Deimos.
+        </description>
+        <Alias_Index>      
+            <Alias_Index_Entry>         
+                <name>Mariner 9</name>              
+                <priority_order>1</priority_order>          
+            </Alias_Index_Entry>       
+        </Alias_Index>           
+    </Investigation>
+</Product_Context>

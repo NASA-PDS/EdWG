@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:mission.psyche</logical_identifier>
+        <version_id>1.1</version_id>
+        <title>Psyche</title>
+        <information_model_version>1.21.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+ 
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-03-20</modification_date>
+                <version_id>1.1</version_id>
+                <description>
+                    Added terse description, acronym, alias. Added instruments. Added NASA website. Fixed titles.
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2022-01-12</modification_date>
+                <version_id>1.0</version_id>
+                <description>Initial version</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.psyche</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:asteroid.16_psyche</lid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:psyche.grs</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:psyche.imager</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:psyche.mag</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:psyche.ns</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <doi>10.2514/6.2016-4541</doi>
+            <reference_text>
+                Oh, D. Y., Goebel, D., Polanskey, C., Snyder, S., Carr, G., Collins, S. M., Lantoine, G., 
+                Landau, D., Elkins-Tanton, L., Lord, P., and Tilley, S. (2016). Psyche: Journey to a Metal 
+                World. 52nd AIAA/SAE/ASEE Joint Propulsion Conference. https://doi.org/10.2514/6.2016-4541
+            </reference_text>
+            <description>Psyche: Journey to a Metal World</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>https://www.jpl.nasa.gov/missions/psyche</reference_text>
+            <description>NASA Mission Website, Psyche</description>
+        </External_Reference>
+    </Reference_List>
+    <Investigation>
+        <name>Psyche</name>
+        <type>Mission</type>
+        <start_date>2022-08-01</start_date>
+        <stop_date xsi:nil="true" nilReason="unknown"/>
+        <description>
+            The Psyche mission is a journey to a unique metal-rich asteroid orbiting the Sun between Mars and Jupiter. What makes the asteroid Psyche unique is that it appears to be the exposed nickel-iron core of an early planet, one of the building blocks of our solar system.
+            Deep within rocky, terrestrial planets - including Earth - scientists infer the presence of metallic cores, but these lie unreachably far below the planets' rocky mantles and crusts. Because we cannot see or measure Earth's core directly, Psyche offers a unique window into the violent history of collisions and accretion that created terrestrial planets.  
+            The mission is led by Arizona State University. NASA's Jet Propulsion Laboratory is responsible for mission management, operations and navigation. The spacecraft's solar-electric propulsion chassis will be built by Maxar (formerly SSL) with a payload that includes an imager, magnetometer, and a gamma-ray spectrometer.
+        </description>
+    </Investigation>
+</Product_Context>
