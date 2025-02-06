@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mer1</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars Exploration Rover 1</title>
+    <title>The Mars Exploration Rover Opportunity</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -135,13 +135,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Mars Exploration Rover 1</name>
+    <name>The Mars Exploration Rover Opportunity</name>
     <type>Spacecraft</type>
     <naif_host_id>MER1</naif_host_id>
-    <description>The Mars Exploration Rover (MER) mission involved two identical spacecraft, Spirit (MER-2) and Opportunity (MER-1), sent to different landing sites on Mars. Data collection was facilitated by instruments on the rovers, which relayed information directly to NASA's Deep Space Network (DSN) or through Mars orbiters. The spacecraft's design drew from the Mars Pathfinder and included a complex entry, descent, and landing system utilizing a backshell, heat shield, lander, and parachute.
- 
- On Mars, the rovers, weighing 180 kg, were equipped with a sophisticated mobility system allowing them to traverse various terrains and were powered by solar panels and rechargeable batteries. They housed temperature-sensitive electronics to withstand harsh Martian conditions, and their communication systems allowed for data transmission to Earth and between Mars orbiters.
- 
- The Athena Science Payload on each rover enabled advanced analysis of Martian soil and rocks, with instruments mounted on a robotic arm and a panoramic camera for imaging. The rovers utilized various cameras for navigation and hazard detection. The DSN, managed by NASA’s Jet Propulsion Laboratory, facilitated two-way communication with the spacecraft using high-power antennas located globally. In addition, the 2001 Mars Odyssey orbiter supported data relay from the rovers while also conducting its scientific missions.</description>
+    <description>The Mars Exploration Rover (MER) Opportunity is one of two identical spacecraft launched in 2003 and sent to different landing sites on Mars. The Athena Science Payload on the rover enabled advanced analysis of Martian soil and rocks, with instruments mounted on a robotic arm and a panoramic camera for imaging. The spacecraft's design drew from the Mars Pathfinder Sojourner rover and included a complex entry, descent, and landing system utilizing a backshell, heat shield, and parachute. The rover was equipped with a sophisticated mobility system allowing it to traverse various terrains and was powered by solar panels and rechargeable batteries. </description>
   </Instrument_Host>
 </Product_Context>

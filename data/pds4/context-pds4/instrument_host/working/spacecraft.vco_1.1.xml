@@ -70,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Venus Climate Orbiter Akatsuki</name>
+    <name>Venus Climate Orbiter Akatsuki Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>-5</naif_host_id>
     <description>The Akatsuki spacecraft which is also known as Venus Climate Orbiter and PLANET-C is designed to reveal atmospheric circulation of Venus by remote-sensing of different wavelengths, especially the superrotation. The sub-systems that comprise the Akatsuki spacecraft are the telecommunications system; the power system; the attitude and orbit control system (AOCS); the digital electronics which processes image acquired by the cameras onboard. The telecommunications system has two X-band low-gain antennas, XLGA-A and XLGA-B, two X-band medium-gain antennas, XMGA-A and XMGA-B, two X-band high-gain antennas, XHGA-T for transmission and XHGA-R for receiving. The spacecraft hosts Ultraviolet Imager (UVI), 1-micron Camera (IR1), 2-micron Camera (IR2), Longwave Infrared Camera (LIR), Lightning and Airglow Camera (LAC), and Ultra-Stable Oscillator (USO) that is a part of Radio Science Subsystem (RSS) and is used for radio science experiments (RS).</description>

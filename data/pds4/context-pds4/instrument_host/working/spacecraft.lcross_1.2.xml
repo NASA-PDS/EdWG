@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.lcross</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Lunar Crater Observation and Sensing Satellite</title>
+    <title>The Lunar Crater Observation and Sensing Satellite</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -100,13 +100,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Lunar Crater Observation and Sensing Satellite</name>
+    <name>The Lunar Crater Observation and Sensing Satellite</name>
     <type>Spacecraft</type>
     <naif_host_id>LCROSS</naif_host_id>
-    <description>The Lunar CRater Observation and Sensing Satellite (LCROSS) mission, initiated to analyze the hydrogen detected at the Moon's polar regions, was launched on June 18, 2009, alongside the Lunar Reconnaissance Orbiter (LRO). It was designed by Northrop Grumman as a secondary payload, utilizing an EELV Secondary Payload Adapter. The LCROSS Shepherding Spacecraft (SSC) encompassed several systems, including avionics from LRO, a propulsion system using hydrazine, and a power system featuring solar arrays and batteries.
- 
- The payload consists of nine science instruments, including visible and infrared cameras, photometers, spectrometers, and data handling systems. Each instrument has specific capabilities—such as capturing images, measuring light intensity, and analyzing spectral data. The instruments utilize advanced technologies, like InGaAs sensors for near-infrared imaging and digital spectrometry, to gather data. The data handling unit (DHU) processes and manages the data collected from all instruments.
- 
- Overall, the well-designed spacecraft and its instruments aim to provide insights into lunar hydrogen's nature and contribute to our understanding of the Moon's composition.</description>
+    <description>The Lunar CRater Observation and Sensing Satellite (LCROSS) spacecraft was launched on June 18, 2009, alongside the Lunar Reconnaissance Orbiter (LRO) to analyze the hydrogen detected at the Moon's polar regions. The LCROSS Payload consists of nine science instruments, their supporting electrical, mechanical and optical harnesses, a central data handling unit (DHU) assembly, and thermal hardware (heaters, thermistors, and thermostats). The science payload consists of visible and infrared cameras, a photometer, and spectrometers.</description>
   </Instrument_Host>
 </Product_Context>

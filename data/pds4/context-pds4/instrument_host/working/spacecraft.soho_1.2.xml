@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.soho</logical_identifier>
     <version_id>1.2</version_id>
-    <title>SOLAR AND HELIOSPHERIC OBSERVATORY</title>
+    <title>The Solar and Heliospheric Observatory (SOHO) Space Telescope</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -63,9 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>SOLAR AND HELIOSPHERIC OBSERVATORY</name>
+    <name>The Solar and Heliospheric Observatory (SOHO) Space Telescope</name>
     <type>Spacecraft</type>
     <naif_host_id>SOHO</naif_host_id>
-    <description>The SOHO spacecraft, launched in December 1995, began regular operations of its LASCO instrument on January 21, 1996, with some interruptions for maintenance and calibration. It is designed to observe the Sun from a halo orbit at the Earth-Sun L1 Lagrangian point, aiming for precise stabilization and uninterrupted solar observation. Initially planned for a two-year mission, it has sufficient resources for at least four additional years, with a nominal mission end now set for March 2007. The payload consists of twelve instruments transmitting continuous data, except during specific high-bit-rate operations of the Michelson Doppler Imager. Data is stored on magnetic tape between communication with the Experiment Operations Facility at NASA-GSFC. The information was compiled by Matthew Knight from SOHO's publicly available online resources.</description>
+    <description>The SOHO space telescope is an ESA Observatory that has been operating since 1996. The main body of the SOHO spacecraft is about 4.3m x 2.7m x 3.7m; the solar panels increase the width to about 9.5m when deployed. The spacecraft is in a halo orbit around the Sun-Earth L1 Lagrange point. Its science payload include 12 instruments contributed by various international collaborators.</description>
   </Instrument_Host>
 </Product_Context>

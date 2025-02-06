@@ -108,6 +108,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Europa Clipper Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>-159</naif_host_id>
-    <description>       NASA's Europa Clipper spacecraft will perform dozens of close flybys of Jupiter's moon Europa, gathering detailed measurements to investigate whether the moon could have conditions suitable for life. Europa Clipper is not a life detection mission, its main science goal is to determine whether there are places below Europa's surface that could support life.     </description>
+    <description>NASA's Europa Clipper spacecraft will perform dozens of close flybys of Jupiter's moon Europa, gathering detailed measurements to investigate whether the moon could have conditions suitable for life. Europa Clipper is not a life detection mission, its main science goal is to determine whether there are places below Europa's surface that could support life.     </description>
   </Instrument_Host>
 </Product_Context>

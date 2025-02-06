@@ -57,6 +57,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>Pioneer 8</name>
     <type>Spacecraft</type>
-    <description>Pioneer 8, also known as Pioneer C, was launched on 13 December 1967 into a heliocentric orbit to study interplanetary space with a primary focus to collection data on magnetic fields, plasma, and cosmic rays.</description>
+    <description>Pioneer 8 was launched in 1967 as part of NASA’s Pioneer program to study the solar environment. The spacecraft, which weighed around 147 kg, carried instruments to measure cosmic rays, the solar wind, and magnetic fields. Pioneer 8 was designed to observe the outer reaches of the solar system and provide data on solar phenomena. It successfully transmitted data back to Earth for several years before it ceased contact in 1969.</description>
   </Instrument_Host>
 </Product_Context>

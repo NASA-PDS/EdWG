@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mr6</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Mariner 6</title>
+    <title>The Mariner 6 Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -70,9 +70,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Mariner 6</name>
+    <name>The Mariner 6 Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>MR6</naif_host_id>
-    <description>The Mariner 6 and 7 spacecraft were solar-powered, three-axis stabilized machines weighing 380 kg each. They had a 59 kg instrument payload and provided continuous telemetry transmitting data rates from 8.33 to 16,200 bps. While fully automatic, the spacecraft could also be commanded from Earth. Their two-axis scan platform allowed them to reposition various instruments, such as an infrared radiometer, cameras, UV spectrometer, and infrared spectrometer during Mars flybys. The solar panels generated 450 watts at Mars.</description>
+    <description>The Mariner 6 spacecraft was solar-powered, included an instrument payload to investigate Mars via flyby, and was capable of providing continuous telemetry transmission. The Mariner 6 spacecraft used a two-axis scan platform carrying the infrared radiometer, cameras, UV spectrometer, and infrared spectrometer. It was used to reposition the fields of view of the instruments repeatedly during the Mars flyby.</description>
   </Instrument_Host>
 </Product_Context>

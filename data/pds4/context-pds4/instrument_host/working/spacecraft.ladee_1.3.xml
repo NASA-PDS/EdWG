@@ -72,8 +72,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>LADEE</name>
+    <name>Lunar Atmosphere and Dust Environment Explorer (LADEE)</name>
     <type>Spacecraft</type>
-    <description>The LADEE spacecraft is a lunar orbiter designed to study the lunar atmosphere and dust. These measurements are conducted with the goal of determining how future explorers and the lunar environment will interact, and as an example small body exospheres throughout the solar system.</description>
+    <description>The Lunar Atmosphere and Dust Environment Explorer (LADEE) spacecraft was launched in September 2013 and ended its lunar mission in April 2014. LADEE was an orbiter designed to study the lunar atmosphere and dust. It carried several instruments, including a dust detector, neutral mass spectrometer, and ultraviolet-visible spectrometer. LADEE obtained measurements with the goal of determining how future explorers and the lunar environment will interact, and act as an example of small body exospheres throughout the solar system.</description>
   </Instrument_Host>
 </Product_Context>

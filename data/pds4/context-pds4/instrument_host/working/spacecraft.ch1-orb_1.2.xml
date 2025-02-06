@@ -74,6 +74,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>CHANDRAYAAN-1 ORBITER</name>
     <type>Spacecraft</type>
     <naif_host_id>CH1-ORB</naif_host_id>
-    <description>The Chandrayaan-1 mission was launched in 2008. It studied the Moon. It consisted of an orbiter and an impactor.</description>
+    <description>The Chandrayaan-1 mission consisted of two components: an orbiter and a Moon Impact Probe (MIP). While the impactor contributed to early discoveries, the primary focus of the mission was the Chandrayaan-1 Orbiter, which was designed to study the Moon’s surface, mineral composition, and potential water-ice deposits.
+
+The orbiter, weighing 1,380 kg at launch, was equipped with advanced instruments to conduct remote sensing and scientific observations from a 100 km circular polar orbit. Key payloads included the Moon Mineralogy Mapper (M3), which identified water molecules on the lunar surface, the Terrain Mapping Camera (TMC) for high-resolution 3D mapping, and the Mini-Synthetic Aperture Radar (Mini-SAR) for detecting ice in shadowed polar regions. Other instruments, such as the X-ray and gamma-ray spectrometers, provided detailed insights into the Moon’s elemental composition.
+
+The orbiter’s design featured solar arrays generating up to 700 watts of power, thermal control systems to withstand the extreme lunar environment, and a monopropellant propulsion system for precise orbital adjustments. These systems ensured the spacecraft’s functionality during its operational lifetime.
+
+Launched aboard a Polar Satellite Launch Vehicle (PSLV-C11) on October 22, 2008, the Chandrayaan-1 Orbiter operated successfully for 10 months, exceeding expectations despite an initial two-year mission plan. During this time, it delivered groundbreaking discoveries, including the first definitive evidence of water molecules on the Moon’s surface.
+
+Chandrayaan-1’s success established India as a significant player in planetary exploration and provided a strong foundation for future lunar missions, such as Chandrayaan-2.</description>
   </Instrument_Host>
 </Product_Context>

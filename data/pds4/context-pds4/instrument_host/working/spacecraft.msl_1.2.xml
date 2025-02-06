@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.msl</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Mars Science Laboratory</title>
+    <title>The Mars Science Laboratory Curiosity Rover</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -210,9 +210,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Mars Science Laboratory</name>
+    <name>The Mars Science Laboratory Curiosity Rover</name>
     <type>Spacecraft</type>
     <naif_host_id>MSL</naif_host_id>
-    <description>During the MSL mission, data are collected by instruments on the rover     and those data are relayed directly to stations of the NASA Deep Space     Network (DSN) on Earth or indirectly to the DSN using the orbital relay     capability of Mars Reconnaissance Orbiter (MRO) or 2001 Mars Odyssey     (ODY).</description>
+    <description>The Mars Science Laboratory (MSL) rover landed in Gale crater, Mars in 2012 and continues to assess the biological potential of the landing site, characterize the geology of the landing region, investigate planetary processes that influence habitability, and characterize the broad spectrum of radiation. The rover is a vehicle for remote operation on the Martian surface with the following capabilities: (1) supports the science instrument payload investigations, (2) can traverse up to 100 to 200 meters per sol, depending on the terrain, (3) provides high-speed computational capability and substantial data storage, and (4) provides X-band for Direct-to- Earth (DTE) and Direct-from-Earth (DFE) telecommunications, and the ability to communicate via UHF with Mars Reconnaissance Orbiter and Mars Odyssey (which will store and relay data to the Earth). There are four main types of science instruments on the rover: (1) the contact instruments APXS (Alpha-Particle X-ray Spectrometer) and MAHLI (Mars Hand Lens Imager) on the end of the robotic arm; (2) the remote sensing instruments ChemCam (Chemical Camera) and Mastcam (Mast Cameras) mounted on the mast; (3) the environmental instruments DAN (Dynamic Albedo of Neutrons), MARDI (Mars Descent Imager), RAD (Radiation Assessment Detector), and REMS (Rover Environmental Monitoring Station); and (4) the analytical laboratory instruments CheMin (Chemistry and Mineralogy) and SAM (Sample Analysis at Mars), which are inside the body of the rover.</description>
   </Instrument_Host>
 </Product_Context>

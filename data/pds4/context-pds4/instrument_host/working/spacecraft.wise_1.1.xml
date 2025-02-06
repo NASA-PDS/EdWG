@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.wise</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Wide-Field Infrared Survey Explorer</title>
+    <title>The Wide-Field Infrared Survey Explorer (WISE) Space Telescope</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -40,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Wide-Field Infrared Survey Explorer</name>
+    <name>The Wide-Field Infrared Survey Explorer (WISE) Space Telescope</name>
     <type>Spacecraft</type>
-    <description>The WISE spacecraft is about the height and weight of a big polar bear, only wider. It measures 2.85 meters tall (9.35 feet), 2 meters wide (6.56 feet), 1.73 meters deep (5.68 feet) and weighs 661 kilograms (1,433 pounds). It is composed of two main sections: the instrument and the spacecraft bus. The spacecraft bus was built by Ball Aerospace &amp; Technologies Corp, Boulder, Colo. Ball was also responsible for integrating the instrument to the spacecraft bus and testing the completed spacecraft.</description>
+    <description>The WISE spacecraft is a three-axis stabilized satellite measuring about 2.85m x 2m x 1.73m, carrying a 40cm (diameter) telescope. The primary mission was a full-sky survey in four bands ranging from 3.4 to 22 micrometers. It ended when the cryogen was exhausted in February 2011. In 2013, the WISE telescope was reactivated for a new mission: Near-Earth Object Wide-field Infrared Survey Explorer (NEOWISE). The NEOWISE mission was ended on 31 July 2024, and the WISE spacecraft burned up on re-entry into the Earth's atmosphere on 1 November 2024.</description>
   </Instrument_Host>
 </Product_Context>

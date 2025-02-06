@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.phx</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Phoenix</title>
+    <title>The Phoenix Lander</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -126,9 +126,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Phoenix</name>
+    <name>The Phoenix Lander</name>
     <type>Spacecraft</type>
     <naif_host_id>PHX</naif_host_id>
-    <description>The Phoenix Lander, initially constructed for a canceled mission, was operational on Mars from August 2007 until November 2008, collecting data with six scientific instruments during its 152 sols active on the Martian surface. It was powered by solar panels and utilized an X-band radio system for communication with Earth and orbiters. The DSN facilitated communications with the Lander through its global facilities, while the 2001 Mars Odyssey orbiter also played a role in relaying data and measuring spacecraft movements. Overall, the Lander effectively completed its scientific objectives, with various phases dedicated to characterization and soil analysis.</description>
+    <description>The Mars Phoenix Lander was originally built for the canceled Mars 2000 Lander Mission. The spacecraft was refurbished and held as the instrument host for the Phoenix mission. The Lander was about 18 feet (5.5 meters)
+long with the solar panels deployed, and the science deck by itself was about 5 feet (1.5 meters) in diameter. The Phoenix Lander was powered by solar panels and was operational on Mars from May 2008 until November 2008. The spacecraft collected scientific data with the Microscopy, Electrochemistry, and Conductivity Analyzer (MECA), Surface Stereo Imager (SSI), the Thermal and Evolved Gas Analyzer (TEGA), Robotic Arm Camera (RAC), and the meteorological station (MET). </description>
   </Instrument_Host>
 </Product_Context>

@@ -79,6 +79,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>MARINER 10</name>
     <type>Spacecraft</type>
     <naif_host_id>M10</naif_host_id>
-    <description>Mariner 10 was launched in 1973. It studied Venus and Mercury.</description>
+    <description>Mariner 10 was launched in 1973 to study Venus and Mercury. It was the first spacecraft to use Mercury gravity assist to reach its destination, enabling it to conduct detailed observations of Venus' atmosphere and Mercury’s surface. Mariner 10 provided valuable data on both planets, including the first images of Mercury, before completing its mission in 1975.</description>
   </Instrument_Host>
 </Product_Context>

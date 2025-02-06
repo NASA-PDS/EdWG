@@ -33,6 +33,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.pre-magellan</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>instrument_host_to_agency</reference_type>
     </Internal_Reference>
@@ -137,6 +141,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER VENUS ORBITER</name>
     <type>Spacecraft</type>
     <naif_host_id>PVO</naif_host_id>
-    <description>The Pioneer Venus Orbiter, launched in 1978, was part of a mission to study Venus and included a large bus carrying one main probe and three smaller probes.</description>
+    <description>Pioneer Venus Orbiter was launched in 1978 as part of NASA's Pioneer Venus mission. Its primary objective was to study the atmosphere and surface of Venus from orbit, providing a detailed analysis of the planet’s dense cloud cover and extreme weather systems. The spacecraft was equipped with a variety of scientific instruments, including radar systems to map the planet’s surface, infrared spectrometers to measure atmospheric composition, and ultraviolet sensors to analyze Venus' clouds and high-altitude composition.
+
+Operating in a polar orbit, the Pioneer Venus Orbiter completed detailed observations of the planet’s atmosphere, including data on its intense heat, winds, and cloud dynamics. It also provided the first global map of Venus' surface, revealing its volcanic features, highland areas, and vast plains. The orbiter helped confirm that Venus has a thick atmosphere dominated by carbon dioxide, with surface temperatures hot enough to melt lead. The mission contributed valuable insights into the greenhouse effect, planetary atmospheres, and the evolution of terrestrial planets. Pioneer Venus Orbiter continued sending data back to Earth until 1992, significantly advancing our understanding of Venus.</description>
   </Instrument_Host>
 </Product_Context>

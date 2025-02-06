@@ -73,6 +73,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER VENUS PROBE BUS</name>
     <type>Spacecraft</type>
     <naif_host_id>PVO</naif_host_id>
-    <description>The Pioneer Venus Orbiter was launched in 1978. It studied Venus. It was part of a mission that also consisted of a bus that carried a large probe and three small probes.</description>
+    <description>Pioneer Venus Probe Bus was launched in 1978 as part of NASA’s Pioneer Venus mission. The spacecraft was designed to study Venus, particularly its atmosphere and surface properties. Weighing around 316 kg, it carried a suite of instruments, including radar systems to map the planet's surface and infrared spectrometers to analyze its atmospheric composition. The probe bus was the platform from which the spacecraft’s large probe and three smaller probes were deployed to gather data on Venus' thick atmosphere and harsh environmental conditions. The Pioneer Venus Orbiter, as the primary component, operated until 1992, providing crucial insights into Venus’s atmosphere and surface.</description>
   </Instrument_Host>
 </Product_Context>

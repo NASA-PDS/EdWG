@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.gio</logical_identifier>
     <version_id>1.1</version_id>
-    <title>GIOTTO</title>
+    <title>The Giotto Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -106,9 +106,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>GIOTTO</name>
+    <name>The Giotto Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>GIO</naif_host_id>
-    <description>The Giotto spacecraft was designed for a joint space mission to achieve a fly-by of comet Halley in 1985 and later rendezvous with comet Tempel 2 in 1988. Initially part of a collaboration with NASA, the mission shifted to a solely European endeavor due to funding issues. Giotto was developed using a spin-stabilized design based on the Geos concept, permitting protection and stability during high-speed fly-bys. It carried ten scientific instruments for studying cometary components and offered data transmission capabilities. The spacecraft featured a unique dust shield to protect against high-velocity dust impacts, critical for maintaining communication with Earth during encounters. Despite experiencing some instrument malfunctions during its operations, many of Giotto's components continued to function effectively post-encounter. The mission successfully launched on July 2, 1985.</description>
+    <description>The Giotto spacecraft, developed by ESA based on the Geostationary Operational Environment Satellite (GOES) design, inclulded shielding to protect it from dust impacts as it flew by the nucleus of comet 1P/Halley, and subsequently comet 26P/Grigg-Skjellerup. It was a relatively small (2m x 1m, weighing about 960 kg), spin-stabillized spacecraft with three interior platforms on which the experiments were mounted. The 1.5m diamater high-gain dish antenna brought the total spacecraft height to about 3m. The innovative "sandwich" design of the dust shields that protected the spacecraft was based on a design proposed in 1947 by Fred Whipple.</description>
   </Instrument_Host>
 </Product_Context>

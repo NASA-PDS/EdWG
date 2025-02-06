@@ -50,6 +50,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Spitzer Space Telescope</name>
     <type>Spacecraft</type>
     <naif_host_id>-79</naif_host_id>
-    <description>The Spitzer Space Telescope was a 3-axis stabilized,       pointing and scanning observatory in a solar, Earth-trailing orbit       with three crogenically-cooled instruments operating from the near-       to far-infrared. The telescope had an aperture of 85 cm, a       diffraction limit of 5.5 microns, a field of view of ~5 arcmin x 5       arcmin for each band, a pointing stability of &lt;0.1 arcsec, and a       maximum tracking rate of 1.0 arcsec/sec. Its three instruments were       the InfraRed Array Camera (IRAC), InfraRed Spectrograph (IRS), and       Multiband Imaging Photometer for Spitzer (MIPS).</description>
+    <description>The Spitzer Space Telescope was a 3-axis stabilized, pointing and scanning observatory in a solar, Earth-trailing orbit, equipped with three cryogenically-cooled instruments operating from the near- to far-infrared. The telescope had an aperture of 85 cm, a diffraction limit of 5.5 microns, and a field of view of approximately 5 arcmin x 5 arcmin for each band. It also had a pointing stability of &lt;0.1 arcsec and a maximum tracking rate of 1.0 arcsec/sec. Its three instruments were the InfraRed Array Camera (IRAC), the InfraRed Spectrograph (IRS), and the Multiband Imaging Photometer for Spitzer (MIPS).</description>
   </Instrument_Host>
 </Product_Context>

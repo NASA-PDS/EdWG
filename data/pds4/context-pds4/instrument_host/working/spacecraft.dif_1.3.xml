@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.dif</logical_identifier>
     <version_id>1.3</version_id>
-    <title>DEEP IMPACT FLYBY SPACECRAFT</title>
+    <title>The Deep Impact Flyby (DIF) Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -235,9 +235,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>DEEP IMPACT FLYBY SPACECRAFT</name>
+    <name>The Deep Impact Flyby (DIF) Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>DIF</naif_host_id>
-    <description>The Deep Impact flyby spacecraft was used for the NASA Deep Impact mission in 2005 and for the extended mission EPOXI from October 2007 through end of mission on 20 September 2013.</description>
+    <description>The Deep Impact Flyby spacecraft, which survived the encounter with comet 9P/Tempel 1, weighed 601 kg (excluding the Impactor spacecraft) and measured 3.3m x 1.7m x 2.3m. In addition to navigation, solar panels, and several science instruments, the flyby spacecraft also carried the impactor spacecraft to the Tempel 1 encounter.</description>
   </Instrument_Host>
 </Product_Context>

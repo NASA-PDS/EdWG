@@ -57,6 +57,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>Pioneer 9</name>
     <type>Spacecraft</type>
-    <description>Pioneer 9, also known as Pioneer D, was launched on 08 November 1968 into a heliocentric orbit to study interplanetary space with a primary focus of collecting data on magnetic fields, plasma, and cosmic rays.</description>
+    <description>Pioneer 9 was launched in 1968 as a follow-up to Pioneer 8, with a similar mission to study the solar environment. Weighing about 147 kg, it was equipped with instruments to monitor cosmic rays, the solar wind, and magnetic fields. Pioneer 9 provided important data on solar activity and the interplanetary medium. It continued to send scientific data back to Earth until 1978, well beyond its expected operational life.</description>
   </Instrument_Host>
 </Product_Context>

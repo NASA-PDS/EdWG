@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mer2</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars Exploration Rover 2</title>
+    <title>The Mars Exploration Rover Spirit</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -135,13 +135,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Mars Exploration Rover 2</name>
+    <name>The Mars Exploration Rover Spirit</name>
     <type>Spacecraft</type>
     <naif_host_id>MER2</naif_host_id>
-    <description>The Mars Exploration Rover (MER) mission involved two identical rovers, Spirit and Opportunity, designed to collect data from Mars and transmit it back to Earth. Each rover had a sophisticated spacecraft configuration for entry, descent, and landing, including a protective heat shield and various sensors to monitor its descent. Once deployed, the rovers operated on a six-wheeled design, featuring a rocker bogie suspension system for navigating obstacles and a solar power system that produced energy for their operations. 
- 
- The rovers communicated with Earth using X-band and UHF systems, allowing data transmission and command reception. They were equipped with advanced scientific instruments for terrain analysis and in-situ measurements, including cameras and spectrometers housed on a robotic arm. The data collected were relayed to Earth using NASA's Deep Space Network (DSN), consisting of multiple ground stations worldwide.
- 
- Additionally, the 2001 Mars Odyssey orbiter played a crucial role in supporting the MER mission by relaying data from the rovers while also conducting its own scientific observations. The DSN facilitated two-way communication, essential for the successful exploration of Mars by the MER rovers and other space missions.</description>
+    <description>The Mars Exploration Rover (MER) Spirit is one of two identical spacecraft launched in 2003 and sent to different landing sites on Mars. The Athena Science Payload on the rover enabled advanced analysis of Martian soil and rocks, with instruments mounted on a robotic arm and a panoramic camera for imaging. The spacecraft's design drew from the Mars Pathfinder Sojourner rover and included a complex entry, descent, and landing system utilizing a backshell, heat shield, and parachute. The rover was equipped with a sophisticated mobility system allowing it to traverse various terrains and was powered by solar panels and rechargeable batteries. </description>
   </Instrument_Host>
 </Product_Context>

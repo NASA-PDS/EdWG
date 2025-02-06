@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.grail-a</logical_identifier>
     <version_id>1.3</version_id>
-    <title>Gravity Recovery and Interior Laboratory A</title>
+    <title>The Gravity Recovery and Interior Laboratory A Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -80,13 +80,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Gravity Recovery and Interior Laboratory A</name>
+    <name>The Gravity Recovery and Interior Laboratory A Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>GRAIL-A</naif_host_id>
-    <description>The Gravity Recovery and Interior Laboratory (GRAIL) spacecraft consists of two nearly identical spacecraft, GRAIL-A and GRAIL-B, designed using technology from previous missions, including the Lockheed Martin Experimental Small Satellite-11. Each spacecraft carries a science payload that includes the Lunar Gravity Ranging System (LGRS) for measuring distance changes between the two orbiters and a MoonKAM for public outreach.
- 
- GRAIL operates in four mission configurations: launch, cruise, lunar orbit insertion, and science operations. It includes a Command and Data Handling system, propulsion subsystems, and attitude control mechanisms, all designed for optimal functionality during operations around the Moon. The DSN supports GRAIL's communication needs by providing two-way contact between the spacecraft and Earth through its three global complexes, equipped with various antenna sizes for effective data transmission and monitoring.
- 
- Overall, the GRAIL mission utilizes a combination of onboard instruments and DSN assets to conduct thorough radio science investigations into lunar gravity and other scientific inquiries.</description>
+    <description>The Gravity Recovery and Interior Laboratory A (GRAIL-A) spacecraft is one of two nearly identical spacecraft, designed based on Lockheed Martin Experimental Small Satellite-11 and NASA's Mars Reconnaissance Orbiter. The payload of the spacecraft includes a Lunar Gravity Ranging System (LGRS) to precisely measure the changes in range between GRAIL-A and GRAIL-B and a MoonKAM lunar-imager for public outreach. The LGRS mapped the gravitational field of the Moon and determined its interior structure.</description>
   </Instrument_Host>
 </Product_Context>

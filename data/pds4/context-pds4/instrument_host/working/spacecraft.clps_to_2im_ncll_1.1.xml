@@ -23,6 +23,10 @@
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:other_investigation.clps</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>instrument_host_to_agency</reference_type>
     </Internal_Reference>

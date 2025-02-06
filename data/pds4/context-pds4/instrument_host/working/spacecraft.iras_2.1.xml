@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.iras</logical_identifier>
     <version_id>2.1</version_id>
-    <title>IRAS Spacecraft</title>
+    <title>The Infrared Astronomical Satellite (IRAS) Space Telescope</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -74,9 +74,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>IRAS</name>
+    <name>The Infrared Astronomical Satellite (IRAS) Space Telescope</name>
     <type>Spacecraft</type>
     <naif_host_id>IRAS</naif_host_id>
-    <description>The IRAS satellite consisted of two main parts, the spacecraft and the telescope system. The telescope system comprised the upper part of the satellite. The focal plane assembly contained the survey detectors, visible                 star sensors for position reconstruction, a Low Resolution Spectrometer (LRS) and a Chopped Photometric Channel (CPC). </description>
+    <description>The IRAS space telescope conducted the first infrared survey of the night sky from space. The telescope system comprised the upper part of the satellite. The focal plane assembly contained the survey detectors, visible star sensors for position reconstruction, a Low Resolution Spectrometer (LRS) and a Chopped Photometric Channel (CPC). </description>
   </Instrument_Host>
 </Product_Context>

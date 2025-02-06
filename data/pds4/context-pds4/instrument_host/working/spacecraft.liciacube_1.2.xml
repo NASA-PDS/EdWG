@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.liciacube</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Light Italian CubeSat for Imaging of Asteroids (LICIACube) Spacecraft</title>
+    <title>The Light Italian CubeSat for Imaging of Asteroids (LICIACube) Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -65,10 +65,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Light Italian CubeSat for Imaging of Asteroids (LICIACube) Spacecraft</name>
+    <name>The Light Italian CubeSat for Imaging of Asteroids (LICIACube) Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>LICIA</naif_host_id>
     <!-- also LICIACUBE -->
-    <description>            The LICIACube is a CubeSat mission of the Agenzia Spaziale Italiana (ASI) that will            be carried by the DART impactor to the vicinty of the Didymos system, then be released            to observe the impact and aftermath of the collision of DART with Dimorphos. Note that            as of this writing, it is not clear if the LICIACube team will archive its results with            PDS.         </description>
+    <description>The LICIACube was a six-unit cubesat (measuring 10cm x 20m x 30cm) with two light solar arrays, autonomous attitude control; an propulsion system, and two cameras in its scientific payload. It road along on the DART spacecraft to the encounter with the (65803) Didymos system, separating 15 days before impact in order to observe the collision and send images back to Earth. The LICIACube was designed and manufactured in Italy.</description>
   </Instrument_Host>
 </Product_Context>

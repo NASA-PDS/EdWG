@@ -55,7 +55,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>DCAM3 (Deployable Camera 3)</name>
+    <name>Deployable Camera for Hayabusa2</name>
     <type>Spacecraft</type>
     <naif_host_id>-37500</naif_host_id>
     <description>The Deployable Camera 3 (DCAM3) is a small separable camera unit for simultaneous close-range observations of the impact event using Small Carry-on Impactor (SCI). DCAM3 consists of DCAM3-A (analog camera system), DCAM3-D (digital camera system), power unit, and antennas for digital and analog transmissions. The receiver units and antennas (DCAM3-ANT for DCAM3-A, and DCAM3-ANT2 for DCAM3-D) for radio communication from DCAM3, and a control unit (CAM-C; Camera Controller) are onboard the Hayabusa2 spacecraft. The DCAM3 is the successor of DCAM1 and DCAM2 which were separated from the JAXA's solar sail spacecraft IKAROS to monitor deployment process of the solar sail.</description>

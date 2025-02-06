@@ -99,6 +99,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER 10</name>
     <type>Spacecraft</type>
     <naif_host_id>P10</naif_host_id>
-    <description>The Pioneer 10 was launched in 1972. It studied Jupiter.</description>
+    <description>The Pioneer 10 spacecraft was launched in 1972 as the first spacecraft designed to explore Jupiter. Weighing around 258 kg, it was equipped with scientific instruments such as cosmic ray detectors, a magnetometer, and imaging systems to study Jupiter’s atmosphere and magnetosphere. Pioneer 10 was also the first spacecraft to cross the asteroid belt on its way to Jupiter.
+
+The spacecraft's design included a radio transmitter, solar panels for power, and a golden plaque with a message for potential extraterrestrial life. It provided groundbreaking data on Jupiter's environment, including detailed measurements of the planet’s radiation belts. After completing its primary mission, Pioneer 10 continued to send data back to Earth until 1983, far exceeding expectations.</description>
   </Instrument_Host>
 </Product_Context>
