@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.orex</logical_identifier>
     <version_id>1.3</version_id>
-    <title>Origins, Spectral Interpreation, Resource Identification, Security, Regolith Explorer (OSIRIS-REx) Spacecraft</title>
+    <title>The Origins, Spectral Interpretation, Resource Identification, Security, Regolith Explorer (OSIRIS-REx) Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -103,9 +103,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>OSIRIS-REx</name>
+    <name>The Origins, Spectral Interpretation, Resource Identification, Security, Regolith Explorer (OSIRIS-REx) Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>-64</naif_host_id>
-    <description>The spacecraft is a roughly cubic shape, 2.72 meters high and 3.1 meters wide with two solar panel wings extending from opposite sides with an active collecting area of 8.5 square meters. Launch mass including propellant is 1529 kg. Power from the solar arrays is stored in lithium-ion batteries. Propulsion uses 200 N hydrazine thrusters mounted at the base of the spacecraft. Primary communication is via a 2 meter high gain directional dish antenna.</description>
+    <description>The OSIRIS-REx spacecraft is a roughly cubic shape, 2.4m x2.4m x3.15m, with two solar panel wings extending from opposite sides. Launch mass including propellant was 1529 kg. Propulsion uses 200 N hydrazine thrusters mounted at the base of the spacecraft. Primary communication is via a 2 meter high gain directional dish antenna. The spacecraft carried a sample return capsule, which was filled at asteroid (101955) Bennu, carried back to Earth by the spacecraft, and delivered to the surface in Septermber 2023. The OSIRIS-REx spacecraft was then redeployed to the asteroid (99942) Apophis for an extended mission to investigate that potentially hazardous body.</description>
   </Instrument_Host>
 </Product_Context>

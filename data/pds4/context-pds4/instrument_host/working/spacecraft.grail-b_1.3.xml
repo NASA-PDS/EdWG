@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.grail-b</logical_identifier>
     <version_id>1.3</version_id>
-    <title>Gravity Recovery and Interior Laboratory B</title>
+    <title>The Gravity Recovery and Interior Laboratory B Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -80,11 +80,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Gravity Recovery and Interior Laboratory B</name>
+    <name>The Gravity Recovery and Interior Laboratory B Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>GRAIL-B</naif_host_id>
-    <description>The Gravity Recovery and Interior Laboratory (GRAIL) spacecraft is comprised of two nearly identical spacecraft (GRAIL-A and GRAIL-B), was designed based on technology from the Lockheed Martin Experimental Small Satellite-11 mission. The spacecraft, each roughly the size of a washing machine and weighing about 200 kg, rely on different configurations during their mission phases: launch, cruise, lunar orbit insertion, and science operations. Key instruments include the Lunar Gravity Ranging System (LGRS) for gravity measurements and MoonKAM for public outreach. 
- 
- The spacecraft incorporate various subsystems such as propulsion, command and data handling, and telecommunications, utilizing components with heritage from prior space vehicles. They also maintain precise positioning and orientation via an attitude control system. The Deep Space Network (DSN) plays a crucial role in GRAIL’s radio science, providing two-way communication and supporting the experiment data transmission with facilities located in California, Spain, and Australia. The DSN consists of multiple antenna types to enhance communication capabilities for planetary exploration missions.</description>
+    <description>The Gravity Recovery and Interior Laboratory B (GRAIL-B) spacecraft is one of two nearly identical spacecraft, designed based on Lockheed Martin Experimental Small Satellite-11 and NASA's Mars Reconnaissance Orbiter. The payload of the spacecraft includes a Lunar Gravity Ranging System (LGRS) to precisely measure the changes in range between GRAIL-A and GRAIL-B and a MoonKAM lunar-imager for public outreach. The LGRS mapped the gravitational field of the Moon and determined its interior structure.</description>
   </Instrument_Host>
 </Product_Context>

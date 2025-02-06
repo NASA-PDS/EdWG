@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mars2020</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Mars 2020 Perseverance Rover</title>
+    <title>The Mars 2020 Perseverance Rover</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -112,10 +112,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Perseverance</name>
+    <name>The Mars 2020 Perseverance Rover</name>
     <type>Rover</type>
     <naif_host_id>-168</naif_host_id>
     <!-- Verified by B. Semenov 7/30/20 -->
-    <description>             The Mars 2020 mission placed the rover Perseverance on the surface of Mars in Jezero Crater on             February 18, 2021. The rover's instruments search for signs of habitable conditions on Mars in              the ancient past and signs of past microbial life. The rover uses a drill to collect samples              for return to Earth by a future mission.          </description>
+    <description>The Mars 2020 Perseverance rover landed on the surface of Mars in Jezero Crater on February 18, 2021. The rover's instruments search for signs of habitable conditions on Mars in the ancient past and signs of past microbial life. The rover uses a drill to collect samples for return to Earth by a future mission. The science payload includes Mastcam-Z, SuperCam, Scanning Habitable Environments with Raman &amp; Luminescence for Organics &amp; Chemicals (SHERLOC), Wide Angle Topographic Sensor for Operations and eNgineering (WATSON), Planetary Instrument for X-ray Lithochemistry (PIXL), Mars Environmental Dynamics Analyzer (MEDA), Mars Oxygen ISRU Experiment (MOXIE), and Radar Imager for Mars' Subsurface Experiment (RIMFAX).             </description>
   </Instrument_Host>
 </Product_Context>

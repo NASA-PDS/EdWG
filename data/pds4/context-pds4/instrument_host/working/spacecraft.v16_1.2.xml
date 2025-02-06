@@ -63,6 +63,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>VENERA 16</name>
     <type>Spacecraft</type>
     <naif_host_id>V16</naif_host_id>
-    <description>The Venera 15 spacecraft was launched in 1983. It studied Venus.</description>
+    <description>Venera 16 was launched alongside Venera 15 in 1983 and operated in tandem to map Venus’ surface. Like its counterpart, it was equipped with a radar system for surface imaging, focusing on the southern hemisphere of Venus. Venera 16 provided complementary radar data to help create a more comprehensive map of Venus’ surface features. The spacecraft also conducted atmospheric observations, contributing to the study of Venus' thick clouds and climate. Venera 16 transmitted valuable data back to Earth until 1984, further expanding knowledge about Venus' surface and atmosphere.</description>
   </Instrument_Host>
 </Product_Context>

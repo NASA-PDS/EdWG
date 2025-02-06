@@ -44,6 +44,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:individual.greeley_35mm_slides</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>instrument_host_to_agency</reference_type>
     </Internal_Reference>
@@ -234,6 +238,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>GALILEO ORBITER</name>
     <type>Spacecraft</type>
     <naif_host_id>GO</naif_host_id>
-    <description>The Galileo Orbiter was launched in 1989. It studied 951 Gaspra, 243 Ida, Dactyl, Comet Shoemaker-Levy 9, Jupiter and its moons.</description>
+    <description>The Galileo Orbiter was launched on October 18, 1989, aboard the Space Shuttle Atlantis to explore Jupiter and its moons, as well as other solar system objects such as 951 Gaspra, 243 Ida and its moon Dactyl, and Comet Shoemaker-Levy 9. The spacecraft carried a suite of scientific instruments, including cameras, infrared spectrometers, and plasma detectors, designed to study Jupiter’s atmosphere, magnetosphere, and its moons, particularly Io, Europa, and Ganymede.
+
+Galileo conducted flybys of Gaspra and Ida, providing the first close-up images of asteroids. It then entered Jupiter orbit in December 1995, making groundbreaking discoveries such as evidence of an underground ocean on Europa and insights into Jupiter’s intense magnetic field and its interactions with its moons.
+
+The spacecraft operated until September 2003, when it was deliberately deorbited into Jupiter to avoid any potential contamination of Europa. Galileo’s data revolutionized our understanding of the Jovian system and paved the way for future missions to the outer solar system.</description>
   </Instrument_Host>
 </Product_Context>

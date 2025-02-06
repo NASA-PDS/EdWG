@@ -98,6 +98,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>PIONEER 11</name>
     <type>Spacecraft</type>
     <naif_host_id>P11</naif_host_id>
-    <description>Pioneer 11 (Pioneer G) was launched 1973. It studied the Asteroid Belt, Jupiter and Saturn.</description>
+    <description>The Pioneer 11 spacecraft, launched in 1973, was the second spacecraft in NASA’s Pioneer program. It was designed to study the Asteroid Belt, Jupiter, and Saturn. Weighing approximately 260 kg, Pioneer 11 carried instruments such as cosmic ray detectors, plasma detectors, and imaging systems to analyze the planets’ atmospheres, magnetospheres, and moons.
+
+Pioneer 11 was the first spacecraft to fly past Saturn in 1979, providing the first close-up images and measurements of the planet and its rings. Its design included solar panels for power and a radio transmitter for communication. The spacecraft sent data back to Earth until 1995, providing valuable information on the outer solar system and beyond.</description>
   </Instrument_Host>
 </Product_Context>

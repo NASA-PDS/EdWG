@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.jno</logical_identifier>
     <version_id>2.3</version_id>
-    <title>JUNO</title>
+    <title>Juno</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -163,6 +163,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Juno</name>
     <type>Spacecraft</type>
     <naif_host_id>JNO</naif_host_id>
-    <description>The Juno spacecraft was launched in 2011. It studied Jupiter and its moons.</description>
+    <description>The Juno spacecraft, operated by NASA Jet Propulsion Lab (JPL), was launched August 5, 2011 and entered its orbit around Jupiter in July 2016. Juno is collecting data about Jupiter and its moons. Currently, Juno is its in extended mission until late 2025. Juno carries a total of 9 scientific instruments: Microwave Radiometer (MWR), Jovian Infrared Auroral Mapper (JIRAM), Magnetometer (MAG), Gravity Science (GS), Jovian Auroral Distributions Experiment (JADE), Jovian Energetic Particle Detector Instrument (JEDI), Radio and Plasma Wave Sensor (Waves), Ultraviolet Spectrograph (UVS), and JunoCam (JCM). The spacecraft is the first of its kind to explore below Jupiter’s dense clouds to obtain detailed data and imagery. The primary focus is to study the origins of Jupiter, as well as the planet’s structure, atmosphere, magnetosphere, and auroras.</description>
   </Instrument_Host>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mr7</logical_identifier>
     <version_id>1.2</version_id>
-    <title>MARINER 7</title>
+    <title>The Mariner 7 Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -70,9 +70,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>MARINER 7</name>
+    <name>The Mariner 7 Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>MR7</naif_host_id>
-    <description>The Mariner 6 and 7 spacecraft were solar-powered, three-axis stabilized systems designed for Mars exploration. Each weighed 380 kg and utilized solar panels to generate 450 watts. They featured a 59 kg instrument payload, capable of continuous telemetry transmission with data rates from 8.33 to 16,200 bps, using both analog and digital tape recorders. The spacecraft employed a two-axis scan platform to maneuver various instruments, including an infrared radiometer, cameras, UV spectrometer, and infrared spectrometer, during their Mars flybys.</description>
+    <description>The Mariner 7 spacecraft was solar-powered, included an instrument payload to investigate Mars via flyby, and was capable of providing continuous telemetry transmission. The Mariner 7 spacecraft used a two-axis scan platform carrying the infrared radiometer, cameras, UV spectrometer, and infrared spectrometer. It was used to reposition the fields of view of the instruments repeatedly during the Mars flyby.</description>
   </Instrument_Host>
 </Product_Context>

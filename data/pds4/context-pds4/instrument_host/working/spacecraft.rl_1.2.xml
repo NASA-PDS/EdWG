@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.rl</logical_identifier>
     <version_id>1.2</version_id>
-    <title>ROSETTA-LANDER</title>
+    <title>The Rosetta Philae Lander</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -103,13 +103,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>ROSETTA-LANDER</name>
+    <name>The Rosetta Philae Lander</name>
     <type>Spacecraft</type>
     <naif_host_id>RL</naif_host_id>
-    <description>The Philae Lander is a box-shaped unit measuring 850 x 850 x 640 mm, designed to land on a comet using a tripod landing gear secured by harpoons. It has three main parts: an internal compartment for subsystems and experiments, a solar hood housing solar arrays and cameras, and a baseplate with a balcony for direct environmental access. Weighing around 100 kg, it operates with three subsystems on the orbiter for power and data transmission.
- 
- The mission requirements include surviving a 10-year cruise with hibernation phases, safe landing on the comet, conducting scientific operations, and long-term monitoring from 3 AU to the Sun. The Lander operates using a power subsystem, data management system, and thermal control system to maintain optimal conditions for its electronics.
- 
- Various operational modes exist, including Hibernation, Wake-up, Power Enough, Stand-by, and Operational Modes, each corresponding to specific power states and functionality.</description>
+    <description>The Philae Lander was a box-type unit with the dimensions of 850 x 850 x 640 mm3. On the comet, it was intended to rest on a tripod called Landing Gear, with a diameter of 2.6 m and fixed to the comet's surface by harpoons. Philae was not successful in attaching itself to the comet surface, bouncing several times before coming to rest in a shadowed crag. While it was eventually found, it was unable to execute the bulk of its observational program.</description>
   </Instrument_Host>
 </Product_Context>

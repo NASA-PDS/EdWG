@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.insight</logical_identifier>
     <version_id>2.1</version_id>
-    <title>InSight Mars Lander Spacecraft</title>
+    <title>The InSight Mars Lander</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -98,8 +98,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>InSight</name>
+    <name>The InSight Mars Lander</name>
     <type>Lander</type>
-    <description>The InSight mission is a single stationary lander on Mars to study its deep interior.</description>
+    <description>The InSight (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport) Mars Lander is part of a NASA Discovery mission that landed on Mars in November 2018 and conducted surface observations until December 2022. The surface station carries cameras, X-band transponder, seismic, and heat flow instruments designed with the scientific goals of understanding the formation and evolution of terrestrial planets through investigation of the interior structure and processes of Mars and to determine the present level of tectonic activity and meteorite impact rate on Mars.</description>
   </Instrument_Host>
 </Product_Context>

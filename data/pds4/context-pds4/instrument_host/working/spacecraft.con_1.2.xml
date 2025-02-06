@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.con</logical_identifier>
     <version_id>1.2</version_id>
-    <title>COMET NUCLEUS TOUR</title>
+    <title>The Comet Nucleus Tour (CONTour) Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -80,9 +80,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>COMET NUCLEUS TOUR</name>
+    <name>The Comet Nucleus Tour (CONTour) Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>CON</naif_host_id>
-    <description>Comet Nucleus Tour (CONTOUR)  was launched in 2002.</description>
+    <description>The CONTOUR spacecraft, built in-house at the Johns Hopkins University (JHU) Applied Physics Laboratory (APL), was designed in the form of an octagonal prisam about 2.1 m high and 1.8 m wide. In anticipation of its close approaches to a number of comets, it was fitted with a Whipple Shield similar to the shield designed for the Stardust mission. The scientific payload included four instruments, three of which were embedded in the Whipple shield. The spacecraft was lost shortly after launch during an injection maneuver. A NASA investigation concluded that the most likely cause was structural failure of the spacecraft resulting from plume heating during the burn.</description>
   </Instrument_Host>
 </Product_Context>

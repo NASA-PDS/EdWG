@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mr9</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mariner 9</title>
+    <title>The Mariner 9 Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -70,9 +70,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Mariner 9</name>
+    <name>The Mariner 9 Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>MR9</naif_host_id>
-    <description>The Mariner Mars 1971 spacecraft, weighing approximately 2238 lbs, was designed similarly to its predecessor, the Mariner Mars 1969, but included modifications for improved reliability, a 90-day operational lifetime, and different payload needs. It included 1050 lbs of propellant and a 152 lb science payload. The spacecraft featured various components such as four solar panels, multiple antennas, a maneuver engine, sensors, and propulsion tanks. Additionally, it had a scan platform that could articulate and was equipped with several scientific instruments, including an infrared radiometer and a UV spectrometer, allowing it to capture data across a wide range of angles.</description>
+    <description>The Mariner 9 spacecraft was launched in 1971 to investigate Mars and was the first orbiter around another planet. The science payload included the following instruments: the infrared radiometer, the wide-angle TV, the ultraviolet spectrometer, the narrow- angle TV and the IR Interferometer spectrometer. The Mariner 9 spacecraft was designed similarly to Mariners 6 and 7 but incorporated changes required by the different payload complements, changes required to increase reliability for a nominal transit cruise and a 90-day-in-orbit operational lifetime, and changes required for the spacecraft to accomplish the mission. The spacecraft configuration consisted of four solar panels, a low-gain antenna, a maneuver engine, a Canopus sensor, two propulsion tanks, two propulsion pressurization tanks, temperature control louvers, four acquisition sun sensors, a cruise sun sensor, a medium-gain antenna, a high-gain antenna and a scan platform. </description>
   </Instrument_Host>
 </Product_Context>

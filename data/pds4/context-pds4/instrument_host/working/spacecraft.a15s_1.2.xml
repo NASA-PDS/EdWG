@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.a15s</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Apollo 15 Particles and Fields Subsatellite</title>
+    <title>The Apollo 15 Particles and Fields Subsatellite</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Apollo 15 Particles and Fields Subsatellite</name>
+    <name>The Apollo 15 Particles and Fields Subsatellite</name>
     <type>Spacecraft</type>
     <naif_host_id>A15S</naif_host_id>
-    <description>The Apollo 15 subsatellite (PFS-1) was a small spacecraft released into lunar orbit from the Apollo 15 Service Module.  Its main objectives were to study the plasma, particle, and magnetic field environment of the Moon and map the lunar gravity field.</description>
+    <description>The Apollo 15 subsatellite (PFS-1) was a small spacecraft released into lunar orbit from the Apollo 15 Service Module. Its main objectives were to study the plasma, particle, and magnetic field environment of the Moon and map the lunar gravity field. The subsatellite provided about 6 months of data coverage before two successive electronic failures in February 1972 caused the loss of most of the data channels. The satellite orbited the Moon and returned data from 4 August 1971 until January 1973. It is assumed the subsatellite orbit decayed and it impacted the Moon sometime after this; the impact site is unknown.</description>
   </Instrument_Host>
 </Product_Context>

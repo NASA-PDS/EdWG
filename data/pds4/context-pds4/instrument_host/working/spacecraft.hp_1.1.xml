@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.hp</logical_identifier>
     <version_id>1.1</version_id>
-    <title>HUYGENS PROBE</title>
+    <title>Huygens Probe</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -95,21 +95,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>HUYGENS PROBE</name>
+    <name>Huygens Probe</name>
     <type>Spacecraft</type>
     <naif_host_id>HP</naif_host_id>
-    <description>The Huygens Probe is part of the NASA/ESA Cassini-Huygens mission to study Saturn and its largest moon, Titan. Developed by Aerospatiale, it was launched in 1991 and traveled for 6.7 years to reach Titan. The probe was dormant during this journey but was periodically activated. It made its descent into Titan's atmosphere through a series of programmed maneuvers, including parachute deployment, lasting 2-2.5 hours.
- 
- The Huygens system comprises two main components: the 318 kg Probe and the 30 kg Probe Support Equipment (PSE) attached to the Cassini Orbiter. The Probe features an Entry Assembly and a Descent Module containing scientific instruments and subsystems responsible for descent control, thermal management, and power distribution.
- 
- Key features of the Huygens Probe include:
- 
- - **Front Shield Subsystem**: Designed to withstand extreme thermal environments during entry.
- - **Descent Control Subsystem**: Manages the descent rate and ensures stable positioning for data collection.
- - **Command &amp; Data Management Subsystem**: Provides autonomous control and data relay functions using redundancy to enhance reliability.
- - **Electrical Power Subsystem**: Supplies power from onboard batteries and the Orbiter, featuring multiple operational modes.
- - **Telemetry and Communication**: Facilitates data transfer between the Probe and the Orbiter, using redundant systems for reliability.
- 
- The software for the Probe is structured to ensure autonomy and reliability, using a modular approach, and features functions for mission management, sensor data processing, and command execution. The entire system was rigorously designed to meet mission requirements while managing costs and tight schedules.</description>
+    <description>The Huygens Probe was part of the NASA/ESA Cassini-Huygens mission to study Saturn and its largest moon, Titan. The mission was launched in 1997 and Huygens Probe arrived on Titan in early 2005 after a controlled descent through Titan’s atmosphere. The Huygens system comprised two main components: the 318 kg Probe and the 30 kg Probe Support Equipment (PSE) attached to the Cassini Orbiter. The Probe featured an Entry Assembly and a Descent Module containing scientific instruments and subsystems responsible for descent control, thermal management, and power distribution.
+The Probe was the first spacecraft to land on Titan. It used parachutes to descend, which took about 2 hours and 27 minutes, during which time its instruments studied the atmosphere and weather. The Probe lasted roughly 1 hour and 10 minutes on the surface, where it took surface images, and studied several surface properties of Titan.
+</description>
   </Instrument_Host>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.lt</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Lunar Trailblazer Orbiter</title>
+    <title>The Lunar Trailblazer Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -52,8 +52,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Lunar Trailblazer Orbiter</name>
+    <name>The Lunar Trailblazer Spacecraft</name>
     <type>Spacecraft</type>
-    <description>             Lunar Trailblazer is a NASA SIMPLEX mission to acquire simultaneous, nested high-resolution near-infrared spectral images and thermal infrared data. The payload consists of the High-resolution Volatiles and Minerals Moon Mapper (HVM3) and the Lunar Thermal Mapper (LTM). The mission will the mineralogy of the lunar surface at all latitudes, including within Permanently Shadowed Regions.         </description>
+    <description>The Lunar Trailblazer spacecraft is an orbiter that is part of a NASA Small Innovative Missions for Planetary Exploration (SIMPLEx) mission to acquire simultaneous, nested high-resolution near-infrared spectral images and thermal infrared data. The payload consists of the High-resolution Volatiles and Minerals Moon Mapper (HVM3) and the Lunar Thermal Mapper (LTM). The Lunar Trailblazer orbiter will map the mineralogy of the lunar surface at all latitudes, including within Permanently Shadowed Regions.         </description>
   </Instrument_Host>
 </Product_Context>

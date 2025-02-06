@@ -64,9 +64,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Kaguya</name>
+    <name>Kaguya Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>-131</naif_host_id>
-    <description>             The Japanese lunar orbiter Kaguya (SELENE) was successfully launched by              an H2A rocket on September 14, 2007. On October 4, 2007, after passing              through a phasing orbit 2.5 times around the Earth, Kaguya was inserted              into a large elliptical orbit circling the Moon. After the apolune altitude             was lowered, Kaguya reached its nominal 100 km circular polar observation              orbit on October 19. During the process of realizing the nominal orbit,              two subsatellites Okina (Rstar) and Ouna (Vstar) were released into              elliptical orbits with 2400 km and 800 km apolune, respectively; both              elliptical orbits had 100 km perilunes. After the functionality of bus              system was verified, four radar antennas and a magnetometer boom were              extended, and a plasma imager was deployed. Acquisition of scientific              data was carried out for 10 months of nominal mission that began in              mid-December 2007. During the 8-month extended mission, magnetic fields              and gamma-rays from lower orbits were measured; in addition to this,              low-altitude observations were carried out using a Terrain Camera, a              Multiband Imager, and an HDTV camera. New data pertaining to an intense              magnetic anomaly and GRS data with higher spatial resolution were              acquired to study magnetism and the elemental distribution of the Moon.              After some orbital maneuvers were performed by using the saved fuel, the              Kaguya spacecraft finally impacted on the southeast part of the Moon.          </description>
+    <description>The Japanese lunar orbiter Kaguya (SELENE) was successfully launched aboard an H-IIA rocket on September 14, 2007. Following its launch, Kaguya passed through a phasing orbit around Earth 2.5 times and was inserted into a large elliptical orbit around the Moon on October 4, 2007. After lowering its apolune altitude, Kaguya achieved its nominal 100 km circular polar observation orbit on October 19, 2007.
+
+During the orbital adjustment process, two subsatellites, Okina (Rstar) and Ouna (Vstar), were deployed into elliptical orbits with apolunes of 2400 km and 800 km, respectively, and perilunes of 100 km. Once the bus system was verified, Kaguya extended four radar antennas, a magnetometer boom, and deployed a plasma imager.
+
+Scientific data acquisition commenced during the 10-month nominal mission, which began in mid-December 2007. During the subsequent 8-month extended mission, Kaguya conducted low-altitude observations using a Terrain Camera, a Multiband Imager, and an HDTV camera, while also measuring magnetic fields and gamma rays from lower orbits. This extended mission yielded significant new data, including detailed observations of an intense magnetic anomaly and gamma-ray spectroscopy (GRS) data with higher spatial resolution, providing insights into the Moon's magnetism and elemental distribution.
+
+After performing orbital maneuvers using reserved fuel, the Kaguya spacecraft completed its mission with a controlled impact on the southeastern region of the Moon.</description>
   </Instrument_Host>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.suisei</logical_identifier>
     <version_id>1.3</version_id>
-    <title>SUISEI</title>
+    <title>The Suisei Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -75,9 +75,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>SUISEI</name>
+    <name>The Suisei Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>SUISEI</naif_host_id>
-    <description>The Suisei spacecraft was launched in 1985. It studied the comet Halley.</description>
+    <description>The Suisei spacecraft, twin of the Sakigake spacecraft, was similarly designed and built by the precursors to the modern Japanese Aerospace Exploration Agency (JAXA). A twin to Sakigake in disk-like shape and construction, Suisei carried a different science payload - specifically, a UV imager and a solar wind instrument. Suisei followed Sakigake to comet 1P/Halley and took images of the comet's hydrogen corona over 30 days as the comet passed down through the ecliptic plane. Known as "Planet-A" prior to launch, the spacecraft was renamed Suisei after successful launch.</description>
   </Instrument_Host>
 </Product_Context>

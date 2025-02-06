@@ -63,6 +63,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>VENERA 15</name>
     <type>Spacecraft</type>
     <naif_host_id>V15</naif_host_id>
-    <description>The Venera 15 spacecraft was launched in 1983. It studied Venus.</description>
+    <description>Venera 15 was launched by the Soviet Union in 1983 as part of the Venera program to study Venus. It was equipped with a radar system designed to map the surface of Venus through its thick atmosphere. Venera 15’s primary mission was to conduct high-resolution radar imaging of Venus' northern hemisphere, focusing on the planet’s geology, surface features, and terrain. The spacecraft successfully transmitted detailed radar images of the planet’s surface, revealing mountains, valleys, and large volcanic structures. Venera 15 operated until 1984, contributing significantly to our understanding of Venus’ surface and its geological activity.</description>
   </Instrument_Host>
 </Product_Context>

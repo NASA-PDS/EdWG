@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.vo2</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Viking Orbiter 2</title>
+    <title>The Viking Orbiter 2 Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -34,6 +34,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.pre-magellan</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>instrument_host_to_agency</reference_type>
@@ -114,13 +118,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Viking Orbiter 2</name>
+    <name>The Viking Orbiter 2 Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>VO2</naif_host_id>
-    <description>The Viking spacecraft comprised two orbiters and their heat-sterilized landers, each weighing 3530 kg at launch and approximately 900 kg for the orbiters and 600 kg for the landers after landing. The orbiters, based on Mariner designs, utilized solar panels for power and had a three-axis stabilization system. They housed three scientific instruments: the Visual Imaging Subsystem (VIS), the Mars Atmosphere Water Detector (MAWD), and the Infrared Thermal Mapper (IRTM). 
- 
- The landers were equipped with stereo facsimile cameras, meteorological instruments, an X-ray fluorescence experiment, a gas chromatograph mass spectrometer, and three biology experiments, along with a seismometer and a magnetic properties experiment. Soil analysis was performed with various instruments, and upper atmosphere measurements were taken during atmospheric entry. Each lander had a programmable arm for sampling soil and rock.
- 
- The instruments on the orbiters were mounted on a scan platform, which controlled their temperature and allowed for movement in two axes, enabling precise scientific observations.</description>
+    <description>The Viking Orbiter 2 spacecraft, derived from earlier Mariner designs, utilized solar panels for power and was stabilized in three axes by use of solar and star sensors in conjunction with attitude control jets. Three remote sensing science investigations resided on the two-axis scan platform: a pair of high resolution slow scan televison framing cameras (the Visual Imaging Subsystem, or VIS); a near-infrared spectrometer for atmospheric water detection (the Mars Atmosphere Water Detector, MAWD); and a visual and thermal infrared radiometer system (Infrared Thermal Mapper, IRTM).</description>
   </Instrument_Host>
 </Product_Context>

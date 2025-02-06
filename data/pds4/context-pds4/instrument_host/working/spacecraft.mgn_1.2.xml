@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.mgn</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Magellan</title>
+    <title>The Magellan Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -84,9 +84,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Magellan</name>
+    <name>The Magellan Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>MGN</naif_host_id>
-    <description>For most Magellan experiments, data were collected by       instruments on the spacecraft.  Those data were then relayed       via the telemetry system to stations of the NASA Deep Space       Network (DSN) on the ground.  Radio Science experiments (such       as radio occultations) required that DSN hardware also       participate in data acquisition.</description>
+    <description>The Magellan spacecraft, launched in 1989, mapped the surface of Venus from orbit until 1994. The scientific payload featured a radar system that operated in different modes: synthetic aperture radar (SAR), altimetry (ALT), and radiometry (RAD). The Magellan spacecraft's structure included four major sections: High-Gain Antenna (HGA), Forward Equipment Module (FEM), Spacecraft Bus (including the solar array), and the Orbit Insertion Stage. Spacecraft subsystems included those for thermal control, power, attitude control, propulsion, command data and data storage, and telecommunications.</description>
   </Instrument_Host>
 </Product_Context>

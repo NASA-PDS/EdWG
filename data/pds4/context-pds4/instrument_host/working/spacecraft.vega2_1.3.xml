@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.vega2</logical_identifier>
     <version_id>1.3</version_id>
-    <title>VEGA 2</title>
+    <title>The Vega 2 Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -100,9 +100,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>VEGA 2</name>
+    <name>The Vega 2 Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>VEGA2</naif_host_id>
-    <description>The Vega 2 mission launched in 1984. It studied Venus and comet Halley.</description>
+    <description>The Soviet Vega program spacecraft were based on the earlier Venera program spacecraft, and carried balloon probes and surface landers identical to the earlier Venera spacecraft for deplotment to Venus. After releasing its probe and lander at Venus in June 1985, Vega 2 used a Venus gravity assist to continue on to join the armada at comet 1P/Halley. Vega 2 encountered 1P/Halley two days after Vega 1, at a slightly close distance of 8030km, encountering a little less dust outside the coma than its earlier twin. Subsequent to the 1P/Halley encounter, Vega 2 took dust measurements as it passed through the orbits of three other comets before contact was lost with the spacecraft in March 1987. Like its twin, Vega 2 is currently in a heliocentric orbit with a period of about 281 days.</description>
   </Instrument_Host>
 </Product_Context>

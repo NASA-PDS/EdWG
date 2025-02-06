@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.neas</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Near Earth Asteroid Scout (NEAS) Spacecraft</title>
+    <title>Near Earth Asteroid Scout (NEA Scout) Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -48,9 +48,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>neas</name>
+    <name>Near Earth Asteroid Scout (NEA Scout) Spacecraft</name>
     <type>Spacecraft</type>
     <!--naif_host_id>-number here CURRENTLY UNKNOWN</naif_host_id-->
-    <description>       The NEAS spacecraft is a 6U CubeSat using a controllable solar sail (Lockett et al 2020) with the main science       objective to encounter and characterize near-Earth asteroid 2020 GE.  A simple monochromatic camera will be used        for optical navigation and to answer the science knowledge gaps of the target asteroid.  The NEAS camera along        with the spacecraft subsystems (navigation, guidance and control, etc.) will allow the NEAS mission to gather        and downlink data to Earth.  Additional information on the mission and instrument can be found within the        published literature.         </description>
+    <description>The NEA Scout spacecraft was a 60unit CubeSat (about 10cm x 20cm x 30cm, stowed) equipped with a controllable solar sail and designed as a technology demonstration of the capabilities of very small satellites for exploring very small (1-100m) near-Earth asteroids. It was one of 10 CubeSats launched by the Artemis 1 mission. Its target at time of launch was the near-Earth asteroid 2020GE, but after deployment from Artemis 1, contact with the CubeSat was never established, and (as of December 2022) it is considered lost.</description>
   </Instrument_Host>
 </Product_Context>

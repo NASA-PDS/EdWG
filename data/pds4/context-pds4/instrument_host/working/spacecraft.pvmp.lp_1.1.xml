@@ -131,9 +131,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>PIONEER VENUS MULTIPROBE</name>
+    <name>PIONEER VENUS LARGE PROBE</name>
     <type>Spacecraft</type>
     <naif_host_id>PVO</naif_host_id>
-    <description>The Sakigake spacecraft was launched in 1985. It studied the comet Halley.</description>
+    <description>Pioneer Venus Multiprobe was part of the Pioneer Venus mission, launched in 1978, and included multiple probes designed to explore Venus. The multiprobe consisted of a large atmospheric probe and three small atmospheric probes that were released from the Pioneer Venus Orbiter. These probes entered Venus’ thick atmosphere, transmitting data on its composition, temperature, and pressure before succumbing to the extreme conditions. The mission, which also included the orbiter, provided comprehensive data on Venus’ cloud cover, atmospheric dynamics, and surface pressure, greatly enhancing our understanding of the planet.</description>
   </Instrument_Host>
 </Product_Context>

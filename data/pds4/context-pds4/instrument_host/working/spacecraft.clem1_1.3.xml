@@ -112,6 +112,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>CLEMENTINE 1</name>
     <type>Spacecraft</type>
     <naif_host_id>CLEM1</naif_host_id>
-    <description>The Clementine mission was active in 1994. It studied the Moon. It consisted of no other spacecrafts.</description>
+    <description>The Clementine 1 spacecraft was launched in 1994 as part of a joint mission between the Ballistic Missile Defense Organization (BMDO) and NASA. Designed primarily for lunar exploration, Clementine 1 was a small, cost-effective spacecraft that provided significant scientific data about the Moon’s surface, composition, and topography.
+
+The spacecraft was equipped with a variety of instruments, including a multi-spectral imaging camera, a laser altimeter, and spectrometers. These instruments allowed Clementine 1 to map the entire lunar surface across multiple wavelengths, offering new insights into the Moon’s mineral composition, surface features, and potential water-ice deposits, especially in the permanently shadowed regions at the poles.
+
+Clementine 1 operated in a polar orbit, allowing for comprehensive coverage of the lunar surface. Its camera captured high-resolution images in visible, infrared, and ultraviolet light, while the laser altimeter provided detailed measurements of the lunar topography. The spectrometers analyzed the Moon's mineral content, contributing to the identification of various materials present on the lunar surface.
+
+Though the mission's initial goal was primarily technological testing and lunar mapping, the Clementine 1 spacecraft made groundbreaking discoveries, including evidence of water ice at the lunar poles, significantly advancing our understanding of the Moon. The spacecraft's successful operation and the valuable data it returned paved the way for future lunar exploration missions.</description>
   </Instrument_Host>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:jaxa:darts:context:instrument_host:lander.mascot</logical_identifier>
     <version_id>1.2</version_id>
-    <title>MASCOT (Mobile Asteroid surface SCOuT) Lander</title>
+    <title>The Mobile Asteroid surface SCOuT (MASCOT) Lander</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -77,9 +77,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>MASCOT</name>
+    <name>The Mobile Asteroid surface SCOuT (MASCOT) Lander</name>
     <type>Lander</type>
     <naif_host_id>-37700</naif_host_id>
-    <description>The MASCOT (Mobile Asteroid surface SCOuT) is compact landing package onboard the Hayabusa2 Spacecraft, that was developed by DLR (German Aerospace Center) and CNES (French National Center for Space Studies). MASCOT has a wide-angle camera (MASCAM; MAScot CAMera) to capture images of the lander's surrounding, an infrared spectroscopic microscope (MicrOmega) to investigate the composition and characteristics of the minerals on the surface of Ryugu, a thermal radiometer (MARA; MAscot RAdiometer) to measure the surface temperature, and a magnetometer (MasMag; MAScot MAGnetometer) to measure any magnetic field. MASCOT has a hopping mechanism using a motor to rotate a swing-arm within the lander. This hopping mechanism is designed for correcting attiude with respect to the surface, and changing location only once. MASCOT does not use solar cells but is equipped with a lithium primary battery built into the lander. The duration of the battery is about 16 hours, which corresponds to about two rotations of Ryugu.</description>
+    <description>The Mobile Asteroid Surface Scout (MASCOT) lander was developed cooperatively by the German Aerospace Center (DLR) and the French Centre National d'Etudes Spatiales (CNES) for deployment on the surface of the asteroid (162173) Ryugu by the Hayabusa2 spacecraft. It weight about 9.6 kg and measured about 29.5cm x 27.5cm x 19.5cm. It carried four instruments for studying the fine details of the asteroid surface regolith. It was successfully deployed in October 2018.</description>
   </Instrument_Host>
 </Product_Context>

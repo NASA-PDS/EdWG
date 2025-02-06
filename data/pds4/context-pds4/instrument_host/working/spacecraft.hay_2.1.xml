@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.hay</logical_identifier>
     <version_id>2.1</version_id>
-    <title>Hayabusa Spacecraft</title>
+    <title>The Hayabusa Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -71,7 +71,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>Hayabusa</name>
+    <name>The Hayabusa Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>HAY</naif_host_id>
     <description>The Hayabusa spacecraft has a box-shaped main body 1.5 m along each side and 1.05 m high. The launch mass is 530 kg, including 50 kg of chemical propellant and 65 kg of xenon gas. Two solar panel wings with a total array area of 12 square meters protrude from the side and a 1.5 m diameter high-gain parabolic antenna is mounted on top on a two-axis gimbal. A cylindrical sampler horn, deployed shortly after launch, protrudes from the bottom of the spacecraft. The Minerva lander was also mounted on th spacecraft near the bottom panel. Hayabusa is propelled during cruise phases by two microwave ion thruster engines, which use a microwave discharge to ionize xenon gas. The ionized plasma is accelerated by high-voltage electrodes through four thruster heads which protrude from one side of the spacecraft body to provide a peak thrust of 20 mN using 1 kW power. A nitrogen tetroxide/hydrazine propulsion system with a peak thrust of 22 N will be used for maneuvering. The spacecraft is powered by gallium-arsenide solar cells and a 15 A-hr rechargeable nickel-metal hydride (Ni-MH) battery. Communications are via X- and S-band low gain antennas and the high gain dish antenna (X-band) with a transmitted power of 20 W. The mission is also be equipped with a camera, used for imaging, visible-polarimetry studies, and optical navigation near the asteroid, a laser ranging device (LIDAR), and near-IR and X-ray spectrometers. The insulated and cushioned re-entry capsule, 40 cm in diameter and 25 cm deep with a mass of about 20 kg, is attached to the body of the spacecraft near the sample collection horn. The capsule has a convex nose covered with a 3 cm thick ablative heat shield to protect the samples from the high velocity (~13 km/s) re-entry. Cost of the Hayabusa spacecraft is roughly 12 billion yen ($100 million U.S.)</description>

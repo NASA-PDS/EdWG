@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.ro</logical_identifier>
     <version_id>1.1</version_id>
-    <title>ROSETTA-ORBITER</title>
+    <title>The Rosetta Orbiter Spacecraft</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -143,11 +143,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>ROSETTA-ORBITER</name>
+    <name>The Rosetta Orbiter Spacecraft</name>
     <type>Spacecraft</type>
     <naif_host_id>RO</naif_host_id>
-    <description>The Rosetta Orbiter was originally designed for a mission to comet Wirtanen but adapted for the comet Churyumov-Gerasimenko. The spacecraft has a box-type design with two main modules: a Payload Support Module (PSM) and a Bus Support Module (BSM). Key features include a central thrust tube containing propellant tanks, massive solar panels, and scientific instruments focused on facing the comet during operations.
- 
- Mission goals necessitate advanced navigation capabilities and numerous scientific instruments, influencing overall design parameters such as power supply, propulsion, and telecommunications. The spacecraft must manage extreme environmental conditions over nearly 12 years, requiring high autonomy and shielding from radiation and micrometeoroids.</description>
+    <description>ESA describes the Rosetta Orbiter spacecraft as "a large aluminum box with dimensions 2.8 x 2.1 x 2.0 metres". The science instruments were mounted on the top face; a 2.2m steerable high-gain antenna was mounted on one side; and the Philae lander spacecraft mounted on the opposite side. The solar panels extended from the remaining sides, spanning 32m from tip to tip; each panel was 32 square meters in area. The spacecraft subsystems weres mounted on the bottom panel. Total mass at launch was about 3000 kg.</description>
   </Instrument_Host>
 </Product_Context>

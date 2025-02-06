@@ -100,6 +100,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>GALILEO PROBE</name>
     <type>Spacecraft</type>
     <naif_host_id>GP</naif_host_id>
-    <description>The Galileo atmospheric probe will be deployed from the orbiter 150 days prior to Jupiter encounter. The probe consists of a deceleration module and a descent module. After entering the Jovian atmosphere, the descent module begins transmitting data from its instruments.</description>
+    <description>The Galileo Atmospheric Probe was deployed from the Galileo Orbiter 150 days before its encounter with Jupiter. The probe consisted of a deceleration module and a descent module, designed to enter Jupiter's atmosphere and transmit data. Upon atmospheric entry, the descent module began sending real-time data from its instruments, providing detailed measurements of Jupiter's composition, temperature, pressure, and winds until it was destroyed by the extreme conditions of the atmosphere.</description>
   </Instrument_Host>
 </Product_Context>

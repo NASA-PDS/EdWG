@@ -62,6 +62,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Spacecraft</type>
     <naif_host_id>DART</naif_host_id>
     <!-- also DOUBLE ASTEROID REDIRECTION TEST -->
-    <description>            The DART spacecraft is a low-cost spacecraft designed to navigate            autonomously into an impact with Dimorphos, the secondary of the             (65803) Didymos system. It carries a single instrument, the             Didymos Reconnaissance and Asteroid Camera (DRACO), and will            also carry the Light Italian CubeSat for Imaging Asteroids             (LICIACube) independent spacecraft, which will be released 10            days prior to launch to observe the impact.         </description>
+    <description>The DART spacecraft, funded through NASA'sPlanetary Defense Coordination Office, was designed as an impactor, with some technology demonstration elements. It carried no scientific instruments, although the DRACO navigation camera did return an image data set. The spacecraft measure about 1.8m x 1.9m x 2.6 and was fitted with two Roll Out Solar Arrays (ROSA) measuring 8.5m x 2.4m each. Launch mass of the DART spacecraft was 610kg. The DART spacecraft carried along the Italian Space Agency LICIACube as a ride-along mission, releasing the cubesat 15 days before impact so that it could observer and send images back to Earth independently of DART.</description>
   </Instrument_Host>
 </Product_Context>
