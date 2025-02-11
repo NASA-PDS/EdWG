@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+    xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:target:planetary_system.venus_system</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Venus System</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2025-01-23</modification_date>
+                <version_id>1.0</version_id>
+                <description>The Venus planetary system.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+            <reference_type>member_of</reference_type>
+            <comment>The central body of the system.</comment>
+        </Internal_Reference>
+    </Reference_List>
+    <Target>
+        <name>Venus System</name>
+        <type>Planetary System</type>
+        <description>
+            The second planet from the Sun, at a mean distance of roughly 108.21 x 10^6 km (0.72 astronomical units). 
+            The greatest elongation of Venus is about 47°, making it visible at most about 3 hours after sunset or before sunrise. 
+            Venus has the most circular orbit of any planet in the solar system. Venus is only slightly smaller than Earth (95% of Earth's diameter, 
+            80% of Earth's mass). Its chemical composition and density are comparable to those of the Earth. 
+            It takes Venus just under 224.401 days to orbit the Sun, compared to the 365 day orbital period of the Earth. 
+            Venus' rotation is retrograde, that is it actually rotates from east to west, as opposed to west to east (prograde) which is the common 
+            rotating direction of most other planets. Seen from Venus, the sun would rise in the west and set in the east. 
+            Moreover, it takes about 244 Earth days for Venus to rotate once (sidereal rotation). 
+            This is longer than its orbital period. The length of its solar day is about 117 Earth days. Venus rotation. 
+            Its axial tilt is only three degrees, so there are no seasons on Venus. The atmosphere on the surface of Venus 
+            consists mostly of carbon dioxide, with a small trace of nitrogen. Venus has a surface pressure about 90 times that of the Earth.
+            - An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri
+        </description>
+    </Target>
+</Product_Context>
