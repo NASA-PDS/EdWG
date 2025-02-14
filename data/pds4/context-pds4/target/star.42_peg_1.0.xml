@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context
+  xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://pds.nasa.gov/pds4/pds/v1
+      https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
+
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.42_peg</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Zeta Pegasi</title>
+    <information_model_version>1.23.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias><alternate_title>42 Pegasi</alternate_title></Alias>  <!--from Joe Mafi-->
+      <Alias><alternate_title>Zeta Peg</alternate_title></Alias>  <!--from wikipedia-->
+      <Alias><alternate_title>Homam</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>zet Peg</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>42 Peg</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ADS 16182 A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>AG+10 3107</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>AKARI-IRC-V1 J2241277+104952</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>BD+10 4797</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CCDM J22415+1050A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>CSI+10 4797 1</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>FK5 855</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GC 31664</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GCRV 14247</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GEN# +1.00214923</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>GSC 01155-02187</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HD 214923</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIC 112029</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HIP 112029</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>HR 8634</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IDS 22365+1019 A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>IRAS 22389+1034</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>JP11 3523</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>2MASS J22412773+1049526</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>N30 4992</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PLX 5492</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PLX 5492.00</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PMC 90-93 602</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>PPM 141743</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>ROT 3307</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SAO 108103</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SKY# 43140</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>SRS 30855</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TD1 29271</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TIC 322187270</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>TYC 1155-2187-1</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV 19416</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UBV M 26553</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>UCAC3 202-315734</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>uvby98 100214923</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WDS J22415+1050A</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WEB 19999</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>WISE J224127.76+104952.7</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>YZ 10 9059</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Gaia DR2 2717594072113581696</alternate_title></Alias>  <!--from simbad-->
+      <Alias><alternate_title>Gaia DR3 2717594072113956352</alternate_title></Alias>  <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-02-13</modification_date>
+        <version_id>1.0</version_id>
+        <description>RChen/EN initial</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+
+  <Target>
+    <name>Zeta Pegasi</name>
+    <type>Star</type>
+    <description>
+Based on the SIMBAD Astronomical Database
+Right Ascension, ICRS coord, ep=J2000: 22 hours 41 minutes 27.7207176 seconds
+Declination, ICRS coord, ep=J2000: +10 degrees 49 minutes 52.907917 seconds
+    </description>
+  </Target>
+</Product_Context>
+
