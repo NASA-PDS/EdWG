@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1N00_2100.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1N00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:ody.themis</logical_identifier>
     <version_id>1.1</version_id>
-    <title>THERMAL EMISSION IMAGING SYSTEM for ODY</title>
-    <information_model_version>1.22.0.0</information_model_version>
+    <title>Thermal Emission Imaging System</title>
+    <information_model_version>1.23.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
@@ -18,9 +18,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2025-01-02</modification_date>
+        <modification_date>2025-02-16</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "agency" references. Revised title and instrument name to common usage</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2023-09-15</modification_date>
@@ -65,7 +65,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>THERMAL EMISSION IMAGING SYSTEM</name>
+    <name>THEMIS</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imaging Spectrometer</ctli:type>
@@ -140,7 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       Center (SBRC) and utilize custom Digital Signal Processing
       electronics.  Spectral discrimination in the infrared is achieved
       with ten narrowband stripe filters.  Each filter covers 16 lines
-      in the along track directiona with an 8-line 'dead-space' between
+      in the along track directiona with an 8-line "dead-space" between
       filters.  The stripe filters were fabricated as separate stripe
       filters butted together on the focal plane.  The along-track
       detectors under a common spectral filter are combined by the use
@@ -156,8 +156,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       (band 10).
  
       The visible camera was supplied by Malin Space Science Systems
-      (MSSS) and is a derivative of the MS'98 MARDI camera.  It consists
-      of a small (5.5 x 8.5 x 6.5 cm, &lt;500 gm) unit incorporating a
+      (MSSS) and is a derivative of the MS-1998 MARDI camera.  It consists
+      of a small (5.5 x 8.5 x 6.5 cm, less than 500 gm) unit incorporating a
       focal plane assembly with five color filters superimposed on the
       CCD detector, a timing board, a data acquisition subsystem and a
       power supply.  The visible sensor utilizes a Kodak KAI-1001 CCD.
@@ -209,9 +209,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       The digital electronics are responsible for clock generation,
       sampling of the CCD signal, conversion of the 12-bit samples to
       8-bit encoded pixels, storage of the pixels, and finally readout
-      of the pixels to the spacecraft.  The zero reference ('reset')
+      of the pixels to the spacecraft.  The zero reference ("reset")
       level for each pixel is digitized and stored in a register.  The
-      sum of the video plus zero reference ('video') level is then
+      sum of the video plus zero reference ("video") level is then
       digitized, and an arithmetic subtraction is performed to produce
       the final result.  The CCD output only requires scaling to the
       ADC range; no analog sampling, delay or differencing is required.
@@ -320,7 +320,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          1) lossless predictive (capable of applications by the SDP in
             real-time);
          2) a relatively fast discrete cosine transform compression
-            (applied by the spacecraft CPU in 'near realtime' a few
+            (applied by the spacecraft CPU in "near realtime" a few
              tens of seconds);
          3) high-quality lossy wavelet compression (applied by the CPU
             on a longer timescale).
@@ -388,7 +388,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     facility and staff developed and in place for the MGS TES
     investigation.  No special spacecraft operation or orientation is
     required to obtain THEMIS data.  The instrument alternates between
-    data collection (&lt;3.5 hours per day) and idle modes based on
+    data collection (less than3.5 hours per day) and idle modes based on
     available DSN downlink rates.  These modes will fall within
     allocated resources (e.g.  power), and will not require power
     cycling of the instrument.  All instrument commands are generated
@@ -418,7 +418,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       that can be stored within the 3.734 Mbytes THEMIS internal buffer.
       The size of an image is given by:
  
-          (1024 * 192) * #framelets * #bands &lt; 3.734 Mbytes.
+          (1024 * 192) * #framelets * #bands is less than 3.734 Mbytes.
       Thus, for example, either a single-band, 19 framelet (65.6 km)
       image or a 5-band 3-framelet (10.3 km) image can be collected.
       This buffer must be emptied to the spacecraft before a subsequent
@@ -448,10 +448,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       mission will fully map Mars in daytime IR and will map the planet
       1.5 times in nighttime IR. The visible imaging will cover 60% of
       the planet at 18 meter resolution in one band (80,000 18x50Km
-      frames) and &lt;1% in 5-band color.  Tradeoffs between monochromatic
-      and multi-spectral imaging, as well as variations in the degree of
-      lossy compression , will be made to maximize the science return
-      from the visible imager.
+      frames) and less than 1% in 5-band color.  Tradeoffs between
+      monochromatic and multi-spectral imaging, as well as variations
+      in the degree of lossy compression , will be made to maximize
+      the science return from the visible imager.
  
       THEMIS data volume return varies significantly will mission
       phase due to variations n the Earth-Mars distance.  In addition,
