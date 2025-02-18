@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.pvmp.sp-day</logical_identifier>
     <version_id>1.1</version_id>
     <title>PIONEER VENUS SMALL PROBE (DAY)</title>
-    <information_model_version>1.22.0.0</information_model_version>
+    <information_model_version>1.23.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated. Lynn Neakrase: removed naif_host_id as this spacecraft has no NAIF_ID</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2023-12-11</modification_date>
@@ -44,14 +44,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-day.snfr</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
-    <!--        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-day.mpro</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-day.dbli</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>               -->
+    <!-- <Internal_Reference> -->
+            <!-- <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-day.mpro</lid_reference> -->
+            <!-- <reference_type>instrument_host_to_instrument</reference_type> -->
+        <!-- </Internal_Reference> -->
+        <!-- <Internal_Reference> -->
+            <!-- <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-day.dbli</lid_reference> -->
+            <!-- <reference_type>instrument_host_to_instrument</reference_type> -->
+        <!-- </Internal_Reference> -->
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
       <reference_type>instrument_host_to_target</reference_type>
@@ -84,7 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument_Host>
     <name>PIONEER VENUS SMALL PROBE (DAY)</name>
     <type>Spacecraft</type>
-    <naif_host_id>PVO</naif_host_id>
+    <!--naif_host_id>PVO</naif_host_id-->
     <description>Pioneer Venus Small Probe (Day) was one of the four probes deployed by the Pioneer Venus mission, launched in 1978. This specific small probe was designed to study Venus’ day-side atmosphere. As it descended, the probe measured temperature, pressure, and chemical composition of Venus’ dense cloud cover. The probe’s data significantly contributed to understanding the planet’s extreme atmospheric conditions.
 
 In addition to its Venus-focused mission, the Pioneer Venus mission was part of NASA's broader exploration efforts, which also included studies of asteroids such as 5535 Annefrank and 243 Ida, shedding light on the makeup of other small celestial bodies in the solar system. Though the Pioneer Venus Small Probe focused on Venus, the exploration of these asteroids helped establish foundational knowledge for future missions.</description>

@@ -12,7 +12,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.3</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Description updated.</description>
+        <description>Updated schema version. Adding missing "agency" references. Description updated.
+                    Updated by SBN:Tilden Barnes during PDS migration of the New Horizons data archive.
+                    (1) NIXED: Removed all target Internal_References since they do not directly apply to the spacecraft.
+                    (2) Added DOI information to external references where found.
+                    (3) Summarized Instrument_Host:description and moved/edited the rest into a created overview document that gives more breadth.
+                    (4) Removed most external references since they are more relevant to the overview document in (3).  
+                    (5) Added internal context references to investigation:mission.new_horizons_kem1 and investigation:mission.new_horizons_kem2
+                    (6) Updated to latest IM.
+        </description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2021-02-24</modification_date>
@@ -45,16 +53,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+      <reference_type>instrument_host_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem2</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons_kem1</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_host_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.new_horizons</lid_reference>
@@ -80,6 +88,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lid_reference>urn:nasa:pds:context:instrument:nh.pepssi</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
+    <!-- SBN-TB:  Waiting on addition to standards to add this Instrument Package connection. Text below will need to be updated.-->
+    <!-- <Internal_Reference> -->
+      <!-- <lid_reference>urn:nasa:pds:context:other:nh.ralph</lid_reference> -->
+      <!-- <reference_type>context_to_associate</reference_type>  -->
+      <!-- <comment>Ralph is the instrument package for LEISA and MVIC instruments</comment> -->
+    <!-- </Internal_Reference> -->
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:nh.rex</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
@@ -172,13 +186,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lid_reference>urn:nasa:pds:context:target:satellite.134340_pluto.styx</lid_reference>
       <reference_type>instrument_host_to_target</reference_type>
     </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:nh_documents:mission:nh_sc_overview</lid_reference>
+      <reference_type>instrument_host_to_document</reference_type>
+      <comment>Overview document for the New Horizons spacecraft.</comment>
+    </Internal_Reference>
     <External_Reference>
+      <doi>10.1007/s11214-008-9374-8</doi>
       <reference_text>
                    Fountain, G.H., D.Y. Kusnierkiewicz, C.B. Hersman, T.S. Herder, T.B. Coughlin,
                    W.C. Gibson, D.A. Clancy, C.C. DeBoy, T.A. Hill, J.D. Kinnison, D.S. Mehoke,
                    G.K. Ottman, G.D. Rogers, S.A. Stern, J.M. Stratton, S.R. Vernon, and S.P.
                    Williams, The New Horizons Spacecraft, Space Sci. Rev., Volume 140, Numbers
-                   1-4, pp. 23-47, 2008.
+                   1-4, pp. 23-47, 2008.  https://doi.org/10.1007/s11214-008-9374-8
             </reference_text>
       <description>reference.FOUNTAINETAL2008</description>
     </External_Reference>

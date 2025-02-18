@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1N00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1N00_2100.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument:v13.ep</logical_identifier>  
+        <version_id>1.0</version_id>
+        <title>ENERGETIC PARTICLES, MSU-TASPD, for VENERA 13</title>
+        <information_model_version>1.23.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-12-20</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Initial creation
+                </description>
+             </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+ 
+    <Reference_List>
+        <!-- <Internal_Reference> -->
+        <!--     <lid_reference>the soviets</lid_reference> -->
+        <!--     <reference_type>instrument_to_agency</reference_type> -->
+        <!-- </Internal_Reference> -->
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:mission.venera_13</lid_reference>
+            <reference_type>instrument_to_investigation</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.v13</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+    </Reference_List>
+ 
+    <Instrument>
+        <name>VENERA 13 ENERGETIC PARTICLES, MSU-TASPD</name>  
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Charged Particle Detector</ctli:type>
+            </ctli:Type_List>
+        </Type_List_Area> 
+        <naif_instrument_id>not applicable</naif_instrument_id>
+ 
+        <serial_number>not applicable</serial_number>
+ 
+        <description>
+The Energetic Particles Experiment on Venera 13 was the Soviet ASP-18M suite
+of detectors. It was designed to monitor the flux of charged particles of
+medium energies during cruise and Venus flyby. The ASP-18M suite consisted of
+five sensors: four solid state detectors and one gas-discharge
+(Geiger-Mueller) detector. The sensors measured the flux continuously. Stored
+in the spacecraft memory, the data would be transmitted at 20- or 80-minute
+resolution depending on the detector. The instrument data run from 31 October
+1981, the day after launch, through Venus flyby on 1 March 1982, and continue
+until 12 April 1983.
+
+Sensor D1 was a Solid State Detector (SSD) consisting of a 420 micron thick
+plate of silicon covered by thin foil and placed under a collimator with a
+hole in the shape of a cone, and a pulse-amplitude analyzer. It was designed
+to continuously measure the flux of protons and alpha particles coming from
+within 30 degrees of the sunward direction with a geometric factor of 0.09 cm2
+sr in three channels. The main spacecraft axis was sunward directed with 10 -
+15 degree precision. Channel 1 counted protons in the energy range from 1.9 to
+2.5 MeV and alpha-particles of energy 3.9 to 4.4 MeV. Channel 2 counted
+protons from 2.5 - 4.6 MeV and alpha particles from 4.4 - 6.1 MeV. Channel 3
+counted protons from 4.6 - 8.0 MeV and alpha particles from 6.1 - 8.8 MeV. The
+time resolution of the data was 80 minutes.
+
+Sensor D2 was an SSD consisting of a 420 micron thick plate of silicon covered
+by thin foil and placed under a collimator with a hole in the shape of a cone,
+and a pulse-amplitude analyzer. It was designed to continuously measure the
+flux of protons and alpha particles coming from within 30 degrees of the
+anti-sunward direction with a geometric factor of 0.09 cm2 sr in three
+channels. The main spacecraft axis was sunward directed with 10 - 15 degree
+precision. Channel 1 counted protons in the energy range from 1.9 to 2.5 MeV
+and alpha-particles of energy 3.9 to 4.4 MeV. Channel 2 counted protons from
+2.5 - 4.6 MeV and alpha particles from 4.4 - 6.1 MeV. Channel 3 counted
+protons from 4.6 - 8.0 MeV and alpha particles from 6.1 - 8.8 MeV. The time
+resolution of the data was 80 minutes.
+
+Sensor D3 was an SBM-20 series gas discharge (Geiger-Mueller) counter, a thin
+1 cm diameter, 9 cm long cylinder. It was mounted inside the wall of the
+spacecraft on the sunward facing side. It had minimal shielding (~1 g/cm2
+aluminum) provided by the spacecraft skin for particles coming from the
+direction of the Sun (geometric factor 13 cm2 sr), giving a threshold of
+proton energy of >30 MeV and electron energy of >2 MeV. For protons coming
+from directions other than the Sun, the body of the spacecraft provided
+shielding requiring an energy threshold of 500 MeV. These particles had a
+geometric factor of 54 cm2 sr. The flux intensity in particles per second was
+measured continuously for all species. Time resolution of the data was 20
+minutes.
+
+Sensor D4 was an SSD consisting of a 50 micron thick plate of silicon covered
+by thin foil and placed under a collimator with a hole in the shape of a cone,
+and a pulse-amplitude analyzer. It was designed to continuously measure the
+flux of protons and alpha particles coming from within 30 degrees of the
+sunward direction with a geometric factor of 0.09 cm2 sr. It measured protons
+with energy 1.5 to 3.5 MeV and alpha-particles with energy 3.7 to 65 MeV. Time
+resolution of the data was 20 minutes.
+
+Sensor D5 was an SSD consisting of a 50 micron thick plate of silicon covered
+by thin foil and placed under a collimator with a hole in the shape of a cone,
+and a pulse-amplitude analyzer. It was designed to continuously measure the
+flux of protons and alpha particles coming from within 30 degrees of the
+anti-sunward direction with a geometric factor of 0.09 cm2 sr. It measured
+protons with energy 1.5 to 3.5 MeV and alpha-particles with energy 3.7 to 65
+MeV. Time resolution of the data was 20 minutes.
+ 
+The Principal Investigator for this experiment was Dr. Nick Kontor of Moscow
+State University.
+        </description>
+    </Instrument>
+</Product_Context>
