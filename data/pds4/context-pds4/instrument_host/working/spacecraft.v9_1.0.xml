@@ -7,7 +7,7 @@
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.v9</logical_identifier>  
         <version_id>1.0</version_id>
-        <title>VENERA 9</title>
+        <title>Venera 9</title>
         <information_model_version>1.23.0.0</information_model_version>
         <product_class>Product_Context</product_class>
         <Modification_History>
@@ -61,7 +61,7 @@
     </Reference_List>
     
     <Instrument_Host>
-        <name>VENERA 9</name> 
+        <name>Venera 9</name> 
         <type>Spacecraft</type>
         <naif_host_id>not applicable</naif_host_id>
 
