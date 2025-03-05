@@ -1,54 +1,66 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
-  <Identification_Area>
-    <logical_identifier>urn:nasa:pds:context:telescope:madrid.dss65_34m</logical_identifier>
-    <version_id>1.2</version_id>
-    <title>DSS 65 34-m Radio Telescope before 2005 Relocation</title>
-    <information_model_version>1.22.0.0</information_model_version>
-    <product_class>Product_Context</product_class>
-    <Modification_History>
-      <Modification_Detail>
-        <modification_date>2025-01-07</modification_date>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:pds ="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v1"
+    xmlns:xsi ="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation=
+    "http://pds.nasa.gov/pds4/pds/v1  https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:telescope:madrid.dss65_34m</logical_identifier>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "agency" references. Adding missing "telescope" references.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-05-22</modification_date>
-        <version_id>1.1</version_id>
-        <description>
+        <title>DSS-65 34-m Radio Telescope before 2005 Relocation</title>
+        <information_model_version>1.23.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2025-03-04</modification_date>
+                <version_id>1.2</version_id>
+                <description>
+                    Updated to IM v1.23.0.0.
+                    Corrected title to have same format as titles of other DSN telescope context products.
+                    Adding missing "agency" references. Adding missing "telescope" references.
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2024-05-22</modification_date>
+                <version_id>1.1</version_id>
+                <description>
                     Updated to IM v1.21.0.0.
                     Corrected internal reference to madrid.dss65_34m-post2005.
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2020-07-20</modification_date>
-        <version_id>1.0</version_id>
-        <description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2020-07-20</modification_date>
+                <version_id>1.0</version_id>
+                <description>
                     Original context file for the DSS 65 antenna near Madrid, Spain.  This product 
                     applies before March 2005, when the antenna was physically relocated.
                 </description>
-      </Modification_Detail>
-    </Modification_History>
-  </Identification_Area>
-  <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:facility:observatory.madrid</lid_reference>
-      <reference_type>telescope_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
-      <reference_type>telescope_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>telescope_to_agency</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>
-      <reference_type>instrument_to_document</reference_type>
-      <comment>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:facility:observatory.madrid</lid_reference>
+            <reference_type>telescope_to_facility</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+            <reference_type>telescope_to_facility</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+            <reference_type>telescope_to_agency</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>
+            <reference_type>instrument_to_document</reference_type>
+            <comment>
                 This reference is to a PDS collection containing several versions of the NASA Deep 
                 Space Network (DSN) Telecommunications Link Design Handbook (Document 810-005).
                 The Handbook is maintained in a modular format to provide interface 
@@ -81,51 +93,58 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 305 Test Support
                 901 Handbook Glossary
             </comment>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
-      <reference_type>telescope_to_facility</reference_type>
-      <comment>
+        </Internal_Reference>
+        
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+            <reference_type>telescope_to_facility</reference_type>
+            <comment>
                 This context product provides more information on the NASA Deep Space Network as a whole.
             </comment>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:facility:observatory.madrid</lid_reference>
-      <reference_type>telescope_to_facility</reference_type>
-      <comment>
+        </Internal_Reference>
+        
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:facility:observatory.madrid</lid_reference>
+            <reference_type>telescope_to_facility</reference_type>
+            <comment>
                 This context product provides more information on the Madrid Deep Space Communications Complex.
             </comment>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:madrid.dss65_34m-post2005</lid_reference>
-      <reference_type>context_to_associate</reference_type>
-      <comment>
+        </Internal_Reference>
+        
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:madrid.dss65_34m-post2005</lid_reference>
+            <reference_type>context_to_associate</reference_type>
+            <comment>
                 This context product provides more information on DSS-65 after it was moved.
             </comment>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:dsn.rss</lid_reference>
-      <reference_type>telescope_to_instrument</reference_type>
-      <comment>
+        </Internal_Reference>
+
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:dsn.rss</lid_reference>
+            <reference_type>telescope_to_instrument</reference_type>
+            <comment>
                 This context product provides more information on the commanding, radio tracking, and
                 radio science instrumentation at the telescope.
             </comment>
-    </Internal_Reference>
-    <External_Reference>
-      <reference_text>https://www.mdscc.nasa.gov/index.php/en/history/</reference_text>
-      <description>
+        </Internal_Reference>
+        
+        <External_Reference>
+            <reference_text>https://www.mdscc.nasa.gov/index.php/en/history/</reference_text>
+            <description>
                 An overview of the Madrid Deep Space Communications Complex with photographs.
                 Pull down the Antennas menu and select "DSS 65" for information about this antenna.
             </description>
-    </External_Reference>
-  </Reference_List>
-  <Telescope>
-    <aperture unit="m">34</aperture>
-    <telescope_longitude unit="deg">355.748582</telescope_longitude>
-    <telescope_latitude unit="deg">40.427185</telescope_latitude>
-    <telescope_altitude unit="m">833.830</telescope_altitude>
-    <coordinate_source>WGS 84 Ellipsoid</coordinate_source>
-    <description>
+        </External_Reference>
+        
+    </Reference_List>
+    
+    <Telescope>
+        <aperture unit='m'>34</aperture>
+        <telescope_longitude unit="deg">355.748582</telescope_longitude>
+        <telescope_latitude unit="deg">40.427185</telescope_latitude>
+        <telescope_altitude unit="m">833.830</telescope_altitude>
+        <coordinate_source>WGS 84 Ellipsoid</coordinate_source>
+        <description>
             NOTE: The telescope was physically moved in February-September 2005; these coordinates and
             this description apply only before the relocation.
             
@@ -145,5 +164,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Engineering and Services, SA (INSA, S.A.) under INTA, allowed the concentration of these 
             responsibilities in the new company. 
         </description>
-  </Telescope>
+    </Telescope>
+    
 </Product_Context>
