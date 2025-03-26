@@ -26,7 +26,7 @@
     
     <Reference_List>
         <Internal_Reference>
-            <lid_reference>urn:nasa:pds:radiosci.documentation:document:armstrong.2006</lid_reference>
+            <lid_reference>urn:nasa:pds:radiosci.documentation:document:armstrong.2016</lid_reference>
             <reference_type>target_to_document</reference_type>
             <comment>
                 A review paper by John Armstrong titled "Low-Frequency Gravitational Wave Searches Using 
