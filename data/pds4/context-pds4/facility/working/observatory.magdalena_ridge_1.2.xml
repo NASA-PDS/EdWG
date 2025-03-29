@@ -8,6 +8,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <title>Magdelena Ridge Observatory</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>H01</alternate_id>
+        <comment>MPC Observatory Code</comment>
+      </Alias>
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2025-01-07</modification_date>
@@ -28,12 +34,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:magdalena_ridge.mro2m4</lid_reference>
-      <reference_type>facility_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>facility_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
+      <reference_type>facility_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.double_asteroid_redirection_test</lid_reference>
+      <reference_type>facility_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:magdalena_ridge.mro2m4</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:magdalena_ridge.mro2m4.photgjon_camera</lid_reference>
@@ -48,17 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
-      <reference_type>facility_to_investigation</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.double_asteroid_redirection_test</lid_reference>
-      <reference_type>facility_to_investigation</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:magdalena_ridge.mro2m4</lid_reference>
-      <reference_type>facility_to_telescope</reference_type>
-      <comment>added by GEO</comment>
+      <lid_reference>urn:nasa:pds:context:instrument:no-host.poets</lid_reference>
+      <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
   </Reference_List>
   <Facility>

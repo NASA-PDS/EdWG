@@ -48,6 +48,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lid_reference>urn:nasa:pds:context:telescope:siding_spring.uppsala0m5</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:siding_spring.uppsala0m5.4kccd</lid_reference>
+      <reference_type>facility_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:no-host.poets</lid_reference>
+      <reference_type>facility_to_instrument</reference_type>
+    </Internal_Reference>
   </Reference_List>
   <Facility>
     <name>Siding Spring Observatory</name>
