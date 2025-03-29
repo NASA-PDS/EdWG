@@ -32,10 +32,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:facility:observatory.mmt</lid_reference>
-      <reference_type>telescope_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>telescope_to_agency</reference_type>
     </Internal_Reference>
@@ -45,7 +41,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.mmt</lid_reference>
-      <reference_type>telescope_to_facility</reference_type>
+      <reference_type>telescope_to_observatory</reference_type>
       <comment>MMT Observatory (OLAF observatory code 326)</comment>
     </Internal_Reference>
     <Internal_Reference>
@@ -57,6 +53,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lid_reference>urn:nasa:pds:context:instrument:mmt.single_mirror6m5.clio</lid_reference>
       <reference_type>telescope_to_instrument</reference_type>
       <comment>added by GEO</comment>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:no-host.poets</lid_reference>
+      <reference_type>telescope_to_instrument</reference_type>
     </Internal_Reference>
   </Reference_List>
   <Telescope>
