@@ -23,10 +23,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:facility:observatory.siding_spring</lid_reference>
-      <reference_type>telescope_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>telescope_to_agency</reference_type>
     </Internal_Reference>
@@ -36,7 +32,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.siding_spring</lid_reference>
-      <reference_type>telescope_to_facility</reference_type>
+      <reference_type>telescope_to_observatory</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:multi-host.generic_insp_hsp</lid_reference>
