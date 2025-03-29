@@ -28,14 +28,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:mount_stromlo.eos</lid_reference>
-      <reference_type>facility_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:mount_stromlo.1m9</lid_reference>
-      <reference_type>facility_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>facility_to_agency</reference_type>
     </Internal_Reference>
@@ -44,12 +36,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>facility_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:mount_stromlo.eos</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:mount_stromlo.1m9</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:mount_stromlo.eos</lid_reference>
-      <reference_type>facility_to_telescope</reference_type>
+      <lid_reference>urn:nasa:pds:context:instrument:no-host.poets</lid_reference>
+      <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
   </Reference_List>
   <Facility>

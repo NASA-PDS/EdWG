@@ -28,12 +28,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:mmt.single_mirror6m5</lid_reference>
-      <reference_type>facility_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
       <reference_type>facility_to_agency</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
+      <reference_type>facility_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:mmt.single_mirror6m5</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:mmt.single_mirror6m5.clio</lid_reference>
@@ -44,13 +48,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
-      <reference_type>facility_to_investigation</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:mmt.single_mirror6m5</lid_reference>
-      <reference_type>facility_to_telescope</reference_type>
-      <comment>added by GEO</comment>
+      <lid_reference>urn:nasa:pds:context:instrument:no-host.poets</lid_reference>
+      <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
   </Reference_List>
   <Facility>
