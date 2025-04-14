@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.sch" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1K00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1K00_2000.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:instrument:pvo.omag</logical_identifier>
+        <version_id>2.1</version_id>
+        <title>Orbiter Fluxgate Magnetometer (OMAG) for Pioneer Venus Orbiter</title>
+        <information_model_version>1.20.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2020-08-26</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2024-04-02</modification_date>
+                <version_id>2.0</version_id>
+                <description>
+                    Updated to IM 1.20.0.0
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2024-08-28</modification_date>
+                <version_id>2.1</version_id>
+                <description>
+                    Updated title, instrument name, instrument description
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
+            <reference_type>instrument_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                   Busse, F., &apos;Generation of planetary field by convection&apos;,
+                   Phys. Earth Planet. Int., vol. 12, p. 350, 1976.
+            </reference_text>
+            <description>reference.BUSSE1976</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Dolginov, S.S., Y.G. Yeroshenko and L. Davis, &apos;On the
+                   nature of the magnetic field near Venus&apos;, Kosmich. Issled.,
+                   vol. 7, p. 747, 1969.
+            </reference_text>
+            <description>reference.DOLGINOVETAL1969</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   [see ELPHICETAL1980A]
+            </reference_text>
+            <description>reference.ELPHICETAL1979</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Gordon, D.I., and R.E. Brown, Recent Advances in Fluxgate Magnetometry, IEEE
+                   Trans. on Magnetics, Vol. MAG-8, 76, 1972.
+            </reference_text>
+            <description>reference.GORDONETAL1972</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Russell, C.T., &apos;The magnetic moment of Venus: Venera-4
+                   measurements reinterpreted,&apos; Geophys. Res. Lett., vol. 3,
+                   p. 125, 1976.
+            </reference_text>
+            <description>reference.RUSSELL1976</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Russell, C.T., The ISEE 1 and 2 fluxgate magnetometers, IEEE Trans. Geosci.
+                   Electro., GE-16, P. 239, 1978.
+            </reference_text>
+            <description>reference.RUSSELL1978</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Russell, C.T., R.C. Elphic, and J.A. Slavin, &apos;On the
+                   strength of the Venus bow shock&apos;, Nature, 1979.
+            </reference_text>
+            <description>reference.RUSSELLETAL1979A</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Russell, C.T., R.C. Elphic, and J.A. Slavin, &apos;Initial
+                   Pioneer Venus magnetic field results: Dayside
+                   observations&apos;, Science, vol. 203, p. 745, 1979.
+            </reference_text>
+            <description>reference.RUSSELLETAL1979B</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Russell, C.T., and R.C. Elphic, &apos;Observation of magnetic
+                   flux ropes in Venus ionosphere&apos;, Nature, vol. 279,
+                   p. 616, 1979.
+            </reference_text>
+            <description>reference.RUSSELLETAL1979C</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Russell, C.T., R.C. Elphic, and J.A. Slavin, &apos;Initial
+                   Pioneer Venus magnetic field results: Nightside
+                   observations&apos;, Science, vol 205, p. 114, 1979.
+            </reference_text>
+            <description>reference.RUSSELLETAL1979D</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Russell, C.T., R.C. Snare, J.D. Means, and R.C. Elphic,
+                   &apos;Pioneer Venus Orbiter Fluxgate Magnetometer&apos;, Ieee Trans.
+                   Geo. Elec., Vol. GE 18, No. 1 p. 32, 1980.
+            </reference_text>
+            <description>reference.RUSSELLETAL1980</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Slavin, J.A., R.C. Elphic, and C.T. Russell, &apos;A comparison
+                   of Pioneer Venus and Venera bow shock observations:
+                   Evidence for a solar cycle variation&apos;, Geophys. Res. Lett.,
+                   1979.
+            </reference_text>
+            <description>reference.SLAVINETAL1979A</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Slavin, J.A., R.C. Elphic, C.T. Russell, J.H. Wolfe, and
+                   D.S. Intriligator, &apos;Position and shape of the Venus bow
+                   shock: Pioneer Venus orbiter magnetometer observations&apos;,
+                   Geophys. Res. Lett., 1979.
+            </reference_text>
+            <description>reference.SLAVINETAL1979B</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Smith, E.J., L. Davis, Jr., P.J. Coleman, Jr., and C.P.
+                   Sonett, Science, vol. 139, p. 909, 1963.
+            </reference_text>
+            <description>reference.SMITHETAL1963</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Snare, R.C. and J.D. Means, A Magnetometer for the Pioneer Venus Orbiter, IEEE
+                   Trans. Magnetics, vol. MAG-13(5), 1107, (REPLACED BY SNARE&amp;MEANS1977), 1977.
+            </reference_text>
+            <description>reference.SNAREETAL1977</description>
+        </External_Reference>
+    </Reference_List>
+    
+    <Instrument>
+        <name>Orbiter Fluxgate Magnetometer (OMAG)</name>
+        <Type_List_Area>
+            <ctli:Type_List>
+                <ctli:type>Magnetometer</ctli:type>
+            </ctli:Type_List>
+        </Type_List_Area> 
+        <naif_instrument_id>not applicable</naif_instrument_id>
+
+        <serial_number>not applicable</serial_number>
+
+        <description>
+        This experiment used a triaxial fluxgate magnetometer with two ring-core sensors at the end of a magnetometer boom 
+        and one ring-core sensor, at 45 degrees to the spin axis, partway down the boom. The drive and electronics design had 
+        been used on the Apollo 15 and 16 subsatellites. The objectives of this investigation were to: (1) determine any 
+        planetary and remnant magnetic fields; (2) deduce the location and strength of the ionospheric current system; (3) 
+        determine the energy and mass balance in the upper atmosphere of Venus; (4) examine the nature of the solar wind 
+        interaction with Venus; and, (5) study the near-wake region of Venus and the structure of the Venusian bow shock. 
+        Additional objectives for interplanetary (solar wind) studies were to determine the perturbation of the near-planet 
+        region by Venus and to compare the properties of the average field at 0.7 and 1.0 AU.
+ 
+        The magnetometer consists of three basic units, the electronics unit mounted inside the main spacecraft bus, an inboard 
+        sensor assembly mounted about one-third of the way from the end of a 4.7 meter boom, and an outboard assembly mounted on 
+        the end of the boom. The electronics box is magnesium, 15 x 22 x 15 cm in size, and has a mass of 1,7 kg. It includes a 
+        12-bit analog to digital converter. the inboard sensor is 6 x 7 x 6 cm, with a mass of 110 g. It holds a single magnetometer 
+        oriented at 45 degrees to the orbiter spin axis. The outboard sensor is 8 x 5 x 4.5 cm, with a mass of 170 g. It comprises 
+        two magnetometers, one parallel to the spin axis and one perpendicular. Total mass including wiring is 2 kg, and the system 
+        uses 2.2 W at 27 V DC.
+ 
+        The magnetometers are triaxial fluxgate type with large loop gain and feedback. The core of the magnetometer is a ring 
+        wrapped with permeable metal. The core is surrounded by drive, sense, and feedback coils. A sinusoidal drive voltage with 
+        a 7.25 kHz frequency is used, 4 V peak-to-peak and 150 mA. The sense circuit detects the second harmonic of the drive 
+        frequency, which is a function of the external magnetic field along the sense axis of the magnetometer ring core. The feedback 
+        circuit acts to conceal the field and the output is the measured input to the feedback circuit required to cancel the field. 
+        The range of the instrument is 128 gamma, which remains constant, but the resolution can change from 1/16 gamma to 1/2 gamma. 
+        The sampling rate can vary by more than two orders of magnitude. The signals flow to the data handling assembly, where it is 
+        digitized to 12 bits for each of the three sensors. The 36 bits are compressed to a single 32 bit word by conversion to floating 
+        point words.
+ 
+        The instrument was intended to, in the worst case of low-bit and low-sample rates, measure one vector per 32 s. While in Venus 
+        orbit, when the spacecraft was coasting through the interplanetary region in the apoapsis mode, the sample rate was one vector 
+        per 8 s. While the spacecraft was passing through Venus' ionosphere in the periapsis mode, the sample rate was four vectors per 
+        second.
+ 
+        The last full orbit of three-axis data was 3602, which ended on 16 Oct. 1988 at 14:30 UT. After this time, only one-axis data 
+        were available.
+        </description>
+    </Instrument>
+</Product_Context>
