@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:investigation:mission.mars_exploration_rover</logical_identifier>
+        <version_id>1.1</version_id>
+        <title>Mars Exploration Rover</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-03-26</modification_date>
+                <version_id>1.1</version_id>
+                <description>
+                    Added instruments. Added terse description, acronym, alias. Added NASA website. Fixed titles.                  
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+            <modification_date>2016-10-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mer1::1.0</lidvid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mer2::1.0</lidvid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lidvid_reference>urn:nasa:pds:context:target:planet.mars::1.0</lidvid_reference>
+            <reference_type>investigation_to_target</reference_type>
+        </Internal_Reference>
+       
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:apxs.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:descam.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:hazcam.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>         
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:imu.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>       
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mb.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>   
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mini-tes.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference> 
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mi.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>         
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:navcam.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:pancam.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:rat.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:rss.mer1</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:apxs.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>         
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:descam.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>        
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:hazcam.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>        
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:imu.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>         
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mb.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>       
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mini-tes.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>  
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mi.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>         
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:navcam.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>    
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:pancam.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:rat.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>   
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:rss.mer2</lid_reference>
+            <reference_type>investigation_to_instrument</reference_type>
+        </Internal_Reference>           
+        <External_Reference>
+            <doi>10.1029/2008JE003188</doi>
+            <reference_text>
+                   Arvidson, R.E., Introduction to special section on results from the Mars
+                   Exploration Rover Spirit and Opportunity missions, J. Geophys. Res., 113,
+                   E06S01, doi:10.1029/2008JE003188, 2008.
+            </reference_text>
+            <description>Introduction to special section on results from the Mars
+                Exploration Rover Spirit and Opportunity missions</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002976</doi>
+            <reference_text>
+                   Bell, J.F., M.S. Rice, J.R. Johnson, and T.M. Hare, Surface albedo observations
+                   at Gusev Crater and Meridiani Planum, Mars, J. Geophys. Res., 113, E06S18,
+                   doi:10.1029/2007JE002976, 2008.
+            </reference_text>
+            <description>Surface albedo observations at Gusev Crater and Meridiani Planum, Mars</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002953</doi>
+            <reference_text>
+                   Cabrol, N.A., et al., Soil sedimentology at Gusev Crater from Columbia Memorial
+                   Station to Winter Haven, J. Geophys. Res., 113, E06S05,
+                   doi:10.1029/2007JE002953, 2008.
+            </reference_text>
+            <description>Soil sedimentology at Gusev Crater from Columbia Memorial
+                Station to Winter Haven</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002959</doi>
+            <reference_text>
+                   Campbell, J.L., R. Gellert, M. Lee, C.L. Mallett, J.A. Maxwell, and
+                   J.M.O&apos;Meara, Quantitative in situ determination of hydration of bright
+                   high-sulfate Martian soils, J. Geophys. Res., 113, E06S11,
+                   doi:10.1029/2007JE002959, 2008.
+            </reference_text>
+            <description>Quantitative in situ determination of hydration of bright
+                high-sulfate Martian soils</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2002JE002038</doi>
+            <reference_text>
+                   Crisp, J.A., M. Adler, J.R. Matijevic, S.W. Squyres, R.E. Arvidson, and D.M.
+                   Kass, Mars Exploration Rover mission, J. Geophys. Res., 108(E12), 8061,
+                   doi:10.1029/2002JE002038, 2003.
+            </reference_text>
+            <description>Mars Exploration Rover mission</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE003022</doi>
+            <reference_text>
+                   Fleischer, I., G. Klingelhoefer, C. Schroeder, R. V. Morris, M. Hahn, D.
+                   Rodionov, R. Gellert, and P. A. de Souza, Depth selective Moessbauer
+                   spectroscopy: Analysis and simulation of 6.4 keV and 14.4 keV spectra obtained
+                   from rocks at Gusev Crater, Mars, and layered laboratory samples, J. Geophys.
+                   Res., 113, E06S21, doi:10.1029/2007JE003022, 2008.
+            </reference_text>
+            <description>Depth selective Moessbauer spectroscopy</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2003JE002072</doi>
+            <reference_text>
+                   Garvin, J.B., C. Weitz, O. Figueroa, and J. Crisp, Introduction to the special
+                   section: Mars Exploration Rover mission and landing sites, J. Geophys. Res.,
+                   108(E12), 8060, doi:10.1029/2003JE002072, 2003.
+            </reference_text>
+            <description>Mars Exploration Rover mission and landing sites</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2003JE002074</doi>
+            <reference_text>
+                   Golombek, M.P., et al., Selection of the Mars Exploration Rover landing sites,
+                   J. Geophys. Res., 108(E12), 8072, doi:10.1029/2003JE002074, 2003.
+            </reference_text>
+            <description>Selection of the Mars Exploration Rover landing sites</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002971</doi>
+            <reference_text>
+                   Greeley, R., et al., Columbia Hills, Mars: Aeolian features seen from the
+                   ground and orbit, J. Geophys. Res., 113, E06S06, doi:10.1029/2007JE002971, 2008.
+            </reference_text>
+            <description>Mars: Aeolian features seen from the ground and orbit</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002949</doi>
+            <reference_text>
+                   Knoll, A.H., et al., Veneers, rinds, and fracture fills: Relatively late
+                   alteration of sedimentary rocks at Meridiani Planum, Mars, J. Geophys. Res.,
+                   113, E06S16, doi:10.1029/2007JE002949, 2008.
+            </reference_text>
+            <description>Relatively late alteration of sedimentary rocks at Meridiani Planum, Mars</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE003041</doi>
+            <reference_text>
+                   McCoy, T.J., et al., Structure, stratigraphy, and origin of Husband Hill,
+                   Columbia Hills, Gusev Crater, Mars, J. Geophys. Res., 113, E06S03,
+                   doi:10.1029/2007JE003041, 2008.
+            </reference_text>
+            <description>Structure, stratigraphy, and origin of Husband Hill, Columbia Hills, Gusev Crater, Mars</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002970</doi>
+            <reference_text>
+                   McSween, H.Y., et al., Mineralogy of volcanic rocks in Gusev Crater, Mars:
+                   Reconciling Moessbauer, Alpha Particle X-Ray Spectrometer, and Miniature
+                   Thermal Emission Spectrometer spectra, J. Geophys. Res., 113, E06S04,
+                   doi:10.1029/2007JE002970, 2008.
+            </reference_text>
+            <description>Mineralogy of volcanic rocks in Gusev Crater</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002995</doi>
+            <reference_text>
+                   Rogers, A.D., and O. Aharonson, Mineralogical composition of sands in Meridiani
+                   Planum determined from Mars Exploration Rover data and comparison to orbital
+                   measurements, J. Geophys. Res., 113, E06S14, doi:10.1029/2007JE002995, 2008.
+            </reference_text>
+            <description>Mineralogical composition of sands in Meridiani Planum determined from Mars Exploration Rover data</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE003027</doi>
+            <reference_text>
+                   Schmidt, M.E., et al., Hydrothermal origin of halogens at Home Plate, Gusev
+                   Crater, J. Geophys. Res., 113, E06S12, doi:10.1029/2007JE003027, 2008.
+            </reference_text>
+            <description>Hydrothermal origin of halogens at Home Plate</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002990</doi>
+            <reference_text>
+                   Schroeder, C., et al., Meteorites on Mars observed with the Mars Exploration
+                   Rovers, J. Geophys. Res., 113, E06S22, doi:10.1029/2007JE002990, 2008.
+            </reference_text>
+            <description>Meteorites on Mars observed with the Mars Exploration Rovers</description>
+        </External_Reference>
+        <External_Reference>
+            <reference_text>
+                   Seidelmann, P.K., V.K. Abalakin, M. Bursa, M.E. Davies, C. de Bergh, J.H.
+                   Lieske, J. Oberst, J.L. Simon, E.M. Standish, P. Stooke, and P.C. Thomas,
+                   Report of the IAU/IAG working group on cartographic coordinates and rotational
+                   elements of the planets and satellites: 2000, Celestial Mechanics and Dynamical
+                   Astronomy, 82, 83-111, 2002.
+            </reference_text>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE003003</doi>
+            <reference_text>
+                   Soderblom, J.M., J.F. Bell III, J.R. Johnson, J. Joseph, and M.J. Wolff (2008)
+                   Mars Exploration Rover Navigation Camera (Navcam) in-flight calibration, J.
+                   Geophys. Res., 113, E06S19, doi:10.1029/2007JE003003.
+            </reference_text>
+            <description>Mars Exploration Rover Navigation Camera (Navcam) in-flight calibration</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2008JE003101</doi>
+            <reference_text>
+                   Sullivan, R., et al., Wind-driven particle mobility on Mars: Insights from Mars
+                   Exploration Rover observations at &apos;El Dorado&apos; and surroundings at Gusev Crater, J. Geophys. Res., 113, E06S07, doi:10.1029/2008JE003101, 2008.
+            </reference_text>
+            <description>Wind-driven particle mobility on Mars</description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1029/2007JE002978</doi>
+            <reference_text>
+                   Yen, A.S., et al., Hydrothermal processes at Gusev Crater: An evaluation of
+                   Paso Robles class soils, J. Geophys. Res., 113, E06S10,
+                   doi:10.1029/2007JE002978, 2008.
+            </reference_text>
+            <description>Hydrothermal processes at Gusev Crater</description>
+        </External_Reference>
+        <External_Reference>
+          <reference_text>https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/</reference_text>
+            <description>NASA Mission Website, Mars Exploration Rovers: Spirit and Opportunity</description>
+        </External_Reference>
+    </Reference_List>
+
+    <Investigation>
+        <name>Mars Exploration Rover</name>
+        <type>Mission</type>
+        <start_date>2000-05-08</start_date>
+        <stop_date nilReason="unknown" xsi:nil="true"></stop_date>
+        <description>
+            NASA’s twin rovers, Spirit and Opportunity, landed on Mars on Jan. 3 and Jan. 24, 2004 PST (Jan. 4 and Jan. 25 UTC). The rovers were planned as 90-day missions to search for geological clues regarding environmental conditions on early Mars, and assess whether those environments were conducive to life. Spirit lasted 20 times longer than its original design, concluding its mission on March 22, 2010. Opportunity worked for nearly 15 years on Mars and broke the driving record for putting the most miles on its odometer, ending its mission on Feb. 13, 2019.
+        </description>
+        <Alias_Index>             
+            <Alias_Index_Entry>                 
+                <name>Opportunity</name>                 
+                <priority_order>1</priority_order>             
+            </Alias_Index_Entry>    
+            <Alias_Index_Entry>                 
+                <name>Spirit</name>                 
+                <priority_order>1</priority_order>             
+            </Alias_Index_Entry>    
+            <Alias_Index_Entry>                 
+                <name>Mer</name>                 
+                <priority_order>2</priority_order>             
+            </Alias_Index_Entry>                
+        </Alias_Index> 
+        <Acronym_Index>             
+            <Acronym_Index_Entry>                 
+                <acronym>Mer1</acronym>                 
+                <priority_order>1</priority_order>             
+            </Acronym_Index_Entry> 
+            <Acronym_Index_Entry>                 
+                <acronym>Mer2</acronym>                 
+                <priority_order>1</priority_order>             
+            </Acronym_Index_Entry>      
+        </Acronym_Index>       
+    </Investigation>
+</Product_Context>
