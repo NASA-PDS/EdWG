@@ -16,6 +16,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           - updated Investigation.description per the Context Products Editorial Guide (a.k.a.
 	  the Editorial Guide for PDS Landing Pages), version 11/12/2024.
           - updated schema version. Adding missing "instrument" references. Adding missing "agency" references.
+          - changed type from Mission to Observing Campaign
 	</description>
       </Modification_Detail>
       <Modification_Detail>
@@ -193,7 +194,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Reference_List>
   <Investigation>
     <name>Saturn Ring Plane Crossing (1995)</name>
-    <type>Mission</type>
+    <type>Observing Campaign</type>
     <start_date>1994-01-01</start_date>
     <stop_date>1997-01-01</stop_date>
     <description>
