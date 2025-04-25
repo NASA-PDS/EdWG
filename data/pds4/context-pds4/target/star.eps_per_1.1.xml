@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.eps_per</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Epsilon Persei</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>45 Persei</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>eps Per</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>45 Per</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ADS 2888 A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>AG+39 463</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>AKARI-IRC-V1 J0357512+400036</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ALS 7825</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>BD+39 895</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CCDM J03579+4001A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CEL 373</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CSI+39 895 1</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CSI+39 895 4</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CSV 100363</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>EUVE J0357+40.0</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>FK5 147</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GC 4759</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GCRV 2266</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GEN# +1.00024760A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GSC 02868-01623</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HD 24760</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HGAM 307</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIC 18532</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIP 18532</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HR 1220</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IDS 03511+3943 A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IRAS 03544+3952</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>JP11 837</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>LS V +39 1</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>2MASS J03575124+4000367</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>MCW 257</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>N30 815</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>NSV 1423</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PLX 869</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PMC 90-93 105</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PMSC 03511+3943A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PMSC 03511+3943Aabc</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PPM 46661</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ROT 3497</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SAO 56840</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SBC9 2402</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SKY# 6055</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SRS 30147</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SV* ZI 263</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TD1 2676</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TIC 187107884</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TYC 2868-1623-1</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV 3847</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>uvby98 100024760 ABV</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WDS J03579+4001A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WEB 3572</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>AAVSO 0351+39</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>Gaia DR2 229898024419041280</alternate_title>
+      </Alias>
+      <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-04-24</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2023-10-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Epsilon Persei</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 03 hours 57 minutes 51.2320472 seconds
+    Declination, ICRS coord, ep=J2000: +40 degrees 00 minutes 36.775143 seconds
+    </description>
+  </Target>
+</Product_Context>

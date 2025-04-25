@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.eps_mic</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Epsilon Microscopii</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>4 Piscis Austrini</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>eps Mic</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>4 PsA</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CD-32 16498</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CPC 17 11618</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CPD-32 6329</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>FK5 801</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GC 29774</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GCRV 13373</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GEN# +1.00202627</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GSC 07476-00923</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HD 202627</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIC 105140</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIP 105140</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HR 8135</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IRAS 21149-3222</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>2MASS J21175629-3210213</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>N30 4703</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PLX 5120</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PLX 5120.00</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PMC 90-93 562</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PPM 301225</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>Renson 56450</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ROT 3099</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SAO 212874</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SKY# 40544</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SRS 30801</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TD1 27888	</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TIC 266586474</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TYC 7476-923-1</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV 18385</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV M 25580</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>uvby98 100202627</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WEB 19094</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>Gaia DR3 6784024126773616128</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>Gaia DR2 6784024126773616128</alternate_title>
+      </Alias>
+      <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-04-24</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2023-10-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Epsilon Microscopii</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 21 hours 17 minutes 56.2861165716 seconds
+    Declination, ICRS coord, ep=J2000: -32 degrees 10 minutes 21.171651057 seconds
+    </description>
+  </Target>
+</Product_Context>

@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.gam_ori</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Bellatrix</title>
+    <!--from simbad's NAME and wikipedia-->
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>Gamma Orionis</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>Amazon Star</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>Al Najid</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>Gamma Ori</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>gam Ori</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>24 Ori</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>AG+06 574</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>AKARI-IRC-V1 J0525078+062058</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ALS 14777</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>BD+06 919</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CCDM J05252+0620A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CSI+06 919 1</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CSV 100483</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>EUVE J0525+06.3</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>FK5 201</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GC 6668</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GCRV 3252</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GEN# +1.00035438</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GEN# +1.00035468</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HD 35468</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HGAM 397</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIC 25336</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIP 25336</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HR 1790</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IDS 05198+0615 A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IRAS 05224+0618</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IRC +10084</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>JP11 1071</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>2MASS J05250786+0620589</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>MCW 308</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>N30 1162</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>NSV 1972</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PLX 1229</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PLX 1229.00</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PMC 90-93 144</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PPM 148916</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ROT 793</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>1RXS J052507.7+062103</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SAO 112740</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SKY# 8617</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SV* ZI 374</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TD1 4558</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TIC 365572007</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TYC 113-1856-1</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV 5149</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV M 10933</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>uvby98 100035468</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WDS J05251+0621A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WEB 4913</alternate_title>
+      </Alias>
+      <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-04-24</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2023-10-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Gamma Orionis</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 05 hours 25 minutes 07.86325 seconds
+    Declination, ICRS coord, ep=J2000: +06 degrees 20 minutes 58.9318 seconds
+    </description>
+  </Target>
+</Product_Context>

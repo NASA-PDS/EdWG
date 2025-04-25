@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.del_sco</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Delta Scorpii</title>
+    <!--from wikipedia, Bayer designation-->
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>Delta Sco</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>Dzuba</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>Al Jabba</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>Iclarkrau</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>7 Scorpii</alternate_title>
+      </Alias>
+      <!--from wikipedia-->
+      <Alias>
+        <alternate_title>CCDM J16003-2237</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>Dschubba</alternate_title>
+      </Alias>
+      <!--from simbad. Name of the primary star-->
+      <Alias>
+        <alternate_title>del Sco</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>7 Sco</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>LAB 3</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ALS 14815</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>BD-22 4068</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CCDM J16003-2237AB</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CD-22 11292</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CEL 4410</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CPD-22 6106</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>2E 3547</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>2E 1557.3-2228</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>EUVE J1600-22.6</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>FK5 594</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GC 21489</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GCRV 9202</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GEN# +1.00143275</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GSC 06779-02194</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HD 143275</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HGAM 2047</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIC 78401</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIP 78401</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HR 5953</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IRAS 15573-2228</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IRC -20303</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>JP11 2695</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>2MASS J16002000-2237180</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>MCW 556</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>N30 3589</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PMC 90-93 424</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PMSC 15544-2220Aabc</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PPM 264979</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ROT 2261</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>RX J160022.9-223724</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>1RXS J160018.3-223707</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SAO 184014</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SBC9 1837</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SKY# 28887</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SRS 30594</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TD1 18743</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TIC 12725034</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TYC 6779-2194-1</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV M 21080</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV 13563</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>USco 45</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>uvby98 100143275</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WDS J16003-2237AB</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WEB 13251</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WISEA J160019.99-223718.2</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>AAVSO 1554-22</alternate_title>
+      </Alias>
+      <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-04-24</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2023-10-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>Delta Scorpii</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 16 hours 00 minutes 20.00528 seconds
+    Declination, ICRS coord, ep=J2000: -22 degrees 37 minutes 18.1431 seconds
+    </description>
+  </Target>
+</Product_Context>

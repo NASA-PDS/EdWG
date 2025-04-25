@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:star.b_cen</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>b Centauri</title>
+    <!--NOT "B Centauri" OR "Beta Centauri"-->
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>b Cen</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SHT 56A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>RIZ 12</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>AKARI-IRC-V1 J1441575-374736</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ALS 16356</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CD-37 9618</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CPC 18 7136</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>CPD-37 6185</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>EUVE J1441-37.8</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GC 19779</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GCRV 8538</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GEN# +1.00129116</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>GSC 07819-02819</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HD 129116</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HGAM 2026</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIC 71865</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HIP 71865</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>HR 5471</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>IRAS 14388-3734</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>JP11 2525</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>2MASS J14415758-3747366</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>PPM 292953</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>ROT 2099</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SAO 205839</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>SKY# 26714</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TD1 17630</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TIC 159589603</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>TYC 7819-2819-1</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV 12793</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>UBV M 20298</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>uvby98 100129116</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WDS J14420-3748Aa,Ab</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WDS J14420-3748A</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WEB 12379</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>WISE J144157.55-374736.7</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>Gaia DR2 6105713692543053056</alternate_title>
+      </Alias>
+      <!--from simbad-->
+      <Alias>
+        <alternate_title>Gaia DR3 6105713692544123520</alternate_title>
+      </Alias>
+      <!--from simbad-->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-04-24</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2023-10-17</modification_date>
+        <version_id>1.0</version_id>
+        <description>From PDS Ring-Moon Systems node.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Target>
+    <name>b Centauri</name>
+    <type>Star</type>
+    <description>
+    Based on the SIMBAD Astronomical Database
+    Right Ascension, ICRS coord, ep=J2000: 14 hours 41 minutes 57.5905450998 seconds
+    Declination, ICRS coord, ep=J2000: -37 degrees 47 minutes 36.580200460 seconds
+    </description>
+  </Target>
+</Product_Context>
