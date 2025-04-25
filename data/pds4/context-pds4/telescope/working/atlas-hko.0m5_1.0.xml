@@ -13,7 +13,7 @@
     http://pds.nasa.gov/pds4/ctli/v2 http://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1L00_2000.xsd">
 
   <Identification_Area>
-    <logical_identifier>urn:nasa:pds:context:telescope:atlas_chile.0m5</logical_identifier>
+    <logical_identifier>urn:nasa:pds:context:telescope:atlas-hko.0m5</logical_identifier>
     <version_id>1.0</version_id>
     <title>0.5-m f/2 Wright-Schmidt Telescope</title>
     <information_model_version>1.21.0.0</information_model_version>
@@ -23,7 +23,7 @@
       <Modification_Detail>
         <modification_date>2024-06-07</modification_date>
         <version_id>1.0</version_id>
-        <description>Creation (B. Hirsch)</description>
+        <description>Creation (B. Hirsch, Q. Ye)</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -31,27 +31,27 @@
   <Reference_List>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>telescope_to_agency</reference_type>
+      <reference_type>instrument_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:facility:observatory.atlas_chile</lid_reference>
-      <reference_type>telescope_to_observatory</reference_type>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.atlas-hko</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
     </Internal_Reference>
 
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:atlas_chile.0m5.10kccd</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:atlas-hko.0m5.sta1600</lid_reference>
       <reference_type>telescope_to_instrument</reference_type>
     </Internal_Reference>
   </Reference_List>
 
   <Telescope>
     <aperture unit="m">0.5</aperture>
-    <telescope_longitude unit="deg">289.23502</telescope_longitude>
-    <telescope_latitude unit="deg">-30.47103</telescope_latitude>
-    <telescope_altitude unit="m">1500</telescope_altitude>
+    <telescope_longitude unit="deg">203.7430</telescope_longitude>
+    <telescope_latitude unit="deg">20.7076</telescope_latitude>
+    <telescope_altitude unit="m">3000</telescope_altitude>
     <description>
-      The 0.5-m f/2 Wright-Schmidt Telescope is a 0.5 m telescope located at 70.76498°W
-      30.47103°S at the ATLAS Chile El Sauce Observatory in Rio Hurtado, Chile.
+      The 0.5-m f/2 Wright-Schmidt Telescope is a 0.5 m telescope located at -156.2570°E
+      20.7076°N at the ATLAS-HKO Observatory on the summit of Haleakala, Maui, HI.
     </description>
   </Telescope>
 </Product_Context>
