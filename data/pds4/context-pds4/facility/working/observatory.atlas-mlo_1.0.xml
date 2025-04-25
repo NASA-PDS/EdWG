@@ -8,15 +8,15 @@
     xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.xsd">
 
   <Identification_Area>
-    <logical_identifier>urn:nasa:pds:context:facility:observatory.atlas_chile</logical_identifier>
+    <logical_identifier>urn:nasa:pds:context:facility:observatory.atlas-mlo</logical_identifier>
     <version_id>1.0</version_id>
-    <title>ATLAS Chile, Rio Hurtado</title>
+    <title>ATLAS-Mauna Loa, Mauna Loa, Hawaii</title>
     <information_model_version>1.21.0.0</information_model_version>
     <product_class>Product_Context</product_class>
 
     <Alias_List>
       <Alias>
-        <alternate_id>W68</alternate_id>
+        <alternate_id>T08</alternate_id>
         <comment>MPC Observatory Code</comment>
       </Alias>
     </Alias_List>
@@ -25,7 +25,7 @@
       <Modification_Detail>
         <modification_date>2024-06-07</modification_date>
         <version_id>1.0</version_id>
-        <description>Creation (B. Hirsch)</description>
+        <description>Creation (B. Hirsch, Q. Ye)</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -36,20 +36,20 @@
       <reference_type>facility_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:telescope:atlas_chile.0m5</lid_reference>
+      <lid_reference>urn:nasa:pds:context:telescope:atlas-mlo.0m5</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
 
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:atlas_chile.0m5.10kccd</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:atlas-mlo.0m5.sta1600</lid_reference>
       <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
   </Reference_List>
 
   <Facility>
-    <name>ATLAS Chile, Rio Hurtado</name>
+    <name>ATLAS-MLO, Mauna Loa</name>
     <type>Observatory</type>
-    <address>El Sauce Observatory, Rio Hurtado</address>
-    <country>Chile</country>
+    <address>Mauna Loa, Hawaii</address>
+    <country>USA</country>
   </Facility>
 </Product_Context>
