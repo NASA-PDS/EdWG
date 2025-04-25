@@ -22,6 +22,12 @@
             </Modification_Detail>
         </Modification_History>
     </Identification_Area>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+            <reference_type>instrument_to_agency</reference_type>
+        </Internal_Reference>
+    </Reference_List>
     <Instrument>
         <name>Hyperion IFS-3000 Series Infrasound Sensor (Microbarometer)</name>
         <Type_List_Area>
