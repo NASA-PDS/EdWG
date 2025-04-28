@@ -12,7 +12,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2025-01-07</modification_date>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references. Adding missing "instrument" references. Adding missing "agency" references. Adding missing "telescope" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Adding missing "instrument" references. Adding missing "telescope" references.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
@@ -34,10 +34,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:mount_lemmon.1m02</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>facility_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:mount_lemmon.1m54.4kccd</lid_reference>

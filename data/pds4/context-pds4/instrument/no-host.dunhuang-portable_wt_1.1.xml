@@ -14,7 +14,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2019-02-19</modification_date>
@@ -26,10 +26,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_to_agency</reference_type>
-    </Internal_Reference>
     <External_Reference>
       <reference_text>http://english.ucas.ac.cn/index.php/academics/cas-institutes/583-lanzhou-branch/2815-lanzhoubranch001</reference_text>
       <description>Dunhuang Gobi Desert Ecology and Environment Research Station of the Cold and Arid Regions, Environmental and 

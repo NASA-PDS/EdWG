@@ -14,7 +14,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references. Adding missing "agency" references.</description>
+        <description>Updated schema version. LIDVID references updated to be LID references. Adding missing "investigation" references.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
@@ -27,10 +27,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_to_agency</reference_type>
-    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.apollo_17</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>

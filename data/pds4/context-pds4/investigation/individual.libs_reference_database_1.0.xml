@@ -20,10 +20,6 @@
     </Identification_Area>
     <Reference_List>
         <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-            <reference_type>investigation_to_agency</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
             <lid_reference>urn:nasa:pds:context:facility:laboratory.mhc</lid_reference>
             <reference_type>investigation_to_facility</reference_type>
         </Internal_Reference>
@@ -42,11 +38,6 @@
         <Internal_Reference>
             <lid_reference>urn:nasa:pds:context:instrument:mhc.plibs_z300</lid_reference>
             <reference_type>investigation_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-            <reference_type>context_to_associate</reference_type>
-            <comment>investigation_to_agency</comment>
         </Internal_Reference>
         <Internal_Reference>
             <lid_reference>urn:nasa:pds:libs_reference_database:document:user_guide</lid_reference>

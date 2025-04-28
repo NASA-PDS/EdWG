@@ -12,7 +12,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "instrument" references. Adding missing "agency" references. Description updated.</description>
+        <description>Updated schema version. Adding missing "instrument" references. Description updated.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2018-06-15</modification_date>
@@ -33,10 +33,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_host_to_agency</reference_type>
-    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:uvs.mr7</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>

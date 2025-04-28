@@ -24,10 +24,6 @@
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_to_agency</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:mmt.single_mirror6m5</lid_reference>
       <reference_type>instrument_to_telescope</reference_type>
     </Internal_Reference>

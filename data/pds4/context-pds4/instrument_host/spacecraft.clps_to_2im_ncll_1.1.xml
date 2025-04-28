@@ -12,7 +12,7 @@
       <Modification_Detail>
         <modification_date>2024-12-18</modification_date>
         <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
+        <description</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-09-23</modification_date>
@@ -25,10 +25,6 @@
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:other_investigation.clps</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_host_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.clps_to_2im</lid_reference>

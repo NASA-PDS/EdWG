@@ -14,7 +14,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2019-02-19</modification_date>
@@ -26,10 +26,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_to_agency</reference_type>
-    </Internal_Reference>
     <External_Reference>
       <doi>10.13031/2013.27710</doi>
       <reference_text>Pietersma, D., L.D. Stetler, and K.E. Saxton, 1996, Design and aerodynamics of a portable wind tunnel for soil

@@ -14,7 +14,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "agency" references.</description>
+        <description>Updated schema version.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2020-02-18</modification_date>
@@ -24,10 +24,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_to_agency</reference_type>
-    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:valle_d'aosta.oavda</lid_reference>
       <reference_type>instrument_to_telescope</reference_type>

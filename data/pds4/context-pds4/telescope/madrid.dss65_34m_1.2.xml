@@ -22,7 +22,7 @@
                 <description>
                     Updated to IM v1.23.0.0.
                     Corrected title to have same format as titles of other DSN telescope context products.
-                    Adding missing "agency" references. Adding missing "telescope" references.
+                  . Adding missing "telescope" references.
                 </description>
             </Modification_Detail>
             <Modification_Detail>
@@ -52,10 +52,6 @@
         <Internal_Reference>
             <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
             <reference_type>telescope_to_facility</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-            <reference_type>telescope_to_agency</reference_type>
         </Internal_Reference>
         <Internal_Reference>
             <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>

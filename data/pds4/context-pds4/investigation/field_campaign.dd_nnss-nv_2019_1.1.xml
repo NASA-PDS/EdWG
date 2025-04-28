@@ -13,7 +13,7 @@
             <Modification_Detail>
                 <modification_date>2025-04-17</modification_date>
                 <version_id>1.1</version_id>
-                <description>Updated schema version. Adding missing "agency" references.</description>
+                <description>Updated schema version.</description>
             </Modification_Detail>
             <Modification_Detail>
                 <modification_date>2023-11-27</modification_date>
@@ -23,10 +23,6 @@
         </Modification_History>
     </Identification_Area>  
     <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-            <reference_type>instrument_to_agency</reference_type>
-        </Internal_Reference>
         <Internal_Reference>
             <lid_reference>urn:nasa:pds:context:instrument:no-host.hyperion-ifs5000</lid_reference>
             <reference_type>investigation_to_instrument</reference_type>

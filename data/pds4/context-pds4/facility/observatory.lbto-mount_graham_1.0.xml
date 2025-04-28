@@ -23,10 +23,6 @@
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>facility_to_agency</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:lbto-mount_graham.lbt_8m4x2</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>

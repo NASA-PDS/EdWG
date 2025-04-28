@@ -12,11 +12,6 @@
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2025-01-02</modification_date>
-        <version_id>1.1</version_id>
-        <description>Adding missing "agency" references.</description>
-      </Modification_Detail>
-      <Modification_Detail>
         <modification_date>2024-09-12</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version.</description>
@@ -24,10 +19,6 @@
     </Modification_History>
   </Identification_Area>
   <Reference_List>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>instrument_to_agency</reference_type>
-    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.clps_to_2im_ncll</lid_reference>
       <reference_type>instrument_to_instrument_host</reference_type>

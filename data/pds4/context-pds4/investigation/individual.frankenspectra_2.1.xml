@@ -22,7 +22,7 @@
       <Modification_Detail>
         <modification_date>2024-10-09</modification_date>
         <version_id>2.0</version_id>
-        <description>Adding missing "agency" references.</description>
+        <descriptio.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -42,10 +42,6 @@
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:laboratory.lasp</lid_reference>
       <reference_type>investigation_to_facility</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
-      <reference_type>investigation_to_agency</reference_type>
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:laboratory.lasp</lid_reference>
