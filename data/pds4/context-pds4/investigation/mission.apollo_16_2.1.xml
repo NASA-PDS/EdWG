@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:investigation:mission.apollo_16</logical_identifier>
+    <version_id>2.1</version_id>
+    <title>Apollo 16</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>A16</alternate_id>
+        <alternate_title>A16</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-08-27</modification_date>
+        <version_id>2.0</version_id>
+        <description>
+                   Major changes per PDS Editorial Working Group efforts.
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
+                    Per "Guide toPDS4 Context Products" v1.3,
+                    - changed all lidvid_reference to lid_reference
+                    - changed target LIDs to new formation rule
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>2.1</version_id>
+        <descriptio. Description updated.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.a16a</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.a16c</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.a16l</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.a16s</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lsm.a16a</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pse.a16a</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:metriccam.a16c</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:oms.a16c</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pancam.a16c</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:lsrp.a16l</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+      <comment>Target is a plasma stream.</comment>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context_support:document:apollo_16_description</lid_reference>
+      <reference_type>investigation_to_document</reference_type>
+      <comment>Detailed documentation about this context product.</comment>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                NASA, Apollo 16 Preliminary Science Report, NASA SP-315, published by NASA, Washington D.C., 622, 1972.
+            </reference_text>
+      <description>Report detailing the scientific experiments performed on the surface of the Moon, crew observations, and preliminary examinations of lunar samples for the Apollo 16 mission.</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                NASA, Apollo 16 - Expedition to Descartes (mission report), NASA MR-11, published by NASA, Washington, D.C., 1972.
+            </reference_text>
+      <description>Report that details the Apollo 16 mission, including trajectories; scientific experiments; command, service, and lunar module performances; pilot's report; biomedical evaluations; assessment of mission objectives; and anomalies.</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                NASA, Apollo Scientific Experiments Data Handbook, NASA Technical Memorandum X-58131, JSC-09166, published by NASA Johnson Space Center, Houston, Texas, Aug. 1974.
+            </reference_text>
+      <description>Handbook that provides descriptions of the scientific experiments (both surface-based and orbital), operational history, and details about the formats and availability of the datasets from the Apollo Program.</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                Bates, J.R., W.W. Lauderdale, and H. Kernaghan, ALSEP termination report, NASA Reference Publication Series, NASA-RP-1036, published by NASA, Washington, D.C., 162, 1979.
+            </reference_text>
+      <description>Summary of the Apollo Lunar Surface Experiments Package (ALSEP) operations and activities.</description>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1029/1999JE001165</doi>
+      <reference_text>
+                Davies, M.E., and T.R. Colvin, Lunar coordinates in the regions of the Apollo landers, Journal of Geophysical Research, 105(E8), 20277–20280, 2000. doi:10.1029/1999JE001165.
+            </reference_text>
+      <description>Journal article providing the coordinates of lunar module locations and nearby craters.</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+              NASA, Apollo 16 Mission Page, 11 Jul. 2024. https://www.nasa.gov/mission/apollo-16
+            </reference_text>
+      <description>Official NASA Apollo 16 mission page.</description>
+    </External_Reference>
+  </Reference_List>
+  <Investigation>
+    <name>Apollo 16</name>
+    <type>Mission</type>
+    <start_date>1972-04-16</start_date>
+    <stop_date>1972-04-27</stop_date>
+    <description>The Apollo 16 was the fifth mission that allowed humans to walk on the Moon. It consisted of the Command and Service Module (CSM) and the Lunar Module (LM). The CSM took images of the surface and communicated with Earth. The LM carried the Astronauts and Apollo Lunar Surface Experiments Package (ALSEP) to the surface.</description>
+  </Investigation>
+</Product_Context>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:target:satellite.152830_dinkinesh.selam</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>(152830) Dinkinesh I (Selam)</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>Selam</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_title>Dinkinesh I</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_title>S/2023 (152830) 1</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-04-24</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-08-26</modification_date>
+        <version_id>1.0</version_id>
+        <description> Creation by T.F. Barnes at the request of NAIF.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:asteroid.152830_dinkinesh</lid_reference>
+      <reference_type>context_to_associate</reference_type>
+      <comment>(152830) Dinkinesh is the primary of Selam. </comment>
+    </Internal_Reference>
+  </Reference_List>
+  <Target>
+    <name>(152830) Dinkinesh I (Selam)</name>
+    <type>Asteroid</type>
+    <type>Satellite</type>
+    <description> 
+            Selam is a natural satellite of (152830) Dinkinesh, designated (152830) Dinkinesh I.  
+            Selam is a contact-binary.  It was named after the fossil remains of a three-year-old 
+            Australopithecus afarensis female hominin, the same species as the Lucy fossil of which 
+            the Dinkinesh name was the appellation for.  The Dinkinesh system was a target of 
+            oppertunity for the Lucy mission.
+        </description>
+  </Target>
+</Product_Context>

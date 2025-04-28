@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.hp</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Huygens Probe</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.hp</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.cassini-huygens</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.acp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.disr</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:esa:psa:context:instrument:hp.dtwg</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.dwe</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.gcms</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.hasi</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.huygens_hk</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:hp.ssp</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.saturn.titan</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Jones, J,C., and F. Giovagnoli, The Huygens Probe System Design, in HUYGENS -
+                   Science, Payload and Mission, ESA-SP-1177, 25, 1997
+            </reference_text>
+      <description>reference.JONES-GIOVAGNOLI1997</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Lebreton, J.P., O. Witasse, C. Sollazzo, T. Blancquaert, P. Couzin, A.M.
+                   Schipper, J.B. Jones, D.L. Matson, L.I. Gurvits, D.H. Atkinson, B. Kazeminejad,
+                   and M. Perez-Ayucar, An overview of the descent and landing of the Huygens
+                   Probe on Titan, Nature, Volume 438, pp 758-764, 2005
+            </reference_text>
+      <description>reference.LEBRETONETAL2005</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>Huygens Probe</name>
+    <type>Spacecraft</type>
+    <naif_host_id>HP</naif_host_id>
+    <description>The Huygens Probe was part of the NASA/ESA Cassini-Huygens mission to study Saturn and its largest moon, Titan. The mission was launched in 1997 and Huygens Probe arrived on Titan in early 2005 after a controlled descent through Titan’s atmosphere. The Huygens system comprised two main components: the 318 kg Probe and the 30 kg Probe Support Equipment (PSE) attached to the Cassini Orbiter. The Probe featured an Entry Assembly and a Descent Module containing scientific instruments and subsystems responsible for descent control, thermal management, and power distribution.
+The Probe was the first spacecraft to land on Titan. It used parachutes to descend, which took about 2 hours and 27 minutes, during which time its instruments studied the atmosphere and weather. The Probe lasted roughly 1 hour and 10 minutes on the surface, where it took surface images, and studied several surface properties of Titan.
+</description>
+  </Instrument_Host>
+</Product_Context>

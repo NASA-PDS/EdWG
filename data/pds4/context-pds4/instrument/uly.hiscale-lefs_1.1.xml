@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument:uly.hiscale-lefs</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>HISCALE Low-Energy Foil Spectrometer for Ulysses</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>HISCALE LEFS</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-01-02</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "investigation" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2023-08-02</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Initial version.
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.ulysses</lid_reference>
+      <reference_type>instrument_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
+      <reference_type>instrument_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Armstrong, T.P., and R. Sahi, Ulysses HISCALE Data Analysis Handbook, Dept.
+                   of Physics and Astronomy, Univ. of Kansas, Lawrence, KS, 66045, April
+                   1996.
+            </reference_text>
+      <description>reference.ARMSTRONG-SAHI1996</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Armstrong, T.P., Passbands &amp; Efficiencies for LEMS, LEFS and WART Channels,
+                   University of Kansas, May 1992.
+            </reference_text>
+      <description>reference.ARMSTRONG1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Lanzerotti, L.J., R.E. Gold, K.A. Anderson, T.P. Armstrong, R.P. Lin, S.M.
+                   Krimigis, M. Pick, E.C. Roelof, E.T. Sarris, G.M. Simnett, and W.E. Frain,
+                   Heliosphere instrument for spectra, composition and anisotropy at low
+                   energies, Astron. Astrophys. Suppl. Ser. 92, 349-363, 1992.
+            </reference_text>
+      <description>reference.LANZEROTTIETAL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Maclennan C.G., and Armstrong T.P., LAN Cover-Close Calibrations, AT&amp;T Bell
+                   Laboratories, May 1995.
+            </reference_text>
+      <description>reference.MACLENNAN-ARMSTR1995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Maclennan, C.G., User's Guide to LAN 360, AT&amp;T Bell Laboratories, Aug.
+                   1992.
+            </reference_text>
+      <description>reference.MACLENNAN1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Tappin, S.J., HISCALE IDL display System (IDL-HS), University of
+                   Birmingham, June 1992.
+            </reference_text>
+      <description>reference.TAPPIN1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Townsend, J.P. Jr., Ulysses Pulse Height Analysis documentation, JHU,
+                   Applied Physics Laboratory, July 1990.
+            </reference_text>
+      <description>reference.TOWNSEND1990</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument>
+    <name>HISCALE Low-Energy Foil Spectrometer</name>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Charged Particle Detector</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
+    <naif_instrument_id>not applicable</naif_instrument_id>
+    <serial_number>not applicable</serial_number>
+    <description>
+ 
+ 
+  Instrument Overview
+  ===================
+    (adapted from: Lanzerotti, et al. 1992)
+ 
+ The are Low-Energy Foil Spectrometers (LEFS)
+ provide pulse-height-analyzed single-detector measurements
+ with active anticoincidence. The foil thickness, detector 
+ thicknesses, and electronic thresholds were selected to 
+ enable the separation of low energy electron and ion 
+ fluxes at high sensitivity by comparing detector responses.
+ 
+ The individual LEFS telescopes are referred to as LEFS 60, 
+ and LEFS 150, where the number indicates the inclination of 
+ the telescope axis with respect to the spacecraft spin axis.
+ The MF, M' F', and BC detector pairs (Tab. 1) are
+ identical (for ease of replacement pre-flight); each consists
+ of two equal 200 micrometer thick, totally depleted silicon surface
+ barrier detectors. The D detector is a thin (5 micrometer) silicon
+ detector of the epitaxial type.
+ 
+ The orientations  of the telescope axes are such that there is
+ nearly a complete 41r coverage of the unit sphere during
+ one complete spacecraft spin. 
+ 
+ In the LEFS 60 and LEFS 120 telescopes, a thin
+ ( ~0.35 mg cm-2) aluminized parylene foil prevents ions
+ (~350 keV) from reaching the F and F' detector, while
+ electrons (~30 keV) can penetrate the foil with little
+ energy loss. The logic and energy channels for both LEFS
+ telescopes are listed in Table 2. Both telescopes also have
+ a geometrical factor of ~0.48 cm2 sr.
+  
+ TABLE 2. LEFS detector systems.
+                                                                             Accum. timc(s)
+                Channel   Logic          Passband[a]             Sectors     @ 1024 bit/s
+ ------------------------------------------------------------------------------------------
+ LEFS 150[b]     El      Fl F2 M        30-50 ke V electrons     4[b],8[c]   3[b],1.5[c]
+ (M,F)           E2      F2 F3 M        50-90 ke V electrons     4[b],8[c]   3[b],1.5[c]
+ LEFS 60[c]      E3      F3 F4 M        90-165 keV electrons     4[b],8[c]   3[b],1.5[c]
+ (M',F')         E4      F4 F5 M        165-300 keY electrons    4[b],8[c]   3[b],1.5[c]
+                 FPS     F5 F6 M        300-550 ke V ions        4[b],8[c]   6[b],3[c]
+ ~ 0.48 cm2 sr   FP6     F6 F7 M        550-1.0 Me V ions        4[b],8[c]   6[b],3[c
+                 FP7     F7 M           1.0-5.0 MeV ions         4[b],8[c]   6[b],3[c
+                 
+ Singles         Sl      Det. B,C,D                                          12
+                 S2      Det. M,F,M',F'                                      12
+ ------------------------------------------------------------------------------------------
+ [a] The passbands given here are provisional and subject to refinement as in-flight calibrations arc completed.
+ [b] Sector; and accumulation times designated with b are associated with the LEFS 150 system.
+ [c] Sectors and accumulation times designated with c are associated with the LEFS 60 system.
+ 
+ 
+    References
+    ----------
+      HISCALE References (cited in Armstrong &amp; Sahi, 1996)
+ 
+      Curtis, D.W., ISPM/Ulysses LAN Data Processing Software
+      Status, Dec. 1986.
+ 
+      Gold R.E., LAN Accelerator Calibration Test Plan, August
+      1991.
+ 
+      Guynn D.R.  Jr., LAN Experiment Data System Performance and
+      Interface Specification, June 1992.
+ 
+      Kohl, J.W., J.H.  Crawford, Calibration of Solar Polar Energy
+      Model LAN-2B Detector Head at GSFC Low Energy Accelerator,
+      July 1986.
+ 
+      Simnett, G.M., R.E.  Gold, The RTG Background in the LAN
+      Experiment and the Shielding Required to Control It, April
+      1980.
+ 
+      Tappin, S.J., HSIO-HiScale I/O Library, June 1991.
+ 
+      Ximenez de Ferran S., Ulysses Spin Reference Pulse, May
+      1985.
+        </description>
+  </Instrument>
+</Product_Context>

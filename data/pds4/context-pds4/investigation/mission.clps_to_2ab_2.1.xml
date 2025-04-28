@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" 
+ schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:investigation:mission.clps_to_2ab</logical_identifier>
+    <version_id>2.1</version_id>
+    <title>CLPS Task Order 2AB</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>Peregrine Mission 1</alternate_id>
+        <alternate_title>Peregrine Mission 1</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>Astrobotic Peregrine Mission 1</alternate_id>
+        <alternate_title>Astrobotic Peregrine Mission 1</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>CLPS TO2 AB</alternate_id>
+        <alternate_title>CLPS TO2 AB</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>CLPS TO2-AB</alternate_id>
+        <alternate_title>CLPS TO2-AB</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>CLPS TO 2AB</alternate_id>
+        <alternate_title>CLPS TO 2AB</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>CLPS TO-2AB</alternate_id>
+        <alternate_title>CLPS TO-2AB</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-09-25</modification_date>
+        <version_id>2.0</version_id>
+        <description>Major changes per PDS Editorial Working Group efforts</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-05-13</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-10-09</modification_date>
+        <version_id>2.0</version_id>
+        <descriptio.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.clps_to_2ab_pll</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clps_to_2ab_pll.lets</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clps_to_2ab_pll.nirvss</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clps_to_2ab_pll.pitms</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:clps_to_2ab_pll.nss</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:clps_to_2ab_nirvss_aim:document:nirvss_users_guide</lid_reference>
+      <reference_type>investigation_to_document</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:clps_to_2ab_nss:document:to_2ab_nss_user_guide</lid_reference>
+      <reference_type>investigation_to_document</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>https://science.nasa.gov/lunar-science/clps-deliveries/to2-astrobotic/</reference_text>
+      <description>Official NASA CLPS Task Order 2AB page</description>
+    </External_Reference>
+  </Reference_List>
+  <Investigation>
+    <name>CLPS Task Order 2AB</name>
+    <type>Mission</type>
+    <start_date>2024-01-08</start_date>
+    <stop_date>2024-01-18</stop_date>
+    <description>
+            The NASA payload suite on Astrobotic Peregrine Mission 1 was slated to provide some of the first 
+            measurements from the surface of the Moon since Apollo, but it did not land on the lunar
+            surface due to an anomaly with the propulsion system. The spacecraft was targeting a landing 
+            within Sinus Viscositatis in order to provide complementary and meaningful data to NASA’s Lunar-VISE 
+            instrument suite, which will land on the nearby Gruithuisen Domes in 2026.
+            The NASA payloads aboard Astrobotic Peregrine 1 were focusing on characterizing the radiation 
+            environment in space and on the surface, volatiles present on or near the surface, and surface 
+            temperatures and mineralogy. The payload also included the Laser Retroreflector Array (LRA) which 
+            could have enabled precise laser ranging from orbiting spacecraft. Because the Peregrine spacecraft 
+            never landed on the Moon, all of the data acquired during the mission occurred in cislunar space. 
+            This allowed for measurements of the radiation environment experienced by the spacecraft during the 
+            mission as well as measurements of volatiles released by the spacecraft during operations and as a 
+            result of the anomaly experienced in the propulsion system. Except for the LRA, all other NASA payloads 
+            were powered on at various points and collected science data.
+        </description>
+  </Investigation>
+</Product_Context>

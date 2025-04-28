@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:investigation:mission.ulysses</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>The Ulysses Mission</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:investigation:mission.ulysses</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+      <Alias>
+        <alternate_id>INTERNATIONAL_SOLAR_POLAR_MISSION</alternate_id>
+        <alternate_title>INTERNATIONAL SOLAR POLAR MISSION</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-12-29</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                    Replaced target:sun.sun with target:star.sun
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.vhm-fgm</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.urap</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.udds</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.swoops</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.swics</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.sce</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-lems</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-lefs</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.hiscale-ca</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.gwe</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.grb</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.gas</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.epac</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-let</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-ket</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-hft</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-het</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:uly.cospin-at</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.uly</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:star.sun</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Astronomy and Astrophysics, Ulysses Special Issue, Vol. 316, No. 2, 1996.
+            </reference_text>
+      <description>reference.A-AV316N21996</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Geophys. Res. Lett., Vol. 19, No. 12, pp. 1235-1314, 1992.
+            </reference_text>
+      <description>reference.GRLV19N121992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Geophys. Res. Lett., Vol. 22, No. 23, pp. 3297-3432, 1995.
+            </reference_text>
+      <description>reference.GRLV22N231995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   J. Geophys. Res., Vol. 98, No. A12, pp. 21111-21251, 1993.
+            </reference_text>
+      <description>reference.JGRV98NA121993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Marsden, R.G., and E.J. Smith, Adv. Space Res. 17 (4/5) 293, 1996.
+            </reference_text>
+      <description>reference.MARSDEN-SMITH1996A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Marsden, R.G., and E.J. Smith, Sky &amp; Tel. 91(3), 24, 1996.
+            </reference_text>
+      <description>reference.MARSDEN-SMITH1996B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Marsden, R.G. and K.-P. Wenzel, Ulysses Jupiter Flyby - Scientific Results, ESA
+                   Bulletin No. 72, November 1992.
+            </reference_text>
+      <description>reference.MARSDEN-WENZEL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Marsden, R.G., Ulysses Explores the South Pole of the Sun, ESA Bulletin No. 82,
+                   May 1995.
+            </reference_text>
+      <description>reference.MARSDEN1995A</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Marsden, R.G., Ulysses Status Report, ESA, October 1995.
+            </reference_text>
+      <description>reference.MARSDEN1995B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Marsden, R.G., E.J. Smith, J.F. Cooper, and C. Tranquille, Ulysses at high
+                   heliographic latitudes: an introduction, Astron. Astrophys. 316(2), 279, 1996.
+            </reference_text>
+      <description>reference.MARSDENETAL1996</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Planet. Space Sci., Vol. 41, No. 11/12, pp. 797-1108, 1993.
+            </reference_text>
+      <description>reference.PSSV41N11-121993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Science, Vol. 257, No. 5076, pp. 1503-1577, 1992.
+            </reference_text>
+      <description>reference.SCIENCEV257N50761992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Science, Vol. 268, No. 5213, pp. 1005-1036, 1995.
+            </reference_text>
+      <description>reference.SCIENCEV268N52131995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Simpson, J.A., B. Rossi, A.R. Hibbs, R. Jastrow, F.L. Whipple, T. Gold, E.
+                   Parker, N. Christofilos, and J.A. Van Allen, J. Geophys. Res., 64, 1691, 1959.
+            </reference_text>
+      <description>reference.SIMPSONETAL1959</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Smith, E.J, and R.G. Marsden, Geophys. Res. Lett., 22, 3296, 1995.
+            </reference_text>
+      <description>reference.SMITH-MARSDEN1995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Space Sci. Rev., Vol. 72, No. 1/2, pp. 1-494, 1995.
+            </reference_text>
+      <description>reference.SSRV72N1-21995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Wenzel, K.-P., R.G. Marsden, D.E. Page, and E.J. Smith, The Ulysses mission,
+                   Astron. Astrophys. Suppl. Ser., 92, No. 2, 207-219, Jan. 1992.
+            </reference_text>
+      <description>reference.WENZELETAL1992</description>
+    </External_Reference>
+  </Reference_List>
+  <Investigation>
+    <name>Ulysses Mission</name>
+    <type>Mission</type>
+    <start_date>1990-10-06</start_date>
+    <stop_date nilReason="unknown" xsi:nil="true"/>
+    <description>The Ulysses Mission was a joint ESA-NASA mission designed to orbit the Sun and study the space environment around it at all latitutdes. It launched in October of 1990, and the original mission was extended four times, until the spacecraft was ultimately shut down in the face of multiple hardware in June 2009.</description>
+  </Investigation>
+</Product_Context>

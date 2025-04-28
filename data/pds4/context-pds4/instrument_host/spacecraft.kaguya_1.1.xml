@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.kaguya</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>Kaguya Spacecraft</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>SELENE</alternate_id>
+        <alternate_title>SELENE (Selenological and Engineering Explorer) Spacecraft</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-10-25</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Discipline_Area>
+    </Discipline_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:kaguya.lism</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.kaguya</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:kaguya.grs</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1007/s11214-010-9678-3</doi>
+      <reference_text>
+                 Kato, M., Sasaki, S., Takizawa, Y., and the Kaguya Project Team (2010), The Kaguya Mission Overview, 
+                 Space Sci. Rev. 154:3, https://doi.org/10.1007/s11214-010-9678-3.
+             </reference_text>
+      <description>Kaguya mission description paper</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>https://solarsystem.nasa.gov/missions/kaguya/</reference_text>
+      <description>NASA Kaguya web site</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>Kaguya Spacecraft</name>
+    <type>Spacecraft</type>
+    <naif_host_id>-131</naif_host_id>
+    <description>The Japanese lunar orbiter Kaguya (SELENE) was successfully launched aboard an H-IIA rocket on September 14, 2007. Following its launch, Kaguya passed through a phasing orbit around Earth 2.5 times and was inserted into a large elliptical orbit around the Moon on October 4, 2007. After lowering its apolune altitude, Kaguya achieved its nominal 100 km circular polar observation orbit on October 19, 2007.
+
+During the orbital adjustment process, two subsatellites, Okina (Rstar) and Ouna (Vstar), were deployed into elliptical orbits with apolunes of 2400 km and 800 km, respectively, and perilunes of 100 km. Once the bus system was verified, Kaguya extended four radar antennas, a magnetometer boom, and deployed a plasma imager.
+
+Scientific data acquisition commenced during the 10-month nominal mission, which began in mid-December 2007. During the subsequent 8-month extended mission, Kaguya conducted low-altitude observations using a Terrain Camera, a Multiband Imager, and an HDTV camera, while also measuring magnetic fields and gamma rays from lower orbits. This extended mission yielded significant new data, including detailed observations of an intense magnetic anomaly and gamma-ray spectroscopy (GRS) data with higher spatial resolution, providing insights into the Moon's magnetism and elemental distribution.
+
+After performing orbital maneuvers using reserved fuel, the Kaguya spacecraft completed its mission with a controlled impact on the southeastern region of the Moon.</description>
+  </Instrument_Host>
+</Product_Context>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:esa:psa:context:instrument_host:spacecraft.vex</logical_identifier>
+    <version_id>1.1</version_id>
+    <title>VENUS EXPRESS</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>urn:nasa:pds:context:instrument_host:spacecraft.vex</alternate_title>
+      </Alias>
+      <!-- deprecated LID -->
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:investigation:mission.venus_express</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:vex.aspera4-els</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:vex.mag</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:vex.rss</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--noSpice        <Internal_Reference> -->
+    <!--noSpice            <lid_reference>urn:nasa:pds:context:instrument:vex.spice</lid_reference> -->
+    <!--noSpice            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--noSpice        <Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:esa:psa:context:instrument:vex.virtis</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Sivac, P., and Schirmann, T., The Venus Express Spacecraft System Design, in
+                   press, ESA SP-1295, 2007.
+            </reference_text>
+      <description>reference.SIVAC-SCHIRMANN2007</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>VENUS EXPRESS</name>
+    <type>Spacecraft</type>
+    <naif_host_id>VEX</naif_host_id>
+    <description>The Venus Express spacecraft, launched on November 9, 2005. As part of ESA's Flexi-missions, it shares similarities with Mars Express but has adaptations to handle the high temperatures and harsh environment of Venus. 
+ 
+ Key design considerations included reusing the Mars Express mechanical structure to minimize development risks and managing the spacecraft's mass and center of gravity. The thermal control system was adjusted for Venus's intense solar radiation and included modifications like a second high-gain antenna due to communications requirements.
+ 
+ The propulsion system utilizes a bipropellant chemical propulsion subsystem for orbit insertion, and the power subsystem features solar wings and rechargeable batteries, tailored for the demanding radiation environment.
+ 
+ Venus Express carried seven scientific instruments, primarily adapted from previous missions, and was designed for various observational scenarios. The spacecraft also featured a robust attitude and orbit control system, efficient data handling capabilities, and an onboard Failure Detection, Isolation, and Recovery (FDIR) system to ensure operational integrity and safety.
+ 
+ Overall, Venus Express was engineered to conduct scientific research in a challenging environment, leveraging prior designs and technologies to effectively gather and manage data throughout its mission.</description>
+  </Instrument_Host>
+</Product_Context>

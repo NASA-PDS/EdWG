@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.go</logical_identifier>
+    <version_id>1.3</version_id>
+    <title>GALILEO ORBITER</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.3</version_id>
+        <description>Updated schema version. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2021-02-24</modification_date>
+        <version_id>1.2</version_id>
+        <description>
+                    Changed inst LIDs from
+                      u:n:p:c:i:instID.scID to
+                      u:n:p:c:i:scID.instID
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
+                    Per "Guide toPDS4 Context Products" v1.3,
+                    - changed all lidvid_reference to lid_reference
+                    - changed target LIDs to new formation rule
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:individual.greeley_35mm_slides</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.comet_sl9-jupiter_collision</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.galileo</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_10</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <!--removed in 1.1        <Internal_Reference> -->
+    <!--removed in 1.1            <lid_reference>urn:nasa:pds:context:investigation:mission.support_archives</lid_reference> -->
+    <!--removed in 1.1            <reference_type>instrument_host_to_investigation</reference_type> -->
+    <!--removed in 1.1        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.epd</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.gdds</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.hic</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.mag</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.nims</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.pls</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:instrument:go.pos</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.ppr</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.pws</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.rss</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.ssd</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.ssi</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.uvs</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:asteroid.951_gaspra</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:asteroid.asteroid</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:asteroid.243_ida</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:calibrator.calibration</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:comet.sl9</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planetary_system.solar_system</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <!--notyet	<Internal_Reference> -->
+    <!--notyet		<lid_reference>urn:nasa:pds:context:target:plasma_cloud.io_plasma_torus</lid_reference> -->
+    <!--notyet		<reference_type>instrument_host_to_target</reference_type> -->
+    <!--notyet	</Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.amalthea</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.callisto</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.europa</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.ganymede</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.io</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Asmar, S. W., N. A. Renzetti, The Deep Space Network as an instrument for radio
+                   science research, NASA Technical Reports Server, 1993STIN...9521456A, 1993.
+            </reference_text>
+      <description>reference.ASMAR-RENZETTI1993</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   D'Amario, L.A., L.E. Bright, and A.A. Wolf, Space Science Reviews, Volume 60
+                   Numbers 1-4, The Galileo Mission, Kluwer Academic Publishers, 1992, (replaces
+                   SSR1992), 1992.
+            </reference_text>
+      <description>reference.DAMARIOETAL1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   O'Neil, W.J., Project Galileo Mission Status, paper IAF-91-468, presented at
+                   the 42nd Congress of the International Astronautical Federation, Montreal,
+                   Canada October 5-11, 1991, (replaces GLLMS1991).
+            </reference_text>
+      <description>reference.ONEIL1991</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   O'Neil, W.J., Galileo on Jupiter Approach, paper IAF-95-Q.5.06, presented at
+                   the 46th Congress of the International Astronautical Federation, Oslo, Norway,
+                   October 2-6, 1995.
+            </reference_text>
+      <description>reference.ONEIL1995</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   O'Neil, W.J., Project Galileo Mission Status, paper IAF-96-Q.2.01, presented at
+                   the 47th Congress of the International Astronautical Federation, Beijing,
+                   China, October 7-11, 1996.
+            </reference_text>
+      <description>reference.ONEIL1996</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Yeates, C.M., T.V. Johnson, L. Colin, F.P. Fanale, L. Frank, and D.M. Hunten,
+                   Galileo: Exploration of Jupiter's System, NASA SP-479, 1985, (replaces GLL1985).
+            </reference_text>
+      <description>reference.YEATESETAL1985</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>GALILEO ORBITER</name>
+    <type>Spacecraft</type>
+    <naif_host_id>GO</naif_host_id>
+    <description>The Galileo Orbiter was launched on October 18, 1989, aboard the Space Shuttle Atlantis to explore Jupiter and its moons, as well as other solar system objects such as 951 Gaspra, 243 Ida and its moon Dactyl, and Comet Shoemaker-Levy 9. The spacecraft carried a suite of scientific instruments, including cameras, infrared spectrometers, and plasma detectors, designed to study Jupiter’s atmosphere, magnetosphere, and its moons, particularly Io, Europa, and Ganymede.
+
+Galileo conducted flybys of Gaspra and Ida, providing the first close-up images of asteroids. It then entered Jupiter orbit in December 1995, making groundbreaking discoveries such as evidence of an underground ocean on Europa and insights into Jupiter’s intense magnetic field and its interactions with its moons.
+
+The spacecraft operated until September 2003, when it was deliberately deorbited into Jupiter to avoid any potential contamination of Europa. Galileo’s data revolutionized our understanding of the Jovian system and paved the way for future missions to the outer solar system.</description>
+  </Instrument_Host>
+</Product_Context>

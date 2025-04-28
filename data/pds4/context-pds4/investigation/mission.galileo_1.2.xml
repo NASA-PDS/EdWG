@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:investigation:mission.galileo</logical_identifier>
+    <version_id>1.2</version_id>
+    <title>Galileo</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>Galileo_Millennium_Mission_(GMM)</alternate_id>
+        <alternate_title>Galileo Millennium Mission (GMM)</alternate_title>
+      </Alias>
+    </Alias_List>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2024-12-29</modification_date>
+        <version_id>1.2</version_id>
+        <description>Updated schema version. Adding missing "instrument" references. Description updated.</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2019-01-03</modification_date>
+        <version_id>1.1</version_id>
+        <description>
+                    Per "Guide toPDS4 Context Products" v1.3,
+                    - changed all lidvid_reference to lid_reference
+                    - changed target LIDs to new formation rule
+                </description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2016-10-01</modification_date>
+        <version_id>1.0</version_id>
+        <description>
+                    extracted metadata from PDS3 catalog and
+                    modified to comply with PDS4 Information Model
+                </description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gp.nfr</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gp.nep</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gp.lrd</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gp.had</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gp.gpms</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gp.epi</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gp.dwe</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:gp.asi</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.uvs</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.ssi</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.ssd</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.rss</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.pws</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.ppr</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.pls</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.nims</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.mag</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.hic</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.gdds</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:go.epd</lid_reference>
+      <reference_type>investigation_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.go</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.gp</lid_reference>
+      <reference_type>investigation_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:asteroid.951_gaspra</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:asteroid.243_ida</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:calibrator.calibration</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <!--        <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:target:comet.sl9</lid_reference> -->
+    <!--            <reference_type>investigation_to_target</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.jupiter</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planetary_system.solar_system</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <!--notyet        <Internal_Reference> -->
+    <!--notyet            <lid_reference>urn:nasa:pds:context:target:plasma_cloud.io_plasma_torus</lid_reference> -->
+    <!--notyet            <reference_type>investigation_to_target</reference_type> -->
+    <!--notyet        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:plasma_stream.solar_wind</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.amalthea</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.callisto</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.europa</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.ganymede</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.jupiter.io</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+      <reference_type>investigation_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <reference_text>
+                   Chapman, C.R., Galileo Encounter With the Planet Earth: Imaging Results,
+                   AGU-MSA 1991 Spring Meeting, EOS Transactions, American Geophysical Union,
+                   April 23, 1991.
+            </reference_text>
+      <description>reference.CHAPMAN1991</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Clarke, T.C., Earth and Moon Encounters by the Galileo Jupiter Orbiter,
+                   Proceedings of IGARSS '88 Symposium, Edinburgh, Scotland, September 13-16,
+                   1988, ESA SP-284, August 1988.
+            </reference_text>
+      <description>reference.CLARKE1988</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Clarke, T.C., and F.P. Fanale, Galileo: the Earth Encounters, The Planetary
+                   Report, Volume 9, number 5, The Planetary Society, September 1989, (replaced by
+                   CLARKE&amp;FANALE1989).
+            </reference_text>
+      <description>reference.CLARKE1989</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Fanale, F.P., Galileo's Earth-Moon Encounter Set for December 8, EOS
+                   Transactions, Volume 71, Number 47, American Geophysical Union, November 20,
+                   1990.
+            </reference_text>
+      <description>reference.FANALE1990</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Frank, L.A., K.L. Ackerson, and W.R. Patterson, Plasma Measurements at Earth
+                   With the Galileo Spacecraft, AGU Spring Meeting, Baltimore, Maryland, May 1991.
+            </reference_text>
+      <description>reference.FRANK1991</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Wolf, A.A., Jet Propulsion Laboratory Interoffice Memorandum GLL-NAV-92-90,
+                   Satellite Tour 92-14A Data Package, May 12, 1992, (replaced by WOLF1992).
+            </reference_text>
+      <description>reference.GLLIOM1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   O'Neil, W.J., Project Galileo Mission Status, 42nd Congress of the
+                   International Astronautical Federation, IAF-91-468, Oct 5-11, 1991, (replaced
+                   by ONEIL1991).
+            </reference_text>
+      <description>reference.GLLMS1991</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Casani, J.R., Galileo Project Plan, PD 625-1 Revision C, JPL D-1284, January
+                   1985, (replaced by CASANI1985).
+            </reference_text>
+      <description>reference.GLLPP1985</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Clarke, T.C., and C.M. Clayne, Galileo Science Requirements Document 625-50,
+                   Rev. C, Jet Propulsion Laboratory, Pasadena, California, January 18, 1989,
+                   (replaced by CLARKE&amp;CLAYNE1989).
+            </reference_text>
+      <description>reference.GLLSRD1989</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Head, J.W., D.B. Campbell, C. Elachi, J.E. Guest, D.P. McKenzie, R.S. Saunders,
+                   G.G. Schaber, and G. Schubert, Galileo Solid State Imaging Experiment Results
+                   for the Moon, AGU-MSA 1991 Spring Meeting, EOS Transactions, American
+                   Geophysical Union, April 23, 1991.
+            </reference_text>
+      <description>reference.HEAD1991B</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Ingersoll, A., and R. Thompson, A Global View of Earth From Galileo, AGU-MSA
+                   1991 Spring Meeting, EOS Transactions, American Geophysical Union, April 23,
+                   1991, (replaced by INGERSOLL&amp;THOMP1991).
+            </reference_text>
+      <description>reference.INGERSOLL1991</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   D'Amario, L.A., L.E. Bright, and A.A. Wolf, Space Science Reviews, Volume 60
+                   Numbers 1-4, 1992, The Galileo Mission, Kluwer Academic Publishers, 1992.
+            </reference_text>
+      <description>reference.SSR1992</description>
+    </External_Reference>
+    <External_Reference>
+      <reference_text>
+                   Young, R.E., M.A. Smith and C.K. Sobeck, Galileo Probe: In Situ Observations of
+                   Jupiter's Atmosphere, Science 272, pp. 837-838, 1996.
+            </reference_text>
+      <description>reference.YOUNGETAL1996</description>
+    </External_Reference>
+  </Reference_List>
+  <Investigation>
+    <name>Galileo</name>
+    <type>Mission</type>
+    <start_date>1977-10-01</start_date>
+    <stop_date>2003-09-21</stop_date>
+    <description>The Galileo was sent to Jupiter to study the planet and its moons. It was delivered to space on Space Shuttle Atlantis on October 18, 1989. It sent an atmospheric probe into Jupiter's atmosphere to study the composition.</description>
+  </Investigation>
+</Product_Context>
