@@ -30,11 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>1.1</version_id>
         <description>Updates to descriptions and references</description>
       </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>1.1</version_id>
-        <description</description>
-      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
