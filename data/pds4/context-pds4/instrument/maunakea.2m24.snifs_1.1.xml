@@ -47,10 +47,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The Supernova Integral Field Spectrograph (SNIFS) is a visible wavelength
-spectrometer that is permanently installed at the University of Hawaii 2.2m
-telescope. See Lantz et al. (2004) [LANTZETAL2004] for more details on this
-instrument.
-        </description>
+    <description>The Supernova Integral Field Spectrograph (SNIFS) is a visible wavelength spectrometer that is permanently installed at the University of Hawaii 2.2m telescope. See Lantz et al. (2004) [LANTZETAL2004] for more details on this instrument.         </description>
   </Instrument>
 </Product_Context>

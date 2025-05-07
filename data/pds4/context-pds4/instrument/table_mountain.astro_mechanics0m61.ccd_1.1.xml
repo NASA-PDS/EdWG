@@ -26,6 +26,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Table Mountain Observatory 24-inch CCD camera</name>
     <type>Imager</type>
-    <description>A Cassini spare 1024 square CCD camera.</description>
+    <description>The Table Mountain Observatory 24-inch CCD Camera is an astronomical camera used for observing celestial objects with the 24-inch telescope located at Table Mountain Observatory (TMO), which is situated near Wrightwood, California. The observatory is part of the Table Mountain Facility, which is run by the California Institute of Technology (Caltech).</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mars2020.meda</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars 2020 Mars Environmental Dynamics Analyzer (MEDA)</title>
+    <title>Mars Environmental Dynamics Analyzer (MEDA) for Mars 2020</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -53,14 +53,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Mars Environmental Dynamics Analyzer (MEDA)</name>
+    <name>Mars Environmental Dynamics Analyzer (MEDA) for Mars 2020</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Meteorology</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The MEDA instrument is an instrument onboard the Mars 2020 Rover designed to
-            measure meteorological and environmental conditions at the rover site.
-        </description>
+    <description>The (Mars Environmental Dynamics Analyzer (MEDA) instrument is an instrument onboard the Mars 2020 Rover designed to measure meteorological and environmental conditions at the rover site. The Mars Environmental Dynamics Analyzer (MEDA) instrument onboard of the Mars 2020 Rover is designed to measure meteorological and environmental conditions at the rover site, such as dust size and morphology as well as daily surface weather reports to keep track of wind patterns and radiation. MEDA has a wide array of environmental sensors to record not only dust properties but also 6 atmospheric parameters, which include wind speed/direction, relative humidity, air temperature, ground temperature, pressure, and radiation (covering the UV, visible, and IR ranges). Data for all the instruments is obtained every 30 minutes for a time span of 5 minutes.</description>
   </Instrument>
 </Product_Context>

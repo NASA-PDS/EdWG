@@ -56,14 +56,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Faint Object Camera</name>
+    <name>HST Faint Object Camera</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is the Faint Object Camera (FOC). It was removed in early 2002.
-    </description>
+    <description>The Faint Object Camera (FOC) aboard the Hubble Space Telescope was an optical and ultraviolet camera that covered wavelengths from 122 to 550 nm. The FOC was able to operate at three different resolutions: low resolution (f/48, 0.043 arcseconds), medium resolution (f/96, 0.022 arcseconds), and high resolution (f/288, 0.0072 arcseconds). The FOC was replaced by the Advanced Camera for Surveys (ACS) in 2002.</description>
   </Instrument>
 </Product_Context>

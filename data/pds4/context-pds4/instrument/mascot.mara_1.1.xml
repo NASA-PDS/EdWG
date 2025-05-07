@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:jaxa:darts:context:instrument:mascot.mara</logical_identifier>
     <version_id>1.1</version_id>
-    <title>MASCOT Radiometer MARA instrument</title>
+    <title>The MASCOT Radiometer (MARA) for the Hayabusa2 MASCOT Rover</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -43,13 +43,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>MARA</name>
+    <name>The MASCOT Radiometer (MARA) for the Hayabusa2 MASCOT Rover</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radiometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-37740</naif_instrument_id>
-    <description>MARA (MAscot RAdiometer) is a radiometer onboard MASCOT. MARA is used for the high-resolution determination of the surface temperature as well as the thermal changes during the day-night changes on the asteroid.</description>
+    <description>MARA (MAscot RAdiometer) is a radiometer onboard MASCOT. MARA is used for high-resolution determination of the surface temperature as well as thermal changes during the day-night cycle on the asteroid.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:utsa_kamc.hitachi_sem</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Hitachi S 5500 cold field-emission scanning electron microscope (SEM)</title>
+    <title>University of Texas at San Antonio Kleberg Advanced Microscopy Center Hitachi S 5500 Cold Field-Emission Scanning Electron Microscope</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -40,18 +40,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Hitachi S 5500 cold field-emission scanning electron microscope (SEM)</name>
+    <name>University of Texas at San Antonio Kleberg Advanced Microscopy Center Hitachi S 5500 Cold Field-Emission Scanning Electron Microscope</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Microscope</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The Hitachi S5500 Field-Emission Scanning Electron Microscope (SEM) is a sub-nanometer field-emission SEM which can also operate as a Transmission Electron Microscope (TEM) in a 
-            scanning mode (STEM). This dual SEM and STEM microscope can reach the world's highest resolution of 0.4 nm at 30 kV using the secondary electron detector. It simultaneously 
-            provides surface topography (SE mode) in conjunction with bulk information (STEM mode) making 3-D morphological observations possible. The STEM mode uses brightfield and 
-            darkfield detectors enabling crystal lattice resolution and true Z-contrast imaging for different material composition and thickness. This instrumentation is located at the 
-            University of Texas at San Antonio's Kleberg Advanced Microscopy Center.
-        </description>
+    <description>The Hitachi S5500 Field-Emission Scanning Electron Microscope (SEM) is a sub-nanometer field-emission SEM which can also operate as a Transmission Electron Microscope (TEM) in a scanning mode (STEM). This dual SEM and STEM microscope can reach the world's highest resolution of 0.4 nm at 30 kV using the secondary electron detector. It simultaneously provides surface topography (SE mode) in conjunction with bulk information (STEM mode) making 3-D morphological observations possible. The STEM mode uses brightfield and darkfield detectors enabling crystal lattice resolution and true Z-contrast imaging for different material composition and thickness. This instrumentation is located at the University of Texas at San Antonio's Kleberg Advanced Microscopy Center.         </description>
   </Instrument>
 </Product_Context>

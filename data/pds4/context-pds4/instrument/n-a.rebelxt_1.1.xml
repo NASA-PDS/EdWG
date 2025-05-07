@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:rebelxt.n-a</logical_identifier>
     <version_id>1.1</version_id>
-    <title>CANON EOS DIGITAL REBEL XT for unk</title>
+    <title>Canon EOS Digital Rebel XT</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -41,28 +41,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>CANON EOS DIGITAL REBEL XT</name>
+    <name>Canon EOS Digital Rebel XT</name>
     <type>Imager</type>
     <!--RChen/EN was Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
- 
-  Instrument Overview
-  ===================
- 
-    Images for the Mars analog hand-lens-scale image data base were
-    acquired with a Canon Rebel XT, a digital SLR (single lens reflex)
-    camera with an 8.0 Mpxl sensor. For images taken at microscale-resolution
-    (10 micrometer/pixel), a 100mm f/2.8 macro lens was threaded
-    into the lens adaptor and a twin-tube ring light was mounted on the
-    extended lens to assure uniform illumination. A tripod with a three-way
-    head provided stability during high-resolution imaging. The same camera
-    was used to take context images at a variety of resolutions.
- 
-    For further details on the camera system, see [YINGSTETAL2007].
-
-        </description>
+    <description>The Canon EOS Digital Rebel XT, also known as the Canon EOS 350D, is a digital single-lens reflex (DSLR) camera released in 2005. It features an 8.0-megapixel CMOS sensor, a 9-point autofocus system, and a 2.0-inch LCD screen. The Rebel XT is known for its compact design and user-friendly interface, making it a popular choice for beginner and intermediate photographers. It also offers a range of manual controls, allowing users to experiment with settings for creative photography.</description>
   </Instrument>
 </Product_Context>

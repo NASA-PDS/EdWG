@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:rss.near</logical_identifier>
     <version_id>1.2</version_id>
-    <title>RADIO SCIENCE SUBSYSTEM for NEAR</title>
+    <title>Radio Science Subsystem (RSS) for NEAR Shoemaker</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -87,21 +87,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>RADIO SCIENCE SUBSYSTEM</name>
+    <name>Radio Science Subsystem (RSS) for NEAR Shoemaker</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radio Science</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
- The NEAR Radio Science Subsystem (RSS) used a coherent X-band transponder to conduct a 
- radio science investigation by measuring the Doppler shift from the spacecraft's radial           
- velocity component relative to the Earth.  Accurate measurements of the Doppler shift 
- and the range to Earth as the spacecraft orbited Eros allowed mapping of the asteroid's         
- gravity field. In conjunction with MSI/NIS and NLR data, gravity determinations were 
- combined with global shape and rotation data to constrain the internal density structure 
- of Eros and search for heterogeneity.  Spacecraft tracking data for the radio science 
- experiment were also obtained for a mass determination of Asteroid 253 Mathilde.
-        </description>
+    <description>The Radio Science Subsystem (RSS), as is typical in planetary spacecraft, employed both onboard hardware and the characteristics of the communication exchange with the Deep Space Network (DSN). The spacecraft hardware included X-band transponders as well as two redundant microstrip patch low-gain antennas, one microstrip pathc medium-gain antenna, and one high-gain antenna dish 1.5m in diameter. The RSS was used to determine mass and bulk density of both (433) Eros and the flyby target (253) Mathilde. While orbiting (433) Eros, the RSS was used to ingestigate the inner structure of the asteroid through determination and analysis of the higher order gravity fields.
+</description>
   </Instrument>
 </Product_Context>

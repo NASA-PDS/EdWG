@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:ice.radwav</logical_identifier>
     <version_id>1.1</version_id>
-    <title>RADIOWAVE DETECTOR for ICE</title>
+    <title>The Radiowave Detector (RADWAV) for the International Cometary Explorer</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -53,37 +53,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>RADIOWAVE DETECTOR</name>
+    <name>The Radiowave Detector (RADWAV) for the International Cometary Explorer</name>
     <type>Radiometer</type>
     <!--RChen/EN was Radio-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
- 
-    Instrument Overview
-    ===================
-      Fluctuating electric fields are detected in three
-      pairs of orthogonal antennas, one aligned with the
-      spacecraft spin axis and the other two in the
-      equatorial plane (Fig. 6).  The antenna voltages
-      are preamplified and then analyzed by a radiometer
-      consisting of four superheterodyne receivers, which
-      step through the frequency range from 30 kHz to 2
-      MHz.  Two channels are narrow-band with a filter
-      bandwidth of 3 kHz, and two have a filter bandwidth
-      of 10 kHz.  The narrow-band filters sweep between
-      30 kHz and 1 MHz in 12 steps, while the broadband
-      filters cover frequencies between 40 kHz and 2 MHz,
-      also in 12 steps.  The frequencies are scanned in a
-      nonlinear manner so that the highest frequencies
-      are sampled 12 times as often as the low
-      frequencies.  The complete scan sequence consists
-      of 72 steps; 56 s are required to read out all
-      channels at 1024 bit/s.
- 
- 
-
-        </description>
+    <description>The Radiowave Detector system for measuring fluctuating electric fields consisted of three pairs of orthogonal antennas, one aligned with the spacecraft spin axis and the other two lying in the equatorial plane. Voltages were preamplified and then analyzed by a radiometer consisting of four heterodyne receivers stepping through frequencies from 30 kHz to 2 MHz. Two channels were swept by a 3 kHz narrow-band filter, the other two by a 10 kHz broadband filter, to produce scan sequences of 72 steps.</description>
   </Instrument>
 </Product_Context>

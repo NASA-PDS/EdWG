@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvmp.lp.lir</logical_identifier>
     <version_id>1.1</version_id>
-    <title>INFRARED RADIOMETER for PIONEER VENUS LARGE PROBE</title>
+    <title>Infrared Radiometer for Pioneer Venus Large Probe</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PIONEER VENUS LARGE PROBE INFRARED RADIOMETER</name>
+    <name>Infrared Radiometer for Pioneer Venus Large Probe</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radiometer</ctli:type>
@@ -52,16 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
- 
-      The objectives of this experiment were to measure the atmosphere thermal flux profile, detect cloud layers and infer their composition, 
-      and estimate the atmospheric water vapor content. This experiment used a 4-channel infrared radiometer looking down from the probe. Two 
-      internal blackbodies were used to allow absolute measurements of the flux in each channel. The instrument weighed about 2 kg and used 
-      about 3 W of power.
-      
-        </description>
+    <description>The Large Probe Infrared Radiometer (LIR) of Pioneer Venus was used to measure the atmosphere thermal flux profile, detect cloud layers and infer their composition, and estimate the atmospheric water vapor content. The instrument, comprised of a six-channel calibrated radiometer, measured the radiance difference at plus/minus 45 degrees to the horizontal. It operated in the wavelength range from 3 to 50 microns. Two internal blackbodies were used to allow absolute measurements of the flux in each channel. The instrument weighed about 2 kg and used about 3 W of power.</description>
   </Instrument>
 </Product_Context>

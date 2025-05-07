@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvmp.sp-day.snfr</logical_identifier>
     <version_id>1.1</version_id>
-    <title>NET-FLUX RADIOMETER for PIONEER VENUS SMALL PROBE (DAY)</title>
+    <title>Net Flux Radiometer for Pioneer Venus Small Probe (Day)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PIONEER VENUS SMALL PROBE (DAY) NET-FLUX RADIOMETER</name>
+    <name>Net Flux Radiometer for Pioneer Venus Small Probe (Day)</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radiometer</ctli:type>
@@ -52,17 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
- 
-      The objectives were to locate regions of radiative convergence and divergence as a function of altitude and to indicate 
-      the height at which solar energy is absorbed by the atmosphere. This experiment used a small net flux radiometer on the 
-      Probe targeted to the dayside of Venus to measure the net solar flux in the 0.2- to 4-micrometer region. The two Probes 
-      targeted to the nightside of the planet carried net infrared flux sensors covering the 1- to 25-micrometer region. The 
-      instrument weighed about 0.4 kg and used 2.2 W of power.
-      
-        </description>
+    <description>The Small Probe (Day) Net Flux Radiometer (SNFR) of Pioneer Venus was an instrument with the objectives to locate regions of radiative convergence and divergence as a function of altitude and to indicate the height at which solar energy is absorbed by the atmosphere of Venus, measured within the spectral range of 0.2 to 50 microns with a resolution of 1km. This experiment used a small net flux radiometer on the Probe targeted to the dayside of Venus to measure the net solar flux in the 0.2 to 4 micron region. The two probes targeted to the nightside of the planet carried net infrared flux sensors covering the 1 to 25 micron region. The SNFR was made of two modules, with the electronics module comprised of five circuit boards inside a gold plated titanium box. The modules contained amplifier, voltage controlled oscillator, max/min electronics, digital electronics, heater and solenoid drivers, power conversion unit, and temperature monitors. Two measurement periods were used by SNFR. When the probe’s altitude was roughly above 30 km, it used 8 second measurements, while below this altitude, it obtained maximum, minimum, and average flux difference measurements.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvo.oad</logical_identifier>
     <version_id>1.1</version_id>
-    <title>ORBITER ATMOSPHERIC DRAG (OAD) FOR PIONEER VENUS</title>
+    <title>Orbiter Atmospheric Drag (OAD) for Pioneer Venus</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>ORBITER ATMOSPHERIC DRAG (OAD) FOR PIONEER VENUS</name>
+    <name>Orbiter Atmospheric Drag (OAD) for Pioneer Venus</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radio Science</ctli:type>
@@ -68,26 +68,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
- 
-        The Orbiter Atmospheric Drag (OAD) experiment made use of the spacecraft S-band and X-band radio signals for data 
-        measurements. The objectives were (1) to establish the diurnal variation of thermospheric density and density scale 
-        height (2) to determine the relationship of solar wind variations to variations in atmospheric density, (3) to determine 
-        the relationship of long and short term variation in solar extreme UV radiation to density variations, (4) to search 
-        for phenomena such as a semi-annual variation and super rotation of the thermosphere, and (5) to formulate a thermospheric 
-        model for the Venusian atmosphere.
- 
-        The OAD experiment worked by measuring the Doppler shift in X and S band transmissions to the Deep Space Network. The 
-        shift would give the spacecraft acceleration along a line-of-sight from the spacecraft to the receiver. The accelerations 
-        at periapsis, when the orbiter was in the region of highest atmospheric density and the drag effect was greatest, were used, 
-        along with the spacecraft mass, and spacecraft orientation (giving the cross-section), to give a drag coefficient. This, 
-        combined with atmospheric models, gave an estimate of the atmospheric density at that altitude. Since the periapsis altitude 
-        changed with time, different depths in the atmosphere would be sampled. The effects of the drag on the evolution of the orbital 
-        period and inclination were also used with, and fed into, an atmospheric model. The results could be used to study diurnal and 
-        semi-annual variations, variations with solar activity, and possibly the super-rotation of the upper atmosphere.
-        </description>
+    <description>The Orbiter Atmospheric Drag (OAD) experiment utilized S-band and X-band radio signals from a spacecraft to gather data on the Venusian atmosphere. Its objectives included measuring the diurnal variation of thermospheric density, understanding the impact of solar wind on atmospheric density, examining the effects of solar extreme UV radiation, and investigating phenomena like semi-annual variations and super-rotation. The experiment analyzed Doppler shifts in radio transmissions to calculate spacecraft acceleration and drag coefficients, which, when combined with atmospheric models, helped estimate atmospheric density. The changing periapsis altitude allowed for sampling different atmospheric depths, contributing to studies on atmospheric variations and dynamics.</description>
   </Instrument>
 </Product_Context>

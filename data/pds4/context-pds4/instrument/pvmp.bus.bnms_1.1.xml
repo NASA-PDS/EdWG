@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvmp.bus.bnms</logical_identifier>
     <version_id>1.1</version_id>
-    <title>NEUTRAL MASS SPECTROMETER for PIONEER VENUS PROBE BUS</title>
+    <title>Neutral Mass Spectrometer for Pioneer Venus Probe Bus</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PIONEER VENUS PROBE BUS NEUTRAL MASS SPECTROMETER</name>
+    <name>Neutral Mass Spectrometer for Pioneer Venus Probe Bus</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
@@ -52,16 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
- 
-      This neutral particle mass spectrometer experiment obtained measurements which provided information on the origin 
-      and evolution of Venus' atmosphere, the present energy balance and dynamics of the upper atmosphere, and the interaction 
-      of the upper atmosphere with solar radiation and the interplanetary medium. A magnetic deflection, double-focusing mass 
-      spectrometer was flown to measure the upper atmosphere neutral molecules in the mass range 1 to 46 atomic mass units (u).
-      
-        </description>
+    <description>The Probe Bus Neutral Mass Spectrometer (BNMS) of Pioneer Venus was a neutral particle mass spectrometer experiment that obtained measurements to provide information on the origin and evolution of Venus' atmosphere, the present energy balance and dynamics of the upper atmosphere, and the interaction of the upper atmosphere with solar radiation and the interplanetary medium. A magnetic deflection, double-focusing mass spectrometer was flown to measure the upper atmosphere neutral molecules in the mass range 1 to 46 atomic mass units (u). Particles were ionized by an electron beam of 56-eV electrons at 100 microamps, and then first passed through focusing electrodes, followed by passage through an electrostatic analyzer and into the magnetic analyzer, which is a permanent magnet of Alnico 700 with a flux density of 0.5T. The data rate was fixed at 512 bits/sec, while measurements were obtained from about 700 km altitude to 130 km, at which point the probe stopped operating.</description>
   </Instrument>
 </Product_Context>

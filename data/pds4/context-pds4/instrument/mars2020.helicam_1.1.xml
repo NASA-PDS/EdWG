@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mars2020.helicam</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars 2020 Helicopter Imaging Suite (Helicam)</title>
+    <title>Mars 2020 Perseverance Rover Helicopter Imaging Suite</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -39,24 +39,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Helicopter Imaging Suite (Helicam)</name>
+    <name>Mars 2020 Perseverance Rover Helicopter Imaging Suite</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The Mars Helicopter, Ingenuity, is a technology demonstration
-            designed to test the first powered flight on Mars. Ingenuity is
-            a small, autonomous aircraft that will be carried to
-            the surface of the Red Planet attached to the
-            belly of the Perseverance rover. Its mission
-            is experimental in nature and completely
-            independent of the rover’s science mission.
-            In the months after landing, the helicopter
-            will be placed on the surface to test – for
-            the first time ever – powered flight in the thin
-            Martian air.
-        </description>
+    <description>The Mars 2020 Perseverance Rover Helicopter Imaging Suite (Helicam) was a collection of cameras and instruments that captured images of the Mars Helicopter, Ingenuity, during its flight on Mars. The images were used for scientific evaluation and to assess the helicopter's performance. Ingenuity was a technology demonstration designed to test the first powered flight on Mars. Ingenuity was a small, autonomous aircraft that was carried to the surface of the Red Planet attached to the belly of the Perseverance rover. Its mission was experimental in nature and completely independent of the rover's science mission. In the months after landing, the helicopter was placed on the surface to test - for the first time ever - powered flight in the thin Martian air.         </description>
   </Instrument>
 </Product_Context>

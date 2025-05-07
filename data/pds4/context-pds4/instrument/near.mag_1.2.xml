@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mag.near</logical_identifier>
     <version_id>1.2</version_id>
-    <title>MAGNETOMETER for NEAR</title>
+    <title>The Magnetometer (MAG) for NEAR Shoemaker</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -62,20 +62,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>MAGNETOMETER</name>
+    <name>The Magnetometer (MAG) for NEAR Shoemaker</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Magnetometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
- The NEAR magnetometer (MAG) was a fluxgate magnetometer using ring core sensors made of highly 
- magnetically permeable material to detect and map the intrinsic magnetic fields of the 
- asteroid 433 Eros. The primary scientific objectives were to establish the global 
- characteristics and geometry of the magnetic field (internal, remnant, or surface) 
- associated with Eros and any detectable interaction with the solar wind and interplanetary 
- field. Secondary objectives include detection of the bow shock, boundary crossings, and 
- magnetic signatures of surface features.
-        </description>
+    <description>The NEAR magnetometer was a fluxgate magnetometer using ring core sensors made of highly magnetically permeable materal to detect and map the intrinsic magnetic fields of the asteroid 433 Eros. The primary scientific objectives were to establish the global characteristics and geometry of the magnetic field (internal, remnant, or surface) associated with Eros and any detectable interaction with the solar wind and interplanetary field. Secondary objectives include detection of the bow shock, boundary crossings, and magnetic signatures of surface features.</description>
   </Instrument>
 </Product_Context>

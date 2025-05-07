@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:crs.p11</logical_identifier>
     <version_id>1.1</version_id>
-    <title>CRS for P11</title>
+    <title>The Cosmic Ray System on Pioneer 11</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -43,15 +43,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>CRS</name>
+    <name>The Cosmic Ray System on Pioneer 11</name>
     <type>Particle Detector</type>
     <!--RChen/EN was Cosmic Ray Detector-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-      This is a placeholder file
-
-        </description>
+    <description>The Cosmic Ray System on Pioneer 11 is an instrument was designed to measure cosmic rays, specifically high-energy particles from the Sun, interstellar space, and other astrophysical sources. It helped study the intensity and composition of cosmic radiation in the outer solar system.</description>
   </Instrument>
 </Product_Context>

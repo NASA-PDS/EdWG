@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:icc.insight</logical_identifier>
     <version_id>1.1</version_id>
-    <title>The Insight Context Camera onboard the InSight Lander spacecraft.</title>
+    <title>InSight Mars Lander Context Camera</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -39,14 +39,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>InSight Context Camera</name>
+    <name>InSight Mars Lander Context Camera</name>
     <type>Imager</type>
     <serial_number>203</serial_number>
-    <description>The InSight Context Camera (ICC) instrument is fix-mounted on the body of the lander with a wide angle lens and
-            a view of the arm workspace and some of the sky. The ICC’s optics are based on Mars Science Laboratory’s Hazcam instrument. 
-            Images from the ICC are structured the same as images from the InSight Deployment Camera (IDC), and are treated similarly 
-            by both the flight software (FSW) and the ground system (GDS).  Because of the fixed nature of the camera, stereo is not 
-            possible with ICC.
-        </description>
+    <description>The InSight Mars Lander Context Camera (ICC) instrument was fix-mounted on the body of the lander with a wide angle lens and a view of the arm workspace and some of the sky. The ICC's optics were based on Mars Science Laboratory's Hazcam instrument. Images from the ICC were structured the same as images from the InSight Deployment Camera (IDC), and were treated similarly by both the flight software (FSW) and the ground system (GDS). Because of the fixed nature of the camera, stereo was not possible with ICC.</description>
   </Instrument>
 </Product_Context>

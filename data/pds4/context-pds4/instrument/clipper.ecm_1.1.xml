@@ -49,8 +49,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-159000</naif_instrument_id>
-    <description>
-      The ECM investigation aims to confirm that Europa’s ocean exists, measure its depth and salinity, and measure the moon’s ice shell thickness. It will also study Europa’s ionized atmosphere and how it interacts with Jupiter’s ionized atmosphere.
-    </description>
+    <description>       The ECM investigation aims to confirm that Europa‚Äôs ocean exists, measure its depth and salinity, and measure the moon‚Äôs ice shell thickness. It will also study Europa‚Äôs ionized atmosphere and how it interacts with Jupiter‚Äôs ionized atmosphere.     </description>
   </Instrument>
 </Product_Context>

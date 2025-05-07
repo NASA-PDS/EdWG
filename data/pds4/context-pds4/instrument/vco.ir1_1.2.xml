@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:jaxa:darts:context:instrument:vco.ir1</logical_identifier>
     <version_id>1.2</version_id>
-    <title>1-micron Camera</title>
+    <title>1-micron Camera  for Venus Climate Orbiter Akatsuki</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -56,25 +56,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>1-micron Camera</name>
+    <name>1-micron Camera  for Venus Climate Orbiter Akatsuki</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-5200</naif_instrument_id>
-    <description>
-            IR1 (1-micron Camera) was designed to image the dayside of Venus at 0.90 um
-            wavelength and the nightside at 0.90, 0.97 and 1.01 um wavelengths, which are
-            located in the atmospheric windows.
-
-            On the dayside, it measures the 0.90 um solar radiation scattered by the clouds,
-            and quantifies the horizontal wind vectors by using the cloud-tracking technique.
-            On the nightside, it has three channels of 0.90, 0.97, and 1.01 um to detect
-            thermal emission mostly from the surface and a little from the lowermost atmosphere.
-            The latter two channels are a differential absorption pair for measuring the
-            surface H2O abundance with the 1.01 um channel as a reference.
-            IR1 will also search for an active volcanism.
-        </description>
+    <description>The 1-micron Camera (IR1) onboard the Venus Climate Orbiter Akatsuki Spacecraft was designed to image the dayside of Venus at 0.90 um wavelength and the nightside at 0.90, 0.97 and 1.01 um wavelengths, which are located in the atmospheric windows. On the dayside, it measures the 0.90 um solar radiation scattered by the clouds, and quantifies the horizontal wind vectors by using the cloud-tracking technique. On the nightside, it has three channels of 0.90, 0.97, and 1.01 um to detect thermal emission mostly from the surface and a little from the lowermost atmosphere. The latter two channels are a differential absorption pair for measuring the surface H2O abundance with the 1.01 um channel as a reference. IR1 will also search for an active volcanism.</description>
   </Instrument>
 </Product_Context>

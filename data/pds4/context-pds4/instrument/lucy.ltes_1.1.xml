@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:lucy.ltes</logical_identifier>
     <version_id>1.1</version_id>
-    <title>The Lucy Thermal Emission Spectrometer (L'TES) aboard the Lucy spacecraft</title>
+    <title>The Thermal Emission Spectrometer (L'TES) for Lucy</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -39,7 +39,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Lucy Thermal Emission Spectrometer (L'TES)</name>
+    <name>The Thermal Emission Spectrometer (L'TES) for Lucy</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
@@ -47,7 +47,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-49</naif_instrument_id>
-    <description>The L’TES instrument measures the thermal infrared emission from each Trojan asteroid to obtain the temperature of the asteroids surface. These observations address one of the Level 1 science requirements: determining the thermal inertia of the surface.
-        </description>
+    <description>The Thermal Emission Spectrometer (L'TES) is a far-infrared, pointed spectrometer with a spectral range og 6 - 75 microns and a spectral resolution of 10cm^-1. The L'TES instrument is designed to study the thermal inertia of the regolith of the target body.</description>
   </Instrument>
 </Product_Context>

@@ -40,25 +40,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-      The "Mordor" Ultra-high Vacuum System is an instrument suite named after Charon's
-      Mordor Macula terrain with the following details:
-      
-       - Cryopumped 3-tier Chamber
-       - 4K Janis compressed He cryostat mounted on a differentially-pumped rotational
-         + XYZ stages
-       - 6 MHz Quartz Crystal Microbalance
-       - Collimated Micro-capillary array gas dosers
-       - McPherson 234-302 far-ultraviolet monochromator coupled to an Opthos Microwave
-         Discharge Lamp and a 5901 Magnum Spiraltron Detector
-       - Thermo-Nicolet is50 FTIR with various detector options [MCT-A, InGaAS, DTLaGS]
-       - Ocean Optics Dual Tungsten-Halogen Source fiber-coupled to a Maya Pro CCD Backlit
-         Si Detector
-       - Spectral Range: 0.1 -16 μm
-       - Extrel 300 amu Quadrupole Mass Spectrometer with an 90º off-axis energy filter
-       - Extorr 200 amu Residual Gas Analyzer
-       - 10 keV Kimball Physics Electron Gun with built-in Faraday Cup
-       - 5 keV Nonsequitur Ion Gun with Electromagnetic Wien Filter
-    </description>
+    <description>The "Mordor" Ultra-high Vacuum System is a sophisticated instrument suite named after Charon's Mordor Macula terrain, featuring a cryopumped 3-tier chamber, a 4K Janis helium cryostat, and various analytical components. Key features include a 6 MHz Quartz Crystal Microbalance, micro-capillary gas dosers, a far-ultraviolet monochromator with associated light sources and detectors, an FTIR spectrometer with multiple detector options, a fiber-coupled dual tungsten-halogen source, a range of spectral capabilities, and mass spectrometry tools including a quadrupole mass spectrometer and residual gas analyzer. Additionally, it includes an electron gun and an ion gun with electromagnetic filtering.</description>
   </Instrument>
 </Product_Context>

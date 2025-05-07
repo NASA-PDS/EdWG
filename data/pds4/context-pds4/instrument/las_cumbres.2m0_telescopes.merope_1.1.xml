@@ -37,16 +37,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Merope Cameras</name>
+    <name>Las Cumbres 2m Telescopes - Merope Cameras</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The Merope cameras in the Las Cumbres network were 2k x 2k, 13.5-micron pixel CCD cameras with a 
-            4.7 arcminute field of view. At the time of this writing, the Las Cumbres Observatory website 
-            indicated that these cameras were "Not currently in operation".
-        </description>
+    <description>The Merope Cameras are advanced imaging systems attached to the Las Cumbres 2m Telescopes that enable high-resolution multi-band imaging. These cameras are typically used for wide-field and deep-sky observations, providing astronomers with detailed images of a broad range of celestial phenomena. Merope cameras can capture images in multiple wavelength bands, from optical to infrared, making them versatile tools for studying star formation, galaxy evolution, and exoplanet transits. The 2-meter telescope provides ample light-gathering capability to observe both bright and faint objects, and the Merope cameras are equipped with cutting-edge CCD detectors that offer high sensitivity and low noise for precise measurements.</description>
   </Instrument>
 </Product_Context>

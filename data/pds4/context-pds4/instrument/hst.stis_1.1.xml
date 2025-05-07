@@ -61,15 +61,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Space Telescope Imaging Spectrograph</name>
+    <name>HST Space Telescope Imaging Spectrograph</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is the Space Telescope Imaging Spectrograph (STIS). It operated from 1997 to 2004, and from 2009 to the present. 
-    </description>
+    <description>The Space Telescope Imaging Spectrograph (STIS) aboard the Hubble Space Telescope is an ultraviolet imaging spectrometer that covers wavelengths from 115 to 1030 nm. STIS consists of one detector with a 52 arcsecond square field of view, and two additional detectors each with a 25 arcsecond square field of view. STIS experienced a power failure in 2001 and was repaired in 2009.</description>
   </Instrument>
 </Product_Context>

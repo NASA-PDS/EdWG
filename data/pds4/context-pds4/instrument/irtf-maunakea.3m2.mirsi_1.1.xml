@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:irtf-maunakea.3m2.mirsi</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mid-Infrared Spectrometer and Imager</title>
+    <title>Mid-Infrared Spectrometer and Imager (MIRSI)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -43,18 +43,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Mid-Infrared Spectrometer and Imager</name>
+    <name>Mid-Infrared Spectrometer and Imager (MIRSI)</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <!-- deprecated after 1B00 <subtype>Mid-Infrared</subtype> -->
-    <description>
-            MIRSI (Mid-InfraRed Spectrometer and Imager) is a mid-infrared camera system with both spectroscopic 
-            and imaging capabilities. The MIRSI team developed the instrument at Boston University, with funding 
-            from the NSF and Boston University. MIRSI is a supported instrument at the NASA Infrared Telescope 
-            Facility (IRTF) on Mauna Kea.
-        </description>
+    <description>Mid-InfraRed Spectrometer and Imager (MIRSI) is a mid-infrared camera system with both spectroscopic and imaging capabilities. The MIRSI team developed the instrument at Boston University, with funding from the NSF and Boston University. MIRSI is a supported instrument at the NASA Infrared Telescope Facility (IRTF) on Mauna Kea.         </description>
   </Instrument>
 </Product_Context>

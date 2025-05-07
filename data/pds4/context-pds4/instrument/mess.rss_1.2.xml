@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:rss.mess</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Radio Science Subsystem for Gravity Science on MESSENGER</title>
+    <title>MESSENGER Radio Science Subsystem</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -130,17 +130,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Radio Science Subsystem</name>
+    <name>MESSENGER Radio Science Subsystem</name>
     <type>Radio Science</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
-          The telecommunications system uses an X-band transponder on the spacecraft and
-          transmitters and receivers at stations of the NASA Deep Space Network on Earth.
-          Range and Doppler measurements made during communcations sessions can be used to
-          determine the spacecraft trajectory; from the trajectory, Mercury's gravity field
-          can be inferred.  Measurements of occultation times can be used to obtain the
-          planet's radius at the occultation points, refining the planet's shape model.
-        </description>
+    <description>The MESSENGER telecommunications system used an X-band transponder on the spacecraft and transmitters and receivers at stations of the NASA Deep Space Network on Earth. Range and Doppler measurements made during communications sessions were used to determine the spacecraft trajectory; from the trajectory, Mercury's gravity field was inferred. Measurements of occultation times were used to obtain the planet's radius at the occultation points, refining the planet's shape model.</description>
   </Instrument>
 </Product_Context>

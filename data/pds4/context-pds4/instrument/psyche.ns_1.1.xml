@@ -34,7 +34,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Psyche Neutron Spectrometer (NS)</name>
+    <name>The Psyche Neutron Spectrometer (NS) aboard the Psyche spacecraft</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
@@ -42,6 +42,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-255160</naif_instrument_id>
-    <description>The Neutron Spectrometer will detect, measure, and map Psyche’s elemental composition. The instrument is mounted on a 6-foot (2-meter) boom to distance the sensors from background radiation created by energetic particles interacting with the spacecraft and to provide an unobstructed field of view. The team is based at the Applied Physics Laboratory at Johns Hopkins University.</description>
+    <description>The Neutron Spectrometer (NS) will detect, measure, and map the elemental composition of asteroid (16) Psyche. The instrument is mounted on a 6-foot (2-meter) boom to distance the sensors from background radiation created by energetic particles interacting with the spacecraft and to provide an unobstructed field of view.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:oms.a15c</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Apollo 15 Orbital Mass Spectrometer (OMS) Experiment</title>
+    <title>Apollo 15 Command and Service Module Orbital Mass Spectrometer Experiment</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -64,8 +64,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Apollo 15 Orbital Mass Spectrometer (OMS) Experiment</name>
+    <name>Apollo 15 Command and Service Module Orbital Mass Spectrometer Experiment</name>
     <type>Spectrometer</type>
-    <description>Apollo 15 Orbital Mass Spectrometer (OMS) Experiment, carried on board the Command and Servicing Module, measured the composition of the lunar atmosphere.</description>
+    <description>The Apollo 15 Orbital Mass Spectrometer (OMS) Experiment, carried on board the Command and Service Module (CSM), measured the composition of the lunar atmosphere by analyzing the gases present around the moon during its orbit.</description>
   </Instrument>
 </Product_Context>

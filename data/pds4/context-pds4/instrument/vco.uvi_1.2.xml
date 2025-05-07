@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:jaxa:darts:context:instrument:vco.uvi</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Ultraviolet Imager</title>
+    <title>Ultraviolet Imager for Venus Climate Orbiter Akatsuki</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -57,15 +57,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Ultraviolet Imager</name>
+    <name>Ultraviolet Imager for Venus Climate Orbiter Akatsuki</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-5600</naif_instrument_id>
-    <description>
-            Ultraviolet Imager (UVI) is designed to map the ultraviolet contrast at 283 nm for observing SO2 and at 365 nm for the unknown absorber. UVI will determine the spatial distributions of these ultraviolet absorbers and their relationships to the cloud structure and the wind field.
-        </description>
+    <description>The Ultraviolet Imager (UVI) onboard the Venus Climate Orbiter Akatsuki Spacecraft was designed to map the ultraviolet contrast at 283 nm for observing SO2 and at 365 nm for the unknown absorber. UVI will determine the spatial distributions of these ultraviolet absorbers and their relationships to the cloud structure and the wind field. The instrument contains two components: an analog electronics (UVI-AE) and a sensor (UVI-S). The UVI-AE consists of a charge-coupled device (CCD) detector with controls and readout circuits, and a power supply. The UVI-S contains: filter wheel turret with band pass filters, off-axial catadioptric optics, and the detector consisting of a CCD with a preamplifier circuit.</description>
   </Instrument>
 </Product_Context>

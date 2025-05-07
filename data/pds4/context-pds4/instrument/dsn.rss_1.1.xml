@@ -577,18 +577,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Radio Science</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            Radio science and radio tracking instrumentation at the NASA Deep Space Network (DSN) 
-            utilize capabilities of the DSN in combination with telecommunications equipment
-            on board spacecraft to make measurements that can be used to study gravity fields, 
-            relativistic effects, and the properties of plasmas, and planetary surfaces, atmospheres, 
-            ionospheres, and rings throughout the solar system.  The DSN also sends commands to
-            spacecraft and receives telemetry from them.  This equipment may also be used for
-            reception only, such as for radio astronomy observations of natural sources and 
-            for very long baseline interferometry.  With few exceptions, this instrumentation
-            is available for connection to any DSN antenna. Performance then depends on antenna size,
-            wavelength, transmitter and low-noise amplifier selected, and local observing conditions.
-            The instrumentation has evolved over time since the DSN was established in the 1960s.
-        </description>
+    <description>The NASA Deep Space Network (DSN) uses radio science and tracking instrumentation to conduct measurements that study gravity fields, relativistic effects, and various properties of celestial bodies. It facilitates communication with spacecraft, sending commands and receiving telemetry, and can also be utilized for radio astronomy and very long baseline interferometry. The instrumentation is compatible with most DSN antennas, with performance varying based on factors like antenna size and local conditions. This technology has evolved since the DSN's inception in the 1960s.</description>
   </Instrument>
 </Product_Context>

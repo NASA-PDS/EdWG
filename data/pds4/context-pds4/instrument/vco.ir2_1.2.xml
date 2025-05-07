@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:jaxa:darts:context:instrument:vco.ir2</logical_identifier>
     <version_id>1.2</version_id>
-    <title>2-micron Camera</title>
+    <title>2-micron Camera  for Venus Climate Orbiter Akatsuki</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -54,22 +54,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>2-micron Camera</name>
+    <name>2-micron Camera  for Venus Climate Orbiter Akatsuki</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-5300</naif_instrument_id>
-    <description>
-            IR2, the 2-micron camera, is intended to study the meteorology of Venus by
-            utilizing near-infrared (NIR) windows of the CO2 atmosphere. Contrast features at
-            1.74 and 2.3 micron on the night-side disk are the silhouette of spatially
-            inhomogeneous scatterers/absorbers, back-illuminated by the glow of the hot (300-500 K)
-            lower atmosphere. A channel centered at 2.02 micron, which contains a CO2 absorption
-            feature, allows the determination of cloud top altitude by measuring reflected sunlight
-            on the dayside. IR2, one of the key instruments onboard Akatsuki, is intended to image
-            Venus in these NIR windows.
-        </description>
+    <description>The 2-micron Camera (IR2) onboard the Venus Climate Orbiter Akatsuki Spacecraft is intended to study the meteorology of Venus by utilizing near-infrared (NIR) windows of the CO2 atmosphere. Contrast features at 1.74 and 2.3 micron on the night-side disk are the silhouette of spatially inhomogeneous scatterers/absorbers, back-illuminated by the glow of the hot (300-500 K) lower atmosphere. A channel centered at 2.02 micron, which contains a CO2 absorption feature, allows the determination of cloud top altitude by measuring reflected sunlight on the dayside. IR2, one of the key instruments onboard Akatsuki, is intended to image Venus in these NIR windows.</description>
   </Instrument>
 </Product_Context>

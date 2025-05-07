@@ -56,8 +56,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-159003</naif_instrument_id>
-    <description>
-      The MISE infrared spectrometer will map the composition and distribution of ices, salts, organics, and the warmest hotspots on Europa. The maps will help scientists understand the moon’s geologic history and determine if Europa’s suspected ocean is suitable for life.
-    </description>
+    <description>The MISE infrared spectrometer will analyze the composition and distribution of various materials on Europa, including ices, salts, and organics, as well as identify warm hotspots. This data aims to enhance understanding of Europa's geologic history and assess the potential habitability of its suspected ocean.</description>
   </Instrument>
 </Product_Context>

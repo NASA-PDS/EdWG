@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:kaguya.grs</logical_identifier>
     <version_id>1.1</version_id>
-    <title>The Gamma Ray Spectrometer (GRS) on the Kaguya spacecraft</title>
+    <title>The Gamma Ray Spectrometer (GRS)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -52,19 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>GRS</name>
+    <name>The Gamma Ray Spectrometer (GRS)</name>
     <type>Spectrometer</type>
-    <description>
-            The high-precision gamma-ray spectrometer (GRS) on the lunar polar orbiter Kaguya (SELENE)
-            is designed to measure 200 keV—12 MeV gamma rays in order to determine elemental compositions 
-            of the lunar surface. The GRS consists of a large germanium (Ge) crystal as a main detector 
-            and a massive bismuth germanate crystal and a plastic scintillator as anticoincidence detectors. 
-            The Ge detector is cooled by a Stirling cryocooler with its compressor attached to a passive 
-            radiator facing the cold space. The cooling system maintains the Ge detector below 90 K during 
-            the observation. The flight model of the GRS has achieved an energy resolution of 3.0 keV 
-            (FWHM) at 1333 keV. Energy spectra obtained by the GRS will show sharp gamma-ray lines whose 
-            energies identify the elements and whose intensities determine the concentrations of the elements, 
-            permitting global mapping of the elemental abundances in the sub-surface of the Moon. 
-        </description>
+    <description>The Gamma Ray Spectrometer (GRS) is an instrument designed to measure the gamma radiation emitted by materials on the surface of planets, moons, or other celestial bodies. It helps scientists determine the composition and chemical makeup of these objects by detecting gamma rays that are produced either by natural radioactive decay or by interactions with cosmic rays.
+</description>
   </Instrument>
 </Product_Context>

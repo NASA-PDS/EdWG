@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:gio.epa</logical_identifier>
     <version_id>1.1</version_id>
-    <title>ENERGETIC PARTICLE EXPERIMENT for GIO</title>
+    <title>The Energetic Particle Experiment (EPA) for Giotto</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -55,24 +55,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>ENERGETIC PARTICLE EXPERIMENT</name>
+    <name>The Energetic Particle Experiment (EPA) for Giotto</name>
     <type>Particle Detector</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-      Instrument Overview
-      ===================
-      The Energetic Particle Experiment (EPA aboard the Giotto spacecraft
-      measured the energy distribution of electrons, photons and heavier
-      nuclei during the cruise and encounter phases of the mission. The
-      detector system consisted of three particle telescopes (T1, T2, T3),
-      each incorporating two totally depleted silicon surface barrier layer
-      detectors, and employing both active and passive background shielding.
- 
-      For additional information, please see the instrument description
-      article included in the Giotto Extended Mission archive documentation.
-
-        </description>
+    <description>The Energetic Particle Experiment (EPA) aboard the Giotto spacecraft measured the energy distribution of electrons, photons and heavier nuclei during the cruise and encounter phases of the mission. The detector system consisted of three particle telescopes (T1, T2, T3), each incorporating two totally depleted silicon surface barrier layer detectors and employing both active and passive background shielding.</description>
   </Instrument>
 </Product_Context>

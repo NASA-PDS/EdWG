@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mars2020.rimfax</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars 2020 Radar Imager for Mars Subsurface Experiment (RIMFAX)</title>
+    <title>Mars 2020 Perseverance Rover Radar Imager for Mars Subsurface Experiment</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -46,22 +46,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Radar Imager for Mars Subsurface Experiment (RIMFAX)</name>
+    <name>Mars 2020 Perseverance Rover Radar Imager for Mars Subsurface Experiment</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radar</ctli:type>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            RIMFAX is a ground penetrating radar that uses a single antenna to transmit 
-            (via a transmitter, TX) and receive (via a receiver, RX) electromagnetic waves 
-            over a range of frequencies (150 to 1200 MHz) into/from the surface.  
-            The instrument can be operated in either active (TX and RX) or passive 
-            (RX-only) modes. Transmitted waves propagate downward until they are 
-            reflected back by the surface and shallow interfaces in the subsurface 
-            geologic structure across which discontinuities in permittivity (i.e., 
-            storage of electrical energy in an electric field) exist.        
-        </description>
+    <description>The Mars 2020 Perseverance Rover Radar Imager for Mars Subsurface Experiment (RIMFAX) is a ground penetrating radar that uses a single antenna to transmit (via a transmitter, TX) and receive (via a receiver, RX) electromagnetic waves over a range of frequencies (150 to 1200 MHz) into/from the surface. The instrument can be operated in either active (TX and RX) or passive (RX-only) modes. Transmitted waves propagate downward until they are reflected back by the surface and shallow interfaces in the subsurface geologic structure across which discontinuities in permittivity (i.e., storage of electrical energy in an electric field) exist.                 </description>
   </Instrument>
 </Product_Context>

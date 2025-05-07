@@ -59,10 +59,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <!-- get naif_instrument_id -->
     <naif_instrument_id>-155110</naif_instrument_id>
-    <description>
-      Wide-Angle Polarimetric Camera (PolCam) will acquire the polarimetric images of 
-      the entire lunar surface except for the polar regions at a spatial resolution of
-      70 m at 100 km altitude in order to investigate the detailed characteristics of lunar regolith.
-    </description>
+    <description>Wide-Angle Polarimetric Camera (PolCam) will acquire the polarimetric images of the entire lunar surface except for the polar regions at a spatial resolution of 80 m at 100 km altitude in order to investigate the detailed characteristics of lunar regolith.     </description>
   </Instrument>
 </Product_Context>

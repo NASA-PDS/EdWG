@@ -61,14 +61,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Fine Guidance Sensor</name>
+    <name>HST Fine Guidance Sensor</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Interferometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is the Fine Guidance Sensor (FGS). It is original equipment on the HST and is still in use.
-    </description>
+    <description>The Fine Guidance Sensor (FGS) aboard the Hubble Space Telescope is a set of three instruments that, using guide stars, can aim the telescope with an accuracy of 0.01 arcseconds. FGS detects when the telescope drifts and returns it to its target. It is original equipment on the HST and is still in use.</description>
   </Instrument>
 </Product_Context>

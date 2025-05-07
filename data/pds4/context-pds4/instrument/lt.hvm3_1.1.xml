@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:lt.hvm3</logical_identifier>
     <version_id>1.1</version_id>
-    <title>HIGH-RESOLUTION VOLATILES AND MINERALS MOON MAPPER</title>
+    <title>Lunar Trailblazer Spacecraft High Resolution Volatiles and Minerals Moon Mapper</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -47,14 +47,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>HIGH-RESOLUTION VOLATILES AND MINERALS MOON MAPPER</name>
+    <name>Lunar Trailblazer Spacecraft High Resolution Volatiles and Minerals Moon Mapper</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imaging Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            Shortwave infrared imaging spectrometer (&lt; 100 m/pixel, 0.6 - 3.6 μm, 10 nm spectral resolution)
-        </description>
+    <description>The Lunar Trailblazer (LT) Spacecraft High Resolution Volatiles and Minerals Moon Mapper (HVM3) is a shortwave infrared (SWIR) imaging spectrometer designed to identify and quantify water on the lunar surface. The spatial resolution of the instrument is 70 m/pixel over 20 km width, and the spectral resolution is 10 nm over 0.6 to 3.6 μm. The HVM3 consists of a telescope, focal plane array, and imaging spectrometer. The HVM3 will be able to identify bound water, water ice, and hydroxyl, as well as many other compounds (e.g., CO2, CH3, NH3).</description>
   </Instrument>
 </Product_Context>

@@ -58,15 +58,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <!-- get naif_instrument_id -->
     <naif_instrument_id>-155120</naif_instrument_id>
-    <description>
-      KMAG is a set of three magnetometers developed by Kyung
-      Hee University (KHU) that will measure the lunar magnetic
-      field from and around the Moon. The three magnetometers are
-      mounted on a boom which minimizes spacecraft interference.
-      Having three magnetometers provides redundancy and
-      magnetic interference corrections; they can also be used
-      together for a multi-sensor technical investigation. The boom
-      will be nadir pointing during orbital operations.
-    </description>
+    <description>KMAG is a set of three magnetometers developed by Kyung Hee University (KHU) that will measure the lunar magnetic field from and around the Moon. The three magnetometers are mounted on a boom which minimizes spacecraft interference. Having three magnetometers provides redundancy and magnetic interference corrections; they can also be used together for a multi-sensor technical investigation. The boom will be nadir pointing during orbital operations.     </description>
   </Instrument>
 </Product_Context>

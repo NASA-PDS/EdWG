@@ -114,7 +114,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Radio Science Subsystem</name>
+    <name>Radio Science Subsystem for Mariner 9</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radio Science</ctli:type>
@@ -122,49 +122,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
-            Instrument Overview
-            ===================
-            The Mariner 9 (MR9) Radio Science investigations
-            utilized instrumentation with elements on the spacecraft and
-            at the NASA Deep Space Network (DSN).  Much of this was
-            shared equipment, being used for routine telecommunications
-            as well as for Radio Science.  The performance and
-            calibration of both the spacecraft and tracking stations
-            directly affected the radio science data accuracy, and they
-            played a major role in determining the quality of the
-            results.  The spacecraft part of the radio science
-            instrument is described immediately below; that is followed
-            by a description of the DSN (ground) part of the instrument.
-            
-            
-            Instrument Specifications - Spacecraft
-            ======================================
-            The Mariner 9 spacecraft telecommunications
-            subsystem served as part of a radio science subsystem for
-            investigations of Mars.  Many details of the subsystem are
-            unknown; its 'launch date' is known to be 1971-05-30.
-            
-            Instrument Id                  : RSS
-            Instrument Host Id             : MR9
-            Pi Pds User Id                 : UNK
-            Instrument Name                : RADIO SCIENCE SUBSYSTEM
-            Instrument Type                : RADIO SCIENCE
-            Build Date                     : UNK
-            Instrument Mass                : UNK
-            Instrument Length              : UNK
-            Instrument Width               : UNK
-            Instrument Height              : UNK
-            Instrument Manufacturer Name   : UNK
-            
-            
-            Instrument Overview - Spacecraft
-            ================================
-            The Doppler shift of the S-band telemetry signal during
-            occultation of the spacecraft by Mars provided the vertical
-            distribution of the index of refraction of the Martian
-            atmosphere. These data yield the vertical distribution of
-            neutral and ionized species.
-        </description>
+    <description>The Mariner 9 (MR9) Radio Science investigations utilized both spacecraft and NASA Deep Space Network (DSN) instrumentation for mapping Mars. The spacecraft's telecommunications subsystem was integral to the radio science subsystem, with its launch date on May 30, 1971. Due to unknown specifics about the subsystem's dimensions, weight, and manufacture, much of the performance depended on shared equipment used for telecommunications and radio science, affecting the accuracy of obtained data. One key function was analyzing the Doppler shift of the S-band telemetry signal during Mars' occultation, which helped determine the vertical distribution of the Martian atmosphere's index of refraction, revealing information about neutral and ionized species.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:gio.mag</logical_identifier>
     <version_id>1.1</version_id>
-    <title>FLUXGATE MAGNETOMETER for GIO</title>
+    <title>The Giotto Magnetometer (MAG) Experiment </title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -166,27 +166,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>FLUXGATE MAGNETOMETER</name>
+    <name>The Giotto Magnetometer (MAG) Experiment </name>
     <type>Magnetometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
-      Instrument Overview
-      ===================
-      The Giotto Magnetometer Experiment consisted of a triaxial and separate
-      biaxial system of fluxgate sensors of the ring-core type, the
-      associated analog electronics and a digital processor.  Because of the
-      dust hazard near closest approach to comet 1P/Halley (the target of the
-      original Giotto mission), a magnetometer boom could not be included in
-      the spacecraft design.  The resulting magnetic contamination problem
-      was addressed by the use of the two magnetometers and by a magnetic
-      cleanliness program.
- 
-      For details on the instrument design and operation, see the article
-      from ESA publication SP-1077 specifically concerning the magnetometer.
-      This article is republished as part of the documentation included in
-      the Giotto Extended Mission Archive.
-
-        </description>
+    <description>The Giotto Magnetometer Experiment consisted of: a triaxial and a separate biaxial system of fluxgate sensors of the ring-core type; the associated analog electronics; and a digital processor. Because of the       dust hazard near closest approach to comet 1P/Halley (the target of the original Giotto mission), a magnetometer boom could not be included in the spacecraft design. The resulting magnetic contamination problem was addressed by the use of the two magnetometers and by a magnetic cleanliness program.</description>
   </Instrument>
 </Product_Context>

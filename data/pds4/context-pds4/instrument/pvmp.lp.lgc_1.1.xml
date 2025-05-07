@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvmp.lp.lgc</logical_identifier>
     <version_id>1.1</version_id>
-    <title>GAS CHROMATOGRAPH for PIONEER VENUS LARGE PROBE</title>
+    <title>Gas Chromatograph for Pioneer Venus Large Probe</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PIONEER VENUS LARGE PROBE GAS CHROMATOGRAPH</name>
+    <name>Gas Chromatograph for Pioneer Venus Large Probe</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Gas Analyzer</ctli:type>
@@ -52,16 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
- 
-      The objective of this experiment was to determine the composition of Venus' lower atmosphere. From these measurements, 
-      deductions were made of the gaseous sources of infrared opacity, the degree of differentiation of Venus' interior, the 
-      degree of similarity between the solid bodies of earth and Venus, and evolution of Venus' atmosphere. Two gas 
-      chromatograph columns were used to analyze samples of the atmosphere during probe descent.
-      
-        </description>
+    <description>The Large Probe Gas Chromatograph (LGC) of Pioneer Venus was an instrument with the objective to determine the composition of Venus' lower atmosphere. From these measurements, deductions were made of the gaseous sources of infrared opacity, the degree of differentiation of Venus' interior, the degree of similarity between the solid bodies of earth and Venus, and evolution of Venus' atmosphere. Gases the LGC was designed to detect and measure included oxygen (O2), carbon monoxide (CO), carbon dioxide (CO2), nitrogen (N2), water vapor (H2O), and sulfur dioxide (SO2). Two gas chromatograph columns were used to analyze samples of the atmosphere during probe descent. The long column, which was used for gases with mass range from neon to carbon dioxide, was kept at a temperature of 18.3 degrees C, and was made up of two 1585 cm long packed bifilarly wound columns, with 1.1 mm internal diameter. The short column, used for gases with masses between carbon dioxide and sulfur dioxide, was made up of two 213 cm long bifilarly wound columns (as well as an internal diameter of 1.1 mm), and operated at a temperature of 62.0 degrees C.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pse.a16a</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Apollo 16 Passive Seismic Experiment (PSE)</title>
+    <title>Apollo 16 Lunar Surface Experiments Package Passive Seismic Experiment</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -55,13 +55,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Apollo 16 Passive Seismic Experiment (PSE)</name>
+    <name>Apollo 16 Lunar Surface Experiments Package Passive Seismic Experiment</name>
     <type>Seismometer</type>
-    <description>The Apollo Passive Seismic Experiment consisted of four seismic stations deployed on the 
-            lunar near side between 1969 and 1972 (Apollo 12, 14, 15, 16). These operated continuously from 
-            inception to mid-1977, when funding was cut and the data were no longer recorded. Each station 
-            consisted of a 3-axis long-period seismometer (sample rate 6.6252 Hz) and vertical-axis 
-            short-period seismometer (sample rate 15 Hz.).
-        </description>
+    <description>The Apollo Lunar Surface Experiments Package (ALSEP) Passive Seismic Experiment (PSE) consisted of four seismic stations deployed on the lunar near side between 1969 and 1972 (Apollo 12, 14, 15, 16). These operated continuously from inception to mid-1977, when funding was cut and the data were no longer recorded. Each station consisted of a 3-axis long-period seismometer (sample rate 6.6252 Hz) and vertical-axis short-period seismometer (sample rate 15 Hz.).         </description>
   </Instrument>
 </Product_Context>

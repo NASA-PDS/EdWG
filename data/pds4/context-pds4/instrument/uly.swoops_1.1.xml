@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:uly.swoops</logical_identifier>
     <version_id>1.1</version_id>
-    <title>SOLAR WIND OBSERVATIONS OVER THE POLES OF THE SUN for ULY</title>
+    <title>Solar Wind Observations Over the Poles of the Sun for ULY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -64,60 +64,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>SOLAR WIND OBSERVATIONS OVER THE POLES OF THE SUN</name>
+    <name>Solar Wind Observations Over the Poles of the Sun for ULY</name>
     <type>Particle Detector</type>
     <!--RChen/EN was Plasma Analyzer. No obvious choice. TBD in JSH's xl file-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
- 
-  Instrument Overview
-  ===================
-    (excerpted from: [BAMEETAL1992A])
- 
-    Abstract.  -- The Solar Wind Plasma Experiment on Ulysses is
-    accurately characterizing the bulk flow and internal state
-    conditions of the interplanetary plasma in three dimensions on
-    the way out to Jupiter.  These observations will continue over
-    the full range of heliocentric distances and heliographic
-    latitudes reached by the probe after its encounter with Jupiter
-    and consequent deflection out of the ecliptic plane.  Solar
-    wind electrons and ions are measured simultaneously with
-    independent curved-plate electrostatic analyzers equipped with
-    multiple Channel Electron Multipliers (CEMs).  The CEMs are
-    arranged to detect particles at chosen polar angles from the
-    spacecraft spin axis; resolution in spacecraft azimuth is
-    obtained by timing measurements with the spacecraft Sun clock
-    as the spacecraft spins.  Electrons with central energies
-    extending from 0.86 eV to 814 eV are detected at seven polar
-    angles and various combinations of azimuth angle to cover the
-    unit sphere comprehensively, so as to enable computation of the
-    pertinent electron velocity distribution parameters.  As the
-    average electron flux level changes with heliocentric distance,
-    command control of the CEM counting intervals is used to extend
-    the dynamic range.  Ions are detected between 255 eV/q and 34.4
-    keV/q using appropriate subsets of 16 CEMs at spin angles
-    designed to provide matrices of counts as a function of energy
-    per charge, azimuth angle, and polar angle centered on the
-    average direction of solar-wind flow.  Data matrices are
-    obtained every 4 min when the spacecraft is actively
-    transmitting and every 8 min during data store periods.  These
-    matrices contain sufficient energy and angle resolution to
-    permit a detailed characterization of the ion velocity
-    distributions, from which ion bulk parameters are derived.  As
-    the average ion flux intensity changes with heliocentric
-    distance, the entrance aperture size is periodically optimized
-    by command selection from a set of seven apertures on a disk
-    driven by a stepping motor.  Changes in the average solar wind
-    flow direction relative to the Earth-pointing spacecraft spin
-    axis are accommodated by command selection of the proper
-    measurement matrix from a set of 11 matrices.  In a separate
-    mode of operation and under favorable conditions, heavy ions of
-    oxygen, silicon, and iron at various charge levels are
-    resolved.
- 
-
-        </description>
+    <description>The Solar Wind Plasma Experiment on the Ulysses spacecraft is designed to comprehensively analyze the interplanetary plasma's bulk flow and internal conditions as it travels towards Jupiter and beyond. The experiment utilizes curved-plate electrostatic analyzers and Channel Electron Multipliers (CEMs) to measure solar wind electrons and ions across a range of energies and angles. Specifically, it detects electrons from 0.86 eV to 814 eV and ions from 255 eV/q to 34.4 keV/q, collecting data every 4 to 8 minutes depending on the spacecraft's activity. The instrumentation allows for detailed characterization of velocity distributions and adapts to changes in solar wind intensity and direction using a variety of command-controlled measurement configurations. The system is also capable of resolving heavy ions under optimal conditions.</description>
   </Instrument>
 </Product_Context>

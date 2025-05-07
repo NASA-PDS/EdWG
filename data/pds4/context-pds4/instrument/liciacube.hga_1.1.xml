@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:liciacube.hga</logical_identifier>
     <version_id>1.1</version_id>
-    <title>TX High Gain Antenna (HGA) for LICIACube</title>
+    <title>The Transmitting (TX) High Gain Antenna (HGA) for LICIACube</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -49,21 +49,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>LICIACube TX High Gain Antenna (HGA)</name>
+    <name>The Transmitting (TX) High Gain Antenna (HGA) for LICIACube</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radio Science</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The LICIACube TX HGA is a 4x8 patch array with a low profile (Figure 1). Its compact design
-            allows the antenna to be placed on the cubesat structure providing high directivity and high gain
-            (21.7 dBi). It is the primary LICIACube antenna for downlink transmission, operating in the
-            deep space frequency band allocation (8437 MHz). The turnaround ratio for the LICIACube
-            transponder is 880/749. The LICIACube NAIF Ck kernel provides the attitude of the antenna; a
-            NAIF structure kernel was deemed unnecessary for modeling the RS data from LICIACube
-            because the HGA is pasted directly onto the structure of the very small 10x20x30cm cube
-            satellite.
-        </description>
+    <description>The TX High Gain Antenna was a 4x8 patch array with a low profile. Its compact design allowed the antenna to be placed on the cubesat structure, providing high directivity and high gain (21.7 dBi). It was the primary LICIACube antenna for downlink transmission, operating in the deep space frequency band allocation (8437 MHz). The turnaround ratio for the LICIACube transponder was 880/749. </description>
   </Instrument>
 </Product_Context>

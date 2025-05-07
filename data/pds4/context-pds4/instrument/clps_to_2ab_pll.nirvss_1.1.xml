@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:clps_to_2ab_pll.nirvss</logical_identifier>
     <version_id>1.1</version_id>
-    <title> CLPS Task Order 2AB Near InfraRed Volatiles Spectrometer System (NIRVSS)</title>
+    <title>The CLPS Task Order 2-AB Peregrine Lunar Lander Near InfraRed Volatiles Spectrometer System</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -38,7 +38,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>CLPS Task Order 2AB Near InfraRed Volatiles Spectrometer System (NIRVSS)</name>
+    <name>The CLPS Task Order 2-AB Peregrine Lunar Lander Near InfraRed Volatiles Spectrometer System</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
@@ -46,11 +46,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:subtype>Radiometer</ctli:subtype>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The Near Infrared Volatiles Spectrometer System (NIRVSS) is an instrument system designed to measure the millimeter-scale morphology, 
-            spectral signature, and temperature of lunar surface materials. It consists of the Ames Imaging Module (AIM) with configurable LED 
-            illumination, a dual-channel near infrared point spectrometer (SPC) with a lamp to enable spectral observations of shadowed regions, 
-            and the Longwave Calibration Sensor (LCS).                                   
-        </description>
+    <description>The CLPS Task Order 2-AB Near Infrared Volatiles Spectrometer System (NIRVSS) is an instrument system designed to measure the millimeter-scale morphology, spectral signature, and temperature of lunar surface materials. It consists of the Ames Imaging Module (AIM) with configurable LED illumination, a dual-channel near infrared point spectrometer (SPC) with a lamp to enable spectral observations of shadowed regions, and the Longwave Calibration Sensor (LCS).                                            </description>
   </Instrument>
 </Product_Context>

@@ -58,12 +58,6 @@ Astron. J. 88, 222-225, 1983.</reference_text>
         <ctli:type>Photometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The McDonald P45a Two-Channel Photometer has an uncooled RCA 8850 photomultiplier as
-its primary channel, with an uncooled RCA 4516 photomultiplier as its secondary
-channel.  The instrument is described in Binzel and Mulholland (1983).
-
-Binzel, R.P. and J.D. Mulholland, Photometry of Pluto during the 1982 opposition,
-Astron. J. 88, 222-225, 1983.
-        </description>
+    <description>The McDonald P45a Two-Channel Photometer is a sensitive instrument designed for measuring light intensity from astronomical sources in two different wavelength bands. It is particularly used for photometric observations, enabling detailed study of variable stars and other celestial phenomena.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mars2020.pixl</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars 2020 Planetary Instrument for X-ray Lithochemistry (PIXL)</title>
+    <title>Mars 2020 Perseverance Rover Planetary Instrument for X-ray Lithochemistry</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -46,18 +46,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Planetary Instrument for X-ray Lithochemistry (PIXL)</name>
+    <name>Mars 2020 Perseverance Rover Planetary Instrument for X-ray Lithochemistry</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            PIXL uses microfocus X-ray fluorescence (XRF) spectroscopy to measure abundances 
-            and sub-millimeter-scale distribution of elements in relation to rock and soil 
-            texture and microstructure. PIXL includes a Micro-Context Camera (MCC) to 
-            register element distributions to visual features.
-        </description>
+    <description>The Mars 2020 Perseverance Rover Planetary Instrument for X-ray Lithochemistry (PIXL) uses microfocus X-ray fluorescence (XRF) spectroscopy to measure abundances and sub-millimeter-scale distribution of elements in relation to rock and soil texture and microstructure. PIXL includes a Micro-Context Camera (MCC) to register element distributions to visual features.         </description>
   </Instrument>
 </Product_Context>

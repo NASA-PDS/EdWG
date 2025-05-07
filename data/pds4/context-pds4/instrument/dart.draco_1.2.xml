@@ -8,7 +8,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <logical_identifier>urn:nasa:pds:context:instrument:dart.draco</logical_identifier>
     <version_id>1.2</version_id>
     <!-- RChen was still 1.0-->
-    <title>Didymos Reconnaissance and Asteroid Camera for Optical Navigation (DRACO)</title>
+    <title>The Didymos Reconnaissance and Asteroid Camera for Optical Navigation (DRACO) on DART</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>DRACO</name>
+    <name>The Didymos Reconnaissance and Asteroid Camera for Optical Navigation (DRACO) on DART</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
@@ -54,10 +54,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>135100</naif_instrument_id>
-    <description>
-            The Didymos Reconnaissance and Asteroid Camera for Optical navigation (DRACO) is the 
-            only instrument on the DART impactor spacecraft. It is a high-resolution optical 
-            imager derived from the New Horizons LORRI camera.
-        </description>
+    <description>The Didymos Reconnaissance and Asteroid Camera for Optical navigation (DRACO) was the only instrument on the DART impactor spacecraft. It was a high-resolution optical imager derived from the New Horizons LORRI camera design.         </description>
   </Instrument>
 </Product_Context>

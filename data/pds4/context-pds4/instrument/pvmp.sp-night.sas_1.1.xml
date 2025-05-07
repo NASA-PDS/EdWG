@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvmp.sp-night.sas</logical_identifier>
     <version_id>1.1</version_id>
-    <title>ATMOSPHERE STRUCTURE EXPERIMENT for PIONEER VENUS SMALL PROBE (NIGHT)</title>
+    <title>Atmosphere Structure Experiment for Pioneer Venus Small Probe (Night)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PIONEER VENUS SMALL PROBE (NIGHT) ATMOSPHERE STRUCTURE EXPERIMENT</name>
+    <name>Atmosphere Structure Experiment for Pioneer Venus Small Probe (Night)</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Atmospheric Structure Instrument</ctli:type>
@@ -52,18 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
- 
-      The instruments for this experiment included a single-axis accelerometer, pressure sensors, and temperature sensors. 
-      They were based on the technology demonstrated by the PAET rocket vehicle (Planetary Atmosphere Experiment Test R 7106-2001). 
-      The measurements were used to construct a profile of atmospheric state properties for the trajectory from the surface to 
-      approximately 140 km altitude. They were also used to determine vertical wind velocity, horizontal wind velocity, and turbulence. 
-      By comparing atmospheric conditions along this trajectory with those measured by the other Probes, circulation models of the 
-      atmosphere were determined. The instruments weighed about 1.2 kg and consumed about 4.8 W of power.
-      
-        </description>
+    <description>The Small Probe (Night) Atmosphere Structure Experiment (SAS) of Pioneer Venus included a single-axis accelerometer, pressure sensors, and temperature sensors. They were based on the technology demonstrated by the PAET rocket vehicle (Planetary Atmosphere Experiment Test R 7106-2001). The measurements were used to construct a profile of atmospheric state properties for the trajectory from the surface to approximately 140 km altitude. They were also used to determine vertical wind velocity, horizontal wind velocity, and turbulence. By comparing atmospheric conditions along this trajectory with those measured by the other Probes, circulation models of the atmosphere were determined. The instruments weighed about 1.2 kg and consumed about 4.8 W of power.</description>
   </Instrument>
 </Product_Context>

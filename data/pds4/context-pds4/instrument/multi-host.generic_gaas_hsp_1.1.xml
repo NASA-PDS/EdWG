@@ -30,11 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Photometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is a generic high speed photometer which uses gallium arsenide (GaAs) as a detector. GaAs 
-    	which is a direct band gap semiconductor, is sensitive to the intensity of infrared light. The nominal operating 
-    	wavelength range is 865nm to 895nm. A large number of these were produced by several manufacturers and 
-    	were in wide use in the last few decades of the 20th century.
-    </description>
+    <description>The Generic GaAs High-Speed Photometer is a specialized light-measuring instrument that utilizes Gallium Arsenide (GaAs) photodiodes for fast and efficient detection of light intensity. Its high-speed performance makes it suitable for time-sensitive applications such as rapid photon detection and real-time data acquisition in scientific experiments.</description>
   </Instrument>
 </Product_Context>

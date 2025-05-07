@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:uly.swics</logical_identifier>
     <version_id>1.1</version_id>
-    <title>SOLAR WIND ION COMPOSITION SPECTROMETER for ULY</title>
+    <title>Solar Wind Ion Composition Spectrometer for ULY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -58,42 +58,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>SOLAR WIND ION COMPOSITION SPECTROMETER</name>
+    <name>Solar Wind Ion Composition Spectrometer for ULY</name>
     <type>Spectrometer</type>
     <!--RChen/EN was Mass Spectrometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
- 
-  Instrument Overview
-  ===================
-    (excerpted from [GLOECKLERETAL1992])
- 
-    Abstract.  -- The Solar Wind Ion Composition Spectrometer
-    (SWICS) on Ulysses is designed to determine uniquely the
-    elemental and ionic-charge composition, and the temperatures
-    and mean speeds of all major solar-wind ions, from H through
-    Fe, at solar wind speeds ranging from 175 km/s (protons) to
-    1280 km/s (Fe^8+).  The instrument, which covers an energy per
-    charge range from 0.16 to 59.6 keV/e in ~ 13 min, combines an
-    electrostatic analyzer with post-acceleration, followed by a
-    time-of-flight and energy measurement.  The measurements made
-    by SWICS will have an impact on many areas of solar and
-    heliospheric physics, in particular providing essential and
-    unique information on: (i) conditions and processes in the
-    region of the corona where the solar wind is accelerated, (ii)
-    the location of the source regions of the solar wind in the
-    corona; (iii) coronal heating processes; (iv) the extent and
-    causes of variations in the composition of the solar
-    atmosphere; (v)plasma processes in the solar wind; (vi) the
-    acceleration of energetic particles in the solar wind; (vii)
-    the thermalization and acceleration of interstellar ions in the
-    solar wind, and their composition; and (viii) the composition,
-    charge states and behavior of the plasma in various regions of
-    the Jovian magnetosphere.
- 
-
-        </description>
+    <description>The Solar Wind Ion Composition Spectrometer (SWICS), aboard the Ulysses spacecraft, is engineered to conduct comprehensive analyses of solar wind ions, spanning from hydrogen (H) to iron (Fe) ions. This instrument is capable of discerning elemental and ionic-charge compositions, as well as measuring temperatures and mean velocities of solar wind ions across a range of speeds—175 km/s for protons to 1280 km/s for Fe^8+. SWICS operates within an energy per charge spectrum of 0.16 to 59.6 keV/e and produces a full spectrum approximately every 13 minutes through an integrated system that combines an electrostatic analyzer, post-acceleration, and time-of-flight energy assessments. The data provided by the SWICS instrument will significantly enhance our understanding of various solar and heliospheric phenomena, including the dynamics of the corona where solar wind acceleration occurs, identification of the solar wind source regions, insights into coronal heating mechanisms, and the examination of solar atmospheric composition variability. Additionally, SWICS facilitates the investigation of plasma processes within the solar wind, the acceleration of energetic particles, and the thermalization of interstellar ions. Its contributions extend to elucidating the ionic composition and charge states of plasma in diverse Jovian magnetospheric environments, thereby positioning SWICS as a pivotal tool in astrophysical research.</description>
   </Instrument>
 </Product_Context>

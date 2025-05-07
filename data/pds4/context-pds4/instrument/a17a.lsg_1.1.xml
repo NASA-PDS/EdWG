@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:lsg.a17a</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Apollo 17 Lunar Surface Gravimeter (LSG) Experiment</title>
+    <title>Apollo 17 Lunar Surface Experiments Package Lunar Surface Gravimeter Experiment</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -65,8 +65,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Apollo 17 Lunar Surface Gravimeter (LSG) Experiment</name>
+    <name>Apollo 17 Lunar Surface Experiments Package Lunar Surface Gravimeter Experiment</name>
     <type>Gravimeter</type>
-    <description>The Apollo 17 Lunar Surface Gravimeter (LSG) Experiment was intended to make highly accurate measurements of the lunar surface gravitational acceleration and its temporal variations at a selected point on the surface, about 8 meters from the ALSEP central station. One of its specific objectives was monitoring of free oscillations of the moon that may be induced by gravitational radiation from cosmic sources.</description>
+    <description>The Apollo 17 Lunar Surface Experiments Package (ALSEP) Lunar Surface Gravimeter (LSG) Experiment was intended to make highly accurate measurements of the lunar surface gravitational acceleration and its temporal variations at a selected point on the surface, about 8 meters from the ALSEP central station. One of its specific objectives was monitoring of free oscillations of the Moon that may be induced by gravitational radiation from cosmic sources. The instrument is comprised of a LaCoste-Romberg gravimeter, a sunshield, electronics, and sensors connected to a horizontal beam. The mass of the instrument was adjustable with weights, so it could be used on both Earth for testing and on the lunar surface. Instrument operations required a very precise temperature of about 323 K, which was achieved using the sunshield, insulation, and an electric heater.</description>
   </Instrument>
 </Product_Context>

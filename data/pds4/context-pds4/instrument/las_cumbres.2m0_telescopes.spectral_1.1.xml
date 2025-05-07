@@ -37,18 +37,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Spectral Camera</name>
+    <name>Las Cumbres 2m Telescopes - Spectral Camera</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The Spectral cameras in the Las Cumbres network are 4k x 4k, 15-micron CCD cameras with a 10.5 arcminute 
-            field of view. Note that there are special considerations related to reducing images taken with the 
-            Spectral camera mounted on the Faulkes Telescope North (FTN) located at Haleakala Observatory. Consult
-            the data documentation to determine which telescope was used to obtain the observation when that 
-            information is needed, and for details of data reduction applied.
-        </description>
+    <description>The Spectral Camera attached to the Las Cumbres 2m Telescopes is a sophisticated instrument for spectroscopy that is capable of producing high-resolution spectral data from a variety of astronomical targets. Unlike traditional imaging cameras, a spectral camera disperses light into its component wavelengths, enabling the study of an object’s chemical composition, temperature, and motion. This camera is crucial for spectroscopic surveys, stellar population studies, and planetary atmospheric analysis. The 2m telescopes allow for detailed spectral observations of distant and faint objects, such as galaxies, nebulae, and supernovae, making the Spectral Camera a vital tool for understanding the evolution of the universe and the physical properties of celestial bodies.</description>
   </Instrument>
 </Product_Context>
