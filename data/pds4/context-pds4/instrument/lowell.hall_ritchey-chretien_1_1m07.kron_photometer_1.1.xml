@@ -40,7 +40,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Photometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>A conventional photoelectric photometer utilizing an EMI 6256 photomultiplier tube
-and pulse counting system</description>
+    <description>The Kron Photometer is an astronomical instrument used for measuring the brightness or intensity of light from celestial objects, particularly stars, galaxies, and other astronomical phenomena. It is a type of photometer designed to perform photometric measurements, which help determine the flux (brightness) of an object in specific wavelength bands (such as optical or infrared).</description>
   </Instrument>
 </Product_Context>

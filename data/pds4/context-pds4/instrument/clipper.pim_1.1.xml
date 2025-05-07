@@ -50,8 +50,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-159005</naif_instrument_id>
-    <description>
-      Europa’s ionosphere, and plasma trapped in Jupiter’s magnetic field, distort magnetic fields near Europa. PIMS Faraday cups will distinguish those distortions from Europa’s induced magnetic field, which carries information about Europa’s ocean.
-    </description>
+    <description>Europa’s ionosphere and trapped plasma from Jupiter’s magnetic field create distortions in nearby magnetic fields. PIMS Faraday cups will help identify these distortions separately from Europa’s induced magnetic field, which provides insights into the moon's ocean.</description>
   </Instrument>
 </Product_Context>

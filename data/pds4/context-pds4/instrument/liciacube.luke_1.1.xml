@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:liciacube.luke</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Liciacube Unit Key Explore (LUKE) Instrument</title>
+    <title>The LICIACube Unit Key Explorer (LUKE)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -42,18 +42,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>LEIA</name>
+    <name>The LICIACube Unit Key Explorer (LUKE)</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>210200</naif_instrument_id>
-    <description>
-            The Liciacube Unit Key Explore (LUKE) instrument is one of two imagers on the 
-            Italian Space Agency's (ASI) Light Italian Cubesat for Imaging of Asteroids (LICIACube) 
-            satellite. LUKE is a dioptric camera composed by 4 refractive elements, with a diagonal 
-            FoV of 10°. The detector is a CMOS sensor (CMV2000) with 2048x1088 pixel.  
-        </description>
+    <description>The LICIACube Unit Key Explore (LUKE) instrument was one of two imagers on the cubesat. LUKE was a dioptric, wide field RGB camera designed to enable multicolor analysis.</description>
   </Instrument>
 </Product_Context>

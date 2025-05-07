@@ -44,21 +44,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Las Cumbres 1m Telescopes - FLI Imager</name>
+    <name>Las Cumbres 1m Telescopes - Finger Lakes Instrumentation (FLI) Imager</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The ancillary autoguider cameras for the main visible-wavelength,
-            direct-imaging CCD Sinistro instruments for the Las Cumbres
-            Observatory (LCOGT) 1-meter Telescopes are called the FLI Imagers.
-            The FLI imagers compromise a Finger Lakes Instrumentation (FLI) ML4720 
-            camera containing a e2v back-illuminated monolithic frame transfer CCD with 
-            1024 x 1024 x 13um pixels combined with a LCOGT constructed corrector, focus
-            stage and filterwheel. The instrument is mounted on one of the
-            side ports on the LCOGT 1-meter instrument support structure.
-        </description>
+    <description>The Las Cumbres 1m Telescopes equipped with Finger Lakes Instrumentation (FLI) Imager are part of the Las Cumbres Observatory Global Telescope Network (LCOGT), which operates a network of telescopes worldwide for astronomical research and educational purposes.
+</description>
   </Instrument>
 </Product_Context>

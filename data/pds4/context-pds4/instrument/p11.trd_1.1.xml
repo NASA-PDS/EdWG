@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:trd.p11</logical_identifier>
     <version_id>1.1</version_id>
-    <title>TRAPPED RADIATION DETECTOR for P11</title>
+    <title>Trapped Radiation Detector for P11</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -52,33 +52,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>TRAPPED RADIATION DETECTOR</name>
+    <name>Trapped Radiation Detector for P11</name>
     <type>Particle Detector</type>
     <!--RChen/EN was Energetic Particle Detector-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-  Instrument Overview
-  ===================
-    Using five different types of telescopes, the trapped radiation
-    detector was designed to provide basic information about several of
-    the fundamental features of Jupiter's radiation belts including the
-    types of particles within the belts, their distribution, energy, and
-    intensity.
- 
-    An unfocused Cerenkov counter detected the light emitted in a
-    particular direction as particles passed through it. It recorded
-    electrons of energy 0.5 to 12 MeV. An electron scatter detector was
-    activated by electrons at 100 to 400 keV. A minimum ionizing
-    detector, consisting of a solid-state diode, measured minimum
-    ionizing particles (i.e., less than 3 MeV) and protons in the range
-    of 50 to 350 MeV. Finally, two scintillation detectors distinguished
-    roughly between electrons of less than 5 and protons of less than
-    50 keV.
- 
-  ['Instrument Overview' was adapted from FIMMELETAL pp. 53-54.]
-
-        </description>
+    <description>Trapped Radiation Detector for P11 similar to the P10 version, is a detector that measures and characterizes trapped radiation particles, contributing to the study of radiation levels in space. It is crucial for the P11 mission, helping assess the impact of radiation on the spacecraft and its instruments.</description>
   </Instrument>
 </Product_Context>

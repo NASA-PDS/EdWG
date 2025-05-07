@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:leam.a17a</logical_identifier>
     <version_id>2.1</version_id>
-    <title>Apollo 17 ALSEP Lunar Ejecta And Meteorites (LEAM) Experiment</title>
+    <title>Apollo 17 Lunar Surface Experiments Package Lunar Ejecta And Meteorites Experiment</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -70,8 +70,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Apollo 17 ALSEP Lunar Ejecta And Meteorites (LEAM) Experiment</name>
+    <name>Apollo 17 Lunar Surface Experiments Package Lunar Ejecta And Meteorites Experiment</name>
     <type>Dust</type>
-    <description>The Apollo 17 Lunar Ejecta And Meteorites (LEAM) experiment measured the frequency with which the moon was impacted by primary cosmic dust particles and the effect of the lunar ejecta emanating from the sites of meteorite impacts on the lunar surface.</description>
+    <description>The Apollo 17 Lunar Surface Experiments Package (ALSEP) Lunar Ejecta And Meteorites (LEAM) experiment measured the frequency with which the moon was impacted by primary cosmic dust particles and the effect of the lunar ejecta emanating from the sites of meteorite impacts on the lunar surface.</description>
   </Instrument>
 </Product_Context>

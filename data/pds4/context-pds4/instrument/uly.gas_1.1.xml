@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:uly.gas</logical_identifier>
     <version_id>1.1</version_id>
-    <title>GAS INSTRUMENT for ULY</title>
+    <title>Gas Instrument for ULY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -63,35 +63,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>GAS INSTRUMENT</name>
+    <name>Gas Instrument for ULY</name>
     <type>Particle Detector</type>
     <!--RChen/EN was Neutral Particle Detector-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-  Instrument Overview
-  ===================
-    (excerpted from [WITTEETAL1992])
- 
-    Abstract.  -- The properties (density, bulk velocity relative
-    to the solar system, and temperature) of the local interstellar
-    gas, represented by neutral helium penetrating the heliosphere,
-    will be measured in-situ for the first time by the ULYSSES GAS
-    instrument.  By employing the solar gravitational field as a
-    natural velocity analyser, the bulk velocity relative to the
-    solar system and the temperature of the E as can be derived
-    from the angular distributions of the particles measured in at
-    least two widely separated points in the heliosphere.  The gas
-    density can be determined if a composition corresponding to
-    cosmic abundances is assumed.  The neutral particles are
-    detected via the secondary electrons or ions which are emitted
-    upon particle impact from a freshly deposited lithium-fluoride
-    (LiF) layer.  The physical principles and assumptions on which
-    the experiment is based, the main technical features of the
-    instrument, and first measurements in space are briefly
-    described.
-
-        </description>
+    <description>The Ulysses Gas instrument will measure the properties of local interstellar gas, specifically neutral helium, for the first time. It uses the solar gravitational field to analyze the bulk velocity and temperature of the gas based on particle angular distributions from two heliosphere locations. Assuming a cosmic abundance composition, gas density can also be determined. Detection of neutral particles occurs via secondary electrons or ions from impacts on a lithium-fluoride layer. The instrument's principles, technical features, and initial measurements in space are summarized.</description>
   </Instrument>
 </Product_Context>

@@ -46,7 +46,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Photometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>Primo I is a photomultiplier detector used with a set of infrared filters
-at the IRTF telescope on Mauna Kea.</description>
+    <description>Primo I is a photomultiplier detector used with a set of infrared filters at the IRTF telescope on Mauna Kea.</description>
   </Instrument>
 </Product_Context>

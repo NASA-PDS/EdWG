@@ -43,10 +43,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Butterfield Wind Tunnel, Whitehead Aeronautical Laboratory, Queen Mary University of London, UK</name>
     <type>Atmospheric Sciences</type>
-    <description>
-            Open circulation, suction-style wind tunnel with length of 3 m and cross-sectional area of 0.16 by 0.16 m. Graeme Butterfield was
-            associated with the Department of Geography and with Aerospace Engineering at Queen Mary and Westfield College, University of London,
-            merged in 1989 to be Queen Mary University of London, UK.
-       </description>
+    <description>The Butterfield Wind Tunnel is an open circulation, suction-style wind tunnel with length of 3 m and cross-sectional area of 0.16 by 0.16 m. Graeme Butterfield was associated with the Department of Geography and with Aerospace Engineering at Queen Mary and Westfield College, University of London, merged in 1989 to be Queen Mary University of London, UK.        </description>
   </Instrument>
 </Product_Context>

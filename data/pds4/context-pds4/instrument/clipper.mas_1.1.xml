@@ -49,8 +49,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-159002</naif_instrument_id>
-    <description>
-      MASPEX will analyze gases in Europa’s faint atmosphere and possible plumes. It will study the chemistry of the moon’s suspected subsurface ocean, how ocean and surface exchange material, and how radiation alters compounds on the moon’s surface.
-    </description>
+    <description>The MAss SPectrometer for Planetary EXploration (MASPEX) is an instrument that will be on-board the Europa Clipper mission, to help analyze gases in Europa‚ its faint atmosphere and possible plumes near Europa. It will study the chemistry of the moon‚its suspected subsurface ocean, how ocean and surface exchange material, and how radiation alters compounds on the moon’s surface. MASPEX creates positively-charged ions in gas by stripping electrons from incoming gas molecules through the introduction of high-energy (fast moving) electrons.</description>
   </Instrument>
 </Product_Context>

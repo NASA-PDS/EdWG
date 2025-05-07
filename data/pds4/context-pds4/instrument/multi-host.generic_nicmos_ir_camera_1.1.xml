@@ -30,12 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is a generic Near Infrared Camera and Multi-Object Spectrometer (NICMOS) camera 
-    	used with some ground-based telescopes. 
-    	This specifically is NOT the NICMOS camera mounted on the Hubble Space Telescope.
-    	The detector specifications are not provided in the literature. The nominal wavelength range 
-    	of this instrument is centered on approximately 2200nm. 
-    </description>
+    <description>The Generic NICMOS IR Camera is an infrared imaging device equipped with a Near-Infrared Camera and Multi-Object Spectrometer (NICMOS). It is designed to capture detailed infrared images in both scientific and astronomical applications, enabling the observation of celestial objects in the infrared spectrum for research and analysis.</description>
   </Instrument>
 </Product_Context>

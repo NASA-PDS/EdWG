@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:jaxa:darts:context:instrument:hyb2.lidar</logical_identifier>
     <version_id>1.1</version_id>
-    <title>LIght Detection And Ranging for Hayabusa2</title>
+    <title>The LIDAR (Light Detection and Ranging) Instrument for Hayabusa2</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -76,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>LIght Detection And Ranging (LIDAR)</name>
+    <name>The LIDAR (Light Detection and Ranging) Instrument for Hayabusa2</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Altimeter</ctli:type>
@@ -85,6 +85,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-37400</naif_instrument_id>
-    <description>LIDAR, LIght Detection And Ranging, is a laser altimeter onboard Hayabusa2 spacecraft. LIDAR is part of navigation system of spacecraft, but it can be used for scientific instrument.  By measuring distance to surface of (162173) Ryugu will enable us to acquire spacecraft position information and topography of (162173) Ryugu, and derive albedo using measured intensity of reflected light by (162173) Ryugu. LIDAR also has dust count mode and mode for laser link experiment.</description>
+    <description>The lidar system aboard the Hayabusa2 spacecraft was part if the navigation system and was also used as a laser altimeter for scientific observation. It was user to measure the distance to surface of (162173) Ryugu to determine spacecraft position, to map the topography of the asteroid, and to derive albedo measuring the intensity of the light reflected by the asteroid surface. The Hayabusa2 lidar also had a dust count mode and a mode for specifically for the laser link experiment.</description>
   </Instrument>
 </Product_Context>

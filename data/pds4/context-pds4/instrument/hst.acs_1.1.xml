@@ -61,14 +61,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Advanced Camera for Surveys</name>
+    <name>HST Advanced Camera for Surveys</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is the Advanced Camera for Surveys (ACS), a third-generation Hubble Space Telescope (HST) instrument. It was installed in March 2002.
-    </description>
+    <description>The Advanced Camera for Surveys (ACS) aboard the Hubble Space Telescope is an imaging instrument designed to capture high-resolution images at wavelengths from near-infrared to ultraviolet. It features three observing modes: a wide-field channel (WFC), a high-resolution channel (HRC), and a solar blind channel (SBC).</description>
   </Instrument>
 </Product_Context>

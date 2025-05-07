@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:psf.asd-labspec4</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Analytical Spectral Devices LabSpec 4</title>
+    <title>C-Tape Planetary Spectrophotometer Facility Analytical Spectral Devices LabSpec 4</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -40,26 +40,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Analytical Spectral Devices LabSpec 4</name>
+    <name>C-Tape Planetary Spectrophotometer Facility Analytical Spectral Devices LabSpec 4</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
         <ctli:subtype>VNIR</ctli:subtype>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            Analytical Spectral Devices LabSpec 4 
-            https://www.malvernpanalytical.com/en/products/product-range/asd-range/labspec-range/labspec-4-hi-res-analytical-instrument
-            
-            Reflectance spectra from 350 to 2500 nm (0.35 to 2.5 um) were measured at ambient temperature and pressure 
-            relative to a calibrated Spectralon 99% diffuse reflectance standard with an Analytical Spectral Devices 
-            LabSpec 4 Hi-Res spectrometer (ASD) at a viewing geometry of i=30°, e=0°. These spectra were corrected for the 
-            absorption features of Spectralon. An in-house quartz-tungsten halogen light source was used to provided incident 
-            light that was collimated to less than 1.5° divergence with a cold color temperature that provides sufficient 
-            signal-to-noise ratio over the three sensors of the ASD instrument, with flux sufficiently low to not induce 
-            observable emittance on very dark samples in the wavelength range under study. Five hundred scans of reflectance 
-            spectra were collected for each sample, and 500 scans of dark current were subtracted from sample and standard 
-            reflectance spectra.                
-        </description>
+    <description>The Analytical Spectral Devices LabSpec 4 is located at the C-Tape Planetary Spectrophotometer Facility in Manitoba, Canada. It is an advanced, portable spectrometer designed for high-precision field spectroscopic measurements. It covers a wide spectral range of 350 to 2500 nm, spanning the visible, near-infrared (NIR), and shortwave infrared (SWIR) regions. The FieldSpec 4 is used in a variety of applications, including environmental monitoring, agriculture, mineralogy, and remote sensing, to analyze the composition of materials and surfaces. It features improved signal-to-noise ratios and enhanced data accuracy, making it suitable for demanding field environments. </description>
   </Instrument>
 </Product_Context>

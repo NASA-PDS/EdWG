@@ -58,15 +58,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Cassini Engineering</name>
+    <name>Cassini Orbiter Spacecraft Sensors</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spacecraft Sensor</ctli:type>
         <ctli:subtype>The aggregation of all spacecraft sensors on the Cassini Orbiter</ctli:subtype>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The aggregation of spacecraft sensors on the Cassini Orbiter.
-        </description>
+    <description>The Cassini Orbiter is equipped with a variety of sensors that collect and aggregate data from its surroundings.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mars2020.moxie</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars 2020 Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE)</title>
+    <title>Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE) for Mars 2020</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -46,14 +46,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE)</name>
+    <name>Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE) for Mars 2020</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Meteorology</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The MOXIE instrument is an instrument onboard the Mars 2020 Rover designed to
-            produce oxygen (O2) from carbon dioxide.
-        </description>
+    <description>The Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE) instrument onboard of the Mars 2020 Rover is designed to produce oxygen (O2) from carbon dioxide (CO2) by implementing the use of solid state electrolysis in the Martian atmosphere. This approach is the first time a non-terrestrial extraction of a natural resource is conducted. This conversion process makes use of insulated HEPA filter, scroll compressor, and heaters in order to heat the compressed Martian gases obtained to about 800 degrees C. At this temperature, the use of solid oxide electrolysis will cause CO2 to split into oxygen (O) and carbon monoxide (CO).</description>
   </Instrument>
 </Product_Context>

@@ -71,9 +71,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is the Faint Object Spectrograph (FOS) which operated on the Hubble Space 
-    	Telescope until it was replaced in February 1997.
-    </description>
+    <description>The Faint Object Spectrograph (FOS) aboard the Hubble Space Telescope was a near-infrared spectrometer that covered wavelengths from 115 to 800 nm. The FOS was able to operate at two different modes: low resolution (reaching 26th magnitude in one hour), and high resolution (reaching 22nd magnitude in one hour). The FOS was replaced by the Space Telescope Imaging Spectrograph (STIS) in 1997.</description>
   </Instrument>
 </Product_Context>

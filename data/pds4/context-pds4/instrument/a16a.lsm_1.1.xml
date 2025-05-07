@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:lsm.a16a</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Apollo 16 Lunar Surface Magnetometer (LSM) Experiment</title>
+    <title>Apollo 16 Lunar Surface Experiments Package Lunar Surface Magnetometer Experiment</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -65,8 +65,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Apollo 16 Lunar Surface Magnetometer (LSM) Experiment</name>
+    <name>Apollo 16 Lunar Surface Experiments Package Lunar Surface Magnetometer Experiment</name>
     <type>Magnetometer</type>
-    <description>The Apollo 16 Lunar Surface Magnetometer (LSM) Experiment consisted of a triaxial fluxgate magnetometer and was part of a three-station network (Apollo 12,15,16) intended to yield information on the internal electromagnetic characteristics of the moon.</description>
+    <description>The Apollo 16 Lunar Surface Experiments Package (ALSEP) Lunar Surface Magnetometer (LSM) Experiment consisted of a triaxial fluxgate magnetometer and was part of a three-station network (Apollo 12,15,16) primarily designed to investigate the electromagnetic properties of the interior of the Moon. The three magnetometers could measure magnetic fields in different ranges (+/- 50, 100, or 200 gammas) that could be selected by ground command. The instrument was oriented on the lunar surface by the astronauts with a shadowgraph and bubble level. </description>
   </Instrument>
 </Product_Context>

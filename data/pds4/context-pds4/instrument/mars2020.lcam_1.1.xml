@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mars2020.lcam</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars 2020 Lander Visual System (LVS)</title>
+    <title>Mars 2020 Perseverance Rover Lander Visual System</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -47,21 +47,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Lander Visual System (LVS)</name>
+    <name>Mars 2020 Perseverance Rover Lander Visual System</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The Lander Visual System (LVS) is a camera-based navigation system
-            that images the terrain beneath the descending spacecraft during
-            its Entry, Descent, and Landing.  LVS computes the final landing
-            position by comparing the aquired imagery with onboard maps and,
-            further, detects hazards and/or obstacles (such as boulders or
-            outcroppings) to be avoided.  In the case where hazards are observed,
-            LVS can direct the spacecraft to a safer location.  All this must
-            transpire within the very small period of time of 10 seconds.
-        </description>
+    <description>The Mars 2020 Perseverance Rover Lander Visual System (LVS) is a camera-based navigation system that images the terrain beneath the descending spacecraft during its Entry, Descent, and Landing. LVS computes the final landing position by comparing the aquired imagery with onboard maps and, further, detects hazards and/or obstacles (such as boulders or outcroppings) to be avoided. In the case where hazards are observed, LVS can direct the spacecraft to a safer location. All this must transpire within the very small period of time of 10 seconds.         </description>
   </Instrument>
 </Product_Context>

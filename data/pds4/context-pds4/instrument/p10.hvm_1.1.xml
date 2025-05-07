@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:hvm.p10</logical_identifier>
     <version_id>1.1</version_id>
-    <title>HELIUM VECTOR MAGNETOMETER for P10</title>
+    <title>Helium Vector Magnetometer for P10</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -53,50 +53,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>HELIUM VECTOR MAGNETOMETER</name>
+    <name>Helium Vector Magnetometer for P10</name>
     <type>Magnetometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-  Instrument Overview
-  ===================
-    Magnetic fields affect the plasma of electrically charged particles
-    in interplanetary space and control the flow of this plasma as it
-    spreads out from the Sun across the orbits of the planets. Before
-    the mission of Pioneer 10 these effects had been only observed and
-    measured out to the orbit of Mars. Scientists were still uncertain
-    about many specific details about the interplanetary medium and
-    particularly the extent to which the Sun's magnetic field controlled
-    the flow of plasma beyond Mars to the outer regions of the Solar
-    System. The outer boundaries of this influence were vague, and
-    interactions between the plasma and fields of the Solar System and
-    those of the Galactic System puzzled scientists. Pioneer 10 and
-    Pioneer 11 explored the regions beyond the orbit of Jupiter and made
-    measurements that helped to define the transition region of solar
-    influence (heliosphere).
- 
-    This experiment used a sensitive magnetometer at the tip of a
-    lightweight boom, which extended 6.6 meters from the center of the
-    spacecraft to reduce the effects of the residual spacecraft magnetic
-    field, and to assist the balance of this spin stabilized spacecraft.
-    The helium vector magnetometer measured the fine structure of the
-    interplanetary field, maped the Jovian field, and provided field
-    measurements to evaluate solar wind interaction with Jupiter. The
-    magnetometer operated in one of eight different ranges, the lowest
-    of which covered magnetic fields from +/-0.01 to +/-4.0 gamma; the
-    highest, fields up to +/-140,000 gamma (i.e. +/-l.4 Gauss). The
-    ranges were selected by ground command or automatically by the
-    instrument itself as it reached the limits of a given range.
- 
-    The sensor for the magnetometer consisted of a cell filled with
-    helium that is excited by electrical discharge at radio frequencies
-    and infrared optical pumping. Changes in helium absorption caused by
-    magnetic fields passing through the magnetometer are measured by an
-    infrared optical detector.
- 
-  ['Instrument Overview' was adapted from FIMMELETAL pp. 49-50.]
-
-        </description>
+    <description>The magnetometer on Pioneer 10 is a triaxial helium magnetometer with seven dynamic ranges, from plus or minus 2.5 nT to plus or minus 10 gauss. The linearity was 0.1%, and the noise threshold was 0.01% rms for 0-1 Hz. The accuracy was 0.5% of full scale range. In this system, R (or X) is radially outward from the sun, T (or Y) is parallel to the sun's equatorial plane and has its direction given by the cross product of the sun's spin vector into the radial direction (i.e., into R) and N (or Z) completes the right-handed orthogonal system (positive northward).</description>
   </Instrument>
 </Product_Context>

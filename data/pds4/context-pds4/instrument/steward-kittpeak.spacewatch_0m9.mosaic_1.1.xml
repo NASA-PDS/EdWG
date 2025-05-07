@@ -36,9 +36,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Spacewatch Mosaic Camera</name>
     <type>Imager</type>
-    <description>Corrected prime focus f/3 optics.
-
-Thin backside illuminated 4-CCD, 8-amplifier mosaic, 1.00 arcsec/pixel. 2.9 sq degree
-field of view. 13.5 micron pixels.</description>
+    <description>The Spacewatch Mosaic Camera is an advanced imaging system used by the Spacewatch Project at the University of Arizona’s Lunar and Planetary Laboratory. It is designed for wide-field surveys of the sky to detect and track small solar system bodies, including near-Earth objects (NEOs), asteroids, and comets.</description>
   </Instrument>
 </Product_Context>

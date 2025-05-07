@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:msi.near</logical_identifier>
     <version_id>1.2</version_id>
-    <title>MULTI-SPECTRAL IMAGER for NEAR</title>
+    <title>The Multi-Spectral Imager (MSI) for the NEAR Shoemaker</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>MULTI-SPECTRAL IMAGER</name>
+    <name>The Multi-Spectral Imager (MSI) for the NEAR Shoemaker</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>
@@ -71,18 +71,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-93001</naif_instrument_id>
-    <description>
-            The main goals of the NEAR Multi-Spectral Imager (MSI) were to determine the shape 
-            of Eros and to map the mineralogy and morphology of features on its surface at high 
-            spatial resolution. MSI was a 537 x 244 pixel charge-coupled device camera with 
-            five-element radiation-hardened refractive optics. It covered the spectral range from 
-            0.4 to 1.1 microns, and it had an eight-position filter wheel. Seven narrow-band 
-            filters were chosen to discriminate the major iron-bearing silicates present (olivine        
-            and pyroxene); the eight, broad-band filter was for fast exposures and high sensitivity, 
-            including optical navigation.  The camera had an FOV of 2.93 x 2.26 degrees and a pixel 
-            resolution of 96 x 162 microrad. It had a maximum framing rate of 1 per second with 
-            images digitized to 12 bits and a dedicated digital processing unit with an image buffer          
-            in addition to both lossless and lossy on-board image compression.
-        </description>
+    <description>The NEAR multispectral imaging system (MSI) was based on a 537x244 pixel CCD camera with eight filters covering the spectral range from 0.4 to 1.1 microns.  It was designed to take images with the scientific objectives of mapping asteroid morphology and surface composition, and determining the overall size, shape, and spin characteristics.</description>
   </Instrument>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:ro.alice</logical_identifier>
     <version_id>1.2</version_id>
-    <title>ALICE for RO</title>
+    <title>The Alice Spectrometer for the Rosetta Orbiter</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -59,11 +59,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>ALICE</name>
+    <name>The Alice Spectrometer for the Rosetta Orbiter</name>
     <type>Spectrometer</type>
     <!--RChen/EN was Ultraviolet Spectrometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>The ALICE instrument is a Roland Circle style imaging spectrograph designed to perform far-UV spectroscopy in the range of 0.07 to 0.205 micrometers (700-2050 angstroms). The scientific objectives of the instrument are: 1) determine volatalized rare gas content of the nucleus, which will provide information on the formation temperature and thermal history; 2) characterize the production rates and spatial distribution of H20, CO, and CO2; 3) make atomic budget measurements of C, H, O, N, S to profile the elemental composition of volatiles on nucleus; 4) study the onset of activity as the comet approaches the Sun; 5) spectrally map the nucleus; 6) measure the photometric properties and ice/ice/rock ratio of small grains; and 7) map the time variability of O+, N+, S+, C+ emissions in coma and ion tail.</description>
+    <description>The ALICE instrument was a Roland Circle style imaging spectrograph designed to perform far-UV spectroscopy in the range 700-2050 angstroms with a spectral resolution of 8 - 12 angstroms. Light passed through a concave, toroidal, holographic reflection grating used in first order. The detector was a microchannel plate with 1024 pixels in the wavelength dimension.</description>
   </Instrument>
 </Product_Context>

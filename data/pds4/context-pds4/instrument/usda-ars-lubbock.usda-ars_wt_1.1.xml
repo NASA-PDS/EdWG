@@ -43,8 +43,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>USDA-ARS Wind Tunnel at United States Department of Agriculture, Agricultural Research Service, Wind Erosion and Water Conservation Research Unit, Lubbock, TX</name>
     <type>Atmospheric Sciences</type>
-    <description>
-            Open circulation, suction-type wind tunnel with a working section of 10.0 m length, 0.5 m width, and 1.0 m height.
-       </description>
+    <description>             Open circulation, suction-type wind tunnel with a working section of 10.0 m length, 0.5 m width, and 1.0 m height.        </description>
   </Instrument>
 </Product_Context>

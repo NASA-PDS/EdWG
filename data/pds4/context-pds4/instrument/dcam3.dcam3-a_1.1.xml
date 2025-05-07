@@ -40,7 +40,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>DCAM3-A (DCAM3 Analog)</name>
+    <name>DCAM3-A (DCAM3 Analog) onboard DCAM3</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>

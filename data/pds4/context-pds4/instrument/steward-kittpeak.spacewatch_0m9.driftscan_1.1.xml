@@ -36,9 +36,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Spacewatch Drift Scan Camera</name>
     <type>Imager</type>
-    <description>Newtonian, f/5.34 coma corrected and field flattened optics.
-
-Tektronix TK 2048EB-1 thinned backside illuminated CCD operated in TDI (drift
-scanning) mode.   1.05 asec/pixel, 37'x33' FOV, 24 micron pixels.</description>
+    <description>The Spacewatch Drift Scan Camera is an astronomical instrument used by the Spacewatch Project, which is based at the University of Arizona's Lunar and Planetary Laboratory. Spacewatch is dedicated to detecting, tracking, and studying small bodies in the solar system, particularly near-Earth objects (NEOs), asteroids, and comets.</description>
   </Instrument>
 </Product_Context>

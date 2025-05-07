@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:uvs.mr6</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mariner 6 Ultraviolet Spectrometer</title>
+    <title>Mariner 6 Spacecraft Ultraviolet Spectrometer</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -39,14 +39,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Mariner 6 Ultraviolet Spectrometer (UVS)</name>
+    <name>Mariner 6 Spacecraft Ultraviolet Spectrometer</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The Mariner 6 Ultraviolet Spectrometer instrument is an instrument onboard the Mariner 6 spacecraft designed to
-            take ultraviolet observations of Mars.
-        </description>
+    <description>The Mariner 6 Spacecraft Ultraviolet Spectrometer (UVS) was an instrument on NASA's Mariner 6 spacecraft, which flew by Mars in 1969. It was designed to analyze the Martian atmosphere by measuring ultraviolet light absorption, primarily to study gases like carbon dioxide and ozone. The UVS provided key data on the composition and density of the atmosphere. Its findings helped expand our understanding of Mars' atmospheric conditions and its potential for supporting life.         </description>
   </Instrument>
 </Product_Context>

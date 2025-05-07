@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvmp.lp.lsfr</logical_identifier>
     <version_id>1.1</version_id>
-    <title>SOLAR FLUX RADIOMETER for PIONEER VENUS LARGE PROBE</title>
+    <title>Solar Flux Radiometer for Pioneer Venus Large Probe</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PIONEER VENUS LARGE PROBE SOLAR FLUX RADIOMETER</name>
+    <name>Solar Flux Radiometer for Pioneer Venus Large Probe</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Radiometer</ctli:type>
@@ -52,16 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
- 
-      The objective of this investigation was to determine the regions in Venus' atmosphere where solar energy is deposited. 
-      Six narrow-field-of-view detectors were used to measure the intensity of scattered solar light. As the probe descended 
-      through the atmosphere, the difference between upward-looking and downward-looking detectors indicated the net downward 
-      flux.
-      
-        </description>
+    <description>The Large Probe Solar Flux Radiometer (LSFR) of Pioneer Venus was used to determine the regions in Venus' atmosphere where solar energy is deposited. To measure the intensity of scattered solar light, narrow-field-of-view detectors were used, covering the spectral range from 0.4 to 1.8 microns. As the probe descended through the atmosphere, the LSFR continuously measured the difference in atmospheric radiance above and below the horizon of the probe as a function of altitude, which allows the determination of how much sunlight was absorbed by the clouds and how much reached the surface. This approach provides more accurate radiation balance modeling of the atmosphere and will provide information on the role of the greenhouse effect on the heating of the Venus atmosphere. The instrument consisted of five 3-mm diameter fused silica lenses, with focal length of 11.45 mm and focal ratio of F/3.8, pointing in different directions: zenith (27 degrees), nadir (142 degrees), and 3 lenses at roughly azimuthally (60, 83, and 102 degrees).</description>
   </Instrument>
 </Product_Context>

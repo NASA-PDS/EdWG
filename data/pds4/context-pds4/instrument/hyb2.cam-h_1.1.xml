@@ -39,7 +39,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Small Monitor Camera (CAM-H)</name>
+    <name>Small Monitor Camera (CAM-H) for Hayabusa2</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>

@@ -49,7 +49,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Small Carry-on Impactor (SCI)</name>
+    <name>Small Carry-on Impactor for Hayabusa2</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Surface Tool</ctli:type>

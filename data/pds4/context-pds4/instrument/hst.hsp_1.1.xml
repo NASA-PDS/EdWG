@@ -61,14 +61,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>High Speed Photometer</name>
+    <name>HST High Speed Photometer</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Photometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is the High Speed Photometer (HSP). It was original equipment on the HST and was removed in 1993.
-    </description>
+    <description>The High Speed Photometer (HSP) aboard the Hubble Space Telescope was a photometer that could measure brightnesses over wavelengths from 115 to 870 nm, and polarities over wavelengths from 210 to 700 nm. The HSP could take one measurement every 10 microseconds. It was replaced by the Corrective Optics Space Telescope Axial Replacement (COSTAR) in 1993.</description>
   </Instrument>
 </Product_Context>

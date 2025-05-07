@@ -61,14 +61,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Wide Field Camera 3</name>
+    <name>HST Wide Field Camera 3</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is the Wide Field Camera 3 (WFC3). It has operated from 2009 to the present. 
-    </description>
+    <description>The Wide Field Camera 3 (WFC3) aboard the Hubble Space Telescope is a camera that is meant to cover a very large field of view and a very large range of wavelengths. The UV/optical channel of WFC3 has a field of view of 164 arcseconds square and covers wavelengths from 200 to 1000 nm, while the infrared channel of WFC3 has a field of view of 135 by 127 arcseconds and covers wavelengths from 800 to 1700 nm. WFC3 was installed in 2009 and replaced the Wide Field Planetary Camera 2 (WFPC2).</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pgl.ocean_optics-uvflame</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Ocean Optics UV-Flame</title>
+    <title>Planetary Geosciences Laboratory Ocean Optics UV-Flame</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -40,22 +40,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Ocean Optics UV-Flame</name>
+    <name>Planetary Geosciences Laboratory Ocean Optics UV-Flame</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
         <ctli:subtype>UV-VNIR</ctli:subtype>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            Ocean Optics UV-Flame spectrometer  
-            https://www.oceaninsight.com/globalassets/catalog-blocks-and-images/manuals--instruction-ocean-optics/spectrometer/flameio.pdf
-            
-            The 0.2-0.88 um wavelength range was acquired at ambient room temperature and pressure with an Ocean Optics 
-            UV-Flame spectrometer (biconical), using a fiber optic cable, with a spectral resolution of 1.4 nm FWHM at an 
-            incidence angle (i) of 0º and 30º emission angle (e); phase angle (phi) of 30º. Illumination was provided with a 
-            combined deuterium arc lamp (0.2-0.5 um) and quartz halogen light source (0.4-0.88 um), with light transmitted to 
-            the sample via a fiber optic cable.            
-        </description>
+    <description>The Ocean Optics UV-Flame is located at the Planetary Geosciences Laboratory at the Planetary Science Institute in Tucson, AZ. It is a portable, compact spectrometer designed to measure light across ultraviolet (UV) and visible wavelengths, typically ranging from 200 to 850 nm. It is commonly used for flame spectroscopy applications, where it analyzes the light emitted by flames to identify chemical elements and their concentrations. This spectrometer is equipped with a high-sensitivity detector and can be connected to a computer for data analysis and visualization. It's widely used in research, industrial, and environmental settings to monitor combustion processes or perform chemical analysis.                </description>
   </Instrument>
 </Product_Context>

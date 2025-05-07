@@ -56,8 +56,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-159009</naif_instrument_id>
-    <description>
-      By collecting ultraviolet light with a telescope, and creating images, the Europa Ultraviolet Spectrograph will help determine the composition of Europa’s atmospheric gases and surface materials. It will also search near Europa for signs of plume activity.
-    </description>
+    <description>The Europa Ultraviolet Spectrograph (Europa-UVS) is an imager that will be on-board the Europa Clipper mission, to collect ultraviolet light (55-210 nm wavelength range with spectral resolution of &lt;0.6 nm) and help determining the composition of the Europa, as well as its atmospheric gases and surface materials, and help in the search near Europa for signs of plume activity. The spectrograph is a Rowland circle mount variety.</description>
   </Instrument>
 </Product_Context>

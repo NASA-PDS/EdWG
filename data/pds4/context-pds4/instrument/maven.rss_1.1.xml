@@ -109,19 +109,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Radio Science Instrument</name>
+    <name>Radio Science Instrument for MAVEN</name>
     <type>Radio-Radar</type>
-    <description>
-                   In two-way mode a DSN ground station transmits an uplink carrier at about 
-                   7.2 GHz, referenced to the local frequency and timing standard (FTS), which 
-                   ensures greatest stability.  The uplink signal is received at the spacecraft; 
-                   there are small phase changes in the signal if it has passed through the 
-                   atmosphere/ionosphere of Mars.  The spacecraft telecommunication subsystem 
-                   locks to the uplink signal and echoes it back at about 8.4 GHz.  Additional 
-                   phase changes are imposed if the downlink signal passes through Mars 
-                   atmosphere/ionosphere.  The downlink signal is received by the DSN ground 
-                   station using its open-loop Radio Science Receiver, which is referenced to 
-                   the FTS.  
-            </description>
+    <description>The Radio Science Instrument (RSI) for MAVEN is designed to study the structure and composition of Mars' ionosphere by analyzing how the spacecraft’s radio signals are affected as they pass through it. By measuring changes in frequency and phase, RSI provides insights into electron densities, temperature variations, and atmospheric dynamics. This helps scientists understand how Mars’ atmosphere interacts with solar radiation and space weather, contributing to MAVEN’s overall mission of studying atmospheric escape and Mars’ climate history.
+</description>
   </Instrument>
 </Product_Context>

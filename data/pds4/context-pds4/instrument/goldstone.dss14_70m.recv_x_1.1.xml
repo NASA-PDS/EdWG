@@ -47,10 +47,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Radar</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-      The Goldstone Solar System Radar receiver is a cryogenically-cooled dual-channel HEMT
-      low noise amplifier for receiving X-band radio signals at 8560 MHz or 3.5 cm
-      wavelength.
-    </description>
+    <description>       The Goldstone Solar System Radar receiver is a cryogenically-cooled dual-channel HEMT       low noise amplifier for receiving X-band radio signals at 8560 MHz or 3.5 cm       wavelength.     </description>
   </Instrument>
 </Product_Context>

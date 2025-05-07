@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:uly.urap</logical_identifier>
     <version_id>1.1</version_id>
-    <title>UNIFIED RADIO AND PLASMA WAVE EXPERIMENT for ULY</title>
+    <title>Unified Radio and Plasma Wave Experiment for ULY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -67,46 +67,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>UNIFIED RADIO AND PLASMA WAVE EXPERIMENT</name>
+    <name>Unified Radio and Plasma Wave Experiment for ULY</name>
     <type>Plasma Wave Spectrometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
- 
-  Instrument Overview
-  ===================
-    (excerpted from: [STONEETAL1992A])
- 
-    Abstract.  -- The scientific objectives of the Ulysses Unifiewd
-    Radio and Plasma wave (URAP) experiment are twofold: 1) the
-    determination of the direction, angular size, and polarization
-    of radio sources for remote sensing of the heliosphere and the
-    Jovian magnetosphere and 2) the detailed study of local wave
-    phenomena, which determine the transport coefficients of the
-    ambient plasma.  The tracking of solar radio bursts, for
-    example, can provide three dimensional 'snap-shots' of the
-    large scale magnetic field configuration along which the solar
-    exciter particles propagate.  URAP observations of Jovian radio
-    emissions should greatly improve the determination of source
-    locations and consequently our understanding of the generation
-    mechanism(s) of planetary radio emissions.  The study of
-    observed wave-particle interactions will improve our
-    understanding of the processes that occur in the solar wind and
-    at Jupiter and of radio wave generation . . . .  The URAP
-    sensors consist of a 72.5 m electric field antenna in the spin
-    plane, a 7.5-m electric field monopole along the spin axis and
-    a pair of orthogonal search coil magnetic antennas.  The
-    various receivers, designed to encompass specific needs of the
-    investigation, cover the frequency range from DC to 1 MHz.  A
-    relaxation sounder provides very accurate electron density
-    measurements.  Radio and plasma wave observations are shown to
-    demonstrate the capabilities and limitations of the URAP
-    instruments: radio observations include solar bursts, auroral
-    kilometric radiation, and Jovian bursts; plasma waves include
-    Langmuir waves, ion acoustic-like noise, and whistlers.
- 
-
-        </description>
+    <description>The Ulysses Unifield Radio and Plasma Wave (URAP) experiment is designed to advance our understanding of radio and plasma phenomena in the heliosphere and Jovian magnetosphere. This study presents two primary objectives: first, to ascertain the direction, angular size, and polarization of radio sources, thereby enabling remote sensing capabilities in these regions; and second, to conduct an in-depth examination of local wave phenomena influencing ambient plasma transport coefficients. The ability to track solar radio bursts provides critical three-dimensional insights into the large-scale magnetic field configurations that facilitate the propagation of solar exciter particles. Additionally, URAP's investigations into Jovian radio emissions are expected to enhance our knowledge regarding the source localization and generation mechanisms of planetary radio emissions. The experimental setup features a sophisticated array of sensors, including a 72.5 m electric field antenna situated in the spin plane, a 7.5 m electric field monopole aligned with the spin axis, and dual orthogonal search coil magnetic antennas. This array is optimized to cover a broad frequency range from direct current (DC) to 1 MHz. Specific investigative needs are addressed through various receivers, including a relaxation sounder that delivers precise measurements of electron density. Observational results from URAP have elucidated both the capabilities and limitations of its instruments, documenting a range of phenomena such as solar bursts, auroral kilometric radiation, Jovian bursts, as well as plasma waves including Langmuir waves, ion acoustic-like noise, and whistlers. These findings contribute significantly to our comprehension of wave-particle interactions in the solar wind and within the environment of Jupiter.</description>
   </Instrument>
 </Product_Context>

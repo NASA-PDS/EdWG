@@ -96,13 +96,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            VIRTIS on Venus Express was a hyperspectral
-            imager repurposed from the flight spare of the instrument of the same name of the Rosetta mission
-            [Coradini et al., 1998]. It combines a scanning mirror with a refraction grating to disperse the
-            light from a narrow slit across a detector array. VIRTIS data are organized as cubes with one 
-            spectral dimension (bands) and two spatial dimensions, which are along the direction of the slit 
-            (samples) and along the direction of the scanning mirror (line).        
-        </description>
+    <description>VIRTIS on Venus Express is a hyperspectral imager that was adapted from a spare instrument originally designed for the Rosetta mission. It uses a scanning mirror and a refraction grating to disperse light from a narrow slit onto a detector array. The data collected by VIRTIS is structured in cubes containing one spectral dimension and two spatial dimensions, reflecting the sampling along the slit and the scanning mirror's movement.</description>
   </Instrument>
 </Product_Context>

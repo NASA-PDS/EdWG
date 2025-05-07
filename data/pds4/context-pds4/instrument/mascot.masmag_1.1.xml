@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:jaxa:darts:context:instrument:mascot.masmag</logical_identifier>
     <version_id>1.1</version_id>
-    <title>MASCOT Fluxgate Magnetometer</title>
+    <title>The MASCOT Fluxgate Magnetometer (MASMAG) for the Hayabusa2 MASCOT Rover</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -51,7 +51,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>MASCOT Fluxgate Magnetometer</name>
+    <name>The MASCOT Fluxgate Magnetometer (MASMAG) for the Hayabusa2 MASCOT Rover</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Magnetometer</ctli:type>

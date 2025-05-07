@@ -38,17 +38,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Vacuum Spectrograph</name>
+    <name>KPNO McMath-Pierce Solar Main Telescope (1.61m) Vacuum Spectrograph</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The third mirror of the McMath-Pierce main telescope sends light down into the observing room can be moved above three different positions. 
-            Two of these have a vacuum spectrograph beneath them, one of 18 meter deep and the other 4 meter deep with lower resolution but higher light
-            throughput. These two spectrographs are able to rotate to compensate for the rotation of the image caused by the use of a heliostat. 
-            The third position can only be equipped with a static optical table with no image rotation correction and is therefore rarely used.
-        </description>
+    <description>The McMath-Pierce main telescope's third mirror directs light to an observing room and can be positioned in three different locations. Two of these positions accommodate vacuum spectrographs—one 18 meters deep and the other 4 meters deep—which allow for image rotation compensation due to a heliostat. The third position features a static optical table without image rotation correction and is seldom utilized.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mars2020.edlcam</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Mars 2020 Entry, Descent, and Landing Camera Suite (EDL)</title>
+    <title>Mars 2020 Perseverance Rover Entry, Descent, and Landing Camera Suite</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -47,25 +47,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Entry, Descent, and Landing Camera Suite (EDL)</name>
+    <name>Mars 2020 Perseverance Rover Entry, Descent, and Landing Camera Suite</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
         <ctli:type>Microphone</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The Entry, Descent, and Landing Camera Suite (EDL) contains a
-            complement of camera systems to acquire visual data for the EDL
-            phase of the Mars 2020 mission.  It is comprised of seven (7)
-            commercially-available IR cameras pointed at various components of
-            the vehicle during EDL.  These components are:
-            (1) PUC: Parachute Uplook Camera (3 cameras)
-            (2) DDC: Descent Stage Downlook Camera (TBD)
-            (3) RUC: Rover Uplook Camera (TBD)
-            (4) RDC: Rover Downlook Camera (TBD)
-            The EDL Camera Suite also contains an omnidirectional microphone
-            capsule for capturing sound during EDL.
-        </description>
+    <description>The Mars 2020 Perseverance Rover Entry, Descent, and Landing Camera Suite (EDL) contains a complement of camera systems to acquire visual data for the EDL phase of the Mars 2020 mission. It is comprised of seven (7) commercially-available IR cameras pointed at various components of the vehicle during EDL. These components are: (1) PUC: Parachute Uplook Camera (3 cameras, mounted on the backshell, looking upward at parachute deployment and inflation), (2) DDC: Descent Stage Downlook Camera (mounted on the descent stage, looking downward as the rover was lowered during the skycrane maneuver), (3) RUC: Rover Uplook Camera (mounted on the rover deck, looking upward at the descent stage during the skycrane maneuver and descent stage separation), (4) RDC: Rover Downlook Camera (mounted beneath the rover, looking downward at the surface). The EDL Camera Suite also contains an omnidirectional microphone capsule for capturing sound during EDL.         </description>
   </Instrument>
 </Product_Context>
