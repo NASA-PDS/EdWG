@@ -16,6 +16,11 @@
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updates to title, name, description</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-09-03</modification_date>
         <version_id>2.0</version_id>
         <description>
@@ -38,11 +43,6 @@
                     extracted metadata from PDS3 catalog and
                     modified to comply with PDS4 Information Model
                 </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>2.1</version_id>
-        <descriptio. Description updated.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
