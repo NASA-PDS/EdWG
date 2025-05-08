@@ -36,6 +36,11 @@
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>2.1</version_id>
+        <description>Adding missing "instrument" references.</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-09-23</modification_date>
         <version_id>2.0</version_id>
         <description>Major changes per PDS Editorial Working Group efforts.</description>
@@ -49,16 +54,6 @@
         <modification_date>2021-02-12</modification_date>
         <version_id>1.0</version_id>
         <description>First version</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>2.0</version_id>
-        <descriptio.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>2.1</version_id>
-        <description>Adding missing "instrument" references.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
