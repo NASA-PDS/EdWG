@@ -10,14 +10,14 @@
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updates to title and name to support EdWG scrub efforts</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-09-03</modification_date>
         <version_id>2.0</version_id>
         <description>Major changes per PDS Editorial Working Group efforts.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>2.1</version_id>
-        <descriptio.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

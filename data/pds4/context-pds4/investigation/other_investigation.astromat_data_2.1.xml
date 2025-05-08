@@ -16,6 +16,11 @@
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updates to title, name, description, and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-08-22</modification_date>
         <version_id>2.0</version_id>
         <description>
@@ -29,11 +34,6 @@
           Geochemical data acquired by laboratory studies of extraterrestrial materials either recovered on Earth (i.e., meteorites) or brought to Earth via sample return missions. 
           Initial creation conducted in conjunction with the archiving of initial data provided by Kerstin Lehnert et al. via two PDART awards.         
         </description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>2.1</version_id>
-        <descriptio.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
