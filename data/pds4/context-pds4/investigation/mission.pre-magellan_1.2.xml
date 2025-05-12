@@ -55,11 +55,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:rss.p12</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pvmp.lp.las</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:orad.p12</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pvo.orad</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <!-- RChen/EN: SBN should give the telescope and facility LIDs that replace *:instrument_host:earth-based.*
@@ -81,7 +81,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </Internal_Reference>
 -->
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.p12</lid_reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.pvo</lid_reference>
       <reference_type>investigation_to_instrument_host</reference_type>
     </Internal_Reference>
     <Internal_Reference>
