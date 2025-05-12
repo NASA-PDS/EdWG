@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:vis.lcross</logical_identifier>
     <version_id>1.1</version_id>
-    <title>VISIBLE CAMERA for LCROSS</title>
+    <title>Lunar Crater Observation and Sensing Satellite Visible Camera</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -43,58 +43,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>VISIBLE CAMERA</name>
+    <name>Lunar Crater Observation and Sensing Satellite Visible Camera</name>
     <type>Imager</type>
     <!--RChen/EN was Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-  Instrument Overview
-  ===================
- 
-  The LCROSS visible camera (VIS) is a ruggedized NTSC color video
-  camera from the RocketCam(TM) camera family developed by Ecliptic
-  Enterprises, Inc.  The unit consists of a camera module and a
-  lens.  The camera's focal plane CCD sensor is 752 [H] x 582 [V]
-  pixel format, operating at 30 Hz (60 Fields/Sec).
- 
-  The flight unit's lens is a 12 mm (focal length), f/1.2 lens
-  providing a 30.1 deg [H] x 22.8 deg [V] (37.6 deg [Diagonal])
-  field-of-view.
- 
-  Interlaced NTSC fields are sampled by the Data Handling Unit (DHU)
-  at 720 x 243 resolution resulting in a final image resolution of
-  720 x 486 pixels.
- 
-  Each pixel is 24-bit RGB with 8 bits per color channel.  These
-  images are compressed using a lossy compression algorithm
-  performed by the Analog Devices 611 Video Codec set on 80% quality
-  and decompressed on the ground.
- 
-  The visible camera's peak power during operation is 2.9 W.  The
-  VIS camera has been fixed to an auto-gain/white balance setting.
- 
-  Scientific Objectives
-  =====================
- 
-  The VIS camera provides context imagery to support interpretation
-  of data collected by the other LCROSS instruments.
- 
-  Calibration
-  ===========
- 
-  There are no calibration files associated with this instrument.
- 
-  Operational Modes
-  =================
- 
-  The VIS camera has one operational mode: auto-gain and white
-  balance enabled.  The DHU can vary the rate at which images are
-  downlinked by discarding images from the 30 images/sec input
-  stream, and several different frame rates are used at different
-  points in the mission.
-
-        </description>
+    <description>The Lunar Crater Observation and Sensing Satellite (LCROSS) Visible Camera (VIS) was a ruggedized analog video camera with the primary scientific objectives of providing context imagery of the Centaur impact and resulting plume, monitoring the ejecta cloud morphology, and determining the visible grain categories. The camera comprised a focal plane CCD sensor of 752 x 582 pixels; each pixel was 24-bit RGB, 8 bits per color channel. It operated at 30 Hz (60 fields/sec). The f/1.2, 12 mm focal length lens provided a 30.1 x 22.8 degree field of view. Final image resolution, after sampling by the Data Handling Unit, was 720 x 486 pixels. The camera was mounted on the inboard side of the LCROSS R6 radiator panel with its aperture pointing in the +X spacecraft direction.</description>
   </Instrument>
 </Product_Context>

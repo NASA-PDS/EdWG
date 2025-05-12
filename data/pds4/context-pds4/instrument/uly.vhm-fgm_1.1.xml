@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:esa:psa:context:instrument:uly.vhm-fgm</logical_identifier>
     <version_id>1.1</version_id>
-    <title>VECTOR HELIUM/FLUXGATE MAGNETOMETERS for ULY</title>
+    <title>Vector Helium/Fluxgate Magnetometers for ULY</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -56,42 +56,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>VECTOR HELIUM/FLUXGATE MAGNETOMETERS</name>
+    <name>Vector Helium/Fluxgate Magnetometers for ULY</name>
     <type>Magnetometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
- 
-  Instrument Overview
-  ===================
-    (excerpted from: [BALOGHETAL1992A])
- 
-    Abstract.  -- A fundamental feature of the heliosphere is the
-    three dimensional structure of the interplanetary magnetic
-    field.  The magnetic field investigation on Ulysses, the first
-    space probe to explore the out-of-ecliptic and polar
-    heliosphere, aims at determining the large scale features and
-    gradients of the field, as well as the heliolatitude dependence
-    of interplanetary phenomena so far only observed near the
-    ecliptic plane.  The Ulysses magnetometer uses two sensors, one
-    a Vector Helium Magnetometer, the other a Fluxgate
-    Magnetometer.  Onboard data processing yields measurements of
-    the magnetic field vector with a time resolution up to 2
-    vectors/second and a sensitivity of about 10 pT.  Since the
-    switch-on of the instrument in flight on 25 October 1990, a
-    steady stream of observations have been made, indicating that
-    at this phase of the solar cycle the field is generally
-    disturbed: several shock waves and a large number of
-    discontinuities have been observed, as well as several periods
-    with apparently intense wave activity.  The paper gives a brief
-    summary of the scientific objectives of the investigation,
-    followed by a detailed description of the instrument and its
-    characteristics.  Examples of wave bursts, interplanetary
-    shocks and crossings of the heliospheric current sheet are
-    given to illustrate the observations made with the instrument.
- 
-
-        </description>
+    <description>The Ulysses space probe, the first to explore the out-of-ecliptic heliosphere, investigates the three-dimensional structure of the interplanetary magnetic field. Its magnetometer, comprising a Vector Helium Magnetometer and a Fluxgate Magnetometer, measures the magnetic field vector with high sensitivity and time resolution. Since its activation on October 25, 1990, it has continuously collected data, revealing disturbances in the magnetic field, including shock waves and wave activity, particularly during this phase of the solar cycle. The text summarizes the scientific goals of the investigation and provides a detailed instrument description, along with examples of observed phenomena.</description>
   </Instrument>
 </Product_Context>

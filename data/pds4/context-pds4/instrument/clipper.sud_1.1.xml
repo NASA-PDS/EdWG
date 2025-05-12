@@ -49,8 +49,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-159008</naif_instrument_id>
-    <description>
-      Tiny meteorites eject bits of Europa’s surface into space, and a subsurface ocean or reservoirs might vent material into space as plumes. SUDA will identify that material’s chemistry and area of origin, and offer clues to Europa’s ocean salinity.
-    </description>
+    <description>Tiny meteorites and subsurface ocean vents on Europa may eject surface materials into space. The SUDA instrument will analyze the chemistry and source of this material, providing insights into Europa's ocean salinity.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pvmp.lp.lcps</logical_identifier>
     <version_id>1.1</version_id>
-    <title>CLOUD PARTICLE SIZE SPECTOMETER for PIONEER VENUS LARGE PROBE</title>
+    <title>Cloud Particle Size Spectrometer for Pioneer Venus Large Probe</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PIONEER VENUS LARGE PROBE CLOUD PARTICLE SIZE SPECTROMETER</name>
+    <name>Cloud Particle Size Spectrometer for Pioneer Venus Large Probe</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
@@ -52,15 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
-    INSTRUMENT OVERVIEW
-    ===================
- 
-      The objective of this experiment was to measure Venus' cloud particle sizes and concentrations. A laser was used to illuminate 
-      cloud particles. Optical lenses imaged the particle shadows on arrays of detectors. The particle shadows were used to determine 
-      particle size and concentration. The flight sensor was similar to those flown in aircraft and balloons.
-      
-        </description>
+    <description>The Large Probe Cloud Particle Size Spectrometer (LCPS) of Pioneer Venus was an instrument with the objective to measure Venus' cloud particle sizes and concentrations. The LCPS comprised of a laser, spectrometers, a sapphire window, a system of prisms and lenses, array detectors, and electronics. The 2 mW He-Ne ruggedized Coherent 80-2T laser was used to illuminate cloud particles. The spectrometers are an Optical Array Spectrometer (OAS) that covers 5 to 500 microns particle range, and a Scattering Subrange Spectrometer (SSR), which covers a particle size range from 0.5 to 5 microns. Optical lenses imaged the particle shadows on arrays of detectors. The particle shadows were used to determine particle size and concentration. For low-rate channels, output data were registered to an 8-bit counter, while for high-rate channels it was a log compressed counter. The flight sensor was similar to those flown in aircraft and balloons.</description>
   </Instrument>
 </Product_Context>

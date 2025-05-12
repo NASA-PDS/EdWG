@@ -30,10 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is a generic CCD camera operating in visual wavelengths. The detector 
-    	specifications are not provided in the literature. The nominal wavelength range 
-    	of this instrument is centered on approximately 890nm. 
-    </description>
+    <description>The Generic Visual Wavelengths CCD Camera is designed for capturing high-quality images in the visible light spectrum. Utilizing a charge-coupled device (CCD) sensor, it provides clear and accurate imaging for various applications, including scientific research, surveillance, and industrial inspections.</description>
   </Instrument>
 </Product_Context>

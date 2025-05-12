@@ -52,13 +52,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>TRIAXIAL FLUXGATE MAGNETOMETER</name>
+    <name>TRIAXIAL FLUXGATE MAGNETOMETER for M10</name>
     <type>Magnetometer</type>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
-TBD
-
-        </description>
+    <description>The Triaxial Fluxgate Magnetometer for M10 is an instrument used to measure the magnetic field in three dimensions. It detects variations in the magnetic field around the spacecraft, providing essential data on the local space environment and magnetosphere.</description>
   </Instrument>
 </Product_Context>

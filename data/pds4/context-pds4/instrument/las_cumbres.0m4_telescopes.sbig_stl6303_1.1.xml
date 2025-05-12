@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:las_cumbres.0m4_telescopes.sbig_stl6303</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Las Cumbres 0.4m Telescopes - SBIG STL6303 Camera</title>
+    <title>Las Cumbres 0.4m Telescopes</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -37,15 +37,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>SBIG STL6303 Camera</name>
+    <name>Las Cumbres 0.4m Telescopes</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The SBIG STL6303 cameras in the Las Cumbres network are 3k x 2k, 9-micron CCD cameras with a 
-            29.2 x 19.5 arcminute field of view. 
-        </description>
+    <description>The Las Cumbres 0.4m Telescopes equipped with the SBIG STL6303 Camera are part of the Las Cumbres Observatory Global Telescope Network (LCOGT), which operates a network of telescopes around the world for astronomical research and education.</description>
   </Instrument>
 </Product_Context>

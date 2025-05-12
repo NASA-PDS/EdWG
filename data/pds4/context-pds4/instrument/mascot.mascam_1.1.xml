@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:jaxa:darts:context:instrument:mascot.mascam</logical_identifier>
     <version_id>1.1</version_id>
-    <title>MASCOT Camera</title>
+    <title>The MASCOT Camera (MASCAM) for the Hayabusa2 MASCOT Rover</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -52,7 +52,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>MASCOT Camera</name>
+    <name>The MASCOT Camera (MASCAM) for the Hayabusa2 MASCOT Rover</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>
@@ -60,6 +60,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-37730</naif_instrument_id>
-    <description>MASCAM (MAScot CAMera) has Wide-angle camera that takes pictures during the descent to the asteroid surface and will provide ground data for the instruments on board Hayabusa2 as well as contextual information for the instruments on board MASCOT. MASCAM has LED illumination devices in 4 colors, red, gren, blue, and near-infrared. These LEDs used in night time and acquire different reflectance image in wavelength.</description>
+    <description>The MASCAM (MAScot CAMera) is Wide-angle camera that will take pictures during the descent to the asteroid surface, and will provide ground data for the instruments on board Hayabusa2 as well as contextual information for the instruments on board the MASCOT rover. The MASCAM has LED illumination devices in 4 colors: red, green, blue, and near-infrared. These LEDs are used in night time and acquire different reflectance images in wavelength.</description>
   </Instrument>
 </Product_Context>

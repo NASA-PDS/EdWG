@@ -38,16 +38,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Photdoc Camera</name>
+    <name>Portable High-Speed Occulation Telescope GJON Camera</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-           High-speed photmetric camera that has a 512x1024 frame-transfer CCD. Only one half of
-           device is receptive to light. The camera is a standard PhotonMax camera sold by
-           Princeton Instruments.
-        </description>
+    <description>            High-speed photmetric camera that has a 512x1024 frame-transfer CCD. Only one half of            device is receptive to light. The camera is a standard PhotonMax camera sold by            Princeton Instruments.         </description>
   </Instrument>
 </Product_Context>

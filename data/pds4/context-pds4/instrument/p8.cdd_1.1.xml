@@ -51,13 +51,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_text>Berg, O. E. and F. F. Richardson, The Pioneer 8 cosmic dust experiment, NASA TN D-5267, published by NASA, Washington, D.C., 1969.</reference_text>
     </External_Reference>
     <External_Reference>
-      <doi>110.1063/1.1683778</doi>
+      <doi>10.1063/1.1683778</doi>
       <reference_text>Berg, O. E. and F. F. Richardson, The Pioneer 8 cosmic dust experiment, Review of Scientific Instruments, Volume 40, pp. 1333-1337, 1969.</reference_text>
     </External_Reference>
   </Reference_List>
   <Instrument>
     <name>Pioneer 8 Cosmic Dust Detector</name>
     <type>Dust</type>
-    <description>The Pioneer 8 Cosmic Dust Detector (CDD) was designed to (1) measure the cosmic-dust flux density in the solar system, (2) determine the distribution of cosmic dust concentrations in the earth's orbit, (3) determine the gradient, flux density, and speed of particles in meteor streams, and (4) perform an in-flight control experiment on the reliability of the microphone as a cosmic-dust sensor. This instrument was identical to the CDD flown on Pioneer 9.</description>
+    <description>The Pioneer 8 Cosmic Dust Detector (CDD) was designed to (1) measure the cosmic-dust flux density in the solar system, (2) determine the distribution of cosmic dust concentrations in the earth's orbit, (3) determine the gradient, flux density, and speed of particles in meteor streams, and (4) perform an in-flight control experiment on the reliability of the microphone as a cosmic-dust sensor.</description>
   </Instrument>
 </Product_Context>

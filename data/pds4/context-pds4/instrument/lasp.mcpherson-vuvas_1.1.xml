@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:lasp.mcpherson-vuvas</logical_identifier>
     <version_id>1.1</version_id>
-    <title>McPherson VUVAS</title>
+    <title>Laboratory for Atmospheric and Space Physics McPherson Vacuum UltraViolet Analytical Spectrophotometer</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -40,30 +40,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>McPherson VUVAS</name>
+    <name>Laboratory for Atmospheric and Space Physics McPherson Vacuum UltraViolet Analytical Spectrophotometer</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
         <ctli:subtype>UV-VIS</ctli:subtype>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            Seya-Namioka scanning-grating monochromator (McPherson, Inc. model 234/302) Vacuum UltraViolet Analytical 
-            Spectrophotometer, https://mcphersoninc.com/pdf/234302.pdf
-            
-            Reflectance measurements acquired at LASP were conducted using a customized f/4.5 modified Seya-Namioka 
-            scanning-grating monochromator (McPherson, Inc. model 234/302) Vacuum UltraViolet Analytical Spectrophotometer 
-            (VUVAS). Data for this work were acquired over the spectral range of far-UV into the visible (VIS) range (usable 
-            from 0.12 to 0.6 um; 120 to 600 nm) with a spectral sampling interval of 2 nm (4 nm spectral resolution). The 
-            incidence, emission, and phase angles were 30º, 0º, and 30º, respectively. The sample cup was 1.9 cm in 
-            diameter, and 0.6 cm deep.  Each complete CU spectrum is a composite of four spectra obtained within the 
-            narrower, overlapping ranges of 120-240 nm, 210-320 nm, 290-400 nm, and 360-600 nm, under vacuum conditions. 
-            This strategy is required due to large variations in lamp brightness and instrument sensitivity, necessitating 
-            optimization of the photomultiplier tube (PMT) high voltage (HV) in each range. The lamp was either a 30 W 
-            deuterium (D2) lamp or a 100 W quartz-tungsten-halogen (QTH) lamp. A choice of two gratings with different 
-            ruling densities, spectral coverage, and dispersion was selected. The detector was a tilted scintillator (sodium 
-            salicylate) plate coupled to a reflective light pipe, feeding a photomultiplier tube (PMT) that was located 
-            outside the chamber.
-        </description>
+    <description>The Laboratory for Atmospheric and Space Physics (LASP) McPherson Vacuum UltraViolet Analytical Spectrophotometer (VUVAS) is a Seya-Namioka scanning-grating monochromator (McPherson, Inc. model 234/302, https://mcphersoninc.com/pdf/234302.pdf). It is designed for high-performance analysis in the ultraviolet spectrum, typically ranging from about 100 nm to 200 nm. It combines the capabilities of a monochromator (Model 234) and a detector system (Model 302) for precise measurement of light in the vacuum UV region.  </description>
   </Instrument>
 </Product_Context>

@@ -57,19 +57,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Perseverance</name>
+    <name>Mars 2020 Perseverance Rover</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spacecraft Sensor</ctli:type>
         <ctli:type>Surface Tool</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The Mars 2020 mission placed the rover Perseverance on the surface of Mars in Jezero Crater on
-            February 18, 2021. The rover's instruments search for signs of habitable conditions on Mars in 
-            the ancient past and signs of past microbial life. The rover uses a drill to collect samples 
-            for return to Earth by a future mission. This context product relates to the rover as a whole, 
-            rather than the individual instruments.
-        </description>
+    <description>The Mars 2020 mission placed the rover Perseverance on the surface of Mars in Jezero Crater on February 18, 2021. The rover's instruments search for signs of habitable conditions on Mars in the ancient past and signs of past microbial life. The rover uses a drill to collect samples for return to Earth by a future mission.        </description>
   </Instrument>
 </Product_Context>

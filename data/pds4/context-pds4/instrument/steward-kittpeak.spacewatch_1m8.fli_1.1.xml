@@ -40,9 +40,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The instrument is a Finger Lakes Instruments ProLine Model PL3041 wth a Fairchild
-3041 thinned, backside illuminated, and broad-band antireflection coated CCD with
-2048x2048 pixels. It has a pixel size of 15 micron, image scale of 0.6
-arcseconds/pixel, and a field of view of 20 arcminutes x 20 arcminutes.</description>
+    <description>The Spacewatch 1.8m FLI Camera is an astronomical camera used on the Spacewatch Telescope, which is located at the Kitt Peak National Observatory (KPNO) in Arizona. The telescope is primarily used for observations of near-Earth objects (NEOs), including asteroids and comets, as well as other astronomical research. The FLI Camera (manufactured by Finger Lakes Instrumentation) is an advanced imaging device designed for use with the telescope.</description>
   </Instrument>
 </Product_Context>

@@ -30,10 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Photometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is a generic high speed photometer operating in visual wavelengths. The detector 
-    	material is not specified in the literature. The nominal wavelength range of this instrument 
-    	is centered on approximately 734nm. 
-    </description>
+    <description>The Generic Visual Wavelengths High-Speed Photometer is designed to detect and measure rapid fluctuations in light intensity within the visible spectrum. It is used for high-speed photometric measurements in various scientific, industrial, and engineering applications, where real-time data is crucial for accurate analysis.</description>
   </Instrument>
 </Product_Context>

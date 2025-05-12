@@ -43,13 +43,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>OVIRS</name>
+    <name>The OSIRIS-REx Visible and Near InfraRed Spectrometer (OVIRS) aboard the OSIRIS-REx spacecraft</name>
     <type>Spectrometer</type>
-    <description>The OSIRIS Visible and near-IR Spectrometer (OVIRS) is a point spectrometer with a 4-mrad field of view (FOV)
-         that provides spectra over the wavelength range of 0.4 – 4.3 μm to map the visible and near infrared characteristics of 
-         the surface of the asteroid (101955) Bennu. It employs wedged filters (also called a linear variable filter) to provide 
-         the spectrum. A wedged filter is a two-dimensional spectral filter in which the wavelength of transmitted light varies in 
-         a well-defined fashion with position along one of the spatial dimensions.
-        </description>
+    <description>The OSIRIS-REx Visible and Near Infrared Spectrometer (OVIRS) is a point spectrometer with linear variable (wedge) filter. The instrument has a 4 mrad field of view and spectral coverage of 0.4 to 4.3 microns, and is used to map the surface characteristics of the target in visible and near-infrared wavelengths.</description>
   </Instrument>
 </Product_Context>

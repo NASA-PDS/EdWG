@@ -40,12 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>OTES</name>
+    <name>The OSIRIS-REx Thermal Emission Spectrometer (OTES) aboard the OSIRIS-REx spacecraft</name>
     <type>Spectrometer</type>
-    <description>The OSIRIS-REx Thermal Emission Spectrometer (OTES) is a small infrared (4-50 µm) point spectrometer that
-         acquires an interferogram every 2 seconds. Interferograms are processed on the ground and converted to infrared spectra. 
-         OTES uses space and internal calibration target views for calibration. OTES will map Bennu and the sample site from a 
-         distance of 7 to 0.5 km with 55 to 4 m resolution using spacecraft and asteroid motion. 
-        </description>
+    <description>The OSIRIS-REx Thermal Emission Spectrometer (OTES) is an infrared point spectrometer operating in the 4-50 micron range that collects an interferogram every 2 seconds. It can generate maps from a distances of 7 down to 0.5 km from the surface with 55 to 4m resolution. The interferograms returned are converted to infrared spectra on the ground.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:hp3.insight</logical_identifier>
     <version_id>1.1</version_id>
-    <title>InSight Heat Flow and Physical Properties Package</title>
+    <title>InSight Mars Lander Heat Flow and Physical Properties Package</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -39,14 +39,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Heat Flow and Physical Properties Package</name>
+    <name>InSight Mars Lander Heat Flow and Physical Properties Package</name>
     <type>Regolith Properties</type>
     <subtype>Thermal Probe</subtype>
-    <description>The Heat Flow and Physical Properties Package (HP3) will make in-situ measurements
-        of the heat flow on Mars. The package includes a "mole", which will hammer itself into the 
-        subsurface for up to 5 meters. The mole is attached to a tether that contains temperature
-        sensors to determine the thermal gradiant. The mole is also equipped with heating foils, 
-        which will be used to determine the thermal conductivity of the regolith.
-        </description>
+    <description>The InSight Mars Lander Heat Flow and Physical Properties Package (HP3) was designed to make in-situ measurements of the heat flow on Mars. The package included a "mole", which was designed to hammer itself into the subsurface for up to 5 meters. However, HP3 was only able to drill a few centimeters on Mars. The mole was attached to a tether that contains temperature sensors to determine the thermal gradient. The mole was also equipped with heating foils, which was to be used to determine the thermal conductivity of the regolith.</description>
   </Instrument>
 </Product_Context>

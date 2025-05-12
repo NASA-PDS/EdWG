@@ -16,6 +16,11 @@
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updates to title, name, description, and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-09-16</modification_date>
         <version_id>2.0</version_id>
         <description>
@@ -37,16 +42,6 @@
                     changed all lidvid_reference to lid_reference
                 </description>
       </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>2.0</version_id>
-        <descriptio.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-22</modification_date>
-        <version_id>2.1</version_id>
-        <description>Adding missing "instrument" references.</description>
-      </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
@@ -67,10 +62,6 @@
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:aspera-3.mex</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:esa:psa:context:instrument:mex.hrsc</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
@@ -84,10 +75,6 @@
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:esa:psa:context:instrument:mex.omega</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:pfs.mex</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

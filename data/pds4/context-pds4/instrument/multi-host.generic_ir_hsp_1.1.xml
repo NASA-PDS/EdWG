@@ -30,11 +30,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Photometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is a generic high speed photometer operating in the IR, several of which were used at various observatories in 
-    	the latter part of the 20th century. The detector material is not specified in the literature. However, we can say this 
-    	is NOT an indium antimonide (InSb) detector which was a common infrared detector material in wide use at the time. 
-    	The nominal wavelength range of this instrument is centered on approximately 880 nm which is inconsistent with InSb. 
-    </description>
+    <description>The Generic Infrared High-Speed Photometer is designed to measure rapid changes in infrared light intensity. This instrument is particularly useful in fields like astrophysics, remote sensing, and material analysis, providing fast, accurate measurements in the infrared spectrum.</description>
   </Instrument>
 </Product_Context>

@@ -58,21 +58,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:grav.jno</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:waves.jno</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
+    <!-- 2025-05-12 Note: We do not have this context product yet -->
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:jade.jno</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
+    <!-- 2025-05-12 Note: We do not have this context product yet -->
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:jedi.jno</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
+    <!-- 2025-05-12 Note: We do not have this context product yet -->
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:junocam.jno</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
@@ -85,6 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lid_reference>urn:nasa:pds:context:instrument:fgm.jno</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
+    <!-- 2025-05-12 Note: We do not have this context product yet -->
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:rmi.jno</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>

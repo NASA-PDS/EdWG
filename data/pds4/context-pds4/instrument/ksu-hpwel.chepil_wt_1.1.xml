@@ -46,9 +46,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Chepil Wind Tunnel at The High Plains Wind Erosion Laboratory, Kansas State University</name>
     <type>Atmospheric Sciences</type>
-    <description>
-            Historical wind tunnel build by W.S. Chepil at Kansas State University. The tunnel was 17.07 m in length with a cross-section
-            area of 0.91 m x 0.91 m, with a boundary layer depth of approximately 0.30 m.
-       </description>
+    <description>The Chepil Wind Tunnel at the High Plains Wind Erosion Laboratory (HPWEL) at Kansas State University is a research facility designed to study wind erosion, soil movement, and the effects of wind on various surface materials, particularly in agricultural and desert environments.</description>
   </Instrument>
 </Product_Context>

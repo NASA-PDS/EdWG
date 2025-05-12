@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:nis.near</logical_identifier>
     <version_id>1.2</version_id>
-    <title>NEAR INFRARED SPECTROMETER for NEAR</title>
+    <title>The Near Infrared Spectrometer (NIS) for NEAR Shoemaker</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -71,33 +71,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>NEAR INFRARED SPECTROMETER</name>
+    <name>The Near Infrared Spectrometer (NIS) for NEAR Shoemaker</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-93024, -93023, -93022, -93021</naif_instrument_id>
-    <description>
- 
- The NIS measured the spectrum of sunlight reflected from Eros     
- in the near-infrared range from 0.8 to 2.6 mm in 64 channels to       
- determine the distribution and abundance of surface minerals like     
- olivine and pyroxene.  This grating spectrometer disperses the        
- light from the slit FOV (0.38 x 0.76 deg in its narrow position       
- and 0.76 x 0.76 deg in the wide position) across a pair of            
- passively cooled one-dimensional array detectors, one a germanium     
- array covering the lower wavelengths 0.8 to 1.5 mm and the other      
- an indium/gallium- arsenide array covering 1.3 to 2.6 mm. The slit    
- can be closed for dark current measurement. The NIS has a scan        
- mirror that enables it to view the common boresight direction         
- (within the MSI FOV) or directions more than 90 deg away. Spectral    
- images can be built up by a combination of scan mirror and            
- spacecraft motions. In addition, the NIS has a gold calibration       
- target that can be positioned to scatter sunlight into the            
- instrument and provide a quantitative, in-flight spectral             
- calibration.  
-
-        </description>
+    <description>The Near Infrared Spectrometer (NIS) was a grating infrared spectrometer with two passively cooled detectors. It has two selectable slit sizes - narrow (0.36 x 0.76 degrees) or wide (0.76 x 0.76 deg). A beam splitter passed wavelengths in the range (1348-2732 nm) to a 32-element indium-gallium-arsenide (InGaAr) array with a 43.1nm bandwidth per channel, while wavelengths in the range (804-1506nm) were directed to a 32-element germanium (Ge) array with a 21.6nm bandwidth per channel. NIS collected more than spectra on more than 60% of the surface of (433) Eros.</description>
   </Instrument>
 </Product_Context>

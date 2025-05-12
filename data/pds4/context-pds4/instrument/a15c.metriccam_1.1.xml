@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:metriccam.a15c</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Apollo 15 Metric (Mapping) Camera</title>
+    <title>Apollo 15 Command and Service Module Metric (Mapping) Camera</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -66,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Apollo 15 Metric (Mapping) Camera</name>
+    <name>Apollo 15 Command and Service Module Metric (Mapping) Camera</name>
     <type>Imager</type>
     <naif_instrument_id>-915240</naif_instrument_id>
     <serial_number>not applicable</serial_number>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:fuvs.a17c</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Apollo 17 Far-Ultraviolet Spectrometer (FUVS)</title>
+    <title>Apollo 17 Command and Service Module Far-Ultraviolet Spectrometer</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -75,8 +75,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Apollo 17 Far-Ultraviolet Spectrometer (FUVS)</name>
+    <name>Apollo 17 Command and Service Module Far-Ultraviolet Spectrometer</name>
     <type>Spectrometer</type>
-    <description>Apollo 17 Far-Ultraviolet Spectrometer (FUVS), carried on board the Command and Servicing Module, measured the radiation intensity as a function of wavelength from 1180 to 1680 Angstrom. The prime objective of the scanning spectrometer was to measure the composition of the lunar atmosphere from orbit.  Other observations included the lunar surface, zodiacal light, solar atmosphere emissions, earth emissions, and galactic and stellar emissions.</description>
+    <description>Apollo 17 Far-Ultraviolet Spectrometer (FUVS), carried on board the Command and Service Module (CSM), measured the radiation intensity as a function of wavelength from 1180 to 1680 Angstrom. The prime objective of the scanning spectrometer was to measure the composition of the lunar atmosphere from orbit. Other observations included the lunar surface, zodiacal light, solar atmosphere emissions, earth emissions, and galactic and stellar emissions.</description>
   </Instrument>
 </Product_Context>

@@ -32,8 +32,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>FLI--FL-PL3041-1-BB</name>
     <type>Imager</type>
-    <description>Finger Lakes Instrumentation Pro-Line
-Fairchild Imaging CCD 3041B1
-back-illuminated, 2048x2048, pixel size 15 micron</description>
+    <description>Finger Lakes Instrumentation Pro-Line Fairchild Imaging CCD 3041B1 back-illuminated, 2048x2048, pixel size 15 micron</description>
   </Instrument>
 </Product_Context>

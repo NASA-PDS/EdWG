@@ -44,8 +44,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Camera</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            High-speed CCD camera with a 1024x1024 array of 13 micrometers pixels.
-        </description>
+    <description>             High-speed CCD camera with a 1024x1024 array of 13 micrometers pixels.         </description>
   </Instrument>
 </Product_Context>

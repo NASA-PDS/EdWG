@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:lucy.llorri</logical_identifier>
     <version_id>1.2</version_id>
-    <title>The Lucy LOng Range Reconnaissance Imager (L'LORRI) aboard the Lucy spacecraft</title>
+    <title>The LOng Range Reconnaissance Imager (L'LORRI) for Lucy</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Lucy Long Range Reconnaissance Imager (L'LORRI)</name>
+    <name>The LOng Range Reconnaissance Imager (L'LORRI) for Lucy</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
@@ -52,8 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-49</naif_instrument_id>
-    <description>The L’LORRI instrument provides the highest-resolution imaging for the Lucy mission. The panchromatic images will address seven of our 17 Level 1 science requirements including
-           searching for satellites, determining the size frequency distribution of craters, stereo imaging, andshape reconstruction. The L’LORRI instrument will also be used for optical navigation to our targets.
-        </description>
+    <description>The Long Range Reconnaissance Imager (L'LORRI) is a panchromatic detector at the focal plane of a Ritchey-Chretian telescope. It provides the highest-resolution imaging for the Lucy mission, with a wavelength range of 450 - 850 nm. In addition to imaging the mission targets, L'LORRI will be used for optical navigation.</description>
   </Instrument>
 </Product_Context>

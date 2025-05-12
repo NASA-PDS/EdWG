@@ -52,14 +52,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PLASMA SCIENCE EXPERIMENT</name>
+    <name>PLASMA SCIENCE EXPERIMENT for M10</name>
     <type>Spectrometer</type>
     <!--RChen/EN was Plasma Analyzer. From JSH's xl file-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
-TBD
-
-        </description>
+    <description>The Plasma Science Experiment for M10 is designed to analyze the properties of plasma in the spacecraft’s vicinity. It measures plasma density, temperature, and composition, contributing to our understanding of space weather and the interaction of the spacecraft with surrounding plasma.</description>
   </Instrument>
 </Product_Context>

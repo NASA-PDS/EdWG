@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:nh.mvic</logical_identifier>
     <version_id>2.1</version_id>
-    <title>Multispectral Visible Imaging Camera (MVIC) Instrument on New Horizons</title>
+    <title>The Multispectral Visible Imaging Camera (MVIC) for New Horizons</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -100,24 +100,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Multispectral Visible Imaging Camera</name>
+    <name>The Multispectral Visible Imaging Camera (MVIC) for New Horizons</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    MVIC is an imager that operates at both visible and near-infrared
-    wavelengths using seven separate Charge-Coupled Device detectors
-    (CCDs).  Four CCDs have color filters (methane, red, blue and
-    near-infrared) for producing color maps and three CCDs have
-    panchromatic filters for observations where maximum sensitivity to
-    faint light levels is required.  In all cases, the light passes from
-    the telescope through a filter and is focused onto the CCDs.
- 
-    MVIC is integrated with another instrument, LEISA, into a composite
-    instrument named Ralph, which supplies A/D conversion, command and
-    data handling, and power to both MVIC and LEISA.
-        </description>
+    <description>The Multispectral Visible Imaging Camera (MVIC) of the Ralph instrument is an imager that operates at both visible and near-infrared wavelengths using seven separate Charge-Coupled Device detectors (CCDs). Four CCDs have color filters (methane, red, blue and near-infrared) for producing color maps and three CCDs have panchromatic filters for observations where maximum sensitivity to faint light levels is required. In all cases, the light passes from the telescope through a filter and is focused onto the CCDs.</description>
   </Instrument>
 </Product_Context>

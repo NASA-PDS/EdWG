@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:lidar.hay</logical_identifier>
     <version_id>2.1</version_id>
-    <title>LIght Detection And Ranging for Hayabusa</title>
+    <title>The Light Detection and Ranging (LIDAR) Instrument for Hayabusa</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -82,7 +82,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>LIght Detection And Ranging (LIDAR)</name>
+    <name>The Light Detection and Ranging (LIDAR) Instrument for Hayabusa</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Altimeter</ctli:type>
@@ -90,8 +90,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-130300</naif_instrument_id>
-    <description>The HAYABUSA spacecraft included a LIght Detection and Ranging  (LIDAR) altimeter. 
-            The primary objective of LIDAR was to establish  the range between the HAYABUSA spacecraft and the asteroid Itokawa  
-            for navigation purposes during the surveying and collection phases  of the mission.</description>
+    <description>Light Detection and Ranging (LiDAR) instruments use the time-of-flight measurement of a laser pulse reflected from a surface to determine topography. The Hayabusa LiDAR used a 1064 nm yttrium-aluminum-garnet-neodymium (YAG-Nd) laser. The beamwidth was 0.04 x 0.097 degrees, giving a footprint at 7 km altitude of about 5 x 12 meters.</description>
   </Instrument>
 </Product_Context>

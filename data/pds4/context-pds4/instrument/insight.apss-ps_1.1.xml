@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:apss-ps.insight</logical_identifier>
     <version_id>1.1</version_id>
-    <title>InSight Auxiliary Payload Sensor Subsystem (APSS) Pressure Sensor (PS)</title>
+    <title>InSight Mars Lander Auxiliary Payload Sensor Subsystem Pressure Sensor</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -42,13 +42,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Auxiliary Payload Sensor Subsystem Pressure Sensor</name>
+    <name>InSight Mars Lander Auxiliary Payload Sensor Subsystem Pressure Sensor</name>
     <type>Atmospheric Sciences</type>
     <subtype>Meteorology</subtype>
-    <description>The PS instrument is part of the InSight Auxiliary Payload Sensor Subsystem (APSS), 
-            in charge of collecting environmental data in support of the SEIS instrument, also onboard the InSight lander, 
-            as well as to provide helpful data for the safe deployment of the hardware to the Martian surface. Data from 
-            PS will be used by SEIS to reduce and decorrelate atmospheric effects from seismic signals.
-        </description>
+    <description>The Pressure Sensor (PS) instrument was part of the InSight Mars Lander Auxiliary Payload Sensor Subsystem (APSS), in charge of collecting environmental data in support of the SEIS instrument, also onboard the InSight lander, as well as to provide helpful data for the safe deployment of the hardware to the Martian surface. Data from PS was used by SEIS to reduce and decorrelate atmospheric effects from seismic signals.</description>
   </Instrument>
 </Product_Context>

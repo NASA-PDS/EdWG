@@ -16,6 +16,11 @@
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
+        <modification_date>2024-10-22</modification_date>
+        <version_id>2.1</version_id>
+        <description>Updates to title, name, description, and references</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2024-09-25</modification_date>
         <version_id>2.0</version_id>
         <description>Major changes per PDS Editorial Working Group efforts</description>
@@ -24,11 +29,6 @@
         <modification_date>2024-05-02</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version.</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2024-10-09</modification_date>
-        <version_id>2.0</version_id>
-        <descriptio.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

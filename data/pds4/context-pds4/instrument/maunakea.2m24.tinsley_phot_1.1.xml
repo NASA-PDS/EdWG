@@ -54,8 +54,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Photometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>The Tinsley photometer is a single-channel, dry-ice cooled, RCA C31034A GaAs
-photomultiplier used at Mauna Kea Observatory.
-        </description>
+    <description>The Tinsley photometer is a single-channel, dry-ice cooled, RCA C31034A GaAs photomultiplier used at Mauna Kea Observatory.         </description>
   </Instrument>
 </Product_Context>

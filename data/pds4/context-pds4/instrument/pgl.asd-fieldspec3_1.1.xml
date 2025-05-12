@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:pgl.asd-fieldspec3</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Analytical Spectral Devices FieldSpec 3</title>
+    <title>Planetary Geosciences Laboratory Analytical Spectral Devices FieldSpec 3</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -40,27 +40,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Analytical Spectral Devices FieldSpec 3</name>
+    <name>Planetary Geosciences Laboratory Analytical Spectral Devices FieldSpec 3</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
         <ctli:subtype>VNIR</ctli:subtype>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            Analytical Spectral Devices FieldSpec 3 
-            https://www.malvernpanalytical.com/en/products/product-range/asd-range/fieldspec-range 
-            {website only has info for upgraded FieldSpec 4}
-            
-            Manual for FieldSpec 3 available at
-            http://www.geo-informatie.nl/courses/grs60312/material2017/manuals/600540-JFieldSpec3UserManual.pdf
-            
-            The 0.35-2.5 um range was acquired at ambient room temperature and pressure with an Analytical Spectral Devices 
-            FieldSpec 3 with fiber optic cable bundle. Spectral resolution was 3 nm FWHM in the 0.35-1.0 um range and 10 nm 
-            FWHM resolution from 1.0-2.5 um. Geometry (biconical) of the measurements was an incidence of 0º and emission 
-            angle of 30º, for a phase angle of 30º. Illumination was provided by a bare quartz halogen full spectrum bulb 
-            40 cm above the sample. Measurements were taken relative to a flat Spectralon standard that was positioned at 
-            the same height as the sample.           
-        </description>
+    <description>The Analytical Spectral Devices (ASD) FieldSpec 3 is located at the Planetary Geosciences Laboratory at the Planetary Science Institute in Tucson, AZ. It is a high-performance, portable instrument used for field-based spectral measurements. It captures data across a broad wavelength range, from 350 to 2500 nm, covering the visible, near-infrared (NIR), and shortwave infrared (SWIR) regions. The FieldSpec 3 is commonly used in applications like remote sensing, environmental monitoring, and geological surveying to analyze materials, vegetation, and land surfaces. Its rugged design allows for reliable, precise data collection in challenging outdoor environments.                 </description>
   </Instrument>
 </Product_Context>

@@ -39,14 +39,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Lucy Terminal Tracking Cameras (TTCAM)</name>
+    <name>The Lucy Terminal Tracking Cameras (TTCAM) aboard the Lucy spacecraft</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-49</naif_instrument_id>
-    <description>Lucy has two terminal tracking cameras (TTCAM) on board to provide autonomous pointing of the instrument pointing platform to each Trojan near closest approach. This system is part of the spacecraft’s guidance and control system and will also collect monochromatic (475–625 nm bandpass) images that address our science objective to determine the shape of the Trojan asteroids.
-        </description>
+    <description>Lucy has two terminal tracking cameras (TTCAM) on board to provide autonomous pointing of the instrument pointing platform to each Trojan near closest approach. This system is part of the spacecraft's guidance and control system and will also collect monochromatic (475 - 625 nm bandpass) images that address our science objective to determine the shape of the Trojan asteroids.         </description>
   </Instrument>
 </Product_Context>

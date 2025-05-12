@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:mast_left.msl</logical_identifier>
     <version_id>1.1</version_id>
-    <title>MAST CAMERA LEFT for MSL</title>
+    <title>Mars Science Laboratory Curiosity Rover Mast Camera Left</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -49,14 +49,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>MAST CAMERA LEFT</name>
+    <name>Mars Science Laboratory Curiosity Rover Mast Camera Left</name>
     <type>Imager</type>
     <!--RChen/EN was Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
-SEE INSTRUMENT OVERVIEW BELOW
-
-        </description>
+    <description>The Mars Science Laboratory (MSL) Curiosity Rover Mast-mounted Cameras (Mastcams), located on the rover's Remote Sensing Mast (RSM), are a high-resolution imaging system designed to capture detailed color images of the Martian surface. They use a combination of multiple filters to produce images in various wavelengths, allowing scientists to study the planet's geology, climate, and atmosphere. Mastcam also supports scientific investigations by documenting the rover's surroundings and providing context for data from other instruments. </description>
   </Instrument>
 </Product_Context>

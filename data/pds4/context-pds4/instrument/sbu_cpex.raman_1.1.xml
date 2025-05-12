@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:sbu_cpex.raman</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Raman Spectrometer</title>
+    <title>Center for Planetary Exploration at Stony Brook University WITec Alpha300R Raman Imaging Spectrometer</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -47,16 +47,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Raman Spectrometer</name>
+    <name>Center for Planetary Exploration at Stony Brook University WITec Alpha300R Raman Imaging Spectrometer</name>
     <type>Spectrometer</type>
     <subtype>Raman Spectrometer</subtype>
-    <description>
-            Micro-Raman spectra for this project were obtained by the Center for Planetary Exploration at 
-            Stony Brook University using a a WiTec alpha300R confocal imaging system equipped with 532 nm 
-            neodymium: yttrium/aluminum/garnet (Nd:YAG) laser with 2.24 mW nominal power at the sample 
-            surface, and a 50X (NA = 0.8) objective (spot size of 763 nm). Each analysis consisted of 240 
-            one-second integrations that were averaged. For Raman and micro-FTIR spot analyses, multiple 
-            locations were analyzed per sample. 
-        </description>
+    <description>The WITec Alpha300R Raman Imaging Spectrometer is located at the Center for Planetary Exploration at Stony Brook University. It features 2 laser excitation sources (532 nm and 785 nm), an advanced confocal microscope, 2 high throughput spectrometers, and software capable of powerful multivariate analysis. It acquires spectra from 3500-100 Δcm-1 and is equipped with multiple objective lenses, allowing for spatial resolutions between several microns and 350 nm/pixel.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:ladee.uvs</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Ultraviolet-Visible Spectrometer for LADEE (UVS)</title>
+    <title>Ultraviolet-Visible Spectrometer for LADEE</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -55,18 +55,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Ultraviolet-Visible Spectrometer</name>
+    <name>Ultraviolet-Visible Spectrometer for LADEE</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-The UVS instrument carried aboard the LADEE mission performed spectral
-characterization of the lunar atmosphere, including gases and dust at several
-wavelengths.  This characterization entailed measuring the relative
-concentrations of certain species, including Na and K, and noting the spatial
-and temporal distributions of those species.
-    </description>
+    <description>The Ultraviolet and Visible Light Spectrometer (UVS) instrument carried aboard the LADEE mission performed spectral characterization of the lunar atmosphere, including gases and dust at several wavelengths (wavelength range 230 to 810 nm). The spectrometer, which has no moving parts, is a symmetric f/4 crossed Czerny-Turner spectrometer with a 1 inch aperture. This characterization entailed measuring the relative concentrations of certain species, including Na and K, and noting the spatial and temporal distributions of those species. Every spectrum obtained was imaged onto a 1044x64 pixel CCD detector array and then binned within the CCD to obtain a deliverable 1x1044 pixel spectrum.</description>
   </Instrument>
 </Product_Context>

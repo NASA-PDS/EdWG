@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:sbu_cpex.ftir</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Nicolet iN10MX FTIR microscope</title>
+    <title>Center for Planetary Exploration at Stony Brook University Nicolet iN10MX FTIR Microscope</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -47,22 +47,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Nicolet iN10MX FTIR microscope</name>
+    <name>Center for Planetary Exploration at Stony Brook University Nicolet iN10MX FTIR Microscope</name>
     <type>Microscope</type>
     <subtype>FTIR Microscope</subtype>
-    <description>
-            The fourier transform infrared (FTIR) spectra for this project were obtained by the Center for 
-            Planetary Exploration at Stony Brook University using a Nicolet iN10MX FTIR microscope. 
-            Micro-FTIR hyperspectral maps of thin sections were acquired using a liquid nitrogen-cooled 
-            HgCdTe (MCT) detector, generating hyperspectral image cubes between 7,000 and 715 cm^-1 
-            (1.4–14.0 μm) at 25 μm/pixel and 8 cm^-1 spectral sampling. Spectra were normalized to 100% 
-            maximum reflectance for ease of comparison. Point spectra were acquired with a deuterated 
-            triglycine sulfate (DTGS) detector, with a spectral range of 400–4,000 cm^-1 (2.5–25 μm). 
-            For these analyses, we chose a spot size of 100 × 100 μm representing a single spot within 
-            the grain, with spectral sampling of 8 cm^-1. Each spectrum represented accumulations of 1,024 
-            scans. For both point spectra and hyperspectral maps, backgrounds were collected on gold mirrors 
-            prior to measuring the sample. Background analyses used the same spot size and acquisition times 
-            as samples. 
-        </description>
+    <description>The Nicolet iN10MX FTIR microscope is located at the Center for Planetary Exploration at Stony Brook University. The infrared imaging microscope features a liquid nitrogen-cooled HgCdTe (MCT) 16 pixel linear array that can acquire hyperspectral image cubes between 7000 and 715 cm-1. Pixel sizes are 25 or 6 microns for reflectance and transmission modes and 25 or 1.3 microns for ATR (Ge crystal) mode. Also featured is a deuterated triglycine sulfate (DTGS) detector which can acquire 50 x 50 micron point spectra between 4000 and 400 cm-1.</description>
   </Instrument>
 </Product_Context>

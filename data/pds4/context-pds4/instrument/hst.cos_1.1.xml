@@ -61,14 +61,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Cosmic Origins Spectrograph</name>
+    <name>HST Cosmic Origins Spectrograph</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-    	This is the Cosmic Origins Spectrograph (COS). It was installed in May 2009.
-    </description>
+    <description>The Cosmic Origins Spectrograph (COS) aboard the Hubble Space Telescope is an ultraviolet spectrograph designed to study the large-scale structure of the universe. COS has two channels, the Far Ultraviolet (FUV) channel covering wavelengths from 90 to 215 nm, and the Near Ultraviolet (NUV) channel, covering 170 to 320 nm.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:nirs.hay</logical_identifier>
     <version_id>2.1</version_id>
-    <title>NEAR-INFRARED SPECTROMETER for Hayabusa</title>
+    <title>The Near-Infrared Spectrometer (NIRS) for Hayabusa</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -74,17 +74,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>NEAR-INFRARED SPECTROMETER</name>
+    <name>The Near-Infrared Spectrometer (NIRS) for Hayabusa</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-130200</naif_instrument_id>
-    <description>The Near-Infrared Spectrometer is a spectrometer on the Hayabusa spacecraft. NIRS is composed of a grating     
-            infrared spectrometer (N1RS-S), a spectrometer electronics (NIRS-E) and a   
-            data processing unit to control NIRS, which is also used to operate the     
-            Hayabusa XRS. During the course of the missoin NIRS examined the asteroid's spectral features in the near infrared region       
-            of the spectrum during the mission.  </description>
+    <description>The Near Infrared Spectrometer (NIRS) on Hayabusa was designed to study the mineralogy and physical properties of the surface of asteroid 25143 Itokawa. NIRS has a 64 channel InGaAs photodiode array detector and a diffraction grating combined with a prism. The detector covered wavelengths from 0.76 to 2.1 microns with a dispersion per pixel of 23.6 nm. The field of view is 0.1 x 0.1 degrees. Over 80,000 spectra were obtained from September to November 2005 at solar phase angles from 0 to 38 degrees.</description>
   </Instrument>
 </Product_Context>

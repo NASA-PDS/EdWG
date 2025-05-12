@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:rise.insight</logical_identifier>
     <version_id>1.1</version_id>
-    <title>The RISE Experiment on the InSight Lander</title>
+    <title>InSight Mars Lander Rotation and Interior Structure Experiment</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -34,12 +34,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>RISE</name>
+    <name>InSight Mars Lander Rotation and Interior Structure Experiment</name>
     <type>Radio-Radar</type>
-    <description>The RISE instrument utilizes the X-band telecommunications capability of the InSight 
-            lander in combination with the coherent Doppler tracking equipment at the Deep Space Network 
-            (DSN) to perform radio science experiments to determine the precession and nutation of the 
-            Martian spin axis.
-        </description>
+    <description>The InSight Mars Lander Rotation and Interior Structure Experiment (RISE) utilized the X-band telecommunications capability of the Lander in combination with the coherent Doppler tracking equipment at the Deep Space Network (DSN) to perform radio science experiments to determine the precession and nutation of the Martian spin axis.</description>
   </Instrument>
 </Product_Context>

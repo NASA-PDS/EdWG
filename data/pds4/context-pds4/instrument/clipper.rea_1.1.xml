@@ -49,8 +49,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </ctli:Type_List>
     </Type_List_Area>
     <naif_instrument_id>-159006</naif_instrument_id>
-    <description>
-      REASON's ice-penetrating radar will probe Europa’s icy shell for the moon’s suspected ocean and study the ice’s structure and thickness. It will also study the moon’s surface elevations, composition, and roughness, and search the moon’s atmosphere for plumes.
-    </description>
+    <description>REASON's ice-penetrating radar will investigate Europa's icy shell to assess the moon's suspected ocean, as well as analyze the ice's structure and thickness. Additionally, it will examine the surface elevations, composition, and roughness of Europa, and search for atmospheric plumes.</description>
   </Instrument>
 </Product_Context>

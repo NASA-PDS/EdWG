@@ -35,9 +35,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Pietersma Portable Wind Tunnel</name>
     <type>Atmospheric Sciences</type>
-    <description>
-            Portable, blower-style, open circulation wind tunnel powered by gasoline. Overall length is 13 m with a working section of 7.3 m
-            length by 1.0 width by 1.2 m height. The tunnel is outfitted with flow conditioning elemenets and a particle feed.
-       </description>
+    <description>The Pietersma Portable Wind Tunnel is a compact, mobile aerodynamic testing facility designed for research and educational purposes. It is used to simulate airflow conditions over various objects and structures, enabling the study of aerodynamic properties in a controlled environment. This wind tunnel is particularly useful for experiments involving small-scale models, offering valuable insights into the effects of wind on design and performance.</description>
   </Instrument>
 </Product_Context>

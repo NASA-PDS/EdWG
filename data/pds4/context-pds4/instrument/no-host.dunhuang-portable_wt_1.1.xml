@@ -40,9 +40,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>Dunhuang Portable Wind Tunnel</name>
     <type>Atmospheric Sciences</type>
-    <description>
-            Portable, blower-style, open circulation wind tunnel powered by gasoline. Overall length is ~12.9 m with a working section of 8.4 m
-            length by 0.6 m width by 0.6 m height.
-       </description>
+    <description>The Dunhuang Portable Wind Tunnel is a blower-style, open circulation wind tunnel powered by gasoline. Overall length is ~12.9 m with a working section of 8.4 m             length by 0.6 m width by 0.6 m height.        </description>
   </Instrument>
 </Product_Context>

@@ -42,6 +42,7 @@
             <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.clps_to_2im_ncll</lid_reference>
             <reference_type>investigation_to_instrument_host</reference_type>
         </Internal_Reference>
+        <!-- 2025-05-12 Note: We do not have this context product yet -->
         <Internal_Reference>
             <lid_reference>urn:nasa:pds:context:instrument:clps_to_2im_ncll.lra</lid_reference>
             <reference_type>investigation_to_instrument</reference_type>

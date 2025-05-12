@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:las_campanas.magellan_baade_6m5.imacs</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Inamori Magellan Areal Camera and Spectrogragh (IMACS)</title>
+    <title>Inamori Magellan Areal Camera and Spectrograh (IMACS)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -37,7 +37,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Instrument>
-    <name>Inamori Magellan Areal Camera and Spectrogragh</name>
+    <name>Inamori Magellan Areal Camera and Spectrograh (IMACS)</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
@@ -50,10 +50,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <!-- for Spectrometer -->
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-            The IMACS instrument is a wide field imager and multi-object spectrograph with
-            two 8Kx8K CCD cameras that provide different scales and spectral resolutions.
-            Spectral resolution range is 20 &lt; R &lt; 20000.
-        </description>
+    <description>The Inamori Magellan Areal Camera and Spectrograh (IMACS) instrument is a wide field imager and multi-object spectrograph with             two 8Kx8K CCD cameras that provide different scales and spectral resolutions.             Spectral resolution range is 20 &lt; R &lt; 20000.         </description>
   </Instrument>
 </Product_Context>

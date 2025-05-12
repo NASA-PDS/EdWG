@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:ladee.nms</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Neutral Mass Spectrometer for LADEE (NMS)</title>
+    <title>Neutral Mass Spectrometer for LADEE</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -57,15 +57,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>Neutral Mass Spectrometer</name>
+    <name>Neutral Mass Spectrometer for LADEE</name>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Spectrometer</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>
-The LADEE Neutral Mass Spectrometer (NMS) is a high sensitivity quadrupole 
-mass spectrometer with a mass range of 2 to 150 Dalton and unit mass resolution.
-    </description>
+    <description>The Neutral Mass Spectrometer (NMS) instrument carried aboard the LADEE mission is a high sensitivity quadrupole mass spectrometer with a mass range of 2 to 150 Dalton and unit mass resolution. It comprises an ion trap/deflector, a closed ion source ionization region, a quadupole deflector and lens system, a quadrupole mass analyzer and an ion detector. Primary objective of NMS is to in-situ constrain the abundance of atomic and molecular species, such as H, He, CH4, S, Fe, N2, CO, CO2, and OH, at the spacecraft altitudes of 50 km and below.</description>
   </Instrument>
 </Product_Context>

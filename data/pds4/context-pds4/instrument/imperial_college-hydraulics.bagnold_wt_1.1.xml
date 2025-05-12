@@ -43,10 +43,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Instrument>
     <name>R.A. Bagnold, Wooden Wind Tunnel (c.1935)</name>
     <type>Atmospheric Sciences</type>
-    <description>
-          Historical wind tunnel constructed by R.A. Bagnold (c. 1935) out of wood and glass. The wind tunnel was an open circulation, suction-type
-          tunnel, with overall length of 9.14 m with a cross-section of 0.30 m x 0.30 m. The tunnel was housed at the Hydraulics Laboratory of 
-          Imperial College, London in the 1930s. 
-        </description>
+    <description>The R.A. Bagnold Wooden Wind Tunnel (c. 1935) was an early experimental wind tunnel designed and built by Ralph Alger Bagnold, a pioneering British geologist and engineer known for his work on sand transport and desert dynamics.</description>
   </Instrument>
 </Product_Context>

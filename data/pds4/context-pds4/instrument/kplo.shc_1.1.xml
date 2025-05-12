@@ -53,14 +53,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Type_List_Area>
     <!-- get naif_instrument_id -->
     <naif_instrument_id>-155150</naif_instrument_id>
-    <description>
-      ShadowCam is a NASA-funded instrument that will collect
-      high-resolution images of Permanently Shadowed Regions
-      (PSRs). ShadowCam will provide critical information about
-      the terrain of PSRs and the distribution and accessibility of
-      water ice and other volatiles at spatial scales (1.7 m/pixel)
-      required to mitigate risks and maximize the results of future
-      exploration activities.
-    </description>
+    <description>ShadowCam is a NASA-funded instrument that will collect high-resolution images of Permanently Shadowed Regions (PSRs). ShadowCam will provide critical information about the terrain of PSRs and the distribution and accessibility of water ice and other volatiles at spatial scales (1.7 m/pixel) required to mitigate risks and maximize the results of future exploration activities.     </description>
   </Instrument>
 </Product_Context>

@@ -40,15 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <ctli:type>Imager</ctli:type>
       </ctli:Type_List>
     </Type_List_Area>
-    <description>Imager on the 31-in (0.79m) NURO telescope.
+    <description>NASCam (also known as Lowell Observatory's NASCam) is a camera system developed as part of the collaboration between Lowell Observatory and NASA. It’s part of the NASA Astrobiology Institute and aims to help in the study of planetary systems and potential life in the universe.
 
-The following text has been adapted from the NURO NAU website.
-
-Lowell's NASAcam was built by Dr. Ted Dunham using a 2Kx2K Loral CCD. The camera is
-thermoelectrically cooled. It uses a 2:1 focal reducer, which gives a plate scale of
-0.456"/pixel with an approximate field of view of 17 arcmin per side at the NURO
-telescope. There are a couple of bad columns, and the rows at the south edge of the
-field need to be trimmed off. The trimmed FOV is 17.5 arcmin East-West and 16.4
-arcmin North-South. The gain is 2.1 e/ADU and the readnoise is 6.2 e.</description>
+Specifically, NASCam is a camera system used at Lowell Observatory in Flagstaff, Arizona, and it plays a role in imaging and analyzing the atmospheres of planets in our solar system, like Mars. The camera provides high-resolution images and helps in astrobiological research, focusing on studying the conditions that could support life.</description>
   </Instrument>
 </Product_Context>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:ice.plawav</logical_identifier>
     <version_id>1.1</version_id>
-    <title>PLASMA WAVE EXPERIMENT for ICE</title>
+    <title>The Plasma Wave Experiment (PLAWAV) for the International Cometary Explorer</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -53,33 +53,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument>
-    <name>PLASMA WAVE EXPERIMENT</name>
+    <name>The Plasma Wave Experiment (PLAWAV) for the International Cometary Explorer</name>
     <type>Spectrometer</type>
     <!--RChen/EN was Plasma Experiment. From JSH's xl file-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
-    <description>
- 
- 
-    Instrument Overview
-    ===================
-      The plasma-wave investigation measures fluctuating
-      electric and magnetic fields associated with waves
-      above the ion cyclotron frequency (1 - 100000 Hz).
-      Spectral analysis is performed on signals from
-      three detectors: a pair of long electric-field
-      antennas, a short electric-field sensor and a
-      search coil, both of which are mounted on one of
-      the experiment booms (Fig. 6).  Electric-field
-      fluctuations between 20 and 100000 Hz are measured
-      in 16 frequency channels once per second at 1024
-      bit/s.  Cometary dust particles hitting the
-      spacecraft or the electric antennas caused
-      detectable outputs similar to those detected when
-      Voyager passed through Saturn's ring-plane.
- 
- 
-
-        </description>
+    <description>The instrumentation for the Plasma Wave experimented included: two long electric-field antennas; a short electric-field sensor; and a search coil. The investigation measured fluctuating electric and magnetic fields associated with waves above the ion cyclotron frequency. Cometary dust particles hitting the spacecarft or the electric antennas caused detectable outputs.</description>
   </Instrument>
 </Product_Context>
