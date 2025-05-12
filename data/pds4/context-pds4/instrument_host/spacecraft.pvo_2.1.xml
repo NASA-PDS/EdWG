@@ -19,15 +19,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>2.0</version_id>
         <description>Adding references for additional Pioneer Venus Orbiter instruments.</description>
       </Modification_Detail>
-    </Modification_History>
       <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
-                    extracted metadata from PDS3 catalog and
-                    modified to comply with PDS4 Information Model
-                </description>
+          extracted metadata from PDS3 catalog and
+          modified to comply with PDS4 Information Model
+        </description>
       </Modification_Detail>
+    </Modification_History>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>

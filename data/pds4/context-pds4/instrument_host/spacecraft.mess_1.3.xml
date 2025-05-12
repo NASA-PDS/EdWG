@@ -42,10 +42,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:epps.mess</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.messenger</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
     </Internal_Reference>

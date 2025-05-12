@@ -77,10 +77,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:ifg.insight</lid_reference>
-      <reference_type>instrument_host_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:icc.insight</lid_reference>
       <reference_type>instrument_host_to_instrument</reference_type>
     </Internal_Reference>

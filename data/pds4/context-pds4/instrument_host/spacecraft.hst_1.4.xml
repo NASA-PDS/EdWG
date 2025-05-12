@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_host_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:observing_system.saturn_small_satellite_astrometry</lid_reference>
+      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.saturn_small_satellite_astrometry</lid_reference>
       <reference_type>instrument_host_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>
