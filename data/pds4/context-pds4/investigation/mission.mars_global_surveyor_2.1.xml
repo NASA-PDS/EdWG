@@ -63,7 +63,7 @@
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:target:sun.sun</lid_reference>
+      <lid_reference>urn:nasa:pds:context:target:star.sun</lid_reference>
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>

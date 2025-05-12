@@ -62,10 +62,6 @@
       <reference_type>investigation_to_target</reference_type>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:aspera-3.mex</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
       <lid_reference>urn:esa:psa:context:instrument:mex.hrsc</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
@@ -79,10 +75,6 @@
     </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:esa:psa:context:instrument:mex.omega</lid_reference>
-      <reference_type>investigation_to_instrument</reference_type>
-    </Internal_Reference>
-    <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:instrument:pfs.mex</lid_reference>
       <reference_type>investigation_to_instrument</reference_type>
     </Internal_Reference>
     <Internal_Reference>

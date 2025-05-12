@@ -98,15 +98,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Mission</type>
     <start_date>2013-11-13</start_date>
     <stop_date nilReason="unknown" xsi:nil="true"/>
-    <terse_description>
-         The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission is the first mission devoted to understanding the Martian upper atmosphere.
-      </terse_description>
     <description>The Mars Atmosphere and Volatile Evolution (MAVEN) spacecraft was sent to Mars to study the atmosphere. It was launched on November 18, 2013. It would study the loss of volatiles, current state of the upper atmosphere, rate of escape for the gases, and ratios of stable isotopes. In 2017, the orbit was changed to be part of the communications relay for Mars.</description>
-    <Acronym_Index>
-      <Acronym_Index_Entry>
-        <acronym>MAVEN</acronym>
-        <priority_order>1</priority_order>
-      </Acronym_Index_Entry>
-    </Acronym_Index>
   </Investigation>
 </Product_Context>
