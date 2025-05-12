@@ -1,99 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
-    
-    <Identification_Area>
-        <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.pvmp.sp-night</logical_identifier>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.pvmp.sp-night</logical_identifier>
+    <version_id>2.0</version_id>
+    <title>Pioneer Venus Small Probe (Night)</title>
+    <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-04-01</modification_date>
         <version_id>2.0</version_id>
-        <title>PIONEER VENUS SMALL PROBE (NIGHT)</title>
-        <information_model_version>1.23.0.0</information_model_version>
-        <product_class>Product_Context</product_class>
-        <Modification_History>
-            <Modification_Detail>
-                <modification_date>2025-04-01</modification_date>
-                <version_id>2.0</version_id>
-                <description>Added reference for DLBI instrument</description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2024-12-18</modification_date>
-                <version_id>1.1</version_id>
-                <description>Updated schema version. Description updated. Removed naif_host_id at Lynn Neakrase's request</description>
-            </Modification_Detail>
-            <Modification_Detail>
-                <modification_date>2023-12-11</modification_date>
-                <version_id>1.0</version_id>
-                <description>Initial creation of the Multiprobe context products</description>
-            </Modification_Detail>
-        </Modification_History>
-    </Identification_Area>
-
-    <Reference_List>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_venus</lid_reference>
-            <reference_type>instrument_host_to_investigation</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.sas</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.sn</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.snfr</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-<!--    <Internal_Reference> -->
-<!--            <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.mpro</lid_reference> -->
-<!--            <reference_type>instrument_host_to_instrument</reference_type> -->
-<!--        </Internal_Reference> -->
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.dlbi</lid_reference>
-            <reference_type>instrument_host_to_instrument</reference_type>
-        </Internal_Reference>
-        <Internal_Reference>
-            <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
-            <reference_type>instrument_host_to_target</reference_type>
-        </Internal_Reference>
-        <External_Reference>
-            <doi>10.1126/science.205.4401.41</doi>
-            <reference_text>
+        <description>Added reference for DLBI instrument</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2024-12-18</modification_date>
+        <version_id>1.1</version_id>
+        <description>Updated schema version. Description updated. Removed naif_host_id at Lynn Neakrase's request</description>
+      </Modification_Detail>
+      <Modification_Detail>
+        <modification_date>2023-12-11</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial creation of the Multiprobe context products</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.pioneer_venus</lid_reference>
+      <reference_type>instrument_host_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.sas</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.sn</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.snfr</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <!--    <Internal_Reference> -->
+    <!--            <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.mpro</lid_reference> -->
+    <!--            <reference_type>instrument_host_to_instrument</reference_type> -->
+    <!--        </Internal_Reference> -->
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:pvmp.sp-night.dlbi</lid_reference>
+      <reference_type>instrument_host_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+      <reference_type>instrument_host_to_target</reference_type>
+    </Internal_Reference>
+    <External_Reference>
+      <doi>10.1126/science.205.4401.41</doi>
+      <reference_text>
                 Donahue, T. M., Pioneer Venus results: An overview, Science, 205, No. 4401, 41-44, 
                 doi:10.1126/science.205.4401.41, July 1979.
             </reference_text>
-            <description>reference.DONAHUE1979</description>
-        </External_Reference>
-        <External_Reference>
-            <doi>10.1029/JA085iA13p07575</doi>
-            <reference_text>
+      <description>reference.DONAHUE1979</description>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1029/JA085iA13p07575</doi>
+      <reference_text>
                 Colin, L., The Pioneer Venus program, J. Geophys. Res., 85, No. A13, 7575-7598, 
                 doi:10.1029/JA085iA13p07575, Dec. 1980.
             </reference_text>
-            <description>reference.COLIN1980</description>
-        </External_Reference>
-        <External_Reference>
-            <doi>10.1007/BF02186463</doi>
-            <reference_text>
+      <description>reference.COLIN1980</description>
+    </External_Reference>
+    <External_Reference>
+      <doi>10.1007/BF02186463</doi>
+      <reference_text>
                 Colin, L., Ed., and D. M., Ed. Hunten, Pioneer Venus experiment descriptions, 
                 Space Sci. Rev., 20, No. 4, 451-525, doi:10.1007/BF02186463, June 1977.
             </reference_text>
-            <description>reference.COLINETAL1977</description>
-        </External_Reference>
-    </Reference_List>
-    
-    <Instrument_Host>
-        <name>PIONEER VENUS SMALL PROBE (NIGHT)</name>
-        <type>Spacecraft</type>
-        <!--naif_host_id>PVO</naif_host_id-->
-
-        <description>
- 
-    Instrument Host Overview
-    ========================
- 
+      <description>reference.COLINETAL1977</description>
+    </External_Reference>
+  </Reference_List>
+  <Instrument_Host>
+    <name>Pioneer Venus Small Probe (Night)</name>
+    <type>Spacecraft</type>
+    <!--naif_host_id>PVO</naif_host_id-->
+    <description>
       This spacecraft was the second Small Probe of the Pioneer Venus 
       Multiprobe mission. On this mission four instrumented atmospheric 
       entry probes were carried by a spacecraft Bus to the vicinity of 
@@ -117,13 +107,7 @@
       on 20 November 1978. The probes were targeted for different entry points 
       in the Venus atmosphere, all entered on 9 December 1978. The total cost of 
       building and operating the Pioneer Venus probes was $83 million.
- 
 
-
-
-    Platform Descriptions
-    =====================
- 
       The probe consisted of a spherical pressure vessel surrounded by a forward 
       conical heat shield and an afterbody. The probes had a mass of 90 kg and a 
       diameter of 0.8 m. The pressure vessel held all the scientific instruments 
@@ -151,5 +135,5 @@
       after impact.
       
         </description>
-    </Instrument_Host>
+  </Instrument_Host>
 </Product_Context>
