@@ -51,7 +51,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_text>Berg, O. E. and F. F. Richardson, The Pioneer 8 cosmic dust experiment, NASA TN D-5267, published by NASA, Washington, D.C., 1969.</reference_text>
     </External_Reference>
     <External_Reference>
-      <doi>110.1063/1.1683778</doi>
+      <doi>10.1063/1.1683778</doi>
       <reference_text>Berg, O. E. and F. F. Richardson, The Pioneer 8 cosmic dust experiment, Review of Scientific Instruments, Volume 40, pp. 1333-1337, 1969.</reference_text>
     </External_Reference>
   </Reference_List>

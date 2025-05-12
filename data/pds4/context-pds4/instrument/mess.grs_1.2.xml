@@ -14,7 +14,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
         <version_id>1.2</version_id>
-        <description>Updated schema version. Adding missing "investigation" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Fix DOI</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>instrument_to_instrument_host</reference_type>
     </Internal_Reference>
     <External_Reference>
-      <doi>https://doi.org/10.1007/s11214-007-9262-7</doi>
+      <doi>10.1007/s11214-007-9262-7</doi>
       <reference_text>
                    Goldsten, J.O., E.A. Rhodes,, W.V. Boynton, W.C. Feldman, D.J. Lawrence, J.I.
                    Trombka, D.M. Smith, L.G. Evans, J. White, N.W. Madden, P.C. Berg, G.A. Murphy,

@@ -44,8 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Type_List_Area>
       <ctli:Type_List>
         <ctli:type>Imager</ctli:type>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Imaging Spectrometer</ctli:type>
+        <ctli:subtype>Camera</ctli:subtype>
+        <ctli:subtype>Imaging Spectrometer</ctli:subtype>
         <ctli:subtype>Infrared Spectrometer</ctli:subtype>
       </ctli:Type_List>
     </Type_List_Area>

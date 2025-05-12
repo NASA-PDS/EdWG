@@ -9,6 +9,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <version_id>1.1</version_id>
     <title>Magellan Spacecraft Radar System</title>
     <information_model_version>1.22.0.0</information_model_version>
+    <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
         <alternate_title>urn:nasa:pds:context:instrument:rdrs.mgn</alternate_title>
@@ -16,7 +17,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <!-- deprecated LID -->
       <!-- quietly added 2022.11.29 -->
     </Alias_List>
-    <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
