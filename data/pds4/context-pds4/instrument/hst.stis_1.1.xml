@@ -1,8 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:hst.stis</logical_identifier>
@@ -13,6 +11,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Alias_List>
       <Alias>
         <alternate_id>STIS</alternate_id>
+      </Alias>
+      <Alias>
+        <alternate_title>Space Telescope Imaging Spectrograph</alternate_title>
       </Alias>
     </Alias_List>
     <Modification_History>
@@ -30,7 +31,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:context:investigation:observing_system.saturn_small_satellite_astrometry</lid_reference>
+      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.saturn_small_satellite_astrometry</lid_reference>
       <reference_type>instrument_to_investigation</reference_type>
     </Internal_Reference>
     <Internal_Reference>

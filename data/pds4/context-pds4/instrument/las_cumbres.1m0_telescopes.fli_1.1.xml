@@ -1,9 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v2" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd http://pds.nasa.gov/pds4/ctli/v2 https://pds.nasa.gov/pds4/ctli/v2/PDS4_CTLI_1M00_2100.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument:las_cumbres.1m0_telescopes.fli</logical_identifier>
     <!--RChen was .sinistro-->
@@ -11,6 +9,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <title>Las Cumbres 1m Telescopes - Finger Lakes Instrumentation (FLI) Imager</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>Las Cumbres 1m Telescopes - FLI Imager</alternate_title>
+      </Alias>
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
