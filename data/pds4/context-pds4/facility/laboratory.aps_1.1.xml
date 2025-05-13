@@ -1,13 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:laboratory.aps</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Advanced Photon Source</title>
+    <title>Argonne National Laboratory Advanced Photon Source</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>Advanced Photon Source</alternate_title>
+      </Alias>
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2025-01-07</modification_date>
@@ -34,13 +38,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Advanced Photon Source</name>
+    <name>Argonne National Laboratory Advanced Photon Source</name>
     <type>Laboratory</type>
-    <description>
-            The Advanced Photon Source (APS) at Argonne National Laboratory is funded by the Office of Science-Basic 
-            Energy Sciences in the U.S. Department of Energy. The APS research facility provides ultra-bright, 
-            high-energy x-ray beams to scientists from a multitude of scientific disciplines and institutions. For more 
-            information see https://www.aps.anl.gov/.
-        </description>
+    <description>The Advanced Photon Source (APS) at Argonne National Laboratory is a research facility that provides ultra-bright, high-energy X-ray beams to scientists from a multitude of scientific disciplines and institutions. These X-rays allow scientists to pursue new knowledge about the structure and function of materials in the center of the Earth, in outer space, and all points in between. The knowledge gained from this research is impacting the evolution of combustion engines and microcircuits, aiding in the development of new pharmaceuticals, and pioneering nanotechnologies whose scale is measured in billionths of a meter, to name just a few examples. These studies promise to have far-reaching impacts on our technology, economy, health, and our fundamental knowledge of the materials that make up our world. The APS electron accelerator and storage system are the first critical steps in producing the high-energy X-rays that are used for frontier research. The APS is funded by the Office of Science-Basic Energy Sciences in the U.S. Department of Energy. For more information, see https://www.aps.anl.gov/.         </description>
   </Facility>
 </Product_Context>

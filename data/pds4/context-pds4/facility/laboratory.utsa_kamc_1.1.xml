@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:laboratory.utsa_kamc</logical_identifier>
@@ -40,14 +39,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Facility>
     <name>University of Texas at San Antonio Kleberg Advanced Microscopy Center</name>
     <type>Laboratory</type>
-    <description>
-            The Kleberg Advanced Microscopy Center (KAMC) at the University of Texas at San Antonio is an open access facility that provides
-            state-of-the-art technology in electron microscopy and advanced material characterization to support world-class research in
-            nanotechnology, biology, chemistry, and materials sciences. The Center features world-class instrumentation, including Helenita
-            - the first aberration-corrected electron microscope installed in the United States that can see and chemically identify individual
-            atoms, a Focused Ion Beam (FIB) instrument for TEM sample preparation, and 3-D imaging and chemical mapping via serial slicing and
-            various SEMs. KAMC also supports analytical studies and characterization of nanoscale systems via high-resolution, multi-functional
-            X-ray diffraction Spectroscopy (Panalytical Empyrean), Raman Spectroscopy, as well as Atomic Force Microscopes.
-        </description>
+    <description>The Kleberg Advanced Microscopy Center (KAMC) at the University of Texas at San Antonio (UTSA) is an open access facility that provides state-of-the-art technology in electron microscopy and advanced material characterization to support world-class research in nanotechnology, biology, chemistry, and materials sciences. The center features world-class instrumentation, including Helenita - the first aberration-corrected electron microscope installed in the United States that can see and chemically identify individual atoms, a Focused Ion Beam (FIB) instrument for TEM sample preparation, and 3-D imaging and chemical mapping via serial slicing and various SEMs. KAMC also supports analytical studies and characterization of nanoscale systems via high-resolution, multi-functional X-ray diffraction Spectroscopy (Panalytical Empyrean), Raman Spectroscopy, as well as Atomic Force Microscopes. For more information, see https://research.utsa.edu/cores/KAMC/.         </description>
   </Facility>
 </Product_Context>

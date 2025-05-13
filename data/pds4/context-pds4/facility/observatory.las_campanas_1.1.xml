@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:observatory.las_campanas</logical_identifier>
@@ -27,6 +26,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:las_campanas.swope_1m0</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:las_campanas.magellan_clay_6m5</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:las_campanas.magellan_baade_6m5</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:las_campanas.ireneedupont_2m5</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:las_campanas.swope_1m0</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
@@ -80,12 +95,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <name>Las Campanas Observatory</name>
     <type>Observatory</type>
     <country>Chile</country>
-    <description>
-            The Las Campanas Observatory is located in the Atacama region of Chile,
-            at an altitude of 2,400 meters, about 170 km north of La Serena, Chile.
-            It is operated as one of the Carnegie Observatories, one of the departments
-            of the Carnegie Institution for Science. The observatory offices are located
-            in La Serena, Chile.
-        </description>
+    <description>The Las Campanas Observatory (LCO) is located in the Atacama region of Chile, at an altitude of 2,400 meters, about 170 km north of La Serena, Chile. It is operated as one of the Carnegie Observatories, one of the departments of the Carnegie Institution for Science (CIS). LCO is currently the primary observatory for CIS, taking over for the Mount Wilson Observatory due to light pollution. LCO houses the 6.5 meter Magellan Telescopes, the 2.5 du Pont Telescope, and the 1.0 meter Swope Telescope. Other telescopes and projects found at the LCO, which are provided by research groups, individuals, and various groups, include the 1.3 meter Warsaw Telescope, the All Sky Automated Survey (ASAS), the Hungarian Automated Telescop South (HAT-South) facility, the Birmingham Solar Oscillations Network (BiSON), and the SDSS-V Local Volume Mapper. more information, see https://www.lco.cl/</description>
   </Facility>
 </Product_Context>

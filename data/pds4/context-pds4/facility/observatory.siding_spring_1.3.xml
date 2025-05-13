@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:observatory.siding_spring</logical_identifier>
@@ -27,11 +26,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2021-12-07</modification_date>
         <version_id>1.2</version_id>
-        <description>Added reference to telescopes aat_3m9, anu_2m3</description>
+        <description>The Siding Spring Observatory, situated in New South Wales, Australia, is the site of the Anglo-Australian Telescope and numerous other facilities. It is known for its work in optical astronomy, particularly in the study of galaxies, star systems, and planetary science, and its critical role in various international research programs.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.earth-based-uranus-stellar-occultations</lid_reference>
+      <reference_type>facility_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:individual.catalina_sky_survey</lid_reference>
+      <reference_type>facility_to_investigation</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:siding_spring.aat_3m9</lid_reference>
       <reference_type>facility_to_telescope</reference_type>

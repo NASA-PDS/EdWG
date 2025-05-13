@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:observatory.smt</logical_identifier>
@@ -17,7 +16,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial version exported from OLAF</description>
+        <description>The Submillimeter Telescope Observatory on Mt. Graham, Arizona, is known for its cutting-edge work in submillimeter-wave astronomy. It specializes in the study of molecular clouds, star formation, and cosmic dust and is vital for understanding the cold, distant regions of the universe.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

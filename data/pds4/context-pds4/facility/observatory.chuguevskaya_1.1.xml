@@ -1,13 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:observatory.chuguevskaya</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Chuguevskaya Station [121]</title>
+    <title>Chuguevskaya Station</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_title>Chuguevskaya Station [121]</alternate_title>
+      </Alias>
+    </Alias_List>
     <Modification_History>
       <Modification_Detail>
         <modification_date>2025-01-07</modification_date>
@@ -17,7 +21,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial version exported from OLAF</description>
+        <description>Chuguevskaya Station, also in Ukraine, is known for its work in astrophysics and observational astronomy, particularly focused on cataloging celestial objects and conducting studies on star formation.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

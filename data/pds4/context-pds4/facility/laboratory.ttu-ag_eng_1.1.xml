@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:laboratory.ttu-ag_eng</logical_identifier>
@@ -36,17 +35,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Facility>
     <name>Texas Tech University, Department of Agricultural Engineering</name>
     <type>Laboratory</type>
-    <description>
-            Historically the Department of Agricultural Engineering c. 1991, at Texas Tech University, Lubbock. 
-            **No longer a stand-alone department, Agricultural Engineering is rolled into other programs at TTU.
-            
-            Likely places to contact:
-            Texas Tech University Whitacre College of Engineering, Lubbock, TX
-            http://www.depts.ttu.edu/coe/
-            
-            or 
-            National Wind Institute, Texas Tech University, Lubbock, TX
-            http://www.depts.ttu.edu/nwi/
-        </description>
+    <description>Historically the Department of Agricultural Engineering c. 1991, at Texas Tech University, Lubbock. **No longer a stand-alone department, Agricultural Engineering is rolled into other programs at TTU. Likely places to contact: Texas Tech University Whitacre College of Engineering, Lubbock, TX http://www.depts.ttu.edu/coe/ or National Wind Institute, Texas Tech University, Lubbock, TX             http://www.depts.ttu.edu/nwi/          </description>
   </Facility>
 </Product_Context>
