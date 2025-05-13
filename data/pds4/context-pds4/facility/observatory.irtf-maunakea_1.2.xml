@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:observatory.irtf-maunakea</logical_identifier>
     <version_id>1.2</version_id>
-    <title>Infra Red Telescope Facility-Maunakea</title>
+    <title>Infrared Telescope Facility, Mauna Kea</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -42,6 +42,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:irtf-maunakea.3m2</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:irtf-maunakea.3m2</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
@@ -96,25 +100,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Infra Red Telescope Facility-Maunakea</name>
+    <name>Infrared Telescope Facility, Mauna Kea</name>
     <type>Observatory</type>
     <address>Summit of Mauna Kea, C/O 640 N. Aohoku Place, #209, Hilo, HI 96720</address>
     <country>United States</country>
-    <description>
-          The NASA Infrared Telescope Facility (IRTF) is one of the telescopes comprising the Maunakea Observatories on the Big Island of Hawai’i. The IRTF is a 3.2 meter telescope optimized for infrared observations. The observatory is operated and managed for NASA by the University of Hawai`i Institute for Astronomy, located in Honolulu. NASA provides the costs of operation and NSF provides funding for new focal plane instrumentation through the peer review process. Observing time is open to the entire astronomical community, and 50% of the IRTF observing time is reserved for studies of solar system objects.
-            
-            The coordinates for this site are: 
-            
-                                       NAD 83                    Old Hawaiian (UTM)	      Altitude
-                          Latitude(North)	Longitude (West)	North	     East	      (feet)
-            IRTF	      19 49 34.38594	155 28 19.19564	    361667.615	 508669.260	  13674.76
-            
-            NAD 83 references the North American Datum from 1983.
-            
-            Old Hawaiian coordinates refernce the 5 State Plane Coordinate Systems for Hawaii in 
-            Universal Transverse Mercator (UTM). Typical grid convergence for the Old Hawaiian coordinates 
-            is 0 00 30. Typical scale factor for the Old Hawaiian coordinates is 0.99996675.
-            
-        </description>
+    <description>The NASA Infrared Telescope Facility (IRTF) is one of the telescopes comprising the Mauna Kea Observatories on the Big Island of Hawaii. The IRTF is a 3.2 meter telescope optimized for infrared observations, providing observations of planetary and solar neighborhood, as well as deep space applications. The observatory is operated and managed for NASA by the University of Hawaii Institute for Astronomy, located in Honolulu. NASA provides the costs of operation and NSF provides funding for new focal plane instrumentation through the peer review process. Observing time is open to the entire astronomical community, and 50% of the IRTF observing time is reserved for studies of planetary sciences. For more information, see https://irtfweb.ifa.hawaii.edu/</description>
   </Facility>
 </Product_Context>

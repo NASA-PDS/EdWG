@@ -35,6 +35,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:kpno-mcmath-pierce-solar.main_1m61</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:kpno-mcmath-pierce-solar.main_1m61.vacuum-spectrograph</lid_reference>
       <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
@@ -56,18 +60,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </Internal_Reference> -->
   </Reference_List>
   <Facility>
-    <name>McMath-Pierce Solar Telescope Facility</name>
+    <name>McMath-Pierce Solar Telescope Facility at Kitt Peak, AZ</name>
     <type>Observatory</type>
     <address>Kitt Peak National Observatory, Tucson, Arizona 85634</address>
     <country>United States</country>
-    <description>
-            The McMath Pierce facility at Kitt Peak, Arizona is part of the Kitt Peak National Observatory (KPNO) and is operated by the National Solar Observatory (NSO) 
-            since 2016, after many years of operation under the National Science Foundation (NSF). The facility consists of three telescopes: the Main, the East Auxiliary 
-            and the West Auxiliary. Each are fed by a flat heliostat mirror mounted on the unusually shaped, triangular tower.
-            
-            Operations run from 1963-present.
-            
-            Kitt Peak National Observatory, Tucson, AZ 85634. (520)318-8000
-        </description>
+    <description> The McMath Pierce facility at Kitt Peak, Arizona is part of the Kitt Peak National Observatory (KPNO) and is operated by the National Solar Observatory (NSO) since 2016, after many years of operation under the National Science Foundation (NSF). The facility consists of three telescopes: the Main, the East Auxiliary and the West Auxiliary. Each are fed by a flat heliostat mirror mounted on the unusually shaped, triangular tower. Operations run from 1963-present. Kitt Peak National Observatory, Tucson, AZ 85634. (520)318-8000         </description>
   </Facility>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:laboratory.tu-tewt</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Trent University, Trent Environmental Wind Tunnel Laboratory</title>
+    <title>Trent Environmental Wind Tunnel Laboratory, Trent University</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -35,15 +35,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Trent Environmental Wind Tunnel Laboratory</name>
+    <name>Trent Environmental Wind Tunnel Laboratory, Trent University</name>
     <type>Laboratory</type>
-    <description>
-          Located at Trent University, Peterborough, Ontario, Canada, in the School of the Environment, the Trent Environmental Wind Tunnel 
-          Research Group is managed by Dr. Cheryl MeKenna Neuman. The lab houses the Trent Environmental Wind Tunnel (TEWT) with funds provided
-          by the Natural Sciences and Engineering Research Council, Canadian Foundation for Innovation (CFI) and Trent University (TU-NSRC).
-          In 1997, the present site was established in the current climate-controlled laboratory in the Environmental Sciences Building. The
-          laboratory was established with the purpose of studying fluid mechanics of aeolian transport and associated sediment erosion and 
-          deposition, simulating processes within the atmospheric boundary layer.
-        </description>
+    <description>The Trent Environmental Wind Tunnel (TWET) is located in the School of the Environment at Trent University, Peterborough, Ontario, Canada. The research group is managed by Dr. Cheryl MeKenna Neuman. The laboratory houses TEWT, with funds provided by the Natural Sciences and Engineering Research Council, Canadian Foundation for Innovation (CFI) and Trent University (TU-NSRC). In 1997, the present site was established in the current climate-controlled laboratory in the Environmental Sciences Building. The laboratory, a low-speed research facility designed for atmospheric boundary simulations, was established with the purpose of studying fluid mechanics of aeolian transport and associated sediment erosion and deposition, simulating processes within the atmospheric boundary layer.</description>
   </Facility>
 </Product_Context>

@@ -35,9 +35,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Facility>
     <name>Laboratory of Experimental Geomorphology, Catholic University of Leuven, Belgium</name>
     <type>Laboratory</type>
-    <description>
-            Laboratory of Experimental Geomorpholgy located (before 1981-2003) at Catholic University of Leuven (Katholieke Universiteit - KU Leuven), 
-            Belgium. Most likely subsumed by the Department of Earth and Environmental Sciences, Geography and Tourism Division. 
-        </description>
+    <description> Laboratory of Experimental Geomorpholgy located (before 1981-2003) at Catholic University of Leuven (Katholieke Universiteit - KU Leuven), Belgium. Most likely subsumed by the Department of Earth and Environmental Sciences, Geography and Tourism Division.          </description>
   </Facility>
 </Product_Context>

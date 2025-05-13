@@ -17,7 +17,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2020-02-18</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial export from OLAF</description>
+        <description>The A. Hofmeister/Mineral Spectroscopy Laboratory, located at Washington University in St. Louis, specializes in the spectroscopic study of minerals under varying temperature and pressure conditions. Led by Dr. Anne Hofmeister, the lab focuses on infrared spectroscopy to investigate the thermal and optical properties of minerals, with applications in geophysics, planetary science, and materials research.
+</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:observatory.chuguev</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Chuguev (a.k.a. Chuguevskaya, Chuhuiv) Observational Station</title>
+    <title>Chuguev Observational Station</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -17,11 +17,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2020-09-09</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial export from OLAF</description>
+        <description>Chuguev (Chuguevskaya or Chuhuiv) Observational Station, located in Ukraine, specializes in astronomical observations, particularly focusing on star catalogs, variable star observations, and spectroscopic studies.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:chuguev.azt8_0m70</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:chuguev.azt8_0m70</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
@@ -36,7 +40,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Chuguev (a.k.a. Chuguevskaya, Chuhuiv) Observational Station</name>
+    <name>Chuguev Observational Station</name>
     <type>Observatory</type>
     <address>Observatory of the Institute of Astronomy of Kharkiv National University</address>
     <country>Ukraine</country>

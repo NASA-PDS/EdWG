@@ -22,11 +22,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2021-08-25</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial version produced by RMS Node</description>
+        <description>The South African Astronomical Observatory (SAAO), located in Cape Town, South Africa, is one of the leading observatories in the Southern Hemisphere. It specializes in optical and infrared astronomy and is known for its extensive contributions to the study of star formation, galaxy evolution, and the Southern Hemisphere’s celestial objects.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:saao.radcliffe_1m88</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:saao.radcliffe_1m88</lid_reference>
       <reference_type>facility_to_telescope</reference_type>

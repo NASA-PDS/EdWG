@@ -17,7 +17,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial version exported from OLAF</description>
+        <description>The Joint Astronomy Centre, based in Hilo, Hawaii, operated the United Kingdom Infrared Telescope (UKIRT) and the James Clerk Maxwell Telescope (JCMT) atop Mauna Kea. It provided scientific and technical support for infrared and submillimeter astronomy until its closure in 2015.
+</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

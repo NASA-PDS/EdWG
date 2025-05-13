@@ -25,11 +25,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2021-08-25</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial version produced by RMS Node</description>
+        <description>The Observatorio del Teide, situated on the island of Tenerife in the Canary Islands, is one of the world’s leading observatories for solar and astronomical research. It is recognized for its high-altitude location and is primarily known for its contributions to solar physics and stellar evolution.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:teide.carlossanchez_1m55</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:teide.carlossanchez_1m55</lid_reference>
       <reference_type>facility_to_telescope</reference_type>

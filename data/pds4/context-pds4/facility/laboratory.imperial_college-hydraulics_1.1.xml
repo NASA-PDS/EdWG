@@ -30,12 +30,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Imperial College, London - Hydraulics Laboratory</name>
+    <name>Imperial College, London, Hydraulics Laboratory</name>
     <type>Laboratory</type>
-    <description>
-          Historical laboratory from the early 1900s used for sediment transport studies from hydrodynamic and aeolian tunnels and flumes.
-          In 1935, Prof. C.M. White a civil engineer made space for the R.A.Bagnold's wooden wind tunnel. The lab pursued fundamental research 
-          into such topics as wave-pressures, sediment transport, spillway design, pipe and channel friction, cavitation, drag forces and flood predictions.  
-        </description>
+    <description>Hydraulics Laboratory at Imperial College, London is a historical laboratory from the early 1900s used for sediment transport studies from hydrodynamic and aeolian tunnels and flumes. In 1935, Prof. C.M. White a civil engineer made space for the R.A.Bagnold's wooden wind tunnel. The lab pursued fundamental research into such topics as wave-pressures, sediment transport, spillway design, pipe and channel friction, cavitation, drag forces and flood predictions.           </description>
   </Facility>
 </Product_Context>

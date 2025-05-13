@@ -26,11 +26,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2021-11-05</modification_date>
         <version_id>1.0</version_id>
-        <description>Revised version produced by RMS Node, including LID, Alias, and Reference List</description>
+        <description>Cerro Tololo Inter-American Observatory, located in Chile, is an important research facility in the Southern Hemisphere. It is known for its contributions to optical and infrared astronomy, particularly in the fields of galaxy formation, dark energy, and supernovae.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:ctio-cerro_tololo.victorblanco_4m0</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:ctio-cerro_tololo.soar_4m1</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:ctio-cerro_tololo.smarts_1m50</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:ctio-cerro_tololo.smarts_1m0</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:ctio-cerro_tololo.2mass_1m3</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:ctio-cerro_tololo.victorblanco_4m0</lid_reference>
       <reference_type>facility_to_telescope</reference_type>

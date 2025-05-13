@@ -22,11 +22,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2020-11-10</modification_date>
         <version_id>1.1</version_id>
-        <description>Added telescope for Catalina Sky Survey</description>
+        <description>Kitt Peak Station, part of the Steward Observatory in Arizona, is a major research facility with an array of optical and radio telescopes. It is especially noted for its work in solar astronomy and the study of exoplanets, supernovae, and galaxy formation.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:steward-kittpeak.spacewatch_1m8</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:steward-kittpeak.spacewatch_0m9</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:steward-kittpeak.bok2m3</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:steward-kittpeak.spacewatch_1m8</lid_reference>
       <reference_type>facility_to_telescope</reference_type>

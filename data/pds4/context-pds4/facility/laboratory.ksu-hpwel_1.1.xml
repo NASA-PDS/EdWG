@@ -32,10 +32,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Facility>
     <name>The High Plains Wind Erosion Laboratory, Kansas State University, Manhattan, KS</name>
     <type>Laboratory</type>
-    <description>
-            Historical facility located at Kansas State University in Manhattan, KS. Home to wind tunnels used for wind erosion studies
-            pertaining to the Great Dust Bowl of the early 20th Century in the Central U.S. W.S. Chepil and others pioneered work involving 
-            wind tunnel determination particle threshold for wind erosion at this facility.
-        </description>
+    <description>Historical facility located at Kansas State University in Manhattan, KS. Home to wind tunnels used for wind erosion studies             pertaining to the Great Dust Bowl of the early 20th Century in the Central U.S. W.S. Chepil and others pioneered work involving              wind tunnel determination particle threshold for wind erosion at this facility.         </description>
   </Facility>
 </Product_Context>

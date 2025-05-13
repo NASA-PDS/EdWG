@@ -51,13 +51,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Australia
         </address>
     <country>Australia</country>
-    <description>
-            The Paul Wild Observatory is located about 25 km west of Narrabri, New South Wales,
-            and about 550 km northwest of Sydney, Australia. It is the site of the Australia 
-            Telescope Compact Array (ATCA).  The observatory also hosts the Culgoora Solar 
-            Observatry, a node of the Birmingham Solar Oscillations Network, and an element 
-            of the Magnetic Data Acquisition System global magnetometer array.  The site is
-            named for the Australian radio astronomer, Paul Wild.
-        </description>
+    <description>The Paul Wild Observatory is located just west of Narrabri, New South Wales, and is also known as the Narrabri Observatory. The site currently hosts several facilities, such as the Australia Telescope Compact Array (ATCA), the Culgoora Solar Observatory, a node of the Birmingham Solar Oscillations Network (BiSON), and an element of the Magnetic Data Acquisition System (MAGDAS) global magnetometer array. The site is named for the Australian radio astronomer, Paul Wild. For more information, see https://www.atnf.csiro.au/resources/visiting/paul-wild-observatory-information/</description>
   </Facility>
 </Product_Context>

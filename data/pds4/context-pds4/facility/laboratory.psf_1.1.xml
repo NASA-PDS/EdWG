@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:laboratory.psf</logical_identifier>
     <version_id>1.1</version_id>
-    <title>C-Tape Planetary Spectrophotometer Facility</title>
+    <title>University of Winnipeg Center for Terrestrial and Planetary Exploration Planetary Spectrophotometer Facility</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -34,12 +34,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>C-Tape Planetary Spectrophotometer Facility</name>
+    <name>University of Winnipeg Center for Terrestrial and Planetary Exploration Planetary Spectrophotometer Facility</name>
     <type>Laboratory</type>
-    <description>
-            University of Winnipeg (UW) Centre for Terrestrial and Planetary Exploration (C-Tape) Planetary Spectrophotometer 
-            Facility (PSF, located in Manitoba, Canada). Our measurements were made in Dr. Ed Cloutis' lab. 
-            https://www.uwinnipeg.ca/c-tape/facilities/index.html
-        </description>
+    <description>The University of Winnipeg (UW) Centre for Terrestrial and Planetary Exploration (C-Tape) Planetary Spectrophotometer Facility (PSF) (located in Manitoba, Canada) enables investigations of the optical spectroscopic properties of both planetary materials and terrestrial analogs. The PSF primarily includes UV to far-IR laboratory and field spectrometers, as well as other instruments such as an XRF spectrometer, light element (C, H, N, S) analyzer, Raman spectrometers, an X-ray diffractometer, and planetary environment chambers. For more information, see https://www.uwinnipeg.ca/c-tape/facilities.       </description>
   </Facility>
 </Product_Context>

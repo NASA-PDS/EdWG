@@ -37,8 +37,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Facility>
     <name>Wind Erosion Laboratory, Department of Geography, University of Guelph, Ontario, Canada</name>
     <type>Laboratory</type>
-    <description>
-            Aeolian laboratory located within the Department of Geopgraphy at the Universiity of Guelph, in Geulph, Ontario, Canada.
-        </description>
+    <description>The Wind Erosion Laboratory, within the Department of Geography at the University of Guelph in Ontario, Canada, specializes in wind erosion processes and their effects on landscapes, agriculture, and ecosystems, conducting research on soil movement and dust storms.</description>
   </Facility>
 </Product_Context>

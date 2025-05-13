@@ -34,6 +34,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:gemini-south.8m1</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:gemini-south.8m1.t-recs</lid_reference>
       <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
@@ -52,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Gemini Observatory (South)</name>
+    <name>Gemini Observatory (South), Cerro Pachon, Chile</name>
     <type>Observatory</type>
     <address>Summit of Cerro Pachon, Chile
             c/o, AURA, Casilla 603, La Serena, Chile
@@ -60,18 +64,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Fax: 56-51-2205-650
         </address>
     <country>Chile</country>
-    <description>
-            The Gemini Observatory consists of twin 8.1-meter diameter optical/infrared telescopes located on two of the best 
-            observing sites on the planet. From their locations on mountains in Hawai'i and Chile, Gemini Observatory's telescopes 
-            can collectively access the entire sky.
-            
-            Gemini is operated by a partnership of six countries including the United States, Canada, Chile, Brazil, Argentina and 
-            Korea. Any astronomer in these countries can apply for time on Gemini, which is allocated in proportion to each partner's 
-            financial stake.
-            
-            The Gemini South telescope is situated near the summit of Cerro Pachon in central Chile, at an altitude of 2722 m, at 
-            latitude -30:14:26.700 and longitude -70:44:12.096 in the WGS84 system.
-            
-        </description>
+    <description>The Gemini Observatory consists of twin 8.1-meter diameter optical/infrared telescopes. Gemini North is located on Mauna Kea, Hawaii, while Gemini South is located on Cerro Pachon, Chile. From their locations on mountains in Hawaii and Chile, Gemini Observatory's telescopes can collectively access the entire sky. Gemini is operated by a partnership of six countries including the United States, Canada, Chile, Brazil, Argentina and Korea. Any astronomer in these countries can apply for time on Gemini, which is allocated in proportion to each partner's financial stake. With using a range of technologies, the telescopes provide advanced performances in optical and near-infrared astronomy, including laser guide stars, adaptive optics, multi conjugate adaptive optics, and multi-object spectroscopy. The telescopes can also obtain high quality infrared observations. Instruments include the Gemini Multi-Object Spectrographs (GMOS), found at both sites; and the Gemini Planet Imager (GPI). The Gemini visitor instrument program allows instrument teams to use their own instruments at one of the locations for a short time, and the whole Gemini community obtains access to that instrument for other science projects. Well-known instruments that have used this program include the Differential Speckle Survey Instrument (DSSI), the Phoenix near-infrared echelle spectrometer, and the TEXES mid-infrared spectrometer. For more information, see https://www.gemini.edu/</description>
   </Facility>
 </Product_Context>

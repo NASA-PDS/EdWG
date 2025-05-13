@@ -29,11 +29,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2021-11-05</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial version produced by RMS Node, including LID, Title, Alias, and Reference List</description>
+        <description>Maunakea Observatory, located in Hawaii, is a world-leading observatory complex known for its high-altitude location, offering excellent conditions for infrared and optical astronomy, particularly in the study of the formation of stars and galaxies.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:maunakea.ukirt_3m8</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:maunakea.2m24</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:maunakea.0m61</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:maunakea.ukirt_3m8</lid_reference>
       <reference_type>facility_to_telescope</reference_type>

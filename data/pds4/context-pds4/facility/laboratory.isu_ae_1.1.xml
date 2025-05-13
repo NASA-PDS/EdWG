@@ -37,10 +37,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Facility>
     <name>Iowa State University Department of Aerospace Engineering</name>
     <type>Laboratory</type>
-    <description>
-          The Iowa State University Department of Aerospace Engineering loacted in Ames, IA houses 
-          labs associated with aeolian processes, including boundary layer wind tunnels and vortex
-          generators.
-        </description>
+    <description>           The Iowa State University Department of Aerospace Engineering loacted in Ames, IA houses labs associated with aeolian processes, including boundary layer wind tunnels and vortex generators.         </description>
   </Facility>
 </Product_Context>

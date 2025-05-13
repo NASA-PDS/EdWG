@@ -17,11 +17,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2022-02-24</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial export from OLAF</description>
+        <description>European Southern Observatory - Chajnantor, located in the Chilean Andes, hosts the ALMA (Atacama Large Millimeter/submillimeter Array), one of the most powerful astronomical instruments for studying the cold universe, including star formation, galaxies, and the interstellar medium.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:eso-chajnantor.alma</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:eso-chajnantor.alma</lid_reference>
       <reference_type>facility_to_telescope</reference_type>

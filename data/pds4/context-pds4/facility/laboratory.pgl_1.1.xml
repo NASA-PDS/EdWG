@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:laboratory.pgl</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Planetary Geosciences Laboratory</title>
+    <title>Planetary Geosciences Laboratory at the Planetary Science Institute</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -38,11 +38,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Planetary Geosciences Laboratory</name>
+    <name>Planetary Geosciences Laboratory at the Planetary Science Institute</name>
     <type>Laboratory</type>
-    <description>
-            Planetary Geosciences Laboratory at the Planetary Science Institute (PGL at PSI, located in Tucson, AZ).
-            Our measurements were made by the spectroscopy lab technician (Neil Pearson). https://www.psi.edu/
-        </description>
+    <description>The Planetary Geosciences Laboratory at the Planetary Science Institute (PGL at PSI), located in Tucson, AZ, is a research facility that aquires spectroscopic measurements, including reflectance spectra at UV and visible/near-infrared wavelengths, of various materials (such as terrestrial mineral samples) to facilitate investigations of other planetary bodies. https://www.psi.edu/         </description>
   </Facility>
 </Product_Context>

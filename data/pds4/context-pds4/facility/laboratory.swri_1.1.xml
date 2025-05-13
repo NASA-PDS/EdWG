@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:laboratory.swri</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Southwest Research Institute</title>
+    <title>Southwest Research Institute Laboratories</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -34,13 +34,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Southwest Research Institute</name>
+    <name>Southwest Research Institute Laboratories</name>
     <type>Laboratory</type>
-    <description>
-            For more than three decades, Southwest Research Institute (SwRI) has been a recognized leader in space science research as well as in the development of spacecraft 
-            instrumentation, avionics and electronics for both government and industry. A traditional strength of the Space Science Division is the design and fabrication of instruments 
-            for the in-situ measurement of space plasmas, the dilute ionized gases that populate the immediate space environments of the Earth and other solar system bodies as well as 
-            interplanetary space.
-        </description>
+    <description>The Southwest Research Institute (SwRI) is a multi-disciplinary research and development organization that works with both government and industrial clients in many fields, including engineering and space sciences and earth and planetary sciences. For more than three decades, SwRI has been a recognized leader in space science research as well as in the development of spacecraft instrumentation, avionics, and electronics. A traditional strength of the Space Science Division is the design and fabrication of instruments for the in-situ measurement of space plasmas, the dilute ionized gases that populate the immediate space environments of the Earth and other solar system bodies as well as interplanetary space. For more information, see https://www.swri.org/.         </description>
   </Facility>
 </Product_Context>

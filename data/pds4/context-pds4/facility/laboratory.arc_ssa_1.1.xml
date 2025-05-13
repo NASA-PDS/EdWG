@@ -17,7 +17,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <Modification_Detail>
         <modification_date>2020-02-18</modification_date>
         <version_id>1.0</version_id>
-        <description>Initial export from OLAF</description>
+        <description>The ARC/SSA Astrochemistry Lab, located at the Astrobiology Research Center (ARC), focuses on the study of the chemical processes that lead to the formation of life in the universe. The lab specializes in astrochemistry, examining molecules in space, interstellar environments, and planetary atmospheres.
+
+</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>

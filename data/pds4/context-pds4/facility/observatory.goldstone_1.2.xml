@@ -46,6 +46,66 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss23_34m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss16_26m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss15_34m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss14_70m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss14_64m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss13_34m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss13_26m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss12_34m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss12_26m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss11_26m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.pre-magellan</lid_reference>
+      <reference_type>facility_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss28_34m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss27_34m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss26_34m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss25_34m</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss24_34m</lid_reference>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
@@ -303,29 +363,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Barstow, California
         </address>
     <country>USA</country>
-    <description>
-            The NASA Deep Space Network (DSN) comprises three Deep Space Communications Complexes (DSCCs)
-            spaced by approximately 120 degrees in longitude and within about 40 degrees latitude
-            of Earth's equator. As the Earth rotates, this configuration provides nearly continuous 
-            coverage of spacecraft in the ecliptic -- that is, spacecraft flying to or orbiting most 
-            solar system objects.  The Goldstone Deep Space Communications Complex (GDSCC) is one of 
-            these three DSCCs.  The first antenna at Goldstone (DSS-11) became operational in 1958.  
-            The GDSCC is managed by the Jet Propulsion Laboratory (JPL) in Pasadena, California.
-            
-            Goldstone includes several Deep Space Stations (DSSs, or antennas), a Signal Processing
-            Center (SPC), and administrative and support facilities.  Each DSCC handles several types of 
-            data including: frequency and timing, tracking, telemetry, command, monitor, radio science, 
-            and very long baseline interferometry. These data types support uplink (to spacecraft) or 
-            downlink (from spacecraft) operations or passive reception.  Data received from spacecraft
-            are relayed via the local SPC to the Network Operations Control Center (NOCC) at JPL where
-            where they are distributed to the offices responsible for each spacecraft.  Commands, 
-            generated in those offices, are sent via the NOCC, SPC, and DSS to the spacecraft.
-            
-            The Goldstone DSCC also includes the Goldstone Solar System Radar (GSSR) at DSS-14 and the
-            development facility at DSS-13.
-            
-            The Goldstone Deep Space Communications Complex (GDSCC) is near Barstow, California (USA);
-            it is managed by the Jet Propulsion Laboratory (JPL) in Pasadena, CA.
-        </description>
+    <description>The Goldstone Deep Space Communications Complex (GDSCC) is one of the three Deep Space Communications Complexes (DSCCs) that make up the NASA Deep Space Network (DSN). The DSCCs are spaced by approximately 120 degrees in longitude and within about 40 degrees latitude of Earth's equator. As the Earth rotates, this configuration provides nearly continuous coverage of spacecraft in the ecliptic -- that is, spacecraft flying to or orbiting most solar system objects. The GDSCC, which became operational in 1958, is located near Barstow, California, and managed by the Jet Propulsion Laboratory (JPL) in Pasadena, California. The Goldstone complex includes several Deep Space Stations (DSSs, or antennas), a Signal Processing Center (SPC), and administrative and support facilities.  Each DSCC handles several types of data including: frequency and timing, tracking, telemetry, command, monitor, radio science, and very long baseline interferometry. These data types support uplink (to spacecraft) or downlink (from spacecraft) operations or passive reception. Data received from spacecraft are relayed via the local SPC to the Network Operations Control Center (NOCC) at JPL where they are distributed to the offices responsible for each spacecraft. Commands, generated in those offices, are sent via the NOCC, SPC, and DSS to the spacecraft. The Goldstone DSCC also includes the Goldstone Solar System Radar (GSSR) and the development facility. For more information, see https://www.gdscc.nasa.gov/</description>
   </Facility>
 </Product_Context>

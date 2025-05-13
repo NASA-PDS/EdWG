@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:laboratory.lasp</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Laboratory for Atmospheric and Space Physics</title>
+    <title>University of Colorado Laboratory for Atmospheric and Space Physics</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -34,11 +34,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Laboratory for Atmospheric and Space Physics</name>
+    <name>University of Colorado Laboratory for Atmospheric and Space Physics</name>
     <type>Laboratory</type>
-    <description>
-            University of Colorado Laboratory for Atmospheric and Space Physics (CU LASP, located in Boulder, CO).  
-            Our measurements were made in Dr. Greg Holsclaw's lab. https://lasp.colorado.edu/
-        </description>
+    <description>The University of Colorado Laboratory for Atmospheric and Space Physics (CU LASP) is a research facility located in Boulder, CO that supports dozens of space and planetary exploration missions. Research at LASP spans many fields, including space weather, Earth and atmospheric science, space physics, planetary and lunar science, and astrophysics and solar physics. LASP combines science, engineering, data systems and management, and mission operations to build and support both remote sensing and in-situ instrumentation. For more information, see https://lasp.colorado.edu/.         </description>
   </Facility>
 </Product_Context>

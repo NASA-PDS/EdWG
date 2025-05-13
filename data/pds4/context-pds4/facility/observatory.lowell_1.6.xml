@@ -83,6 +83,30 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>facility_to_telescope</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:lowell.perkins_warner1m83</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:lowell.nuro_0m79</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:lowell.loneos_0m60</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:lowell.hall_ritchey-chretien_1_1m07</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:lowell.discovery_4m3</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:telescope:lowell.21in0</lid_reference>
+      <reference_type>facility_to_telescope</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:lowell.nuro_0m79.nasacam</lid_reference>
       <reference_type>facility_to_instrument</reference_type>
     </Internal_Reference>
@@ -157,10 +181,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                       1400 West Mars Hill Road
                                       Flagstaff, Arizona</address>
     <country>USA</country>
-    <description>
-            Lowell Observatory, established in 1894 west of Flagstaff, Arizona, was founded by Percival Lowell. 
-            The observatory consists of multiple buildings and telescopes on multiple sites including Mars Hill, Anderson Mesa, 
-            and Happy Jack.
-        </description>
+    <description> Lowell Observatory, established in 1894 west of Flagstaff, Arizona, was founded by Percival Lowell. The observatory consists of multiple buildings and telescopes on multiple sites including Mars Hill, Anderson Mesa, and Happy Jack.         </description>
   </Facility>
 </Product_Context>
