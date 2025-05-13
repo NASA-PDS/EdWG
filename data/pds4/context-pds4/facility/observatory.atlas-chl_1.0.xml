@@ -45,5 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Observatory</type>
     <address>El Sauce Observatory, Rio Hurtado</address>
     <country>Chile</country>
+    <description>ATLAS-Chile, El Sauce Observatory, Rio Hurtado, Chile</description>
   </Facility>
 </Product_Context>

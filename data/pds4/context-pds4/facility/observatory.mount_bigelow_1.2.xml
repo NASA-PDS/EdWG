@@ -14,16 +14,14 @@
         <description>Updated schema version. Adding missing "investigation" references. Adding missing "instrument" references. Adding missing "telescope" references.</description>
       </Modification_Detail>
       <Modification_Detail>
+        <modification_date>2020-11-10</modification_date>
+        <version_id>1.1</version_id>
+        <description>Update references</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version exported from OLAF</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2020-11-10</modification_date>
-        <version_id>1.1</version_id>
-        <description>Mount Bigelow (Catalina) Station, located in Arizona, USA, is a key facility for space object tracking, particularly in support of the Catalina Sky Survey for near-Earth object detection.
-
-</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -89,5 +87,6 @@
                                   949 North Cherry Avenue
                                   Tucson, Arizona</address>
     <country>USA</country>
+    <description>Mount Bigelow (Catalina) Station, located in Arizona, USA, is a key facility for space object tracking, particularly in support of the Catalina Sky Survey for near-Earth object detection.</description>
   </Facility>
 </Product_Context>

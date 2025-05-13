@@ -21,7 +21,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Mount Stromlo Observatory, located in Australia, is a major astronomical research center that specializes in cosmology, galaxy evolution, and star formation, known for its historical contributions to optical astronomy.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -51,5 +51,6 @@
                                       Weston Creek P.O.
                                       Weston Creek, ACT</address>
     <country>Australia</country>
+    <description>Mount Stromlo Observatory, located in Australia, is a major astronomical research center that specializes in cosmology, galaxy evolution, and star formation, known for its historical contributions to optical astronomy.</description>
   </Facility>
 </Product_Context>

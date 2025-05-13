@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Fred L. Whipple Observatory, located in Arizona, is a world-renowned facility that specializes in the study of near-Earth objects, solar system dynamics, and space weather using both optical and infrared telescopes.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -27,5 +27,6 @@
                                       P.O. Box 97
                                       Amado, Arizona</address>
     <country>USA</country>
+    <description>Fred L. Whipple Observatory, located in Arizona, is a world-renowned facility that specializes in the study of near-Earth objects, solar system dynamics, and space weather using both optical and infrared telescopes.</description>
   </Facility>
 </Product_Context>

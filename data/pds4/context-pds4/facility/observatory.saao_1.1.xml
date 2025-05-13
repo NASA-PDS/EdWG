@@ -21,7 +21,7 @@
       <Modification_Detail>
         <modification_date>2021-08-25</modification_date>
         <version_id>1.0</version_id>
-        <description>The South African Astronomical Observatory (SAAO), located in Cape Town, South Africa, is one of the leading observatories in the Southern Hemisphere. It specializes in optical and infrared astronomy and is known for its extensive contributions to the study of star formation, galaxy evolution, and the Southern Hemisphere’s celestial objects.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -47,5 +47,6 @@
     <name>South African Astronomical Observatory</name>
     <type>Observatory</type>
     <country>South Africa</country>
+    <description>The South African Astronomical Observatory (SAAO), located in Cape Town, South Africa, is one of the leading observatories in the Southern Hemisphere. It specializes in optical and infrared astronomy and is known for its extensive contributions to the study of star formation, galaxy evolution, and the Southern Hemisphere’s celestial objects.</description>
   </Facility>
 </Product_Context>

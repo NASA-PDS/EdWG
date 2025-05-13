@@ -24,7 +24,7 @@
       <Modification_Detail>
         <modification_date>2021-08-25</modification_date>
         <version_id>1.0</version_id>
-        <description>The Observatorio del Teide, situated on the island of Tenerife in the Canary Islands, is one of the world’s leading observatories for solar and astronomical research. It is recognized for its high-altitude location and is primarily known for its contributions to solar physics and stellar evolution.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -50,5 +50,6 @@
     <name>Observatorio del Teide</name>
     <type>Observatory</type>
     <country>Spain</country>
+    <description>The Observatorio del Teide, situated on the island of Tenerife in the Canary Islands, is one of the world’s leading observatories for solar and astronomical research. It is recognized for its high-altitude location and is primarily known for its contributions to solar physics and stellar evolution.</description>
   </Facility>
 </Product_Context>

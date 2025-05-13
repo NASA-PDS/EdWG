@@ -31,7 +31,7 @@
       <Modification_Detail>
         <modification_date>2021-11-05</modification_date>
         <version_id>1.0</version_id>
-        <description>European Southern Observatory-La Silla, located in Chile, is home to multiple optical telescopes and is known for its pioneering work in the study of galaxies, black holes, and planetary systems in the Southern Hemisphere.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -138,5 +138,6 @@
     <type>Observatory</type>
     <address>Casilla 19001-Correo 19, Santiago</address>
     <country>Chile</country>
+    <description>European Southern Observatory-La Silla, located in Chile, is home to multiple optical telescopes and is known for its pioneering work in the study of galaxies, black holes, and planetary systems in the Southern Hemisphere.</description>
   </Facility>
 </Product_Context>

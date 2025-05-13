@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Fremont Peak Observatory, located in California, is an observatory known for its public outreach programs and research in optical astronomy, including stellar and planetary observations.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -26,5 +26,6 @@
     <address>PO Box 1376
 San Juan Bautista, California 95045 </address>
     <country>USA</country>
+    <description>Fremont Peak Observatory, located in California, is an observatory known for its public outreach programs and research in optical astronomy, including stellar and planetary observations.</description>
   </Facility>
 </Product_Context>

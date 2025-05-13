@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2022-02-24</modification_date>
         <version_id>1.0</version_id>
-        <description>European Southern Observatory - Chajnantor, located in the Chilean Andes, hosts the ALMA (Atacama Large Millimeter/submillimeter Array), one of the most powerful astronomical instruments for studying the cold universe, including star formation, galaxies, and the interstellar medium.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -45,5 +45,6 @@
              II Región
              Chile</address>
     <country>Chile</country>
+    <description>European Southern Observatory - Chajnantor, located in the Chilean Andes, hosts the ALMA (Atacama Large Millimeter/submillimeter Array), one of the most powerful astronomical instruments for studying the cold universe, including star formation, galaxies, and the interstellar medium.</description>
   </Facility>
 </Product_Context>

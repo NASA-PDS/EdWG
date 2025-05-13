@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Roque de los Muchachos Observatory, located on the island of La Palma in the Canary Islands, is one of the world’s premier sites for optical and infrared astronomy. It is home to a wide array of international telescopes, including the Gran Telescopio Canarias, and is particularly known for its research in cosmology, stellar evolution, and black holes.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -26,5 +26,6 @@
     <address>Astrophys. Inst. of the Canaries
                                       Apartado de Correos 303, E-38700 Santa Cruz (La Palma)</address>
     <country>Spain</country>
+    <description>The Roque de los Muchachos Observatory, located on the island of La Palma in the Canary Islands, is one of the world’s premier sites for optical and infrared astronomy. It is home to a wide array of international telescopes, including the Gran Telescopio Canarias, and is particularly known for its research in cosmology, stellar evolution, and black holes.</description>
   </Facility>
 </Product_Context>

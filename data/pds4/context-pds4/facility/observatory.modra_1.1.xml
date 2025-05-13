@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Modra, located in Slovakia, is a small observatory known for its research in stellar astrophysics and its contribution to the study of variable stars and cosmic phenomena.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -29,5 +29,6 @@ P.O.Box 4
 Slovakia
 tel.: +421 336475261</address>
     <country>Slovakia</country>
+    <description>Modra, located in Slovakia, is a small observatory known for its research in stellar astrophysics and its contribution to the study of variable stars and cosmic phenomena.</description>
   </Facility>
 </Product_Context>

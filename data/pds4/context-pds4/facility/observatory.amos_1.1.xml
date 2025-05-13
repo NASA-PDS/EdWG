@@ -21,7 +21,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Air Force  Maui Optical and Supercomputing Site (AMOS) is located at the Air Force Research Laboratory (AFRL) at the Hakeakala Observatory in Maui, Hawaii. AMOS consists of two facilities, focused on space domain awareness (SDA) operations, and research and development (R&amp;D). Research includes atmospheric compensation and resolved imaging, detection and identification of satellites, catalogizing satellite images into database, and high performance computer modeling and simulation. Outside of these, AMOS has also helped with the identification and/or tracking of spacecraft payloads and communication satellites. For more information, see https://afresearchlab.com/technology/air-force-maui-optical-and-supercomputing-amos-site/</description>
+        <description>Initial context product.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -32,5 +32,6 @@
 Suite 200
 Kihei, HI 96753</address>
     <country>USA</country>
+    <description>The Air Force  Maui Optical and Supercomputing Site (AMOS) is located at the Air Force Research Laboratory (AFRL) at the Hakeakala Observatory in Maui, Hawaii. AMOS consists of two facilities, focused on space domain awareness (SDA) operations, and research and development (R&amp;D). Research includes atmospheric compensation and resolved imaging, detection and identification of satellites, catalogizing satellite images into database, and high performance computer modeling and simulation. Outside of these, AMOS has also helped with the identification and/or tracking of spacecraft payloads and communication satellites. For more information, see https://afresearchlab.com/technology/air-force-maui-optical-and-supercomputing-amos-site/</description>
   </Facility>
 </Product_Context>

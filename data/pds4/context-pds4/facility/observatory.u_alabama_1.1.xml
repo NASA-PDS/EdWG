@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The University of Alabama Observatory in Tuscaloosa, Alabama, is known for its research in astrophysics, particularly in planetary science and star formation. It also serves as an educational resource for students and the public.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -28,5 +28,6 @@
                                       Box 870324
                                       Tuscaloosa, Alabama</address>
     <country>USA</country>
+    <description>The University of Alabama Observatory in Tuscaloosa, Alabama, is known for its research in astrophysics, particularly in planetary science and star formation. It also serves as an educational resource for students and the public.</description>
   </Facility>
 </Product_Context>

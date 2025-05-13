@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Osservatorio Astronomico della Reg. Aut. Valle D'Aosta, located in the Aosta Valley, Italy, is an important research center specializing in astrophysics and observational astronomy. It is recognized for its work in exoplanet studies, stellar astrophysics, and public outreach.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -28,5 +28,6 @@ Loc. Lignan, 39
 11020 NUS (AO)
 Italy</address>
     <country>Italy</country>
+    <description>The Osservatorio Astronomico della Reg. Aut. Valle D'Aosta, located in the Aosta Valley, Italy, is an important research center specializing in astrophysics and observational astronomy. It is recognized for its work in exoplanet studies, stellar astrophysics, and public outreach.</description>
   </Facility>
 </Product_Context>

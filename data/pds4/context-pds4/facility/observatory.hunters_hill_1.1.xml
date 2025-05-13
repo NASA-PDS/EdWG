@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Hunters Hill Observatory, located in New South Wales, Australia, is an amateur observatory known for its work in observational astronomy, particularly in planetary and lunar imaging, and for hosting public astronomy nights.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -26,5 +26,6 @@
     <address>7 Mawalan Street
 Ngunnawal ACT 2913 Australia</address>
     <country>Australia</country>
+    <description>Hunters Hill Observatory, located in New South Wales, Australia, is an amateur observatory known for its work in observational astronomy, particularly in planetary and lunar imaging, and for hosting public astronomy nights.</description>
   </Facility>
 </Product_Context>

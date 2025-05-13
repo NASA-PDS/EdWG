@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Star Castle Observatory, located on the Isle of Man, is a privately run facility known for its public outreach and educational efforts in astronomy. It is also used for astrophotography and amateur astronomical research.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -35,5 +35,6 @@
     <type>Observatory</type>
     <address>Black Springs, Australia</address>
     <country>Australia</country>
+    <description>Star Castle Observatory, located on the Isle of Man, is a privately run facility known for its public outreach and educational efforts in astronomy. It is also used for astrophotography and amateur astronomical research.</description>
   </Facility>
 </Product_Context>

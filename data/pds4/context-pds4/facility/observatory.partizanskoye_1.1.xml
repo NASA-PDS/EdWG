@@ -16,9 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Crimean Astrophysical Observatory-Partizanskoye, located in Crimea, specializes in solar and stellar astrophysics. It is known for its observational programs involving variable stars, stellar spectroscopy, and asteroid tracking, and is part of the larger Crimean Astrophysical Observatory network.
-
-</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -27,5 +25,6 @@
     <type>Observatory</type>
     <address>P/O Nauchny, 334413 Crimea</address>
     <country>Ukraine</country>
+    <description>The Crimean Astrophysical Observatory-Partizanskoye, located in Crimea, specializes in solar and stellar astrophysics. It is known for its observational programs involving variable stars, stellar spectroscopy, and asteroid tracking, and is part of the larger Crimean Astrophysical Observatory network.</description>
   </Facility>
 </Product_Context>

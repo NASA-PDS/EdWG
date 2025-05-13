@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2021-04-09</modification_date>
         <version_id>1.0</version_id>
-        <description>Green Bank Observatory, located in West Virginia, is a radio observatory specializing in radio astronomy, studying pulsars, galaxies, and cosmic phenomena using the world's largest fully steerable radio telescope.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -49,5 +49,6 @@
             155 Observatory Rd., Green Bank, WV, 24944
         </address>
     <country>USA</country>
+    <description>Green Bank Observatory, located in West Virginia, is a radio observatory specializing in radio astronomy, studying pulsars, galaxies, and cosmic phenomena using the world's largest fully steerable radio telescope.</description>
   </Facility>
 </Product_Context>

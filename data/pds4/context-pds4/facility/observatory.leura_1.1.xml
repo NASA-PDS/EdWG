@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Leura Observatory, located in New South Wales, Australia, is a private observatory known for amateur astronomical imaging and minor planet observations. It contributes data to international databases and serves as an educational and outreach resource within the local astronomy community.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -26,5 +26,6 @@
     <address>Leura Observatory, 94 Rawson Pde.
 Leura, NSW 2080 AUSTRALIA </address>
     <country>Australia</country>
+    <description>Leura Observatory, located in New South Wales, Australia, is a private observatory known for amateur astronomical imaging and minor planet observations. It contributes data to international databases and serves as an educational and outreach resource within the local astronomy community.</description>
   </Facility>
 </Product_Context>

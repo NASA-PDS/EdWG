@@ -21,7 +21,7 @@
       <Modification_Detail>
         <modification_date>2020-09-09</modification_date>
         <version_id>1.0</version_id>
-        <description>Chuguev (Chuguevskaya or Chuhuiv) Observational Station, located in Ukraine, specializes in astronomical observations, particularly focusing on star catalogs, variable star observations, and spectroscopic studies.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -48,5 +48,6 @@
     <type>Observatory</type>
     <address>Observatory of the Institute of Astronomy of Kharkiv National University</address>
     <country>Ukraine</country>
+    <description>Chuguev (Chuguevskaya or Chuhuiv) Observational Station, located in Ukraine, specializes in astronomical observations, particularly focusing on star catalogs, variable star observations, and spectroscopic studies.</description>
   </Facility>
 </Product_Context>

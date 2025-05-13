@@ -27,7 +27,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Magdalena Ridge Observatory, located in New Mexico, USA, is part of the Magdalena Ridge Observatory Interferometer, which specializes in high-resolution imaging and spectroscopic observations of stars and planetary systems.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -70,5 +70,6 @@ Research Office Building
 101 East Road
 Socorro, NM 87801</address>
     <country>USA</country>
+    <description>Magdalena Ridge Observatory, located in New Mexico, USA, is part of the Magdalena Ridge Observatory Interferometer, which specializes in high-resolution imaging and spectroscopic observations of stars and planetary systems.</description>
   </Facility>
 </Product_Context>

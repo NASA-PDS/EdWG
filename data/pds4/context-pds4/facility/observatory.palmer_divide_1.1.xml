@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Palmer Divide Observatory, located in Colorado, USA, is a private observatory focused on deep-sky imaging and observational astronomy. It contributes data on minor planets, comets, and variable stars, and also engages in outreach and collaboration with amateur astronomers.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -26,5 +26,6 @@
     <address>17995 Bakers Farm Rd.
 Colorado Springs, CO 80908</address>
     <country>USA</country>
+    <description>The Palmer Divide Observatory, located in Colorado, USA, is a private observatory focused on deep-sky imaging and observational astronomy. It contributes data on minor planets, comets, and variable stars, and also engages in outreach and collaboration with amateur astronomers.</description>
   </Facility>
 </Product_Context>

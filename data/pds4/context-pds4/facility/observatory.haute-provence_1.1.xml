@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Observatory of Haute-Provence, located in France, is renowned for its research in solar physics, stellar astrophysics, and planetary sciences. It houses a range of optical telescopes and is used for high-precision measurements of stellar properties.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -25,5 +25,6 @@
     <type>Observatory</type>
     <address>St. Michel l'Observatoire, F-04300 Forcalquier</address>
     <country>France</country>
+    <description>Observatory of Haute-Provence, located in France, is renowned for its research in solar physics, stellar astrophysics, and planetary sciences. It houses a range of optical telescopes and is used for high-precision measurements of stellar properties.</description>
   </Facility>
 </Product_Context>

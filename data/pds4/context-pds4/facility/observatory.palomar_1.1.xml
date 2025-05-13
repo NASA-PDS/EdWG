@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Palomar Observatory, located in southern California, is a historic observatory operated by Caltech. It houses the famous 5.08-meter Hale Telescope and has played a central role in many astronomical discoveries, including studies of quasars, galaxies, and the expansion of the universe.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -25,5 +25,6 @@
     <type>Observatory</type>
     <address>Palomar Mountain, California</address>
     <country>USA</country>
+    <description>The Palomar Observatory, located in southern California, is a historic observatory operated by Caltech. It houses the famous 5.08-meter Hale Telescope and has played a central role in many astronomical discoveries, including studies of quasars, galaxies, and the expansion of the universe.</description>
   </Facility>
 </Product_Context>

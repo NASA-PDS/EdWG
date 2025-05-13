@@ -45,5 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Observatory</type>
     <address>Haleakalā, Maui</address>
     <country>USA</country>
+    <description>TBD</description>
   </Facility>
 </Product_Context>
