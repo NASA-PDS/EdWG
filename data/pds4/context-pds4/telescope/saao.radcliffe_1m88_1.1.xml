@@ -43,5 +43,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--google maps, rounded to 5 digits-->
     <telescope_altitude unit="m">1800</telescope_altitude>
     <!--google maps, rounded to 2+ digits-->
+    <description>Radcliffe 1.88m telescope</description>
   </Telescope>
 </Product_Context>

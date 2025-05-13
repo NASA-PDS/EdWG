@@ -52,5 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--google maps, rounded to 5 digits-->
     <telescope_altitude unit="m">2300</telescope_altitude>
     <!--google maps, rounded to 2 digits-->
+    <description>Swope 1.0m Telescope</description>
   </Telescope>
 </Product_Context>
