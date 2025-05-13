@@ -1,12 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:instrument_host:spacecraft.pvo</logical_identifier>
     <version_id>2.1</version_id>
-    <title>PIONEER VENUS ORBITER</title>
-    <information_model_version>1.23.0.0</information_model_version>
+    <title>Pioneer Venus Orbiter</title>
+    <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
       <Modification_Detail>
@@ -19,15 +18,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <version_id>2.0</version_id>
         <description>Adding references for additional Pioneer Venus Orbiter instruments.</description>
       </Modification_Detail>
-    </Modification_History>
       <Modification_Detail>
         <modification_date>2016-10-01</modification_date>
         <version_id>1.0</version_id>
         <description>
-                    extracted metadata from PDS3 catalog and
-                    modified to comply with PDS4 Information Model
-                </description>
+          extracted metadata from PDS3 catalog and
+          modified to comply with PDS4 Information Model
+        </description>
       </Modification_Detail>
+    </Modification_History>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
@@ -132,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </External_Reference>
   </Reference_List>
   <Instrument_Host>
-    <name>PIONEER VENUS ORBITER</name>
+    <name>Pioneer Venus Orbiter</name>
     <type>Spacecraft</type>
     <!--naif_host_id>PVO</naif_host_id-->
     <description>Pioneer Venus Orbiter was launched in 1978 as part of NASA's Pioneer Venus mission. Its primary objective was to study the atmosphere and surface of Venus from orbit, providing a detailed analysis of the planet’s dense cloud cover and extreme weather systems. The spacecraft was equipped with a variety of scientific instruments, including radar systems to map the planet’s surface, infrared spectrometers to measure atmospheric composition, and ultraviolet sensors to analyze Venus' clouds and high-altitude composition.
