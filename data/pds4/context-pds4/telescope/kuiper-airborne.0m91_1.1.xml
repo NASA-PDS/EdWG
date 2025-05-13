@@ -37,5 +37,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Reference_List>
   <Telescope>
     <aperture unit="m">0.91</aperture>
+    <description>Cassegrain reflector with a 36-inch (91.5 cm) aperture, designed primarily for observations in the 1 to 500 μm spectral range.</description>
   </Telescope>
 </Product_Context>

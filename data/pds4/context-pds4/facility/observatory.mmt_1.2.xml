@@ -21,7 +21,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>MMT Observatory, located in Arizona, is a large optical telescope array renowned for its work in cosmology, galaxy formation, and the study of dark energy.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -54,5 +54,6 @@
                                       949 North Cherry Street
                                       Tucson, Arizona</address>
     <country>USA</country>
+    <description>MMT Observatory, located in Arizona, is a large optical telescope array renowned for its work in cosmology, galaxy formation, and the study of dark energy.</description>
   </Facility>
 </Product_Context>

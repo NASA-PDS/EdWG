@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Submillimeter Telescope Observatory on Mt. Graham, Arizona, is known for its cutting-edge work in submillimeter-wave astronomy. It specializes in the study of molecular clouds, star formation, and cosmic dust and is vital for understanding the cold, distant regions of the universe.</description>
+        <description>initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -27,5 +27,6 @@
                                       University of Arizona
                                       Tucson, Arizona</address>
     <country>USA</country>
+    <description>The Submillimeter Telescope Observatory on Mt. Graham, Arizona, is known for its cutting-edge work in submillimeter-wave astronomy. It specializes in the study of molecular clouds, star formation, and cosmic dust and is vital for understanding the cold, distant regions of the universe.</description>
   </Facility>
 </Product_Context>

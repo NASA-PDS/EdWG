@@ -45,5 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <type>Observatory</type>
     <address>Sutherland Observing Station</address>
     <country>South Africa</country>
+    <description>ATLAS-South Africa, Sutherland Observing Station, South Africa</description>
   </Facility>
 </Product_Context>

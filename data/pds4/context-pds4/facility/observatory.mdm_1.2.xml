@@ -14,14 +14,14 @@
         <description>Updated schema version. Adding missing "instrument" references. Adding missing "telescope" references.</description>
       </Modification_Detail>
       <Modification_Detail>
+        <modification_date>2020-09-09</modification_date>
+        <version_id>1.1</version_id>
+        <description>Update references</description>
+      </Modification_Detail>
+      <Modification_Detail>
         <modification_date>2016-03-03</modification_date>
         <version_id>1.0</version_id>
         <description>Initial version exported from OLAF</description>
-      </Modification_Detail>
-      <Modification_Detail>
-        <modification_date>2020-09-09</modification_date>
-        <version_id>1.1</version_id>
-        <description>McGraw-Hill Observatory, located in Arizona, USA, is a well-known research facility for studying solar systems, stellar evolution, and exoplanet discovery.</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -63,5 +63,6 @@
                                                    Sells Star Route
                                                    Tucson, Arizona</address>
     <country>USA</country>
+    <description>McGraw-Hill Observatory, located in Arizona, USA, is a well-known research facility for studying solar systems, stellar evolution, and exoplanet discovery.</description>
   </Facility>
 </Product_Context>

@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Asiago Astrophysical Observatory, located in Italy, is a major European research facility known for its work in optical and infrared astronomy. It specializes in the study of star formation, variable stars, and the dynamics of galaxies.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -26,5 +26,6 @@
     <address>Padua University
                                       Via dell'Osservatorio 8, I-36012 Asiago</address>
     <country>Italy</country>
+    <description>The Asiago Astrophysical Observatory, located in Italy, is a major European research facility known for its work in optical and infrared astronomy. It specializes in the study of star formation, variable stars, and the dynamics of galaxies.</description>
   </Facility>
 </Product_Context>

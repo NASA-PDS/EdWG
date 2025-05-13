@@ -21,7 +21,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>McDonald Observatory, located in Texas, is known for its high-powered telescopes, including the Hobby-Eberly Telescope, and its research into star formation, galaxies, and exoplanet discoveries.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -76,5 +76,6 @@
     <type>Observatory</type>
     <address>University of Texas, P.O. Box 1337, Fort Davis, Texas</address>
     <country>USA</country>
+    <description>McDonald Observatory, located in Texas, is known for its high-powered telescopes, including the Hobby-Eberly Telescope, and its research into star formation, galaxies, and exoplanet discoveries.</description>
   </Facility>
 </Product_Context>

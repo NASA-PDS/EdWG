@@ -21,7 +21,7 @@
       <Modification_Detail>
         <modification_date>2020-11-10</modification_date>
         <version_id>1.1</version_id>
-        <description>Kitt Peak Station, part of the Steward Observatory in Arizona, is a major research facility with an array of optical and radio telescopes. It is especially noted for its work in solar astronomy and the study of exoplanets, supernovae, and galaxy formation.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -91,5 +91,6 @@
                                                    949 North Cherry Avenue
                                                    Tucson, Arizona</address>
     <country>USA</country>
+    <description>Kitt Peak Station, part of the Steward Observatory in Arizona, is a major research facility with an array of optical and radio telescopes. It is especially noted for its work in solar astronomy and the study of exoplanets, supernovae, and galaxy formation.</description>
   </Facility>
 </Product_Context>

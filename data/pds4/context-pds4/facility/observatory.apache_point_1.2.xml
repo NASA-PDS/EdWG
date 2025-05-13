@@ -26,7 +26,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Apache Point Observatory (APO) is located in Sunspot, New Mexico, and is an astronomical observatory that is operated by the New Mexico State University (NMSU) and owned by Astrophysical Research Consortium (ARC). The 3.5 meter telescope, which is a Ritchey-Chretien reflector on an alt-azimuth mount, has the capability to attach a variety of optical and near-infrared instruments at various focal points. Instruments include the ARC echelle spectrometer (ARCES); low-resolution double imaging spectrometer (DIS); low-resolution optical spectrometer (KOSMOS), a long-term loan from NOIRLab; near infrared camera/Fabry-Perot spectrometer (NICFPS); the optical ARC Telescope Imaging Camera (ARCTIC); near infrared spectrograph TripleSpec (Tspec); and high-speed imager, Agile. Remote observations can be conducted via the online Telescope User Interface (TUI). Other telescopes at the site include the Sloan Digitial Sky Survey (SDSS) 2.5 meter telescope, the NMSU 1.0 meter telescope, and the 0.5 meter ARC Small Aperture Telescope (ARCSAT). For more information, see https://www.apo.nmsu.edu/</description>
+        <description>Initial context product</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -76,5 +76,6 @@
                                       2001 Apache Point Road
                                       Sunspot, New Mexico</address>
     <country>USA</country>
+    <description>The Apache Point Observatory (APO) is located in Sunspot, New Mexico, and is an astronomical observatory that is operated by the New Mexico State University (NMSU) and owned by Astrophysical Research Consortium (ARC). The 3.5 meter telescope, which is a Ritchey-Chretien reflector on an alt-azimuth mount, has the capability to attach a variety of optical and near-infrared instruments at various focal points. Instruments include the ARC echelle spectrometer (ARCES); low-resolution double imaging spectrometer (DIS); low-resolution optical spectrometer (KOSMOS), a long-term loan from NOIRLab; near infrared camera/Fabry-Perot spectrometer (NICFPS); the optical ARC Telescope Imaging Camera (ARCTIC); near infrared spectrograph TripleSpec (Tspec); and high-speed imager, Agile. Remote observations can be conducted via the online Telescope User Interface (TUI). Other telescopes at the site include the Sloan Digitial Sky Survey (SDSS) 2.5 meter telescope, the NMSU 1.0 meter telescope, and the 0.5 meter ARC Small Aperture Telescope (ARCSAT). For more information, see https://www.apo.nmsu.edu/</description>
   </Facility>
 </Product_Context>

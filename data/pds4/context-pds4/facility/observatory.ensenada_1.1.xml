@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>National Astronomical Observatory-Ensenada, located in Baja California, Mexico, is a leading research facility in the region, focusing on stellar astrophysics, galaxy dynamics, and exoplanet discovery.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -26,5 +26,6 @@
     <address>National University of Mexico
                                       Apartado Postal 877, Ensenada (BC) 22860</address>
     <country>Mexico</country>
+    <description>National Astronomical Observatory-Ensenada, located in Baja California, Mexico, is a leading research facility in the region, focusing on stellar astrophysics, galaxy dynamics, and exoplanet discovery.</description>
   </Facility>
 </Product_Context>

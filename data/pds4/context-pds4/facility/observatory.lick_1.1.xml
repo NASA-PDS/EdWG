@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Lick Observatory, situated on Mount Hamilton in California, is one of the oldest mountaintop observatories in the world. Operated by the University of California, it has contributed to planetary discovery, stellar spectroscopy, and supernova research since its founding in 1888.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -28,5 +28,6 @@
                                       Mt. Hamilton Road
                                       Mt. Hamilton, California</address>
     <country>USA</country>
+    <description>The Lick Observatory, situated on Mount Hamilton in California, is one of the oldest mountaintop observatories in the world. Operated by the University of California, it has contributed to planetary discovery, stellar spectroscopy, and supernova research since its founding in 1888.</description>
   </Facility>
 </Product_Context>

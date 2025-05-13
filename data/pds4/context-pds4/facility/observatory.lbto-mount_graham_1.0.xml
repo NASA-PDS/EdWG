@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:observatory.lbto-mount_graham</logical_identifier>
     <version_id>1.0</version_id>
-    <title>Large Binocular Telescope Observatory</title>
+    <title>Large Binocular Telescope Observatory (LBTO)</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -37,10 +37,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Internal_Reference>
   </Reference_List>
   <Facility>
-    <name>Large Binocular Telescope Observatory</name>
+    <name>Large Binocular Telescope Observatory (LBTO)</name>
     <type>Observatory</type>
     <address>LBT Observatory\nMount Graham International Observatory\n1480 W. State Route
 366\nSafford, AZ 85546</address>
     <country>USA</country>
+    <description>The Large Binocular Telescope Observatory is located on Mount Graham in Arizona and operates one of the world’s most powerful optical telescopes. It features two 8.4-meter mirrors mounted side-by-side on a single structure, effectively providing the resolution of a 22.8-meter telescope when used interferometrically. LBTO supports high-resolution imaging and spectroscopy across visible and infrared wavelengths and is used for a wide range of astrophysical studies, from planetary systems to distant galaxies. The observatory is a collaboration between institutions in the United States, Italy, and Germany.</description>
   </Facility>
 </Product_Context>

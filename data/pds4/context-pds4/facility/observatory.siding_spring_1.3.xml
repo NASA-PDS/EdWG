@@ -26,7 +26,7 @@
       <Modification_Detail>
         <modification_date>2021-12-07</modification_date>
         <version_id>1.2</version_id>
-        <description>The Siding Spring Observatory, situated in New South Wales, Australia, is the site of the Anglo-Australian Telescope and numerous other facilities. It is known for its work in optical astronomy, particularly in the study of galaxies, star systems, and planetary science, and its critical role in various international research programs.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -67,5 +67,6 @@
                                   Private Bag
                                   Coonabarabran, NSW</address>
     <country>Australia</country>
+    <description>The Siding Spring Observatory, situated in New South Wales, Australia, is the site of the Anglo-Australian Telescope and numerous other facilities. It is known for its work in optical astronomy, particularly in the study of galaxies, star systems, and planetary science, and its critical role in various international research programs.</description>
   </Facility>
 </Product_Context>

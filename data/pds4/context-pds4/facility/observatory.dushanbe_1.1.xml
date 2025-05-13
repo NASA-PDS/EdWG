@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Institute of Astrophysics, located in the Canary Islands, is a center dedicated to the study of the universe, specializing in space sciences, stellar and galaxy formation, and exoplanet research.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -26,5 +26,6 @@
     <address>Tadzhik Academy of Sciences
                                       Ul. Sviridenko 22, 734670 Dushanbe</address>
     <country>Tadzhikistan</country>
+    <description>Institute of Astrophysics, located in the Canary Islands, is a center dedicated to the study of the universe, specializing in space sciences, stellar and galaxy formation, and exoplanet research.</description>
   </Facility>
 </Product_Context>

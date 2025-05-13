@@ -4,7 +4,7 @@
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:facility:observatory.ondrejov</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Ondr?ejov Observatory</title>
+    <title>Ondřejov Observatory</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -16,14 +16,15 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The Ondřejov Observatory, situated near Prague in the Czech Republic, is operated by the Astronomical Institute of the Czech Academy of Sciences. It is known for its research in stellar astrophysics, solar physics, and the dynamics of small bodies in the solar system, and it houses one of the largest telescopes in Central Europe.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
   <Facility>
-    <name>Ondr?ejov Observatory</name>
+    <name>Ondřejov Observatory</name>
     <type>Observatory</type>
     <address>Czech Republic Academy of Sciences, 251 65 Ondr?ejov</address>
     <country>Czech Republic</country>
+    <description>The Ondřejov Observatory, situated near Prague in the Czech Republic, is operated by the Astronomical Institute of the Czech Academy of Sciences. It is known for its research in stellar astrophysics, solar physics, and the dynamics of small bodies in the solar system, and it houses one of the largest telescopes in Central Europe.</description>
   </Facility>
 </Product_Context>

@@ -29,7 +29,7 @@
       <Modification_Detail>
         <modification_date>2021-08-25</modification_date>
         <version_id>1.0</version_id>
-        <description>Centro Astronómico Hispano-Alemán, located in Spain, is a joint Spanish-German astronomical research center specializing in the study of variable stars, cosmic structure, and advanced astronomical techniques using both optical and infrared telescopes.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -55,5 +55,6 @@
     <name>Centro Astronómico Hispano-Alemán</name>
     <type>Observatory</type>
     <country>Spain</country>
+    <description>Centro Astronómico Hispano-Alemán, located in Spain, is a joint Spanish-German astronomical research center specializing in the study of variable stars, cosmic structure, and advanced astronomical techniques using both optical and infrared telescopes.</description>
   </Facility>
 </Product_Context>

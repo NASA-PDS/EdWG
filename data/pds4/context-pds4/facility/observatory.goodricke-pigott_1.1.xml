@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Goodricke-Pigott Observatory, located in the UK, is a private observatory focused on variable star observations and astrophotography. It also contributes to amateur astronomy research.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -25,5 +25,6 @@
     <type>Observatory</type>
     <address>Tucson, AZ</address>
     <country>USA</country>
+    <description>Goodricke-Pigott Observatory, located in the UK, is a private observatory focused on variable star observations and astrophotography. It also contributes to amateur astronomy research.</description>
   </Facility>
 </Product_Context>

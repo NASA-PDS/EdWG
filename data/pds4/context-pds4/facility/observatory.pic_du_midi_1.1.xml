@@ -26,7 +26,7 @@
       <Modification_Detail>
         <modification_date>2021-08-25</modification_date>
         <version_id>1.0</version_id>
-        <description>The Pic du Midi de Bigorre is located in the French Pyrenees and is renowned for its high-altitude observatory, which offers excellent conditions for astronomical observations. It is particularly known for solar observations and pioneering work in astrophysics, including the study of solar magnetism.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -64,5 +64,6 @@
     <name>Pic du Midi de Bigorre</name>
     <type>Observatory</type>
     <country>France</country>
+    <description>The Pic du Midi de Bigorre is located in the French Pyrenees and is renowned for its high-altitude observatory, which offers excellent conditions for astronomical observations. It is particularly known for solar observations and pioneering work in astrophysics, including the study of solar magnetism.</description>
   </Facility>
 </Product_Context>

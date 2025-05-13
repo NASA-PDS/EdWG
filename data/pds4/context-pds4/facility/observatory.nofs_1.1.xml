@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>The US Naval Observatory, located in Washington, D.C., is one of the oldest scientific agencies in the United States. It is renowned for its work in astrometry, precise timekeeping, and celestial navigation. The observatory plays a key role in maintaining the country's Master Clock and providing astronomical data critical for navigation and defense.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -36,5 +36,6 @@
     <address>10391 West Naval Observatory Road
 Flagstaff, Arizona 86001-8521.</address>
     <country>USA</country>
+    <description>The US Naval Observatory, located in Washington, D.C., is one of the oldest scientific agencies in the United States. It is renowned for its work in astrometry, precise timekeeping, and celestial navigation. The observatory plays a key role in maintaining the country's Master Clock and providing astronomical data critical for navigation and defense.</description>
   </Facility>
 </Product_Context>

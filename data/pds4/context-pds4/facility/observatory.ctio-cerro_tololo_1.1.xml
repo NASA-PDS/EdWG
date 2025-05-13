@@ -25,7 +25,7 @@
       <Modification_Detail>
         <modification_date>2021-11-05</modification_date>
         <version_id>1.0</version_id>
-        <description>Cerro Tololo Inter-American Observatory, located in Chile, is an important research facility in the Southern Hemisphere. It is known for its contributions to optical and infrared astronomy, particularly in the fields of galaxy formation, dark energy, and supernovae.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -124,5 +124,6 @@
     <type>Observatory</type>
     <address>Casilla 603, La Serena</address>
     <country>Chile</country>
+    <description>Cerro Tololo Inter-American Observatory, located in Chile, is an important research facility in the Southern Hemisphere. It is known for its contributions to optical and infrared astronomy, particularly in the fields of galaxy formation, dark energy, and supernovae.</description>
   </Facility>
 </Product_Context>

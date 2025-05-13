@@ -28,10 +28,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <lid_reference>urn:nasa:pds:context:instrument:telescope.birc.sto</lid_reference>
       <reference_type>telescope_to_instrument</reference_type>
     </Internal_Reference>
+    <!--
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:airborne:balloon.bopps</lid_reference>
       <reference_type>telescope_to_airborne</reference_type>
     </Internal_Reference>
+    -->
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:bopps2014:document:sto_overview</lid_reference>
       <reference_type>context_to_associate</reference_type>

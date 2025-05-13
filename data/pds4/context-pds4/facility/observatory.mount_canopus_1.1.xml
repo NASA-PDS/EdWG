@@ -16,7 +16,7 @@
       <Modification_Detail>
         <modification_date>2016-04-04</modification_date>
         <version_id>1.0</version_id>
-        <description>Mount Canopus Observatory, located in Tasmania, Australia, is dedicated to southern hemisphere astronomy, with a focus on deep-sky imaging and the study of planetary systems.</description>
+        <description>Initial version</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -35,5 +35,6 @@
     <type>Observatory</type>
     <address>Hobart, Tasmania, Australia</address>
     <country>Australia</country>
+    <description>Mount Canopus Observatory, located in Tasmania, Australia, is dedicated to southern hemisphere astronomy, with a focus on deep-sky imaging and the study of planetary systems.</description>
   </Facility>
 </Product_Context>

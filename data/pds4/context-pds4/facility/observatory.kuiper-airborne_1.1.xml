@@ -21,7 +21,7 @@
       <Modification_Detail>
         <modification_date>2021-08-25</modification_date>
         <version_id>1.0</version_id>
-        <description>The Kuiper Airborne Observatory was a NASA-operated aircraft equipped with a 0.91-meter infrared telescope, flying at altitudes of up to 45,000 feet to observe celestial objects above most of Earth's atmospheric water vapor. It operated from 1974 to 1995 and was instrumental in infrared astronomy, serving as a precursor to the SOFIA observatory.</description>
+        <description>Initial</description>
       </Modification_Detail>
     </Modification_History>
   </Identification_Area>
@@ -46,5 +46,6 @@
   <Facility>
     <name>Kuiper Airborne Observatory</name>
     <type>Observatory</type>
+    <description>The Kuiper Airborne Observatory was a NASA-operated aircraft equipped with a 0.91-meter infrared telescope, flying at altitudes of up to 45,000 feet to observe celestial objects above most of Earth's atmospheric water vapor. It operated from 1974 to 1995 and was instrumental in infrared astronomy, serving as a precursor to the SOFIA observatory.</description>
   </Facility>
 </Product_Context>
