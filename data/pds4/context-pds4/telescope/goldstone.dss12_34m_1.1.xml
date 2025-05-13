@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:goldstone.dss12_34m</logical_identifier>
     <version_id>1.1</version_id>
@@ -25,6 +24,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.goldstone</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>
       <reference_type>instrument_to_document</reference_type>
@@ -105,19 +112,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_longitude unit="deg">243.203</telescope_longitude>
     <telescope_latitude unit="deg">35.290</telescope_latitude>
     <coordinate_source>WGS 84 Ellipsoid</coordinate_source>
-    <description>
-            Echo Station (DSS-12) is currently the administrative center for the Goldstone Deep Space
-            Communications Complex (GDSCC).  Built in 1959 with a 26-m aperture, the station is named 
-            for early experiments performed with the passive balloon satellite, Echo 1.  The antenna 
-            is polar mounted, was upgraded to a 34-m aperture in 1979, and was capable of simultaneously
-            operating at both S- and X-band frequencies.  For 37 years, DSS-12 supported many spacecraft 
-            including the early Ranger and Surveyor missions to the Moon, deep space missions such as 
-            Pioneer and Voyager, and high Earth orbiting spacecraft. In 1996 the antenna was removed 
-            from DSN operations and used in an educational outreach project between NASA's Jet Propulsion 
-            Laboratory and the Lewis Center for Educational Research.  In 2012 the antenna was 
-            decommissioned.  Antenna coordinates are approximate; they were interpolated from coordinates
-            for DSS-13 and DSS-14 in Table 5 of module 301 (revision L) of the DSN Telecommunications 
-            Link Design Handbook (DSN document 810-005) using the map at https://www.gdscc.nasa.gov/?page_id=37
-        </description>
+    <description>             Echo Station (DSS-12) is currently the administrative center for the Goldstone Deep Space Communications Complex (GDSCC).  Built in 1959 with a 26-m aperture, the station is named for early experiments performed with the passive balloon satellite, Echo 1.  The antenna is polar mounted, was upgraded to a 34-m aperture in 1979, and was capable of simultaneously operating at both S- and X-band frequencies.  For 37 years, DSS-12 supported many spacecraft including the early Ranger and Surveyor missions to the Moon, deep space missions such as Pioneer and Voyager, and high Earth orbiting spacecraft. In 1996 the antenna was removed from DSN operations and used in an educational outreach project between NASA's Jet Propulsion Laboratory and the Lewis Center for Educational Research.  In 2012 the antenna was decommissioned.  Antenna coordinates are approximate; they were interpolated from coordinates for DSS-13 and DSS-14 in Table 5 of module 301 (revision L) of the DSN Telecommunications Link Design Handbook (DSN document 810-005) using the map at https://www.gdscc.nasa.gov/?page_id=37         </description>
   </Telescope>
 </Product_Context>

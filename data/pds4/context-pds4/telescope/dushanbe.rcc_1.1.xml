@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:dushanbe.rcc</logical_identifier>
@@ -38,10 +37,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">38.300000</telescope_latitude>
     <telescope_altitude unit="m">820</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-        The RCC Richey-Chretien Telescope is a 1 m telescope located at 38.300000, 69.250000 at the Institute of Astrophysics.
-        
-        The RCC 1m telescope at Mt. Sanglok near Dushanbe, Tadzhikistan, is operated by the Institute of Astrophysics of Tadzhikistan.
-        </description>
+    <description>         The RCC Richey-Chretien Telescope is a 1 m telescope located at 38.300000, 69.250000 at the Institute of Astrophysics. The RCC 1m telescope at Mt. Sanglok near Dushanbe, Tadzhikistan, is operated by the Institute of Astrophysics of Tadzhikistan.         </description>
   </Telescope>
 </Product_Context>

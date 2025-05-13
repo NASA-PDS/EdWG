@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:uwo_meteor_radar.cmor</logical_identifier>
@@ -38,10 +37,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">43.264000</telescope_latitude>
     <telescope_altitude unit="m">329</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-        The Canadian Meteor Orbit Radar is a 8.06 km telescope located at 43.264000, 279.228000 at the UWO Meteor Radar Complex.
-        
-        The University of Western Ontario (UWO) Meteor Radar Complex is host to the Canadian Meteor Orbit Radar and has been in operation since late 2001.
-        </description>
+    <description>The Canadian Meteor Orbit Radar (CMOR) is a distributed radar system designed to detect and track meteors, enabling researchers to study meteor streams, atmospheric entry, and orbital dynamics.</description>
   </Telescope>
 </Product_Context>

@@ -1,11 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:ctli="http://pds.nasa.gov/pds4/ctli/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:canberra.dss42_34m</logical_identifier>
     <version_id>1.1</version_id>
-    <title>DSS-42 34-m Radio Telescope</title>
+    <title>DSS 42 34-m Radio Telescope</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -24,6 +23,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.canberra</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>
       <reference_type>instrument_to_document</reference_type>
@@ -124,26 +131,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             and flattening f = 298.257 (see Table 5, DSN/Flight Project Interface Design, GEO-10,
             DSN Coverage and Geometry, Rev. E dated 1997-07-15)
         </coordinate_source>
-    <description>
-            Deep Space Station 42 (DSS-42) was the first antenna built at the Tidbinbilla tracking 
-            station site near Canberra, Australia.  It entered service in mid 1964 and was designed
-            to last 15 years.  Its first deep space mission support was for NASA's Mariner 4 
-            spacecraft on its historic first flyby of Mars. Along with other dishes in the Deep 
-            Space Network (DSN), it returned the first close up images of the surface of Mars.
-            
-            DSS-42 was originally constructed as a 26-m diameter antenna. To extend its life and 
-            increase its capabilities, the dish was extended to 34-m in the early 1980s.  DSS-42 
-            provided two-way radio communications with many dozens of robotic deep space spacecraft 
-            until its retirement from service in early 2000, well past its original expected design
-            life.
-            
-            Due to some structural weakness and metal fatigue, the antenna was dismantled. The quadrupod
-            and subreflector structure from inside the dish was retained and moved to a location behind
-            the Tidbinbilla Visitor Center where it stands today, along with one of its dish panels.
-            
-            The Canberra Deep Space Communications Complex (CDSCC) is managed by the Commonwealth 
-            Scientific and Industrial Research Organisation (CSIRO), Australia's national science 
-            research agency. The CDSCC is at Tidbinbilla, about 35 km southwest of Canberra, ACT.
-        </description>
+    <description>             Deep Space Station 42 (DSS-42) was the first antenna built at the Tidbinbilla tracking station site near Canberra, Australia.  It entered service in mid 1964 and was designed to last 15 years.  Its first deep space mission support was for NASA's Mariner 4 spacecraft on its historic first flyby of Mars. Along with other dishes in the Deep Space Network (DSN), it returned the first close up images of the surface of Mars. DSS-42 was originally constructed as a 26-m diameter antenna. To extend its life and increase its capabilities, the dish was extended to 34-m in the early 1980s.  DSS-42 provided two-way radio communications with many dozens of robotic deep space spacecraft until its retirement from service in early 2000, well past its original expected design life. Due to some structural weakness and metal fatigue, the antenna was dismantled. The quadrupod and subreflector structure from inside the dish was retained and moved to a location behind the Tidbinbilla Visitor Center where it stands today, along with one of its dish panels. The Canberra Deep Space Communications Complex (CDSCC) is managed by the Commonwealth Scientific and Industrial Research Organisation (CSIRO), Australia's national science research agency. The CDSCC is at Tidbinbilla, about 35 km southwest of Canberra, ACT.         </description>
   </Telescope>
 </Product_Context>
