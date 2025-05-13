@@ -27,6 +27,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
       <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
       <comment>
                 This context product provides information about the NASA Deep Space Network as a whole.
                 The Murriyang 64-m telescope at Parkes was used occasionally as part of the DSN.
@@ -46,11 +50,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">-32.9984064</telescope_latitude>
     <telescope_altitude unit="m">410.80</telescope_altitude>
     <coordinate_source>WGS84</coordinate_source>
-    <description>
-           This fully steerable telescope is a parabolic reflector radio antenna that is occasionally used
-           as part of the NASA Deep Space Network. It can be pointed over elevation angles 30.5-88.5 degrees 
-           at all azimuths with an accuracy of better than 1 arcsecond. It is part of the Australia Telescope 
-           National Facility, is used at frequencies up to 43 GHz, and was first operational in 1961.
-        </description>
+    <description>            The Parkes 64-m Radio Telescope is a fully steerable telescope is a parabolic reflector radio antenna that is occasionally used as part of the NASA Deep Space Network. It can be pointed over elevation angles 30.5-88.5 degrees at all azimuths with an accuracy of better than 1 arcsecond. It is part of the Australia Telescope National Facility, is used at frequencies up to 43 GHz, and was first operational in 1961.         </description>
   </Telescope>
 </Product_Context>

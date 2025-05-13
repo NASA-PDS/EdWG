@@ -26,6 +26,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.madrid</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>
       <reference_type>instrument_to_document</reference_type>
       <comment>
@@ -125,20 +133,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             and flattening f = 298.257 (see Table 5, DSN/Flight Project Interface Design, GEO-10,
             DSN Coverage and Geometry, Rev. E dated 1997-07-15)
         </coordinate_source>
-    <description>
-            Deep Space Station 61 (DSS-61) is located at the Madrid Deep Space Communications Complex (MDSCC)
-            near Madrid, Spain.  It became part of the NASA Deep Space Network in the mid 1960s.  Its original
-            diameter was 26-m, but that was extended to 34-m in the 1980s.  DSS-61 was decommissioned in
-            1999 and transferred to the PARTNeR Project (for educational purposes) in 2001.
-            
-            The Madrid Deep Space Communications Complex (MDSCC) is located about 65 km west of Madrid,
-            near the town of Robledo de Chevala, Spain.  Under an agreement between the governments of Spain
-            and the United States, dated 1964-01-29, the National Institute for Aerospace 
-            Technology (INTA) and the U.S. space agency NASA signed a contract for operation and 
-            maintenance of the MDSCC facilities. The creation, in 1992, of the state-owned Aerospace 
-            Engineering and Services, SA (INSA, S.A.) under INTA, allowed the concentration of these 
-            responsibilities in the new company. INSA has disappeared and Ingeniería de Sistemas para la
-            Defensa de España is the company that has managed MDSCC since December 2012.
-        </description>
+    <description>             Deep Space Station 61 (DSS-61) is located at the Madrid Deep Space Communications Complex (MDSCC)             near Madrid, Spain.  It became part of the NASA Deep Space Network in the mid 1960s.  Its original diameter was 26-m, but that was extended to 34-m in the 1980s.  DSS-61 was decommissioned in 1999 and transferred to the PARTNeR Project (for educational purposes) in 2001. The Madrid Deep Space Communications Complex (MDSCC) is located about 65 km west of Madrid, near the town of Robledo de Chevala, Spain.  Under an agreement between the governments of Spain and the United States, dated 1964-01-29, the National Institute for Aerospace Technology (INTA) and the U.S. space agency NASA signed a contract for operation and maintenance of the MDSCC facilities. The creation, in 1992, of the state-owned Aerospace Engineering and Services, SA (INSA, S.A.) under INTA, allowed the concentration of these responsibilities in the new company. INSA has disappeared and Ingenier√≠a de Sistemas para la Defensa de Espa√±a is the company that has managed MDSCC since December 2012.         </description>
   </Telescope>
 </Product_Context>

@@ -32,6 +32,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.eso-la_silla</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.saturn_occultation_of_28_sagittarius_1989</lid_reference>
+      <reference_type>telescope_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.earth-based-uranus-stellar-occultations</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>
     </Internal_Reference>
@@ -55,10 +63,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">-29.255833</telescope_latitude>
     <telescope_altitude unit="m">2347</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-            The 1-m photometric Cassegrain reflector is a 1 m telescope located at -29.255833, 289.268417 at the European Southern Observatory.
-            
-            Operational 1966+
-        </description>
+    <description>             The 1-m photometric Cassegrain reflector is a 1 m telescope located at -29.255833, 289.268417 at the European Southern Observatory. Operational 1966+         </description>
   </Telescope>
 </Product_Context>

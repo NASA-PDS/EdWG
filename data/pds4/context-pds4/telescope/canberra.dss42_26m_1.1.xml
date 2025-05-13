@@ -26,6 +26,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.canberra</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>
       <reference_type>instrument_to_document</reference_type>
       <comment>
@@ -125,19 +133,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             and flattening f = 298.257 (see Table 5, DSN/Flight Project Interface Design, GEO-10,
             DSN Coverage and Geometry, Rev. E dated 1997-07-15)
         </coordinate_source>
-    <description>
-            Deep Space Station 42 (DSS-42) was the first antenna built at the Tidbinbilla tracking 
-            station site near Canberra, Australia.  It entered service in mid 1964 and was designed
-            to last 15 years.  Its first deep space mission support was for NASA's Mariner 4 
-            spacecraft on its historic first flyby of Mars. Along with other dishes in the Deep 
-            Space Network (DSN), it returned the first close up images of the surface of Mars.
-            
-            DSS-42 was originally constructed as a 26-m diameter antenna. To extend its life and 
-            increase its capabilities, the dish was extended to 34-m in the early 1980s.  
-            
-            The Canberra Deep Space Communications Complex (CDSCC) is managed by the Commonwealth 
-            Scientific and Industrial Research Organisation (CSIRO), Australia's national science 
-            research agency. The CDSCC is at Tidbinbilla, about 35 km southwest of Canberra, ACT.
-        </description>
+    <description>             Deep Space Station 42 (DSS-42) was the first antenna built at the Tidbinbilla tracking station site near Canberra, Australia.  It entered service in mid 1964 and was designed to last 15 years.  Its first deep space mission support was for NASA's Mariner 4 spacecraft on its historic first flyby of Mars. Along with other dishes in the Deep Space Network (DSN), it returned the first close up images of the surface of Mars. DSS-42 was originally constructed as a 26-m diameter antenna. To extend its life and increase its capabilities, the dish was extended to 34-m in the early 1980s. The Canberra Deep Space Communications Complex (CDSCC) is managed by the Commonwealth Scientific and Industrial Research Organisation (CSIRO), Australia's national science research agency. The CDSCC is at Tidbinbilla, about 35 km southwest of Canberra, ACT.         </description>
   </Telescope>
 </Product_Context>

@@ -24,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Reference_List>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.siding_spring</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.siding_spring</lid_reference>
       <reference_type>telescope_to_observatory</reference_type>
     </Internal_Reference>
     <Internal_Reference>
@@ -37,8 +41,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">-31.273455</telescope_latitude>
     <telescope_altitude unit="m">1183</telescope_altitude>
     <coordinate_source>Geodetic - WGS 84 datum</coordinate_source>
-    <description>Catalina Sky Survey 0.5-m Uppsala Schmidt survey telescope in Siding Spring,
-Australia.
-(MPC code E12)</description>
+    <description>The Catalina Sky Survey 0.5-m Uppsala Schmidt telescope is dedicated to detecting near-Earth objects and asteroids, with its wide-field design enabling efficient scanning of the sky.</description>
   </Telescope>
 </Product_Context>

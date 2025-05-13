@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:palomar.1m52</logical_identifier>
     <version_id>1.1</version_id>
-    <title>1.52-m Ritchey-Chretien Cassegrain/Coude reflector</title>
+    <title>Palomar Observatory 1.52-m Ritchey-Chretien Cassegrain/Coude Reflector</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -34,10 +34,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">33.348888</telescope_latitude>
     <telescope_altitude unit="m">1683</telescope_altitude>
     <coordinate_source>Geodetic - North American (1927) Datum</coordinate_source>
-    <description>
-        The 1.52-m Ritchey-Chretien Cassegrain/Coude reflector is a 1.52 m telescope located at 33.348888, 243.141388 at the Palomar Observatory.
-        
-        Operational 1970+
-        </description>
+    <description>The 1.52-m Ritchey-Chrétien Cassegrain/Coudé reflector is a precision telescope designed for high-resolution imaging and spectroscopy, featuring multiple focus configurations to support a range of astronomical research.</description>
   </Telescope>
 </Product_Context>

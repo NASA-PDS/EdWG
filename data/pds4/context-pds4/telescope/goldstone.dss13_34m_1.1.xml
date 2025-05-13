@@ -28,6 +28,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.goldstone</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>
       <reference_type>instrument_to_document</reference_type>
       <comment>
@@ -114,16 +122,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">35.247164</telescope_latitude>
     <telescope_altitude unit="m">1070.444</telescope_altitude>
     <coordinate_source>WGS 84 Ellipsoid</coordinate_source>
-    <description>
-           This fully steerable telescope is a research and development radio/radar antenna that
-           is part of the NASA Deep Space Network.  It was first operational in 1962 with a 26-m
-           aperture and was named "Venus Station" to commemorate the first radar detection of Venus
-           by radar facilities at Goldstone in 1961; the 26-m antenna was decommissioned in 1991.
-           A 34-m beam waveguide (BWG) antenna was completed that year to facilitate development work
-           at higher frequencies. DSS-13 has been used occasionally in conjunction with the Goldstone
-           Solar System Radar for radar interferometry. Antenna coordinates were converted from 
-           Table 5 in module 301 (revision L) of the DSN Telecommunications Link Design Handbook 
-           (DSN document 810-005) and apply to the 34-m BWG antenna as used since 1991.
-        </description>
+    <description>            This fully steerable telescope is a research and development radio/radar antenna that is part of the NASA Deep Space Network.  It was first operational in 1962 with a 26-m aperture and was named "Venus Station" to commemorate the first radar detection of Venus            by radar facilities at Goldstone in 1961; the 26-m antenna was decommissioned in 1991. A 34-m beam waveguide (BWG) antenna was completed that year to facilitate development work at higher frequencies. DSS-13 has been used occasionally in conjunction with the Goldstone Solar System Radar for radar interferometry. Antenna coordinates were converted from Table 5 in module 301 (revision L) of the DSN Telecommunications Link Design Handbook (DSN document 810-005) and apply to the 34-m BWG antenna as used since 1991.         </description>
   </Telescope>
 </Product_Context>

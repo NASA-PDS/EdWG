@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:keck.10m_keck2</logical_identifier>
     <version_id>1.1</version_id>
-    <title>10-m Keck II Ritchey-Chretien altazimuth reflector</title>
+    <title>10-m Keck II Ritchey-Chretien Altazimuth Reflector</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -38,10 +38,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">19.826557</telescope_latitude>
     <telescope_altitude unit="m">4160</telescope_altitude>
     <coordinate_source>Aerial Survey - North American (1983) Datum</coordinate_source>
-    <description>
-        The 10-m Keck II Ritchey-Chretien altazimuth reflector is a 10 m telescope located at 19.826557, 204.525772 at the W.M. Keck Observatory.
-        
-        Operational 04/1996+; 36 1.8-m mirrors
-        </description>
+    <description>         The 10-m Keck II Ritchey-Chretien altazimuth reflector is a 10 m telescope located at 19.826557, 204.525772 at the W.M. Keck Observatory. Operational 04/1996+; 36 1.8-m mirrors         </description>
   </Telescope>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:mount_lemmon.1m02</logical_identifier>
     <version_id>1.1</version_id>
-    <title>1.02-m Cassegrain reflector</title>
+    <title>Mount Lemmon 1.02-m Cassegrain Reflector</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -23,6 +23,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.mount_lemmon</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:mount_lemmon.1m02.2kccd</lid_reference>
       <reference_type>telescope_to_instrument</reference_type>
     </Internal_Reference>
@@ -37,6 +41,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">32.442753</telescope_latitude>
     <telescope_altitude unit="m">2790</telescope_altitude>
     <coordinate_source>Geodetic - North American (1927) datum</coordinate_source>
-    <description>Operational 1970+</description>
+    <description>1.02-m Cassegrain reflector is a mid-sized reflector telescope with a Cassegrain focus, suitable for detailed imaging and research in stellar and galactic astronomy.</description>
   </Telescope>
 </Product_Context>

@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:magdalena_ridge.mro2m4</logical_identifier>
     <version_id>1.3</version_id>
-    <title>MRO 2.4m</title>
+    <title>Magdelena Ridge Observatory (MRO) 2.4m Telescope</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -38,6 +38,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.magdalena_ridge</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>
@@ -76,8 +80,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">33.976666</telescope_latitude>
     <telescope_altitude unit="m">3180</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-        The MRO 2.4m is a 2.4 m telescope located at 33.976666, 252.815278 at the Magdelena Ridge Observatory.
-        </description>
+    <description>         The Magdelena Ridge Observatory 2.4m is a 2.4 m telescope located at 33.976666, 252.815278.         </description>
   </Telescope>
 </Product_Context>

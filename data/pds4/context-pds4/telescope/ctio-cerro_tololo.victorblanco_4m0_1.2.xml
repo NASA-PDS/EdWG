@@ -28,6 +28,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.ctio-cerro_tololo</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.earth-based-uranus-stellar-occultations</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>
     </Internal_Reference>
@@ -56,6 +60,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--google maps, rounded to 5 digits-->
     <telescope_altitude unit="m">2200</telescope_altitude>
     <!--google maps, rounded to 2 digits-->
-    <description>TBD</description>
+    <description>The Víctor M. Blanco 4-meter Telescope is a large optical telescope located at Cerro Tololo Inter-American Observatory in Chile. Commissioned in 1976 and named after Puerto Rican astronomer Víctor M. Blanco, it was the largest optical telescope in the Southern Hemisphere for over two decades. It currently supports the Dark Energy Camera (DECam), which is used for wide-field imaging and cosmological research, including the Dark Energy Survey.</description>
   </Telescope>
 </Product_Context>

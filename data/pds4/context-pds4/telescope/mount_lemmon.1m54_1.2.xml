@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:mount_lemmon.1m54</logical_identifier>
     <version_id>1.2</version_id>
-    <title>1.54-m multipurpose reflector</title>
+    <title>Mount Lemmon 1.54-m Multipurpose Reflector</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -28,6 +28,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.mount_lemmon</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:mount_lemmon.1m54.4kccd</lid_reference>
       <reference_type>telescope_to_instrument</reference_type>
     </Internal_Reference>
@@ -46,10 +50,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">32.442753</telescope_latitude>
     <telescope_altitude unit="m">2790</telescope_altitude>
     <coordinate_source>Geodetic - North American (1927) Datum</coordinate_source>
-    <description>
-    The 1.54-m multipurpose reflector is a 1.54 m telescope located at 32.442753, 249.211975 at the Mount Lemmon (Catalina) Station.
-    
-    Operational 1970+
-    </description>
+    <description>1.54-m multipurpose reflector is a flexible research-grade telescope designed for multiple observing modes, used in a range of astrophysical studies including variable stars and planetary science.</description>
   </Telescope>
 </Product_Context>

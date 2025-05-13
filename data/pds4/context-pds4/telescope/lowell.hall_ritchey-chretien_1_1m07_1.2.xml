@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:lowell.hall_ritchey-chretien_1_1m07</logical_identifier>
     <version_id>1.2</version_id>
-    <title>1.07-m Hall Ritchey-Chretien reflector #1</title>
+    <title>John S. Hall Telescope 1.07-m Hall Ritchey-Chretien Reflector</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -28,6 +28,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.lowell</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:lowell.hall_ritchey-chretien_1_1m07.nasa42cam</lid_reference>
       <reference_type>telescope_to_instrument</reference_type>
     </Internal_Reference>
@@ -46,6 +50,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">35.096748</telescope_latitude>
     <telescope_altitude unit="m">2200</telescope_altitude>
     <coordinate_source>Geodetic - North American (1927) datum</coordinate_source>
-    <description>Operational 1970+</description>
+    <description>The 1.07-meter Hall Ritchey-Chrétien reflector, also known as the John S. Hall Telescope, is located at Lowell Observatory's Anderson Mesa Station near Flagstaff, Arizona. Installed in 1970 and named in honor of former Lowell director John S. Hall in 1990, this telescope has been instrumental in various astronomical studies. In 2004, it underwent significant upgrades, including the installation of a new mirror from Hextek, enhancing its observational capabilities.</description>
   </Telescope>
 </Product_Context>

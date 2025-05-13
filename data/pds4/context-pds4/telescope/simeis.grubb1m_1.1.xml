@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:simeis.grubb1m</logical_identifier>
     <version_id>1.1</version_id>
-    <title>1-m Grubb reflector</title>
+    <title>Simeis Observatory 1-m Grubb Reflector</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -38,10 +38,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">44.535500</telescope_latitude>
     <telescope_altitude unit="m">676</telescope_altitude>
     <coordinate_source>Unknown</coordinate_source>
-    <description>
-        The 1-m Grubb reflector is a 1 m telescope located at 44.535500, 34.015862 at the Crimean Astrophysical Observatory-Simeis.
-        
-        Operational 05/1926-c.1943
-        </description>
+    <description>The 1-m Grubb reflector is a historic telescope designed by the Grubb Telescope Company, used for a variety of optical astronomy applications and known for its solid mechanical construction.</description>
   </Telescope>
 </Product_Context>

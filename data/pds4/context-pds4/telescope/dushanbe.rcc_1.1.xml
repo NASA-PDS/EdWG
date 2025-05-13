@@ -38,10 +38,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">38.300000</telescope_latitude>
     <telescope_altitude unit="m">820</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-        The RCC Richey-Chretien Telescope is a 1 m telescope located at 38.300000, 69.250000 at the Institute of Astrophysics.
-        
-        The RCC 1m telescope at Mt. Sanglok near Dushanbe, Tadzhikistan, is operated by the Institute of Astrophysics of Tadzhikistan.
-        </description>
+    <description>         The RCC Richey-Chretien Telescope is a 1 m telescope located at 38.300000, 69.250000 at the Institute of Astrophysics. The RCC 1m telescope at Mt. Sanglok near Dushanbe, Tadzhikistan, is operated by the Institute of Astrophysics of Tadzhikistan.         </description>
   </Telescope>
 </Product_Context>

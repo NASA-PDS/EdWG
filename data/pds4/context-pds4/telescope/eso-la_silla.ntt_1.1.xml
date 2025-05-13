@@ -31,6 +31,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.eso-la_silla</lid_reference>
       <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.eso-la_silla</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
       <comment>European Southern Observatory (OLAF observatory code 56)</comment>
     </Internal_Reference>
     <Internal_Reference>
@@ -56,10 +60,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">-29.255122</telescope_latitude>
     <telescope_altitude unit="m">2375</telescope_altitude>
     <coordinate_source>Unknown</coordinate_source>
-    <description>
-        The New Technology Telescope (NTT) is a 3.58 m telescope located at -29.255122, 289.268258 at the European Southern Observatory.
-        
-        The ESO New Technology Telescope (NTT) is an Alt-Az, 3.58m Richey-Chretien telescope which pioneered the use of active optics.  The NTT first light happened in 1989.
-        </description>
+    <description>         The New Technology Telescope (NTT) is a 3.58 m telescope located at -29.255122, 289.268258 at the European Southern Observatory. The ESO New Technology Telescope (NTT) is an Alt-Az, 3.58m Richey-Chretien telescope which pioneered the use of active optics.  The NTT first light happened in 1989.         </description>
   </Telescope>
 </Product_Context>

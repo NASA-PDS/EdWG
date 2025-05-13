@@ -23,6 +23,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.las_campanas</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.earth-based-uranus-stellar-occultations</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>
     </Internal_Reference>
@@ -44,6 +48,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <!--google maps, rounded to 5 digits-->
     <telescope_altitude unit="m">2300</telescope_altitude>
     <!--google maps, rounded to 2 digits-->
-    <description>Irenee du Pont 2.5m Telescope</description>
+    <description>The Irénée du Pont 2.5-meter Telescope, located at Las Campanas Observatory in Chile, has been operational since 1977 and is managed by the Carnegie Institution for Science. As a Ritchey-Chrétien reflector, it supports a wide range of astronomical research, including stellar spectroscopy and supernova observations. Notably, it serves as the southern hemisphere platform for the APOGEE-2 survey, part of the Sloan Digital Sky Survey, enabling detailed studies of the Milky Way's structure and evolution. </description>
   </Telescope>
 </Product_Context>

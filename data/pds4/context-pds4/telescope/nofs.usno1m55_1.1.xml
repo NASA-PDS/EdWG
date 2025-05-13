@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:nofs.usno1m55</logical_identifier>
     <version_id>1.1</version_id>
-    <title>USNO 1.55m</title>
+    <title>US Naval Observatory (USNO) 1.55m</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -24,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Reference_List>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.nofs</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.nofs</lid_reference>
       <reference_type>telescope_to_observatory</reference_type>
       <comment>US Naval Observatory (OLAF observatory code 4701)</comment>
     </Internal_Reference>
@@ -38,10 +42,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">35.183888</telescope_latitude>
     <telescope_altitude unit="m">2310</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-        The USNO 1.55m is a 1.55 m telescope located at 35.183888, 248.260280 at the US Naval Observatory.
-        
-        US Naval Observatory, Flagstaff Station
-        </description>
+    <description>         The USNO 1.55m is a 1.55 m telescope located at 35.183888, 248.260280 at the US Naval Observatory.                  US Naval Observatory, Flagstaff Station         </description>
   </Telescope>
 </Product_Context>

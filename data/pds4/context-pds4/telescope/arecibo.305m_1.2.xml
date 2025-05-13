@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:arecibo.305m</logical_identifier>
     <version_id>1.2</version_id>
-    <title>305-m fixed spherical reflecting antenna</title>
+    <title>Arecibo Observatory 305-m Fixed Spherical Reflecting Antenna</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -32,6 +32,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.pre-magellan</lid_reference>
+      <reference_type>telescope_to_investigation</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:individual.campbell_venus_radar</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>
@@ -74,35 +78,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">18.344219</telescope_latitude>
     <telescope_altitude unit="m">453.34</telescope_altitude>
     <coordinate_source>Geodetic - GRS 80 datum</coordinate_source>
-    <description>
-	    Arecibo's 305-m fixed spherical reflecting radio antenna was the primary telescope
-	    at Arecibo Observatory between 1963 and 2020, when it was irreparably damaged by a
-	    series of failures in its supporting cables.  Because the surface was spherical,
-	    the antenna used 'line' feeds, each connected to receivers in 'carriage houses'
-	    supported above the reflector by towers and cables. In the late 1990s one of the
-	    carriage houses was replaced with reflecting optics that corrected the spherical
-	    aberration over a wide bandwidth, reduced receiver noise by a factor of several,
-	    and made gain less dependent on pointing.  The antenna was 'pointed' over angles of
-	    approximately 0-20 degrees from zenith by by moving the carriage houses. Initially
-	    the antenna was used for radio astronomy above 50 MHz and solar system radar
-	    astronomy (including active probing of Earth's upper atmosphere) at 430 MHz. In the
-	    mid-1970s, the reflecting surface was improved and new receivers and transmitters
-	    were added, allowing radio observations to 11 GHz and radar operation at 2380 MHz.
-
-        The position of the telescope was determined through surveying and comparison to
-        stations determined using the Global Positioning System. The accuracy of the position
-        is approximately 1m.
-            
-            Derived position in other coordinate systems:
- 
-            Geocentric Longitude:   -66 45 09.70
-            Geocentric Latitude:    +18 13 46.45
-            Astronomical Longitude: -66 45 08.00
-            Astronomical Latitude:  +18 21 13.07
-            Elevation (above geoid):    496.84 m
-            Geocentric X:           2390487.55 m
-            Geocentric Y:          -5564731.65 m
-            Geocentric Z:           1994725.93 m
-        </description>
+    <description>             Arecibo's 305-m fixed spherical reflecting radio antenna was the primary telescope at Arecibo Observatory between 1963 and 2020, when it was irreparably damaged by a  series of failures in its supporting cables.  Because the surface was spherical, the antenna used 'line' feeds, each connected to receivers in 'carriage houses' supported above the reflector by towers and cables. In the late 1990s one of the carriage houses was replaced with reflecting optics that corrected the spherical aberration over a wide bandwidth, reduced receiver noise by a factor of several, and made gain less dependent on pointing.  The antenna was 'pointed' over angles of approximately 0-20 degrees from zenith by by moving the carriage houses. Initially the antenna was used for radio astronomy above 50 MHz and solar system radar astronomy (including active probing of Earth's upper atmosphere) at 430 MHz. In the mid-1970s, the reflecting surface was improved and new receivers and transmitters were added, allowing radio observations to 11 GHz and radar operation at 2380 MHz. The position of the telescope was determined through surveying and comparison to stations determined using the Global Positioning System. The accuracy of the position is approximately 1m. Derived position in other coordinate systems: Geocentric Longitude:   -66 45 09.70 Geocentric Latitude:    +18 13 46.45 Astronomical Longitude: -66 45 08.00             Astronomical Latitude:  +18 21 13.07 Elevation (above geoid):    496.84 m Geocentric X: 2390487.55 m Geocentric Y:          -5564731.65 m Geocentric Z: 1994725.93 m         </description>
   </Telescope>
 </Product_Context>

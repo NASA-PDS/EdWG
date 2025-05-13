@@ -26,6 +26,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.las_cumbres</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.double_asteroid_redirection_test</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>
     </Internal_Reference>
@@ -48,11 +52,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Reference_List>
   <Telescope>
     <aperture unit="m">2</aperture>
-    <description>
-            The 2m telescopes of the Las Cumbres global network are built to be identical. They are
-            Altitude-Azimuth mounted Ritchey-Chretian Cassegrain telescopes. Users should consult 
-            the data product documentation to determine which telescope was used to record any 
-            specific observation when that information is needed.
-        </description>
+    <description>             The 2m telescopes of the Las Cumbres global network are built to be identical. They are Altitude-Azimuth mounted Ritchey-Chretian Cassegrain telescopes. Users should consult the data product documentation to determine which telescope was used to record any specific observation when that information is needed.         </description>
   </Telescope>
 </Product_Context>

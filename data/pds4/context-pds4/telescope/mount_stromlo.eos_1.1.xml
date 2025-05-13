@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:mount_stromlo.eos</logical_identifier>
     <version_id>1.1</version_id>
-    <title>Electro Optic Systems</title>
+    <title>Mount Stromlo Electro Optic Systems</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -24,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Reference_List>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.mount_stromlo</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.mount_stromlo</lid_reference>
       <reference_type>telescope_to_observatory</reference_type>
       <comment>Mount Stromlo Observatory (OLAF observatory code 20)</comment>
     </Internal_Reference>
@@ -38,10 +42,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">-35.316000</telescope_latitude>
     <telescope_altitude unit="m">8130</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-        The Electro Optic Systems is a 1.8 m telescope located at -35.316000, 149.010000 at the Mount Stromlo Observatory.
-        
-        1.8 m Electro Optic Systems telescope
-        </description>
+    <description>Electro Optic Systems is a technology and defense company that operates advanced optical tracking and space surveillance systems, rather than a specific telescope, known for contributing to space situational awareness.</description>
   </Telescope>
 </Product_Context>

@@ -32,6 +32,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.siding_spring</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.earth-based-uranus-stellar-occultations</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>
     </Internal_Reference>
@@ -55,10 +59,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">-31.273333</telescope_latitude>
     <telescope_altitude unit="m">1149</telescope_altitude>
     <coordinate_source>Unknown</coordinate_source>
-    <description>
-            The 2.3-m Advanced Technology Telescope (ATT) is a 2.3 m telescope located at -31.273333, 149.061676 at the Siding Spring Observatory.
-            
-            Operational 1984+
-        </description>
+    <description>The Australian National University 2.3m Telescope, also at Siding Spring Observatory, supports a broad range of astronomical research, including stellar populations, exoplanets, and galactic dynamics.</description>
   </Telescope>
 </Product_Context>

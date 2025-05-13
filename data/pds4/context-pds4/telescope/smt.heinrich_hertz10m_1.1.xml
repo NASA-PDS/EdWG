@@ -38,10 +38,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">32.701611</telescope_latitude>
     <telescope_altitude unit="m">3190</telescope_altitude>
     <coordinate_source>Satellite Determined - Datum Unknown</coordinate_source>
-    <description>
-        The 10-m Heinrich Hertz Submillimeter Telescope (SMT) is a 10 m telescope located at 32.701611, 250.108780 at the Submillimeter Telescope Observatory.
-        
-        Operational 1993+
-        </description>
+    <description>The 10-m Heinrich Hertz Submillimeter Telescope (SMT), located on Mt. Graham in Arizona, is a major facility for submillimeter-wave astronomy, enabling studies of cold dust, gas clouds, and star-forming regions.</description>
   </Telescope>
 </Product_Context>

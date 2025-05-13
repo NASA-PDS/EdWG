@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:kuiper-airborne.0m91</logical_identifier>
     <version_id>1.1</version_id>
-    <title>0.91m Telescope</title>
+    <title>Kuiper Airborne 0.91m Telescope</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Modification_History>
@@ -22,6 +22,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </Modification_History>
   </Identification_Area>
   <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.kuiper-airborne</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:observing_campaign.earth-based-uranus-stellar-occultations</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>

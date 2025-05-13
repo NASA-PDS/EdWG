@@ -38,10 +38,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">43.264000</telescope_latitude>
     <telescope_altitude unit="m">329</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-        The Canadian Meteor Orbit Radar is a 8.06 km telescope located at 43.264000, 279.228000 at the UWO Meteor Radar Complex.
-        
-        The University of Western Ontario (UWO) Meteor Radar Complex is host to the Canadian Meteor Orbit Radar and has been in operation since late 2001.
-        </description>
+    <description>The Canadian Meteor Orbit Radar (CMOR) is a distributed radar system designed to detect and track meteors, enabling researchers to study meteor streams, atmospheric entry, and orbital dynamics.</description>
   </Telescope>
 </Product_Context>

@@ -23,6 +23,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.steward-kittpeak</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:steward-kittpeak.spacewatch_1m8.fli</lid_reference>
       <reference_type>telescope_to_instrument</reference_type>
     </Internal_Reference>
@@ -37,26 +41,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">31.96169</telescope_latitude>
     <telescope_altitude unit="m">2080</telescope_altitude>
     <coordinate_source>Geodetic - WGS 84 datum</coordinate_source>
-    <description>Spacewatch 1.8m telescope
-
-The mechanical design of the tube truss by Barr is optimized by finite-element
-analysis to provide high resonant frequencies.  The mount is an altitude-azimuth type
-for compatibility with the mirror support cell contributed by the Multi-Mirror
-Telescope Observatory.  Both axes are driven by DC servo motors directly coupled to
-friction rollers.  The CCD instrument stage is also rotated under computer control. 
-The telescope was fabricated in the University Research Instrumentation Center
-(URIC).
-
-The optical configuration is f/2.7 folded prime focus with a flat secondary that
-locates the focal plane in the center of the optical truss near the altitude axis. 
-This shortened the telescope enough to make the dome building affordable, and the
-flat secondary preserves the fast f/number of the primary mirror.  The coma corrector
-designed by R. A. Buchroeder is a modified Klee design of 5 spherical lens elements
-plus a filter transmitting longward of the B bandpass.  The filter greatly simplifies
-lens design and reduces sky background while not significantly reducing the
-peak-pixel brightness of asteroids.  The distortion-free, flat, unvignetted field of
-view is 0.8 deg in diameter and the effective corrected focal length is 4955 mm.
-
-First light was on May 3, 2000.</description>
+    <description>Spacewatch 1.8m telescope  The mechanical design of the tube truss by Barr is optimized by finite-element analysis to provide high resonant frequencies.  The mount is an altitude-azimuth type for compatibility with the mirror support cell contributed by the Multi-Mirror Telescope Observatory.  Both axes are driven by DC servo motors directly coupled to friction rollers.  The CCD instrument stage is also rotated under computer control.  The telescope was fabricated in the University Research Instrumentation Center (URIC).  The optical configuration is f/2.7 folded prime focus with a flat secondary that locates the focal plane in the center of the optical truss near the altitude axis.  This shortened the telescope enough to make the dome building affordable, and the flat secondary preserves the fast f/number of the primary mirror.  The coma corrector designed by R. A. Buchroeder is a modified Klee design of 5 spherical lens elements plus a filter transmitting longward of the B bandpass.  The filter greatly simplifies lens design and reduces sky background while not significantly reducing the peak-pixel brightness of asteroids.  The distortion-free, flat, unvignetted field of view is 0.8 deg in diameter and the effective corrected focal length is 4955 mm.  First light was on May 3, 2000.</description>
   </Telescope>
 </Product_Context>

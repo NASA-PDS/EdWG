@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <Identification_Area>
     <logical_identifier>urn:nasa:pds:context:telescope:ctio-cerro_tololo.smarts_1m0</logical_identifier>
     <version_id>1.1</version_id>
-    <title>1-m Boller &amp;amp; Chivens Ritchey-Chretien reflector</title>
+    <title>Cerro Tololo Inter-American Observatory 1-m Boller and Chivens Ritchey-Chretien Reflector</title>
     <information_model_version>1.22.0.0</information_model_version>
     <product_class>Product_Context</product_class>
     <Alias_List>
@@ -31,6 +31,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.ctio-cerro_tololo</lid_reference>
       <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.ctio-cerro_tololo</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
       <comment>Cerro Tololo Inter-American Observatory (OLAF observatory code 55)</comment>
     </Internal_Reference>
     <Internal_Reference>
@@ -44,10 +48,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">-30.165222</telescope_latitude>
     <telescope_altitude unit="m">2215</telescope_altitude>
     <coordinate_source>Astronomical</coordinate_source>
-    <description>
-        The 1-m Boller &amp;amp; Chivens Ritchey-Chretien reflector is a 1 m telescope located at -30.165222, 289.185608 at the Cerro Tololo Inter-American Observatory.
-        
-        Operational 1974+; from Yale Univ. Obs.
-        </description>
+    <description>The 1-meter Boller &amp; Chivens Ritchey-Chrétien reflector is an optical telescope located at the Cerro Tololo Inter-American Observatory in Chile, at coordinates -30.165222° latitude and 289.185608° longitude (J2000). Installed in 1974 and originally operated by Yale University Observatory, this 1-meter-class telescope has been used for a wide range of astronomical research, including photometric studies, stellar spectroscopy, and monitoring of variable stars. It remains an important facility for both research and education.</description>
   </Telescope>
 </Product_Context>

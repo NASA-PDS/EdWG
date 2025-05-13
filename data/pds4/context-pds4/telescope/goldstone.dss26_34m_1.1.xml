@@ -25,6 +25,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.goldstone</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:radiosci.documentation:dsn.810-005</lid_reference>
       <reference_type>instrument_to_document</reference_type>
       <comment>
@@ -97,18 +105,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">35.335689</telescope_latitude>
     <telescope_altitude unit="m">968.686</telescope_altitude>
     <coordinate_source>WGS 84 Ellipsoid</coordinate_source>
-    <description>
-           DSS-26 is one of three beam waveguide (BWG) antennas constructed between 1992 and 1996 in a cluster
-           at "Apollo Valley" within the Goldstone Deep Space Communications Complex (GDSCC) . These antennas
-           were the first DSN operational antennas to utilize the BWG design that moves environmentally 
-           sensitive electronic equipment into an underground pedestal instead of a centrally mounted feed
-           cone structure. The use of the underground pedestal also allows for easier repair, maintenance
-           and upgrades. DSS-26 operates at S-, X-, and Ka-band (2, 8, and 34 GHz, respectively).  On S-band 
-           its transmitter radiates 250 W; it can receive either right- or left-circular polarization (RCP or
-           LCP, respectively).  On X-band, its transmitter is rated for 20 kW; it can receive RCP and LCP
-           simultaneously.  At Ka-band it can receive RCP and LCP simultaneously but not transmit. Antenna 
-           coordinates were converted from Table 5 in module 301 (revision L) of the DSN Telecommunications
-           Link Design Handbook (DSN document 810-005).
-        </description>
+    <description>            DSS-26 is one of three beam waveguide (BWG) antennas constructed between 1992 and 1996 in a cluster at "Apollo Valley" within the Goldstone Deep Space Communications Complex (GDSCC) . These antennas were the first DSN operational antennas to utilize the BWG design that moves environmentally sensitive electronic equipment into an underground pedestal instead of a centrally mounted feed cone structure. The use of the underground pedestal also allows for easier repair, maintenance and upgrades. DSS-26 operates at S-, X-, and Ka-band (2, 8, and 34 GHz, respectively).  On S-band its transmitter radiates 250 W; it can receive either right- or left-circular polarization (RCP or LCP, respectively).  On X-band, its transmitter is rated for 20 kW; it can receive RCP and LCP            simultaneously.  At Ka-band it can receive RCP and LCP simultaneously but not transmit. Antenna coordinates were converted from Table 5 in module 301 (revision L) of the DSN Telecommunications Link Design Handbook (DSN document 810-005).         </description>
   </Telescope>
 </Product_Context>

@@ -29,6 +29,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
       <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
       <comment>
                 This context product provides information about the NASA Deep Space Network as a whole.
                 The Usuda 64-m telescope near Saku, Nagano, Japan has been used occasionally as part 
@@ -49,9 +53,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_latitude unit="deg">36.133056</telescope_latitude>
     <telescope_altitude unit="m">1456</telescope_altitude>
     <coordinate_source>WGS84</coordinate_source>
-    <description>
-           This fully steerable telescope is a beam waveguide radio antenna that is occasionally used as
-           part of the NASA Deep Space Network. It operates at X-band and S-band and was first used in 1984.
-        </description>
+    <description>The Usuda 64-m Radio Telescope, originally used as a Deep Space Network (DSN) antenna by JAXA in Japan, is a powerful radio dish used for spacecraft communication and deep space research, including radar and radio science.</description>
   </Telescope>
 </Product_Context>

@@ -23,6 +23,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.apache_point</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
       <reference_type>telescope_to_investigation</reference_type>
     </Internal_Reference>
@@ -41,14 +45,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <telescope_longitude unit="deg">254.2</telescope_longitude>
     <telescope_latitude unit="deg">32.8</telescope_latitude>
     <telescope_altitude unit="m">2788</telescope_altitude>
-    <description>The Astrophysical Research Consortium 3.5-meter telescope is located at
-            the Apache Point Observatory in the Sacramento Mountains in Sunspot, NM.
-            The observatory stands at an altitude of 2788 meters, latitude 32.8
-            degrees N, and longitude 105.8 degrees W. The ARC 3.5-meter telescope is
-            designed with an altitude-azimuth mount. The primary and secondary mirrors
-            provide a working f/number of 10.4 and an effective focal length of 35238.7 mm.
-            The telescope was designed to host various instruments simultaneously through 
-            the use of multiple Nasmyth ports and a movable tertiary mirror.
-        </description>
+    <description>The Astrophysical Research Consortium 3.5-meter telescope is located at the Apache Point Observatory in the Sacramento Mountains in Sunspot, NM. The observatory stands at an altitude of 2788 meters, latitude 32.8 degrees N, and longitude 105.8 degrees W. The ARC 3.5-meter telescope is designed with an altitude-azimuth mount. The primary and secondary mirrors             provide a working f/number of 10.4 and an effective focal length of 35238.7 mm. The telescope was designed to host various instruments simultaneously through the use of multiple Nasmyth ports and a movable tertiary mirror.         </description>
   </Telescope>
 </Product_Context>

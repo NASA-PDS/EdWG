@@ -35,6 +35,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <reference_type>telescope_to_facility</reference_type>
     </Internal_Reference>
     <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:facility:observatory.las_cumbres</lid_reference>
+      <reference_type>telescope_to_facility</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
       <lid_reference>urn:nasa:pds:context:instrument:las_cumbres.1m0_telescopes.fli</lid_reference>
       <reference_type>telescope_to_instrument</reference_type>
     </Internal_Reference>
@@ -49,11 +53,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </Reference_List>
   <Telescope>
     <aperture unit="m">2</aperture>
-    <description>
-            The 1m telescopes of the Las Cumbres global network are built to be identical. They are
-            Equatorial C-ring mounted Ritchey-Chretian Cassegrain telescopes. Users should consult 
-            the data product documentation to determine which telescope was used to record any 
-            specific observation when that information is needed.
-        </description>
+    <description>             The 1m telescopes of the Las Cumbres global network are built to be identical. They are Equatorial C-ring mounted Ritchey-Chretian Cassegrain telescopes. Users should consult the data product documentation to determine which telescope was used to record any specific observation when that information is needed.         </description>
   </Telescope>
 </Product_Context>
