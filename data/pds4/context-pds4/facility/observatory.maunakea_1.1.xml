@@ -9,7 +9,7 @@
     <product_class>Product_Context</product_class>
     <Alias_List>
       <Alias>
-        <alternate_title>urn:nasa:pds:context:facility:observatory.mauna_kea</alternate_title>
+        <alternate_id>urn:nasa:pds:context:facility:observatory.mauna_kea</alternate_id>
       </Alias>
       <!-- deprecated LID -->
       <Alias>
@@ -17,6 +17,15 @@
       </Alias>
       <Alias>
         <alternate_title>Maunakea Observatories</alternate_title>
+      </Alias>
+      <Alias>
+        <alternate_id>urn:nasa:pds:context:facility:observatory.jac</alternate_id>
+      </Alias>
+      <Alias>
+        <alternate_id>Joint Astronomy Centre</alternate_id>
+      </Alias>
+      <Alias>
+        <alternate_title>Mauna Kea</alternate_title>
       </Alias>
     </Alias_List>
     <Modification_History>

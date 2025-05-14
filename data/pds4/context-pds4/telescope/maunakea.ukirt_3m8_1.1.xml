@@ -11,6 +11,9 @@
       <Alias>
         <alternate_title>United Kingdom Infrared Telescope 3.8m</alternate_title>
       </Alias>
+      <Alias>
+        <alternate_id>urn:nasa:pds:context:telescope:jac.ukirt3m8</alternate_id>
+      </Alias>
     </Alias_List>
     <Modification_History>
       <Modification_Detail>
