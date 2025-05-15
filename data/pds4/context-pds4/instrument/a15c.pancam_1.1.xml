@@ -67,7 +67,11 @@
   </Reference_List>
   <Instrument>
     <name>Apollo 15 Command and Service Module Panoramic Camera</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>-915230</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Apollo 15 Scientific Instrument Module (SIM) Itek Panoramic Camera was designed to obtain high-resolution panoramic photographs, on black and white film, with stereoscopic and monoscopic coverage of the lunar surface. The panoramic camera, which was housed in the Command Service Module (CSM) and scanned the lunar surface from lunar orbit, also provided supporting photographic data for the other CSM cameras and experiments. The camera provided photographs of 1-m to 2-m resolution from an orbital altitude of 111 km. Over 1500 useful photographs were obtained.</description>

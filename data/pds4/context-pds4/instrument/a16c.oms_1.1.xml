@@ -66,7 +66,11 @@
   </Reference_List>
   <Instrument>
     <name>Apollo 16 Command and Service Module Orbital Mass Spectrometer Experiment</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Apollo 16 Orbital Mass Spectrometer (OMS) Experiment, carried on board the Command and Service Module (CSM), measured the composition of the lunar atmosphere by analyzing the gases present around the moon during its orbit.</description>
   </Instrument>
 </Product_Context>
