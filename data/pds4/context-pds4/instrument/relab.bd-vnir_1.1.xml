@@ -51,8 +51,12 @@
   </Reference_List>
   <Instrument>
     <name>NASA Reflectance Experiment Laboratory Bidirectional Visible and Near Infrared Spectrometer</name>
-    <type>Spectrometer</type>
-    <subtype>Bi-directional Ultraviolet, Visible, and Near Infrared Spectrometer</subtype>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+        <ctli:subtype>Bi-directional Ultraviolet, Visible, and Near Infrared Spectrometer</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The NASA Reflectance Experiment Laboratory (RELAB) highly bidirectional (8-degree cone angle on the detector side) reflectance spectrometer was built originally by Lockheed at NASA Johnson Space Center for returned lunar samples by Apollo 11 and later missions. Both the incidence and emergence angles can be independently changed up to about 70 degrees. The incidence arm is integrated with a lamp unit, a chopper, a monochromater, an order sorting filter wheel, and a scrambler lens, and the emergence arm is integrated with apertures, a telescope, and detectors. Halogen-Tungsten and Xenom lamps are used for UV and Vis-NIR ranges, and PMT and InSb (liquid N2 cooled) are used for UV-Vis and NIR ranges, respectively. The standard reference material was typically pressed halon until March 2018, and was switched to Spectralon manufactured by Labsphere after that date. Wavelength coverage is 0.3-2.6 um.         </description>
   </Instrument>
 </Product_Context>

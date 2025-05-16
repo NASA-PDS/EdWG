@@ -50,11 +50,15 @@
   <Instrument>
     <name>Lunar Trailblazer Spacecraft Lunar Thermal Mapper</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Imaging Spectrometer</ctli:type>
-        <ctli:type>Imager</ctli:type>
-        <ctli:subtype>Multispectral Imager</ctli:subtype>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Imaging Spectrometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+          <ctli:subtype>Multispectral Imager</ctli:subtype>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>The Lunar Trailblazer (LT) Spacecraft Lunar Thermal Mapper (LTM) is a multispectral infrared imager designed to map temperature (110-400 K), physical properties, and composition. The spatial resolution of the instrument is 25 m/pixel over 11 km width. It has 4 broadband thermal channels 6-100 μm and 11 compositional channels 7-10 μm. The LTM components include a five-mirror telescope and optical system and an uncooled microbolometer detector array.  </description>
   </Instrument>

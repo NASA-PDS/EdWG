@@ -82,11 +82,17 @@
   <Instrument>
     <name>The LIDAR (Light Detection and Ranging) Instrument for Hayabusa2</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Altimeter</ctli:type>
-        <ctli:type>Dust Analyzer</ctli:type>
-        <ctli:type>Lidar</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Altimeter</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Dust Analyzer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Lidar</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-37400</naif_instrument_id>
     <description>The lidar system aboard the Hayabusa2 spacecraft was part if the navigation system and was also used as a laser altimeter for scientific observation. It was user to measure the distance to surface of (162173) Ryugu to determine spacecraft position, to map the topography of the asteroid, and to derive albedo measuring the intensity of the light reflected by the asteroid surface. The Hayabusa2 lidar also had a dust count mode and a mode for specifically for the laser link experiment.</description>

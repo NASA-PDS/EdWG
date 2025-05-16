@@ -33,7 +33,11 @@
   </Reference_List>
   <Instrument>
     <name>Spacewatch Drift Scan Camera</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Spacewatch Drift Scan Camera is an astronomical instrument used by the Spacewatch Project, which is based at the University of Arizona's Lunar and Planetary Laboratory. Spacewatch is dedicated to detecting, tracking, and studying small bodies in the solar system, particularly near-Earth objects (NEOs), asteroids, and comets.</description>
   </Instrument>
 </Product_Context>

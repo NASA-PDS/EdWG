@@ -53,7 +53,11 @@
   </Reference_List>
   <Instrument>
     <name>Magnetometer for JNO</name>
-    <type>Magnetometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Magnetometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Magnetometer (MAG) investigation was designed study the magnetic dynamo and interior of Jupiter as well as to explore the polar magnetosphere. Objectives include mapping Jupiter's magnetic field in three dimensions and deriving a spherical harmonic model of the planet's main magnetic field through degree and order 14. The MAG investigation consists of two redundant flux gate magnetometers and co-located advanced stellar compasses (ASC).</description>

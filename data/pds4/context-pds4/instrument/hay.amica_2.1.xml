@@ -81,10 +81,14 @@
   <Instrument>
     <name>The Asteroid Multi-band Imaging Camera (AMICA) for Hayabusa</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Imager</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Camera</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-130102</naif_instrument_id>
     <description>The Asteroid Multi-band Imaging Camera (AMICA) on Hayabusa is designed to collect scientific images and also to be used for optical navigation. The AMICA system consists of a refracting telescope, a filter wheel with eight filters - seven of which are narrow-band filters consistent with the Eight Color Asteroid Survey (ECAS), a 1024x1000 pixel CCD, and associated electronics. AMICA has a field-of-view of 5.7 x 5.7 degrees giving a frame size of about 1 km at 10 km range.</description>

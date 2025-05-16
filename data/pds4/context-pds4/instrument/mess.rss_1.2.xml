@@ -143,7 +143,11 @@
   </Reference_List>
   <Instrument>
     <name>MESSENGER Radio Science Subsystem</name>
-    <type>Radio Science</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Radio Science</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The MESSENGER telecommunications system used an X-band transponder on the spacecraft and transmitters and receivers at stations of the NASA Deep Space Network on Earth. Range and Doppler measurements made during communications sessions were used to determine the spacecraft trajectory; from the trajectory, Mercury's gravity field was inferred. Measurements of occultation times were used to obtain the planet's radius at the occultation points, refining the planet's shape model.</description>

@@ -52,10 +52,14 @@
   <Instrument>
     <name>Mars 2020 Perseverance Rover Radar Imager for Mars Subsurface Experiment</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Radar</ctli:type>
-        <ctli:type>Imager</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Radar</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>The Mars 2020 Perseverance Rover Radar Imager for Mars Subsurface Experiment (RIMFAX) is a ground penetrating radar that uses a single antenna to transmit (via a transmitter, TX) and receive (via a receiver, RX) electromagnetic waves over a range of frequencies (150 to 1200 MHz) into/from the surface. The instrument can be operated in either active (TX and RX) or passive (RX-only) modes. Transmitted waves propagate downward until they are reflected back by the surface and shallow interfaces in the subsurface geologic structure across which discontinuities in permittivity (i.e., storage of electrical energy in an electric field) exist.                 </description>
   </Instrument>

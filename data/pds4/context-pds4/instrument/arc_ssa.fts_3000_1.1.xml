@@ -29,7 +29,11 @@
   </Reference_List>
   <Instrument>
     <name>Varian Excalibur Series FTS 3000</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The laboratory spectrometer can collect Fourier transform spectra in the range of 0.9 to 22 micrometers (11000-450 1/cm) using MCT and DTGS detectors, along with KBr and quartz beamsplitters. It offers a minimum spectral resolution of 0.5 1/cm. The instrument host ID is 'LAB510'.</description>
   </Instrument>
 </Product_Context>

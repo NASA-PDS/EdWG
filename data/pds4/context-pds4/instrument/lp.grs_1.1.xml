@@ -94,7 +94,11 @@
   </Reference_List>
   <Instrument>
     <name>Lunar Prospector Spacecraft Gamma Ray Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Lunar Prospector Spacecraft Gamma Ray Spectrometer (GRS) sensor consisted of a 7.1 cm diameter by 7.6 cm long bismuth germanate (BGO) crystal, placed within a 12 cm diameter by 20 cm long, borated-plastic anticoincidence shield (ACS). Both scintillators were viewed by separate photomultiplier tubes, and enclosed in a cylindrical, graphite-epoxy housing. The GRS estimated the global surface abundances of key elements (U, Th, K, O, Si, Mg, Fe, Ti, Ca, Al, and H). The GRS provided new constraints on the bulk composition of the crust, on compositional variations over the lunar surface, and on the existence of lunar resources. The GRS investigated how large-scale impacts and volcanism have modified the structure and surface composition of the lunar crust. The Gamma Ray Spectrometer was mounted on one of the three Lunar Prospector booms. The sensor housing was wrapped with a thermostat controlled heater within a thermal blanket that will provide a stable operational environment of -28 deg C for at least 1.5 years. The ACS functioned to tag penetrating charged-particle events from the gamma ray spectrum and to tag gamma rays that escape from the BGO. The ACS also detected neutrons using the boron content of the shield. The Gamma Ray Spectrometer was designed to operate continuously during the Lunar Prospector Primary Mission.  It acquired a spectrum every 32 seconds. The gamma ray energy range of the instrument covered 0.3 to 9 MeV with a sampling resolution of 17.6 keV.  The Lunar Prospector GRS, as a function of energy, was 2 to 8 times more sensitive than the Apollo gamma ray spectrometer. </description>

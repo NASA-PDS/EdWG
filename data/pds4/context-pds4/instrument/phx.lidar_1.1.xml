@@ -133,7 +133,11 @@
   </Reference_List>
   <Instrument>
     <name>Phoenix Lander Meteorology Suite LIDAR</name>
-    <type>Altimeter</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Altimeter</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Lidar-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

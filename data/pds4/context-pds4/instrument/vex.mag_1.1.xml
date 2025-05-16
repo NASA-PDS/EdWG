@@ -58,7 +58,11 @@ Space Sci., 54, 1336-1343, doi:10.1016/j.pss.2006.04.018, 2006.
   </Reference_List>
   <Instrument>
     <name>Magnetometer</name>
-    <type>Magnetometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Magnetometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Venus Express orbiter is equipped with a magnetometer consisting of two tri-axial fluxgate sensors, designed to study the interaction between Venus' atmosphere and solar wind over a nominal mission duration of 500 Earth days. The instrument can measure magnetic fields with a frequency range from DC to 128 Hz, capturing essential data regarding the magnetosheath, magnetic barriers, and ionospheric properties. Utilizing advanced calibration and signal processing techniques, the magnetometer operates in various modes including Solar Wind, Pericenter, and Burst, enabling high-resolution data collection during key orbital phases. Its design emphasizes low mass and power consumption, making it suitable for the extreme conditions of space while providing critical insights into planetary magnetism and plasma boundaries.</description>

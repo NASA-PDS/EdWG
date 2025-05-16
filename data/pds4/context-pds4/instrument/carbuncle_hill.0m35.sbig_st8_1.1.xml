@@ -23,7 +23,11 @@
   </Identification_Area>
   <Instrument>
     <name>SBIG ST-8</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The SBIG ST-8 is a model of astronomical CCD camera used for astrophotography and scientific imaging. It is known for its high sensitivity and capability to capture detailed images of celestial objects. The camera is popular among amateur astronomers and professionals alike for its features and performance in capturing astronomical events.</description>
   </Instrument>
 </Product_Context>

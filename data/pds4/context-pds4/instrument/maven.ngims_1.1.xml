@@ -43,7 +43,11 @@
   </Reference_List>
   <Instrument>
     <name>Neutral Gas and Ion Mass Spectrometer</name>
-    <type>Mass Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Mass Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The MAVEN Neutral Gas and Ion Mass Spectrometer (NGIMS) is a high sensitivity quadrupole mass spectrometer with a mass range of 2 to 150 Dalton and a mass resolution of 1 Da. NGISM is designed to determine the structure and variation of neutral atmosphere and ionosphere with altitude, ranging from the homopause to above the exobase. Major atmospheric species include He, N, O, CO, N2, NO, O2, Ar, and CO2. The sensor of the NGIMS instrument has a high heritage from the Neutral Gas and Ion Mass Spectrometer developed for the CONTOUR mission and the Neutral Mass Spectrometer (NMS) developed for the LADEE Mission. This mass spectrometer is similar to the Cassini Ion and Neutral Mass Spectrometer (INMS) designed and developed at GSFC. The MAVEN NGIMS instrument was modified from the heritage CONTOUR NGIMS instrument to increase the instrument sensitivity, field of view and overall operational flexibility.</description>
   </Instrument>
 </Product_Context>

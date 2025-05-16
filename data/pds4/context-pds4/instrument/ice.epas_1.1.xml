@@ -58,7 +58,11 @@
   </Reference_List>
   <Instrument>
     <name>The Energetic Particle Anisotropy Spectrometer (EPAS) for the International Cometary Explorer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Energetic Particle Anisotropy Spectrometer (EPAS) detected energetic protons and heavy nucleons via three identical charged-particle telescopes aligned at different angles to the spin axis, which was perpendicular to the ecliptic plane. Pulse-height analysis resolved thekinetic energies of the incoming particles into eight energy channels for each telescope. These count rates were, in turn, resolved into sectors in the equatorial plane to measure the anisotropy of the particles.</description>

@@ -53,7 +53,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Global Surveyor Spacecraft Thermal Emission Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Thermal Infrared Spectrometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

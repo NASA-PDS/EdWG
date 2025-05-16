@@ -67,7 +67,11 @@
   </Reference_List>
   <Instrument>
     <name>Apollo 16 Lunar Surface Experiments Package Lunar Surface Magnetometer Experiment</name>
-    <type>Magnetometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Magnetometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Apollo 16 Lunar Surface Experiments Package (ALSEP) Lunar Surface Magnetometer (LSM) Experiment consisted of a triaxial fluxgate magnetometer and was part of a three-station network (Apollo 12,15,16) primarily designed to investigate the electromagnetic properties of the interior of the Moon. The three magnetometers could measure magnetic fields in different ranges (+/- 50, 100, or 200 gammas) that could be selected by ground command. The instrument was oriented on the lunar surface by the astronauts with a shadowgraph and bubble level. </description>
   </Instrument>
 </Product_Context>

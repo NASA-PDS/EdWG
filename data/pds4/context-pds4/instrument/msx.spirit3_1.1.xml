@@ -61,8 +61,16 @@
   </Reference_List>
   <Instrument>
     <name>The Spatial Infrared Imaging Telescope (SPIRIT III) for the Midcourse Space Experiment</name>
-    <type>Radiometer</type>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Radiometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
+    </Type_List_Area>
     <!--RChen/EN was Unknown-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

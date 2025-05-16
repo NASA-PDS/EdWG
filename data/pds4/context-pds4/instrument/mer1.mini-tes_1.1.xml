@@ -51,7 +51,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Exploration Rover Opportunity Miniature Thermal Emission Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Mars Exploration Rover Opportunity (MER 1) Miniature Thermal Emission Spectrometer (Mini-TES) provided remote measurements of mineralogy and thermophysical properties of the scene surrounding the Rover and guided her to key targets for detailed in-situ measurements by other Rover experiments. It operated by measuring the infrared radiation emitted by surface materials, identifying key minerals based on their thermal emission spectra. Mini-TES provided valuable data on the geology of Mars, contributing to the understanding of past water activity and environmental conditions.</description>

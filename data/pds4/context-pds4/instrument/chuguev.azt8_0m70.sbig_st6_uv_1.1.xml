@@ -33,7 +33,11 @@
   </Reference_List>
   <Instrument>
     <name>SBIG ST-6 UV camera</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>This is the SBIG ST-6 UV camera mounted in the Newtonian focus (f/4) of the 70 cm AZT-8 reflecting telescope of Chuguev Observatory.</description>
   </Instrument>
 </Product_Context>

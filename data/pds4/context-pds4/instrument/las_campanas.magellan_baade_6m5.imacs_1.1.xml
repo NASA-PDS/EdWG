@@ -37,16 +37,17 @@
   <Instrument>
     <name>Inamori Magellan Areal Camera and Spectrograh (IMACS)</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Imager</ctli:type>
-        <ctli:type>Spectrometer</ctli:type>
-        <ctli:subtype>wide-field</ctli:subtype>
-        <!-- for Imager -->
-        <ctli:subtype>Spectrograph</ctli:subtype>
-        <!-- for Spectrometer -->
-        <ctli:subtype>multi-object</ctli:subtype>
-        <!-- for Spectrometer -->
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+          <ctli:subtype>wide-field</ctli:subtype>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+          <ctli:subtype>Spectrograph</ctli:subtype>
+          <ctli:subtype>multi-object</ctli:subtype>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>The Inamori Magellan Areal Camera and Spectrograh (IMACS) instrument is a wide field imager and multi-object spectrograph with             two 8Kx8K CCD cameras that provide different scales and spectral resolutions.             Spectral resolution range is 20 &lt; R &lt; 20000.         </description>
   </Instrument>

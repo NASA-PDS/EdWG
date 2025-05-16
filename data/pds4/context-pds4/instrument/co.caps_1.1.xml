@@ -245,7 +245,11 @@
   </Reference_List>
   <Instrument>
     <name>Cassini Plasma Spectrometer for CO</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Cassini Plasma Spectrometer (CAPS) consisted of three sensors: the Electron Spectrometer (ELS), Ion Beam Spectrometer (IBS), and Ion Mass Spectrometer (IMS). ELS measured electron velocity distributions from 0.7 eV to 30 keV, allowing studies of thermal and energetic electrons. IBS measured ion velocity distributions with high angular and energy resolution from 1 eV to 50 keV, focusing on ion beams in the solar wind and Titan's ionosphere. IMS analyzed the composition of magnetospheric plasmas with atomic and molecular resolution.

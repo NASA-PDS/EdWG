@@ -67,7 +67,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Global Surveyor Spacecraft Magnetometer</name>
-    <type>Magnetometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Magnetometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Mars Global Surveyor (MGS) Spacecraft Magnetometer (MAG) was an instrument designed to measure the magnetic field of Mars. It provided important data about the planet's current magnetic field and its historical evolution. Unlike Earth, Mars does not have a global magnetic field, but the Magnetometer detected localized magnetic anomalies, suggesting the presence of ancient magnetic fields in the crust. These data helped scientists understand Mars' past geological and tectonic activity, offering insights into the planet's early history and whether it might have once had a stronger magnetic field.</description>

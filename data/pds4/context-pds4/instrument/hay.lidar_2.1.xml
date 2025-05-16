@@ -94,10 +94,14 @@
   <Instrument>
     <name>The Light Detection and Ranging (LIDAR) Instrument for Hayabusa</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Altimeter</ctli:type>
-        <ctli:type>Lidar</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Altimeter</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Lidar</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-130300</naif_instrument_id>
     <description>Light Detection and Ranging (LiDAR) instruments use the time-of-flight measurement of a laser pulse reflected from a surface to determine topography. The Hayabusa LiDAR used a 1064 nm yttrium-aluminum-garnet-neodymium (YAG-Nd) laser. The beamwidth was 0.04 x 0.097 degrees, giving a footprint at 7 km altitude of about 5 x 12 meters.</description>

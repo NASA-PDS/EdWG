@@ -49,11 +49,17 @@
   <Instrument>
     <name>The Surface Electric Sounding and Acoustic Monitoring Experiment for the Rosetta Philae Lander</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Seismometer</ctli:type>
-        <ctli:type>Dust Analyzer</ctli:type>
-        <ctli:type>Electric Field Instrument</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Seismometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Dust Analyzer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Electric Field Instrument</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

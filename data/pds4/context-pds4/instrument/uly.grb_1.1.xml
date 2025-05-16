@@ -104,7 +104,11 @@
   </Reference_List>
   <Instrument>
     <name>Solar X-Ray/Cosmic Gamma-Ray Burst Instrument for ULY</name>
-    <type>Radiometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Radiometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Gamma Ray Detector. No obvious choice. TBD in JSH's xl file-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

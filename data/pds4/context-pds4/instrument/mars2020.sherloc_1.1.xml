@@ -55,10 +55,14 @@
   <Instrument>
     <name>Mars 2020 Perseverance Rover Scanning Habitable Environments with Raman and Luminescence for Organics and Chemicals</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Spectrometer</ctli:type>
-        <ctli:type>Imager</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>The Mars 2020 Perseverance Rover Scanning Habitable Environments with Raman and Luminescence for Organics and Chemicals (SHERLOC) is a deep UV resonance Raman and fluorescence spectrometer carried on the end of the Mars 2020 Rover robotic arm for detection and characterization of organics and minerals in the Martian surface and near subsurface. SHERLOC includes an Autofocus Context Imager (ACI) and a Wide Angle Topographic Sensor for Operations and eNgineering camera (WATSON).         </description>
   </Instrument>

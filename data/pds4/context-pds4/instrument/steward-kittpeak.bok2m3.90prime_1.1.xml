@@ -33,7 +33,11 @@
   </Reference_List>
   <Instrument>
     <name>90Prime Mosaic camera</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The 90Prime Mosaic Camera is a large-format astronomical camera used for wide-field imaging. It is part of the 90-Inch (2.3-meter) Bok Telescope at the Kitt Peak National Observatory (KPNO), operated by the National Optical Astronomy Observatory (NOAO). The camera is primarily used for conducting surveys and scientific research, especially in the areas of galaxy and star formation, stellar evolution, and cosmic structure.</description>
   </Instrument>
 </Product_Context>

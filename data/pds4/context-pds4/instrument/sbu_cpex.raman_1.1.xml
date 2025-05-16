@@ -51,8 +51,12 @@
   </Reference_List>
   <Instrument>
     <name>Center for Planetary Exploration at Stony Brook University WITec Alpha300R Raman Imaging Spectrometer</name>
-    <type>Spectrometer</type>
-    <subtype>Raman Spectrometer</subtype>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+        <ctli:subtype>Raman Spectrometer</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The WITec Alpha300R Raman Imaging Spectrometer is located at the Center for Planetary Exploration at Stony Brook University. It features 2 laser excitation sources (532 nm and 785 nm), an advanced confocal microscope, 2 high throughput spectrometers, and software capable of powerful multivariate analysis. It acquires spectra from 3500-100 Δcm-1 and is equipped with multiple objective lenses, allowing for spatial resolutions between several microns and 350 nm/pixel.</description>
   </Instrument>
 </Product_Context>

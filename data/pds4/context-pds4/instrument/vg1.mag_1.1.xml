@@ -111,7 +111,11 @@
   </Reference_List>
   <Instrument>
     <name>FLUXGATE MAGNETOMETER for VG1</name>
-    <type>Magnetometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Magnetometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Fluxgate Magnetometer for Voyager 1 detects and analyzes magnetic fields in the solar system, contributing to the study of planetary magnetospheres and the heliosphere.</description>

@@ -59,11 +59,17 @@
   <Instrument>
     <name>Mars 2020 Perseverance Rover Spectrometer and Micro-Imager Suite</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Spectrometer</ctli:type>
-        <ctli:type>Imager</ctli:type>
-        <ctli:type>Microphone</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Microphone</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>The Mars 2020 Perseverance Rover Spectrometer and Micro-Imager Suite (SuperCam) is an integrated multi-sensor remote-sensing instrument. It implements four spectroscopic techniques to remotely measure properties of materials on Mars. These include: (1) Laser-induced breakdown spectroscopy (LIBS), (2) Raman spectroscopy, (3) Time-resolved fluorescence spectroscopy, and (4) Passive spectroscopy - Visible and Infrared spectrometer (VIS IR). SuperCam also includes a telescopic color context camera, the Remote Micro-Imager (RMI), which is principally used to document the sites of remote spectroscopy measurements. Finally, the instrument suite also includes a microphone, which is used primarily to measure the pressure wave produced by the generation of plasma at a LIBS target.         </description>
   </Instrument>

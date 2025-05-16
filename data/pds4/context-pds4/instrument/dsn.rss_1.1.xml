@@ -569,11 +569,17 @@
   <Instrument>
     <name>NASA Deep Space Network Radio Science</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Interferometer</ctli:type>
-        <ctli:type>Radio Receiver</ctli:type>
-        <ctli:type>Radio Science</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Interferometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Radio Receiver</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Radio Science</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>The NASA Deep Space Network (DSN) uses radio science and tracking instrumentation to conduct measurements that study gravity fields, relativistic effects, and various properties of celestial bodies. It facilitates communication with spacecraft, sending commands and receiving telemetry, and can also be utilized for radio astronomy and very long baseline interferometry. The instrumentation is compatible with most DSN antennas, with performance varying based on factors like antenna size and local conditions. This technology has evolved since the DSN's inception in the 1960s.</description>
   </Instrument>

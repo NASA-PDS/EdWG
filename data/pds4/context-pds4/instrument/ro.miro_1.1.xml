@@ -58,7 +58,11 @@
   </Reference_List>
   <Instrument>
     <name>The Microwave Instrument for the Rosetta Orbiter (MIRO)</name>
-    <type>Radiometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Radiometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The MIRO instrument consisted of two heterodyne radiometers at two wavelengths: 1.3mm with a continuum bandwidth of 0.5 GHz; and 0.5 mm with a continuum bandwidth of 1.0 GHz. The submillimeter receiver had a total spectroscopic bandwidth of 180 MHz, and spectral resolution of 44 kHz. In spectroscopic mode, MIRO could observe 4096 channels (bandwidth 44kHz) simultaneously.</description>

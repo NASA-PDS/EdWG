@@ -69,7 +69,11 @@
   </Reference_List>
   <Instrument>
     <name>Lunar Prospector Spacecraft Neutron Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Lunar Prospector Spacecraft Neutron Spectrometer (NS) consisted of two identical 5 cm diameter by 20 cm long helium-3 filled gas proportional counters. One counter was covered with a 0.75 mm thick Cd shield and was only sensitive to epithermal neutrons having energies above 0.25 eV. The second counter was covered with a 0.75 mm thick Sn shield and was sensitive to both thermal and epithermal neutrons. The difference in counting rates between the two counters was a measure of the flux of thermal neutrons with energies between 0 and 0.25 eV.  Fast neutrons were measured using the ACS of the Gamma Ray Spectrometer. The NS had a mass of 3.9 kg and used about 2.5 w of power. The NS was mounted on one of the three Lunar Prospector booms. The Neutron Spectrometer was mounted on a chassis that was shared with the Alpha Particle Spectrometer (APS). A major science objective of the Neutron Spectrometer was to search for the existence of water ice located in permanently shadowed areas near the lunar poles. This required separate measurements of thermal, epithermal, and fast neutrons from the lunar surface.</description>

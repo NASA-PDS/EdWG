@@ -137,7 +137,11 @@
   </Reference_List>
   <Instrument>
     <name>The High Resolution Instrument (HRI) Visible CCD Imager for Deep Impact</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Ccd Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

@@ -55,10 +55,14 @@
   <Instrument>
     <name>The MASCOT Camera (MASCAM) for the Hayabusa2 MASCOT Rover</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Imager</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Camera</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-37730</naif_instrument_id>
     <description>The MASCAM (MAScot CAMera) is Wide-angle camera that will take pictures during the descent to the asteroid surface, and will provide ground data for the instruments on board Hayabusa2 as well as contextual information for the instruments on board the MASCOT rover. The MASCAM has LED illumination devices in 4 colors: red, green, blue, and near-infrared. These LEDs are used in night time and acquire different reflectance images in wavelength.</description>

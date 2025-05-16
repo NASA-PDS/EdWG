@@ -57,7 +57,11 @@
   </Reference_List>
   <Instrument>
     <name>The Gamma Ray Spectrometer (GRS)</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Gamma Ray Spectrometer (GRS) is an instrument designed to measure the gamma radiation emitted by materials on the surface of planets, moons, or other celestial bodies. It helps scientists determine the composition and chemical makeup of these objects by detecting gamma rays that are produced either by natural radioactive decay or by interactions with cosmic rays.
 </description>
   </Instrument>

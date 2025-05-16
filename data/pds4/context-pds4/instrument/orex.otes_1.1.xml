@@ -44,7 +44,11 @@
   </Reference_List>
   <Instrument>
     <name>The OSIRIS-REx Thermal Emission Spectrometer (OTES) aboard the OSIRIS-REx spacecraft</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The OSIRIS-REx Thermal Emission Spectrometer (OTES) is an infrared point spectrometer operating in the 4-50 micron range that collects an interferogram every 2 seconds. It can generate maps from a distances of 7 down to 0.5 km from the surface with 55 to 4m resolution. The interferograms returned are converted to infrared spectra on the ground.</description>
   </Instrument>
 </Product_Context>

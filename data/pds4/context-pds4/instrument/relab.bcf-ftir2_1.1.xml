@@ -47,8 +47,12 @@
   </Reference_List>
   <Instrument>
     <name>NASA Reflectance Experiment Laboratory Thermo Nexus 870 FT-IR Spectrometer</name>
-    <type>Spectrometer</type>
-    <subtype>Near and Mid Infrared FT-IR Spectrometer</subtype>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+        <ctli:subtype>Near and Mid Infrared FT-IR Spectrometer</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The NASA Reflectance Experiment Laboratory (RELAB) Thermo Nexus 870 Fourier-Transform infrared spectrometer with an off-axis biconical diffuse reflectance accessory was manufactured by PIKE Technology. The incidence and emergence beams are reflected on a large gold mirror with large unknown cone angle footprints, including some grazing angle beams. The NIR range (1-4 um) is measured with a halogen-tungsten lamp, CaF2 beam splitter, and either DTGS (TE-cooled) or InSb (liquid N2 cooled) detecter, Mid-IR range (2-25 um) with a globar, KBr beam splitter, and DTGS detector, and Far-IR range (14-100 um) with a globar, a solid-state beam splitter, and DTGS detector. The standard reference material is usually diffuse gold.</description>
   </Instrument>
 </Product_Context>

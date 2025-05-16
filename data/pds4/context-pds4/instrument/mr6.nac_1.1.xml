@@ -53,7 +53,11 @@
   </Reference_List>
   <Instrument>
     <name>Mariner 6 Spacecraft Narrow Angle Camera</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <description>The Mariner 6 Spacecraft Narrow Angle Camera (NAC) was one of the key imaging instruments aboard the spacecraft, which flew by Mars in 1969. It provided high-resolution images of Mars' surface, capturing details such as surface features, weather patterns, and atmospheric conditions. The narrow-angle camera was specifically designed for close-up imaging, offering sharper and more focused views of the Martian landscape. These images contributed to the understanding of Mars' geology and helped inform future missions to the planet.</description>
   </Instrument>

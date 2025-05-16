@@ -54,7 +54,11 @@
   </Reference_List>
   <Instrument>
     <name>The OSIRIS-REx Camera Suite (OCAMS) aboard the OSIRIS-REx spacecraft</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The OSIRIS-REx Camera Suite (OCAMS) comprises three cameras used for navigation, surface mapping, and documenting sample collection. The PolyCam instrument is used for target acquisition and preliminary surface mapping with resolution of less than 25cm. The MapCam instrument is used for mapping at multiple phase angles through one panchromatic and four color filters. The MapCam filter set is similar to the filter set used in the Eight Color Asteroid Survey (ECAS) ground-based data set. The SamCam was used to document and provide context for the sample collection at asteroid (101955) Bennu.
 </description>
   </Instrument>

@@ -29,7 +29,11 @@
   </Reference_List>
   <Instrument>
     <name>Palmer Divide 0.5m CCD</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>FLI IMG w/Kodak 1001E (1024x1024, 24 um)</description>
   </Instrument>
 </Product_Context>

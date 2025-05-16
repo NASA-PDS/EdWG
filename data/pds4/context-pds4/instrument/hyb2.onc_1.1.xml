@@ -121,10 +121,14 @@
   <Instrument>
     <name>The Optical Navigation Camera (ONC) for Hayabusa2</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Imager</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Camera</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-37100</naif_instrument_id>
     <description>The Optical Navigation Camera (ONC) system onboard the Hayabusa2 spacecraft consisted of one telescopic camera (ONC-T) and two wide-angle cameras (ONC-W1 and ONC-W2). The ONC-T was a telescopic camera with seven band-pass filters in the visible and near-infrared range. These filters were placed on a wheel, which rotated to place a selected filter for different observations, enabling multi-band imaging.</description>

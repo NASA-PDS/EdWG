@@ -59,7 +59,11 @@
   </Reference_List>
   <Instrument>
     <name>The Optical, Spectroscopic, and Infrared Remote Imaging System (OSIRIS) Narrow Angle Camera (NAC) for the Rosetta Orbiter</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Frame Ccd Reflecting Telescope-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

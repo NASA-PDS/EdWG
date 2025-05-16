@@ -40,8 +40,12 @@
   </Reference_List>
   <Instrument>
     <name>VLT Imager and Spectrometer for mid-Infrared (VISIR)</name>
-    <type>Spectrometer</type>
-    <subtype>Mid-Infrared</subtype>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+        <ctli:subtype>Mid-Infrared</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The VLT spectrometer and imager for mid-infrared (VISIR) was developed by CEA/DAPNIA/SAP and NFRA/ASTRON and is situated at the Cassegrain focus of UT3 (Melipal). It offers high sensitivity, diffraction-limited imaging in three mid-infrared atmospheric windows: the M-band (5µm), the N-band (8-13µm), and the Q band (17-20µm). Additionally, it includes a long-slit spectrometer with spectral resolutions ranging from 150 to 30,000.</description>
   </Instrument>
 </Product_Context>

@@ -74,8 +74,16 @@
   </Reference_List>
   <Instrument>
     <name>Magellan Spacecraft Radar System</name>
-    <type>Radiometer</type>
-    <type>Altimeter</type>
+    <Type_List_Area>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Radiometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Altimeter</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
+    </Type_List_Area>
     <!--RChen/EN was RADAR-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

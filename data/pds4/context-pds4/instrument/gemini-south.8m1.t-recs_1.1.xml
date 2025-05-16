@@ -45,8 +45,12 @@
   </Reference_List>
   <Instrument>
     <name>Thermal-Region Camera Spectrograph (T-ReCS)</name>
-    <type>Imager</type>
-    <subtype>Mid-Infrared</subtype>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+        <ctli:subtype>Mid-Infrared</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>T-ReCS (Thermal-Region Camera Spectrograph) is a mid-infrared imager and long-slit spectrograph developed by the University of Florida for use with the Gemini South telescope. It was commissioned for imaging and low-resolution spectroscopy in 2003B, with medium-resolution N-band spectroscopy (Hi-Res mode) added in 2004B. The instrument is designed to minimize thermal background, maximize throughput, and ensure high image quality, allowing for nearly diffraction-limited 10 µm imaging in most conditions when paired with Gemini's fast tip/tilt compensating secondary mirror. James Radomski is the Instrument Scientist for T-ReCS. </description>
   </Instrument>
 </Product_Context>

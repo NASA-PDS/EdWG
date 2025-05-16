@@ -47,7 +47,11 @@
   </Reference_List>
   <Instrument>
     <name>The OSIRIS-REx Visible and Near InfraRed Spectrometer (OVIRS) aboard the OSIRIS-REx spacecraft</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The OSIRIS-REx Visible and Near Infrared Spectrometer (OVIRS) is a point spectrometer with linear variable (wedge) filter. The instrument has a 4 mrad field of view and spectral coverage of 0.4 to 4.3 microns, and is used to map the surface characteristics of the target in visible and near-infrared wavelengths.</description>
   </Instrument>
 </Product_Context>

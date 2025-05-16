@@ -33,8 +33,16 @@ SPIE - The International Society for Optical Engineering, 1946, Pages 610-621, 1
   </Reference_List>
   <Instrument>
     <name>Keck I Long Wavelength Spectrograph (IR)</name>
-    <type>Imager</type>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
+    </Type_List_Area>
     <description>The Long-Wavelength Spectrometer (LWS) is a mid-infrared imaging spectrometer located at the Keck I telescope at the W. M. Keck Observatory. It operates with a Boeing 128 x 128 pixel Si:As BIB array and covers a 10.2 x 10.2 arcsecond field, providing spectroscopy at resolutions of R=100 and R=1400 across the 3-25 micron range. Key features include various operating modes, a visible-wavelength guiding system, and extensive data acquisition options. The instrument supports imaging and spectroscopy with multiple filters and grating configurations, achieving varying sensitivities and performances based on the specific setup. 
 
 Data is acquired using a chop-nod method to minimize sky and telescope radiation. The resulting datasets are saved as six-dimensional FITS files. Software for processing and analyzing data is available on the Keck Observatory website for various formats, including IRAF and IDL. Detailed characteristics, performance metrics, and operational modes are described to facilitate user understanding and application.</description>

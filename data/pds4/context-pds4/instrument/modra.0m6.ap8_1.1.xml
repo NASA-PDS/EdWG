@@ -29,7 +29,11 @@
   </Reference_List>
   <Instrument>
     <name>Apogee AP8</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>Apogee Imaging Systems AP8</description>
   </Instrument>
 </Product_Context>

@@ -71,8 +71,16 @@
   </Reference_List>
   <Instrument>
     <name>Near Infrared Mapping Spectrometer for GO</name>
-    <type>Imager</type>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
+    </Type_List_Area>
     <!--RChen/EN was Imaging Spectrometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

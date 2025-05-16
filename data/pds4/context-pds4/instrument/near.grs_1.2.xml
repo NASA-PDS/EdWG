@@ -96,10 +96,14 @@
   <Instrument>
     <name>The Gamma Ray Spectrometer (GRS) for NEAR Shoemaker</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Gamma Ray Detector</ctli:type>
-        <ctli:type>Spectrometer</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Gamma Ray Detector</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-93004</naif_instrument_id>
     <description>The Gamma Ray Spectrometer (GRS) was part of the X-Ray/Gamma-Ray Spectrometer (XGRS) suite on the NEAR Shoemaker mission. It detected characteristic gamma rays in the 0.3- to 10-MeV range emitted from specific elements in the surface. The GRS used a body-mounted passively cooled NaI scintillator detector with a bismuth germanate anticoincidence shield that defined a 45 degree FOV, with an objective of measuring abundances of several important elements such as K, Si, and Fe in four quadrants of the target asteroid.</description>

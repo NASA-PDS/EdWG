@@ -52,7 +52,11 @@
   </Reference_List>
   <Instrument>
     <name>Phoenix Lander Microscopy, Electrochemistry, and Conductivity Analyzer Atomic Force Microscope</name>
-    <type>Microscope</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Microscope</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Phoenix Lander Microscopy, Electrochemistry, and Conductivity Analyzer (MECA) instrument suite was composed of an Atomic Force Microscope (AFM), a Thermal Electrical Conductivity Probe (TECP) and a Wet Chemistry Laboratory (WCL). The AFM was an instrument designed to examine the surface properties of Martian soil at a very fine scale. It worked by scanning the surface of Martian soil samples with a very sharp tip, allowing scientists to analyze the texture, morphology, and small-scale physical properties of the particles. This instrument provided detailed information about the Martian soil's structure at the nanometer scale, contributing to the understanding of its composition, potential for past microbial life, and suitability for future exploration. </description>

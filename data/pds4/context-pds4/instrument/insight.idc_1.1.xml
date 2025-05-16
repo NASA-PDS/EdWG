@@ -46,7 +46,11 @@
   </Reference_List>
   <Instrument>
     <name>InSight Mars Lander Deployment Camera</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <serial_number>210</serial_number>
     <description>The InSight Mars Lander Deployment Camera (IDC) instrument had a narrow angle lens and was mounted near the elbow of the robotic arm. It was articulated by moving the arm and elbow. Stereo imagery was achieved by taking a pair of images with known separation and sufficient overlap.The IDC's optics were based on Mars Science Laboratory's Navcam instrument. Images from the IDC were structured the same as images from the InSight Context Camera (ICC), and were treated similarly by both the flight software (FSW) and the ground system (GDS).</description>
   </Instrument>
