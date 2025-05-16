@@ -54,7 +54,11 @@
   </Reference_List>
   <Instrument>
     <name>Jovian Infrared Auroral Mapper for Juno</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Jovian Infrared Auroral Mapper (JIRAM) on-board of the Juno spacecraft, was designed to provide a visual and thermal infrared view of Jupiter and its auroras. JIRAM combines two data channels in one instrument: an imager and a spectrometer that are housed in the same optical subsystem. The imager has both a L-band (3.45 micron with 290 nm bandwith) and a M-band (4.78 micron with 480 nm bandwidth). Objectives include: (1) imaging the polar regions of Jupiter in the spectral range of 3.2-3.8 micrometer where most of the auroral emissions occur; and (2) performing co-located spectroscopy and imaging of selected regions of the atmosphere in the broader 2.0-5.0 micrometer range with medium spectral resolution.</description>
   </Instrument>
 </Product_Context>

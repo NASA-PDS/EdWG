@@ -59,7 +59,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Express Orbiter SPectroscopie pour l’Investigation des Caractéristiques Atmosphériques de Mars</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Mars Express Orbiter (MEX) SPectroscopie pour l’Investigation des Caractéristiques Atmosphériques de Mars (SPICAM) Light is a collaboration of -Service d'Aeronomie, Verrieres le Buisson, France; -IASB, Bruxelles, Belgique, and -IKI, Moscow, Russia. The Spicam Light instrument is made of 2 boxes. The first box called DPU acts as the main electronic interface with the Spacecraft. The other is the sensor box or unit. This sensor unit has one channel in the ultraviolet wavelength range - 118-320 nm - (named SUV), and another one (named SIR) in the near infrared wavelength range - 1.1-1.7 micrometers.</description>

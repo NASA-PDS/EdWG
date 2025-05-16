@@ -33,7 +33,11 @@
   </Reference_List>
   <Instrument>
     <name>Spacewatch Mosaic Camera</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Spacewatch Mosaic Camera is an advanced imaging system used by the Spacewatch Project at the University of Arizona’s Lunar and Planetary Laboratory. It is designed for wide-field surveys of the sky to detect and track small solar system bodies, including near-Earth objects (NEOs), asteroids, and comets.</description>
   </Instrument>
 </Product_Context>

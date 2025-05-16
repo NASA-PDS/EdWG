@@ -38,7 +38,11 @@
   </Reference_List>
   <Instrument>
     <name>ccd21 camera for the  Kuiper 1.54m telescope</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The ccd21 camera consists of an NSF llick3 L4-W7-(1,0) device with 2048x2048 15-micron pixels. A binning of 3x3 pixels gives an effective plate scale of 0.435 arcseconds per pixel at the Kuiper 1.54m telescope.</description>
   </Instrument>
 </Product_Context>

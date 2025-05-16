@@ -51,7 +51,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Exploration Rover Opportunity Moessbauer Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Mars Exploration Rover Opportunity (MER 1) Moessbauer Spectrometer was designed to study the mineral composition of Martian rocks and soil. It worked by measuring the interaction of gamma rays with iron-bearing minerals, revealing details about their chemical states and crystal structures. These data were crucial in identifying iron-rich minerals, such as hematite, which suggested past water activity on Mars. The spectrometer's findings contributed significantly to understanding Mars’ geological history and its potential for having once supported life.</description>

@@ -58,7 +58,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Express Orbiter Planetary Fourier Spectrometer</name>
-    <type>Interferometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Interferometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Infrared Interferometer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

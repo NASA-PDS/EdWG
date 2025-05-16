@@ -47,7 +47,11 @@
   </Reference_List>
   <Instrument>
     <name>InSight Mars Lander Radiometer</name>
-    <type>Radiometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Radiometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The InSight Mars Lander Radiometer (RAD) was associated with the Heat Flow and Physical Properties Package (HP3). It was designed to measure surface temperature in support of HP3 in determining the subsurface temperature profile. The radiometer was mounted on the lander. It measured the radioactive flux in three infrared bands.</description>
   </Instrument>
 </Product_Context>

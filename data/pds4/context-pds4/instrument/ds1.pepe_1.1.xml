@@ -185,7 +185,11 @@
   </Reference_List>
   <Instrument>
     <name>The Plasma Experiment for Planetary Exploration (PEPE)  for Deep Space 1</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Electrostatic Analyzer. From doi:10.1109/AERO.2000.879327-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

@@ -29,7 +29,11 @@
   </Reference_List>
   <Instrument>
     <name>SBIG ST-6</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>SBIG ST-6</description>
   </Instrument>
 </Product_Context>

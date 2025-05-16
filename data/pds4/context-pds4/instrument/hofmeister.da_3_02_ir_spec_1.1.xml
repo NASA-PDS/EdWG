@@ -29,7 +29,11 @@
   </Reference_List>
   <Instrument>
     <name>Bomem DA 3.02 FT-IR Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Bomem DA 3.02 FT-IR Spectrometer is a Fourier Transform Infrared (FT-IR) spectrometer developed by Bomem Inc. for precise spectral analysis in the infrared range.</description>
   </Instrument>
 </Product_Context>

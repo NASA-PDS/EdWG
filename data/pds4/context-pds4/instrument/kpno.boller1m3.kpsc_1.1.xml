@@ -36,7 +36,11 @@ Astronomical Journal 76, 43-49, 1971.</reference_text>
   </Reference_List>
   <Instrument>
     <name>KPNO Single Channel Polarimeter</name>
-    <type>Polarimeter</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Polarimeter</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Single-channel Polarimeter, operational since August 1969 at the Kitt Peak 36- and 50-inch telescopes, features a rapidly rotating polarizer and employs a star-chopping technique to manage sky brightness. Its design, inspired by a device from the Crimean Astrophysical Observatory, includes a moveable filter, a Lyot depolarizer, and a CuSO4-5H2O crystal to eliminate red leaks. The observing process involves switching the star between two diaphragms to mitigate beam differences, with an oscilloscope aiding in data collection. Further details and a schematic can be found in Dyck and Sandford (1971).</description>
   </Instrument>
 </Product_Context>

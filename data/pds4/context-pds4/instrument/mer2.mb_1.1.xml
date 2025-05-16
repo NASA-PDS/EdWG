@@ -51,7 +51,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Exploration Rover Spirit Moessbauer Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Mars Exploration Rover Spirit (MER 2) Moessbauer Spectrometer was used to analyze the iron-bearing minerals in Martian rocks and soil, providing insights into their chemical composition and oxidation states. The spectrometer worked by measuring the Mössbauer effect, which helped scientists determine how iron was incorporated into the minerals, revealing important clues about Mars' past environment, including the presence of water. The data gathered helped scientists understand Mars' geological history and assess whether the planet could have supported microbial life in the past.</description>

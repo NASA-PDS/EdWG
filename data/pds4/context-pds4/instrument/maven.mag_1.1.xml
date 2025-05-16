@@ -40,7 +40,11 @@
   </Reference_List>
   <Instrument>
     <name>MAG</name>
-    <type>Magnetometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Magnetometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The MAVEN magnetic field investigation (MAG) consists of two independent and identical fluxgate magnetometer systems that are interfaced to and controlled by the PFDPU. The particles and fields package is a stack of individual electronics boxes that service each of the instruments; two of the ‚Äúslices‚Äù are occupied by identical magnetometer electronics boxes that service the two magnetometer sensors. Each electronics box is fully shielded and each draws power from the redundant power supplies within the PFP. The magnetometer sensors are located at the very end of the solar array panels on modest extensions (.66 m in length) designated as MAG ‚Äúboomlets‚Äù, placing them approximately 5.6 m from the center of the spacecraft body.</description>
   </Instrument>
 </Product_Context>

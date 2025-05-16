@@ -33,7 +33,11 @@
   </Reference_List>
   <Instrument>
     <name>SI_600-263</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>LORAL_9607-114 4K CCD, white light, scroll shutter</description>
   </Instrument>
 </Product_Context>

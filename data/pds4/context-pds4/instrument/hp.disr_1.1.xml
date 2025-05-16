@@ -134,7 +134,11 @@
   </Reference_List>
   <Instrument>
     <name>Descent Imager Spectral Radiometer for Huygens Probe</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Descent Imager Spectral Radiometer (DISR) on the Huygens Probe was an optical instrument that made measurements at solar wavelengths. Sunlight plays a key role in driving many important physical processes in planetary physics. Absorption of UV light drives photochemical reactions, leading to changes in atmospheric composition and the production of atmospheric aerosols. The size, shape, composition and distribution of aerosols and cloud particles determine their optical properties and their ability to absorb sunlight and emit thermal infrared radiation. Thus they play a key role in the atmosphere's thermal balance. The net radiative heating or cooling rate provides the forcing for atmospheric dynamics, which in turn can affect the distribution of aerosol and cloud particles and influence climate. DISR measured solar radiation using silicon photodiodes, a 2D silicon Charge Coupled Device (CCD) detector and two InGaAs near-IR linear array detectors. Fiber optics connected the detectors to many separate sets of foreoptics that collect light from different directions and in different spectral regions. In this way, the instrument collected a suite of measurements that were carefully selected to answer key questions concerning the nature of Titan's surface and the composition, meteorology, thermal balance and clouds and aerosols in Titan's atmosphere. The composition, thermal balance, dynamics and meteorology of the atmosphere also affect (and are affected by) the nature of the surface. Surface images in reflected sunlight, together with near-IR reflection spectra, can reveal the nature of the surface and its interactions with atmospheric processes. Optical measurements of solar radiation made inside a planetary atmosphere can thus reveal a great deal about many important physical processes occurring there.</description>

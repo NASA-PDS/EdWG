@@ -53,8 +53,16 @@
   </Reference_List>
   <Instrument>
     <name>The Lunar Imager/Spectrometer (LISM)</name>
-    <type>Imager</type>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
+    </Type_List_Area>
     <description>             The Lunar Imager/SpectroMeter (LISM) consists of three sub-systems: Terrain Camera (TC),              Multi-band Imager (MI) and Spectral Profiler (SP). LISM will obtain topographic and              mineralogical data of the Moon surface which can be used for mapping of detailed geological              units of the Moon surface and identification of materials in each unit.          </description>
   </Instrument>
 </Product_Context>

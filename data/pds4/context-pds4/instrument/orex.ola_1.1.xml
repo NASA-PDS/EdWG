@@ -45,7 +45,11 @@
   </Reference_List>
   <Instrument>
     <name>The OSIRIS-REx Laser Altimeter (OLA) aboard the OSIRIS-REx spacecraft</name>
-    <type>Altimeter</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Altimeter</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The OSIRIS-REx Laser Altimeter (OLA) is a 2-axis scanning lidar instrument with a single receiver and two transmitters. The high-energy transmitter is used for ranging and mapping at distances from 1 to 7.5 km; the low-energy transmitter is used at distances of about 200m to 1km.</description>
   </Instrument>
 </Product_Context>

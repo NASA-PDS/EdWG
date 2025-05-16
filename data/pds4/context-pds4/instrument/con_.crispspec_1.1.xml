@@ -57,7 +57,11 @@
   </Reference_List>
   <Instrument>
     <name>The CONTOUR Remote Imaging Spectrograph (CRISP) - Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The CRISP spectrometer had a field of view of 0.86 x 0.86 degrees, a wavelength range of 800-2550 nm, and 256 spectral channels. As light entered the CRISP instrument, a beam splitter reflect wavelengths longer that 800 nm to the spectrometer (shorter wavelengths were directed to the CRISP imager).</description>

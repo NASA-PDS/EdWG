@@ -47,7 +47,11 @@
   </Reference_List>
   <Instrument>
     <name>The Touch-and-Go Camera Suite (TAGCAMS) aboard the OSIRIS-REx spacecraft</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Touch-and-Go Camera System (TAGCAMS) consists of three cameras: The Navigation Camera, a framing camera used for optical navigation; the Natural Feature Tracking Camera, a framing camera used to aid in sample acquisition; and the Stowage Camera, used to document the storing of the sample into the sample return capsule.</description>
   </Instrument>
 </Product_Context>

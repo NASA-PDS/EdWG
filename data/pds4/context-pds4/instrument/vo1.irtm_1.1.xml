@@ -53,7 +53,11 @@
   </Reference_List>
   <Instrument>
     <name>Viking Orbiter 1 Spacecraft Infrared Thermal Mapper</name>
-    <type>Radiometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Radiometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Viking Orbiter 1 Spacecraft Infrared Thermal Mapper (IRTM) was a multichannel radiometer mounted on the orbiter's scan platform. The purpose of the IRTM experiment was to measure the temperatures of the atmosphere and areas on the surface of Mars. The amount of sunlight reflected by the planet was also measured. Four small telescopes, each with seven infrared detectors, were aimed parallel to the visual imaging optical axis, and made observations every 1.12 s. The instrument was capable of measuring differences of 1 C throughout a temperature range of -130 deg C to +57 deg C. The field of view was circular, 5 milliradians in diameter.</description>

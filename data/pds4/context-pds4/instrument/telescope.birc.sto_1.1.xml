@@ -38,7 +38,11 @@
   </Reference_List>
   <Instrument>
     <name>BOPPS Infrared Camera (BIRC)</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Balloon Observation Platforms for Planetary Science (BOPPS) Infrared Camera (BIRC) was a multispectral infrared imager designed to operate in 8 wavelengths between 2.5 and 5.0 microns, with each spectral width being about 3% of the center wavelength and the astronomical R-band near 640 nm. BIRC was designed to measure the water and CO2 emissions from comets at 2.73 and 4.3 microns, respectively, as well as the water-related infrared absorption feature in asteroids and the Moon from about 2.5 to 3.2 microns.</description>
   </Instrument>
 </Product_Context>

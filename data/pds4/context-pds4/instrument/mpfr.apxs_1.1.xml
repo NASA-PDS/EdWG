@@ -65,7 +65,11 @@
   </Reference_List>
   <Instrument>
     <name>ALPHA PROTON X-RAY SPECTROMETER for MPFR</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Alpha Proton X-Ray Spectrometer for MPFR is an advanced scientific instrument used to analyze the composition of planetary surfaces. By detecting and measuring the interaction of alpha particles, protons, and X-rays with materials, this spectrometer provides detailed insights into the elemental composition of rocks, soil, and other surface materials, helping to understand planetary geology and surface chemistry.</description>

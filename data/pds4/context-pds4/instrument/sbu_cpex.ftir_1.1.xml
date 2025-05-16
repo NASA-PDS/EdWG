@@ -51,8 +51,12 @@
   </Reference_List>
   <Instrument>
     <name>Center for Planetary Exploration at Stony Brook University Nicolet iN10MX FTIR Microscope</name>
-    <type>Microscope</type>
-    <subtype>FTIR Microscope</subtype>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Microscope</ctli:type>
+        <ctli:subtype>FTIR Microscope</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Nicolet iN10MX FTIR microscope is located at the Center for Planetary Exploration at Stony Brook University. The infrared imaging microscope features a liquid nitrogen-cooled HgCdTe (MCT) 16 pixel linear array that can acquire hyperspectral image cubes between 7000 and 715 cm-1. Pixel sizes are 25 or 6 microns for reflectance and transmission modes and 25 or 1.3 microns for ATR (Ge crystal) mode. Also featured is a deuterated triglycine sulfate (DTGS) detector which can acquire 50 x 50 micron point spectra between 4000 and 400 cm-1.</description>
   </Instrument>
 </Product_Context>

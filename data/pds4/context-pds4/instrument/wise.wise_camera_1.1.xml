@@ -48,7 +48,11 @@ Performance. Astron. J. 140, 1868-1881. doi: 10.1088/0004-6256/140/6/1868</refer
   </Reference_List>
   <Instrument>
     <name>The Wide-field Infrared Survey Explorer (WISE) Telescope</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Wide-field Infrared Survey Explorer (WISE) Telescope was a 40 cm telescope with four infrared detectors, sealed in a cryostat cooled by liquid hydroge. The four detectors corresponded to four wavelength bands centered at 3.4, 4.6, 12, and 22 microns. The 12 and 22 micron detectors were chilled to 12K, the 3.4 and 4.6 micron detectors were heated to 32K for observing. The field of view was 47 arcminutes wide. At 22 microns, the resolution was 12 arcseconds.</description>
   </Instrument>
 </Product_Context>

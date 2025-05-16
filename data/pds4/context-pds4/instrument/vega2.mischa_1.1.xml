@@ -58,7 +58,11 @@
   </Reference_List>
   <Instrument>
     <name>The Fluxgate Magnetometer (MISCHA) for Vega 2</name>
-    <type>Magnetometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Magnetometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Fluxgate Sensor-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

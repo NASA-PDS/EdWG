@@ -41,7 +41,11 @@
   </Reference_List>
   <Instrument>
     <name>InSight Mars Lander Fluxgate Magnetometer</name>
-    <type>Magnetometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Magnetometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The InSight Mars Lander Fluxgate Magnetometer (IFG) was a triaxial fluxgate magnetometer with three orthogonal sensors capable of measuring magnetic fields up to 20,000 nT. IFG was part of the InSight Auxilary Payload Sensor System (APSS), designed to support the seismic experiment, and is not primarily a science instrument.</description>
   </Instrument>
 </Product_Context>

@@ -81,7 +81,11 @@
   </Reference_List>
   <Instrument>
     <name>The Pluto Energetic Particle Spectrometer Science Investigation (PEPSSI) for New Horizons</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Charged Particle Analyzer-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

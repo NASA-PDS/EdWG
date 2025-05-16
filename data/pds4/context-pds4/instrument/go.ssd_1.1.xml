@@ -82,7 +82,11 @@
   </Reference_List>
   <Instrument>
     <name>Galileo Orbiter Star Scanner for GO</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Star Scanner on the Galileo spacecraft, detailed in Fieseler's 2000 thesis, serves as an inertial attitude reference and measures high-energy electrons (1.5 to 30 MeV) in Jupiter's magnetosphere. It has provided continuous data since 1995, complementing Galileo's Energetic Particles Detector (EPD) by operating when the EPD is inactive. The Star Scanner's primary output is 'background radiation count,' alongside instrument health data. Although it was shielded against lower-energy particles, some high-energy electron data continues to be reliably collected. A correlation with EPD data supports its scanning capabilities, indicating it is most sensitive to electrons between 4 to 15 MeV. The data undergoes calibration for non-linearities and environmental effects. Various operational challenges affect data quality, including temporary shutdowns during close encounters with Galilean satellites and high brightness conditions. The Star Scanner has a unique detection mechanism, potentially including fluorescence, though this cannot be empirically validated in flight. The instrument's output is averaged over short intervals to provide consistent readings. Further calibration and corrections are ongoing.</description>

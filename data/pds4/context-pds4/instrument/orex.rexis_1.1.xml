@@ -47,7 +47,11 @@
   </Reference_List>
   <Instrument>
     <name>The Regolith X-Ray Imaging Spectrometer (REXIS) onboard the OSIRIS-REx spacecraft</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The Regolith X-ray Imaging Spectrometer (REXIS) was intended to map the surface of the asteroid (101955) Bennu using X-ray flourescence. It was sensitive to X-rays in the range 0.3 - 7.5 keV with 21 arcminute resolution. REXIS was a srudent collaboration experiment involving student from Harvard and the Massachusettes Institute of Technology (MIT).</description>
   </Instrument>
 </Product_Context>

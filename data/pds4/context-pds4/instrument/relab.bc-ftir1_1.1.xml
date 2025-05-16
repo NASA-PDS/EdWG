@@ -51,8 +51,12 @@
   </Reference_List>
   <Instrument>
     <name>NASA Reflectance Experiment Laboratory Nicolet 740 FT-IR Spectrometer</name>
-    <type>Spectrometer</type>
-    <subtype>Near and Mid Infrared FT-IR Spectrometer</subtype>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+        <ctli:subtype>Near and Mid Infrared FT-IR Spectrometer</ctli:subtype>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The NASA Reflectance Experiment Laboratory (RELAB) Nicolet 740 Fourier-Transform infrared spectrometer with a biconical diffuse reflectance accessory was manufactured by SpectraTech. Using a globar IR light source, NIR range (1.5-4 um) is measured with PbSe detector and Mid-IR range (2-25 um) with DTGS detector, both using KBr beam splitter. Spectrometer interior and sample compartment can be purged with dry air. In addition to its built-in sample compartment, an environmental chamber built by William Patterson and Janice Bishop is attached, allowing Mars-like environment a small, yellow-color dome containing just one sample. The standard reference material is typically diffuse gold. The instrument has been decommissioned.</description>
   </Instrument>
 </Product_Context>

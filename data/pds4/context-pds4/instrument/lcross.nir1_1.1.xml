@@ -50,7 +50,11 @@
   </Reference_List>
   <Instrument>
     <name>Lunar Crater Observation and Sensing Satellite Near Infrared Camera 1</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

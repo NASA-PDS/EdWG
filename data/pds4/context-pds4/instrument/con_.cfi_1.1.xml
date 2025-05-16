@@ -64,7 +64,11 @@
   </Reference_List>
   <Instrument>
     <name>The CONTOUR Forward Imager (CFI)</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The CONTOUR Forward Imager (CFI) was a reflective  telescope with a 60mm aperture, 300mm focal length, and 2.5 x 2.5 degree field of view that was designed for h igh sensitivity and responsivity to ultraviolet wavelengths. It was mounted to look out through the front side of the spacecraft, through an opening in the protective dust shield. It was intended to image comet nuclei at ranges of &gt;2000 km for optical navigation, and to image the nucleus, gas or dust jets, and other details of the nucleus and inner coma during encounter.</description>

@@ -77,7 +77,11 @@
   </Reference_List>
   <Instrument>
     <name>Apollo 17 Command and Service Module Far-Ultraviolet Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>Apollo 17 Far-Ultraviolet Spectrometer (FUVS), carried on board the Command and Service Module (CSM), measured the radiation intensity as a function of wavelength from 1180 to 1680 Angstrom. The prime objective of the scanning spectrometer was to measure the composition of the lunar atmosphere from orbit. Other observations included the lunar surface, zodiacal light, solar atmosphere emissions, earth emissions, and galactic and stellar emissions.</description>
   </Instrument>
 </Product_Context>

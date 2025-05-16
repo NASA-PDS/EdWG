@@ -53,7 +53,11 @@
   </Reference_List>
   <Instrument>
     <name>Mariner 7 Spacecraft Narrow Angle Camera</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <description>The Mariner 7 Spacecraft Narrow Angle Camera (NAC) was one of the primary imaging instruments aboard the spacecraft, which flew by Mars in 1969. It provided high-resolution photographs of Mars' surface, focusing on specific regions to capture detailed features like craters, valleys, and potential signs of volcanic activity. The camera helped to expand knowledge of Mars' atmosphere, surface composition, and geology. Its images, along with those from Mariner 6, significantly contributed to the first close-up views of Mars, laying the groundwork for future exploration of the planet.</description>
   </Instrument>

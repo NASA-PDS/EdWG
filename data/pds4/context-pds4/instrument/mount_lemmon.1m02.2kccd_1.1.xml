@@ -33,7 +33,11 @@
   </Reference_List>
   <Instrument>
     <name>SI_800-594</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>Spectral Instruments 2K CCD, E2V_42-40_041831905 detector, iris shutter</description>
   </Instrument>
 </Product_Context>

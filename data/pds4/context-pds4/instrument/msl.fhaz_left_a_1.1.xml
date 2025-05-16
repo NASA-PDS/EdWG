@@ -58,7 +58,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Science Laboratory Curiosity Rover Front Hazard Avoidance Camera Left String A</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN was Camera-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

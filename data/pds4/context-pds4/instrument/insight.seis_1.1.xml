@@ -44,7 +44,11 @@
   </Reference_List>
   <Instrument>
     <name>InSight Mars Lander Seismic Experiment for Interior Structure</name>
-    <type>Seismometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Seismometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>The InSight Mars Lander Seismic Experiment for Interior Structure (SEIS) was a seismometer that collected precise measurements of Marsquakes and other internal activity on Mars to better understand the planet's internal structure and meteorite flux. The instrument included two independent 3-axis seismometers: a Very Broad Band (VBB) and a Short Period (SP) seismometer. The instrument package was deployed onto the surface and covered by a thermal and wind shield to protect the instrument from thermal and wind induced noise. The package was connected to the lander by a flexible cable tether.</description>
   </Instrument>
 </Product_Context>

@@ -55,7 +55,11 @@
   </Reference_List>
   <Instrument>
     <name>The Large Angle Spectrometric Coronagraph (LASCO) for the Solar and Heliospheric Observatory</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <!--RChen/EN Spectrometric Coronagraph. No obvious choice. TBD in JSH's xl file-->
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

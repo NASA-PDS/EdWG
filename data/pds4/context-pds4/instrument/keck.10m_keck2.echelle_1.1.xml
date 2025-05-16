@@ -29,8 +29,16 @@
   </Reference_List>
   <Instrument>
     <name>Keck Echelle Spectrograph and Imager</name>
-    <type>Spectrometer</type>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
+    </Type_List_Area>
     <description>The Echelle Spectrograph and Imager (ESI) at Keck Observatory operates in three modes: echelle, low-resolution, and direct imaging. In echelle mode, it captures ten orders with a wavelength range of 3900 to 10900 Angstroms, with varying dispersion from ~0.15 to 0.30 Angstroms/pixel depending on the order. The slit widths available range from 0.3 to 6.0 arcseconds, and the system has a velocity dispersion of 11.5 km/s/pixel. In low-resolution mode, it uses prisms for linear dispersion, ranging from 0.8 to 11 Angstroms/pixel, with multi-slit capability and a longer slit length of about 8 arcminutes. The direct imaging mode, with prisms removed, provides an 8 x 2 arcminute field with good imaging quality, although the original BVRI filters were undersized. The system was capable of achieving image quality of 0.34" FWHM during commissioning.</description>
   </Instrument>
 </Product_Context>

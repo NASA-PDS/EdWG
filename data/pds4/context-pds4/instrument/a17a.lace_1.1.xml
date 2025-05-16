@@ -87,7 +87,11 @@
   </Reference_List>
   <Instrument>
     <name>Apollo 17 Lunar Surface Experiments Package Lunar Atmospheric Composition Experiment</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Apollo 17 Lunar Atmospheric Composition Experiment (LACE) was a miniature magnetic deflection mass spectrometer designed to study the composition and variations in the lunar atmosphere. Part of the Apollo Lunar Surface Experiments Package (ALSEP), LACE was deployed on the lunar surface and oriented to intercept and measure the downward flux of gases.</description>

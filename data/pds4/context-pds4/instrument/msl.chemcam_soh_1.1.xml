@@ -68,7 +68,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Science Laboratory Curiosity Rover Chemistry Camera State of Health</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Mars Science Laboratory (MSL) Curiosity Rover ChemCam instrument suite includes both the LIBS (Laser Induced Breakdown Spectrometer) and the RMI (Remote Micro-Imager) components. The instrument suite consists of two major sections, the Mast Unit, housing the laser, RMI, telescope, and associated electronics, and the Body Unit, consisting of an optical demultiplexer, three spectrometers, the thermo-electric cooler, CCD electronics, spectrometer electronics, the data processing unit (DPU), and the low-voltage power supply.  The ChemCam mast unit is contained in the remote warm electronics box (RWEB) at the top of the rover's mast. The body unit is located in the rover body, attached to the rover accommodation mounting plate (RAMP). Besides the mast and body units, there are two other sections of the instrument. A fiber optic cable transmits the plasma light between the two ChemCam units.  Finally, included on the rover deck is a calibration target assembly.</description>

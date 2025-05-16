@@ -33,7 +33,11 @@
   </Reference_List>
   <Instrument>
     <name>SN_110-106/165685-06</name>
-    <type>Imager</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Imager</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <description>Spectral Instruments 10K CCD, STA1600LN_10K detector, white light, scroll shutter</description>
   </Instrument>
 </Product_Context>

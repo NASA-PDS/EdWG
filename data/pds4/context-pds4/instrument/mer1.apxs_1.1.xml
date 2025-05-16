@@ -51,7 +51,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Exploration Rover Opportunity Alpha Particle X-ray Spectrometer</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Alpha Particle X-Ray Spectrometer (APXS) for Opportunity (MER 1) is part of the Athena payload of the two Mars Exploration Rovers (MER). The APXS sensor head is attached to the turret of the Instrument Deployment Device (IDD) of the rover. The APXS is a very light-weight instrument for determining the major and minor elemental composition of Martian soils, rocks, and other geological materials at the MER landing sites. The sensor head has simply to be docked by the IDD on the surface of the selected sample. X-ray radiation, excited by alpha particles and x-rays of the radioactive sources, is recorded by a high-resolution x-ray detector. The x-ray spectra show elements starting from sodium up to yttrium depending on their concentrations. The backscattered alpha spectra, measured by a ring of detectors, provide additional data on carbon and oxygen. By means of a proper calibration, the elemental concentrations are derived. Together with data from the two other Athena instruments mounted on the IDD, the samples under investigation can be fully characterized. Key APXS objectives are the determination of the chemistry of crustal rocks and soils and the examination of water-related deposits, sediments, or evaporates. Using the rock abrasion tool (RAT) attached to the IDD, issues of weathering can be addressed by measuring natural and abraded surfaces of rocks.</description>

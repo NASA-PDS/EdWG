@@ -55,7 +55,11 @@
   </Reference_List>
   <Instrument>
     <name>Mars Science Laboratory Curiosity Rover Radiation Assessment Detector</name>
-    <type>Spectrometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Spectrometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Mars Science Laboratory (MSL) Curiosity Rover Radiation Assessment Detector (RAD) investigation is designed to detect and analyze the most biologically-significant energetic particle radiation on the Martian surface as a key element of the MSL mission. Fully characterizing and understanding the radiation environment on Mars is fundamental to quantitatively assessing the habitability of the planet, and is essential for future crewed Mars missions. RAD also addresses significant aspects of the MSL investigation, including the radiation effects on biological potential and past habitability, as well as keys to understanding the chemical alteration of the regolith due to impinging space radiation.</description>

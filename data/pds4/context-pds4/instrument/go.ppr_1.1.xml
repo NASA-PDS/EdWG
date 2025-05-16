@@ -81,7 +81,11 @@
   </Reference_List>
   <Instrument>
     <name>Photopolarimeter Radiometer for Galileo Orbiter</name>
-    <type>Radiometer</type>
+    <Type_List_Area>
+      <ctli:Type_List>
+        <ctli:type>Radiometer</ctli:type>
+      </ctli:Type_List>
+    </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>
     <description>The Galileo Orbiter Photopolarimeter Radiometer (PPR) is a multi-purpose and multi-function instrument designed for both solar wavelength photopolarimetry and thermal infrared sounding and radiation budget measurements. The PPR used a 10-cm aperture scene-view Cassegrainian Dall-Kirkham telescope has a single circular field of view of 2.5 mrad (0.143 degree) and uses scan platform slews and mosaic sequences to map out larger regions. The wavelength observed is determined by the position of a rotating filter wheel with 32 equally spaced positions (numbered 0 through 31). Positions 0 - 17 are used for three polarimetry wavelengths, 18 - 24 for seven thermal radiometry bands, and 25 - 31 for seven photometry bands. For the positions corresponding to polarimetry and photometry bands, the scene flux is directed by a relay lens through a Wollaston prism that splits the input into two orthogonally-polarized output beams, which are then focused onto a pair of silicon photodiode detectors. At each of the thermal radiometry positions, a chopper mirror alternately directs the scene flux and the space-view reference flux through the filter and then from an elliptical mirror on the back of the filter wheel to a LiTaO3 pyroelectric detector. The PPR delivered an 18-byte science and housekeeping data record to the spacecraft command and data handling system every two-thirds of a second. The first six bytes of this record are housekeeping data that completely specify the instrument status.</description>
