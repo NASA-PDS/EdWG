@@ -50,11 +50,17 @@
   <Instrument>
     <name>MicrOmega for MASCOT</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Imager</ctli:type>
-        <ctli:type>Imaging Spectrometer</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Camera</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imaging Spectrometer</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-37730</naif_instrument_id>
     <description>MicrOmega is a near-IR hyperspectral microscope and is designed to determine the mineralogical composition of the asteroid surface.</description>

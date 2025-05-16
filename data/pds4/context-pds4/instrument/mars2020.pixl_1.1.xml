@@ -52,10 +52,14 @@
   <Instrument>
     <name>Mars 2020 Perseverance Rover Planetary Instrument for X-ray Lithochemistry</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Spectrometer</ctli:type>
-        <ctli:type>Imager</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>The Mars 2020 Perseverance Rover Planetary Instrument for X-ray Lithochemistry (PIXL) uses microfocus X-ray fluorescence (XRF) spectroscopy to measure abundances and sub-millimeter-scale distribution of elements in relation to rock and soil texture and microstructure. PIXL includes a Micro-Context Camera (MCC) to register element distributions to visual features.         </description>
   </Instrument>

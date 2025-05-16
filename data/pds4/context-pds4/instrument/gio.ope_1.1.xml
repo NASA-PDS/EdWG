@@ -72,10 +72,14 @@
   <Instrument>
     <name>The Optical Probe Experiment (OPE) for Giotto</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Photometer</ctli:type>
-        <ctli:type>Polarimeter</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Photometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Polarimeter</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <!--RChen/EN was Photopolarimeter-->
     <naif_instrument_id>not applicable</naif_instrument_id>

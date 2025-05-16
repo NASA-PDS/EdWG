@@ -61,10 +61,14 @@
   <Instrument>
     <name>DCAM3-D (DCAM3 Digital) onboard DCAM3</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Imager</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Camera</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-37520</naif_instrument_id>
     <description>DCAM3-D is digital imaging system onboard DCAM3. The purpose of DCAM3-D is a scientific observation of the event with wide-angle and in high-resolution.</description>

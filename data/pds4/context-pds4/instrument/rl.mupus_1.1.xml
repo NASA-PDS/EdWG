@@ -49,12 +49,18 @@
   <Instrument>
     <name>The Multi Purpose Suite for Surface and Subsurface Science (MUPUS) for the Rosetta Philae Lander</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Accelerometer</ctli:type>
-        <ctli:type>Sub-Surface Tool</ctli:type>
-        <ctli:type>Radiometer</ctli:type>
-        <ctli:subtype>Infrared Radiometer</ctli:subtype>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Accelerometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Sub-Surface Tool</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Radiometer</ctli:type>
+          <ctli:subtype>Infrared Radiometer</ctli:subtype>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>not applicable</naif_instrument_id>
     <serial_number>not applicable</serial_number>

@@ -94,11 +94,15 @@
   <Instrument>
     <name>The Thermal InfraRed Imager (TIR) for Hayabusa2</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Imager</ctli:type>
-        <ctli:subtype>Bolometer</ctli:subtype>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Camera</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+          <ctli:subtype>Bolometer</ctli:subtype>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-37200</naif_instrument_id>
     <description>The Thermal Infrared Imager (TIR) onboard the Hayabusa2 spacecraft is based on an uncooled micro-bolometer array which can obtain thermal images of a target asteroid. The TIR is the bolometric imager with a broadband filter in the thermal infrared range (8 to 12 micrometers). It covers a temperature range of about 150 to 460 K, and has a field of view about 16.7 x 12.7 degrees, with 0.051 degrees per pixel (328 x 248 pixels). TIR is a modified version of the Longwave Infrared Imager (LIR) of Akatsuki, also known as Venus Climate Orbiter and PLANET-C. The primary objectives of the TIR are to investigate the thermophysical properties of the surface of asteroids, such as porosity, grain size, and boulder abundance. A brightness temperature map of the asteroid is derived from the TIR data for each time, and the brightness temperature map at each time and its forecast is obtained with the ground calibration data. Multiple observations also estimate surface roughness at each site.</description>

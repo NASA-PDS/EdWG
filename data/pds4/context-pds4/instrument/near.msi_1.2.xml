@@ -71,10 +71,14 @@
   <Instrument>
     <name>The Multi-Spectral Imager (MSI) for the NEAR Shoemaker</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Imager</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Camera</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <naif_instrument_id>-93001</naif_instrument_id>
     <description>The NEAR multispectral imaging system (MSI) was based on a 537x244 pixel CCD camera with eight filters covering the spectral range from 0.4 to 1.1 microns.  It was designed to take images with the scientific objectives of mapping asteroid morphology and surface composition, and determining the overall size, shape, and spin characteristics.</description>

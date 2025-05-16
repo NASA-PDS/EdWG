@@ -34,10 +34,14 @@
   <Instrument>
     <name>Intermediate Dispersion Spectrograph (IDS)</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Camera</ctli:type>
-        <ctli:type>Spectrometer</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Camera</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Spectrometer</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>Intermediate Dispersion Spectrograph (IDS) of the 2.5m Isaac Newton Telescope is a long-slit spectrograph. Two 4096x2048 CCD detectors are available, the red-sensitive RED+2 and blue-sensitive EEV10. 16 gratings are also available. Possible grating and CCD combinations  allow dispersions between 0.24 and 4 √Ö per pixel. The spatial scale is 0.4 and 0.44 arcsec per pixel for EEV10 and RED+2 detector, respectively. The full unvignetted slit length is 3.3 arcmin.</description>
   </Instrument>

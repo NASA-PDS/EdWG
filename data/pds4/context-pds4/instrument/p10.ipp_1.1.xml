@@ -61,11 +61,17 @@
   <Instrument>
     <name>Imaging Photopolarimeter for P10</name>
     <Type_List_Area>
-      <ctli:Type_List>
-        <ctli:type>Imager</ctli:type>
-        <ctli:type>Photometer</ctli:type>
-        <ctli:type>Polarimeter</ctli:type>
-      </ctli:Type_List>
+      <ctli:Type_List_Set>
+        <ctli:Type_List>
+          <ctli:type>Imager</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Photometer</ctli:type>
+        </ctli:Type_List>
+        <ctli:Type_List>
+          <ctli:type>Polarimeter</ctli:type>
+        </ctli:Type_List>
+      </ctli:Type_List_Set>
     </Type_List_Area>
     <description>         The Imaging Photopolarimeter (IPP) for Pioneer 10 operated in 3 modes, with their          main difference being in their sensitivity and instantaneous field of view.                  The most sensitive mode was not used at encounter. It was used during the          mission's interplanetary phase to measure the integrated starlight from the Galaxy,         the Zodiacal Light, and Gegenschein (also called counterglow).                  The photometric and polarimetric modes obtained data on Jupiter over a wide range          of phase angles and distances. These data provided new knowledge about the size,          shape, and refractive index of cloud particles, as well as the gas abundance          above the clouds.                   The photometric mode also produced data that were digitally processed into images          of Jupiter. The spin of the spacecraft swept a small telescope across the planet          in narrow 0.03 degree wide strips, viewing the planet in red and blue light.         A visual image of the planet was built up through the processing of these strips.           Adapted from FIMMELETAL chapter 4. See also Appendix 1.          </description>
   </Instrument>
