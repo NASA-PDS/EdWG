@@ -280,3 +280,6 @@ urn:nasa:pds:context:investigation:mission.pioneer,2024-12-31,urn:nasa:pds:conte
 urn:nasa:pds:context:instrument_host:spacecraft.p12,2024-12-31,urn:nasa:pds:context:instrument_host:spacecraft.pvo
 urn:nasa:pds:context:instrument:orad.p12,2024-12-31,urn:nasa:pds:context:instrument:pvo.orad
 urn:nasa:pds:context:instrument:rss.p12,2024-12-31,urn:nasa:pds:context:instrument:pvmp.lp.las
+urn:nasa:pds:context:facility:observatory.valle_d'aosta,2025-05-16,urn:nasa:pds:context:facility:observatory.valle_d_aosta
+urn:nasa:pds:context:telescope:valle_d'aosta.oavda,2025-05-16,urn:nasa:pds:context:telescope:valle_d_aosta.oavda
+urn:nasa:pds:context:instrument:valle_d'aosta.oavda.pl3041,2025-05-16,urn:nasa:pds:context:instrument:valle_d_aosta.oavda.pl3041
