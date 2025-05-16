@@ -23,7 +23,7 @@
       <Modification_Detail>
         <modification_date>2025-01-02</modification_date>
         <version_id>1.1</version_id>
-        <description>Updated schema version. Adding missing "investigation" references.</description>
+        <description>Updated schema version. Adding missing "investigation" references. Update instrument type/subtype to use valid CTLI LDD.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2018-07-12</modification_date>

@@ -31,7 +31,7 @@
                     Changed LIDs from urn:nasa:pds: to urn:esa:psa:
                     And per "Guide toPDS4 Context Products" v1.7,
                     changed all lidvid_reference to lid_reference
-                </description>
+                 Update instrument type/subtype to use valid CTLI LDD.</description>
       </Modification_Detail>
       <Modification_Detail>
         <modification_date>2024-10-07</modification_date>
