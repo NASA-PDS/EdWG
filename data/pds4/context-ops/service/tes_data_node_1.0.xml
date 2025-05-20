@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service xmlns="http://pds.nasa.gov/pds4/pds/v1" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
+
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:service:tes_data_node</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>MGS TES Data Node</title>
+    <information_model_version>1.23.0.0</information_model_version>
+    <product_class>Product_Service</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-05-09</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Service>
+    <name>MGS TES Data Node</name>
+    <abstract_desc>The Mars Global Surveyor (MGS) Thermal Emission Spectrometer (TES) Data Node, a satellite to the 
+      PDS Geosciences Node, provides tools for accessing, analyzing, and visualizing all data available in the TES Data 
+      Archive.</abstract_desc>
+    <url>http://tes.asu.edu/researchers/index.html</url>
+    <service_type>Service</service_type>
+    <interface_type>GUI</interface_type>
+    <interface_type>Command-Line</interface_type>
+    <category>Analysis</category>
+    <category>Dissemination</category>
+    <category>Reader</category>
+    <category>Search</category>
+    <category>Visualization</category>
+  </Service>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:node:node.geoscience</lid_reference>
+      <reference_type>service_to_node</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:investigation:mission.mars_global_surveyor</lid_reference>
+      <reference_type>service_to_investigation</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mgs</lid_reference>
+      <reference_type>service_to_instrument_host</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:instrument:mgs.tes</lid_reference>
+      <reference_type>service_to_instrument</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+      <reference_type>service_to_target</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+</Product_Service>
