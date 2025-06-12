@@ -1,0 +1,1 @@
+A Cassini spare 1024 square CCD camera.

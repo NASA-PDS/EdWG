@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Service xmlns="http://pds.nasa.gov/pds4/pds/v1" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1N00.xsd">
+
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:context:service:pds_jupyter_notebook</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>PDS Image-Viewing Jupyter Notebook</title>
+    <information_model_version>1.23.0.0</information_model_version>
+    <product_class>Product_Service</product_class>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2025-05-09</modification_date>
+        <version_id>1.0</version_id>
+        <description>Initial version.</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Service>
+    <name>PDS Image-Viewing Jupyter Notebook</name>
+    <abstract_desc>The PDS Image-Viewing Jupyter Notebook is an example Jupyter Notebook to provide users with an option for 
+      viewing a browse representation of a PDS3 or PDS4 image and saving it as a PNG file using Python code.</abstract_desc>
+    <url>https://pds-geosciences.wustl.edu/tools/pds_image_jupyternb.html</url>
+    <service_type>Tool</service_type>
+    <interface_type>Service</interface_type>
+    <category>Reader</category>
+    <category>Visualization</category>
+    <category>Transformation</category>
+    <software_language>Python</software_language>
+    <system_requirements_note>
+      Conda (Miniconda or Anaconda)
+      Python 3.9 or greater (optionally installed during Conda installation)
+      JupyterLab (library is installed through the notebook's environment setup script)
+      Web browser
+    </system_requirements_note>
+  </Service>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:context:node:node.geoscience</lid_reference>
+      <reference_type>service_to_node</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+</Product_Service>

@@ -1,0 +1,3 @@
+
+            NASA's twin rovers, Spirit and Opportunity, landed on Mars on Jan. 3 and Jan. 24, 2004 PST (Jan. 4 and Jan. 25 UTC), respectively. The rovers were planned as 90-day missions to search for geological clues regarding environmental conditions on early Mars, and assess whether those environments were conducive to life. Spirit lasted 20 times longer than its original design, concluding its mission on March 22, 2010. Opportunity worked for nearly 15 years on Mars and broke the driving record for putting the most miles on its odometer, ending its mission on Feb. 13, 2019.
+        
