@@ -1,0 +1,1 @@
+This is a 70 cm AZT-8 reflecting telescope.

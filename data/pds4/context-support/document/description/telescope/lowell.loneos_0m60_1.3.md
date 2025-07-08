@@ -1,0 +1,1 @@
+0.6m Schmidt telescope with f/1.8 located on Anderson Mesa, Arizona

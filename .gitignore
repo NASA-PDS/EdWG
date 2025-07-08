@@ -36,8 +36,12 @@
 /bin/
 .*.swp
 *.sublime-*
+*\#*#
+*.DS_Store
 
 # Java stuff
 *.javac
 .gwt/
-target/
+
+# MS Products
+~$*
