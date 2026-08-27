@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Resource xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:resource:rms_pds4_collection_product_tool</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>RMS PDS4 Collection Product Tool</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Resource</product_class>
+    </Identification_Area>
+    <Archive_Resource>
+        <name>RMS PDS4 Collection Product Tool</name>
+        <version_id>1.0</version_id>
+        <url>https://pypi.org/project/rms-pds4indextools/</url>
+        <resource_type>Software and Tools</resource_type>
+        <resource_subtype>Authoring Tool</resource_subtype>
+        <resource_subtype>Command Line Utility</resource_subtype>
+        <interface_type>CLI Interface</interface_type>
+        <description>pds4_create_collection_product is a command-line program to create a collection product from a collection of PDS4 XML labels. Collection products are a required part of PDS4 collections and are created by data providers.</description>
+        <pds4_wide_applicability>false</pds4_wide_applicability>
+    </Archive_Resource>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:node:rms</lid_reference>
+            <reference_type>service_to_node</reference_type>
+        </Internal_Reference>
+
+    </Reference_List>
+</Product_Resource>

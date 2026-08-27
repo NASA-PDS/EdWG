@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Resource xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:resource:vicar_rms_variant</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>VICAR (RMS Variant)</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Resource</product_class>
+    </Identification_Area>
+    <Archive_Resource>
+        <name>VICAR (RMS Variant)</name>
+        <version_id>1.0</version_id>
+        <url>https://pypi.org/project/rms-vicar</url>
+        <resource_type>Library</resource_type>
+        <resource_subtype>Scientific Analysis Tool</resource_subtype>
+        <resource_subtype>Transformation Tool</resource_subtype>
+        <interface_type>CLI Interface</interface_type>
+        <description>vicar is a Python module that supports reading and writing of JPL's VICAR file format. It supports the definition of the VICAR file format as found here: https://pds-rings.seti.org/help/VICAR_file_fmt.pdf</description>
+        <pds4_wide_applicability>false</pds4_wide_applicability>
+    </Archive_Resource>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:node:rms</lid_reference>
+            <reference_type>service_to_node</reference_type>
+        </Internal_Reference>
+
+    </Reference_List>
+</Product_Resource>

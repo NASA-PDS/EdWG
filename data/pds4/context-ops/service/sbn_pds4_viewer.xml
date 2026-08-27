@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Resource xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:resource:pds4_viewer</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>PDS4 Viewer</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Resource</product_class>
+    </Identification_Area>
+    <Archive_Resource>
+        <name>PDS4 Viewer</name>
+        <version_id>1.0</version_id>
+        <url>https://pdssbn.astro.umd.edu/tools/pds4_tools_info/pds4_viewer.html</url>
+        <resource_type>Software and Tools</resource_type>
+        <resource_subtype>Desktop Application</resource_subtype>
+        <resource_subtype>Visualization Tool</resource_subtype>
+        <interface_type>GUI Interface</interface_type>
+        <description>PDS4 Viewer is a standalone application for visualizing and browsing data archived in the PDS4 format.</description>
+        <pds4_wide_applicability>false</pds4_wide_applicability>
+    </Archive_Resource>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:node:sbn</lid_reference>
+            <reference_type>service_to_node</reference_type>
+        </Internal_Reference>
+
+    </Reference_List>
+</Product_Resource>

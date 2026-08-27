@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Resource xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:resource:integrated_software_for_imagers_and_spectrometers_isis</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Integrated Software for Imagers and Spectrometers (ISIS)</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Resource</product_class>
+    </Identification_Area>
+    <Archive_Resource>
+        <name>Integrated Software for Imagers and Spectrometers (ISIS)</name>
+        <version_id>1.0</version_id>
+        <url>https://isis.astrogeology.usgs.gov/</url>
+        <resource_type>Software and Tools</resource_type>
+        <resource_subtype>Command Line Utility</resource_subtype>
+        <resource_subtype>Scientific Analysis Tool</resource_subtype>
+        <resource_subtype>Transformation Tool</resource_subtype>
+        <interface_type>CLI Interface</interface_type>
+        <description>Integrated Software for Imagers and Spectrometers (ISIS) is open source software developed by the USGS Astrogeology Science Center for processing planetary image data. It converts raw archival data into analysis ready products and can place diverse image types into correct cartographic locations on planetary surfaces for creating maps, elevation models, and other scientific products.</description>
+        <pds4_wide_applicability>false</pds4_wide_applicability>
+    </Archive_Resource>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:node:img</lid_reference>
+            <reference_type>service_to_node</reference_type>
+        </Internal_Reference>
+
+    </Reference_List>
+</Product_Resource>

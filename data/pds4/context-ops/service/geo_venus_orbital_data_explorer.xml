@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Resource xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:resource:venus_orbital_data_explorer</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Venus Orbital Data Explorer</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Resource</product_class>
+    </Identification_Area>
+    <Archive_Resource>
+        <name>Venus Orbital Data Explorer</name>
+        <version_id>1.0</version_id>
+        <url>https://ode.rsl.wustl.edu/venus</url>
+        <resource_type>Service</resource_type>
+        <resource_subtype>Scientific Analysis Tool</resource_subtype>
+        <resource_subtype>Search Tool</resource_subtype>
+        <resource_subtype>Visualization Tool</resource_subtype>
+        <resource_subtype>Web Application</resource_subtype>
+        <interface_type>GUI Interface</interface_type>
+        <description>The Venus Orbital Data Explorer (ODE) is a web-based tool that provides cross-mission and cross-instrument faceted product search, interactive map search, display, and download options for PDS data from major Venus orbital missions. It offers access to data from the Magellan mission, Venus observations from the MESSENGER mission, and ESA's Venus Express mission. ODE includes a REST API for querying the ODE database from scripts, code, and other tools.</description>
+        <pds4_wide_applicability>false</pds4_wide_applicability>
+    </Archive_Resource>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:node:geo</lid_reference>
+            <reference_type>service_to_node</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:planet.venus</lid_reference>
+            <reference_type>service_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:mission.magellan</lid_reference>
+            <reference_type>service_to_investigation</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mgn</lid_reference>
+            <reference_type>service_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:mission.messenger</lid_reference>
+            <reference_type>service_to_investigation</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.mess</lid_reference>
+            <reference_type>service_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:esa:psa:context:investigation:mission.venus_express</lid_reference>
+            <reference_type>service_to_investigation</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.vex</lid_reference>
+            <reference_type>service_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mgn.rdrs</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mgn.rss</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:grs.mess</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mascs.mess</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mdis-nac.mess</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mdis-wac.mess</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mla.mess</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:ns.mess</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:rss.mess</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:xrs.mess</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:esa:psa:context:instrument:vex.mag</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:esa:psa:context:instrument:vex.virtis</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+    </Reference_List>
+</Product_Resource>

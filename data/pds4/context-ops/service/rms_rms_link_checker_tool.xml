@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Resource xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:resource:rms_link_checker_tool</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>RMS Link Checker Tool</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Resource</product_class>
+    </Identification_Area>
+    <Archive_Resource>
+        <name>RMS Link Checker Tool</name>
+        <version_id>1.0</version_id>
+        <url>https://pypi.org/project/rms-link-checker</url>
+        <resource_type>Software and Tools</resource_type>
+        <resource_subtype>Command Line Utility</resource_subtype>
+        <resource_subtype>Validation Tool</resource_subtype>
+        <interface_type>CLI Interface</interface_type>
+        <description>rms-link-checker is a Python command-line application that crawls a website starting from a given root URL, checks all discovered links for validity, detects misplaced asset files, and produces a plain-text report summarizing the results.</description>
+        <pds4_wide_applicability>false</pds4_wide_applicability>
+    </Archive_Resource>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:node:rms</lid_reference>
+            <reference_type>service_to_node</reference_type>
+        </Internal_Reference>
+
+    </Reference_List>
+</Product_Resource>

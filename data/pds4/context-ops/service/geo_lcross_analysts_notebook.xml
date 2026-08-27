@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Resource xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:resource:lcross_analysts_notebook</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>LCROSS Analyst's Notebook</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Resource</product_class>
+    </Identification_Area>
+    <Archive_Resource>
+        <name>LCROSS Analyst's Notebook</name>
+        <version_id>1.0</version_id>
+        <url>https://an.rsl.wustl.edu</url>
+        <resource_type>Service</resource_type>
+        <resource_subtype>Scientific Analysis Tool</resource_subtype>
+        <resource_subtype>Search Tool</resource_subtype>
+        <resource_subtype>Visualization Tool</resource_subtype>
+        <resource_subtype>Web Application</resource_subtype>
+        <interface_type>GUI Interface</interface_type>
+        <description>The LCROSS Analyst’s Notebook is a web-based tool for accessing and exploring science and engineering data from NASA’s LCROSS mission. It integrates publicly available data from instrument teams with sequence information, documentation, and contextual materials describing observational context, processing methodology, and data formats. The Notebook supports detailed review and mission replay and provides access to data curated by the Planetary Data System, though it is not itself the official archive.</description>
+        <pds4_wide_applicability>false</pds4_wide_applicability>
+    </Archive_Resource>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:node:geo</lid_reference>
+            <reference_type>service_to_node</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:target:satellite.earth.moon</lid_reference>
+            <reference_type>service_to_target</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:mission.lunar_crater_observation_and_sensing_satellite</lid_reference>
+            <reference_type>service_to_investigation</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.lcross</lid_reference>
+            <reference_type>service_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mir1.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:mir2.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:nir1.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:nir2.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:nsp1.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:nsp2.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:tlp.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:vis.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:instrument:vsp.lcross</lid_reference>
+            <reference_type>service_to_instrument</reference_type>
+        </Internal_Reference>
+    </Reference_List>
+</Product_Resource>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Resource xmlns="http://pds.nasa.gov/pds4/pds/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1Q00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context:resource:image_atlas_beta</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Image Atlas (beta)</title>
+        <information_model_version>1.26.0.0</information_model_version>
+        <product_class>Product_Resource</product_class>
+    </Identification_Area>
+    <Archive_Resource>
+        <name>Image Atlas (beta)</name>
+        <version_id>1.0</version_id>
+        <url>https://pds-imaging.jpl.nasa.gov/beta</url>
+        <resource_type>Service</resource_type>
+        <resource_type>Software and Tools</resource_type>
+        <resource_subtype>Search Tool</resource_subtype>
+        <resource_subtype>Visualization Tool</resource_subtype>
+        <resource_subtype>Web Application</resource_subtype>
+        <interface_type>GUI Interface</interface_type>
+        <interface_type>File Transfer</interface_type>
+        <description>Image Atlas (Beta) is the updated web interface for searching, filtering, previewing, and downloading planetary image data from the PDS Imaging Node.</description>
+        <pds4_wide_applicability>false</pds4_wide_applicability>
+    </Archive_Resource>
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:node:img</lid_reference>
+            <reference_type>service_to_node</reference_type>
+        </Internal_Reference>
+
+    </Reference_List>
+</Product_Resource>
