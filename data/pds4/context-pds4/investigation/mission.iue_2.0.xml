@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Context xmlns="http://pds.nasa.gov/pds4/pds/v1"
+ xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:esa:psa:context:investigation:mission.iue</logical_identifier>
+        <version_id>2.0</version_id>
+        <title>International Ultraviolet Explorer</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Context</product_class>
+        <Alias_List>
+            <Alias>
+                <alternate_id>IUE</alternate_id>
+            </Alias>
+        </Alias_List>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-08-19</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Creation
+                </description>
+            </Modification_Detail>
+            <Modification_Detail>
+                <modification_date>2021-02-25</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Changed LIDs from urn:nasa:pds: to urn:esa:psa:
+                    And per "Guide toPDS4 Context Products" v1.7,
+                    changed all lidvid_reference to lid_reference
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+
+    <Reference_List>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:agency:agency.nasa</lid_reference>
+            <reference_type>context_to_associate</reference_type>
+            <comment>investigation_to_agency</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:agency:agency.esa</lid_reference>
+            <reference_type>context_to_associate</reference_type>
+            <comment>investigation_to_agency</comment>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:esa:psa:context:instrument_host:spacecraft.iue</lid_reference>
+            <reference_type>investigation_to_instrument_host</reference_type>
+        </Internal_Reference>
+        <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context_support:document:iue_description</lid_reference>
+            <reference_type>investigation_to_document</reference_type>
+        </Internal_Reference>
+        <External_Reference>
+            <reference_text>
+                The Science and Engineering Research Council of the United Kingdom
+            </reference_text>
+            <description>
+                This agency was the third collaborator, with NASA and ESA, in the 
+                developement and operation of the IUE spacecraft and mission.
+            </description>
+        </External_Reference>
+        <External_Reference>
+            <doi>10.1038/275377a0</doi>
+            <reference_text>
+                   Boggess, A., Bohlin, R.C., Evans, D.C., Freeman, H.R., Gull, T.R., Heap,
+                   S.R., Klinglesmith, D.A., Longanecker, G.R., Sparks, W., West, D.K., Holm,
+                   A.V., Perry, P.M., Schiffer III, F.H., Turnrose, B.E., Wu, C.C., Lane,
+                   A.L., Linsky, J.L., Savage, B.D., Benvenuti, P., Cassatella, A.,Clavel,
+                   J., Heck, A., Macchetto,F., Penston, M.V., Selvelli, C.I., Dunford, E.,
+                   Gondhaleker, P., Oliver, M.B., Sandford, M.C.W., Stickland, D.,
+                   Boksenberg, A., Coleman, C.I., Snijders, M.A.J., Wilson, R., In-Flight
+                   Performance of the IUE, Nature, 275, 377, 1978.
+            </reference_text>
+        </External_Reference>
+    </Reference_List>
+
+    <Investigation>
+        <name>International Ultraviolet Explorer</name>
+        <type>Mission</type>
+        <start_date>1978-01-26</start_date>
+        <stop_date>1996-09-30</stop_date>
+
+        <description>
+            The IUE mission observed all types of astronomical objects, 
+            from comets to quasars, in UV wavelengths (1200-3350 Andstromgs).
+            It operated continuously in a geosynchronous orbit over the 
+            period January 1978 to September 1996.
+        </description>
+    </Investigation>
+</Product_Context>
