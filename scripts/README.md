@@ -5,9 +5,9 @@ a standalone command-line tool; this page documents how to run each one.
 
 | Script | Purpose |
 | ------ | ------- |
-| [`enToolsTracker.py`](#entoolstrackerpy) | Generate PDS4 `Product_Resource` labels for PDS tools and services from a spreadsheet |
+| [`en_tools_tracker.py`](#en_tools_trackerpy) | Generate PDS4 `Product_Resource` labels for PDS tools and services from a spreadsheet |
 
-## enToolsTracker.py
+## en_tools_tracker.py
 
 Reads a spreadsheet describing PDS tools and services and writes one PDS4
 `Product_Resource` label per row. Each label has the logical identifier
@@ -72,7 +72,7 @@ references with reference type `service_to_node`:
 | `RMS` | `urn:nasa:pds:context:node:node.rings` |
 | `SBN` | `urn:nasa:pds:context:node:node.sbn` |
 
-To support another node, add it to `NODE_LIDS` in `enToolsTracker.py`.
+To support another node, add it to `NODE_LIDS` in `en_tools_tracker.py`.
 
 #### References
 
@@ -92,14 +92,14 @@ Run from the root of the repository.
 
 ```bash
 INPUT_FILE="<path-to-tools.tsv>"
-python3 scripts/enToolsTracker.py "${INPUT_FILE}"
+python3 scripts/en_tools_tracker.py "${INPUT_FILE}"
 ```
 
 From a Google Sheet. Quote the URL so the shell does not interpret `&` or `#`:
 
 ```bash
 SHEET_URL="<google-sheet-url>"
-python3 scripts/enToolsTracker.py "${SHEET_URL}"
+python3 scripts/en_tools_tracker.py "${SHEET_URL}"
 ```
 
 To choose the output directory and schema:
@@ -108,17 +108,17 @@ To choose the output directory and schema:
 INPUT_FILE="<path-to-tools.tsv>"
 OUTPUT_DIR="<output-directory>"
 SCHEMA_FILE="<path-to-PDS4_PDS_1R00.xsd>"
-python3 scripts/enToolsTracker.py "${INPUT_FILE}" -o "${OUTPUT_DIR}" -x "${SCHEMA_FILE}"
+python3 scripts/en_tools_tracker.py "${INPUT_FILE}" -o "${OUTPUT_DIR}" -x "${SCHEMA_FILE}"
 ```
 
 ### Options
 
 | Option | Default | Description |
 | ------ | ------- | ----------- |
-| `inputFile` | | Local CSV/TSV file or Google Sheets URL (required). |
-| `-o`, `--output_dir` | `toolsResources` | Directory for the generated labels. It is created if it does not exist. |
-| `--pdsVersion` | `1R00` | PDS4 information model version in the `1R00` form. Sets the schema and schematron file names and the `information_model_version` (`1R00` is `1.27.0.0`). |
-| `-x`, `--schema` | | Path to a PDS4 schema `.xsd`. Its file name replaces `PDS4_PDS_<pdsVersion>` in the schema references and its `version` attribute becomes the `information_model_version`. |
+| `input_file` | | Local CSV/TSV file or Google Sheets URL (required). |
+| `-o`, `--output-dir` | `toolsResources` | Directory for the generated labels. It is created if it does not exist. |
+| `--pds-version` | `1R00` | PDS4 information model version in the `1R00` form. Sets the schema and schematron file names and the `information_model_version` (`1R00` is `1.27.0.0`). |
+| `-x`, `--schema` | | Path to a PDS4 schema `.xsd`. Its file name replaces `PDS4_PDS_<pds-version>` in the schema references and its `version` attribute becomes the `information_model_version`. |
 
 ### Updating existing labels
 
@@ -146,7 +146,7 @@ the run.
 | ------ | ------- |
 | `0` | Every row was processed (created, updated, unchanged, or declined). |
 | `1` | One or more rows were skipped because of errors. |
-| `2` | The run could not start or continue (unreadable input, missing column headers, invalid `--pdsVersion` or `--schema`, unreadable output directory, or a changed label that needs a decision when no terminal input is available). |
+| `2` | The run could not start or continue (unreadable input, missing column headers, invalid `--pds-version` or `--schema`, unreadable output directory, or a changed label that needs a decision when no terminal input is available). |
 
 ### Testing
 
@@ -180,7 +180,7 @@ directory and validate them:
 INPUT_FILE="<path-to-register.csv>"
 SCRATCH_DIR="$(mktemp -d)"
 SCHEMA_FILE="<path-to-PDS4_PDS_1R00.xsd>"
-python3 scripts/enToolsTracker.py "${INPUT_FILE}" -o "${SCRATCH_DIR}"
+python3 scripts/en_tools_tracker.py "${INPUT_FILE}" -o "${SCRATCH_DIR}"
 for label in "${SCRATCH_DIR}"/*.xml; do
     xmllint --noout --schema "${SCHEMA_FILE}" "${label}" || echo "INVALID: ${label}"
 done

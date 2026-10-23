@@ -1,4 +1,4 @@
-"""Tests for enToolsTracker.py.
+"""Tests for en_tools_tracker.py.
 
 Run from the repository root:
 
@@ -27,7 +27,7 @@ from unittest import mock
 TESTS_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(TESTS_DIR.parent))
 
-import enToolsTracker as ett  # noqa: E402
+import en_tools_tracker as ett  # noqa: E402
 
 SAMPLE_REGISTER = TESTS_DIR / "data" / "sample_register.csv"
 EXPECTED_DIR = TESTS_DIR / "data" / "expected"
@@ -534,7 +534,7 @@ class SchemaOptionTests(WorkDirTestCase):
         self.assertIn("<information_model_version>1.28.0.0</information_model_version>", text)
 
     def test_pds_version_option(self):
-        self.run_tool(self.write_sheet(make_row()), "--pdsVersion", "1P00")
+        self.run_tool(self.write_sheet(make_row()), "--pds-version", "1P00")
         text = (self.out / "rms_example_tool_v1.0.xml").read_text(encoding="utf-8")
         self.assertIn("PDS4_PDS_1P00.xsd", text)
         self.assertIn("<information_model_version>1.25.0.0</information_model_version>", text)
@@ -544,6 +544,35 @@ class SchemaOptionTests(WorkDirTestCase):
         xsd.write_text('<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"/>')
         with self.assertRaises(ett.SchemaError):
             ett.parse_schema_info(xsd)
+
+
+class ParseArgsTests(unittest.TestCase):
+    def test_defaults(self):
+        args = ett.parse_args(["register.csv"])
+        self.assertEqual(args.input_file, "register.csv")
+        self.assertEqual(args.output_dir, ett.DEFAULT_OUTPUT_DIR)
+        self.assertEqual(args.pds_version, ett.DEFAULT_PDS_VERSION)
+        self.assertIsNone(args.schema)
+
+    def test_long_options(self):
+        args = ett.parse_args(
+            ["register.csv", "--output-dir", "labels", "--pds-version", "1P00",
+             "--schema", "PDS4_PDS_1P00.xsd"]
+        )
+        self.assertEqual(args.output_dir, Path("labels"))
+        self.assertEqual(args.pds_version, "1P00")
+        self.assertEqual(args.schema, Path("PDS4_PDS_1P00.xsd"))
+
+    def test_short_options(self):
+        args = ett.parse_args(["register.csv", "-o", "labels", "-x", "schema.xsd"])
+        self.assertEqual(args.output_dir, Path("labels"))
+        self.assertEqual(args.schema, Path("schema.xsd"))
+
+    def test_camel_case_and_snake_case_options_are_rejected(self):
+        for flag in ("--pdsVersion", "--output_dir"):
+            with self.subTest(flag), contextlib.redirect_stderr(io.StringIO()):
+                with self.assertRaises(SystemExit):
+                    ett.parse_args(["register.csv", flag, "x"])
 
 
 class MainTests(WorkDirTestCase):

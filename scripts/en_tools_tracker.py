@@ -89,7 +89,7 @@ CONTEXT_LID_PATTERN = re.compile(
 BUNDLE_LID_PATTERN = re.compile(r"urn:[^:\s]+:[^:\s]+:[^:\s]+(?:::\S+)?")
 GOOGLE_SHEET_ID_PATTERN = re.compile(r"/spreadsheets/d/([A-Za-z0-9_-]+)")
 
-logger = logging.getLogger("enToolsTracker")
+logger = logging.getLogger("en_tools_tracker")
 
 
 class ToolsTrackerError(Exception):
@@ -250,7 +250,7 @@ def derive_information_model_version(pds_version: str) -> str:
     match = PDS_VERSION_PATTERN.fullmatch(pds_version)
     if not match:
         raise SchemaError(
-            f"Invalid pdsVersion '{pds_version}': expected a digit, a digit or "
+            f"Invalid --pds-version '{pds_version}': expected a digit, a digit or "
             "capital letter, and two digits (e.g. 1R00)."
         )
     major, minor, patch, build = match.groups()
@@ -275,7 +275,7 @@ def parse_schema_info(schema_path: Path) -> tuple[str, str]:
 
 
 def resolve_schema(pds_version: str, schema_path: Path | None) -> SchemaSettings:
-    """Combine ``--pdsVersion`` and ``--schema`` into the settings to use."""
+    """Combine ``--pds-version`` and ``--schema`` into the settings to use."""
     pds_version = pds_version.upper()
     name = f"PDS4_PDS_{pds_version}"
     model_version = derive_information_model_version(pds_version)
@@ -684,13 +684,12 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "inputFile",
-        metavar="inputFile",
+        "input_file",
         help="Path to a local CSV/TSV file or a Google Sheets URL.",
     )
     parser.add_argument(
         "-o",
-        "--output_dir",
+        "--output-dir",
         type=Path,
         default=DEFAULT_OUTPUT_DIR,
         help="Output directory for XML files (default: %(default)s)",
@@ -702,8 +701,7 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         help="Path to the schema XSD file (e.g. PDS4_PDS_1R00.xsd)",
     )
     parser.add_argument(
-        "--pdsVersion",
-        dest="pds_version",
+        "--pds-version",
         default=DEFAULT_PDS_VERSION,
         help="PDS version string (default: %(default)s)",
     )
@@ -713,7 +711,7 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
 def run(args: argparse.Namespace) -> int:
     """Generate the labels. Returns the process exit status."""
     schema = resolve_schema(args.pds_version, args.schema)
-    rows = load_rows(args.inputFile)
+    rows = load_rows(args.input_file)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     existing = load_existing(args.output_dir)
