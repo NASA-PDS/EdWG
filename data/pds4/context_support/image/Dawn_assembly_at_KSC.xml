@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Document xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_support:image:dawn_assembly_at_ksc</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Dawn Spacecraft Assembly at Kennedy Space Center</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Document</product_class>
+        <Citation_Information>
+            <publication_year>2007</publication_year>
+            <description>
+                The Dawn spacecraft is seen here in clean room C of Astrotech's Payload 
+                Processing Facility. In the clean room, the spacecraft will undergo further 
+                processing. Dawn's mission is to explore two of the asteroid belt's most 
+                intriguing and dissimilar occupants: asteroid Vesta and the dwarf planet Ceres.
+            </description>
+            <List_Author>
+                <Person>
+                    <given_name>George</given_name>
+                    <family_name>Shelton</family_name>
+                    <Affiliation>
+                        <organization_name>NASA</organization_name>
+                    </Affiliation>
+                </Person>
+            </List_Author>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-08-01</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Image and description downloaded from Wikimedia Commons.
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Document>
+        <publication_date>2007-04-11</publication_date>
+        <Document_Edition>
+            <edition_name>Image</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <Document_File>
+                <file_name>Dawn_assembly_at_KSC.jpg</file_name>
+                <document_standard_id>JPEG</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+    </Document>
+</Product_Document>

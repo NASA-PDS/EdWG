@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Document xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_support:document:hayabusa_description</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Hayabusa Description</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Document</product_class>
+        
+        <Citation_Information>
+            <publication_year>2024</publication_year>
+            <description>
+                This document provides an overview of the Hayabusa mission and its
+                instruments.
+            </description>
+            <List_Author>
+                <Person>
+                    <given_name>Donald</given_name>
+                    <family_name>Yeomans</family_name>
+                </Person>
+                <Person>
+                    <given_name>[unknown]</given_name>
+                    <family_name>Semenov</family_name>
+                </Person>
+            </List_Author>
+            <List_Editor>
+                <Person>
+                    <given_name>Anne</given_name>
+                    <family_name>Raugh</family_name>
+                    <person_orcid>https://orcid.org/0000-0002-8300-9443</person_orcid>
+                    <Affiliation>
+                        <organization_name>University of Maryland</organization_name>
+                    </Affiliation>
+                </Person>
+            </List_Editor>
+        </Citation_Information>
+        
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-08-09</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Created from the existing PDS3 mission catalog description "document".
+                    Updated verb tenses and formatted for modern display and easier reading.
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    
+    <Document>
+        <publication_date>2024-08-09</publication_date>
+        <Document_Edition>
+            <edition_name>Updated and Formatted</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <Document_File>
+                <file_name>hayabusa.docx</file_name>
+                <document_standard_id>Microsoft Word</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+    </Document>
+</Product_Document>
