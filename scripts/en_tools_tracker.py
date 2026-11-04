@@ -621,13 +621,18 @@ def update_existing(
     question = f"Replace old file '{current.path.name}' with '{new_path.name}'? [y/N]: "
     if not confirm(question):
         return None
+    retired_path = current.path.with_name(f"{current.path.name}.DELETED")
+    if retired_path.exists():
+        raise ExistingResourceError(
+            f"Cannot retire {current.path}: {retired_path} already exists"
+        )
+
     change = ask("Enter description of change [Updated resource details.]: ")
     history = [modification_detail(new_version, change or "Updated resource details.")]
     history.extend(previous_history(current.root))
 
     updated = build_resource(record, schema, new_version, history)
     write_new_label(new_path, render_label(updated, schema))
-    retired_path = current.path.with_name(f"{current.path.name}.DELETED")
     try:
         current.path.rename(retired_path)
     except OSError as err:
