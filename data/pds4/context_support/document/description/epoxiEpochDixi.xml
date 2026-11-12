@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Document xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1M00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:context_support:document:epoxi_description</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>EPOXI (Combined DIXI and EPOCh) Description</title>
+        <information_model_version>1.22.0.0</information_model_version>
+        <product_class>Product_Document</product_class>
+        <Citation_Information>
+            <publication_year>2024</publication_year>
+            <description>
+                This document, extracted from the DESCRIPTION text of the PDS3
+                mission catalog file and PDS4 version 1.0 mission context product,
+                provides an overview of the two Deep Impact spacecraft extended 
+                missions, known collectively as "EPOXI".
+            </description>
+            <List_Editor>
+                <Person>
+                    <given_name>Anne</given_name>
+                    <family_name>Raugh</family_name>
+                    <person_orcid>https://orcid.org/0000-0002-8300-9443</person_orcid>
+                </Person>
+            </List_Editor>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-08-04</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Creation from existing sources:
+                    
+                     o The original text was converted to a formatted MS Word document.
+                     o Typos were corrected.
+                     o PDS3 REFERENCE_KEY_ID values were removed.
+                     o Colliding citations were marked with 'a', 'b', etc., maintaining 
+                       PDS3-related sufffixes where they existed (PDS3 did not use the 
+                       'a' suffix, but it has been added here).
+                     o A bibliography was compiled based on citations in the text and 
+                       the references found in the PDS4 context object or PDS3 reference
+                       database.
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Document>
+        <publication_date>2024-08</publication_date>
+        <Document_Edition>
+            <edition_name>MSWord</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <Document_File>
+                <file_name>epoxiEpochDixi.docx</file_name>
+                <document_standard_id>Microsoft Word</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+    </Document>
+</Product_Document>

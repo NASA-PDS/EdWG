@@ -1,0 +1,67 @@
+Notes from context clean-up activities
+======================================
+
+Missing <reference_type> values
+-------------------------------
+
+Context: Product_Context/Reference_List/Internal_Reference
+    investigation_to_agency
+    investigation_to_investigation (for large observing campaigns with 
+        separately organized groups working independently, and for 
+        legacy extended missions that do not have multiple mission
+        names in the data or references). 
+
+Context: Product_*/Identification_Area/Licensing/Internal_Reference
+    ??? The DPH description and implementation here is seriously problematic. 
+         PDS should absolutely not be creating its own URI for licenses 
+         that have public, well-supported URIs, or implying that it will
+         somehow be independently versioning these licenses. It also
+         separates any license and CC0 from its legal definition. This 
+         DEFEATS usability. Also, CCO is NOT a license and the language 
+         in the DPH repeatedly describing it as such is just flat-out 
+         wrong.
+         
+         
+         
+Questions
+=========
+
+General
+-------
+  o What should we do about "To Do" lists in the investigation context 
+    objects? I'm finding these for legacy data that is not going to be
+    migrated any time soon, and resolving them ultimately requires 
+    working up and down the reference chain. Are we expected to do that
+    now? Later? If not now, what is the point of carrying comments in 
+    the context object as opposed to, say, an errata file or something 
+    that might be visible to a user interested in the investigation?
+    
+  o 256 characters seems ridiculously short for a "description" field. 
+    It's only one character longer than the "title" field. If the 
+    intention is to enforce it, then it needs to be schematically 
+    enforced or it will be ignored. I suggest it would be more useful
+    to describe how to write a description, and only display the 
+    first 80-256 characters unless a user requests to see more.
+    
+Telescopes
+----------
+    
+  o For portable telescopes, should there be a "facility" product
+    created to identify the owner of the portable telescope for 
+    inclusion in the investigation reference list?
+    
+Missions
+--------
+
+  o Should extended missions link to all precursor missions or only
+    the immediate precursor? Should there be a special <reference_type>
+    for this?
+    
+  o Should primary missions link to all extended missions, or only
+    the immediate successor mission? Should there be a special
+    <reference_type> for this?
+    
+  o When one mission is designed specifically to observe the 
+    aftermath of a completely separate mission, should these
+    mission context products reference each other? If so, should
+    there be a special <reference_type> for this case?
