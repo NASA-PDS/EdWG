@@ -20,11 +20,11 @@
         <version_id>1.0</version_id>
         <url>https://nasa-pds.github.io/mi-label/</url>
         <resource_type>Software and Tools</resource_type>
-        <resource_subtype>Authoring Tool</resource_subtype>
         <resource_subtype>Command Line Utility</resource_subtype>
+        <resource_subtype>Transformation Tool</resource_subtype>
         <interface_type>CLI Interface</interface_type>
         <pds4_wide_applicability_flag>false</pds4_wide_applicability_flag>
-        <description>A Java-based command-line tool used for generating PDS4 product labels from PDS3 product labels. Software for generating PDS4 labels from either a PDS3 label or PDS3-specific Document Object Model (DOM) object.</description>
+        <description>A Java-based command-line tool used for generating PDS4 product labels from PDS3 product label</description>
     </Archive_Resource>
     <Reference_List>
         <Internal_Reference>

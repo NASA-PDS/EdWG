@@ -20,13 +20,10 @@
         <version_id>1.0</version_id>
         <url>http://vespa.obspm.fr</url>
         <release_date>2016-09-01</release_date>
-        <resource_type>Software and Tools</resource_type>
+        <resource_type>Service</resource_type>
         <resource_subtype>Scientific Analysis Tool</resource_subtype>
-        <resource_subtype>Search Tool</resource_subtype>
         <resource_subtype>Visualization Tool</resource_subtype>
-        <resource_subtype>Command Line Utility</resource_subtype>
         <resource_subtype>Web Application</resource_subtype>
-        <interface_type>CLI Interface</interface_type>
         <pds4_wide_applicability_flag>false</pds4_wide_applicability_flag>
         <description>The VESPA portal connects data services responsive to the EPN-TAP protocol. EPN-TAP services describe all products individually, and cover many fields of Solar System(s) studies. The portal also queries PDAP services at dataset level. Associated web services and command-line mode are available. VESPA has been developed in the frame of the EU founded Europlanet programme, to adapt the astronomy Virtual Observatory (VO) to Planetary Science. Data selection can be passed to VO display and analysis tools via the SAMP protocol.</description>
     </Archive_Resource>

@@ -18,7 +18,7 @@
     <Archive_Resource>
         <name>Validate Tool</name>
         <version_id>1.0</version_id>
-        <url>https://nasa-pds-incubator.github.io/validate/</url>
+        <url>https://nasa-pds.github.io/validate/</url>
         <resource_type>Software and Tools</resource_type>
         <resource_subtype>Validation Tool</resource_subtype>
         <resource_subtype>Command Line Utility</resource_subtype>

@@ -20,8 +20,8 @@
         <version_id>1.0</version_id>
         <url>https://olaf.psi.edu</url>
         <resource_type>Service</resource_type>
-        <resource_subtype>Authoring Tool</resource_subtype>
         <resource_subtype>Web Application</resource_subtype>
+        <resource_subtype>Authoring Tool</resource_subtype>
         <interface_type>GUI Interface</interface_type>
         <pds4_wide_applicability_flag>false</pds4_wide_applicability_flag>
         <description>OLAF is a website that allows individuals to submit data to the Planetary Data System so that it can be archived and made available to the public. Submitted data are reviewed for quality and completeness and given a citation when accepted.</description>

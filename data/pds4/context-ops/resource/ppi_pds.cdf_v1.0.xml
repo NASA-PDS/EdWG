@@ -20,8 +20,8 @@
         <version_id>1.0</version_id>
         <url>http://release.igpp.ucla.edu/pds/cdf/</url>
         <resource_type>Library</resource_type>
-        <resource_type>Software and Tools</resource_type>
         <resource_subtype>Command Line Utility</resource_subtype>
+        <resource_subtype>Scientific Analysis Tool</resource_subtype>
         <interface_type>CLI Interface</interface_type>
         <pds4_wide_applicability_flag>false</pds4_wide_applicability_flag>
         <description>A Java class library for reading file stored in the Common Data Format (CDF) With the library you can access all the metadata in the CDF file. It is also designed to integrate into tools based on Apache Velocity.</description>

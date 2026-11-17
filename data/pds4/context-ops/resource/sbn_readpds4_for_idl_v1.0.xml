@@ -20,12 +20,10 @@
         <version_id>1.0</version_id>
         <url>http://pdssbn.astro.umd.edu/tools/tools_readPDS.shtml</url>
         <resource_type>Library</resource_type>
-        <resource_type>Software and Tools</resource_type>
-        <resource_subtype>Command Line Utility</resource_subtype>
-        <resource_subtype>Desktop Application</resource_subtype>
+        <resource_subtype>Scientific Analysis Tool</resource_subtype>
         <interface_type>CLI Interface</interface_type>
-        <pds4_wide_applicability_flag>true</pds4_wide_applicability_flag>
-        <description>IDL read-in tools for PDS4 data. IDL routines to read-in of PDS4 data. Supports the majority of PDS4 data structures, including Table_Character, Table_Binary, Table_Delimited and all forms of Array. Includes a visualization GUI if desired.</description>
+        <pds4_wide_applicability_flag>false</pds4_wide_applicability_flag>
+        <description>IDL read-in tools for PDS4 data. IDL routines to read in PDS4 data. Supports the majority of PDS4 data structures, including Table_Character, Table_Binary, Table_Delimited and all forms of Array. Includes a visualization GUI if desired.</description>
     </Archive_Resource>
     <Reference_List>
         <Internal_Reference>
