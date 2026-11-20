@@ -22,7 +22,7 @@
         <resource_type>Library</resource_type>
         <resource_subtype>Scientific Analysis Tool</resource_subtype>
         <interface_type>CLI Interface</interface_type>
-        <pds4_wide_applicability_flag>false</pds4_wide_applicability_flag>
+        <pds4_wide_applicability_flag>true</pds4_wide_applicability_flag>
         <description>Python read-in tools for PDS4 data. A Python API for read-in of PDS4 data. Supports the majority of PDS4 data structures, including Table_Character, Table_Binary, Table_Delimited and all forms of Array. Supports both Python 2 and 3. Includes a visualization GUI if desired.</description>
     </Archive_Resource>
     <Reference_List>
