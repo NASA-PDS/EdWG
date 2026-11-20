@@ -20,9 +20,7 @@
         <version_id>1.0</version_id>
         <url>https://sbnwiki.astro.umd.edu/wiki/Python_PDS4_Tools</url>
         <resource_type>Library</resource_type>
-        <resource_type>Software and Tools</resource_type>
-        <resource_subtype>Command Line Utility</resource_subtype>
-        <resource_subtype>Desktop Application</resource_subtype>
+        <resource_subtype>Scientific Analysis Tool</resource_subtype>
         <interface_type>CLI Interface</interface_type>
         <pds4_wide_applicability_flag>true</pds4_wide_applicability_flag>
         <description>Python read-in tools for PDS4 data. A Python API for read-in of PDS4 data. Supports the majority of PDS4 data structures, including Table_Character, Table_Binary, Table_Delimited and all forms of Array. Supports both Python 2 and 3. Includes a visualization GUI if desired.</description>

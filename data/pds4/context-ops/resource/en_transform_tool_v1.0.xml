@@ -18,7 +18,7 @@
     <Archive_Resource>
         <name>Transform Tool</name>
         <version_id>1.0</version_id>
-        <url>https://nasa-pds-incubator.github.io/transform/</url>
+        <url>https://nasa-pds.github.io/transform/</url>
         <resource_type>Software and Tools</resource_type>
         <resource_subtype>Transformation Tool</resource_subtype>
         <resource_subtype>Command Line Utility</resource_subtype>
